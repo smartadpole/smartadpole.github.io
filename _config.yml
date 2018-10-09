@@ -53,9 +53,9 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : # "person" (default), "organization"
   name      : smartadpole
-  url       :
-  avatar    : # path or url of avatar image
-  bio       : I am an amazing person.
+#  url       :
+#  avatar    : # path or url of avatar image
+#  bio       : I am an amazing person.
   email     : smartadpole@gmail.com
 #  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
 #  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -77,7 +77,7 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : "/archive.html" # title link url, "/" (default)
+  root    : # title link url, "/" (default)
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
@@ -123,7 +123,7 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
@@ -132,35 +132,35 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+    clientID    : 69ae13df693e3d1f8359 # GitHub Application Client ID
+    clientSecret: 342c2f2dc4185b83ae31f90d0d3bc1eff35d63df # GitHub Application Client Secret
+    repository  : https://smartadpole.github.io/ # GitHub repo
+    owner       : smartadpole # GitHub repo owner
+    admin:  # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      - smartadpole
 
 
 ## => Pageview
 ##############################
 pageview:
-  provider: "leancloud" # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : x30D48r23PITVSv7QxDcIHFc-gzGzoHsz # LeanCloud App id
+    app_key   : TmgNQxTKvmcTagyFyDNGvaGJ # LeanCloud App key
+    app_class : Test # LeanCloud App class
 
 
 ## => Analytics
 ##############################
 analytics:
-  provider: "google" # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
     tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
+    anonymize_ip: true # Anonymize IP tracking for Analytics
 
 
 ## => Build

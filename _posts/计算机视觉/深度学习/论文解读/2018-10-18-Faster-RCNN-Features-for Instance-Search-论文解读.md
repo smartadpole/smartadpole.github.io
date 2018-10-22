@@ -68,11 +68,11 @@ CA-SR 和 CS-SR 的区别就在于，用来重排序的指标不同；
 ### 2. 实验结果
 
 <span id="pooling-result">**池化实验结果**</span>：求和池化 & 最大池化的对比  
-![]({{"/assets/images/计算机视觉/深度学习/论文解读/images/faster-rcnn-for-retrival-sum-max.png" | absolute_url}})   
+![]({{"/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-sum-max.png" | absolute_url}})   
 
 **CA-SR 和 CS-SR 的实验结果**：  
-![]({{"/assets/images/计算机视觉/深度学习/论文解读/images/faster-rcnn-for-retrival-CASR-CSSR.png" | absolute_url}})  
-<img src={{"/assets/images/计算机视觉/深度学习/论文解读/images/faster-rcnn-for-retrival-sum-max.png" | absolute_url}} width="600" align=center />
+![]({{"/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-CASR-CSSR.png" | absolute_url}})  
+<img src={{"/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-sum-max.png" | absolute_url}} width="600" align=center />
 ## 四、总结
 
 这篇文章使用现成的 Faster-RCNN 框架，做完物体检测之后再做检索，使用余弦相似度计算相似性；

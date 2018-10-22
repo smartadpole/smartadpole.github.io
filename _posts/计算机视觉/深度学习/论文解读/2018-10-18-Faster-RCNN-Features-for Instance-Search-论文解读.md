@@ -59,7 +59,7 @@ CA-SR 和 CS-SR 的区别就在于，用来重排序的指标不同；
 第二种方案，除前两层卷积层外都所有层都微调；  
 只调整全连接层在检索物体较难的时候效果不好 *(什么是难)*；  
 
-## 三、实验
+## 四、实验
 ### 1. 数据集
 
 在 `Oxford` 和 `Pairs` 数据集里，输出 12 种类别可能（11种建筑+背景）；  
@@ -69,13 +69,13 @@ CA-SR 和 CS-SR 的区别就在于，用来重排序的指标不同；
 
 <span id="pooling-result">**池化实验结果**</span>：求和池化 & 最大池化的对比  
 {: .center}
-![]({{"/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-sum-max.png" | absolute_url}})   
+![]({{"/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-sum-max.png" | relative_url}})   
 
 **CA-SR 和 CS-SR 的实验结果**：  
 {: .center}
 ![]({{"/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-CASR-CSSR.png" | relative_url}})  
 
-## 四、总结
+## 五、总结
 
 这篇文章使用现成的 Faster-RCNN 框架，做完物体检测之后再做检索，使用余弦相似度计算相似性；
 除了余弦相似度，可以尝试其他计算相似度算法；  

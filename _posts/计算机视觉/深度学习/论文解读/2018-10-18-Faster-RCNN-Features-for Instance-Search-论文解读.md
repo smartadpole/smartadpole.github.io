@@ -7,6 +7,8 @@ aside:
   toc: true
 tags: 图像检索 深度学习 计算机视觉 论文解读
 ---
+https://blog.csdn.net/dengbingfeng/article/details/51453851
+https://zhuanlan.zhihu.com/p/33625603
 
 >DeepVision Workshop in CVPR 2016  
 论文发表时间：2016年4月  

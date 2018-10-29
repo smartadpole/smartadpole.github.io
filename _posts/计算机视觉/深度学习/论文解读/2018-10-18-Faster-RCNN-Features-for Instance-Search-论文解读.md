@@ -73,6 +73,8 @@ CA-SR 和 CS-SR 的区别就在于，用来重排序的指标不同；
 {: .center}
 ![]({{"/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-sum-max.png" | relative_url}})   
 
+![](/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-sum-max.png)  
+
 **CA-SR 和 CS-SR 的实验结果**：  
 {: .center}
 ![]({{"/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-CASR-CSSR.png" | relative_url}})  

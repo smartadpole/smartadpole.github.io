@@ -70,10 +70,10 @@ CA-SR 和 CS-SR 的区别就在于，用来重排序的指标不同；
 ### 2. 实验结果
 
 <span id="pooling-result">**池化实验结果**</span>：求和池化 & 最大池化的对比  
-![](/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-sum-max.png)  
+![](/assets/images/cv/dl/paper_reading/FasterRCNN-retrival/faster-rcnn-for-retrival-sum-max.png)  
 
 **CA-SR 和 CS-SR 的实验结果**：  
-![](/assets/images/cv/dl/paper_reading/images/faster-rcnn-for-retrival-CASR-CSSR.png)  
+![](/assets/images/cv/dl/paper_reading/FasterRCNN-retrival/faster-rcnn-for-retrival-CASR-CSSR.png)  
 
 ## 五、总结
 

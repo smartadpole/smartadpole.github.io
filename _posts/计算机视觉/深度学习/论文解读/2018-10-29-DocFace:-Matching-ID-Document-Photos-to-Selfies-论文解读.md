@@ -35,16 +35,16 @@ tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学
 ## 三、贡献  
 针对[人证比对](#face-verification-id-doc)问题：  
 - 进行了[公开算法的评估](#compare)；  
-- 设计了新的算法 —— [DocFace](#DocFace)，效果优异；  
+- 设计了新的算法 —— [DocFace](#DocFace)，[效果优异](#explore)；  
 - 设计了两个专门的人证比对[数据集](#dataset)（但是并未公开）；  
 
 ## 四、结论  
 - 由于应用场景不同，所以面临的难题也不同，这使得通用人脸验证方法在人证比对问题上效果很差，而本文设计的 DocFace 效果非常好；  
-- 只要训练集扩大，算法的性能就会稳定提升；**`哪条实验证明了这个稳定`{:.warning}**  
+- 只要训练集扩大，算法的性能就会稳定提升；  
 
 ## 五、基本流程/解决方案 —— <span id="DocFace">DocFace</span>  
 前导知识：`人脸识别`，`CNN`，`深度学习基本知识`；  
-![](/assets/images/cv/dl/paper_reading/DocFace/DocFace.png)  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/DocFace.png"  width="350px">    
 
 **第一步** Train on source domain：**在源数据集上训练出基础模型**   
 [MA-Celeb-1M](#MS-Celeb-1M)：Face-ResNet[^Deepvisage] + [AM-Softmax](#AM-Softmax)损失函数；  
@@ -70,7 +70,7 @@ tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学
   速度：1080Ti GPU，11G 显存，前向传播一张图 3ms；  
   准确度：FAR 为 0.1% 的条件下，基础模型在 LFW 上是 99.67%，BLUFR 上是 99.6%；  
 
-**1. 探索实验**  
+<span id="explore">**1. 探索实验**</span>    
 **`探究 DocFace 有效性时，为什么没有设计「融合数据集」比对实验，也就是验证是迁移学习有效，还是数据融合有效`{:.warning}**  
 
 **结论一**：  
@@ -79,7 +79,7 @@ tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学
 3.[DocFace](#DocFace) 的策略非常有效，尤其以 [MPS 损失函数](#mps-loss) 贡献最大，[孪生网络](#sibling_net) 对结果有非常微小的提升；  
 {:.warning}  
 使用数据集：[MA-Celeb-1M](#MS-Celeb-1M)，[ID-Selfie-A](#ID-Selfie-A)  
-![](/assets/images/cv/dl/paper_reading/DocFace/result_explore.png)  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/result_explore.png"  width="550px" >    
 **FS**：从零开始训练  **BM**：基础模型，未经过微调的  **TL**：经过微调的模型  **VR**：验证准确率  **-**：没有训练，这一项就为空   
 
 <span id="compare">**2. 对比实验**</span>  
@@ -91,7 +91,7 @@ tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学
 准确度排序：DocFace > SphereFace > CenterFace > COTS；  
 使用数据集：[MA-Celeb-1M](#MS-Celeb-1M)，[ID-Selfie-A](#ID-Selfie-A)，LFW **`待补充`{:.warning}**  
 LFW：仅用于测试，未参与训练；  
-![](/assets/images/cv/dl/paper_reading/DocFace/result_compare_a.png)  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/result_compare_a.png"  width="570px">    
 **`为什么 DocFace 没有在 LFW 上进行测试`{:.warning}**  
 
 **结论三**：  
@@ -102,8 +102,12 @@ LFW：仅用于测试，未参与训练；
 泛化能力排序：DocFace > SphereFace > COTS > CenterFace；  
 使用数据集：[ID-Selfie-B](#ID-Selfie-B)   
 **`为什么 base model 不在 ID-Selfie-A 上做测试呢`{:.warning}**  **`base model 带到底是个啥东西，咋训练的`{:.warning}**    
-![](/assets/images/cv/dl/paper_reading/DocFace/result_compare_b.png)  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/result_compare_b.png" width="570px">  
 
+<span id="dataset_size">**3. 关于数据集大小对准确度影响的实验**</span>  
+使用数据集：[ID-Selfie-A](#ID-Selfie-A)  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/result_dataset_size.png" width="450px">    
+横左标：图像数量  纵坐标：准确度  
 
 ## 七、细节
 ### （一）概念
@@ -112,7 +116,7 @@ Commercial-Off-The-Shelf：商用的人脸验证方案；
 
 <span id="mps-loss">**Max-margin Pairwise Score (MPS) loss**</span>  
 **`待补充`{:.warning}**  
-![](/assets/images/cv/dl/paper_reading/DocFace/mps_loss.png)  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/mps_loss.png" width="450px">  
 
 <span id="sibling_net">**孪生网络**</span>  
 网络结构相同，但是独立更新参数的模型的两个网络；**`待确认`{:.warning}**    
@@ -131,7 +135,7 @@ Commercial-Off-The-Shelf：商用的人脸验证方案；
 ### （二）损失函数  
 <span id="AM-Softmax">**AM-Softmax**[^AM-Softmax]-[^ArcFace]-[^Cosface]</span>  
 **`待补充`{:.warning}**  
-![](/assets/images/cv/dl/paper_reading/DocFace/AM-Softmax.png)  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/AM-Softmax.png" width="450px">  
 
 ### （三）数据集
 <span id="MS-Celeb-1M">**1. MS-Celeb-1M**[^Ms-celeb-1m]</span>  

@@ -5,7 +5,7 @@ date:   2018-10-29 10:18:40 +0800
 key: docFace-20181029
 aside:
   toc: true
-tags: 人证比对 人脸验证 人脸识别 图像检索 深度学习 计算机视觉 论文解读
+tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学习 深度学习 计算机视觉 论文解读
 ---
 
 >论文发表时间：2018年5月  
@@ -14,15 +14,15 @@ tags: 人证比对 人脸验证 人脸识别 图像检索 深度学习 计算机
 
 
 ## 一、一句话总结  
-**第一句**：在[人证比对](#face-verification-id-doc)场景中，「DocFace」比通用人脸验证方案准确度更高——用人脸识别来做匹配；:ghost:  
-**第二句**：将迁移学习应用到人脸验证，且为[人证比对](#face-verification-id-doc)问题设计了新的 Loss 函数；:ghost:  
+**第一句**：在[人证比对](#face-verification-id-doc)场景中，「[DocFace](#DocFace)」 比[通用人脸验证](#general_fv)方案准确度更高；    
+**第二句**：将迁移学习应用到人脸验证，且为[人证比对](#face-verification-id-doc)问题设计了新的 Loss 函数；**`迁移学习专题`{:.warning}**  
 
 ## 二、Q&A  
 人工比对，耗时耗力且容易出错；之前的人证比对方案也都是 2011 年以前了；因此我们使用近年发展迅速的 DNN 来处理人证比对问题；  
 
 1.证件照图像质量低；**`what`{:.warning}**  证件照与自拍照有年龄差距；**`人脸识别也有面临这个问题吧`{:.warning}**    
 {:.warning}  
-DocFace，[MPS 损失函数](#mps-loss)；  
+[DocFace](#DocFace)；    
 
 2.人证比对数据集缺乏；  
 {:.warning}  
@@ -34,17 +34,18 @@ DocFace，[MPS 损失函数](#mps-loss)；
 
 ## 三、贡献  
 针对[人证比对](#face-verification-id-doc)问题：  
-- 进行了公开算法的评估；  
-- 设计了新的思路——DocFace，和[MPS 损失函数](#mps-loss)，效果优异；  
-- 设计了两个专门的人证比对数据集（但是并未公开）；  
+- 进行了[公开算法的评估](#compare)；  
+- 设计了新的算法 —— [DocFace](#DocFace)，效果优异；  
+- 设计了两个专门的人证比对[数据集](#dataset)（但是并未公开）；  
 
 ## 四、结论  
 - 由于应用场景不同，所以面临的难题也不同，这使得通用人脸验证方法在人证比对问题上效果很差，而本文设计的 DocFace 效果非常好；  
-- 只要训练集扩大，算法的性能就会稳定提升；  
+- 只要训练集扩大，算法的性能就会稳定提升；**`哪条实验证明了这个稳定`{:.warning}**  
 
-## 五、基本流程/解决方案——DocFace  
+## 五、基本流程/解决方案 —— <span id="DocFace">DocFace</span>  
 前导知识：`人脸识别`，`CNN`，`深度学习基本知识`；  
 ![](/assets/images/cv/dl/paper_reading/DocFace/DocFace.png)  
+
 **第一步** Train on source domain：**在源数据集上训练出基础模型**   
 [MA-Celeb-1M](#MS-Celeb-1M)：Face-ResNet[^Deepvisage] + [AM-Softmax](#AM-Softmax)损失函数；  
 
@@ -53,24 +54,15 @@ DocFace，[MPS 损失函数](#mps-loss)；
 将数据集中的证件照和自拍照分别送入两个网络；  
 
 ## 六、实验  
-数据准备：使用 MTCNN 检测并裁剪出人脸，并利用关键点对齐，resize 到 96*112；  
+数据准备：使用 MTCNN 检测并裁剪出人脸，并利用关键点对齐，resize 到 96 * 112；  
 
-### （一）数据集
-<span id="MS-Celeb-1M">**1. MS-Celeb-1M**[^Ms-celeb-1m]</span>  
-人脸识别数据集，数据集中存在错误标注；
+### <span id="dataset">（一）数据集</span>
 
-| 数据 | 训练集（张） | 测试集（张） |  
-| -- | -- | -- |  
-|原数据集| 8,456,240|99,892|  
-|清洗后|5,041,527|98,687|  
+<span id="ID-Selfie-A">**1. ID-Selfie-A**</span>  
+自建数据集，由证件照及对应的自拍照组成，共 10,000 对；能够进行人脸对齐的共 9,915 对，也就是 19,830 张图像；  
 
-`下载地址`{:.warning}  
-
-<span id="ID-Selfie-A">**2. ID-Selfie-A**</span>  
-由证件照及对应的自拍照组成，共 10,000 对；能够进行人脸对齐的共 9,915 对，也就是 19,830 张图像；  
-
-<span id="ID-Selfie-B">**3. ID-Selfie-B**</span>  
-由证件照及对应的自拍照组成，共 547 组，10,844 张；进行人脸对齐及清洗后，还有 537 组，10,806 张；  
+<span id="ID-Selfie-B">**2. ID-Selfie-B**</span>  
+自建数据集，由证件照及对应的自拍照组成，共 547 组，10,844 张；进行人脸对齐及清洗后，还有 537 组，10,806 张；  
 相比 ID-Selfie-A，本数据集中的自拍照，无约束程度更强；  
 
 ### （二）实验结果   
@@ -79,20 +71,44 @@ DocFace，[MPS 损失函数](#mps-loss)；
   准确度：FAR 为 0.1% 的条件下，基础模型在 LFW 上是 99.67%，BLUFR 上是 99.6%；  
 
 **1. 探索实验**  
+**`探究 DocFace 有效性时，为什么没有设计「融合数据集」比对实验，也就是验证是迁移学习有效，还是数据融合有效`{:.warning}**  
+
+**结论一**：  
+1.大数据集比小数据集训练出的模型效果更好，小数据集非常容易过拟合；  
+2.针对 [ID-Selfie-A](#ID-Selfie-A) 数据，在 [MA-Celeb-1M](#MS-Celeb-1M) 训练结果上微调后比直接用[MA-Celeb-1M](#MS-Celeb-1M) 上的训练结果有较大提高；  
+3.[DocFace](#DocFace) 的策略非常有效，尤其以 [MPS 损失函数](#mps-loss) 贡献最大，[孪生网络](#sibling_net) 对结果有非常微小的提升；  
+{:.warning}  
 使用数据集：[MA-Celeb-1M](#MS-Celeb-1M)，[ID-Selfie-A](#ID-Selfie-A)  
 ![](/assets/images/cv/dl/paper_reading/DocFace/result_explore.png)  
 **FS**：从零开始训练  **BM**：基础模型，未经过微调的  **TL**：经过微调的模型  **VR**：验证准确率  **-**：没有训练，这一项就为空   
 
-**2. 对比实验**  
-使用数据集：[MA-Celeb-1M](#MS-Celeb-1M)，[ID-Selfie-A](#ID-Selfie-A)，LFW  
-![](/assets/images/cv/dl/paper_reading/DocFace/result_compare_a.png)  
-**DocFace**：微调 + MPS   
+<span id="compare">**2. 对比实验**</span>  
 
-使用数据集：[ID-Selfie-B](#ID-Selfie-B)
+**结论二**：  
+[DocFace](#DocFace) 在 [人证比对](#face-verification-id-doc) 问题上，效果远胜于 SphereFace[^SphereFace]、CenterFace[^CenterFace] 和 [COTS](#COTS)；  
+*上述结论，文中并未给出，不知是出于学术严谨，还是实验只关注 DocFace 够不够好*  
+{:.warning}  
+准确度排序：DocFace > SphereFace > CenterFace > COTS；  
+使用数据集：[MA-Celeb-1M](#MS-Celeb-1M)，[ID-Selfie-A](#ID-Selfie-A)，LFW **`待补充`{:.warning}**  
+LFW：仅用于测试，未参与训练；  
+![](/assets/images/cv/dl/paper_reading/DocFace/result_compare_a.png)  
+**`为什么 DocFace 没有在 LFW 上进行测试`{:.warning}**  
+
+**结论三**：  
+1.数据集 [ID-Selfie-B](#ID-Selfie-B) 比 [ID-Selfie-A](#ID-Selfie-A) 场景更复杂，无约束程度更高；  
+2.[DocFace](#DocFace) 不仅验证准确度最优，且泛化能力也远胜于 SphereFace[^SphereFace]、CenterFace[^CenterFace] 和 [COTS](#COTS)；  
+*上述结论，文中并未给出，不知是出于学术严谨，还是实验只关注 DocFace 够不够好*  
+{:.warning}  
+泛化能力排序：DocFace > SphereFace > COTS > CenterFace；  
+使用数据集：[ID-Selfie-B](#ID-Selfie-B)   
+**`为什么 base model 不在 ID-Selfie-A 上做测试呢`{:.warning}**  **`base model 带到底是个啥东西，咋训练的`{:.warning}**    
 ![](/assets/images/cv/dl/paper_reading/DocFace/result_compare_b.png)  
+
 
 ## 七、细节
 ### （一）概念
+<span id="COTS">**COTS**</span>  
+Commercial-Off-The-Shelf：商用的人脸验证方案；  
 
 <span id="mps-loss">**Max-margin Pairwise Score (MPS) loss**</span>  
 **`待补充`{:.warning}**  
@@ -109,13 +125,29 @@ DocFace，[MPS 损失函数](#mps-loss)；
 <span id="face-verification-id-doc">**人证比对**</span>  
 属于[人脸验证](#face-verification)的范畴，只是其中一张人脸图片来源于证件照；　　
 
+<span id="general_fv">**通用人脸验证方案**</span>  
+使用人脸识别来处理人脸验证问题：对于输入图像，使用人脸识别模型，截取中间层的输出（即该层对应的 feature map）作为图像的特征；然后使用相似度计算算法度量两张图片的相似性；
+
 ### （二）损失函数  
 <span id="AM-Softmax">**AM-Softmax**[^AM-Softmax]-[^ArcFace]-[^Cosface]</span>  
 **`待补充`{:.warning}**  
 ![](/assets/images/cv/dl/paper_reading/DocFace/AM-Softmax.png)  
+
+### （三）数据集
+<span id="MS-Celeb-1M">**1. MS-Celeb-1M**[^Ms-celeb-1m]</span>  
+人脸识别数据集，数据集中存在错误标注；
+
+| 数据 | 训练集（张） | 测试集（张） |  
+| -- | -- | -- |  
+|原数据集| 8,456,240|99,892|  
+|清洗后|5,041,527|98,687|  
+
+`下载地址`{:.warning}  
 
 [^Deepvisage]:A. Hasnat, J. Bohné, J. Milgram, S. Gentric, and L. Chen. Deepvisage: Making face recognition simple yet with powerful generalization skills. arXiv:1703.08388, 2017.  
 [^ArcFace]:J. Deng, J. Guo, and S. Zafeiriou. Arcface: Additive angular margin loss for deep face recognition. arXiv:1801.07698, 2018.  
 [^AM-Softmax]:F. Wang, W. Liu, H. Liu, and J. Cheng. Additive margin softmax for face verification. arXiv:1801.05599, 2018.  
 [^Cosface]:H. Wang, Y. Wang, Z. Zhou, X. Ji, Z. Li, D. Gong, J. Zhou, and W. Liu. Cosface: Large margin cosine loss for deep face recognition. arXiv:1801.09414, 2018.  
 [^Ms-celeb-1m]:Y. Guo, L. Zhang, Y. Hu, X. He, and J. Gao. Ms-celeb-1m: A dataset and benchmark for large scale face recognition. In ECCV, 2016.  
+[^SphereFace]:W. Liu, Y. Wen, Z. Yu, M. Li, B. Raj, and L. Song. Sphereface: Deep hypersphere embedding for face recognition. In CVPR, 2017.  
+[^CenterFace]:Y. Wen, K. Zhang, Z. Li, and Y. Qiao. A discriminative feature learning approach for deep face recognition. In ECCV, 2016.  

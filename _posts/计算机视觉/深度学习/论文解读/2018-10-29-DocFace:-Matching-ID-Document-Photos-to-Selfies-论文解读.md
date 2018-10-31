@@ -105,6 +105,10 @@ LFW：仅用于测试，未参与训练；
 <img src="/assets/images/cv/dl/paper_reading/DocFace/result_compare_b.png" width="570px">  
 
 <span id="dataset_size">**3. 关于数据集大小对准确度影响的实验**</span>  
+
+**结论四**：  
+随着数据量集的增大，模型效果越来越好；  
+{:.warning}  
 使用数据集：[ID-Selfie-A](#ID-Selfie-A)  
 <img src="/assets/images/cv/dl/paper_reading/DocFace/result_dataset_size.png" width="450px">    
 横左标：图像数量  纵坐标：准确度  

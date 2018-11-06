@@ -30,7 +30,7 @@ tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学
 
 3.与人脸识别面临相同的问题：人脸姿态、光照和表情的变化
 {:.warning}  
-论文中并未就此展开讨论，但是数据集 [ID-Selfie-B](#ID-Selfie-B) 却涵盖了这些挑战；且他们本就是人脸识别也需处理的问题，所以博主认为，这一问题应该放在「基础模型」部分，也就是人脸识别部分做处理；
+论文中并未就此展开讨论，但是数据集 [ID-Selfie-B](#ID-Selfie-B) 却涵盖了这些挑战；且他们本就是人脸识别也需处理的问题，所以本蝌蚪认为，这一问题应该放在「基础模型」部分，也就是人脸识别部分做处理；
 
 ## 三、贡献  
 针对[人证比对](#face-verification-id-doc)问题：  
@@ -44,13 +44,13 @@ tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学
 
 ## 五、基本流程/解决方案 —— <span id="DocFace">DocFace</span>  
 前导知识：`人脸识别`，`CNN`，`深度学习基本知识`；  
-<img src="/assets/images/cv/dl/paper_reading/DocFace/DocFace.png"  width="350px">    
+<img src="/assets/images/cv/dl/paper_reading/DocFace/DocFace.png"  width="400px">    
 
 **第一步** Train on source domain：**在源数据集上训练出基础模型**   
-[MA-Celeb-1M](#MS-Celeb-1M)：Face-ResNet[^Deepvisage] + [AM-Softmax](#AM-Softmax)损失函数；  
+[MA-Celeb-1M](#MS-Celeb-1M)：Face-ResNet[^Deepvisage] + [AM-Softmax](#AM-Softmax) 损失函数；  
 
 **第二步** Train on target domain：**在目标数据集上训练出最终模型**  
-[ID-Selfie-A](#ID-Selfie-A)：基础模型（迁移学习/微调）+ [MPS 损失函数](#mps-loss) + [孪生网络](#sibling_net)；  
+[ID-Selfie-A](#ID-Selfie-A)：基础模型 + [MPS 损失函数](#mps-loss) + [兄弟网络](#sibling_net) （迁移学习/微调）；  
 将数据集中的证件照和自拍照分别送入两个网络；  
 
 ## 六、实验  
@@ -79,7 +79,7 @@ tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学
 3.[DocFace](#DocFace) 的策略非常有效，尤其以 [MPS 损失函数](#mps-loss) 贡献最大，[孪生网络](#sibling_net) 对结果有非常微小的提升；  
 {:.warning}  
 使用数据集：[MA-Celeb-1M](#MS-Celeb-1M)，[ID-Selfie-A](#ID-Selfie-A)  
-<img src="/assets/images/cv/dl/paper_reading/DocFace/result_explore.png"  width="550px" >    
+<img src="/assets/images/cv/dl/paper_reading/DocFace/result_explore.png"  width="600px" >    
 **FS**：从零开始训练  **BM**：基础模型，未经过微调的  **TL**：经过微调的模型  **VR**：验证准确率  **-**：没有训练，这一项就为空   
 
 <span id="compare">**2. 对比实验**</span>  
@@ -91,7 +91,7 @@ tags: 人证比对 人脸验证 人脸识别 孪生网络 图像检索 迁移学
 准确度排序：DocFace > SphereFace > CenterFace > COTS；  
 使用数据集：[MA-Celeb-1M](#MS-Celeb-1M)，[ID-Selfie-A](#ID-Selfie-A)，LFW **`待补充`{:.warning}**  
 LFW：仅用于测试，未参与训练；  
-<img src="/assets/images/cv/dl/paper_reading/DocFace/result_compare_a.png"  width="570px">    
+<img src="/assets/images/cv/dl/paper_reading/DocFace/result_compare_a.png"  width="620px">    
 **`为什么 DocFace 没有在 LFW 上进行测试`{:.warning}**  
 
 **结论三**：  
@@ -102,28 +102,42 @@ LFW：仅用于测试，未参与训练；
 泛化能力排序：DocFace > SphereFace > COTS > CenterFace；  
 使用数据集：[ID-Selfie-B](#ID-Selfie-B)   
 **`为什么 base model 不在 ID-Selfie-A 上做测试呢`{:.warning}**  **`base model 带到底是个啥东西，咋训练的`{:.warning}**    
-<img src="/assets/images/cv/dl/paper_reading/DocFace/result_compare_b.png" width="570px">  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/result_compare_b.png" width="600px">  
 
 <span id="dataset_size">**3. 关于数据集大小对准确度影响的实验**</span>  
 
 **结论四**：  
-随着数据量集的增大，模型效果越来越好；  
+随着数据量的增大，模型效果越来越好；  
 {:.warning}  
 使用数据集：[ID-Selfie-A](#ID-Selfie-A)  
-<img src="/assets/images/cv/dl/paper_reading/DocFace/result_dataset_size.png" width="450px">    
+<img src="/assets/images/cv/dl/paper_reading/DocFace/result_dataset_size.png" width="500px">    
 横左标：图像数量  纵坐标：准确度  
 
 ## 七、细节
 ### （一）概念
 <span id="COTS">**COTS**</span>  
-Commercial-Off-The-Shelf：商用的人脸验证方案；  
+Commercial-Off-The-Shelf：目前商用的人脸验证方案；  
 
-<span id="mps-loss">**Max-margin Pairwise Score (MPS) loss**</span>  
+<span id="mps-loss">**Max-margin Pairwise Score (MPS) loss**</span>   
 **`待补充`{:.warning}**  
-<img src="/assets/images/cv/dl/paper_reading/DocFace/mps_loss.png" width="450px">  
+<img src="/assets/images/cv/dl/paper_reading/DocFace/mps_loss.png" width="500px" />  
+*欧式距离 VS 夹角余弦相似度*：两个经过 L2 范数归一化之后的矩阵，他们的欧式距离的平方与夹角余弦存在线性关系  
+  　　  　$$||\vec x - \vec y||_2^2 = (\vec x - \vec y)^T(\vec x - \vec y)$$     
+  　　  　  　　 　　$$= \vec x^T\vec x - 2\vec x^T\vec y + \vec y^T\vec y$$    
+  　　  　  　　 　　$$= 2 - 2\vec x^T\vec y$$   
+  　  　　  　　 　　$$= 2 - 2cos\theta _{(\vec x,　\vec y)}$$  
 
-<span id="sibling_net">**孪生网络**</span>  
-网络结构相同，但是独立更新参数的模型的两个网络；**`待确认`{:.warning}**    
+*$$g_i$$ & $$h_i$$*：分别是证件照和自拍照的模型输出结果；  
+*两个 max*：内层 max 想获取第 i 个数据和第 j 个数据之间证件照与自拍照最大的夹角余弦相似度；外层 max 在循环数据集中所有的组（即训练时的批次）；公式中 $$l_t$$ 是一对数据计算所的 loss，需对整个批次计算，然后取均值；
+
+
+
+<span id="sibling_net">**兄弟网络 sibling net**</span>  
+网络结构相同，但是独立更新参数的模型的两个网络；  
+细心的读者会发现此设计和「孪生网络」相似，那么**为什么不叫孪生网络呢？**  
+本蝌蚪认为区别在此：「孪生网络」的初衷是为了比较两个输出的相似度，因此将网络复制了一份，很明显，其权值是相同的（即权值共享）；而本文的网络设计，初衷是为了针对不同域获取不同的映射方法，以降低其映射到相同域的难度，很明显，两个网络的权重必然不同；所以，「孪生」与「兄弟」最大的区别就在于出发点不同，及随之而来的两个网络权值共享的差异；  
+本蝌蚪在想，「孪生」或「兄弟」就权值共享问题再做出个变种啥的，该咋命名了哩 :ghost:      
+其实，「sibling net」还有另一个名字，叫「伪孪生网络 pseudo-siamese network」[^Siamese_net] :ghost:   
 
 ## 附录  
 ### （一）基本概念  
@@ -158,4 +172,5 @@ Commercial-Off-The-Shelf：商用的人脸验证方案；
 [^Cosface]:H. Wang, Y. Wang, Z. Zhou, X. Ji, Z. Li, D. Gong, J. Zhou, and W. Liu. Cosface: Large margin cosine loss for deep face recognition. arXiv:1801.09414, 2018.  
 [^Ms-celeb-1m]:Y. Guo, L. Zhang, Y. Hu, X. He, and J. Gao. Ms-celeb-1m: A dataset and benchmark for large scale face recognition. In ECCV, 2016.  
 [^SphereFace]:W. Liu, Y. Wen, Z. Yu, M. Li, B. Raj, and L. Song. Sphereface: Deep hypersphere embedding for face recognition. In CVPR, 2017.  
-[^CenterFace]:Y. Wen, K. Zhang, Z. Li, and Y. Qiao. A discriminative feature learning approach for deep face recognition. In ECCV, 2016.  
+[^CenterFace]:Y. Wen, K. Zhang, Z. Li, and Y. Qiao. A discriminative feature learning approach for deep face recognition. In ECCV, 2016.   
+[^Siamese_net]:mountain blue. Siamese network 孪生神经网络--一个简单神奇的结构. <https://zhuanlan.zhihu.com/p/35040994>  

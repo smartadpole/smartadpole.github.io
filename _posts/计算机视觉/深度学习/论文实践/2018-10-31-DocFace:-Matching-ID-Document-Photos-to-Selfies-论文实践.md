@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「论文实践」DocFace: Matching ID Document Photos to Selfies"
+title:  "「论文实践」DocFace+: Matching ID Document Photos to Selfies Matching"
 date:   2018-10-30 17:10:40 +0800
 key: docFace-pactice-20181030
 aside:

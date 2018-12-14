@@ -6,5 +6,6 @@ key: gitjek20181009
 aside:
   toc: true
 tags: 工具
+category: [工具, Blog]
 ---
 writing…… :ghost:

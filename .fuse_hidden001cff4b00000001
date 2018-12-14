@@ -1,0 +1,26 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+var dataStr = '{ {% for cat in site.categories %}{% if cat[0] != site.categories.first[0] %},{% endif %}"{{ cat[0] }}":[{% for post in cat[1] %}{% if post != cat[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }',
+    data = JSON.parse(dataStr),
+    #curTag = $.query.get("cat"),
+    curTag = "工具",
+    archieves = data[curTag];
+saveAs(blob, "file.txt")
+
+<h2>文章分类</h2>
+<ul>
+    {% for cat in site.categories %}
+    <h3>{% if cat[0] != site.categories.first[0] %}{% endif %}{{ cat[0] }}</h3>
+    {% for post in cat[1] %}
+    <li>
+      {{post.date | date:"%d/%m/%Y"}}
+      <a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a>
+    </li>
+    {% endfor %}
+    {% endfor %}
+</ul>

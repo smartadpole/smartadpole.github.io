@@ -5,7 +5,8 @@ date:   2018-10-18 14:06:40 +0800
 key: retrival-faster-rcnn-20181018
 aside:
   toc: true
-tags: 图像检索 深度学习 计算机视觉 论文解读
+tags: Faster-RCNN
+category: [论文解读, 目标检测]
 ---
 https://blog.csdn.net/dengbingfeng/article/details/51453851
 https://zhuanlan.zhihu.com/p/33625603

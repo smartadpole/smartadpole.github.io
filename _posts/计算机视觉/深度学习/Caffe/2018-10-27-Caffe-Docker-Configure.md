@@ -5,7 +5,8 @@ date:   2018-10-27 18:30:40 +0800
 key: caffe-docker-abc-20181027
 aside:
   toc: true
-tags: Docker 工具 Caffe 开发环境
+tags: 开发环境
+categories: [工具, Caffe, Docker]
 ---
 ## 一、Docker 安装  
 [docker 安装教程]({{ "/2018/10/27/Docker-入门.html" }})  

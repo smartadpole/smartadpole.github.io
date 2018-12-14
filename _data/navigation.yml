@@ -1,5 +1,11 @@
 header:
   - titles:
+      en:       Category
+      zh:       分类
+      zh-Hans:  分类
+      zh-Hant:  分類
+    url:        /category.html
+  - titles:
       en:       Archive
       zh:       归档
       zh-Hans:  归档
@@ -11,3 +17,123 @@ header:
       zh-Hans:  关于
       zh-Hant:  關於
     url:        /about.html
+
+
+docs-en:
+  - title:      C++
+    children:
+      - title:  基础知识
+        url:    /assets/category/cpp/base.html
+
+  - title:      数据结构与算法
+    children:
+      - title:  入门
+        url:    /assets/category/algorithms/base.html
+      - title:  进阶
+        url:    /assets/category/algorithms/senior.html
+
+  - title:      Python
+    children:
+      - title:  基础
+        url:    /404.html
+      - title:  matplote
+        url:    /404.html
+      - title:  sklearn
+        url:    /404.html
+      - title:  numpy
+        url:    /404.html
+
+  - title:      学习
+    children:
+      - title:  论文阅读
+        url:    /assets/category/study/paper_reading.html
+      - title:  论文实践
+        url:    /assets/category/study/paper_practice.html
+
+  - title:      深度学习
+    children:
+      - title:  基础知识
+        url:    /assets/category/dl/base.html
+      - title:  人脸验证
+        url:    /assets/category/dl/face_verify.html
+      - title:  人脸识别
+        url:    /assets/category/dl/face_recognize.html
+      - title:  人脸检测
+        url:    /assets/category/dl/face_detect.html
+      - title:  视频分类
+        url:    /404.html
+      - title:  图像分类
+        url:    /404.html
+      - title:  目标检测
+        url:    /assets/category/dl/detect.html
+      - title:  分割
+        url:    /404.html
+      - title:  迁移学习
+        url:    /assets/category/dl/transfer.html
+      - title:  训练优化
+        url:    /404.html
+
+  - title:      深度学习框架
+    children:
+      - title:  基础知识
+        url:    /assets/category/dl_frame/base.html
+      - title:  Caffe
+        url:    /assets/category/dl_frame/caffe.html
+      - title:  MxNet
+        url:    /assets/category/dl_frame/mxnet.html
+      - title:  Pytorch
+        url:    /assets/category/dl_frame/pytorch.html
+      - title:  Tensoflow
+        url:    /assets/category/dl_frame/tensorflow.html
+
+  - title:      图像处理
+    children:
+      - title:  Opencv
+        url:    /assets/category/image_process/opencv.html
+      - title:  数字图像处理
+        url:    /assets/category/image_process/digital.html
+
+  - title:      工具
+    children:
+      - title:  Docker
+        url:    /assets/category/tool/docker.html
+      - title:  博客
+        url:    /assets/category/tool/blog.html
+
+Algorithms:
+  - title:      数据结构与算法
+    children:
+      - title:  入门
+        url:    /404.html
+      - title:  基本算法
+        url:    /404.html
+      - title:  数组
+        url:    /404.html
+      - title:  树
+        url:    /404.html
+      - title:  排序
+        url:    /404.html
+      - title:  查找
+        url:    /404.html
+      - title:  分治
+        url:    /404.html
+      - title:  回溯
+        url:    /404.html
+      - title:  递归
+        url:    /404.html
+      - title:  数据结构
+        url:    /404.html
+      - title:  搜索
+        url:    /404.html
+      - title:  哈希
+        url:    /404.html
+      - title:  贪心
+        url:    /404.html
+      - title:  组合数学
+        url:    /404.html
+      - title:  书论
+        url:    /404.html
+      - title:  计算方法
+        url:    /404.html
+      - title:      图
+        url:    /404.html

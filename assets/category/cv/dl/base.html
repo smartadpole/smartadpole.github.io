@@ -1,0 +1,29 @@
+---
+layout: articles
+titles:
+    en:       Foundation of DeepLearning
+    zh:       深度学习基础
+    zh-Hans:  深度学习基础
+    zh-Hant:  深度學習基礎
+sidebar:
+    nav: DL
+---
+
+<div class="layout--archive js-all">
+  {%- include tags.html -%}
+  <div class="js-result layout--archive__result d-none">
+    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
+  </div>
+</div>
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "深度学习基础" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

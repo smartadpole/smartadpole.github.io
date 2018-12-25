@@ -6,7 +6,7 @@ key: retrival-faster-rcnn-20181018
 aside:
   toc: true
 tags: Faster-RCNN
-category: [论文解读, 目标检测]
+category: [论文解读, 深度学习, 目标检测]
 ---
 https://blog.csdn.net/dengbingfeng/article/details/51453851
 https://zhuanlan.zhihu.com/p/33625603

@@ -20,28 +20,27 @@ header:
 
 
 docs-en:
-  - title:      C++
+  - title:      编程
     children:
-      - title:  基础知识
-        url:    /assets/category/cpp/base.html
+      - title:  数据结构与算法
+        url:    /assets/category/programming/alg_ds.html
+      - title:  编程基础
+        url:    /assets/category/programming/base.html
+      - title:  C++
+        url:    /assets/category/programming/cpp.html
+      - title:  python
+        url:    /assets/category/programming/python.html
 
-  - title:      数据结构与算法
+  - title:      计算机视觉
     children:
-      - title:  入门
-        url:    /assets/category/algorithms/base.html
-      - title:  进阶
-        url:    /assets/category/algorithms/senior.html
-
-  - title:      Python
-    children:
-      - title:  基础
-        url:    /404.html
-      - title:  matplote
-        url:    /404.html
-      - title:  sklearn
-        url:    /404.html
-      - title:  numpy
-        url:    /404.html
+      - title:  图像处理
+        url:    /assets/category/cv/image_process.html
+      - title:  机器学习
+        url:    /assets/category/cv/ml.html
+      - title:  深度学习
+        url:    /assets/category/cv/dl.html
+      - title:  深度学习框架
+        url:    /assets/category/cv/dl_framework.html
 
   - title:      学习
     children:
@@ -50,49 +49,6 @@ docs-en:
       - title:  论文实践
         url:    /assets/category/study/paper_practice.html
 
-  - title:      深度学习
-    children:
-      - title:  基础知识
-        url:    /assets/category/dl/base.html
-      - title:  人脸验证
-        url:    /assets/category/dl/face_verify.html
-      - title:  人脸识别
-        url:    /assets/category/dl/face_recognize.html
-      - title:  人脸检测
-        url:    /assets/category/dl/face_detect.html
-      - title:  视频分类
-        url:    /404.html
-      - title:  图像分类
-        url:    /404.html
-      - title:  目标检测
-        url:    /assets/category/dl/detect.html
-      - title:  分割
-        url:    /404.html
-      - title:  迁移学习
-        url:    /assets/category/dl/transfer.html
-      - title:  训练优化
-        url:    /404.html
-
-  - title:      深度学习框架
-    children:
-      - title:  基础知识
-        url:    /assets/category/dl_frame/base.html
-      - title:  Caffe
-        url:    /assets/category/dl_frame/caffe.html
-      - title:  MxNet
-        url:    /assets/category/dl_frame/mxnet.html
-      - title:  Pytorch
-        url:    /assets/category/dl_frame/pytorch.html
-      - title:  Tensoflow
-        url:    /assets/category/dl_frame/tensorflow.html
-
-  - title:      图像处理
-    children:
-      - title:  Opencv
-        url:    /assets/category/image_process/opencv.html
-      - title:  数字图像处理
-        url:    /assets/category/image_process/digital.html
-
   - title:      工具
     children:
       - title:  Docker
@@ -100,40 +56,568 @@ docs-en:
       - title:  博客
         url:    /assets/category/tool/blog.html
 
+  - title:      基础
+    children:
+      - title:  English
+        url:    /assets/category/foundation/english.html
+      - title:  微积分
+        url:    /assets/category/foundation/calculus.html
+      - title:  线性代数
+        url:    /assets/category/foundation/linear_algebra.html
+      - title:  概率论
+        url:    /assets/category/foundation/probability.html
+      - title:  矩阵论
+        url:    /assets/category/foundation/matrix_theory.html
+
+C++:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+  - title:      
+    children:
+      - title:  基础知识
+        url:    /assets/category/programming/cpp/base.html
+
+Programming:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+  - title:      
+    children:
+      - title:  基础知识
+        url:    /assets/category/programming/base/base.html
+
+Python:
+  - title:      Python
+    children:
+      - title:  基础
+        url:    /index.html
+      - title:  matplote
+        url:    /index.html
+      - title:  sklearn
+        url:    /index.html
+      - title:  numpy
+        url:    /index.html
+
+
+DL:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+  - title:      
+    children:
+      - title:  基础知识
+        url:    /assets/category/cv/dl/base.html
+      - title:  图像分类
+        url:    /assets/category/cv/dl/image_classify.html
+      - title:  目标检测
+        url:    /assets/category/cv/dl/detect.html
+      - title:  视频分类
+        url:    /assets/category/cv/dl/video_classify.html
+      - title:  分割
+        url:    /assets/category/cv/dl/segment.html
+      - title:  人脸验证
+        url:    /assets/category/cv/dl/face_verify.html
+      - title:  人脸识别
+        url:    /assets/category/cv//dl/face_recognize.html
+      - title:  迁移学习
+        url:    /assets/category/cv/dl/transfer.html
+      - title:  训练优化
+        url:    /index.html
+
+DLFramework:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+  - title:      深度学习框架
+    children:
+      - title:  基础知识
+        url:    /assets/category/cv/dl_framework/base.html
+      - title:  Caffe
+        url:    /assets/category/cv/dl_framework/caffe.html
+      - title:  MxNet
+        url:    /assets/category/cv/dl_framework/mxnet.html
+      - title:  Pytorch
+        url:    /assets/category/cv/dl_framework/pytorch.html
+      - title:  Tensoflow
+        url:    /assets/category/cv/dl_framework/tensorflow.html
+
+ImageProcess:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+  - title:      图像处理
+    children:
+      - title:  Opencv
+        url:    /assets/category/cv/image_process/opencv.html
+      - title:  数字图像处理
+        url:    /assets/category/cv/image_process/digital.html
+
+
+数据结构与算法:
+  - title:      数据结构与算法
+    children:
+      - title:  数据结构
+        url:    /assets/category/algorithms/data_structure/base.html
+      - title:  算法
+        url:    /assets/category/algorithms/algorithms/base.html
+
+DataStructure:
+  - title:  
+    children:
+      - title:  上一页
+        url:    /index.html
+  - title:      
+    children:
+      - title:  入门
+        url:    /index.html
+      - title:  数组
+        url:    /index.html
+      - title:  树
+        url:    /assets/category/programming/algorithms/data_structure/tree.html
+      - title:  图
+        url:    /index.html
+
+ML:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+
+  - title:  监督学习
+    children:
+      - title:  分类
+        url:    /assets/category/cv/ml/classify.html
+      - title:  回归
+        url:    /index.html
+      - title:  集成
+        url:    /index.html
+
+  - title:  无监督学习
+    children:
+      - title:  聚类
+        url:    /index.html
+      - title:  回归
+        url:    /index.html
+  - title:  
+    children:
+      - title:  降维
+        url:    /index.html
+      - title:  结构预测
+        url:    /index.html
+      - title:  异常检测
+        url:    /index.html
+      - title:  神经网络
+        url:    /index.html
+      - title:  强化学习
+        url:    /index.html
+
+  - title:  
+    children:
+      - title:  理论
+        url:    /index.html
+
+
+ML_DecisionTree:
+  - title:  决策树
+    children:
+      - title:  Hunt
+        url:    /index.html
+      - title:  ID3
+        url:    /index.html
+      - title:  Gini Index
+        url:    /index.html
+      - title:  信息增益
+        url:    /index.html
+      - title:  分类误差
+        url:    /index.html
+      - title:  C4.5
+        url:    /index.html
+      - title:  CART
+        url:    /index.html
+
+ML_Integration:
+  - title:  集成
+    children:
+      - title:  随机森林
+        url:    /index.html
+      - title:  Bootstrap
+        url:    /index.html
+      - title:  AdaBoost
+        url:    /index.html
+      - title:  Bagging/装袋
+        url:    https://zh.wikipedia.org/wiki/Bagging%E7%AE%97%E6%B3%95
+      - title:  Boosting/提升
+        url:    https://zh.wikipedia.org/wiki/%E6%8F%90%E5%8D%87%E6%96%B9%E6%B3%95
+
+ML_classification:
+  - title:  分类
+    children:
+      - title:  分类任务及其评价
+        url:    /index.html
+      - title:  较大熵模型（Softmax）
+        url:    /index.html
+      - title:  感知机算法
+        url:    https://zh.wikipedia.org/wiki/%E6%84%9F%E7%9F%A5%E5%99%A8
+      - title:  支持向量机/SVM
+        url:    https://zh.wikipedia.org/wiki/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA
+      - title:  相关向量机/RVM
+        url:    https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%85%B3%E5%90%91%E9%87%8F%E6%9C%BA
+      - title:  kNN
+        url:    /index.html
+      - title:  kd-tree
+        url:    /index.html
+      - title:  quad-tree
+        url:    /index.html
+
+ML_regression:
+  - title:  回归
+    children:
+      - title:  线性回归
+        url:    https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8
+      - title:  多元回归
+        url:    /index.html
+      - title:  多项式回归
+        url:    /index.html
+      - title:  非线性回归
+        url:    /index.html
+      - title:  多重共线性
+        url:    /index.html
+      - title:  岭回归与LASSO
+        url:    /index.html
+      - title:  逻辑回归
+        url:    https://zh.wikipedia.org/wiki/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92
+      - title:  朴素贝叶斯
+        url:    https://zh.wikipedia.org/wiki/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB%E5%99%A8
+      - title:  神经网络
+        url:    https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C
+      - title:  过拟合与正则化
+        url:    /index.html
+
+ML_clustering:
+  - title:  聚类算法
+    children:
+      - title:  k-means
+        url:    https://zh.wikipedia.org/wiki/K-%E5%B9%B3%E5%9D%87%E7%AE%97%E6%B3%95
+      - title:  k-median
+        url:    /index.html
+      - title:  期望较大化算法（EM）
+        url:    https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E6%9C%9F%E6%9C%9B%E7%AE%97%E6%B3%95
+      - title:  BIRCH
+        url:    https://zh.wikipedia.org/wiki/BIRCH
+      - title:  层次
+        url:    https://zh.wikipedia.org/w/index.php?title=%E5%B1%82%E6%AC%A1%E8%81%9A%E7%B1%BB&action=edit&redlink=1
+      - title:  DBSCAN
+        url:    https://zh.wikipedia.org/wiki/DBSCAN
+      - title:  OPTICS
+        url:    https://zh.wikipedia.org/wiki/OPTICS
+      - title:  均值飘移
+        url:    /index.html
+
+ML_PCA:
+  - title:  降维
+    children:
+      - title:  因子分析
+        url:    https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8
+      - title:  CCA
+        url:    https://zh.wikipedia.org/wiki/%E5%85%B8%E5%9E%8B%E7%9B%B8%E5%85%B3%E5%88%86%E6%9E%90
+      - title:  ICA
+        url:    https://zh.wikipedia.org/wiki/%E7%8B%AC%E7%AB%8B%E6%88%90%E5%88%86%E5%88%86%E6%9E%90
+      - title:  LDA
+        url:    https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%88%A4%E5%88%A5%E5%88%86%E6%9E%90
+      - title:  NMF
+        url:    /index.html
+      - title:  PCA
+        url:    https://zh.wikipedia.org/wiki/%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90
+      - title:  LASSO
+        url:    https://zh.wikipedia.org/wiki/Lasso%E7%AE%97%E6%B3%95
+      - title:  t-SNE
+        url:    /index.html
+
+ML_structure:
+  - title:  结构预测
+    children:
+      - title:  概率图模型
+        url:    https://zh.wikipedia.org/wiki/%E6%A6%82%E7%8E%87%E5%9B%BE%E6%A8%A1%E5%9E%8B
+      - title:  贝叶斯网络
+        url:    https://zh.wikipedia.org/wiki/%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%BD%91%E7%BB%9C
+      - title:  CRF
+        url:    https://zh.wikipedia.org/wiki/%E6%9D%A1%E4%BB%B6%E9%9A%8F%E6%9C%BA%E5%9C%BA
+      - title:  HMM
+        url:    https://zh.wikipedia.org/wiki/%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E6%A8%A1%E5%9E%8B
+
+ML_anomaly_detection:
+  - title:  异常检测
+    children:
+      - title:  kNN
+        url:    /index.html
+      - title:  kd-tree
+        url:    /index.html
+      - title:  quad-tree
+        url:    /index.html
+      - title:  局部离群因子
+        url:    /index.html
+
+ML_cnn:
+  - title:  神经网络
+    children:
+      - title:  深度学习
+        url:    https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0
+      - title:  RNN
+        url:    https://zh.wikipedia.org/wiki/%E9%80%92%E5%BD%92%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C
+
+ML_RL:
+  - title:  强化学习
+    children:
+      - title:  Q学习
+        url:    https://zh.wikipedia.org/wiki/Q%E5%AD%A6%E4%B9%A0
+      - title:  SARSA
+        url:    /index.html
+      - title:  时间差分学习
+        url:    /index.html
+      - title:  深度强化学习
+        url:    https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0
+
+ML_base:
+  - title:  理论
+    children:
+      - title:  偏差/方差困境
+        url:    /index.html
+      - title:  计算学习理论
+        url:    /index.html
+      - title:  经验风险最小化
+        url:    /index.html
+      - title:  PAC学习
+        url:    /index.html
+      - title:  统计学习
+        url:    https://zh.wikipedia.org/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%90%86%E8%AE%BA
+      - title:  VC理论
+        url:    https://zh.wikipedia.org/wiki/VC%E7%90%86%E8%AE%BA
+
+DS_Tree:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /assets/category/algorithms/data_structure/base.html
+  - title:  二叉树
+    children:
+      - title:  二叉查找树（BST）
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  笛卡尔树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  MVP树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Top tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  T树
+        url:    /assets/category/algorithms/data_structure/tree.html
+  - title:  自平衡二叉查找树
+    children:
+      - title:  AA树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  AVL树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  左倾红黑树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  红黑树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  替罪羊树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  伸展树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  树堆
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  加权平衡树
+        url:    /assets/category/algorithms/data_structure/tree.html
+  - title:  B树
+    children:
+      - title:  B+树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  B*树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Bx树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  UB树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  2-3树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  2-3-4树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  (a,b)-树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Dancing tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  H树
+        url:    /assets/category/algorithms/data_structure/tree.html
+  - title:  堆
+    children:
+      - title:  二叉堆
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  二项堆
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  斐波那契堆
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  左偏树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  配对堆
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  斜堆
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Van Emde Boas tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+  - title:  Trie
+    children:
+      - title:  后缀树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  基数树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  三叉查找树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  X-快速前缀树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Y-快速前缀树
+        url:    /assets/category/algorithms/data_structure/tree.html
+  - title:  二叉空间分割（BSP）树
+    children:
+      - title:  四叉树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  八叉树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  k-d树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  隐式k-d树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  VP树
+        url:    /assets/category/algorithms/data_structure/tree.html
+  - title:  非二叉树
+    children:
+      - title:  指数树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  融合树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  区间树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  PQ树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Range tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  SPQR树
+        url:    /assets/category/algorithms/data_structure/tree.html
+  - title:  空间数据分割树
+    children:
+      - title:  R树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  R*树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  R+树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  M树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  线段树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  希尔伯特R树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  优先R树
+        url:    /assets/category/algorithms/data_structure/tree.html
+  - title:  其他树
+    children:
+      - title:  散列日历
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  散列树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Finger tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  顺序统计树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Metric tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Cover tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  BK树
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Doubly chained tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  iDistance Link-cut tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Log-structured merge-tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  树状数组
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Metric tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  Cover tree
+        url:    /assets/category/algorithms/data_structure/tree.html
+      - title:  BK树
+        url:    /assets/category/algorithms/data_structure/tree.html
+
+
 Algorithms:
   - title:      数据结构与算法
     children:
       - title:  入门
-        url:    /404.html
+        url:    /index.html
       - title:  基本算法
-        url:    /404.html
-      - title:  数组
-        url:    /404.html
-      - title:  树
-        url:    /404.html
+        url:    /index.html
       - title:  排序
-        url:    /404.html
+        url:    /index.html
       - title:  查找
-        url:    /404.html
+        url:    /index.html
       - title:  分治
-        url:    /404.html
+        url:    /index.html
       - title:  回溯
-        url:    /404.html
+        url:    /index.html
       - title:  递归
-        url:    /404.html
-      - title:  数据结构
-        url:    /404.html
+        url:    /index.html
       - title:  搜索
-        url:    /404.html
+        url:    /index.html
       - title:  哈希
-        url:    /404.html
+        url:    /index.html
       - title:  贪心
-        url:    /404.html
+        url:    /index.html
       - title:  组合数学
-        url:    /404.html
+        url:    /index.html
       - title:  书论
-        url:    /404.html
+        url:    /index.html
       - title:  计算方法
-        url:    /404.html
-      - title:      图
-        url:    /404.html
+        url:    /index.html
+
+
+English:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+
+  - title:  
+    children:
+      - title:  语法
+        url:    /assets/category/foundation/english/grammar.html
+
+LinearAlgebra:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+
+Calculus:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+
+Probaility:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+
+MatrixTheory:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html

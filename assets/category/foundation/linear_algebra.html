@@ -1,0 +1,29 @@
+---
+layout: articles
+titles:
+    en:       Linear Algebra
+    zh:       线性代数
+    zh-Hans:  线性代数
+    zh-Hant:  线性代数
+sidebar:
+    nav: LinearAlgebra
+---
+
+<div class="layout--archive js-all">
+  {%- include tags.html -%}
+  <div class="js-result layout--archive__result d-none">
+    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
+  </div>
+</div>
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "线性代数" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

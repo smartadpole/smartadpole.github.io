@@ -16,13 +16,15 @@ titles:
 
 <ul>
     {% for cat in site.categories %}
-    <h2>{{ cat[0] }}</h2>
-    {% for post in cat[1] %}
-    <li>
-      {{post.date | date:"%d/%m/%Y"}}
-      <font size="1"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
-    </li>
-    {% endfor %}
+        {% if cat[0] != "-" %}
+            <h3 >{{ cat[0] }}</h3>
+            {% for post in cat[1] %}
+            <li>
+               {{post.date | date:"%d/%m/%Y"}}
+               <font size="1"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+            </li>
+            {% endfor %}
+        {% endif %}
     {% endfor %}
 </ul>
 
@@ -43,6 +45,18 @@ function getCategory(curTag)
 //document.getElementById("o").innerHTML = getCategory("工具");
 </script>
 
+<script>
+function checkStr(str)
+{
+    var index = -1;
+    var reg = RegExp(/-/);
+    if(str.match(reg)){
+        index = 1      
+    }
+    return index
+}
+//document.getElementById("o").innerHTML = getCategory("工具");
+</script>
 
 <script>
 

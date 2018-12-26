@@ -1,10 +1,12 @@
 ---
 layout: articles
 titles:
-    en:       Paper Practice
-    zh:       论文实践
-    zh-Hans:  论文实践
-    zh-Hant:  论文实践
+    en:       Meta Learning
+    zh:       元学习
+    zh-Hans:  元学习
+    zh-Hant:  元学习
+sidebar:
+    nav: DL
 ---
 
 <div class="layout--archive js-all">
@@ -16,7 +18,7 @@ titles:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "论文实践" %}
+        {% if cat[0] == "元学习" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

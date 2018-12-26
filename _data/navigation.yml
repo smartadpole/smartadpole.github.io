@@ -125,6 +125,8 @@ DL:
         url:    /assets/category/cv//dl/face_recognize.html
       - title:  迁移学习
         url:    /assets/category/cv/dl/transfer.html
+      - title:  元学习
+        url:    /assets/category/cv//dl/meta_learning.html
       - title:  训练优化
         url:    /index.html
 

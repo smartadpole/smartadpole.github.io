@@ -39,6 +39,8 @@ docs-en:
         url:    /assets/category/cv/ml.html
       - title:  深度学习
         url:    /assets/category/cv/dl.html
+      - title:  GAN
+        url:    /index.html
       - title:  深度学习框架
         url:    /assets/category/cv/dl_framework.html
 
@@ -127,8 +129,11 @@ DL:
         url:    /assets/category/cv/dl/transfer.html
       - title:  元学习
         url:    /assets/category/cv//dl/meta_learning.html
-      - title:  训练优化
+      - title:  多模态融合
         url:    /index.html
+      - title:  训练优化
+        url:    /assets/category/cv//dl/train.html
+
 
 DLFramework:
   - title:  

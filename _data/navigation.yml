@@ -92,7 +92,11 @@ Programming:
         url:    /assets/category/programming/base/base.html
 
 Python:
-  - title:      Python
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+  - title:      
     children:
       - title:  基础
         url:    /index.html

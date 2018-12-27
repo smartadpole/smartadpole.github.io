@@ -2,7 +2,7 @@
 layout: article
 title:  "「论文解读」DocFace: Matching ID Document Photos to Selfies"
 date:   2018-10-29 10:18:40 +0800
-key: DocFace-20181029
+key: docFace-20181029
 aside:
   toc: true
 tags: 孪生网络 图像检索

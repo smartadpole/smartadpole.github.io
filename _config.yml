@@ -138,7 +138,7 @@ comments:
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
     clientID    : 69ae13df693e3d1f8359 # GitHub Application Client ID
-    clientSecret: 342c2f2dc4185b83ae31f90d0d3bc1eff35d63df # GitHub Application Client Secret
+    clientSecret: d0d773895ee85c8f860af4fdbd1146813d1c3498 # GitHub Application Client Secret
     repository  : smartadpole.github.io # GitHub repo
     owner       : smartadpole # GitHub repo owner
     admin:  # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.

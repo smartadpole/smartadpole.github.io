@@ -188,9 +188,7 @@ First-Order MAML (FOMAML)
 2. Brenden M. Lake, Ruslan Salakhutdinov, and Joshua B. Tenenbaum. [“Human-level concept learning through probabilistic program induction.”](https://www.cs.cmu.edu/~rsalakhu/papers/LakeEtAl2015Science.pdf) Science 350.6266 (2015): 1332-1338.  
 3. Oriol Vinyals’ talk on [“Model vs Optimization Meta Learning”]()  
 4. Gregory Koch, Richard Zemel, and Ruslan Salakhutdinov. [“Siamese neural networks for one-shot image recognition.”](http://metalearning-symposium.ml/files/vinyals.pdf) ICML Deep Learning Workshop. 2015.  
-8. Adam Santoro, et al. [“Meta-learning with memory-augmented neural networks.”](http://proceedings.mlr.press/v48/santoro16.pdf) ICML. 2016.  
 9. Alex Graves, Greg Wayne, and Ivo Danihelka. [“Neural turing machines.”](https://arxiv.org/abs/1410.5401) arXiv preprint arXiv:1410.5401 (2014).  
-10. Tsendsuren Munkhdalai and Hong Yu. [“Meta Networks.”](https://arxiv.org/abs/1703.00837) ICML. 2017.
 12. Chelsea Finn’s BAIR blog on [“Learning to Learn”](https://arxiv.org/abs/1703.03400).  
 15. [Slides on Reptile](https://www.slideshare.net/YoonhoLee4/on-firstorder-metalearning-algorithms) by Yoonho Lee.  
 

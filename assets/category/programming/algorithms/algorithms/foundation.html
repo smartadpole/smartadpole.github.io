@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       C++
-    zh:       C++
-    zh-Hans:  C++
-    zh-Hant:  C++
+    en:       Algorithms
+    zh:       算法
+    zh-Hans:  算法
+    zh-Hant:  算法
 sidebar:
-    nav: C++
+    nav: Algorithms
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "c++基础" %}
+        {% if cat[0] == "Algorithms" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

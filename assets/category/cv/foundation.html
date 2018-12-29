@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Image Classification
-    zh:       图像分类
-    zh-Hans:  图像分类
-    zh-Hant:  图像分类
+    en:       Foundation of DeepLearning
+    zh:       深度学习基础
+    zh-Hans:  深度学习基础
+    zh-Hant:  深度學習基礎
 sidebar:
     nav: CV
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "ImageClassification" %}
+        {% if cat[0] == "CVFoundation" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

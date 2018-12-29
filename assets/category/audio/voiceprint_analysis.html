@@ -1,18 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       Progromming
-    zh:       编程基础
-    zh-Hans:  编程基础
-    zh-Hant:  编程基础
+    en:       Voiceprint Analysis
+    zh:       声纹识别
+    zh-Hans:  声纹识别
+    zh-Hant:  声纹识别
 sidebar:
-    nav: Programming
+    nav: AUDIO
 ---
-
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "编程基础" %}
+        {% if cat[0] == "VoiceprintAnalysis" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

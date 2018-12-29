@@ -1,7 +1,7 @@
 ---
 layout: articles
 titles:
-    en:       Face Verify
+    en:       Face Verification
     zh:       人脸验证
     zh-Hans:  人脸验证
     zh-Hant:  人脸验证
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "人脸验证" %}
+        {% if cat[0] == "FaceVerification" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

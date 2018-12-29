@@ -16,7 +16,7 @@ titles:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "sklearn" %}
+        {% if cat[0] == "Sklearn" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

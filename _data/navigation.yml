@@ -25,7 +25,7 @@ docs-en:
       - title:  数据结构与算法
         url:    /assets/category/programming/alg_ds.html
       - title:  编程基础
-        url:    /assets/category/programming/base.html
+        url:    /assets/category/programming/foundation.html
       - title:  C++
         url:    /assets/category/programming/cpp.html
       - title:  python
@@ -40,7 +40,7 @@ docs-en:
       - title:  理论
         url:    /assets/category/image_process/image_process.html
       - title:  opencv
-        url:    /index.html
+        url:    /assets/category/image_process/opencv.html
 
   - title:      机器学习
     children:
@@ -101,7 +101,7 @@ C++:
   - title:      
     children:
       - title:  基础知识
-        url:    /assets/category/programming/cpp/base.html
+        url:    /assets/category/programming/cpp/foundation.html
 
 Programming:
   - title:  
@@ -111,7 +111,7 @@ Programming:
   - title:      
     children:
       - title:  基础知识
-        url:    /assets/category/programming/base/base.html
+        url:    /assets/category/programming/foundation/foundation.html
 
 Python:
   - title:  
@@ -158,7 +158,7 @@ CV:
   - title:      
     children:
       - title:  基础知识
-        url:    /assets/category/cv/base.html
+        url:    /assets/category/cv/foundation.html
       - title:  图像分类
         url:    /assets/category/cv/image_classify.html
       - title:  目标检测
@@ -184,6 +184,14 @@ AUDIO:
       - title:  上一层
         url:    /index.html
 
+  - title:      
+    children:
+      - title:  声纹识别
+        url:    /assets/category/audio/voiceprint_analysis.html
+      - title:  语音识别
+        url:    /assets/category/audio/audio_analysis.html
+
+
 NLP:
   - title:  
     children:
@@ -199,7 +207,7 @@ DLFramework:
   - title:      
     children:
       - title:  基础知识
-        url:    /assets/category/cv/dl_framework/base.html
+        url:    /assets/category/cv/dl_framework/foundation.html
       - title:  Caffe
         url:    /assets/category/cv/dl_framework/caffe.html
       - title:  MxNet
@@ -209,11 +217,18 @@ DLFramework:
       - title:  Tensoflow
         url:    /assets/category/cv/dl_framework/tensorflow.html
 
+OpenCV:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+
 ImageProcess:
   - title:  
     children:
       - title:  上一层
         url:    /index.html
+
   - title:      图像处理
     children:
       - title:  Opencv
@@ -226,15 +241,16 @@ ImageProcess:
   - title:      数据结构与算法
     children:
       - title:  数据结构
-        url:    /assets/category/algorithms/data_structure/base.html
+        url:    /assets/category/algorithms/data_structure/foundation.html
       - title:  算法
-        url:    /assets/category/algorithms/algorithms/base.html
+        url:    /assets/category/algorithms/algorithms/foundation.html
 
 DataStructure:
   - title:  
     children:
       - title:  上一页
         url:    /index.html
+
   - title:      
     children:
       - title:  入门
@@ -456,7 +472,7 @@ ML_RL:
       - title:  深度强化学习
         url:    https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0
 
-ML_base:
+ML_foundation:
   - title:  理论
     children:
       - title:  偏差/方差困境
@@ -476,7 +492,7 @@ DS_Tree:
   - title:  
     children:
       - title:  上一层
-        url:    /assets/category/algorithms/data_structure/base.html
+        url:    /assets/category/algorithms/data_structure/foundation.html
   - title:  二叉树
     children:
       - title:  二叉查找树（BST）

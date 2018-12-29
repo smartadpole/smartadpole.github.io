@@ -6,7 +6,7 @@ key: docFace-pactice-20181030
 aside:
   toc: true
 tags: 孪生网络
-categories: [计算机视觉, 人脸验证, 论文实践]
+categories: [CV, FaceVerification, PaperPractice]
 ---
 
 >论文发表时间：2018年5月  

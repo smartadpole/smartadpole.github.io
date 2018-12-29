@@ -1,16 +1,16 @@
 ---
 layout: articles
 titles:
-    en:       Docker
-    zh:       Docker
-    zh-Hans:  Docker
-    zh-Hant:  Docker
+    en:       Pytorch
+    zh:       Pytorch
+    zh-Hans:  Pytorch
+    zh-Hant:  Pytorch
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "Docker" %}
+        {% if cat[0] == "Pytorch" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

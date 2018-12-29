@@ -108,7 +108,7 @@ LaTeX: true
 ASCIIMathML: true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true # false (default), true
 
 ## Chart
 chart: # false (default), true

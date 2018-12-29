@@ -6,7 +6,7 @@ key: retrival-faster-rcnn-20181018
 aside:
   toc: true
 tags: Faster-RCNN
-category: [计算机视觉, 目标检测, 论文解读]
+category: [CV, Detect, PaperReading]
 ---
 https://blog.csdn.net/dengbingfeng/article/details/51453851
 https://zhuanlan.zhihu.com/p/33625603

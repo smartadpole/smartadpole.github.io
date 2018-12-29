@@ -6,7 +6,7 @@ key: docFace-20181029
 aside:
   toc: true
 tags: 孪生网络 图像检索
-categories: [计算机视觉, 人脸验证, 迁移学习, 论文解读]
+categories: [CV, FaceRecognization, TransferLearning, PaperReading]
 ---
 
 >论文发表时间：2018年5月  

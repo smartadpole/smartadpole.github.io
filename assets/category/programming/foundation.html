@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Foundation of DeepLearning
-    zh:       深度学习基础
-    zh-Hans:  深度学习基础
-    zh-Hant:  深度學習基礎
+    en:       Programming
+    zh:       编程基础
+    zh-Hans:  编程基础
+    zh-Hant:  编程基础
 sidebar:
-    nav: CV
+    nav: Programming
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "深度学习基础" %}
+        {% if cat[0] == "ProgrammingFoundation" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

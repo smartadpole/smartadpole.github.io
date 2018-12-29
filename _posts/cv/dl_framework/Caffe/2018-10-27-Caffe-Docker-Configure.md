@@ -6,7 +6,7 @@ key: caffe-docker-abc-20181027
 aside:
   toc: true
 tags: 开发环境
-categories: [工具, Caffe, Docker, 深度学习框架]
+categories: [Tools, Caffe, Docker, DLFrameworks]
 ---
 ## 一、Docker 安装  
 [docker 安装教程]({{ "/2018/10/27/Docker-入门.html" }})  

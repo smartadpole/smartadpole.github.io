@@ -30,19 +30,41 @@ docs-en:
         url:    /assets/category/programming/cpp.html
       - title:  python
         url:    /assets/category/programming/python.html
+      - title:  设计模式
+        url:    /assets/category/programming/design_pattern.html
+      - title:  软件测试
+        url:    /assets/category/programming/software_test.html
 
-  - title:      计算机视觉
+  - title:      图像处理
     children:
-      - title:  图像处理
-        url:    /assets/category/cv/image_process.html
-      - title:  机器学习
-        url:    /assets/category/cv/ml.html
-      - title:  深度学习
-        url:    /assets/category/cv/dl.html
-      - title:  GAN
+      - title:  理论
+        url:    /assets/category/image_process/image_process.html
+      - title:  opencv
         url:    /index.html
+
+  - title:      机器学习
+    children:
+      - title:  特征工程
+        url:    /assets/category/ml/feature_engineering.html
+      - title:  模型评估
+        url:    /assets/category/ml/model_assessment.html
+      - title:  经典机器学习
+        url:    /assets/category/ml/ml.html
+      - title:  深度学习
+        url:    /assets/category/ml/dl.html
+      - title:  强化学习
+        url:    /assets/category/ml/reinforcement_learning.html
       - title:  深度学习框架
-        url:    /assets/category/cv/dl_framework.html
+        url:    /assets/category/ml/dl_framework.html
+
+  - title:      应用
+    children:
+      - title:  计算机视觉
+        url:    /assets/category/cv/cv.html
+      - title:  自然语言处理
+        url:    /assets/category/NLP/NLP.html
+      - title:  语音识别
+        url:    /assets/category/audio/audio.html
 
   - title:      学习
     children:
@@ -107,8 +129,28 @@ Python:
       - title:  numpy
         url:    /index.html
 
-
 DL:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+
+  - title:  
+    children:
+      - title:  正则化
+        url:    /assets/category/ml/dl/regularization.html
+      - title:  优化算法
+        url:    /assets/category/ml/dl/optimization.html
+      - title:  前向神经网络
+        url:    /assets/category/ml/dl/forward_net.html
+      - title:  卷积神经网络
+        url:    /assets/category/ml/dl/cnn.html
+      - title:  循环神经网络
+        url:    /assets/category/ml/dl/rnn.html
+      - title:  生成对抗网络
+        url:    /assets/category/ml/dl/gan.html
+
+CV:
   - title:  
     children:
       - title:  上一层
@@ -116,27 +158,37 @@ DL:
   - title:      
     children:
       - title:  基础知识
-        url:    /assets/category/cv/dl/base.html
+        url:    /assets/category/cv/base.html
       - title:  图像分类
-        url:    /assets/category/cv/dl/image_classify.html
+        url:    /assets/category/cv/image_classify.html
       - title:  目标检测
-        url:    /assets/category/cv/dl/detect.html
+        url:    /assets/category/cv/detect.html
       - title:  视频分类
-        url:    /assets/category/cv/dl/video_classify.html
+        url:    /assets/category/cv/video_classify.html
       - title:  分割
-        url:    /assets/category/cv/dl/segment.html
+        url:    /assets/category/cv/segment.html
       - title:  人脸验证
-        url:    /assets/category/cv/dl/face_verify.html
+        url:    /assets/category/cv/face_verify.html
       - title:  人脸识别
-        url:    /assets/category/cv//dl/face_recognize.html
+        url:    /assets/category/cv/face_recognize.html
       - title:  迁移学习
-        url:    /assets/category/cv/dl/transfer.html
+        url:    /assets/category/cv/transfer.html
       - title:  元学习
-        url:    /assets/category/cv//dl/meta_learning.html
+        url:    /assets/category/cv/meta_learning.html
       - title:  多模态融合
+        url:    /assets/category/cv/multimodal.html
+
+AUDIO:
+  - title:  
+    children:
+      - title:  上一层
         url:    /index.html
-      - title:  训练优化
-        url:    /assets/category/cv//dl/train.html
+
+NLP:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
 
 
 DLFramework:
@@ -144,7 +196,7 @@ DLFramework:
     children:
       - title:  上一层
         url:    /index.html
-  - title:      深度学习框架
+  - title:      
     children:
       - title:  基础知识
         url:    /assets/category/cv/dl_framework/base.html
@@ -206,8 +258,11 @@ ML:
         url:    /assets/category/cv/ml/classify.html
       - title:  回归
         url:    /index.html
-      - title:  集成
+      - title:  决策树
         url:    /index.html
+      - title:  概率图
+        url:    /index.html
+
 
   - title:  无监督学习
     children:
@@ -215,17 +270,24 @@ ML:
         url:    /index.html
       - title:  回归
         url:    /index.html
+      - title:  高斯混合模型
+        url:    /index.html
+      - title:  自组织映射神经网络
+        url:    /index.html
+
   - title:  
     children:
       - title:  降维
+        url:    /index.html
+      - title:  集成
+        url:    /index.html
+      - title:  采样
         url:    /index.html
       - title:  结构预测
         url:    /index.html
       - title:  异常检测
         url:    /index.html
       - title:  神经网络
-        url:    /index.html
-      - title:  强化学习
         url:    /index.html
 
   - title:  

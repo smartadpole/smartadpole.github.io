@@ -1,17 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Python
-    zh:       Python
-    zh-Hans:  Python
-    zh-Hant:  Python
+    en:       Design Pattern
+    zh:       设计模式
+    zh-Hans:  设计模式
+    zh-Hant:  设计模式
 sidebar:
-    nav: Python
+    nav: docs-en
 ---
+
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "python" %}
+        {% if cat[0] == "设计模式" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

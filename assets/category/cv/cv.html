@@ -1,17 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Python
-    zh:       Python
-    zh-Hans:  Python
-    zh-Hant:  Python
+    en:       Computer Vision
+    zh:       计算机视觉
+    zh-Hans:  计算机视觉
+    zh-Hant:  计算机视觉
 sidebar:
-    nav: Python
+    nav: CV
 ---
+
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "python" %}
+        {% if cat[0] == "计算机视觉" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

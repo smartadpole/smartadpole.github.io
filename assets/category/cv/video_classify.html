@@ -1,17 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Python
-    zh:       Python
-    zh-Hans:  Python
-    zh-Hant:  Python
+    en:       Video Classification
+    zh:       视频分类
+    zh-Hans:  视频分类
+    zh-Hant:  视频分类
 sidebar:
-    nav: Python
+    nav: CV
 ---
+
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "python" %}
+        {% if cat[0] == "视频分类-DL" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

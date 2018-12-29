@@ -1,10 +1,12 @@
 ---
 layout: articles
 titles:
-    en:       Sklearn
-    zh:       Sklearn
-    zh-Hans:  Sklearn
-    zh-Hant:  Sklearn
+    en:       Audio Analysis
+    zh:       语音识别
+    zh-Hans:  语音识别
+    zh-Hant:  语音识别
+sidebar:
+    nav: AUDIO
 ---
 
 <div class="layout--archive js-all">
@@ -16,7 +18,7 @@ titles:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "sklearn" %}
+        {% if cat[0] == "语音识别" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

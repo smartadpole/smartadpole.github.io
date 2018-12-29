@@ -1,17 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Python
-    zh:       Python
-    zh-Hans:  Python
-    zh-Hant:  Python
+    en:       Generation Antagonistic Networks
+    zh:       生成对抗网络
+    zh-Hans:  生成对抗网络
+    zh-Hant:  生成对抗网络
 sidebar:
-    nav: Python
+    nav: DL
 ---
+
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "python" %}
+        {% if cat[0] == "生成对抗网络" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

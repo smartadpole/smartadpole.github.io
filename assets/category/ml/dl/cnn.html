@@ -1,17 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       Python
-    zh:       Python
-    zh-Hans:  Python
-    zh-Hant:  Python
+    en:       Convolutional Networks
+    zh:       卷积网络
+    zh-Hans:  卷积网络
+    zh-Hant:  卷积网络
 sidebar:
-    nav: Python
+    nav: DL
 ---
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "python" %}
+        {% if cat[0] == "卷积网络" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

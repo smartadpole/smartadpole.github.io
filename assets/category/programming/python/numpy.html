@@ -1,22 +1,16 @@
 ---
 layout: articles
 titles:
-    en:       Docker
-    zh:       Docker
-    zh-Hans:  Docker
-    zh-Hant:  Docker
+    en:       Numpy
+    zh:       Numpy
+    zh-Hans:  Numpy
+    zh-Hant:  Numpy
 ---
 
-<div class="layout--archive js-all">
-  {%- include tags.html -%}
-  <div class="js-result layout--archive__result d-none">
-    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
-  </div>
-</div>
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "Docker" %}
+        {% if cat[0] == "numpy" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

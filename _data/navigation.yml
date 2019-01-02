@@ -47,7 +47,7 @@ docs-en:
       - title:  特征工程
         url:    /assets/category/ml/feature_engineering.html
       - title:  模型评估
-        url:    /assets/category/ml/model_assessment.html
+        url:    /assets/category/ml/model_evaluation.html
       - title:  经典机器学习
         url:    /assets/category/ml/ml.html
       - title:  深度学习
@@ -102,6 +102,12 @@ C++:
     children:
       - title:  基础知识
         url:    /assets/category/programming/cpp/foundation.html
+      - title:  STL
+        url:    /assets/category/programming/cpp/STL.html
+      - title:  专题
+        url:    /assets/category/programming/cpp/advanced.html
+      - title:  并行编程
+        url:    /assets/category/programming/cpp/parallel.html
 
 Programming:
   - title:  
@@ -121,13 +127,27 @@ Python:
   - title:      
     children:
       - title:  基础
-        url:    /index.html
+        url:    /assets/category/programming/python/foundation.html
       - title:  matplote
-        url:    /index.html
+        url:    /assets/category/programming/python/matplote.html
       - title:  sklearn
-        url:    /index.html
+        url:    /assets/category/programming/python/sklearn.html
       - title:  numpy
-        url:    /index.html
+        url:    /assets/category/programming/python/numpy.html
+      - title:  SciPy
+        url:    /assets/category/programming/python/scipy.html
+      - title:  Pandas
+        url:    /assets/category/programming/python/pandas.html
+      - title:  Traits
+        url:    /assets/category/programming/python/traits.html
+      - title:  TVTK & Mayavi
+        url:    /assets/category/programming/python/tvtk_mayavi.html
+      - title:  OpenCV
+        url:    /assets/category/programming/python/opencv.html
+      - title:  Cython
+        url:    /assets/category/programming/python/cython.html
+      - title:  PyAV
+        url:    /assets/category/programming/python/pyav.html
 
 DL:
   - title:  

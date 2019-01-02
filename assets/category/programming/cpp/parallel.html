@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       C++ Foundation
-    zh:       C++ 基础
-    zh-Hans:  C++ 基础
-    zh-Hant:  C++ 基础
+    en:       C++ Parallel Programming
+    zh:       C++ 并行编程
+    zh-Hans:  C++ 并行编程
+    zh-Hant:  C++ 并行编程
 sidebar:
     nav: C++
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "CppFoundation" %}
+        {% if cat[0] == "CppParallel" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

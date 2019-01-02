@@ -1,18 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       C++ Foundation
-    zh:       C++ 基础
-    zh-Hans:  C++ 基础
-    zh-Hant:  C++ 基础
+    en:       PyAV
+    zh:       PyAV
+    zh-Hans:  PyAV
+    zh-Hant:  PyAV
 sidebar:
-    nav: C++
+    nav: Python
 ---
-
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "CppFoundation" %}
+        {% if cat[0] == "PyAV" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

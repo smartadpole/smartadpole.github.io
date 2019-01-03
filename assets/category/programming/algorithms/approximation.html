@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Data Structure
-    zh:       数据结构
-    zh-Hans:  数据结构
-    zh-Hant:  數據結構
+    en:       Appoximation Algorithms
+    zh:       近似算法
+    zh-Hans:  近似算法
+    zh-Hant:  近似算法
 sidebar:
     nav: DataStructure
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "DataStructure" %}
+        {% if cat[0] == "AlgAppoximation" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

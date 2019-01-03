@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Data Structure
-    zh:       数据结构
-    zh-Hans:  数据结构
-    zh-Hant:  数据结构
+    en:       String
+    zh:       字符串
+    zh-Hans:  字符串
+    zh-Hant:  字符串
 sidebar:
     nav: DataStructure
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "DataStructure" %}
+        {% if cat[0] == "AlgString" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

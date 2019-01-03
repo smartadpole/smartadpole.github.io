@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Data Structure
-    zh:       数据结构
-    zh-Hans:  数据结构
-    zh-Hant:  数据结构
+    en:       Game Theory
+    zh:       博弈论
+    zh-Hans:  博弈论
+    zh-Hant:  博弈论
 sidebar:
     nav: DataStructure
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "DataStructure" %}
+        {% if cat[0] == "GameTheory" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

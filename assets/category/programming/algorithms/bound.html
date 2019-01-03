@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Algorithms
-    zh:       算法
-    zh-Hans:  算法
-    zh-Hant:  算法
+    en:       Branch and Bound Algorithms
+    zh:       分支限界法
+    zh-Hans:  分支限界法
+    zh-Hant:  分支限界法
 sidebar:
-    nav: Algorithms
+    nav: DataStructure
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "Algorithms" %}
+        {% if cat[0] == "AlgBound" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

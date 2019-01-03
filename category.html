@@ -7,13 +7,6 @@ titles:
     zh-Hant:  文章分類
 ---
 
-<div class="layout--archive js-all">
-  {%- include tags.html -%}
-  <div class="js-result layout--archive__result d-none">
-    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
-  </div>
-</div>
-
 <ul>
     {% for cat in site.categories %}
         {% if cat[0] != "-" %}
@@ -21,7 +14,7 @@ titles:
             {% for post in cat[1] %}
             <li>
                {{post.date | date:"%d/%m/%Y"}}
-               <font size="1"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+               <font size="5"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
             </li>
             {% endfor %}
         {% endif %}

@@ -2,14 +2,14 @@
 layout: article
 title:  "人声提取"
 date:   2018-12-29 8:16:40 +0800
-key: voice-diarization-20181229
+key: speaker-diarization-20181229
 aside:
   toc: true
 category: [Audio, VoiceprintAnalysis]
 ---
 
->目的：移除音频中的静默片段；  
-speaker diarization，基于声纹特征的方式将说话人的声音分离出来；  `中文到底该怎么翻译，或者我想要的简单的人声提取对应的英文术语是什么`{:.warning}  
+>又叫人声分离/割（speaker diarization）；  
+目的：基于声纹特征的方式将说话人的声音分离出来；   
 
 ## 一、 基本思路
 1. 语音分割：找到音频中发言人变化的点  

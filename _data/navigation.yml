@@ -249,13 +249,6 @@ ImageProcess:
       - title:  上一层
         url:    /index.html
 
-  - title:      图像处理
-    children:
-      - title:  Opencv
-        url:    /assets/category/cv/image_process/opencv.html
-      - title:  数字图像处理
-        url:    /assets/category/cv/image_process/digital.html
-
 
 DataStructure:
   - title:  

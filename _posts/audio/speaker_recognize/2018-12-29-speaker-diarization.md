@@ -9,7 +9,7 @@ category: [Audio, VoiceprintAnalysis]
 ---
 
 >又叫人声分离/割（speaker diarization）；  
-目的：基于声纹特征的方式将说话人的声音分离出来；   
+目的：基于声纹特征的方式将不同说话人的声音分离出来；   
 
 ## 一、 基本思路
 1. 语音分割：找到音频中发言人变化的点  
@@ -29,13 +29,13 @@ category: [Audio, VoiceprintAnalysis]
 
 
 ## 二、 Q&A [^1]
-1. 如果多人同时说话，频率叠加后，会被认为是新的发言者的声音；  
+:o: 如果多人同时说话，频率叠加后，会被认为是新的发言者的声音；  
 
-2. 与标准的监督学习分类任务不同的是，说话人分类模型需要对新出现的说话人有着足够鲁棒的识别和分类性能，而在训练的过程中却无法囊括现实中各式各样的说话人。这在很大程度上限制了语音识别系统特别是在线系统的实时能力；  
+:o: 与标准的监督学习分类任务不同的是，说话人分类模型需要对新出现的说话人有着足够鲁棒的识别和分类性能，而在训练的过程中却无法囊括现实中各式各样的说话人。这在很大程度上限制了语音识别系统特别是在线系统的实时能力；  
 
-3. 典型的聚类方法如k均值和谱聚类等非监督算法对于在线说话人识别时，应对不断输入的音频流很难有效聚类；  
+:o: 典型的聚类方法如k均值和谱聚类等非监督算法对于在线说话人识别时，应对不断输入的音频流很难有效聚类；  
 
-4. 聚类的表现对于整个 Speaker diarization 有着重要的作用，这种无监督的方法占主流的情况下我们无法通过语音样本的监督学习来改进这些算法；  
+:o: 聚类的表现对于整个 Speaker diarization 有着重要的作用，这种无监督的方法占主流的情况下我们无法通过语音样本的监督学习来改进这些算法；  
 
 
 ## 附录
@@ -44,7 +44,7 @@ category: [Audio, VoiceprintAnalysis]
 2. Accurate Online Speaker Diarization with Supervised Learning <https://ai.googleblog.com/2018/11/accurate-online-speaker-diarization.html>.  
 
 
-### B 开源的人生提取软件
+### B 开源的人声提取软件
 1. [ALIZE Speaker Diarization](https://en.wikipedia.org/w/index.php?title=ALIZE_Speaker_Diarization&action=edit&redlink=1) (last repository update: July 2016; last release: February 2013, version: 3.0): ALIZE Diarization System, developed at the University Of Avignon, a release 2.0 is available [2](http://alize.univ-avignon.fr/svn/LIA_RAL/branches/2.0/LIA_SpkSeg/).  
 2. [SpkDiarization](http://www-lium.univ-lemans.fr/diarization/doku.php/welcome%7CLIUM) (last release: September 2013, version: 8.4.1): LIUM_SpkDiarization tool [3](http://www-lium.univ-lemans.fr/fr/content/liumspkdiarization).  
 3. [Audioseg](https://en.wikipedia.org/w/index.php?title=Audioseg&action=edit&redlink=1) (last repository update: May 2014; last release: January 2010, version: 1.2): AudioSeg is a toolkit dedicated to audio segmentation and classification of audio streams. [4](http://gforge.inria.fr/projects/audioseg).   

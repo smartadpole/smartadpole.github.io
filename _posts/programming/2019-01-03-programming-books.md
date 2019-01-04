@@ -153,5 +153,5 @@ Michael Feathers.  Working Effectively with Legacy Code.
 ## 参考资料
 1. Jason Roell 著. 小峰 译. 12 本最具影响力的程序员书籍[EB/OL]. <https://linux.cn/article-6832-1.html>. 2016-01-03/2019-01-03.    
 2. 乐搏软件测试学院. 对于软件工程专业学生有哪些书可推荐[EB/OL]. <https://www.zhihu.com/question/19865059>. 2018-11-07/2019-01-04.  
-3.  xin. 现代软件工程的教材和参考书. <https://www.douban.com/doulist/1204928/>. 2011-05-24/2019-01-04.  
-4. 邹欣. 《构建之法》参考书和链接汇总. <http://www.cnblogs.com/xinz/p/4470424.html>. -/2019-01-04.  
+3.  xin. 现代软件工程的教材和参考书[EB/OL]. <https://www.douban.com/doulist/1204928/>. 2011-05-24/2019-01-04.  
+4. 邹欣. 《构建之法》参考书和链接汇总[EB/OL]. <http://www.cnblogs.com/xinz/p/4470424.html>. -/2019-01-04.  

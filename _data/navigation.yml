@@ -30,10 +30,19 @@ docs-en:
         url:    /assets/category/programming/cpp.html
       - title:  python
         url:    /assets/category/programming/python.html
+
+  - title:      软件工程
+    children:
+      - title:  软件工程导论
+        url:    /assets/category/software/se_introduction.html
       - title:  设计模式
-        url:    /assets/category/programming/design_pattern.html
+        url:    /assets/category/software/design_pattern.html
       - title:  软件测试
-        url:    /assets/category/programming/software_test.html
+        url:    /assets/category/software/software_test.html
+      - title:  软件调试
+        url:    /assets/category/software/software_debug.html
+      - title:  重构
+        url:    /assets/category/software/restructure.html
 
   - title:      图像处理
     children:

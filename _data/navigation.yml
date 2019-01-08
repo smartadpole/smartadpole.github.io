@@ -135,7 +135,7 @@ Python:
         url:    /index.html
   - title:      
     children:
-      - title:  基础
+      - title:  入门
         url:    /assets/category/programming/python/foundation.html
       - title:  matplote
         url:    /assets/category/programming/python/matplote.html

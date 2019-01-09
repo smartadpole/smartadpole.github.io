@@ -30,6 +30,8 @@ docs-en:
         url:    /assets/category/programming/cpp.html
       - title:  python
         url:    /assets/category/programming/python.html
+      - title:  面向对象程序设计
+        url:    /assets/category/programming/oop.html
 
   - title:      软件工程
     children:

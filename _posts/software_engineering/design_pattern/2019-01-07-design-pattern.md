@@ -2,7 +2,7 @@
 layout: article
 title:  "设计模式概览"
 date:   2019-01-07 8:00:40 +0800
-key: design-pattern-review-20190107
+key: design-pattern-foundation-20190107
 aside:
   toc: true
 tags: 资源
@@ -30,6 +30,11 @@ category: [SoftwareEngineering, DesignPattern]
 
 4. **《敏捷软件开发：原则模式和实践》**  
 
+5. **《精通 python 设计模式》**   
+`Sakis Kasampalls 著. 夏永锋 译. Python 设计模式[M]. 北京:人民邮电出版社, 2016.`  
+
+6. **《Python 设计模式》**   
+`Wessel Badenhorst 著. 蒲成 译. Python 设计模式[M]. 北京:清华大学出版社, 2018.`  
 
 ## 四、 设计模式概览
 **创建型**：将对象的部分创建工作延迟到子类或者其他对象，从而应对需求变化为对象创建时具体类型实现带来的冲击；  

@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "抽象工厂"
+title:  "「设计模式」抽象工厂"
 date:   2019-01-07 8:06:40 +0800
 key: abstract-factory-20190107
 aside:
@@ -9,145 +9,7 @@ category: [SoftwareEngineering, DesignPattern]
 ---
 
 
-简单工厂
 
-
-
-enum CTYPE {COREA, COREB};    
-
-class SingleCore   
-
-{   
-
-public:   
-
-    virtual void Show() = 0;
-
-};   
-
-//单核A   
-
-class SingleCoreA: public SingleCore   
-
-{   
-
-public:   
-
-    void Show() { cout<<"SingleCore A"<<endl; }   
-
-};   
-
-//单核B   
-
-class SingleCoreB: public SingleCore   
-
-{   
-
-public:   
-
-    void Show() { cout<<"SingleCore B"<<endl; }   
-
-};   
-
-//唯一的工厂，可以生产两种型号的处理器核，在内部判断   
-
-class Factory   
-
-{   
-
-public:    
-
-    SingleCore* CreateSingleCore(enum CTYPE ctype)   
-
-    {   
-
-        if(ctype == COREA) //工厂内部判断   
-
-            return new SingleCoreA(); //生产核A   
-
-        else if(ctype == COREB)   
-
-            return new SingleCoreB(); //生产核B   
-
-        else   
-
-            return NULL;   
-
-    }   
-
-};   
-
-工厂方法
-
- 
-
-class SingleCore   
-
-{   
-
-public:   
-
-    virtual void Show() = 0;
-
-};   
-
-//单核A   
-
-class SingleCoreA: public SingleCore   
-
-{   
-
-public:   
-
-    void Show() { cout<<"SingleCore A"<<endl; }   
-
-};   
-
-//单核B   
-
-class SingleCoreB: public SingleCore   
-
-{   
-
-public:   
-
-    void Show() { cout<<"SingleCore B"<<endl; }   
-
-};   
-
-class Factory   
-
-{   
-
-public:   
-
-    virtual SingleCore* CreateSingleCore() = 0;
-
-};   
-
-//生产A核的工厂   
-
-class FactoryA: public Factory   
-
-{   
-
-public:   
-
-    SingleCoreA* CreateSingleCore() { return new SingleCoreA; }   
-
-};   
-
-//生产B核的工厂   
-
-class FactoryB: public Factory   
-
-{   
-
-public:   
-
-    SingleCoreB* CreateSingleCore() { return new SingleCoreB; }   
-
-};   
 
 抽象工厂
 
@@ -260,20 +122,5 @@ public:
     MultiCore* CreateMultiCore() { return new MultiCoreB(); }   
 
 };  
-
- 
-
-
-
-  简单工厂 UML图：
-
-
-         工厂方法 UML图：
-
-
-         抽象工厂 UML图：
-
-
-
 
 简单工厂模式和模板方法的区别？

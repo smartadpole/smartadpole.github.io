@@ -27,6 +27,6 @@ category: [OOP]
 `Matt Weisfeld 著, 黄博文 译. 面向对象思考过程[M]. 北京:机械工业出版社, 2016.`  
 
 4. **《大象：Thinking in UML》**  
-` 谭云杰. 大象：Thinking in UML[M]. 北京:中国水利水电出版社, 2012.`  
+`谭云杰. 大象：Thinking in UML[M]. 北京:中国水利水电出版社, 2012.`  
 
 ### B 参考资料

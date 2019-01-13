@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "Python 表达式"
+title:  "「Python」 表达式"
 date:   2019-01-08 10:08:40 +0800
 key: python-expression-20190108
 aside:
   toc: true
-category: [Python, PythonFoundation]
+category: [Python, PythonElementary]
 ---
 
 ## 一、 词法

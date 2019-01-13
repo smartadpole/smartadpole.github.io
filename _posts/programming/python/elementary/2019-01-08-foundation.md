@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Python 概览"
+title:  "「Python」 概览"
 date:   2019-01-08 10:06:40 +0800
 key: python-foundation-20190108
 aside:

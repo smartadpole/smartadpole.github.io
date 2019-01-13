@@ -139,6 +139,18 @@ Python:
     children:
       - title:  入门
         url:    /assets/category/programming/python/foundation.html
+      - title:  标准库
+        url:    /assets/category/programming/python/stl.html
+      - title:  第三方库
+        url:    /assets/category/programming/python/library3rd.html
+
+
+PythonL:
+  - title:  
+    children:
+      - title:  上一层
+  - title:  
+    children:
       - title:  matplote
         url:    /assets/category/programming/python/matplote.html
       - title:  sklearn
@@ -791,3 +803,14 @@ MatrixTheory:
     children:
       - title:  上一层
         url:    /index.html
+
+
+PythonAudioLib:
+  - title:  音频处理库
+    children:
+      - title:  eyeD3
+        url:    /python/pythonlibrary/2019/01/11/eyeD3.html
+      - title:  pydub
+        url:    /python/pythonlibrary/2019/01/11/pydub.html
+      - title:  PyAudio
+        url:    /python/pythonlibrary/2019/01/11/pyaudio.html

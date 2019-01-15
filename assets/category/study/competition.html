@@ -1,18 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       Paper Reading
-    zh:       论文解读
-    zh-Hans:  论文解读
-    zh-Hant:  论文解读
+    en:       Competition
+    zh:       比赛
+    zh-Hans:  比赛
+    zh-Hant:  比赛
 sidebar:
     nav: docs-en
 ---
 
-
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "PaperReading" %}
+        {% if cat[0] == "Competition" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

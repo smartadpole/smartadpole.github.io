@@ -137,11 +137,11 @@ Model-Based 方法是设计一个经过几轮迭代就可以更新好参数的�
 Memory-Augmented Neural Networks（MANN）是使用一组利用外部存储器来强化神经网络训练过程的网络结构，常见的有[神经图灵机（Neural Turing Machines，NTM）](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html#neural-turing-machines) 和记忆网络（Memory Networks）[^memory_net]；他们使用显式的外部存储帮助网络快速地合并新信息；而像 vanilla RNN 和 LSTM 这样只有内部记忆的 RNN 网络并不能作为 MANN；  
 基于神经图灵机，Santoro et al. (2016)[^memory_net_aug] 针对训练和内存检索（或者叫寻址机制，取决与怎么把注意力参数写入内存）提出了一些新方法；  
 （1）MANN 的训练过程    
-`$$(\mathbf{x}_{t+1}, y_t)$$ 没弄明白，他的精髓在哪里`{:.warning}   
+$$(\mathbf{x}_{t+1}, y_t)$$ `没弄明白，他的精髓在哪里`{:.warning}   
 （2）元学习的寻址机制  
 基于内容的寻址机制让模型处理元学习时更稳定；  
 - 从内存读  
-$$\mathfb{k}_t$$ 为 $$t$$ 时刻样本的特征向量，那么读取到的向量：$$\mathbf{r}_i = \sum_{i=1}^N w_t^r(i)\mathbf{M}_t(i)
+$$\mathbf{k}_t$$ 为 $$t$$ 时刻样本的特征向量，那么读取到的向量：$$\mathbf{r}_i = \sum_{i=1}^N w_t^r(i)\mathbf{M}_t(i)
 \text{, where } w_t^r(i) = \text{softmax}(\frac{\mathbf{k}_t \cdot \mathbf{M}_t(i)}{\|\mathbf{k}_t\|_2^2 \cdot \|\mathbf{M}_t(i)\|_2^2})$$  
 $$M_t(i)$$ 是内存中矩阵的第 i 条向量；
 - 往内存写  

@@ -83,6 +83,8 @@ docs-en:
         url:    /assets/category/study/paper_reading.html
       - title:  论文实践
         url:    /assets/category/study/paper_practice.html
+      - title:  竞赛
+        url:    /assets/category/study/competition.html
 
   - title:      工具
     children:

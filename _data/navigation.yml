@@ -808,6 +808,10 @@ MatrixTheory:
 
 
 PythonAudioLib:
+  - title:
+    children:	
+      - title:  上一层
+        url:    /assets/category/programming/python/library3rd.html
   - title:  音频处理库
     children:
       - title:  eyeD3
@@ -816,3 +820,24 @@ PythonAudioLib:
         url:    /python/pythonlibrary/2019/01/11/pydub.html
       - title:  PyAudio
         url:    /python/pythonlibrary/2019/01/11/pyaudio.html
+
+PythonThread:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/programming/python/stl.html
+  - title:  进程与线程
+    children:
+      - title:  subprocess
+        url:    /python/pythonstl/2019/01/16/subprocess.html
+      - title:  signal
+        url:    /python/pythonstl/2019/01/16/signal.html
+      - title:  threading
+        url:    /python/pythonstl/2019/01/16/threading.html
+      - title:  multiprocessing
+        url:    /python/pythonstl/2019/01/16/multiprocessing.html
+      - title:  asyncio
+        url:    /python/pythonstl/2019/01/16/asyncio.html
+      - title:  concurrent.futures
+        url:    /python/pythonstl/2019/01/16/concurrent-futures.html
+

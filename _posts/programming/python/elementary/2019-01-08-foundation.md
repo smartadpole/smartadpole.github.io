@@ -20,8 +20,19 @@ category: [Python]
 
 ## 附录
 ### A 参考书
-1. **《Python3 学习笔记》**  
-`雨痕. Python3 学习笔记[M]. 北京:电子工业出版社, 2018.`  
+
+<center class="half">
+  <img src="/assets/images/programming/python/python3_stl.jpeg" height="200"/>&emsp;<img src="/assets/images/programming/python/python3_study_notes.jpeg" height="200"/>&emsp;<img src="/assets/images/programming/python/python_calsulation.jpeg" height="200"/>&emsp;
+</center>
+
+1.**《Python3 标准库》**  
+`Doug Hellmann 著, 苏金国, et al 译. Python3 标准库[M]. 北京:机械工业出版社, 2018.`  
+
+2.**《python3 学习笔记》**  
+`雨痕. python3 学习笔记[M]. 北京:电子工业出版社, 2018.`  
+
+3.**《Python 科学计算》**  
+`张若愚. Python 科学计算[M]. 北京:清华大学出版社, 2018.`  
 
 
 ### B 参考资料

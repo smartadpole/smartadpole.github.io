@@ -55,6 +55,8 @@ def main():
   res = poolDemo(10)
   print(res)
 ```
+`close join 这两句到底是什么意思，可有可无？`{:.warning}
+
 *注：测试时建议用 IO 来测试；数学运算要达到较高数量级后才能体现多进程的优势；*  
 
 <span id="apply_async_code">**1. apply_async 示例**</span>  

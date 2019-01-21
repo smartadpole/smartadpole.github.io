@@ -1,0 +1,255 @@
+---
+layout: article
+title:  "「算法」 二分查找"
+date:   2019-01-21 18:37:40 +0800
+key: binary-search-20190121
+aside:
+  toc: true
+category: [Algorithms, AlgSearch]
+---
+
+>要求：待搜索序列有序；  
+
+
+## 一、 算法讲解
+将查找的键和数组（默认升序排列）的中间键作比较，如果被查找的键小于中间键，就在左子数组继续查找；如果大于中间键，就在右子数组中查找，否则中间键就是要找的元素；  
+binary_search， lower_bound， equal_range  
+
+[c 示例](#binary_search_code_c)，[python 示例](#binary_search_code_python)  
+
+## 二、 变种
+二分查找变种较多，不过它们的“套路”是一样的：  
+
+```c
+while (left <= right)
+{
+    int mid = (left + right) / 2;
+    if (array[mid] ? key)
+    {
+        //... right = mid - 1;
+    }
+    else
+    {
+        // ... left = mid + 1;
+    }
+}
+return xxx;
+```
+
+1. 首先判断出是返回 left，还是返回 right  
+我们知道最后跳出循环的结果是 right = left - 1；最后 right 和 left 一定是卡在"边界值"的左右两边，如果是比较值为 key，查找小于等于（或者是小于）key 的元素，则边界值就是等于 key 的所有元素的最左边那个，其实应该返回 left；‘感觉说得不对’{:.warning}  
+2. 判断出比较符号  
+如果是查找小于等于 key 的元素，则知道应该使用判断符号 >=，因为是要返回 left，所以如果 array[mid] 等于或者大于 key，就应该使用 >=‘感觉说得不对’{:.warning}  
+
+- 查找第一个与 key 相等的元素：[c 示例](#binary_search_first_equal_code_c)，  
+- 查找最后一个与 key 相等的元素：[c 示例](#binary_search_last_equal_code_c)，  
+- 查找最后一个等于或者小于 key 的元素：[c 示例](#binary_search_last_lower_equal_code_c)，  
+- 查找最后一个小于 key 的元素：[c 示例](#binary_search_last_lower_code_c)，  
+- 查找第一个等于或者大于 key 的元素：[c 示例](#binary_search_first_equal_upper_code_c)，  
+- 查找第一个大于 key 的元素：[c 示例](#binary_search_first_upper_code_c)，  
+
+## 三、 编程实践
+
+-------------------  
+ End
+{:.warning}  
+
+
+
+## 附录
+### A 示例
+<span id="binary_search_code_c">**1. 二分查找 C 示例**</span>   
+
+```c
+/**
+ * 二分查找，找到该值在数组中的下标，否则为-1
+ */
+static int binarySerach(int[] array, int key) {
+    int left = 0;
+    int right = array.length - 1;
+
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (array[mid] == key)
+        {
+            return mid;
+        }
+        else if (array[mid] < key)
+        {
+            left = mid + 1;
+        }
+        else
+        {
+            right = mid - 1;
+        }
+    }
+
+    return -1;
+}
+```
+
+
+<span id="binary_search_first_equal_code_c">**2. 查找第一个与 key 相等的元素 C 示例**</span>   
+
+```c
+// 查找第一个相等的元素
+static int findFirstEqual(int[] array, int key)
+{
+    int left = 0;
+    int right = array.length - 1;
+
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (array[mid] >= key)
+        {
+            right = mid - 1;
+        }
+        else
+        {
+            left = mid + 1;
+        }
+    }
+    if (left < array.length && array[left] == key)
+    {
+        return left;
+    }
+
+    return -1;
+}
+```
+
+<span id="binary_search_last_equal_code_c">**3. 查找最后一个与 key 相等的元素 C 示例**</span>   
+
+```c
+// 查找最后一个相等的元素
+static int findLastEqual(int[] array, int key)
+{
+    int left = 0;
+    int right = array.length - 1;
+
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (array[mid] <= key)
+        {
+            left = mid + 1;
+        }
+        else
+        {
+            right = mid - 1;
+        }
+    }
+    if (right >= 0 && array[right] == key)
+    {
+        return right;
+    }
+
+    return -1;
+}
+```
+<span id="binary_search_last_lower_equal_code_c">**4. 查找最后一个等于或者小于 key 的元素 C 示例**</span>   
+
+```c
+// 查找最后一个等于或者小于key的元素
+static int findLastEqualSmaller(int[] array, int key)
+{
+    int left = 0;
+    int right = array.length - 1;
+
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (array[mid] > key)
+        {
+            right = mid - 1;
+        }
+        else
+        {
+            left = mid + 1;
+        }
+    }
+    return right;
+}
+```
+<span id="binary_search_last_lower_code_c">**5. 查找最后一个小于 key 的元素 C 示例**</span>   
+
+```c
+static int findLastSmaller(int[] array, int key) {
+
+    int left = 0;
+    int right = array.length - 1;
+
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (array[mid] >= key)
+        {
+            right = mid - 1;
+        }
+        else
+        {
+            left = mid + 1;
+        }
+    }
+    return right;
+}
+```
+<span id="binary_search_first_equal_upper_code_c">**6. 查找第一个等于或者大于 key 的元素 C 示例**</span>   
+
+```c
+// 查找第一个等于或者大于key的元素
+static int findFirstEqualLarger(int[] array, int key)
+{
+    int left = 0;
+    int right = array.length - 1;
+
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (array[mid] >= key)
+        {
+            right = mid - 1;
+        }
+        else
+        {
+            left = mid + 1;
+        }
+    }
+    return left;
+}
+```
+<span id="binary_search_first_upper_code_c">**7. 查找第一个大于 key 的元素 C 示例**</span>   
+
+```c
+// 查找第一个大于key的元素
+static int findFirstLarger(int[] array, int key)
+{
+    int left = 0;
+    int right = array.length - 1;
+
+    while (left <= right)
+    {
+        int mid = (left + right) / 2;
+        if (array[mid] > key)
+        {
+            right = mid - 1;
+        }
+        else
+        {
+            left = mid + 1;
+        }
+    }
+    return left;
+}
+```
+
+<span id="binary_search_code_python">**8. 二分查找 python 示例**</span>  
+
+```c
+
+```
+
+### B 参考文献  
+[^1]: Bruce Eckel, Chuck Allison 著. 刘宗田, et al. 译.  C++ 编程思想[M]. 北京:机械工业出版社, 2016.  

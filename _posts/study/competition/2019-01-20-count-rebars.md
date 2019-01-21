@@ -10,7 +10,7 @@ category: [Competition]
 
 >2019数字中国创新大赛（Digital China Innovation Contest, DCIC 2019）共两批，六个赛道；第一批两个赛道于 2019年01月10号发布；第二批四个赛道于 2019年01月下旬发布；本赛道为**钢筋计数**；    
 竞赛主页：<https://tianchi.aliyun.com/competition/entrance/231695/introduction>   
-baseline：retinanet <https://github.com/spytensor/detect_steel_bar>  
+baseline：Retinanet <https://github.com/spytensor/detect_steel_bar>  
 
 
 

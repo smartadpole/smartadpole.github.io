@@ -2,7 +2,7 @@
 layout: article
 title:  "「LeetCode」 二分查找"
 date:   2019-01-22 8:37:40 +0800
-key: binary-search-20190122
+key: binary-search-leetcode-20190122
 aside:
   toc: true
 category: [Algorithms, AlgSearch, LeetCode]
@@ -10,6 +10,7 @@ category: [Algorithms, AlgSearch, LeetCode]
 
 >要求：待搜索序列有序；  
 
+[二分查找解读](/algorithms/algsearch/2019/01/21/binary-search.html)
 
 ## 一、 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 ID 33：在一个数组中搜索一个数，找到则返回下标，找不到返回 -1；  

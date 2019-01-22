@@ -19,7 +19,7 @@ category: [Python]
 
 
 ## 附录
-### A 参考书
+### A 推荐书籍
 
 <center class="half">
   <img src="/assets/images/programming/python/python3_stl.jpeg" height="200"/>&emsp;<img src="/assets/images/programming/python/python3_study_notes.jpeg" height="200"/>&emsp;<img src="/assets/images/programming/python/python_calsulation.jpeg" height="200"/>&emsp;
@@ -35,7 +35,7 @@ category: [Python]
 `张若愚. Python 科学计算[M]. 北京:清华大学出版社, 2018.`  
 
 
-### B 参考资料
+### B 推荐资料
 1. **汇集了众多python 资源** <https://yiyibooks.cn/>  
 内容质量有待提高；  
 2. **在线手册中心** <https://docs.pythontab.com/>  

@@ -12,9 +12,11 @@ category: [Algorithms, AlgSearch, LeetCode]
 
 [二分查找解读](/algorithms/algsearch/2019/01/21/binary-search.html)
 
-## 一、 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-ID 33：在一个数组中搜索一个数，找到则返回下标，找不到返回 -1；  
-该数组符合如下特征：数组源于一个升序整数数组（不含重复元素）(i.e., 0 1 2 4 5 6 7)，所有元素循环移动 n 位(i.e.,4 5 6 7 0 1 2)； n 未知；要求时间复杂度为  O(log n)；         
+## 一、 有序移位数组·查找
+有序移位数组：数组源于一个升序整数数组(i.e., 0 1 2 4 5 6 7)，所有元素循环移动 n 位(i.e.,4 5 6 7 0 1 2)； n 未知；  
+
+### 1. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+ID 33：在一个不含重复元素的有序移位数组中搜索一个数，找到则返回下标，找不到返回 -1；要求时间复杂度为  O(log n)；       
 >**Input**: nums = [4,5,6,7,0,1,2], target = 0  
 **Output**: 4  
 
@@ -23,19 +25,42 @@ ID 33：在一个数组中搜索一个数，找到则返回下标，找不到返
   - 后半部分小于前半部分，所以其实很容易判断出 mid 在哪一部分；  
 - 原生的二分查找，左右两个哨兵移动的条件自始至终不变；本题的难点就在于，左右两个哨兵移动的条件需根据 target 处在左半段还是右半段而有所不同；     
 
-[C 示例](#rotated_sorted_arr_cpp)（[详细工程](https://github.com/smartadpole/OnlineJudge/blob/master/LeetCode/id33_binary_search_rotate.cpp)），    
+[C 示例](#rotated_sorted_arr_c)（[详细工程](https://github.com/smartadpole/OnlineJudge/blob/master/LeetCode/id33_Search_in_Rotated_Sorted_Array.cpp)），    
 
-## 二、 [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  
-ID 81：在一个数组中搜索一个数，找到则返回 true，找不到返回 false；  
-该数组符合如下特征：数组源于一个升序整数数组(i.e., 0 0 1 2 4 5 6 7)，所有元素循环移动 n 位(i.e.,4 5 6 7 0 0 1 2)； n 未知；要求时间复杂度为  O(log n)；           
+### 2. [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  
+ID 81：在一个含重复元素的有序移位数组中搜索一个数，找到则返回 true，找不到返回 false；  
 >**Input**: nums = [2,5,6,0,0,1,2], target = 0  
 **Output**: true
 
-上一题的基础上，加入了重复元素；   
+上一题的基础上，加入了重复元素，因此打破了两侧数组单调递增的特性；  
+1. 若重复元素出现在两个子序列内部也没什么，「Search in Rotated Sorted Array」方案就可以解决；   
+2. 就怕同时出现在左序列起、右序列止；因为此时判断 mid 落在左序列还是右序列出现困难；例如 [1,3,1,1,1]；  
 
-[C++ 示例](#rotated_sorted_arr2_cpp)
+解决：将情形 2 转化为 情形 1 即可——只处理单侧；当前值与边界值相等时，该边界处的哨兵向另一侧单步移动，直至当前子序列单增，此时重复元素只出现在单侧，即情形 1；  
+以左序列为例；当 num[mid] == num[low]，low = low + 1 即可，其他照旧，最终左序列会是单增；  
 
-## 三、 猜数问题
+[C 示例](#rotated_sorted_arr2_c)（[详细工程](https://github.com/smartadpole/OnlineJudge/blob/master/LeetCode/id81_Search_in_Rotated_Sorted_Array_II.cpp)），    
+
+### 3. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+ID 153：返回数组（不含重复元素的有序移位数组）中的最小元素；       
+>**Input**: [3,4,5,1,2]   
+**Output**: 1    
+
+准确地说是找到该移动数组左右两段的交界点；  
+
+[C 示例](#rotated_sorted_arr_find_min_c)（[详细工程](https://github.com/smartadpole/OnlineJudge/blob/master/LeetCode/id153_Find_Minimum_in_Rotated_Sorted_Array.cpp)），    
+
+### 4. [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+ID 154：返回数组（含重复元素的有序移位数组）中的最小元素；       
+>**Input**: [3,4,4,1,2]   
+**Output**: 1    
+
+与「Search in Rotated Sorted Array II」思路一样，把左侧子序列处理成单调递增即可——num[mid] == num[low] 时左哨兵右移一位；  
+
+[C 示例](#rotated_sorted_arr_find_min2_c)（[详细工程](https://github.com/smartadpole/OnlineJudge/blob/master/LeetCode/id154_Find_Minimum_in_Rotated_Sorted_Array_II.cpp)），    
+
+
+## 二、 猜数问题
 （374题）  
 这种题目一般是说找到里面特定的数字，这个数字是确定存在的，所以肯定会有一个一定匹配的问题,所以一般我们在判断条件中把 if(r[mid] == target) 单独提出来；  
 
@@ -136,7 +161,7 @@ mid = (st + ed)/2 + 1;
 
 ## 附录
 ### A 示例
-<span id="rotated_sorted_arr_cpp">**1. Search in Rotated Sorted Array C++ 示例**</span>   
+<span id="rotated_sorted_arr_c">**1. Search in Rotated Sorted Array C 示例**</span>   
 
 ```c
 int Search(const int* nums, const int numsSize, const int target)
@@ -176,39 +201,143 @@ int Search(const int* nums, const int numsSize, const int target)
 }
 ```
 
-<span id="rotated_sorted_arr_cpp">**2. Search in Rotated Sorted Array II C++ 示例**</span>   
+<span id="rotated_sorted_arr_c">**2. Search in Rotated Sorted Array II C 示例**</span>   
 
-```c++
-bool search(int A[], int n, int target)
+```c
+int Search(const int* nums, const int numsSize, const int target)
 {
-    int first = 0,last = n;
-    while(first != last)
+    int low = 0, high = numsSize-1, mid = -1;
+    while(low <= high)
     {
-        int mid = (first+last)/2;
-        if(A[mid] == target)
+        mid = low + ((high - low) >> 1);
+
+        if (target == nums[mid])
+        {
             return true;
-        if(A[mid] == A[first])
-            first++;
-        else if(A[mid] > A[first])
-        {
-            if(A[first]<= target && A[mid] > target)
-                last = mid;
-            else
-                first = mid+1;
         }
-        else
+        else if (nums[mid] == nums[low])
         {
-            if(A[mid] < target && A[last-1] >= target)
-                first = mid+1;
+            ++low;
+            continue;
+        }
+//        else if (nums[mid] == nums[high])  // work as <else if (nums[mid] == nums[low])>
+//        {
+//            --high;
+//            continue;
+//        }
+
+        if (nums[mid] < target)
+        {
+            if (nums[mid] < nums[low]   // right sub array
+                    && target > nums[high])
+            {
+                high = mid -1;
+            }
             else
-                last = mid;
+            {
+                low = mid + 1;
+            }
+        }
+        else if (nums[mid] > target)
+        {
+            if (nums[mid] > nums[high]   // left sub array
+                    && nums[high] >= target)
+            {
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid -1;
+            }
         }
     }
     return false;
 }
 ```
 
-<span id="optimum_solution_cpp">**3. 求最优解 C++ 示例**</span>   
+<span id="rotated_sorted_arr_find_min_c">**3. Find Minimum in Rotated Sorted Array C 示例**</span>   
+
+```c
+int FindMin(const int* nums, const int numsSize)
+{
+  if (1 == numsSize
+          || nums[0] < nums[numsSize - 1])
+  {
+      return nums[0];
+  }
+
+  int low = 0, high = numsSize-1;
+
+  while(low <= high)
+  {
+      int mid = low + ((high - low)>>1);
+
+      if (nums[low] > nums[high])
+      {
+          if (nums[mid] < nums[low])  // right sub array
+          {
+              high = mid;
+          }
+          else    // left sub array
+          {
+              low = mid + 1;
+          }
+      }
+      else    // ascending order
+      {
+          return nums[low];
+      }
+  }
+
+  return nums[high];
+}
+```
+
+
+<span id="rotated_sorted_arr_find_min2_c">**4. Find Minimum in Rotated Sorted Array II C 示例**</span>   
+
+```c
+int FindMin(const int* nums, const int numsSize)
+{
+  if (1 == numsSize
+            || nums[0] < nums[numsSize - 1])
+    {
+        return nums[0];
+    }
+
+    int low = 0, high = numsSize-1;
+
+    while(low <= high)
+    {
+        int mid = low + ((high - low)>>1);
+
+        if (nums[low] == nums[high])
+        {
+            ++low;
+        }
+        else if (nums[low] > nums[high])
+        {
+            if (nums[mid] < nums[low])  // right sub array
+            {
+                high = mid;
+            }
+            else    // left sub array
+            {
+                low = mid + 1;
+            }
+        }
+        else    // ascending order
+        {
+            return nums[low];
+        }
+    }
+
+    return nums[high];
+}
+```
+
+
+<span id="optimum_solution_cpp">**4. 求最优解 C++ 示例**</span>   
 
 ```c++
 #include <iostream>

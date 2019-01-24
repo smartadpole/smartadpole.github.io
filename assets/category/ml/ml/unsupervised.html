@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Classification
-    zh:       分类
-    zh-Hans:  分类
-    zh-Hant:  分类
+    en:       Unsupersived Learning
+    zh:       无监督学习
+    zh-Hans:  无监督学习
+    zh-Hant:  无监督学习
 sidebar:
     nav: ML
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "MLClassification" %}
+        {% if cat[0] == "Unsupervised" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

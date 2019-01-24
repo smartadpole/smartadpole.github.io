@@ -2,7 +2,7 @@
 layout: article
 title:  "「ML」 机器学习中的常见误区"
 date:   2019-01-15 16:03:40 +0800
-key: ml-bias-20190115
+key: ml-prejudice-20190115
 aside:
   toc: true
 category: [ML]

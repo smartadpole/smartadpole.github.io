@@ -5,7 +5,7 @@ date:   2019-01-02 16:06:40 +0800
 key: performance_evaluation-20190102
 aside:
   toc: true
-category: [ML, ModelEvaluation]
+category: [ModelEvaluation]
 ---
 
 > 每个评估指标都有其价值，但如果只使用单一的指标，往往会的出片面甚至错误的结论；所以使用互补的指标才能更好地解决实际问题；  

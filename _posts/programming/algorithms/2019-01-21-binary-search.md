@@ -67,6 +67,7 @@ return xxx;
 - 查找第一个大于 key 的元素：[c 示例](#binary_search_first_upper_code_c)，  
 
 ## 四、 实践
+[LeetCode](/algorithms/algsearch/leetcode/2019/01/22/binary-search-leetcode.html)  
 
 -------------------  
  End

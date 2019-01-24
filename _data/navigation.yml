@@ -368,6 +368,11 @@ ML:
       - title:  上一层
         url:    /index.html
 
+  - title:  
+    children:
+      - title:  无监督学习
+        url:    /assets/category/ml/ml/unsupervised.html
+
   - title:  监督学习
     children:
       - title:  分类
@@ -379,17 +384,6 @@ ML:
       - title:  概率图
         url:    /index.html
 
-
-  - title:  无监督学习
-    children:
-      - title:  聚类
-        url:    /index.html
-      - title:  回归
-        url:    /index.html
-      - title:  高斯混合模型
-        url:    /index.html
-      - title:  自组织映射神经网络
-        url:    /index.html
 
   - title:  
     children:
@@ -488,25 +482,6 @@ ML_regression:
       - title:  过拟合与正则化
         url:    /index.html
 
-ML_clustering:
-  - title:  聚类算法
-    children:
-      - title:  k-means
-        url:    https://zh.wikipedia.org/wiki/K-%E5%B9%B3%E5%9D%87%E7%AE%97%E6%B3%95
-      - title:  k-median
-        url:    /index.html
-      - title:  期望较大化算法（EM）
-        url:    https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4%A7%E6%9C%9F%E6%9C%9B%E7%AE%97%E6%B3%95
-      - title:  BIRCH
-        url:    https://zh.wikipedia.org/wiki/BIRCH
-      - title:  层次
-        url:    https://zh.wikipedia.org/w/index.php?title=%E5%B1%82%E6%AC%A1%E8%81%9A%E7%B1%BB&action=edit&redlink=1
-      - title:  DBSCAN
-        url:    https://zh.wikipedia.org/wiki/DBSCAN
-      - title:  OPTICS
-        url:    https://zh.wikipedia.org/wiki/OPTICS
-      - title:  均值飘移
-        url:    /index.html
 
 ML_PCA:
   - title:  降维

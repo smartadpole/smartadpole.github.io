@@ -2,7 +2,7 @@
 layout: article
 title:  "「Python」 xml.etree.ElementTree"
 date:   2019-01-28 10:07:40 +0800
-key: xml-20190128
+key: xml-etree-elementTree-20190128
 aside:
   toc: true
 sidebar:

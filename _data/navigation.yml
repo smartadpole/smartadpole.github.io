@@ -400,7 +400,7 @@ ML:
   - title:  
     children:
       - title:  降维
-        url:    /index.html
+        url:    /assets/category/ml/ml/dimension_reduction.html
       - title:  集成
         url:    /index.html
       - title:  采样
@@ -492,27 +492,6 @@ ML_regression:
       - title:  神经网络
         url:    https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C
       - title:  过拟合与正则化
-        url:    /index.html
-
-
-ML_PCA:
-  - title:  降维
-    children:
-      - title:  因子分析
-        url:    https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8
-      - title:  CCA
-        url:    https://zh.wikipedia.org/wiki/%E5%85%B8%E5%9E%8B%E7%9B%B8%E5%85%B3%E5%88%86%E6%9E%90
-      - title:  ICA
-        url:    https://zh.wikipedia.org/wiki/%E7%8B%AC%E7%AB%8B%E6%88%90%E5%88%86%E5%88%86%E6%9E%90
-      - title:  LDA
-        url:    https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%88%A4%E5%88%A5%E5%88%86%E6%9E%90
-      - title:  NMF
-        url:    /index.html
-      - title:  PCA
-        url:    https://zh.wikipedia.org/wiki/%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90
-      - title:  LASSO
-        url:    https://zh.wikipedia.org/wiki/Lasso%E7%AE%97%E6%B3%95
-      - title:  t-SNE
         url:    /index.html
 
 ML_structure:
@@ -832,6 +811,33 @@ PythonThread:
         url:    /python/pythonstl/2019/01/16/asyncio.html
       - title:  concurrent.futures
         url:    /python/pythonstl/2019/01/16/concurrent-futures.html
+
+PythonDataPersistence:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/programming/python/stl.html
+  - title:  数据存储与解析
+    children:
+      - title:  引言
+        url:    /python/pythonstl/2019/01/28/data-persistence.html
+      - title:  pickle
+        url:    /python/pythonstl/2019/01/28/pickle.html
+      - title:  marshal
+        url:    /python/pythonstl/2019/01/28/marshal.html
+      - title:  copyreg
+        url:    /python/pythonstl/2019/01/28/copyreg.html
+      - title:  shelve
+        url:    /python/pythonstl/2019/01/28/shelve.html
+      - title:  dbm
+        url:    /python/pythonstl/2019/01/28/dbm.html
+      - title:  sqlite3
+        url:    /python/pythonstl/2019/01/28/sqlite3.html
+      - title:  xml.etree.ElementTree
+        url:    /python/pythonstl/2019/01/28/xml-etree-elementtree.html
+      - title:  csv
+        url:    /python/pythonstl/2019/01/28/csv.html
+
 
 Unsupervised:
   - title:

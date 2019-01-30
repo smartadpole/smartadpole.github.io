@@ -149,33 +149,6 @@ Python:
         url:    /assets/category/programming/python/library3rd.html
 
 
-PythonL:
-  - title:  
-    children:
-      - title:  上一层
-  - title:  
-    children:
-      - title:  matplote
-        url:    /assets/category/programming/python/matplote.html
-      - title:  sklearn
-        url:    /assets/category/programming/python/sklearn.html
-      - title:  numpy
-        url:    /assets/category/programming/python/numpy.html
-      - title:  SciPy
-        url:    /assets/category/programming/python/scipy.html
-      - title:  Pandas
-        url:    /assets/category/programming/python/pandas.html
-      - title:  Traits
-        url:    /assets/category/programming/python/traits.html
-      - title:  TVTK & Mayavi
-        url:    /assets/category/programming/python/tvtk_mayavi.html
-      - title:  OpenCV
-        url:    /assets/category/programming/python/opencv.html
-      - title:  Cython
-        url:    /assets/category/programming/python/cython.html
-      - title:  PyAV
-        url:    /assets/category/programming/python/pyav.html
-
 DL:
   - title:  
     children:
@@ -263,16 +236,17 @@ DLFramework:
         url:    /index.html
   - title:      
     children:
-      - title:  基础知识
-        url:    /assets/category/cv/dl_framework/foundation.html
       - title:  Caffe
-        url:    /assets/category/cv/dl_framework/caffe.html
+        url:    /assets/category/ml/dl_framework/caffe.html
       - title:  MxNet
-        url:    /assets/category/cv/dl_framework/mxnet.html
+        url:    /assets/category/ml/dl_framework/mxnet.html
       - title:  Pytorch
-        url:    /assets/category/cv/dl_framework/pytorch.html
+        url:    /assets/category/ml/dl_framework/pytorch.html
       - title:  Tensoflow
-        url:    /assets/category/cv/dl_framework/tensorflow.html
+        url:    /assets/category/ml/dl_framework/tensorflow.html
+      - title:  mace
+        url:    /assets/category/ml/dl_framework/mace.html
+
 
 OpenCV:
   - title:  

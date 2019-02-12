@@ -90,8 +90,8 @@ docs-en:
 
   - title:      工具
     children:
-      - title:  Docker
-        url:    /assets/category/tool/docker.html
+      - title:  工程
+        url:    /assets/category/tool/work.html
       - title:  博客
         url:    /assets/category/tool/blog.html
 
@@ -836,5 +836,15 @@ Unsupervised:
         url:    /ml/unsupervised/2019/01/24/k-means.html
 
 
-
+Jupyter:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/tool/work.html
+  - title:  Jupyter
+    children:
+      - title:  启动 Jupyter
+        url:    /worktool/2019/01/12/foundation.html
+      - title:  常用命令
+        url:    /worktool/2019/01/12/command.html
 

@@ -1,15 +1,15 @@
 ---
 layout: article
-title:  "Caffe Docker 配置"
+title:  "「Caffe」 Docker 配置"
 date:   2018-10-27 18:30:40 +0800
 key: caffe-docker-abc-20181027
 aside:
   toc: true
 tags: 开发环境
-categories: [Tools, Caffe, Docker, DLFrameworks]
+categories: [WorkTool, Caffe, DLFrameworks]
 ---
 ## 一、Docker 安装  
-[docker 安装教程]({{ "/2018/10/27/Docker-入门.html" }})  
+[docker 安装教程](/worktool/2018/10/27/Docker-入门.html)  
 
 ## 二、使用 Docker 安装 Caffe  
 

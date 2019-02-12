@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「Caffe」 Docker 配置"
+title:  "「DL」 Caffe Docker 配置"
 date:   2018-10-27 18:30:40 +0800
 key: caffe-docker-abc-20181027
 aside:

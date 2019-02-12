@@ -1,8 +1,8 @@
 ---
 layout: article
 title:  "「工具」 启动 Jupyter"
-date:   2019-01-12 10:00:40 +0800
-key: jupyter-abc-20190112
+date:   2019-02-12 10:00:40 +0800
+key: jupyter-abc-20190212
 aside:
   toc: true
 sidebar:

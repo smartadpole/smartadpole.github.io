@@ -1,35 +1,56 @@
 ---
 layout: article
-title:  "「工具」 订阅博客"
+title:  "「工具」 使用 feed43 制作 RSS 源"
 date:   2019-02-13 10:08:40 +0800
-key: subscribe-blog-20190213
+key: feed43-20190213
 aside:
   toc: true
 category: [Blog]
 ---
 
-Feed43  <http://feed43.com/>  
-其中 { % } 为变量，即要提取的； { * } 占位符，放在空格或回车及无关内容上，
+Feed43 <http://feed43.com/> DIY RSS 源非常简单；    
 
-<https://post.smzdm.com/p/553684/>   
+## 一、 基本操作
+**1. 创建源**  
+点击首页的「create your first RSS feed」创建一个源；   
+
+**2. 输入你想订阅的地址**  
+<img src="/assets/images/tools/work/feed43_src.png"/>  
+
+**3. 解析网页**  
+其中 { % } 为变量，即要提取的； { * } 占位符，放在空格或回车及无关内容上；  
+<img src="/assets/images/tools/work/feed43_extract.png"/>  
+
+**4. 组合信息**  
+<img src="/assets/images/tools/work/feed43_group.png"/>  
+
+**5. 订阅**  
 成功后会生成两个链接 例如：
-Feed URL:  http://feed43.com/2738718687802442.xml
-Edit URL: http://feed43.com/feed.html?name=2738718687802442
+Feed URL:  <http://feed43.com/2738718687802442.xml> RSS 源；  
+Edit URL: <http://feed43.com/feed.html?name=2738718687802442> 用于修改 RSS 源；  
 
+
+## 二、 进阶操作
 - 如果要换一个网站订阅，一定要重新打开 feed43 网页，因为一个网页只会生成一个订阅页面，如果重复编辑，则会发生覆盖；  
-- 生成订阅源之后，若再修改，也不会生效；（Inoreader 订阅），显示信息不会再更新，但是设置会更新；    
+- feed43 RSS 只能抓取页面中的内容，如果想在 rss 展示全文，需要通过 [FeedEx](https://feedex.net/) 再转一次；     
+- 加密：生成的链接不想让别人编辑   
+  - 注册帐号，在帐号内创建 RSS 即可；如需编辑，则需输入该链接密码（默认是帐号密码）；
+- 删除 RSS 源  
+  前提是在个人账户下，在个人列表中找到他，然后点击标题左侧的小三角展开后，点击删除即可；  
+- 将原有的「野生」RSS 纳入个人帐号下
+  点击页面底端的「Add feeds to your account / Undelete feeds」，输入 RSS ID 即可；    
+- 删除后的 RSS 如何恢复  
+  同上一条一样，输入 RSS ID 即可；前提是你记得 ID ，且在删除后 30 天之内；
 
-打造个人 RSS <https://www.ifanr.com/app/770271>   
+## 三、 会员的苦恼
 
-InoReader 可设置文件夹，多个订阅源一直在一起，用 iPad 上的 Reeder 软件阅读时，有个弊端，就是，当前层级下的所有文章都显示在一起，也就是如果你不用文件夹包裹，那么可以看到当前订阅源下的文章，如果组织在文件夹中，看到的就是文件夹下所有源的订阅文章，此时无法把同一订阅源下的文章聚合在一起；  
 
-## 生成 RSS
-##dapper使用最简单 , 适合做一个只有标题的源地址是 http://open.dapper.net##FEED43小众有一篇介绍 , 你可以去 小众软件 搜索一下相对简单 , 我只试用过, 就不乱说了##YAHOO PIPEShttp://pipes.yahoo.com我认为是同类最强神器做一个只有标题的订阅源很简单 , 一般就两步1. "xpath fetch page" 模块 填上页面地址 , 和 xpath2. "rename" 模块 , 比如修改 href 为 link , 修改 content 为title3. 输出 , 保存就可以了好吧 . 是3步傻瓜式的, page2rss , 填上地址 , 自动生成 , 至于能不能成功还得看人品 !!
-
-在rss展示全文，需要通过FeedEx再转一次 <https://feedex.net/>  
-DIY 抓取 RSS：Huginn <https://zhuanlan.zhihu.com/p/46216545>
 
 ## 附录
-### 1. 推荐资料
+### A 推荐资料
 
 [1].  少数派Matrix. 使用 RSS 可以做什么你未曾想过的事[EB/OL]. <https://sspai.com/post/34280>. 2016-05-18/2019-02-15.   
+
+### B 参考资料
+
+[1].  无双武士. FEED43新手教程：为任意网页定制RSS格式订阅源[EB/OL]. <https://post.smzdm.com/p/553684/>. 2017-04-24/2019-02-18.   

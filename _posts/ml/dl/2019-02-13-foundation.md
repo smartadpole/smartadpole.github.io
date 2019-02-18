@@ -52,7 +52,6 @@ Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richar
 | [arxiv ML\|cs](https://arxiv.org/list/cs.LG/new) | <http://export.arxiv.org/rss/cs.LG/list/new>  | <http://feed43.com/arxiv_cs_ml.xml> |
 | [arxiv ML\|stat](https://arxiv.org/list/stat.ML/new) | <http://export.arxiv.org/rss/stat.ML/list/new>  | <http://feed43.com/arxiv_stat_ml.xml> |
 
-注：  
 - arxiv：可订阅其他你感兴趣的方向，进入 <https://arxiv.org/> 点击你感兴趣的方向（可以是大类，也可以是子类），此时浏览器地址栏就会出现该类的代号 name，则官方订阅地址为 `https://arxiv.org/list/name/new`；    
 - arxiv：若要订阅 recent，则用 recent 替换 new，即 `https://arxiv.org/list/name/recent`；  
 - arxiv DIY 源与官方源不同之处在于：    
@@ -62,7 +61,7 @@ Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richar
     - 中国站相比原地址更新有延迟；也就是，会出现打开中国站找不到页面的情况；正常情况不会超过一天；  
     - 通过中国站页面打开 pdf 时，若显示找不到页面，则点一下刷新按钮就好了；或者两下:ghost:  
   - 因技术限制，作者一栏仅列出一作；  
-  <img src="/assets/images/ml/dl/rss_diy.png" height="200"/>  
+  <img src="/assets/images/ml/dl/rss_diy.png" />  
 
 | 牛人 |  DIY Arxiv 订阅源 |
 | ---  | --- |
@@ -80,7 +79,6 @@ Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richar
 | [Tie-Yan Liu](https://arxiv.org/search/cs?query=Liu%2CTie-Yan&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/1141311574854217.xml> |  
 | [Mu Li](https://arxiv.org/search/cs?query=Li%2CMu&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/7072005718068783.xml> |  
 
-注：  
 - 知乎专栏相关链接本身就可作为 RSS 源进行订阅；
 - 「feed43」官方有个协议我没看太懂，就是说不让用制作好的源盈利；如果有一天被勒令停止分享，那么蝌蚪会及时撤销相关链接；  
 - 如果发现上述 DIY 链接有可编辑的，请爱护公共资源不要擅自编辑，并及时在评论区告知蝌蚪:ghost:；  

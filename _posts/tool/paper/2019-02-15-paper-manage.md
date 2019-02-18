@@ -19,8 +19,8 @@ category: [WorkTool]
 以 Inoreader 为例：  
 <img src="/assets/images/tools/work/inoreader_abc.png" height="400"/>  
 
-注：  
-- 当订阅源发生修改后，Inoreader 的显示信息不会再更新，但是之后的内容会更新；    
+{:.warning}   
+当订阅源发生修改后，Inoreader 的显示信息不会再更新，但是订阅的内容会更新；    
 
 **2. 常用 RSS 阅读客户端软件**  
 iOS：reader 3  

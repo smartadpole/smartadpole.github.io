@@ -640,6 +640,19 @@ PythonAudioLib:
       - title:  PyAudio
         url:    /python/pythonlibrary/2019/01/11/pyaudio.html
 
+PythonVideoLib:
+  - title:
+    children:	
+      - title:  上一层
+        url:    /assets/category/programming/python/library3rd.html
+  - title:  视频处理库
+    children:
+      - title:  ffmpeg
+        url:    /python/pythonlibrary/2019/02/20/ffmpeg.html
+      - title:  PyAV
+        url:    /python/pythonlibrary/2019/02/20/pyav.html
+
+
 PythonThread:
   - title:
     children:

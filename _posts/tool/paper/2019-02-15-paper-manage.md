@@ -23,9 +23,11 @@ category: [WorkTool]
 当订阅源发生修改后，Inoreader 的显示信息不会再更新，但是订阅的内容会更新；    
 
 **2. 常用 RSS 阅读客户端软件**  
-iOS：reader 3  
-Android：FeedMe  
-Windows：FeedDemon  
+- iOS：reader 3  
+- Android：FeedMe
+使用 Inoreader 账号时，出现 Inoreader 无法登录，这是早期版本的bug，升级到3.9+就好了；  
+Inoreader oauth 登录是官方授权方式，需定期手动授权；Inoreader 方式是本地存储帐号密码，定期自动登录；      
+- Windows：FeedDemon  
 更多优秀软件不一一列举；  
 
 ## 三、 管理论文
@@ -67,6 +69,6 @@ Windows：FeedDemon
 {:.warning}  
 
 ## 附录
-### 1. 参考资料
-
-[1].  张哲旭. 十五款文献管理软件推荐及相关资源下载[EB/OL]. <http://www.sztspi.com/archives/33042.html>. 2017-09-18/2019-02-15.   
+### 1. 推荐资料
+[1].  Captain. RSS 阅读器一览[EB/OL]. <http://capbone.com/rss-readers/>. 2013-07-1/2019-02-15.   
+[2].  张哲旭. 十五款文献管理软件推荐及相关资源下载[EB/OL]. <http://www.sztspi.com/archives/33042.html>. 2017-09-18/2019-02-15.   

@@ -884,3 +884,70 @@ ML_foundation:
       - title:  VC理论
         url:    https://zh.wikipedia.org/wiki/VC%E7%90%86%E8%AE%BA
 
+NLP_CMU2019:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/NLP/NLP.html
+  - title:  CMU Neural Nets for NLP 2019 
+    children:
+      - title:  L1:Class Introduction
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L2:「A Simple (?) Exercise」 Predicting the Next Word in a Sentence
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L3:Distributional Semantics and Word Vectors
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L4:Convolutional Neural Nets for Text
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+      - title:  L5:Recurrent Networks for Sentence or Language Modeling
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+      - title:  L6:Efficiency Tricks for Neural Nets
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+      - title:  L7:Conditioned Generation
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L8:Attention
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html      
+      - title:  L9:Sentence and Contextual Word Representations
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L10:Debugging Neural Nets (for NLP)
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+      - title:  L11:Search-based Structured Prediction
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L12:Reinforcement Learning
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L13:Structured Prediction with Local Independence Assumptions
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L14:Model Interpretation
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L15:Latent Random Variables
+        url:	/nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L16:Adversarial Methods for Text
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+      - title:  L17:Spring Break -- No Class!
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L18:Transition-based Parsing Models
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L19:Parsing with Dynamic Programs
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L20:Neural Semantic Parsing
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L21:Unsupervised and Semi-supervised Learning of Structure
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L22:Models of Dialog
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L23:Document-level Models
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L24:Learning from/for Knowledge Graphs
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+      - title:  L25:Spring Carnival -- No Class!!
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L26:Machine Reading w/ Neural Nets
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L27:Multi-task Multi-lingual Learning Models
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L28:Advanced Search Algorithms
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+      - title:  L29:TBD
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html      
+      - title:  L30:Poster Presentations
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html

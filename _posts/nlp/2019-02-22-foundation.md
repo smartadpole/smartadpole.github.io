@@ -27,5 +27,5 @@ category: [NLP]
 1. [CMU Neural Nets for NLP 2018](http://www.phontron.com/class/nn4nlp2018/schedule.html)  
 官网：<http://www.phontron.com/class/nn4nlp2018/schedule.html>  
 
-2. [CMU Neural Nets for NLP 2019](http://phontron.com/class/nn4nlp2019/schedule.html)
+2. [CMU Neural Nets for NLP 2019](http://phontron.com/class/nn4nlp2019/schedule.html)  
 官网：<http://phontron.com/class/nn4nlp2019/schedule.html>  

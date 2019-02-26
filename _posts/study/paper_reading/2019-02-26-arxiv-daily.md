@@ -40,12 +40,11 @@ articles:
 基于 VGG-16 和 UNet 进行了改进，使用了全卷积网络；F1 达到 0.94； 召回率 0.94，比当前最佳方案高出了 8 个百分点；  
 分割效果很好，能够分割出虚线框及框上的箭头；    
 
-BOWDA-Net: 前列腺磁共振图像分割的边界加权域自适应神经网络
+#### 3. BOWDA-Net: 前列腺磁共振图像分割的边界加权域自适应神经网络  
 发表时间：2019-02-21   
 标签：分割，MR，FCN，DenseNet，ResNet，迁移学习，挛生网络  
 >Zhu, Q., Du, B., & Yan, P. (2019). Boundary-weighted Domain Adaptive Neural Network for Prostate MR Image Segmentation. [arXiv:1902.08128](http://arxiv.org/abs/1902.08128)  
 
-#### 3. BOWDA-Net: 前列腺磁共振图像分割的边界加权域自适应神经网络  
 **背景**：三维磁共振图像的前列腺分割仍面临着一些挑战，例如，前列腺边界模糊，背景纹理复杂，前列腺形状、大小和清晰程度变化较大；  
 **挑战**：大量标注医学图像很困难；  
 **解决**：「BOWDA-Net」   

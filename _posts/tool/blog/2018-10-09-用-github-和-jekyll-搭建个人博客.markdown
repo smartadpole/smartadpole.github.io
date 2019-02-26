@@ -8,3 +8,19 @@ aside:
 category: [Blog]
 ---
 writing…… :ghost:
+
+
+
+-------------------  
+ End
+{:.warning}  
+
+
+
+## 附录
+### A  推荐资料
+1. **Jekyll 的基本用法**  
+- jekyll. 常用变量. <https://jekyllcn.com/docs/variables/>.  
+-  咖啡机（K.F.J）. 用jekyll制作高大上的网站（二）——实际应用. <https://www.cnblogs.com/strick/p/5484779.html>[EB/OL].    
+- biezhi. Jekyll 中的配置和模板语法. <https://gist.github.com/biezhi/f88be58ef4ae0f3741bb36ab8daa53c5>[EB/OL].  
+- Jekyll语法简单笔记. <http://ibloodline.com/articles/2014/12/15/jekyll-syntax.html>.  

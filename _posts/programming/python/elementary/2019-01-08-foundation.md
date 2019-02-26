@@ -43,3 +43,4 @@ Python 3 Module of the Week https://pymotw.com/3/
 3. python3 标准库   
 中文目录，英文内容 <https://blog.csdn.net/manimanihome/article/details/53043431>  
 中文目录，中文内容 <https://yiyibooks.cn/xx/python_352/library/index.html> 目录很全，内容不够精细；排版不够美观；  
+4. **Awesome Python**. <https://awesome-python.com/>. 超强 python 第三方库汇总；   

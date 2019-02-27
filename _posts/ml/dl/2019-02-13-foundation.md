@@ -47,10 +47,12 @@ Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richar
 | ---  | --- | --- |
 | [CVPapers](http://www.cvpapers.com/index.html) | <http://www.cvpapers.com/rss/rss_builder.php?feed=all_conf.xml>  | - |
 | [papers with code](https://paperswithcode.com/) | -  | <http://feed43.com/paper_with_code.xml> |
-| [arxiv cv](https://arxiv.org/list/cs.CV/new) | <http://export.arxiv.org/rss/cs.CV/list/new>  | <http://feed43.com/arxiv_cv.xml> |
-| [arxiv AI](https://arxiv.org/list/cs.AI/new) | <http://export.arxiv.org/rss/cs.AI/list/new>  | <http://feed43.com/arxiv_cs_ai.xml> |
-| [arxiv ML\|cs](https://arxiv.org/list/cs.LG/new) | <http://export.arxiv.org/rss/cs.LG/list/new>  | <http://feed43.com/arxiv_cs_ml.xml> |
-| [arxiv ML\|stat](https://arxiv.org/list/stat.ML/new) | <http://export.arxiv.org/rss/stat.ML/list/new>  | <http://feed43.com/arxiv_stat_ml.xml> |
+| [arxiv cv](https://arxiv.org/list/cs.CV/new) | <http://export.arxiv.org/rss/cs.CV/list/new>  | <http://feed43.com/cs_cv_arxiv.xml> |
+| [arxiv AI](https://arxiv.org/list/cs.AI/new) | <http://export.arxiv.org/rss/cs.AI/list/new>  | <http://feed43.com/cs_ai_arxiv.xml> |
+| [arxiv ML\|cs](https://arxiv.org/list/cs.LG/new) | <http://export.arxiv.org/rss/cs.LG/list/new>  | <http://feed43.com/cs_ml_arxiv.xml> |
+| [arxiv ML\|stat](https://arxiv.org/list/stat.ML/new) | <http://export.arxiv.org/rss/stat.ML/list/new>  | <http://feed43.com/stat_ml_arxiv.xml> |
+| [arxiv CL](https://arxiv.org/list/cs.CL/new)（NLP） | <http://export.arxiv.org/rss/cs.CL/list/new>  | <http://feed43.com/cs_cl_arxiv.xml> |
+| [arxiv SD](https://arxiv.org/list/cs.SD/new)（Audio） | <http://export.arxiv.org/rss/cs.SD/list/new>  | <http://feed43.com/cs_sd_arxiv.xml> |
 
 - arxiv：可订阅其他你感兴趣的方向，进入 <https://arxiv.org/> 点击你感兴趣的方向（可以是大类，也可以是子类），此时浏览器地址栏就会出现该类的代号 name，则官方订阅地址为 `https://arxiv.org/list/name/new`；    
 - arxiv：若要订阅 recent，则用 recent 替换 new，即 `https://arxiv.org/list/name/recent`；  

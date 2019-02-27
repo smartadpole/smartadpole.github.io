@@ -53,6 +53,6 @@ categories: [PaperReading]
 **挑战**：大量标注医学图像很困难；  
 **解决**：「BOWDA-Net」   
   1. 为了加强分割时对于边界的感知，引入了边界加权分割损失函数（boundary-weighted segmentation loss ，BWL）；
-  2. 针对小型医学图像数据集，我们使用了微调（fine-tuning）；
+  2. 针对小型医学图像数据集，我们使用了微调（fine-tuning）；  
 **数据集**：MICCAI 2012 Prostate MR Image Segmentation (PROMISE12) 挑战赛数据集；<https://promise12.grand-challenge.org/>  
 **结论**：边界分割效果很好，优于其他最先进的方法；

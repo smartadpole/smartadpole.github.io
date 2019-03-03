@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Lip Reading
+    zh:       唇语识别
+    zh-Hans:  唇语识别
+    zh-Hant:  唇语识别
+sidebar:
+    nav: CV
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "LipReading" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

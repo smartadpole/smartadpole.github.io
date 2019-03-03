@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Face Align
+    zh:       人脸对齐
+    zh-Hans:  人脸对齐
+    zh-Hant:  人脸对齐
+sidebar:
+    nav: CV
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "FaceAlign" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

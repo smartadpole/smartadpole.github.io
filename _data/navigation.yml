@@ -185,16 +185,39 @@ CV:
         url:    /assets/category/cv/detect.html
       - title:  分割
         url:    /assets/category/cv/segment.html
-      - title:  人脸验证
-        url:    /assets/category/cv/face_verify.html
-      - title:  人脸识别
-        url:    /assets/category/cv/face_recognize.html
       - title:  迁移学习
         url:    /assets/category/cv/transfer.html
       - title:  元学习
         url:    /assets/category/cv/meta_learning.html
       - title:  多模态融合
         url:    /assets/category/cv/multimodal.html
+  - title:    人  
+    children:
+      - title:  人脸验证
+        url:    /assets/category/cv/human/face_verify.html
+      - title:  人脸识别
+        url:    /assets/category/cv/human/face_recognize.html
+      - title:  人脸对齐
+        url:    /assets/category/cv/human/face_align.html
+      - title:  人脸关键点
+        url:    /assets/category/cv/human/facial_landmark.html
+      - title:  活性检测
+        url:    /assets/category/cv/human/activity_recognize.html
+      - title:  表观分析
+        url:    /assets/category/cv/human/apparent_analysis.html
+      - title:  姿态估计
+        url:    /assets/category/cv/human/pose_estimation.html
+      - title:  行人重识别
+        url:    /assets/category/cv/human/reid.html
+      - title:  人群计数
+        url:    /assets/category/cv/human/crowd_count.html
+      - title:  唇语识别
+        url:    /assets/category/cv/human/lip_reading.html
+      - title:  手掌分割
+        url:    /assets/category/cv/human/hands_segmentation.html
+      - title:  人脸修复
+        url:    /assets/category/cv/human/facial_inpaint.html
+
 
 Video:
   - title:  
@@ -705,7 +728,7 @@ Unsupervised:
     children:
       - title:  上一层
         url:    /assets/category/ml/ml/unsupervised.html
-  - title:  原型聚类
+  - title:  原型/划分聚类
     children:
       - title:  k-means
         url:    /ml/unsupervised/2019/01/24/k-means.html
@@ -724,6 +747,12 @@ Unsupervised:
   - title:  层次聚类
     children:
       - title:  AGNES
+        url:    /ml/unsupervised/2019/01/24/k-means.html
+      - title:  BIRCH
+        url:    /ml/unsupervised/2019/01/24/k-means.html
+  - title:  网格聚类
+    children:
+      - title:  STING
         url:    /ml/unsupervised/2019/01/24/k-means.html
 
 

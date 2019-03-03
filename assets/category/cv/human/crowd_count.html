@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Crowd Counting
+    zh:       人群计数
+    zh-Hans:  人群计数
+    zh-Hant:  人群计数
+sidebar:
+    nav: CV
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "CrowdCounting" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

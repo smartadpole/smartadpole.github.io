@@ -42,7 +42,7 @@ categories: [PaperReading]
 
 ## 机器学习
 
-#### [1. 关于对抗鲁棒性对数据分布的敏感程度的研究](http://cn.arxiv.org/abs/1902.08336)  
+#### [3. 关于对抗鲁棒性对数据分布的敏感程度的研究](http://cn.arxiv.org/abs/1902.08336)  
 发表时间：2019-02-22   
 *标签：数据，对抗训*    
 
@@ -59,7 +59,7 @@ categories: [PaperReading]
 
 
 ## 自然语言处理
-#### [1. AQM+：视觉问答系统中用大规模 AQM 生成问题](http://cn.arxiv.org/abs/1902.08355)  
+#### [4. AQM+：视觉问答系统中用大规模 AQM 生成问题](http://cn.arxiv.org/abs/1902.08355)  
 发表时间：2019-02-22   
 *标签：视觉问答*    
 

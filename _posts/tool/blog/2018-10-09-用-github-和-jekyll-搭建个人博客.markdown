@@ -7,7 +7,31 @@ aside:
   toc: true
 category: [Blog]
 ---
+
+
+## 报错
+1. Jekyll serve 启动失败  
+
+<!--more-->
+
+```
+WARN: Unresolved specs during Gem::Specification.reset:
+      jekyll-watch (~> 2.0)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+Configuration file: /smartadpole.github.io/_config.yml
+            Source: /smartadpole.github.io
+       Destination: /smartadpole.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 16.287 seconds.
+FATAL: Listen error: unable to monitor directories for changes.
+Visit https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers for info on how to fix this.
+```
+**解决**：  `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`   
+
 writing…… :ghost:
+
 
 
 

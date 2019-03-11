@@ -984,3 +984,16 @@ NLP_CMU2019:
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html      
       - title:  L30:Poster Presentations
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
+
+
+LiverCancer:
+  - title:  肝癌分类
+    children:
+      - title:  竞赛信息
+        url:    /competition/2019/03/11/LiverCancer-DCIC2019.html
+      - title:  数据处理
+        url:    /competition/2019/03/11/LiverCancer-DCIC2019-Data.html
+      - title:  实践
+        url:    /competition/2019/03/11/LiverCancer-DCIC2019-Solution.html
+
+

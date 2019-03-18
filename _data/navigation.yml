@@ -20,31 +20,41 @@ header:
 
 
 docs-en:
-  - title:      编程
+  - title:      软件·语法
+    children:
+      - title:  编程基础
+        url:    /assets/category/software/grammer/foundation.html
+      - title:  C++
+        url:    /assets/category/software/grammer/cpp.html
+      - title:  python
+        url:    /assets/category/software/grammer/python.html
+      - title:  常用操作
+        url:    /assets/category/software/grammer/skill.html
+
+  - title:      软件·算法
     children:
       - title:  数据结构与算法
-        url:    /assets/category/programming/algorithms.html
-      - title:  编程基础
-        url:    /assets/category/programming/foundation.html
-      - title:  C++
-        url:    /assets/category/programming/cpp.html
-      - title:  python
-        url:    /assets/category/programming/python.html
-      - title:  面向对象程序设计
-        url:    /assets/category/programming/oop.html
+        url:    /assets/category/software/algorithms/algorithms.html
 
-  - title:      软件工程
+  - title:      软件·开发方法
     children:
       - title:  软件工程导论
-        url:    /assets/category/software/se_introduction.html
+        url:    /assets/category/software/develop/se_introduction.html
+      - title:  面向对象程序设计
+        url:    /assets/category/software/develop/oop.html
       - title:  设计模式
-        url:    /assets/category/software/design_pattern.html
-      - title:  软件测试
-        url:    /assets/category/software/software_test.html
-      - title:  软件调试
-        url:    /assets/category/software/software_debug.html
+        url:    /assets/category/software/develop/design_pattern.html
+      - title:  测试驱动开发
+        url:    /assets/category/software/develop/tdd.html
       - title:  重构
-        url:    /assets/category/software/restructure.html
+        url:    /assets/category/software/develop/restructure.html
+      - title:  持续集成
+        url:    /assets/category/software/develop/ci.html
+      - title:  软件测试
+        url:    /assets/category/software/develop/software_test.html
+      - title:  软件调试
+        url:    /assets/category/software/develop/software_debug.html
+
 
   - title:      图像处理
     children:
@@ -116,13 +126,13 @@ C++:
   - title:      
     children:
       - title:  基础知识
-        url:    /assets/category/programming/cpp/foundation.html
+        url:    /assets/category/software/grammer/cpp/foundation.html
       - title:  STL
-        url:    /assets/category/programming/cpp/STL.html
+        url:    /assets/category/software/grammer/cpp/STL.html
       - title:  专题
-        url:    /assets/category/programming/cpp/advanced.html
+        url:    /assets/category/software/grammer/cpp/advanced.html
       - title:  并行编程
-        url:    /assets/category/programming/cpp/parallel.html
+        url:    /assets/category/software/grammer/cpp/parallel.html
 
 Programming:
   - title:  
@@ -132,7 +142,7 @@ Programming:
   - title:      
     children:
       - title:  基础知识
-        url:    /assets/category/programming/foundation/foundation.html
+        url:    /assets/category/software/grammer/foundation/foundation.html
 
 Python:
   - title:  
@@ -142,11 +152,11 @@ Python:
   - title:      
     children:
       - title:  入门
-        url:    /assets/category/programming/python/foundation.html
+        url:    /assets/category/software/grammer/python/foundation.html
       - title:  标准库
-        url:    /assets/category/programming/python/stl.html
+        url:    /assets/category/software/grammer/python/stl.html
       - title:  第三方库
-        url:    /assets/category/programming/python/library3rd.html
+        url:    /assets/category/software/grammer/python/library3rd.html
 
 
 DL:
@@ -303,83 +313,83 @@ DataStructure:
   - title:      数据结构
     children:
       - title:  基本数据结构
-        url:    /assets/category/programming/algorithms/data_structure.html
+        url:    /assets/category/software/algorithms/data_structure.html
       - title:  并查集
-        url:    /assets/category/programming/algorithms/disjoint_set.html
+        url:    /assets/category/software/algorithms/disjoint_set.html
       - title:  散列表
-        url:    /assets/category/programming/algorithms/hash_table.html
+        url:    /assets/category/software/algorithms/hash_table.html
       - title:  数据结构的扩张
-        url:    /assets/category/programming/algorithms/data_structure_augment.html
+        url:    /assets/category/software/algorithms/data_structure_augment.html
       - title:  斐波那契堆
-        url:    /assets/category/programming/algorithms/fibonacci_heap.html
+        url:    /assets/category/software/algorithms/fibonacci_heap.html
 
   - title:      数据结构专题
     children:
       - title:  字符串
-        url:    /assets/category/programming/algorithms/string.html
+        url:    /assets/category/software/algorithms/string.html
       - title:  数组
-        url:    /assets/category/programming/algorithms/array.html
+        url:    /assets/category/software/algorithms/array.html
       - title:  树
-        url:    /assets/category/programming/algorithms/tree.html
+        url:    /assets/category/software/algorithms/tree.html
       - title:  图
-        url:    /assets/category/programming/algorithms/graph.html
+        url:    /assets/category/software/algorithms/graph.html
 
 
   - title:      算法专题
     children:
       - title:  排序
-        url:    /assets/category/programming/algorithms/sort.html
+        url:    /assets/category/software/algorithms/sort.html
       - title:  查找
-        url:    /assets/category/programming/algorithms/search.html
+        url:    /assets/category/software/algorithms/search.html
 
   - title:      算法分析技术
     children:
       - title:  分治
-        url:    /assets/category/programming/algorithms/divide_conquer.html
+        url:    /assets/category/software/algorithms/divide_conquer.html
       - title:  回溯
-        url:    /assets/category/programming/algorithms/backtracking.html
+        url:    /assets/category/software/algorithms/backtracking.html
       - title:  递归
-        url:    /assets/category/programming/algorithms/recursive.html
+        url:    /assets/category/software/algorithms/recursive.html
       - title:  分支限界
-        url:    /assets/category/programming/algorithms/bound.html
+        url:    /assets/category/software/algorithms/bound.html
       - title:  动态规划
-        url:    /assets/category/programming/algorithms/dynamic_programming.html
+        url:    /assets/category/software/algorithms/dynamic_programming.html
       - title:  贪心算法
-        url:    /assets/category/programming/algorithms/greedy.html
+        url:    /assets/category/software/algorithms/greedy.html
       - title:  摊还分析
-        url:    /assets/category/programming/algorithms/amortize_analysis.html
+        url:    /assets/category/software/algorithms/amortize_analysis.html
 
   - title:      算法进阶
     children:
       - title:  组合数学
-        url:    /assets/category/programming/algorithms/combinatorics_math.html
+        url:    /assets/category/software/algorithms/combinatorics_math.html
       - title:  数学
-        url:    /assets/category/programming/algorithms/math.html
+        url:    /assets/category/software/algorithms/math.html
       - title:  数论
-        url:    /assets/category/programming/algorithms/number_theoretic.html
+        url:    /assets/category/software/algorithms/number_theoretic.html
       - title:  计算方法
-        url:    /assets/category/programming/algorithms/computing_method.html
+        url:    /assets/category/software/algorithms/computing_method.html
       - title:  矩阵运算
-        url:    /assets/category/programming/algorithms/matrix_operation.html
+        url:    /assets/category/software/algorithms/matrix_operation.html
       - title:  线性规划
-        url:    /assets/category/programming/algorithms/linear_programming.html
+        url:    /assets/category/software/algorithms/linear_programming.html
       - title:  多项式与傅里叶变换
-        url:    /assets/category/programming/algorithms/polynomials_fft.html
+        url:    /assets/category/software/algorithms/polynomials_fft.html
       - title:  概率分析与随机化算法
-        url:    /assets/category/programming/algorithms/randomization.html
+        url:    /assets/category/software/algorithms/randomization.html
       - title:  博弈论
-        url:    /assets/category/programming/algorithms/game_theory.html
+        url:    /assets/category/software/algorithms/game_theory.html
       - title:  近似算法
-        url:    /assets/category/programming/algorithms/approximation.html
+        url:    /assets/category/software/algorithms/approximation.html
       - title:  计算几何
-        url:    /assets/category/programming/algorithms/computational_geometry.html
+        url:    /assets/category/software/algorithms/computational_geometry.html
       - title:  多线程算法
-        url:    /assets/category/programming/algorithms/multithread.html
+        url:    /assets/category/software/algorithms/multithread.html
 
   - title:      OnlineJudge
     children:
       - title:  LeetCode
-        url:    /assets/category/programming/algorithms/leetcode.html
+        url:    /assets/category/software/algorithms/leetcode.html
 
 ML:
   - title:  

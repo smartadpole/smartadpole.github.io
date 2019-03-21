@@ -223,4 +223,4 @@ plt.show()
 
 ### B 参考文献  
 [1]. 诸葛越. 百面机器学习[M]. 北京:人民邮电出版社. 2018.  
-[2]. ArcGIS Pro. “基于密度的聚类”工作原理[EB/OL]. <https://pro.arcgis.com/zh-cn/pro-app/tool-reference/spatial-statistics/how-density-based-clustering-works.htm>. -/2019.-03-03.  
+[2]. ArcGIS Pro. “基于密度的聚类”工作原理[EB/OL]. <https://pro.arcgis.com/zh-cn/pro-app/tool-reference/spatial-statistics/how-density-based-clustering-works.htm>. -/2019-03-03.  

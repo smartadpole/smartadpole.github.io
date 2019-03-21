@@ -5,9 +5,7 @@ date:   2019-02-25 13:08:40 +0800
 key: conv-implement-20190225
 aside:
   toc: true
-category: [DL]
-articles:
-  excerpt_type: html
+category: [DL,CNN]
 ---
 
 >在 CNN 中, 大部分的计算消耗是在卷积计算, 尤其是端上设备对于性能的要求更为苛刻；本文撇开硬件和代码级的优化, 仅针对计算卷积的几个方法进行记述；    

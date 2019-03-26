@@ -22,41 +22,42 @@ category: [CV]
 ### 2. 目标级别
 - **分类**（classification）    
 图像上有什么；   
-  - CT 分类  
-  - 缺陷检测（defect inspect）   
-  - 喷注分类（jet tagging）   
-  - 无监督分类   
+    - CT 分类  
+    - 缺陷检测（defect inspect）   
+    - 喷注分类（jet tagging）   
+    - 无监督分类   
+    - 非视野物体识别  
 - **定位**（location）  
 目标在哪里；   
 - **检测**（detection）   
 图像中有哪些目标，位置在哪；   
-  - 通用目标检测     
-  - 行人检测  
-  - 人脸检测   
-  - 文本检测   
-  - 车辆检测  
-  - 视频目标检测   
-  - 球类检测   
+    - 通用目标检测     
+    - 行人检测  
+    - 人脸检测   
+    - 文本检测   
+    - 车辆检测  
+    - 视频目标检测   
+    - 球类检测   
 - **识别**（recognization）  
 - **跟踪**（tracking）
 - **分割**（Segmentation）    
-  - **语义分割**（semantic segmentation）    
-  分割出物体；   
-  - **实例分割**（instance segmentation）       
-    - 扁桃体分割（amygdala segmentation）  
-    - 前列腺分割（prostate segmentation）  
-    - 手部分割（hands segmentation）  
-    - 对话框分割（speech ballon segmentation）  
-  分割出个体；    
+    - **语义分割**（semantic segmentation）    
+    分割出物体；   
+    - **实例分割**（instance segmentation）       
+      分割出个体；    
+        - 扁桃体分割（amygdala segmentation）  
+        - 前列腺分割（prostate segmentation）  
+        - 手部分割（hands segmentation）  
+        - 对话框分割（speech ballon segmentation）  
 - **显著性检测**（saliency detection）  
 以人眼关注为标准，找到图像中最为突出的目标区域；包括眼动点检测和显著性目标检测（与检测和分割密切相关）；   
-- **图像检索**  
+- **图像检索**（image retrival）  
 以图搜图；   
-  - 行人重识别（ReID）    
-  - 人脸检索   
+    - 行人重识别（ReID）    
+    - 人脸检索   
 - **验证**  
 判断两张图像是不是同一个物体；   
-  - 人脸验证
+    - 人脸验证
 
 
 ### 3. 图像级别
@@ -69,9 +70,10 @@ category: [CV]
 - **着色**（Colourisation）  
 单色图像转换成彩色图像；   
 - **图像恢复**（image restoration）   
-  - 面部修复（facial inpaint）   
+    - 面部修复（facial inpaint）   
 - **图像合成**   
 - **图像重建**   
+    - **三维重建**  
 
 
 
@@ -84,36 +86,40 @@ category: [CV]
 与 VQA 相反，输入图像和答案，能够生成相关的问题；   
 - **视觉定位**（visual grounding）   
 给出一张图像和一段描述性语句，找到图中最相关的区域；   
+- **语义强化**（semantic reinforcement）  
+针对文字，使用视觉提示来暗示主题，即用图片代替文字达到凸显主题的目的；    
+
 
 
 ### 5. 专题
 - **人**  
-  - **2D 姿态估计**  
-  找到人体部位的方向和构型；一般是找到各部位的位置；  
-  - **头部姿态估计**（head pose estimation）   
-  - **手部姿态估计**（hand pose estimation）   
-  - **人体关键点检测**（key point）
-  - **人脸关键点检测**   
-  - **人脸识别**（face recognization）   
-  - **人脸对齐**（face align）   
-  - **手势识别**   
-  - **人群计数**（crowd counting）   
-  - **活性检测**（activity recognization）   
-  - **表观分析**（apparent analysis）   
-  - **唇语识别**（lip reading）
+    - **2D 姿态估计**  
+    找到人体部位的方向和构型；一般是找到各部位的位置；  
+    - **头部姿态估计**（head pose estimation）   
+    - **手部姿态估计**（hand pose estimation）   
+    - **人体关键点检测**（key point）
+    - **人脸关键点检测**   
+    - **人脸识别**（face recognization）   
+    - **人脸对齐**（face align）   
+    - **手势识别**   
+    - **人群计数**（crowd counting）   
+    - **活性检测**（activity recognization）   
+    - **表观分析**（apparent analysis）   
+    - **唇语识别**（lip reading）
+    - **人流量预测**（crowd flow predict）
 - **文字**   
-  - **OCR**   
+    - **OCR**   
 - **自动驾驶**（automatic drive）   
-  - **导航**（navigation）   
-  - **车牌识别**（palte recognization）  
-  - **车辆检索**（vehicle ReID）  
+    - **导航**（navigation）   
+    - **车牌识别**（palte recognization）  
+    - **车辆检索**（vehicle ReID）  
 
 
 ### 6. 其他
 - **图像编码**  
 保证图像质量的前提下，压缩数据，以便存储和传输；   
 - **数据增强**    
-  - **目标检测——数据增强**  
+    - **目标检测——数据增强**  
 
 
 ## 二、 视频

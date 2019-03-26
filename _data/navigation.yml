@@ -42,6 +42,8 @@ docs-en:
         url:    /assets/category/software/develop/se_introduction.html
       - title:  面向对象程序设计
         url:    /assets/category/software/develop/oop.html
+      - title:  并行编程
+        url:    /assets/category/software/develop/parallel_programming.html
       - title:  设计模式
         url:    /assets/category/software/develop/design_pattern.html
       - title:  测试驱动开发
@@ -201,6 +203,9 @@ CV:
         url:    /assets/category/cv/meta_learning.html
       - title:  多模态融合
         url:    /assets/category/cv/multimodal.html
+      - title:  三维重建
+        url:    /assets/category/cv/3D_reconstruction.html
+
   - title:    人  
     children:
       - title:  人脸验证

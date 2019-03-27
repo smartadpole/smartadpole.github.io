@@ -13,6 +13,10 @@ Ian Goodfellow；
 
 <!--more-->
 
+# 1 参考资料
+## 1.1 视频
+[1]. 李宏毅. 李宏毅对抗生成网络(GAN)(2018)[EB/OL]. <https://www.bilibili.com/video/av24011528?from=search&seid=14571953395351333549>.    
+
 -------------------  
  End
 {:.warning}  

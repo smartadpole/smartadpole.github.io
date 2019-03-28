@@ -17,7 +17,7 @@ category: [CV, 3DReconstruction]
 
 <!--more-->  
 
-**体素**:volume pixel（voxel），与二维的像素一样，需存储所有三维像素点，没有物体的地方像素值为 0；像素具有规律性的排列，可以直接套用卷积神经网络；运算时需要庞大的内存与运算量；  
+**体素**：volume pixel（voxel），与二维的像素一样，需存储所有三维像素点，没有物体的地方像素值为 0；像素具有规律性的排列，可以直接套用卷积神经网络；运算时需要庞大的内存与运算量；  
 **点云**：point cloud，是三维点的集合，只需记录物体所在的点的坐标；没有规律性的排列，因此无法套用卷积神经网络；高分辨率下，比较节省内存与运算量，也比较适合表示高分辨率的三维物体；  
 
 
@@ -259,8 +259,8 @@ CVPR 2017 [Paper](https://arxiv.org/abs/1603.08182) | [Matlab](https://github.co
 {:.warning}  
 
 
-## 附录
-### A 参考资料
+# 附录
+## A 参考资料
 [1]. 维基百科. 三维重建[EB/OL]. <https://zh.wikipedia.org/wiki/%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA>. -/2019-03-28.   
 [2]. dragonlong. Trending in 3D Vision[EB/OL]. <https://github.com/dragonlong/Trending-in-3D-Vision>. -/2019-03-28.    
 [3]. timzhang642. 3D-Machine-Learning[EB/OL]. <https://github.com/timzhang642/3D-Machine-Learning>. -/2019-03-28.    

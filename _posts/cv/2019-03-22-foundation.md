@@ -10,6 +10,9 @@ category: [CV]
 
 # 常见视觉任务
 ## 一、 二维图像
+
+<!--more-->   
+
 ### 1. 像素级别
 - **特征提取**（边缘，纹理）  
 - **图像增强**  
@@ -60,8 +63,6 @@ category: [CV]
 
 
 ### 3. 图像级别
-- **图像生成**（Image Generation）  
-文字转图像；   
 - **超分辨率**（Super-resolution）    
 从低分辩率估计出高分辨率图像；   
 - **风格迁移**（Style Transfer，Neural Style）  
@@ -77,6 +78,8 @@ category: [CV]
 ### 4. 理解级别
 - **图像翻译** | 图像描述 | 图像标注 | 看图说话 | 场景理解（Image Captioning）     
 根据图片生成描述文字；  
+- **图像生成**（Image Generation）  
+文字转图像；   
 - **视觉问答**（visual question-answer，VQA）| 命名实体识别（Named Entites Recognition）   
 给出一张图像和一个开放式问题，生成一个答案；   
 - **视觉问题生成**（visual question generation，VQG）  
@@ -133,7 +136,7 @@ category: [CV]
 ## 2. 图像级别
 - **深度估计**  
 - **三维感知**  
-- **表示学习**  
+- **表示解耦**  
 - **点云处理**  
     - 点云神经网络    
     - 3D 渲染  
@@ -144,6 +147,8 @@ category: [CV]
 
 ## 3. 理解级别
 - **场景理解**  
+- **图像生成**（3D Image Generation）  
+文字转三维图像；   
 
 ## 三、 视频
 ### 1. 目标级别

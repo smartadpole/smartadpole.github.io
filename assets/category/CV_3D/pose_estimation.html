@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       3D Pose Estimation
+    zh:       三维姿态估计
+    zh-Hans:  三维姿态估计
+    zh-Hant:  三维姿态估计
+sidebar:
+    nav: CV
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "3DPoseEstimation" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

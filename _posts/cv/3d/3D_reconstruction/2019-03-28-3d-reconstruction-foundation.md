@@ -32,20 +32,23 @@ NIPS 2016, 3D GAN [Paper](https://arxiv.org/abs/1610.07584) | [Torch](https://gi
 1. [3D Shape Induction from 2D Views of Multiple Objects](http://cn.arxiv.org/abs/1612.05872)   
 CVPR 2017 [Paper](https://arxiv.org/abs/1612.05872) | [Python](https://github.com/matheusgadelha/PrGAN)        
 
-1. [PU-Net: Point Cloud Upsampling Network](http://cn.arxiv.org/abs/1801.06761)   
-CVPR 2018 [Paper](https://arxiv.org/abs/1801.06761) | [Tensorflow](https://github.com/yulequan/PU-Net)-Offical | [Tensorflow](https://github.com/skoo9500/3d-pc-AE-GAN)-AE-GAN    
-
-1. [Text2Shape: Generating Shapes from Natural Language by Learning Joint Embeddings](http://cn.arxiv.org/abs/1803.08495)   
-2018 [Paper](https://arxiv.org/abs/1803.08495) | [Tensorflow](https://github.com/kchen92/text2shape/)-Offical WGAN | [Project](http://text2shape.stanford.edu/)      
-
 1. [Visual Object Networks: Image Generation with Disentangled 3D Representation](http://cn.arxiv.org/abs/1812.02725)   
-NIPS 2018, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](https://github.com/junyanz/VON) | [Project](http://von.csail.mit.edu/)     
+NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](https://github.com/junyanz/VON) | [Project](http://von.csail.mit.edu/)     
+*`单视角` · `GAN + AE` · `WGAN-GP`*    
+**单张图像生成三维图像**：启发自经典的图形学，我们将三维图像生成分为形状、视角和纹理三个部分，并使用 GAN 进行学习；网络先学习到三维形状，然后转为 2.5D（即轮廓和深度图），再对深度图施加纹理，以生成逼真的图像；   
+文章使用独立的网络完成上述各操作，包括 $GAN_{shape}$（**WGAN-GP**），$GAN_{texture}$（**PatchGAN** + **LS-GAN** + **AE-ResNet**），$Estimate_{texture}$（AE-ResNet），$Estimate_{2.5D}$（AE-ResNet）；      
+**$GAN_{shape}$**：2D 输入用的 Pix3D 数据集，3D 输入用的 ShapeNet 数据集；（均使用了椅子和车分类）；使用 [FID](/dl/gan/2019/03/26/GAN-survey.html#45-fid) 评估 GAN 的效果；    
+>最终效果是挺好，只是从理论上看速度就够慢的；不过开源了这么多代码，也是挺实用；    
 
 ## 2.2 自编码
 针对二维（输入）和三维（标签）分别训练出一个自编码器，得到的两个编码向量越接近越好；使用时，先用二维编码器得到特征向量，然后用三维解码器得到对应的三维数据（可以是体素，也可以是点云）；   
 
 1. [GRASS: Generative Recursive Autoencoders for Shape Structures](http://cn.arxiv.org/abs/1705.02090)      
 SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1705.02090) | [Matlab](https://github.com/junli-lj/grass) | [Pytorch](https://github.com/kevin-kaixu/grass_pytorch) | [Project](https://kevinkaixu.net/projects/grass.html)      
+*`自编码` · `对称结构` · `图卷积` · `RNN`*    
+**从物体的层次性和对称性入手提高生成效果**：GRASS，   
+几何结构编码：将物体各部位的外接框
+>使用了复杂的组合模型来探索三维图像的几何结构问题，针对不同的部位单独生成其对应的三维模型，来提高生成效果；（论文很难读）；   
 
 
 ## 2.3 其他
@@ -158,7 +161,7 @@ NIPS 2017 [Paper](https://arxiv.org/abs/1711.03129) | [Pytorch](https://github.c
 SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1708.01841) | [Tensorflow](https://github.com/mhsung/complement-me)-Offical | [Project](https://mhsung.github.io/complement-me.html)       
 
 1. [Multi-view Consistency as Supervisory Signal  for Learning Shape and Pose Prediction](http://cn.arxiv.org/abs/1801.03910)   
-2018 CVPR [Paper](https://arxiv.org/abs/1801.03910) | [Pytorch](https://github.com/shubhtuls/mvcSnP)-Offical | [Project](https://shubhtuls.github.io/mvcSnP/)  
+CVPR 2018 [Paper](https://arxiv.org/abs/1801.03910) | [Pytorch](https://github.com/shubhtuls/mvcSnP)-Offical | [Project](https://shubhtuls.github.io/mvcSnP/)  
 
 1. [Object-Centric Photometric Bundle Adjustment with Deep Shape Prior](http://cn.arxiv.org/abs/1711.01470)   
 2018 [Paper](https://arxiv.org/abs/1711.01470)   
@@ -181,6 +184,15 @@ CVPR 2018 [Paper](http://www.cvlibs.net/publications/Liao2018CVPR.pdf) | [Pytorc
 1. [Learning Category-Specific Mesh Reconstruction from Image Collections](http://cn.arxiv.org/abs/1803.07549)   
 ECCV 2018, 伯克利 [Paper](https://arxiv.org/abs/1803.07549) | [Pytorch](https://github.com/akanazawa/cmr)-Offical | [Project](https://akanazawa.github.io/cmr/)    
 
+1. [Layer-structured 3D Scene Inference via View Synthesis](http://cn.arxiv.org/abs/1807.10264)  
+ECCV 2018 [Paper](https://arxiv.org/abs/1807.10264) | [Tensorflow](https://github.com/google/layered-scene-inference) | [Project](https://shubhtuls.github.io/lsi/)  
+
+1. [Sidekick Policy Learning for Active Visual Exploration](http://cn.arxiv.org/abs/1807.11010)  
+ECCV 2018 [Paper](https://arxiv.org/abs/1807.11010) | [Pytorch](https://github.com/srama2512/sidekicks) | [Project](http://vision.cs.utexas.edu/projects/sidekicks/)   
+
+1. [Im2Pano3D: Extrapolating 360° Structure and Semantics Beyond the Field of View](http://cn.arxiv.org/abs/1712.04569)   
+CVPR 2018 [Paper](https://arxiv.org/abs/1712.04569) | [Pytorch|Matlab](https://github.com/shurans/im2pano3d/) | [Project](http://im2pano3d.cs.princeton.edu/)   
+
 1. [CSGNet: Neural Shape Parser for Constructive Solid Geometry](http://cn.arxiv.org/abs/1712.08290)   
 CVPR 2018 [Paper](https://arxiv.org/abs/1712.08290) | [Python-2D](https://github.com/Hippogriff/CSGNet)-Offical | [Python-3D](https://github.com/Hippogriff/3DCSGNet) | [Project](https://hippogriff.github.io/CSGNet/)       
 
@@ -191,7 +203,8 @@ NIPS 2018 [Paper](https://arxiv.org/abs/1802.09987) | [Tensorflow](https://githu
 CVPR 2018 [Paper](https://arxiv.org/abs/1804.06032) | [Pytorch](https://github.com/daeyun/object-shapes-cvpr18)-Offical | [Project](https://www.ics.uci.edu/~daeyuns/pixels-voxels-views/)       
 
 1. [Neural scene representation and rendering](http://science.sciencemag.org/content/sci/360/6394/1204.full.pdf?ijkey=kpkRRXA1ckHD6&keytype=ref&siteid=sci)   
-2018 [Paper](http://science.sciencemag.org/content/sci/360/6394/1204.full.pdf?ijkey=kpkRRXA1ckHD6&keytype=ref&siteid=sci) | [Chainer](https://github.com/musyoku/chainer-gqn) | [Tensorflow](https://github.com/ogroth/tf-gqn) | [Project](https://deepmind.com/blog/neural-scene-representation-and-rendering/)        
+2018, GQN [Paper](http://science.sciencemag.org/content/sci/360/6394/1204.full.pdf?ijkey=kpkRRXA1ckHD6&keytype=ref&siteid=sci) | [Chainer](https://github.com/musyoku/chainer-gqn) | [Tensorflow](https://github.com/ogroth/tf-gqn) | [Pytorch](https://github.com/iShohei220/torch-gqn) | [Project](https://deepmind.com/blog/neural-scene-representation-and-rendering/) | [Dataset-GQN](https://github.com/deepmind/gqn-datasets)         
+速度相当慢；  
 
 1. [Im2Struct: Recovering 3D Shape Structure from a Single RGB Image](http://cn.arxiv.org/abs/1804.05469)   
 CVPR 2018 [Paper](https://arxiv.org/abs/1804.05469) | [Matlab](https://github.com/chengjieniu/Im2Struct)-Offical    
@@ -227,7 +240,7 @@ ICLR 2019 [Paper](https://arxiv.org/abs/1901.02875) | [Pytorch](https://github.c
 CVPR 2019 [Paper](https://arxiv.org/abs/1811.10719) | [Project](http://hiroharu-kato.com/projects_en/view_prior_learning.html) 马上开源     
 
 ## 2.4 基于可变参模型
-1. [ -based Autoencoders for Localized Deformation Component Analysis](http://cn.arxiv.org/abs/1709.04304)   
+1. [Mesh-based Autoencoders for Localized Deformation Component Analysis](http://cn.arxiv.org/abs/1709.04304)   
 2017 [Paper](https://arxiv.org/abs/1709.04304)    
 1. [Exploring Generative 3D Shapes Using Autoencoder Networks](https://www.autodeskresearch.com/publications/exploring_generative_3d_shapes)   
 2017 [Paper](https://www.autodeskresearch.com/publications/exploring_generative_3d_shapes)

@@ -47,7 +47,10 @@ NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](htt
 SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1705.02090) | [Matlab](https://github.com/junli-lj/grass) | [Pytorch](https://github.com/kevin-kaixu/grass_pytorch) | [Project](https://kevinkaixu.net/projects/grass.html)      
 *`自编码` · `对称结构` · `图卷积` · `RNN`*    
 **从物体的层次性和对称性入手提高生成效果**：GRASS，   
-几何结构编码：将物体各部位的外接框
+**几何结构编码**：将物体各部位的外接框编码成固定长度的向量；  
+**循环自编码**：使用 RNN 作为自编码网络，将每一个目标框编码成特征向量，同时生成起层次结构；然后使用相反的结构来恢复物体框；使用重建损失来指导训练；    
+**学习局部结构**：在自编码基础上，加入 GAN，来生成物体形状；GAN 根据物体的多个局部编码生成其三维结构；   
+**几何合成**：  
 >使用了复杂的组合模型来探索三维图像的几何结构问题，针对不同的部位单独生成其对应的三维模型，来提高生成效果；（论文很难读）；   
 
 

@@ -123,6 +123,7 @@ category: [CV]
 
 ## 二、 三维图像
 ### 1. 目标级别
+- **视角转换**（view synthesis）   
 - **三维重建**（3D reconstruction）   
     - 基于点云的   
     - 基于图像的  

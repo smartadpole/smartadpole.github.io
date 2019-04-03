@@ -234,6 +234,8 @@ CV:
 
   - title:      CV-3D
     children:
+      - title:  视角转换
+        url:    /assets/category/CV_3D/view_synthesis.html
       - title:  三维重建
         url:    /assets/category/CV_3D/3D_reconstruction.html
       - title:  点云处理

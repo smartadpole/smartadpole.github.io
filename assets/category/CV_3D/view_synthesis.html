@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       View Synthesis
+    zh:       视角转换
+    zh-Hans:  视角转换
+    zh-Hant:  视角转换
+sidebar:
+    nav: CV
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "ViewSynthesis" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

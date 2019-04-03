@@ -64,12 +64,6 @@ SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1705.02090) | [Matlab](https://githu
 1. [Analysis and synthesis of 3D shape families via deep-learned generative models of surfaces](https://people.cs.umass.edu/~hbhuang/publications/bsm/)   
 2015 [Paper](https://people.cs.umass.edu/~hbhuang/publications/bsm/)   
 
-1. [Multi-view 3D Models from Single Images with a Convolutional Network](http://cn.arxiv.org/abs/1511.06702)   
-2016 [Paper](https://arxiv.org/abs/1511.06702) | [Tensorflow](https://github.com/lmb-freiburg/mv3d)   
-
-1. [View Synthesis by Appearance Flow](http://cn.arxiv.org/abs/1605.03557)   
-ECCV 2016 [Paper](https://arxiv.org/abs/1605.03557) | [Caffe](https://github.com/tinghuiz/appearance-flow)-Offical    
-
 1. [Structured Prediction of Unobserved Voxels From a Single Depth Image](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/depth_prediction_main.pdf)   
 CVPR 2016, Voxlets [Paper](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/depth_prediction_main.pdf) | [Python](https://github.com/mdfirman/voxlets) | [Project](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/)      
 

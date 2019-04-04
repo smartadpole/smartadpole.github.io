@@ -7,7 +7,7 @@ aside:
   toc: true
 category: [CV, 3DReconstruction]
 ---
-
+<span id="head"></span>   
 <center class="half">
   <img src="/assets/images/cv_3d/3D_reconstruction/foundation.png"/>图1. 三维重建任务概览
 </center>
@@ -21,7 +21,7 @@ category: [CV, 3DReconstruction]
 **点云**：point cloud，是三维点的集合，只需记录物体所在的点的坐标；没有规律性的排列，因此无法套用卷积神经网络；高分辨率下，比较节省内存与运算量，也比较适合表示高分辨率的三维物体；  
 
 
-# 2 论文汇总
+# 2 单视图重建
 
 ## 2.1 GAN
 使用二维编码器、三维解码器(即 GAN 中的成器)和判别器；   
@@ -39,6 +39,11 @@ NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](htt
 文章使用独立的网络完成上述各操作，包括 $GAN_{shape}$（**WGAN-GP**），$GAN_{texture}$（**PatchGAN** + **LS-GAN** + **AE-ResNet**），$Estimate_{texture}$（AE-ResNet），$Estimate_{2.5D}$（AE-ResNet）；      
 **$GAN_{shape}$**：2D 输入用的 Pix3D 数据集，3D 输入用的 ShapeNet 数据集；（均使用了椅子和车分类）；使用 [FID](/dl/gan/2019/03/26/GAN-survey.html#45-fid) 评估 GAN 的效果；    
 >最终效果是挺好，只是从理论上看速度就够慢的；不过开源了这么多代码，也是挺实用；    
+
+
+1. [Learning View Priors for Single-view 3D Reconstruction](http://cn.arxiv.org/abs/1811.10719)   
+CVPR 2019 [Paper](https://arxiv.org/abs/1811.10719) | [Project](http://hiroharu-kato.com/projects_en/view_prior_learning.html) 马上开源     
+
 
 ## 2.2 自编码
 针对二维（输入）和三维（标签）分别训练出一个自编码器，得到的两个编码向量越接近越好；使用时，先用二维编码器得到特征向量，然后用三维解码器得到对应的三维数据（可以是体素，也可以是点云）；   
@@ -65,7 +70,10 @@ SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1705.02090) | [Matlab](https://githu
 2015 [Paper](https://people.cs.umass.edu/~hbhuang/publications/bsm/)   
 
 1. [Structured Prediction of Unobserved Voxels From a Single Depth Image](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/depth_prediction_main.pdf)   
-CVPR 2016, Voxlets [Paper](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/depth_prediction_main.pdf) | [Python](https://github.com/mdfirman/voxlets) | [Project](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/)      
+CVPR 2016, Voxlets [Paper](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/depth_prediction_main.pdf) | [Python](https://github.com/mdfirman/voxlets) | [Project](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/)    
+*`深度三维重建`*    
+根据单张深度图重建整个三维模型；  
+**数据集**：自建了数据集——tabletop 主要是包括遮挡情况，目前公开数据集很少包括这样的场景；NYU-Depth V2 数据集，我们把其中没有重建模型的数据，自己合成了对应的三维模型；    
 
 1. [3D-R2N2: 3D Recurrent Reconstruction Neural Network](http://cn.arxiv.org/abs/1604.00449)   
 ECCV 2016 [Paper](https://arxiv.org/abs/1604.00449) | [Theano](https://github.com/chrischoy/3D-R2N2)    
@@ -233,8 +241,6 @@ ECCV 2018, 腾讯优图 [Paper](https://xjqi.github.io/GAL.pdf)
 1. [Learning to Infer and Execute 3D Shape Programs](http://cn.arxiv.org/abs/1901.02875)   
 ICLR 2019 [Paper](https://arxiv.org/abs/1901.02875) | [Pytorch](https://github.com/HobbitLong/shape2prog) | [Project](http://shape2prog.csail.mit.edu/)   
 
-1. [Learning View Priors for Single-view 3D Reconstruction](http://cn.arxiv.org/abs/1811.10719)   
-CVPR 2019 [Paper](https://arxiv.org/abs/1811.10719) | [Project](http://hiroharu-kato.com/projects_en/view_prior_learning.html) 马上开源     
 
 ## 2.4 基于可变参模型
 1. [Mesh-based Autoencoders for Localized Deformation Component Analysis](http://cn.arxiv.org/abs/1709.04304)   
@@ -263,9 +269,13 @@ CVPR 2018 [Paper](http://files.is.tue.mpg.de/black/papers/zuffiCVPR2018.pdf)
 1. [3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions](http://cn.arxiv.org/abs/1603.08182)   
 CVPR 2017 [Paper](https://arxiv.org/abs/1603.08182) | [Matlab](https://github.com/andyzeng/3dmatch-toolbox)-Offical | [Project](http://3dmatch.cs.princeton.edu/)    
 
+# 3 多视图重建
+
+# 4 基于视角的重建
+
 
 -------------------  
- End
+ [End](#1-基础)
 {:.warning}  
 
 

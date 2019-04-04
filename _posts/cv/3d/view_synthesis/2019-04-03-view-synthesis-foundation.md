@@ -7,7 +7,7 @@ aside:
   toc: true
 category: [CV, ViewSynthesis]
 ---
-
+<span id="head"></span>   
 >**视角转换**：预测输入图像在其他视角；        
 本文汇总相关资源；   
 
@@ -28,10 +28,12 @@ category: [CV, ViewSynthesis]
 
 1. [View Synthesis by Appearance Flow](http://cn.arxiv.org/abs/1605.03557)   
 ECCV 2016 [Paper](https://arxiv.org/abs/1605.03557) | [Caffe](https://github.com/tinghuiz/appearance-flow)-Offical    
-
+*`卷积网络` · `自编码`*  
+输入二维图片和目标视角向量，经过自编码网络，输出每个像素点想比较原目标物体的光流，根据原始图片和光流得到新视角下的图片；   
+在 KITTI 上做了实验；并验证了网络对车辆，椅子和飞机的效果；    
 
 -------------------  
- End
+ [End](#1-论文汇总)
 {:.warning}  
 
 

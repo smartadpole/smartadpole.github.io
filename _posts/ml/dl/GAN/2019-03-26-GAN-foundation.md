@@ -6,6 +6,8 @@ key: gan-foundation-20190326
 aside:
   toc: true
 category: [DL, GAN]
+sidebar:
+  nav: GAN
 ---
 
 Ian Goodfellow；   

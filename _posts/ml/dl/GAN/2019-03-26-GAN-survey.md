@@ -6,6 +6,8 @@ key: gan-survey-20190326
 aside:
   toc: true
 category: [DL, GAN]
+sidebar:
+  nav: GAN
 ---
 
 >文章目的是介绍 GAN 的基本概念和组件（流程）；    

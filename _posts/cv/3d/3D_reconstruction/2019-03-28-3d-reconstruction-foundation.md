@@ -43,7 +43,7 @@ NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](htt
 
 1. [Learning View Priors for Single-view 3D Reconstruction](http://cn.arxiv.org/abs/1811.10719)   
 CVPR 2019 [Paper](https://arxiv.org/abs/1811.10719) | [Project](http://hiroharu-kato.com/projects_en/view_prior_learning.html) 马上开源     
-
+使用 GAN，并且融合了单视图重建和视角信息；   
 
 ## 2.2 自编码
 针对二维（输入）和三维（标签）分别训练出一个自编码器，得到的两个编码向量越接近越好；使用时，先用二维编码器得到特征向量，然后用三维解码器得到对应的三维数据（可以是体素，也可以是点云）；   
@@ -57,6 +57,17 @@ SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1705.02090) | [Matlab](https://githu
 **学习局部结构**：在自编码基础上，加入 GAN，来生成物体形状；GAN 根据物体的多个局部编码生成其三维结构；   
 **几何合成**：  
 >使用了复杂的组合模型来探索三维图像的几何结构问题，针对不同的部位单独生成其对应的三维模型，来提高生成效果；（论文很难读）；   
+
+
+1. [Learning to Infer and Execute 3D Shape Programs](http://cn.arxiv.org/abs/1901.02875)   
+ICLR 2019 [Paper](https://arxiv.org/abs/1901.02875) | [Pytorch](https://github.com/HobbitLong/shape2prog) | [Project](http://shape2prog.csail.mit.edu/)   
+**问题**：3D 图像的表示可以用体素，点云和网格；这些方式各有优劣，但是都无法表示物体的边缘和平面特性；  
+**方案**：本文用程序（事先定义好语言）来表示 3D 图像；并对物体的对称性和重复结构进行建模；    
+**模型**：模型包括一个程序生成器和一个程序执行器；生成器用于生成模型的表征程序，执行器用于执行生成的程序，且带有渲染功能；生成器包含两个 LSTM，并结合了 3D 卷积；   
+**数据集**：shapeNet，Pix3D和自建数据集；   
+>本文着眼于解析 3D 物体形状以在相关领域取得进一步的成果；模型整体上是自编码结构，只不过得到的「编码」不是数值，而是具有语法的文字；  
+文章是基于三维数据做的实验，作者认为该方法可以扩展到三维重建；   
+摘要没看懂；   
 
 
 ## 2.3 其他
@@ -238,8 +249,6 @@ CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_Point
 1. [GAL: Geometric Adversarial Loss for Single-View 3D-Object Reconstruction](https://xjqi.github.io/GAL.pdf)   
 ECCV 2018, 腾讯优图 [Paper](https://xjqi.github.io/GAL.pdf)    
 
-1. [Learning to Infer and Execute 3D Shape Programs](http://cn.arxiv.org/abs/1901.02875)   
-ICLR 2019 [Paper](https://arxiv.org/abs/1901.02875) | [Pytorch](https://github.com/HobbitLong/shape2prog) | [Project](http://shape2prog.csail.mit.edu/)   
 
 
 ## 2.4 基于可变参模型

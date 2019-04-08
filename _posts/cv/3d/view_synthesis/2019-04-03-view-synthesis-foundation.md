@@ -8,7 +8,7 @@ aside:
 category: [CV, ViewSynthesis]
 ---
 <span id="head"></span>   
->**视角转换**：预测输入图像在其他视角；        
+>**视角转换**：改变输入图像的视角；        
 本文汇总相关资源；   
 
 <!--more-->  

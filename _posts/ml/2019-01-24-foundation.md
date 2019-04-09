@@ -19,16 +19,16 @@ tags: 资源
   <img src="/assets/images/ml/books/baimian_ml.jpeg" height="200"/>&emsp;<img src="/assets/images/ml/books/ml_practice.jpeg" height="200"/>&emsp;<img src="/assets/images/ml/books/lr2dl.jpeg" height="200"/>&emsp;
 </center>
 
-1.**《百面机器学习》**  
+1. **《百面机器学习》**  
 `诸葛越. 百面机器学习[M]. 北京:人民邮电出版社. 2018.`  
 
-2.**《机器学习实战》**  
+2. **《机器学习实战》**  
 `Peter Harringtion 著. 李锐, 李鹏, et al. 译. 机器学习实战[M]. 北京:人民邮电出版社. 2013.`  
 
-3.**《精通数据科学:从线性回归到深度学习》**  
+3. **《精通数据科学:从线性回归到深度学习》**  
 `唐亘. 精通数据科学:从线性回归到深度学习[M]. 北京:人民邮电出版社. 2018.`  
 
-4.**《机器学习》**  
+4. **《机器学习》**  
 `周志华. 机器学习[M]. 北京:清华大学出版社, 2016.`   
 
 ### B 推荐资料

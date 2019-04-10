@@ -51,8 +51,8 @@ sidebar:
 
 ## 2.5 Paper
 ### 2.5.1 综述
-1. [NIPS 2016 Tutorial: Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.00160)  
-2016.12 [Paper](https://arxiv.org/abs/1701.00160)
+1. Goodfellow I. [NIPS 2016 tutorial: generative adversarial networks](http://cn.arxiv.org/abs/1701.00160). arXiv preprint [arXiv: 1701.00160](https://arxiv.org/abs/1701.00160), 2016.    
+2016.12  
 
 1. [How Generative Adversarial Networks and its variants Work: An Overview of GAN](http://cn.arxiv.org/abs/1711.05914)   
 2017.11 [Paper](https://arxiv.org/abs/1711.05914), [中文笔记](https://www.jiqizhixin.com/articles/2019-03-19-12?from=synced&keyword=GAN)   
@@ -61,9 +61,9 @@ sidebar:
 2017 中科院自动化所，中文综述；   
 
 ### 2.5.2 模型评估
-1. Xu Q, Huang G, Yuan Y, et al. An empirical study on evaluation metrics of generative adversarial networks[J]. arXiv preprint [arXiv:1806.07755](https://arxiv.org/abs/1806.07755), 2018.   
+1. Xu Q, Huang G, Yuan Y, et al. [An empirical study on evaluation metrics of generative adversarial networks](http://cn.arxiv.org/abs/1806.07755)[J]. arXiv preprint [arXiv:1806.07755](https://arxiv.org/abs/1806.07755), 2018.   
 
-1. Borji A. Pros and cons of gan evaluation measures[J]. arXiv preprint [arXiv:1802.03446](https://arxiv.org/abs/1802.03446), 2019.   
+1. Borji A. [Pros and cons of gan evaluation measures](http://cn.arxiv.org/abs/1802.03446)[J]. arXiv preprint [arXiv:1802.03446](https://arxiv.org/abs/1802.03446), 2019.   
 
 1. Shmelkov K, Schmid C, Alahari K. [How good is my GAN?](https://arxiv.org/abs/1807.09499)[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 213-229.   
 
@@ -83,5 +83,5 @@ sidebar:
 {:.warning}  
 
 
-## 附录
-### A  参考资料
+# 附录
+## A  参考资料

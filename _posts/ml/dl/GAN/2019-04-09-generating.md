@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "「DL」 DCGAN"
+title:  "「DL」 生成模型简介"
 date:   2019-04-09 15:48:40 +0800
-key: DCGAN-20190409
+key: generating-model-foundation-20190409
 aside:
   toc: true
 category: [DL, GAN]

@@ -29,12 +29,15 @@ sidebar:
 
 1. **《Learning GAN》·《GAN 实战生成对抗网络》**  
 `Kuntal G. 著, 刘梦馨 译. GAN 实战生成对抗网络[M]. 北京:电子工业出版社, 2018.`  
+[英文版本](https://github.com/Kuntal-G/Books/tree/master/Learning-Generative-Adversarial-Network)    
 
 1. **《生成对抗网络入门指南》**  
 `史丹青. 生成对抗网络入门指南[M]. 北京:机械工业出版社, 2018.`  
 
 1. **《Web 安全之强化学习与 GAN》**  
 `刘淼. Web 安全之强化学习与 GAN[M]. 北京:机械工业出版社, 2018.`  
+
+
 
 ## 2.2 报告
 1. [Ian Goodfellow 演讲](http://www.iangoodfellow.com/slides/)
@@ -77,6 +80,8 @@ sidebar:
 1. [Ian Goodfellow](http://www.iangoodfellow.com/)   
 1. [GAN 汇总](https://blog.csdn.net/love666666shen/article/details/74953970)   
 1. [Awesome Adversarial Machine Learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning)   
+1. [TaehoonKim github](https://github.com/carpedm20/)    
+1. [Kuntal Ganguly](https://github.com/Kuntal-G)    
 
 -------------------  
  End

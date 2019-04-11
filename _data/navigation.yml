@@ -1040,14 +1040,12 @@ GAN:
         url:    /dl/gan/2019/04/09/base.html
       - title:  生成模型
         url:    /dl/gan/2019/04/09/generating.html
-      - title:  概览
-        url:    /dl/gan/2019/03/26/survey.html
       - title:  应用
         url:    /dl/gan/2019/04/09/application.html
   - title:  理论 
     children:
       - title:  GAN
-        url:    /dl/gan/2019/04/10/GAN.html
+        url:    /dl/gan/2019/03/26/survey.html
       - title:  数学原理
         url:    /dl/gan/2019/04/10/math.html
       - title:  对抗

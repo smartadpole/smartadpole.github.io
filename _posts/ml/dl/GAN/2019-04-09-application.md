@@ -73,7 +73,7 @@ GAN 在文本、语音领域应用较少的原因：
 | 手写数字识别 | DCGAN | MNIST |  |  |  |  | [jacobgil](https://github.com/jacobgil/keras-dcgan) |  |
 | 服装生成 | Condition GAN | Fashion-MNIST |  |  |  |  |  |  |
 | 人脸生成 | BEGAN | [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) | [carpedm20](https://github.com/carpedm20/BEGAN-tensorflow) |  |  |  |  |  |
-| 苹果变橘子、马变斑马 | CycleGAN | [apple2orange](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/) | [xhujoy](https://github.com/xhujoy/CycleGAN-tensorflow) | 官方-[junyana-UI](https://github.com/junyanz/CycleGAN)，[junyana](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)  |  |  |  |  |
+| 苹果变橘子、马变斑马 | CycleGAN | [apple2orange](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/) | [xhujoy](https://github.com/xhujoy/CycleGAN-tensorflow) | 官方·[junyana-UI](https://github.com/junyanz/CycleGAN)，[junyana](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)  |  |  |  |  |
 | 文本生成鸟 | StackGAN | [birds](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) | [Kuntal-G](https://github.com/Kuntal-G/StackGAN) |  |  |  |  |  |
 | 性别转换 | DiscoGAN | [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)，facescrub |  | [SKTBrain](https://github.com/SKTBrain/DiscoGAN) |  |  |  |  |
 | - | StarGAN | [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)，facescrub |  | [yunjey](https://github.com/yunjey/stargan) |  |  |  |  |
@@ -82,7 +82,7 @@ GAN 在文本、语音领域应用较少的原因：
 | 风格转换 | BicycleGAN |  |  | [junyana](https://github.com/junyanz/BicycleGAN) |  |  |  |  |
 | 运动去模糊 | DeblurGAN |  | [RaphaelMeudec](https://github.com/RaphaelMeudec/deblur-gan) |  |  |  | [GOPRO](https://drive.google.com/file/d/1H0PIXvJH4c40pk7ou6nAwoxuR4Qh_Sa2/view?usp=sharing) |  |
 | 换脸 | deepfakes+GAN |  |  |  |  |  | [shaoanlu](https://github.com/shaoanlu/faceswap-GAN) |  |
-| 音频合成 | WaveGAN，SpecGAN |  | [chrisdonahue](https://github.com/chrisdonahue/wavegan) |  |  |  |  |  |
+| 音频合成 | WaveGAN，SpecGAN |  | 官方·[chrisdonahue](https://github.com/chrisdonahue/wavegan) |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |

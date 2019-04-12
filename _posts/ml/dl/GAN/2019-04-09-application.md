@@ -98,3 +98,4 @@ GAN 在文本、语音领域应用较少的原因：
 # 附录
 ## A 参考资料
 [1]. Jonathan Hui. GAN — Some cool applications of GANs[EB/OL]. <https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900>. 2018-06-22/2019-04-09.     
+[2]. Minchul Shin. 精彩的GAN应用和示例列表[EB/OL]. <https://www.ctolib.com/nashory-gans-awesome-applications.html>. 2017-10-13/2019-04-09.     

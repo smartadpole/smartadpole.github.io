@@ -13,6 +13,12 @@ sidebar:
 
 <!--more-->
 # 1 GAN
+发音：gan（轻声），也可以三个字母分开读；   
+Generative Adversarial Nets，一个通过对抗的方式评估生成网络的网络结构；   
+**生成器**：一个隐式捕获训练集的数据分布，并以此生成新样本的网络；   
+**判别器**：一个判断输入的样本是来自训练集还是生成器的网络；   
+生成器的目标是减小生成样本和训练样本的差距，判别器的目标是增大生成样本和训练样本的差距，由此形成了对抗；    
+从博弈论角度看是一个「极小化极大博弈」或「零和博弈」；   
 
 # 2 参考资料
 ## 2.1 书籍
@@ -65,21 +71,24 @@ GANs 项目汇总；
 
 ## 2.5 Paper
 ### 2.5.1 第一篇论文
-***  
-1. [Generative Adversarial Nets](http://cn.arxiv.org/abs/1406.2661)    
-2014-06 [Code](https://github.com/goodfeli/adversarial)  [Paper](http://cn.arxiv.org/abs/1406.2661)   
+1. :o: [Generative Adversarial Nets](http://cn.arxiv.org/abs/1406.2661)    
+2014-06-10 [Code](https://github.com/goodfeli/adversarial)  [Paper](http://cn.arxiv.org/abs/1406.2661)   
 
 ### 2.5.2 综述
 1. Goodfellow I. [NIPS 2016 tutorial: generative adversarial networks](http://cn.arxiv.org/abs/1701.00160). arXiv preprint [arXiv: 1701.00160](http://cn.arxiv.org/abs/1701.00160), 2016.    
-2016-12  
+2016-12-31  
 
 1. [How Generative Adversarial Networks and its variants Work: An Overview of GAN](http://cn.arxiv.org/abs/1711.05914)   
 2017-11 [Paper](http://cn.arxiv.org/abs/1711.05914), [中文笔记](https://www.jiqizhixin.com/articles/2019-03-19-12?from=synced&keyword=GAN)   
 
-1. [生成式对抗网络 GAN 的研究进展与展望](http://www.aas.net.cn/CN/10.16383/j.aas.2017.y000003)
+1. [生成式对抗网络 GAN 的研究进展与展望](http://www.aas.net.cn/CN/10.16383/j.aas.2017.y000003)   
 2017 中科院自动化所，中文综述；   
 
-### 2.5.3 模型评估
+
+### 2.5.3 经典网络
+
+
+### 2.5.4 模型评估
 1. Xu Q, Huang G, Yuan Y, et al. [An empirical study on evaluation metrics of generative adversarial networks](http://cn.arxiv.org/abs/1806.07755)[J]. arXiv preprint [arXiv:1806.07755](http://cn.arxiv.org/abs/1806.07755), 2018.   
 2018-06   
 
@@ -88,12 +97,6 @@ GANs 项目汇总；
 
 1. Shmelkov K, Schmid C, Alahari K. [How good is my GAN?](http://cn.arxiv.org/abs/1807.09499)[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 213-229.   
 2018-07   
-
-
-### 2.5.4 经典网络
-
-
-
 
 ### 2.5.5 理论
 
@@ -140,18 +143,18 @@ The improve of wgan
 1.  [Generalization and Equilibrium in Generative Adversarial Nets](http://cn.arxiv.org/abs/1703.00573)   
 ICML 2017   
 
-1.  [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium][Paper](http://cn.arxiv.org/abs/1706.08500)  
+1.  [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](http://cn.arxiv.org/abs/1706.08500)  
 [Code](https://github.com/bioinf-jku/TTUR)   
 
-1.  [Spectral Normalization for Generative Adversarial Networks][Paper](https://openreview.net/forum?id=B1QRgziT-)    
+1.  [Spectral Normalization for Generative Adversarial Networks](https://openreview.net/forum?id=B1QRgziT-)    
 [Code](https://github.com/minhnhat93/tf-SNDCGAN)   
 ICLR 2018
 
-1.  [Which Training Methods for GANs do actually Converge][Paper](http://cn.arxiv.org/abs/1801.04406)    
+1.  [Which Training Methods for GANs do actually Converge](http://cn.arxiv.org/abs/1801.04406)    
 [Code](https://github.com/LMescheder/GAN_stability)   
 ICML 2018   
 
-1.  [Self-Supervised Generative Adversarial Networks][Paper](http://cn.arxiv.org/abs/1811.11212)  
+1.  [Self-Supervised Generative Adversarial Networks](http://cn.arxiv.org/abs/1811.11212)  
 [Code](https://github.com/google/compare_gan)   
 CVPR 2019   
 
@@ -576,9 +579,5 @@ ICLR 2017
 
 
 -------------------  
-End
+[End](#1-gan)
 {:.warning}  
-
-
-# 附录
-## A  参考资料

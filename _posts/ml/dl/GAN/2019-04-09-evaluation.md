@@ -84,3 +84,10 @@ AIS，KDE 方法也可以用于评价 GAN，但这些方法不是 model agnostic
 [3]. Shmelkov K, Schmid C, Alahari K. [How good is my GAN?](https://arxiv.org/abs/1807.09499)[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 213-229.   
 [4]. ICLR 2018 Conference Blind Submission. An empirical study on evaluation metrics of generative adversarial networks ICLR 2018 审稿[EB/OL]. <https://openreview.net/forum?id=Sy1f0e-R->. 2018-02-16/2019-04-09.   
 [5].  我爱馒头. GAN万字长文综述[EB/OL]. <https://zhuanlan.zhihu.com/p/58812258>. 2019-03-23/2019-03-26.     
+[^1]: ciic. KL散度、JS散度、Wasserstein距离[EB/OL]. <https://zxth93.github.io/2017/09/27/KL%E6%95%A3%E5%BA%A6JS%E6%95%A3%E5%BA%A6Wasserstein%E8%B7%9D%E7%A6%BB/index.html>. 2017-09-27/2019-04-09.    
+[^2]: denny402. 概率分布之间的距离度量以及python实现(四)[EB/OL]. <https://www.cnblogs.com/denny402/p/7054950.html>. 2017-06-20/2019-04-09.    
+[^3]: 夕月一弯. 概率分布之间的距离度量以及python实现[EB/OL]. <https://www.cnblogs.com/wt869054461/p/7156397.html>. 2017-07-12/2019-04-09.     
+[^4]: 大奸猫. EMD距离wasserstein_distance的使用[EB/OL]. <https://blog.csdn.net/yeziand01/article/details/84404383>. 2018-11-23/2019-04-09.     
+[^5]: 黄若孜. Wasserstein距离在生成模型中的应用[EB/OL]. <https://zhuanlan.zhihu.com/p/35879231>. 2018-04-19/2019-04-09.     
+[^6]: -. wasserstein 距离的问题[EB/OL]. <https://www.zhihu.com/question/41752299>. -/2019-04-09.    
+[^7]: Herbert_Zero. 一种度量准则：EMD[EB/OL]. <https://blog.csdn.net/liyuefeilong/article/details/45891945>. 2015-05-21/2019-04-09.    

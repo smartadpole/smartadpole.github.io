@@ -13,6 +13,10 @@ sidebar:
 
 <!--more-->   
 
+<center class="half">
+  <img src="/assets/images/ml/dl/GAN/app/app1.png" height="400"/>&emsp;<img src="/assets/images/ml/dl/GAN/app/app2.png" height="100"/>&emsp;<img src="/assets/images/ml/dl/GAN/app/app3.png" height="100"/>&emsp;<img src="/assets/images/ml/dl/GAN/app/app4.png" height="200"/>&emsp;<img src="/assets/images/ml/dl/GAN/app/app5.png" height="200"/>&emsp;
+</center>
+
 # 1 应用方向
 
 ## 1.1 二维图像

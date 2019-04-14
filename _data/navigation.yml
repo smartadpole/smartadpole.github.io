@@ -1034,12 +1034,12 @@ GAN:
         url:    /assets/category/ml/dl/gan.html
   - title:  预备
     children:
-      - title:  资源汇总
-        url:    /dl/gan/2019/03/26/foundation.html
       - title:  基础
         url:    /dl/gan/2019/04/09/base.html
       - title:  生成模型
         url:    /dl/gan/2019/04/09/generating.html
+      - title:  资源汇总
+        url:    /dl/gan/2019/03/26/foundation.html
   - title:  理论 
     children:
       - title:  GAN
@@ -1066,8 +1066,6 @@ GAN:
     children:
       - title:  DCGAN
         url:    /dl/gan/2019/04/09/DCGAN.html
-      - title:  SGAN
-        url:    /dl/gan/2019/03/26/survey.html
       - title:  Conditional GAN
         url:    /dl/gan/2019/04/09/Conditional-GAN.html
       - title:  CycleGAN

@@ -51,10 +51,7 @@ sidebar:
 [课件](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html)    
 
 ## 1.4 资源
-
-1. **GAN 训练技巧**
-[How to Train a GAN?](https://github.com/soumith/ganhacks)   
-
+### 1.4.1 论文
 1. [GAN Zoo](https://github.com/hindupuravinash/the-gan-zoo)
 汇总了所有的 GANs；   
 
@@ -65,6 +62,18 @@ GANs 论文分类汇总；
 GANs 项目汇总；   
 
 1. [GAN 论文汇总(韩东)](https://handong1587.github.io/deep_learning/2015/10/09/gan.html)    
+
+### 1.4.2 代码
+1. [GANotebooks](https://github.com/tjwei/GANotebooks)   
+
+1. [generative-models](https://github.com/wiseodd/generative-models)   
+pytorch 和 tensorflow 实现的 GAN 和 VAE；   
+
+
+### 1.4.3 技能
+
+1. **GAN 训练技巧**
+[How to Train a GAN?](https://github.com/soumith/ganhacks)   
 
 
 ## 1.5 Paper
@@ -159,9 +168,9 @@ CVPR 2019
 
 ### 1.5.6 高质量图像生成
 
-1.  [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06434)   
-[Code](https://github.com/jacobgil/keras-dcgan)(Gan with convolutional networks)    
-ICLR   
+1.  [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06434)      
+ICLR *2015-11-19* [Theano](https://github.com/Newmu/dcgan_code) · [Keras](https://github.com/jacobgil/keras-dcgan) · [Pytorch](https://github.com/pytorch/examples/tree/master/dcgan) · [Pytorch-MNIST/CelebA](https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN) · [Tensorflow](https://github.com/carpedm20/DCGAN-tensorflow) · [Torch](https://github.com/soumith/dcgan.torch)     
+**DCGAN**：将卷积网络引入 GAN 中，且使用了 BN，证明了池化在 GAN 中不能使用；提供了许多有趣的生成结果；     
 
 1.  [Generative Adversarial Text to Image Synthesis](http://cn.arxiv.org/abs/1605.05396)  
 [Code](https://github.com/reedscot/icml2016)  [Code](https://github.com/paarthneekhara/text-to-image)   

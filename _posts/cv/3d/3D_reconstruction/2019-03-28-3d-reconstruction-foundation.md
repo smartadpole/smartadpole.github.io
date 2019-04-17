@@ -40,10 +40,14 @@ NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](htt
 **$GAN_{shape}$**：2D 输入用的 Pix3D 数据集，3D 输入用的 ShapeNet 数据集；（均使用了椅子和车分类）；使用 [FID](/dl/gan/2019/03/26/GAN-survey.html#45-fid) 评估 GAN 的效果；    
 >最终效果是挺好，只是从理论上看速度就够慢的；不过开源了这么多代码，也是挺实用；    
 
+1. [GAL: Geometric Adversarial Loss for Single-View 3D-Object Reconstruction](https://xjqi.github.io/GAL.pdf)   
+ECCV 2018, 腾讯优图 [Paper](https://xjqi.github.io/GAL.pdf)    
+*`点云` · `GAN` · `3D卷积` · `点度量`*    
 
 1. [Learning View Priors for Single-view 3D Reconstruction](http://cn.arxiv.org/abs/1811.10719)   
 CVPR 2019 [Paper](https://arxiv.org/abs/1811.10719) | [Project](http://hiroharu-kato.com/projects_en/view_prior_learning.html) 马上开源     
 使用 GAN，并且融合了单视图重建和视角信息；   
+
 
 ## 2.2 自编码
 针对二维（输入）和三维（标签）分别训练出一个自编码器，得到的两个编码向量越接近越好；使用时，先用二维编码器得到特征向量，然后用三维解码器得到对应的三维数据（可以是体素，也可以是点云）；   
@@ -242,13 +246,11 @@ SIGGRAPH 2018, 深圳大学 [Paper](http://vcc.tech/file/upload_file//image/rese
 
 1. [ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning](https://arxiv.org/abs/1804.08497)   
 SIGGRAPH 2018 [Paper](https://arxiv.org/abs/1804.08497) | [Pytorch](https://github.com/ranahanocka/ALIGNet/)-Offical | [Project](https://ranahanocka.github.io/ALIGNet/)     
+ALIGNet：未知形状部分对齐：传统方法都是匹配特征点来对齐，此时当一部分形状缺失时就无法进行对齐；
 
 1. [PointGrid: A Deep Network for 3D Shape Understanding](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf)   
 CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf) | [Tensorflow](https://github.com/trucleduc/PointGrid)     
-
-1. [GAL: Geometric Adversarial Loss for Single-View 3D-Object Reconstruction](https://xjqi.github.io/GAL.pdf)   
-ECCV 2018, 腾讯优图 [Paper](https://xjqi.github.io/GAL.pdf)    
-
+*`3D 识别`*
 
 
 ## 2.4 基于可变参模型

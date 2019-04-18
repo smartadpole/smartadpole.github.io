@@ -16,7 +16,7 @@ header:
       zh:       关于
       zh-Hans:  关于
       zh-Hant:  關於
-    url:        /about.html
+    url:        /2019/04/18/resume.html
 
 
 docs-en:
@@ -1079,6 +1079,16 @@ GAN:
       - title:  模型
         url:    /dl/gan/2019/04/10/net.html
 
+
+Resume:
+  - title:
+    children:
+      - title:  简介
+        url:    /2019/04/18/resume.html
+      - title:  项目介绍
+        url:    /2019/04/18/project.html
+      - title:  项目演示
+        url:    /2019/04/18/demo.html
 
 
 

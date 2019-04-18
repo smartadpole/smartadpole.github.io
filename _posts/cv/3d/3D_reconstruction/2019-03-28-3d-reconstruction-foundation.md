@@ -44,6 +44,11 @@ NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](htt
 ECCV 2018, 腾讯优图 [Paper](https://xjqi.github.io/GAL.pdf)    
 *`点云` · `GAN` · `3D卷积` · `点度量`*    
 
+1. [Global-to-Local Generative Model for 3D Shapes](http://vcc.tech/file/upload_file//image/research/att201810171620/G2L.pdf)   
+SIGGRAPH 2018, 深圳大学 [Paper](http://vcc.tech/file/upload_file//image/research/att201810171620/G2L.pdf) | [Tensorflow](https://github.com/Hao-HUST/G2LGAN) | [Project](http://vcc.szu.edu.cn/research/2018/G2L)     
+从三维物体的组件出发，生成同样结构的另外一种三维物体；使用基于体素的 GAN 对整体三维模型进行建模，得到多个局部结构，该网络有两个判别器，一个作用于整体，一个作用于局部，最后还有质量损失函数；之后使用条件自编码网络来重组局部结构得到三维模型；文章还提出了新的评价 GAN 模型的方法；   
+>摘要读起来很乱啊；   
+
 1. [Learning View Priors for Single-view 3D Reconstruction](http://cn.arxiv.org/abs/1811.10719)   
 CVPR 2019 [Paper](https://arxiv.org/abs/1811.10719) | [Project](http://hiroharu-kato.com/projects_en/view_prior_learning.html) 马上开源     
 使用 GAN，并且融合了单视图重建和视角信息；   
@@ -239,14 +244,13 @@ CVPR 2018 [Paper](https://arxiv.org/abs/1804.04610) | [Tensorflow](https://githu
 CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1128.pdf) | [Author](http://yinli.cvpr.net/) | [Project](http://abhijitkundu.info/projects/3D-RCNN/)   
 
 1. [Matryoshka Networks: Predicting 3D Geometry via Nested Shape Layers](http://cn.arxiv.org/abs/1804.10975)   
-CVPR 2018 [Paper](https://arxiv.org/abs/1804.10975) [Pytorch](https://bitbucket.org/visinf/projects-2018-matryoshka) |      
-
-1. [Global-to-Local Generative Model for 3D Shapes](http://vcc.tech/file/upload_file//image/research/att201810171620/G2L.pdf)   
-SIGGRAPH 2018, 深圳大学 [Paper](http://vcc.tech/file/upload_file//image/research/att201810171620/G2L.pdf) | [Tensorflow](https://github.com/Hao-HUST/G2LGAN) | [Project](http://vcc.szu.edu.cn/research/2018/G2L)     
+CVPR 2018 *2018.4.29* [Paper](https://arxiv.org/abs/1804.10975) [Pytorch](https://bitbucket.org/visinf/projects-2018-matryoshka) |      
+针对三维重建问题，我们提出了一个高效的网络；核心思想是把三维重建问题当作是二维预测问题；我们先跑了个基准网络，直接根据 2D 图像预测 3D 体素；使用经过验证的基于像素的图片预测任务，效果有所提升；基于这个方法，我们提出了一个能够记忆形状的编码网络，可以递归地重建三维物体，达到高分辨率；
 
 1. [ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning](https://arxiv.org/abs/1804.08497)   
-SIGGRAPH 2018 [Paper](https://arxiv.org/abs/1804.08497) | [Pytorch](https://github.com/ranahanocka/ALIGNet/)-Offical | [Project](https://ranahanocka.github.io/ALIGNet/)     
-ALIGNet：未知形状部分对齐：传统方法都是匹配特征点来对齐，此时当一部分形状缺失时就无法进行对齐；
+SIGGRAPH 2018 [Paper](https://arxiv.org/abs/1804.08497) | [Pytorch](https://github.com/ranahanocka/ALIGNet/)-Offical-lua | [Project](https://ranahanocka.github.io/ALIGNet/)     
+*`无监督`*   
+ALIGNet：基于无监督学习的未知局部形状对齐：将2D 图像对齐到未知的三维形状，传统方法都是匹配特征点来对齐，此时当一部分形状缺失时就无法进行对齐；本文针对缺失的部分专门提供了一个损失函数；  
 
 1. [PointGrid: A Deep Network for 3D Shape Understanding](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf)   
 CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf) | [Tensorflow](https://github.com/trucleduc/PointGrid)     

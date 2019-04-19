@@ -455,6 +455,28 @@ ML:
       - title:  理论
         url:    /index.html
 
+RL:
+  - title:  
+    children:
+      - title:  上一层
+        url:    /index.html
+
+  - title:  
+    children:
+      - title:  入门
+        url:    /rl/2019/04/19/foundation.html
+      - title:  Qlearning
+        url:    /rl/2019/04/19/foundation.html
+      - title:  Sarsa
+        url:    /rl/2019/04/19/foundation.html
+      - title:  Deep Q Network
+        url:    /rl/2019/04/19/foundation.html
+      - title:  策略梯度
+        url:    /rl/2019/04/19/foundation.html
+      - title:  Actor Critic
+        url:    /rl/2019/04/19/foundation.html
+      - title:  基于模型的 RL
+        url:    /rl/2019/04/19/foundation.html
 
 DS_Tree:
   - title:  

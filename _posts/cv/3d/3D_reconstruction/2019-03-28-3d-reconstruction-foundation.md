@@ -216,7 +216,7 @@ ECCV 2018 [Paper](https://arxiv.org/abs/1807.10264) | [Tensorflow](https://githu
 ECCV 2018 [Paper](https://arxiv.org/abs/1807.11010) | [Pytorch](https://github.com/srama2512/sidekicks) | [Project](http://vision.cs.utexas.edu/projects/sidekicks/)   
 
 1. [Im2Pano3D: Extrapolating 360° Structure and Semantics Beyond the Field of View](http://cn.arxiv.org/abs/1712.04569)   
-CVPR 2018 [Paper](https://arxiv.org/abs/1712.04569) | [Pytorch|Matlab](https://github.com/shurans/im2pano3d/) | [Project](http://im2pano3d.cs.princeton.edu/)   
+CVPR 2018 [Paper](https://arxiv.org/abs/1712.04569) | [Pytorch](https://github.com/shurans/im2pano3d/)-Matlab | [Project](http://im2pano3d.cs.princeton.edu/)   
 
 1. [CSGNet: Neural Shape Parser for Constructive Solid Geometry](http://cn.arxiv.org/abs/1712.08290)   
 CVPR 2018 [Paper](https://arxiv.org/abs/1712.08290) | [Python-2D](https://github.com/Hippogriff/CSGNet)-Offical | [Python-3D](https://github.com/Hippogriff/3DCSGNet) | [Project](https://hippogriff.github.io/CSGNet/)       
@@ -232,19 +232,29 @@ CVPR 2018 [Paper](https://arxiv.org/abs/1804.06032) | [Pytorch](https://github.c
 速度相当慢；  
 
 1. [Im2Struct: Recovering 3D Shape Structure from a Single RGB Image](http://cn.arxiv.org/abs/1804.05469)   
-CVPR 2018 [Paper](https://arxiv.org/abs/1804.05469) | [Matlab](https://github.com/chengjieniu/Im2Struct)-Offical    
+CVPR 2018 *2018.04.16* [Paper](https://arxiv.org/abs/1804.05469) | [Matlab](https://github.com/chengjieniu/Im2Struct)-Offical    
+*`CNN` · `LSTM`*    
+根据二维图像重建三维图像的 CAD 模型（以长方体表示 3D 物体的各个组件）；    
 
 1. [FoldingNet: Point Cloud Auto-encoder via Deep Grid Deformation](http://cn.arxiv.org/abs/1712.07262)   
-CVPR 2018 [Paper](https://arxiv.org/abs/1712.07262) | [Project](https://ai4ce.github.io/publication/yang-2018-foldingnet/)     
+CVPR 2018 *2017.12.19* [Paper](https://arxiv.org/abs/1712.07262) | [Project](https://ai4ce.github.io/publication/yang-2018-foldingnet/)     
+*`图`*   
+$\bullet  \bullet$  `损失函数用的什么`{:.warning} `2D-3D框架`{:.warning}    
+使用 3D 的自编码器进行点云重建，且框架可以用作 2D 转 3D；   
 
 1. [Pix3D: Dataset and Methods for Single-Image 3D Shape Modeling](http://cn.arxiv.org/abs/1804.04610)   
-CVPR 2018 [Paper](https://arxiv.org/abs/1804.04610) | [Tensorflow](https://github.com/xingyuansun/pix3d)-Offical | [Project](http://pix3d.csail.mit.edu/)   
+CVPR 2018 *2018.4.12* [Paper](https://arxiv.org/abs/1804.04610) | [Tensorflow](https://github.com/xingyuansun/pix3d)-Offical | [Project](http://pix3d.csail.mit.edu/)   
+$\bullet  \bullet$   `评估标准是什么`{:.warning} `常用的二维图像编码是什么`{:.warning}    
+一个可用于三维重建的数据集，考虑到现有的数据集要么是只有三维模型，要么是二维和三维数据之间缺乏对应关系，或者就是数据量太小；我们提出了一个新的三维重建评估标准，还在这个数据集上对前沿算法上进行了测评；    
 
 1. [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1128.pdf)   
 CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1128.pdf) | [Author](http://yinli.cvpr.net/) | [Project](http://abhijitkundu.info/projects/3D-RCNN/)   
+输入二维图像，检测到目标后，对目标进行三维重建，然后映射回原图；`怎么做的重建`{:.warning}   
+>最终的效果很像实例分割啊    
 
 1. [Matryoshka Networks: Predicting 3D Geometry via Nested Shape Layers](http://cn.arxiv.org/abs/1804.10975)   
 CVPR 2018 *2018.4.29* [Paper](https://arxiv.org/abs/1804.10975) [Pytorch](https://bitbucket.org/visinf/projects-2018-matryoshka) |      
+$\bullet  \bullet$    
 针对三维重建问题，我们提出了一个高效的网络；核心思想是把三维重建问题当作是二维预测问题；我们先跑了个基准网络，直接根据 2D 图像预测 3D 体素；使用经过验证的基于像素的图片预测任务，效果有所提升；基于这个方法，我们提出了一个能够记忆形状的编码网络，可以递归地重建三维物体，达到高分辨率；
 
 1. [ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning](https://arxiv.org/abs/1804.08497)   

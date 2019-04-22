@@ -57,6 +57,46 @@ CVPR 2019 [Paper](https://arxiv.org/abs/1811.10719) | [Project](http://hiroharu-
 ## 2.2 自编码
 针对二维（输入）和三维（标签）分别训练出一个自编码器，得到的两个编码向量越接近越好；使用时，先用二维编码器得到特征向量，然后用三维解码器得到对应的三维数据（可以是体素，也可以是点云）；   
 
+1. [Category-Specific Object Reconstruction from a Single Image](http://cn.arxiv.org/abs/1411.6069)    
+*2014-11-22* [Paper](https://arxiv.org/abs/1411.6069)   
+在 PASCAL VOC 2012 和 PASCAL 3D+ 数据集上进行实验，利用关键点和图像分割标签并结合视角估计进行三维重建；核心理论是基于 EM 最大化；   
+
+1. [Mesh-based Autoencoders for Localized Deformation Component Analysis](http://cn.arxiv.org/abs/1709.04304)   
+*2017-12-16* [Paper](https://arxiv.org/abs/1709.04304)    
+针对三维几何形状分析与合成问题中变形部位提取问题中，当变形较大时效果不好的情况，提出了使用稀疏正则化来帮助提取局部变形；   
+>总结分析跟没写一样；   
+
+
+1. [Exploring Generative 3D Shapes Using Autoencoder Networks](http://www.nobuyuki-umetani.com/publication/2017_siggatb_explore/2017_siggatb_ExploringGenerative3DShapes.pdf)   
+2017 [Paper](https://www.autodeskresearch.com/publications/exploring_generative_3d_shapes)   
+将非结构化的三角网格转化为具有拓扑的矩形网格；输入输出都是三维结构；     
+
+1. [Variational Autoencoders for Deforming 3D Mesh Models](http://cn.arxiv.org/abs/1709.04307)   
+CVPR 2018 *2017-09-13* [Paper](https://arxiv.org/abs/1709.04307) | [Matlab](https://github.com/aldehydecho/Mesh-VAE)    
+$\bullet  \bullet$   `什么是条件 VAE`{:.warning}    
+使用 VAE 分析三维形状，可用于三维结构生成、三维结构插值和特征嵌入；具体的应用有姿态变换，手势变换和表情迁移；文中还提到了条件 VAE；      
+
+1. [DeformNet: Free-Form Deformation Network for 3D Shape Reconstruction from a Single Image](http://cn.arxiv.org/abs/1708.04672)   
+*2017-08-11* [Paper](https://arxiv.org/abs/1708.04672)   
+
+1. [Using Locally Corresponding CAD Models for Dense 3D Reconstructions from a Single Image](http://ci2cv.net/media/papers/chenkong_cvpr_2017.pdf)   
+CVPR 2017 [Paper](http://ci2cv.net/media/papers/chenkong_cvpr_2017.pdf)    
+利用二维图像及其关键点，重建三维模型；早期的模型都要么是基于一组 CAD 映射，要么是的各映射元素之间进行混合，都很难融合到 CNN 里，本文想了个两阶段的策略，把这些融合进去了；其中使用了图卷积；在合成数据集和真实数据集上表现都很好；      
+`什么叫  dense 3D shape of an object`{:.warning}   
+>感觉是三维重建的另一个分支了   
+
+1. [Compact Model Representation for 3D Reconstruction](http://cn.arxiv.org/abs/1707.07360)   
+2017 [Paper](https://arxiv.org/abs/1707.07360) | [Code](https://github.com/jhonykaesemodel/compact_3D_reconstruction)     
+
+1. [Image2Mesh: A Learning Framework for Single Image 3D Reconstruction](http://cn.arxiv.org/abs/1711.10669)   
+2017 [Paper](https://arxiv.org/abs/1711.10669) | [Code](https://github.com/jhonykaesemodel/image2mesh)     
+
+1. [Learning free-form deformations for 3D object reconstruction ](http://cn.arxiv.org/abs/1803.10932)   
+ACCV 2018 [Paper](https://arxiv.org/abs/1803.10932) | [Tensorflow](https://github.com/jackd/template_ffd)    
+
+1. [Lions and Tigers and Bears: Capturing Non-Rigid, 3D, Articulated Shape from Images](http://files.is.tue.mpg.de/black/papers/zuffiCVPR2018.pdf)   
+CVPR 2018 [Paper](http://files.is.tue.mpg.de/black/papers/zuffiCVPR2018.pdf)   
+
 1. [GRASS: Generative Recursive Autoencoders for Shape Structures](http://cn.arxiv.org/abs/1705.02090)      
 SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1705.02090) | [Matlab](https://github.com/junli-lj/grass) | [Pytorch](https://github.com/kevin-kaixu/grass_pytorch) | [Project](https://kevinkaixu.net/projects/grass.html)      
 *`自编码` · `对称结构` · `图卷积` · `RNN`*    
@@ -267,29 +307,7 @@ CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_Point
 *`3D 识别`*
 
 
-## 2.4 基于可变参模型
-1. [Mesh-based Autoencoders for Localized Deformation Component Analysis](http://cn.arxiv.org/abs/1709.04304)   
-2017 [Paper](https://arxiv.org/abs/1709.04304)    
-1. [Exploring Generative 3D Shapes Using Autoencoder Networks](https://www.autodeskresearch.com/publications/exploring_generative_3d_shapes)   
-2017 [Paper](https://www.autodeskresearch.com/publications/exploring_generative_3d_shapes)
-1. [Variational Autoencoders for Deforming 3D Mesh Models](http://cn.arxiv.org/abs/1709.04307)   
-CVPR 2018 [Paper](https://arxiv.org/abs/1709.04307) | [Matlab](https://github.com/aldehydecho/Mesh-VAE)    
-1. [Category-Specific Object Reconstruction from a Single Image](http://cn.arxiv.org/abs/1411.6069)    
-2014 [Paper](https://arxiv.org/abs/1411.6069)   
-1. [DeformNet: Free-Form Deformation Network for 3D Shape Reconstruction from a Single Image](http://cn.arxiv.org/abs/1708.04672)   
-2017 [Paper](https://arxiv.org/abs/1708.04672)   
-1. [Using Locally Corresponding CAD Models for Dense 3D Reconstructions from a Single Image](http://ci2cv.net/media/papers/chenkong_cvpr_2017.pdf)   
-2017 [Paper](http://ci2cv.net/media/papers/chenkong_cvpr_2017.pdf)    
-1. [Compact Model Representation for 3D Reconstruction](http://cn.arxiv.org/abs/1707.07360)   
-2017 [Paper](https://arxiv.org/abs/1707.07360) | [Code](https://github.com/jhonykaesemodel/compact_3D_reconstruction)     
-1. [Image2Mesh: A Learning Framework for Single Image 3D Reconstruction](http://cn.arxiv.org/abs/1711.10669)   
-2017 [Paper](https://arxiv.org/abs/1711.10669) | [Code](https://github.com/jhonykaesemodel/image2mesh)     
-1. [Learning free-form deformations for 3D object reconstruction ](http://cn.arxiv.org/abs/1803.10932)   
-ACCV 2018 [Paper](https://arxiv.org/abs/1803.10932) | [Tensorflow](https://github.com/jackd/template_ffd)    
-1. [Lions and Tigers and Bears: Capturing Non-Rigid, 3D, Articulated Shape from Images](http://files.is.tue.mpg.de/black/papers/zuffiCVPR2018.pdf)   
-CVPR 2018 [Paper](http://files.is.tue.mpg.de/black/papers/zuffiCVPR2018.pdf)   
-
-## 2.5 RGB-D
+## 2.4  RGB-D
 
 1. [3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions](http://cn.arxiv.org/abs/1603.08182)   
 CVPR 2017 [Paper](https://arxiv.org/abs/1603.08182) | [Matlab](https://github.com/andyzeng/3dmatch-toolbox)-Offical | [Project](http://3dmatch.cs.princeton.edu/)    

@@ -179,6 +179,13 @@ DL:
         url:    /assets/category/ml/dl/cnn.html
       - title:  循环神经网络
         url:    /assets/category/ml/dl/rnn.html
+      - title:  自编码器
+        url:    /assets/category/ml/dl/autoencoder.html
+
+  - title:   深度生成模型
+    children:
+      - title:  玻尔兹曼机
+        url:    /assets/category/ml/dl/boltzmann_machine.html
       - title:  生成对抗网络
         url:    /assets/category/ml/dl/gan.html
 

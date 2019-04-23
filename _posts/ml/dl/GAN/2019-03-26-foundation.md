@@ -14,7 +14,7 @@ sidebar:
 <!--more-->
 
 <center class="half">
-  <img src="/assets/images/ml/dl/GAN/BOOK/GAN-trend.png" height="500"/><br>图1：GAN 的 论文数量&emsp;
+  <img src="/assets/images/ml/dl/GAN/GAN-trend.png" /><br>图1：GAN 的 论文数量&emsp;
 </center>
 
 # 1 参考资料

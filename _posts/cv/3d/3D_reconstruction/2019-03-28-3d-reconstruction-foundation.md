@@ -78,6 +78,8 @@ $\bullet  \bullet$   `什么是条件 VAE`{:.warning}
 
 1. [DeformNet: Free-Form Deformation Network for 3D Shape Reconstruction from a Single Image](http://cn.arxiv.org/abs/1708.04672)   
 *2017-08-11* [Paper](https://arxiv.org/abs/1708.04672)   
+$\bullet  \bullet$   `怎么解决的推理问题`{:.warning}    
+编码信息中融合了二维图像和三维图像的信息；   
 
 1. [Using Locally Corresponding CAD Models for Dense 3D Reconstructions from a Single Image](http://ci2cv.net/media/papers/chenkong_cvpr_2017.pdf)   
 CVPR 2017 [Paper](http://ci2cv.net/media/papers/chenkong_cvpr_2017.pdf)    

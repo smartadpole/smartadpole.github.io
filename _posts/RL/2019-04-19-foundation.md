@@ -47,6 +47,10 @@ David Silver， [Video](https://www.youtube.com/watch?v=2pWv7GOvuf0)-youtube | [
 1. [Deep Reinforcement Learning for Multi-Agent Systems: A Review of Challenges, Solutions and Applications](http://cn.arxiv.org/abs/1812.11794)   
 *2018-12-31* [Paper](https://arxiv.org/abs/1812.11794)
 
+1. [Learning 3D Navigation Protocols on Touch Interfaces with Cooperative Multi-Agent Reinforcement Learning](http://cn.arxiv.org/abs/1904.07802)   
+*2019-04-16* [Paper](https://arxiv.org/abs/1904.07802)    
+多代理合作的触摸屏 3D 导航协议；    
+
 ## 1.6 渔  
 1. [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Home.html)   
 1. [Richard S. Sutton](http://incompleteideas.net/)   

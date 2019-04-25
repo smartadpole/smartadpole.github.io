@@ -1,16 +1,19 @@
 ---
 layout: article
-title:  "「CV」 三维重建概述"
+title:  "「CV」 三维重建入门"
 date:   2019-03-28 10:06:40 +0800
 key: 3D-reconstruction-foundation-20190328
 aside:
   toc: true
 category: [CV, 3DReconstruction]
+tags: 资源
 ---
 <span id="head"></span>   
 <center class="half">
   <img src="/assets/images/cv_3d/3D_reconstruction/foundation.png"/>图1. 三维重建任务概览
 </center>
+
+关键词：`3D reconstruction` · `generative` · `3D mesh`   
 
 # 1 基础
 ## 1.1 体素 VS 点云
@@ -25,12 +28,12 @@ category: [CV, 3DReconstruction]
 
 ## 2.1 GAN
 使用二维编码器、三维解码器(即 GAN 中的成器)和判别器；   
-
 1. [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](http://cn.arxiv.org/abs/1610.07584)   
 NIPS 2016, 3D GAN [Paper](https://arxiv.org/abs/1610.07584) | [Torch](https://github.com/zck119/3dgan-release)       
 
 1. [3D Shape Induction from 2D Views of Multiple Objects](http://cn.arxiv.org/abs/1612.05872)   
-CVPR 2017 [Paper](https://arxiv.org/abs/1612.05872) | [Python](https://github.com/matheusgadelha/PrGAN)        
+CVPR 2017 *2016-12-18* [Paper](https://arxiv.org/abs/1612.05872) | [Python](https://github.com/matheusgadelha/PrGAN)        
+弱监督三维重建    
 
 1. [Visual Object Networks: Image Generation with Disentangled 3D Representation](http://cn.arxiv.org/abs/1812.02725)   
 NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](https://github.com/junyanz/VON) | [Project](http://von.csail.mit.edu/)     
@@ -109,6 +112,20 @@ SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1705.02090) | [Matlab](https://githu
 **几何合成**：  
 >使用了复杂的组合模型来探索三维图像的几何结构问题，针对不同的部位单独生成其对应的三维模型，来提高生成效果；（论文很难读）；   
 
+1. [Cross-modal Deep Variational Hand Pose Estimation](http://cn.arxiv.org/abs/1803.11404)    
+*2018-03-30* [Paper](https://arxiv.org/abs/1803.11404)    
+*`手 3D 姿态估计` · `VAE`*   
+$\bullet  \bullet$   `怎么论证的 VAE 效果比 GAN 好`{:.warning} `那段数学证明在干嘛`{:.warning}    
+使用 VAE 从平面图估计出手的三维姿态；并为此，根据 AVE 的变分下界推导出目标函数；`可是最后还是用的 KL 散度和 L2 啊`{:.warning}    
+>文中的多模态指的是数据格式不同——RGB、二维、三位和深度图；    
+
+1. [GRAINS: Generative Recursive Autoencoders for INdoor Scenes](http://cn.arxiv.org/abs/1807.09193)    
+*2018-07-24* [Paper](https://arxiv.org/abs/1807.09193)    
+使用递归变分自编码网络进行三维室内场景生成； VAE 主要负责 2D 转 3D；`RNN 在里边干啥了`{:.warning}    
+
+1. [Learning single-image 3D reconstruction by generative modelling of shape, pose and shading](http://cn.arxiv.org/abs/1901.06447)   
+*2019-01-19* [Paper](https://arxiv.org/abs/1901.06447)
+弱监督三维重建；   
 
 1. [Learning to Infer and Execute 3D Shape Programs](http://cn.arxiv.org/abs/1901.02875)   
 ICLR 2019 [Paper](https://arxiv.org/abs/1901.02875) | [Pytorch](https://github.com/HobbitLong/shape2prog) | [Project](http://shape2prog.csail.mit.edu/)   
@@ -120,8 +137,20 @@ ICLR 2019 [Paper](https://arxiv.org/abs/1901.02875) | [Pytorch](https://github.c
 文章是基于三维数据做的实验，作者认为该方法可以扩展到三维重建；   
 摘要没看懂；   
 
+1. [3D Organ Shape Reconstruction from Topogram Images](http://cn.arxiv.org/abs/1904.00073)   
+*2019-03-29* [Paper](https://arxiv.org/abs/1904.00073)   
+基于 CT 的 3D 肝脏器官重建；    
 
-## 2.3 其他
+1. [Dense 3D Face Decoding over 2500FPS: Joint Texture & Shape Convolutional Mesh Decoders](http://cn.arxiv.org/abs/1904.03525)    
+*2019-04-06* [Paper](https://arxiv.org/abs/1904.03525)   
+$\bullet  \bullet$   
+
+1. [Convolutional Mesh Regression for Single-Image Human Shape Reconstruction](https://pdfs.semanticscholar.org/0038/a0ddf8a0278be15406cafccd3acde2dbc6a7.pdf?_ga=2.38895779.1829027256.1556162802-1749154426.1548839945)   
+*2019* [Paper](https://pdfs.semanticscholar.org/0038/a0ddf8a0278be15406cafccd3acde2dbc6a7.pdf?_ga=2.38895779.1829027256.1556162802-1749154426.1548839945)      
+*`图卷积`*  
+
+
+## 2.4 其他
 1. [Learning to Generate Chairs, Tables and Cars with Convolutional Networks](http://cn.arxiv.org/abs/1411.5928)   
 2014 [Paper](https://arxiv.org/abs/1411.5928)  
 

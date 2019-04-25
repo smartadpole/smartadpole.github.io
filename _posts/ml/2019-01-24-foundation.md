@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「ML」 概览"
+title:  "「ML」 机器学习入门"
 date:   2019-01-24 15:20:40 +0800
 key: ml-foundation-20190124
 aside:

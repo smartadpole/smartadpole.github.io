@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「CV」 三维点云处理概述"
+title:  "「CV」 三维点云处理入门"
 date:   2019-03-29 10:06:40 +0800
 key: point-cloud-foundation-20190329
 aside:
@@ -13,17 +13,22 @@ category: [CV, PointCloud]
 <!--more-->  
 
 # 1 论文汇总
+## 1.1 理论
+1. [3D Object Recognition with Ensemble Learning --- A Study of Point Cloud-Based Deep Learning Models](https://arxiv.org/abs/1904.08159)   
+*2019-04-17* [Paper](https://arxiv.org/abs/1904.08159)    
+*`3D` · `分类` · `检测` · `集成学习` · `点云`*     
 
-## 1.1 GAN
+## 1.2 应用
+## 1.2.1 GAN
 
 1. [PU-Net: Point Cloud Upsampling Network](http://cn.arxiv.org/abs/1801.06761)   
 CVPR 2018 [Paper](https://arxiv.org/abs/1801.06761) | [Tensorflow](https://github.com/yulequan/PU-Net)-Offical | [Tensorflow](https://github.com/skoo9500/3d-pc-AE-GAN)-AE-GAN    
 点云上采样；   
 
-## 1.2 AE
+## 1.2.2 AE
 
 
-## 1.3 其他
+## 1.2.3 其他
 
 
 -------------------  

@@ -344,6 +344,14 @@ CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_Point
 CVPR 2017 [Paper](https://arxiv.org/abs/1603.08182) | [Matlab](https://github.com/andyzeng/3dmatch-toolbox)-Offical | [Project](http://3dmatch.cs.princeton.edu/)    
 
 # 3 多视图重建
+## 3.1 GAN
+1. [Learning 3D Shapes as Multi-Layered Height-maps using 2D Convolutional Networks](http:/cn./arxiv.org/abs/1807.08485)   
+ECCV 2018 *2018-07-23* [Paper](https://arxiv.org/abs/1807.08485) | [Pytorch](https://github.com/krips89/mlh_mvcnn)       
+*`CNN` · `3D 形状分类` · `ModelNet` · `DCGAN`*    
+
+## 3.2 自编码
+
+## 3.3 其他
 
 # 4 基于视角的重建
 

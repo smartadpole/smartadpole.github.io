@@ -42,6 +42,10 @@ tags: 资源
 ICLR 2014 *2013-12-20* [Paper](https://arxiv.org/abs/1312.6114)   
 **VAE**：   
 
+1. [Variational Graph Auto-Encoders](http://cn.arxiv.org/abs/1611.07308)   
+NIPS 2016 *2016-11-21* [Paper](https://arxiv.org/abs/1611.07308) | [Tensorflow](https://github.com/tkipf/gae)    
+*`图卷积`*    
+
 1. [Wasserstein Auto-Encoders](http://cn.arxiv.org/abs/1711.01558)    
 *2017-11-05* [Paper](https://arxiv.org/abs/1711.01558)    
 $\bullet  \bullet$   `实现网络`{:.warning}    
@@ -51,11 +55,11 @@ $\bullet  \bullet$   `实现网络`{:.warning}
 ICML: 2018 workshop *2018-07-12* [Paper](https://arxiv.org/abs/1807.04689)   
 挛生 VAE 网络研究；融入了李群代数； `什么叫高斯分布类似于斑点的流形结构`{:.warning}     
 
-### 1.5.4 [三维重建](/cv/3dreconstruction/2019/03/28/3d-reconstruction-foundation.html#22-自编码)   
+### 1.5.4 [三维重建](/cv/3dreconstruction/2019/03/28/foundation.html#22-自编码)   
 
 ### 1.5.5 3D VAE
 1. [Generative and Discriminative Voxel Modeling with Convolutional Neural Networks](http://cn.arxiv.org/abs/1608.04236)    
-*2016-08-16* [Paper](https://arxiv.org/abs/1608.04236)    
+*2016-08-16* [Paper](https://arxiv.org/abs/1608.04236) | [Theano](https://github.com/ajbrock/Generative-and-Discriminative-Voxel-Modeling)      
 基于体素的 3D VAE 分类网络；   
 
 1. [Deformable Shape Completion with Graph Convolutional Autoencoders](http://cn.arxiv.org/abs/1712.00268)   
@@ -68,7 +72,9 @@ $\bullet  \bullet$   `实现网络结构`{:.warning}
 *2018-05-30* [Paper](https://arxiv.org/abs/1805.11984)  
 
 1. [Adversarial Autoencoders for Generating 3D Point Clouds](http://cn.arxiv.org/abs/1811.07605)   
-*2018-11-19* [Paper](https://arxiv.org/abs/1811.07605)    
+*2018-11-19* [Paper](https://arxiv.org/abs/1811.07605) | [Reddit](https://www.reddit.com/r/MachineLearning/comments/9znzam/r_adversarial_autoencoders_for_generating_3d/) |     
+*`EMD` · `点云`*    
+$\bullet  \bullet$   `和 GAN 有什么区别`{:.warning}    
 AAE：对抗自编码网络    
 
 ### 1.5.6 其他应用

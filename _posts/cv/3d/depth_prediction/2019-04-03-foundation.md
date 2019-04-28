@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「CV」 深度估计概述"
+title:  "「CV」 深度估计入门"
 date:   2019-04-03 14:06:40 +0800
 key: depth-prediction-foundation-20190403
 aside:

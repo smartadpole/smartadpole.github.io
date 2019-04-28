@@ -169,6 +169,8 @@ DL:
 
   - title:  
     children:
+      - title:  基础
+        url:    /assets/category/ml/dl/foundation.html
       - title:  正则化
         url:    /assets/category/ml/dl/regularization.html
       - title:  优化算法

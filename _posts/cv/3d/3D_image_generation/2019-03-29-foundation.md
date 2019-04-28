@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「CV」 三维图像生成概述"
+title:  "「CV」 三维图像生成入门"
 date:   2019-03-29 11:06:40 +0800
 key: 3d-image-generation-foundation-20190329
 aside:

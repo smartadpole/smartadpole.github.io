@@ -47,6 +47,10 @@ NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](htt
 ECCV 2018, 腾讯优图 [Paper](https://xjqi.github.io/GAL.pdf)    
 *`点云` · `GAN` · `3D卷积` · `点度量`*    
 
+1. [Learning Single-View 3D Reconstruction with Limited Pose Supervision](http://openaccess.thecvf.com/content_ECCV_2018/papers/Guandao_Yang_A_Unified_Framework_ECCV_2018_paper.pdf)   
+ECCV 2018 [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Guandao_Yang_A_Unified_Framework_ECCV_2018_paper.pdf) | [Tensorflow](https://github.com/stevenygd/3d-recon)   
+*`弱监督`*      
+
 1. [Global-to-Local Generative Model for 3D Shapes](http://vcc.tech/file/upload_file//image/research/att201810171620/G2L.pdf)   
 SIGGRAPH 2018, 深圳大学 [Paper](http://vcc.tech/file/upload_file//image/research/att201810171620/G2L.pdf) | [Tensorflow](https://github.com/Hao-HUST/G2LGAN) | [Project](http://vcc.szu.edu.cn/research/2018/G2L)     
 从三维物体的组件出发，生成同样结构的另外一种三维物体；使用基于体素的 GAN 对整体三维模型进行建模，得到多个局部结构，该网络有两个判别器，一个作用于整体，一个作用于局部，最后还有质量损失函数；之后使用条件自编码网络来重组局部结构得到三维模型；文章还提出了新的评价 GAN 模型的方法；   

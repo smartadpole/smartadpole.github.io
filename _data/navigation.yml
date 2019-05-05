@@ -214,6 +214,8 @@ CV:
         url:    /assets/category/CV_2D/meta_learning.html
       - title:  多模态融合
         url:    /assets/category/CV_2D/multimodal.html
+      - title:  图像生成
+        url:    /assets/category/CV_2D/image_generation.html
 
 
   - title:      
@@ -257,8 +259,6 @@ CV:
         url:    /assets/category/CV_3D/key_point.html
       - title:  深度估计
         url:    /assets/category/CV_3D/depth_prediction.html
-      - title:  图像生成
-        url:    /assets/category/CV_3D/image_generation.html
 
 
 Video:

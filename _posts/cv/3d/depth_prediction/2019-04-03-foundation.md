@@ -6,6 +6,7 @@ key: depth-prediction-foundation-20190403
 aside:
   toc: true
 category: [CV, DepthPrediction]
+tags: 资源
 ---
 
 >**深度估计**：根据单张图像得到深度图；        

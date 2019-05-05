@@ -6,6 +6,7 @@ key: point-cloud-foundation-20190329
 aside:
   toc: true
 category: [CV, PointCloud]
+tags: 资源
 ---
 
 >**点云**：point cloud，是三维点的集合，只需记录物体所在的点的坐标；没有规律性的排列，因此无法套用卷积神经网络；高分辨率下，比较节省内存与运算量，也比较适合表示高分辨率的三维物体；  

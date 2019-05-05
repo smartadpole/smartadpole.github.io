@@ -77,6 +77,9 @@ $\bullet  \bullet$   `实现网络结构`{:.warning}
 $\bullet  \bullet$   `和 GAN 有什么区别`{:.warning}    
 AAE：对抗自编码网络    
 
+### 1.5.6 人脸生成
+[3D 人脸生成](/cv/imagegeneration/2019/03/29/foundation.html#121-3d-人脸生成)   
+
 ### 1.5.6 其他应用
 1. [Authoring image decompositions with generative models](http://cn.arxiv.org/abs/1612.01479)    
 *2016-12-05* [Paper](https://arxiv.org/abs/1612.01479)   

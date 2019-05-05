@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       3D Image Generation
-    zh:       三维图像生成
-    zh-Hans:  三维图像生成
-    zh-Hant:  三维图像生成
+    en:       Image Generation
+    zh:       图像生成
+    zh-Hans:  图像生成
+    zh-Hant:  图像生成
 sidebar:
     nav: CV
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "3DImageGeneration" %}
+        {% if cat[0] == "ImageGeneration" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

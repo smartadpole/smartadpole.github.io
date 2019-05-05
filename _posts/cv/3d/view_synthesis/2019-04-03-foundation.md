@@ -6,6 +6,7 @@ key: veiw-synthesis-foundation-20190403
 aside:
   toc: true
 category: [CV, ViewSynthesis]
+tags: 资源
 ---
 <span id="head"></span>   
 >**视角转换**：改变输入图像的视角；        

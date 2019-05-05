@@ -119,6 +119,8 @@ docs-en:
         url:    /assets/category/foundation/probability.html
       - title:  矩阵论
         url:    /assets/category/foundation/matrix_theory.html
+      - title:  Linux
+        url:    /assets/category/foundation/linux.html
 
 C++:
   - title:  

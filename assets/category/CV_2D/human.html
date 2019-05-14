@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Crowd Counting
-    zh:       人群计数
-    zh-Hans:  人群计数
-    zh-Hant:  人群计数
+    en:       Computer Vision·Human
+    zh:       人视觉分析
+    zh-Hans:  人视觉分析
+    zh-Hant:  人视觉分析
 sidebar:
     nav: Human
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "CrowdCounting" %}
+        {% if cat[0] == "Human" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

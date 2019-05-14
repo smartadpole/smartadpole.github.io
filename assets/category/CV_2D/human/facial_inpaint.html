@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Face Inpaint
+    en:       Facial Inpaint
     zh:       人脸修复
     zh-Hans:  人脸修复
     zh-Hant:  人脸修复
 sidebar:
-    nav: CV
+    nav: Human
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "FaceInpaint" %}
+        {% if cat[0] == "FacialInpaint" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

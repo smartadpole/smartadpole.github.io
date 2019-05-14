@@ -343,10 +343,14 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 ### 1.4.11 视频目标检测
 ### 1.4.12 商品检测
 
-## 1.3 3D 检测
+## 1.5 面向终端的目标检测
+1. [Towards High Performance Video Object Detection for Mobiles](http://cn.arxiv.org/abs/1804.05830)   
+*2018-04-16* [Paper](https://arxiv.org/abs/1804.05830)    
+
+## 1.6 3D 检测
 
 
-## 1.3 其他
+## 1.7 其他
 1. [Cloud-Net: An end-to-end Cloud Detection Algorithm for Lan](http://cn.arxiv.org/abs/1901.10077)   
 2019-01-29 [Paper](https://arxiv.org/abs/1901.10077)   
 云层检测   

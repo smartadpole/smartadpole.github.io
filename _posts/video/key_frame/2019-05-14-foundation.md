@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「VIDEO」 视频关键帧提取入门"
+title:  "「VIDEO」 视频摘要入门"
 date:   2019-05-14 10:06:40 +0800
 key: key-frame-extraction-foundation-20190514
 aside:
@@ -63,13 +63,16 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 1. [Person Identification with Visual Summary for a Safe Access to a Smart Home](http://cn.arxiv.org/abs/1904.01178)   
 *2019-04-02* [Paper](https://arxiv.org/abs/1904.01178)   
 
-### 1.2.3  [在手势识别中的应用](/cv/human/gesturerecognition/2019/05/14/foundation.html#12-基于关键帧)
-
-### 1.2.4 [在动作识别中的应用](/cv/human/poseestimation/2019/05/14/foundation.html#12-关键帧提取)
-
-### 1.2.5 其他
+### 1.2.3 关键帧提取
 1. [Video Key Frame Extraction using Entropy value as Global and Local Feature](http://cn.arxiv.org/abs/1605.08857)   
 *2016-05-28* [Paper](https://arxiv.org/abs/1605.08857)   
+
+## 1.3 应用
+### 1.3.1  [在手势识别中的应用](/cv/human/gesturerecognition/2019/05/14/foundation.html#12-基于关键帧)
+
+### 1.3.2 [在动作识别中的应用](/cv/human/poseestimation/2019/05/14/foundation.html#12-关键帧提取)
+
+
 
 -------------------  
  [End](/video/keyframe/2019/05/14/foundation.html#1-paper)

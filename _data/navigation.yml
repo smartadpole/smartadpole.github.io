@@ -137,6 +137,8 @@ C++:
         url:    /assets/category/software/grammer/cpp/advanced.html
       - title:  并行编程
         url:    /assets/category/software/grammer/cpp/parallel.html
+      - title:  C++11 & C++14
+        url:    /assets/category/software/grammer/cpp/modern.html
 
 Programming:
   - title:  

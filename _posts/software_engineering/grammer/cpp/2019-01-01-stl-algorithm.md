@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "泛型算法"
+title:  "「Software」 泛型算法"
 date:   2019-01-01 8:06:40 +0800
 key: stl-algorithms-20190101
 aside:

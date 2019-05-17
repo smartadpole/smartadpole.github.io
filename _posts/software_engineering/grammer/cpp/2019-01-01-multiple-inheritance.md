@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "多继承和虚继承"
+title:  "「Software」 多继承和虚继承"
 date:   2019-01-01 8:06:40 +0800
 key: multi-inheritance-20190101
 aside:

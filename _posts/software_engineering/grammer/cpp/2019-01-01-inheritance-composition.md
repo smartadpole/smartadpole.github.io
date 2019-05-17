@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "继承和组合"
+title:  "「Software」 继承和组合"
 date:   2019-01-01 8:06:40 +0800
 key: inheritance-20190101
 aside:

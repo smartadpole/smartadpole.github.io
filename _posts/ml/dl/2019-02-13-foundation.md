@@ -10,12 +10,12 @@ tags: 资源
 ---
 
 
-## 一、 资料
-### 1. 推荐书籍
+# 1 资料
+## 1.1 推荐书籍
 
-### 2. 推荐资料
+## 1.2 推荐资料
 
-### 3. 常用网站
+## 1.3 常用网站
   [使用 RSS 订阅以下网站](#rss) 关注 DL 最新动向  
 - **arxiv**: <https://arxiv.org/list/cs.CV/recent>, <https://arxiv.org/list/cs/new>  
   recent 包含最新发布的论文；new 包含最新更新的论文（发布和覆盖）；二者都是每周一至周五更新；  
@@ -34,10 +34,11 @@ tags: 资源
   [智能单元](https://zhuanlan.zhihu.com/easyml)，
   [深度学习大讲堂](https://zhuanlan.zhihu.com/dlclass)
 
-### 4. 大牛
+## 1.4 大牛
 推荐关注这些大牛的最新动向；  
 Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richard Socher, Tomas Mikolov, Oriol Vinyals, Percy Liang, Jason Weston, Hang Li, Tie-Yan Liu, Mu Li；  
 
+# 2 Paper
 
 ## 附录
 ### A 福利

@@ -188,7 +188,7 @@ ICCV 2017 oral 中科院深圳先进·院乔宇
 
 ## 2.6 扩展技术
 ### 2.6.1 注意力
-1. [A CTION R ECOGNITION USING VISUAL A TTENTION](http://cn.arxiv.org/abs/1511.04119)   
+1. [Action Recognition using Visual Attention](http://cn.arxiv.org/abs/1511.04119)   
 *2015-11-12* [paper](https://arxiv.org/abs/1511.04119) | [theano](https://github.com/kracwarlock/action-recognition-visual-attention) | [张智勐SDU](https://blog.csdn.net/zzmshuai/article/details/86063410)    
 
 1. [Attentional Pooling for Action Recognition](#attention_pooling)   

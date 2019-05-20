@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 GAN 入门"
+title:  "「DL」 GAN 资源汇总"
 date:   2019-03-26 11:08:40 +0800
 key: gan-foundation-20190326
 aside:
@@ -8,6 +8,7 @@ aside:
 category: [DL, GAN]
 sidebar:
   nav: GAN
+tags: 资源
 ---
 
 
@@ -17,8 +18,7 @@ sidebar:
   <img src="/assets/images/ml/dl/GAN/GAN-trend.png" /><br>图1：GAN 的 论文数量&emsp;
 </center>
 
-# 1 参考资料
-## 1.1 书籍
+# 1 书籍
 <center class="half">
   <img src="/assets/images/ml/dl/GAN/BOOK/GANs-in-action.png" height="200"/>&emsp;<img src="/assets/images/ml/books/baimian_ml.jpeg" height="200"/>&emsp;<img src="/assets/images/ml/dl/GAN/BOOK/learning-GAN.png" height="200"/>&emsp;<img src="/assets/images/ml/dl/GAN/BOOK/GAN-foundation.jpeg" height="200"/>&emsp;<img src="/assets/images/ml/dl/GAN/BOOK/web-GAN.jpeg" height="200"/>&emsp;
 </center>
@@ -42,16 +42,16 @@ sidebar:
 
 
 
-## 1.2 报告
+# 2 报告
 1. [Ian Goodfellow 演讲](http://www.iangoodfellow.com/slides/)  
 1. [OpenAI](https://openai.com/blog/generative-models/)   
 
-## 1.3 课程
+# 3 课程
 [1]. 李宏毅. 李宏毅对抗生成网络(GAN)(2018)[EB/OL]. <https://www.bilibili.com/video/av24011528?from=search&seid=14571953395351333549>.    
 [课件](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html)    
 
-## 1.4 资源
-### 1.4.1 论文
+# 4 资源
+## 4.1 论文
 1. [GAN Zoo](https://github.com/hindupuravinash/the-gan-zoo)
 汇总了所有的 GANs；   
 
@@ -63,25 +63,25 @@ GANs 项目汇总；
 
 1. [GAN 论文汇总(韩东)](https://handong1587.github.io/deep_learning/2015/10/09/gan.html)    
 
-### 1.4.2 代码
+## 4.2 代码
 1. [GANotebooks](https://github.com/tjwei/GANotebooks)   
 
 1. [generative-models](https://github.com/wiseodd/generative-models)   
 pytorch 和 tensorflow 实现的 GAN 和 VAE；   
 
 
-### 1.4.3 技能
+## 4.3 技能
 
 1. **GAN 训练技巧**
 [How to Train a GAN?](https://github.com/soumith/ganhacks)   
 
 
-## 1.5 Paper
-### 1.5.1 第一篇论文
+# 5 Paper
+## 5.1 第一篇论文
 1. :o: [Generative Adversarial Nets](http://cn.arxiv.org/abs/1406.2661)    
 2014-06-10 [Code](https://github.com/goodfeli/adversarial)  [Paper](http://cn.arxiv.org/abs/1406.2661)   
 
-### 1.5.2 综述
+## 5.2 综述
 1. :o: Goodfellow I. [NIPS 2016 tutorial: generative adversarial networks](http://cn.arxiv.org/abs/1701.00160). arXiv preprint [arXiv: 1701.00160](http://cn.arxiv.org/abs/1701.00160), 2016.    
 2016-12-31  
 
@@ -92,10 +92,10 @@ pytorch 和 tensorflow 实现的 GAN 和 VAE；
 2017 中科院自动化所，中文综述；   
 
 
-### 1.5.3 经典网络
+## 5.3 经典网络
 
 
-### 1.5.4 模型评估
+## 5.4 模型评估
 1. Xu Q, Huang G, Yuan Y, et al. [An empirical study on evaluation metrics of generative adversarial networks](http://cn.arxiv.org/abs/1806.07755)[J]. arXiv preprint [arXiv:1806.07755](http://cn.arxiv.org/abs/1806.07755), 2018.   
 2018-06   
 
@@ -105,7 +105,7 @@ pytorch 和 tensorflow 实现的 GAN 和 VAE；
 1. Shmelkov K, Schmid C, Alahari K. [How good is my GAN?](http://cn.arxiv.org/abs/1807.09499)[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 213-229.   
 2018-07   
 
-### 1.5.5 理论
+## 5.5 理论
 
 1.  [Energy-based generative adversarial network](http://cn.arxiv.org/abs/1609.03126)   
 [Code](https://github.com/buriburisuri/ebgan)  
@@ -166,7 +166,7 @@ ICML 2018
 CVPR 2019   
 
 
-### 1.5.6 高质量图像生成
+## 5.6 高质量图像生成
 
 1.  [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06434)      
 ICLR *2015-11-19* [Theano](https://github.com/Newmu/dcgan_code) · [Keras](https://github.com/jacobgil/keras-dcgan) · [Pytorch](https://github.com/pytorch/examples/tree/master/dcgan) · [Pytorch-MNIST/CelebA](https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN) · [Tensorflow](https://github.com/carpedm20/DCGAN-tensorflow) · [Torch](https://github.com/soumith/dcgan.torch)     
@@ -204,13 +204,13 @@ ICLR 2019
 1.  [A Style-Based Generator Architecture for Generative Adversarial Networks](http://cn.arxiv.org/pdf/1811.04948)  
 [Code](https://github.com/NVlabs/stylegan)  
 
-### 1.5.7 场景生成
+## 5.7 场景生成
 
 1.  [a layer-based sequential framework for scene generation with gans](http://cn.arxiv.org/abs/1901.00671)  
 [Code](https://github.com/0zgur0/Seq_Scene_Gen)  
 AAAI 2019  
 
-### 1.5.8 半监督学习
+## 5.8 半监督学习
 
 1.  [Adversarial Training Methods for Semi-Supervised Text Classification](http://cn.arxiv.org/abs/1605.07725)  
 [Note](https://github.com/dennybritz/deeplearning-papernotes/blob/master/notes/adversarial-text-classification.md)   
@@ -230,7 +230,7 @@ ACL 2017
 [Code](https://github.com/kimiyoung/ssl_bad_gan)  
 NIPS 2017  
 
-### 1.5.9 集成学习
+## 5.9 集成学习
 
 1.  [AdaGAN: Boosting Generative Models](http://cn.arxiv.org/abs/1701.02386)    
 [Code]
@@ -239,7 +239,7 @@ Google Brain
 1.  [GP-GAN: Towards Realistic High-Resolution Image Blending](http://cn.arxiv.org/abs/1703.07195)  
 [Code](https://github.com/wuhuikai/GP-GAN)   
 
-### 1.5.10 图像修复
+## 5.10 图像修复
 
 1.  [Semantic Image Inpainting with Perceptual and Contextual Losses](http://cn.arxiv.org/abs/1607.07539)  
 [Code](https://github.com/bamos/dcgan-completion.tensorflow)  
@@ -276,14 +276,14 @@ CVPR 2018
 1.  [EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning](http://cn.arxiv.org/abs/1901.00212)  
 [Code](https://github.com/knazeri/edge-connect)  
 
-### 1.5.11 行人重识别
+## 5.11 行人重识别
 
 1.  [Pose-Normalized Image Generation for Person Re-identification](http://cn.arxiv.org/abs/1711.02225)  
 [Code](https://github.com/naiq/PN_GAN)  
 ECCV 2018  
 
 
-### 1.5.12 超分辨率
+## 5.12 超分辨率
 
 1.  [Image super-resolution through deep learning](http://cn.arxiv.org/abs/1501.00092)   
 [Code](https://github.com/david-gpu/srez)(Just for face dataset)   
@@ -297,11 +297,11 @@ ECCV 2018
 [Code](https://github.com/xinntao/ESRGAN)   
 ECCV 2018 workshop
 
-### 1.5.13 去遮挡
+## 5.13 去遮挡
 `跟图像修复有啥区别`{:.warning}   
 1.  [Robust LSTM-Autoencoders for Face De-Occlusion in the Wild](http://cn.arxiv.org/abs/1611.08534)   
 
-### 1.5.14  语义分割
+## 5.14  语义分割
 
 1.  [Adversarial Deep Structural Networks for Mammographic Mass Segmentation](http://cn.arxiv.org/abs/1611.05970)   
 [Code](https://github.com/wentaozhu/adversarial-deep-structural-networks)   
@@ -309,7 +309,7 @@ ECCV 2018 workshop
 1.  [Semantic Segmentation using Adversarial Networks](http://cn.arxiv.org/abs/1611.08408)  
 soumith's paper
 
-### 1.5.15 物体检测
+## 5.15 物体检测
 
 1.  [Perceptual generative adversarial networks for small object detection](http://cn.arxiv.org/abs/1706.05274v2)  
 CVPR 2017  
@@ -318,12 +318,12 @@ CVPR 2017
 [Code](https://github.com/xiaolonw/adversarial-frcnn)  
 CVPR 2017
 
-### 1.5.16 关键点检测
+## 5.16 关键点检测
 
 1.  [Style aggregated network for facial landmark detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Style_Aggregated_Network_CVPR_2018_paper.pdf)  
 CVPR 2018  
 
-### 1.5.17 条件对抗
+## 5.17 条件对抗
 
 1.  [Conditional Generative Adversarial Nets](http://cn.arxiv.org/abs/1411.1784)  
 [Code](https://github.com/zhangqianhui/Conditional-Gans)   
@@ -347,7 +347,7 @@ GoogleBrain ICLR 2017
 1.  [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](http://cn.arxiv.org/abs/1611.03242)  
 [Code](https://github.com/hanzhanggit/StackGAN)  
 
-### 1.5.18 视频生成
+## 5.18 视频生成
 
 1.  [Deep multi-scale video prediction beyond mean square error](http://cn.arxiv.org/abs/1511.05440)  
 [Code](https://github.com/dyelax/Adversarial_Video_Generation)  
@@ -358,13 +358,13 @@ Yann LeCun's paper
 
 1.  [MoCoGAN: Decomposing Motion and Content for Video Generation](http://cn.arxiv.org/abs/1707.04993)   
 
-### 1.5.19 纹理合成 & 风格迁移
+## 5.19 纹理合成 & 风格迁移
 
 1.  [Precomputed real-time texture synthesis with markovian generative adversarial networks](http://cn.arxiv.org/abs/1604.04382)  
 [Code](https://github.com/chuanli11/MGANs)  
 ECCV 2016  
 
-### 1.5.20 图像翻译
+## 5.20 图像翻译
 
 1.  [UNSUPERVISED CROSS-DOMAIN IMAGE GENERATION](http://cn.arxiv.org/abs/1611.02200)  
 [Code](https://github.com/yunjey/domain-transfer-network)  
@@ -419,7 +419,7 @@ NIPS 2017
 1.  [Art2Real: Unfolding the Reality of Artworks via Semantically-Aware Image-to-Image Translation](http://cn.arxiv.org/abs/1811.10666)   
 CVPR 2019   
 
-### 1.5.21 人脸编辑
+## 5.21 人脸编辑
 
 1.  [Autoencoding beyond pixels using a learned similarity metric](http://cn.arxiv.org/abs/1511.09300)    
 [Code](https://github.com/andersbll/autoencoding_beyond_pixels) [Tensorflow code](https://github.com/zhangqianhui/vae-gan-tensorflow)   
@@ -473,17 +473,17 @@ ECCV 2018 oral
 1.  [Geometry Guided Adversarial Facial Expression Synthesis](http://cn.arxiv.org/abs/1711.03474)   
 ACMMM 2018   
 
-### 1.5.22 美颜
+## 5.22 美颜
 
 1.  [BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network](https://dl.acm.org/citation.cfm?id=3240618)  
 ACMMM 2018   
 
-### 1.5.23 强化学习
+## 5.23 强化学习
 
 1.  [Connecting Generative Adversarial Networks and Actor-Critic Methods](http://cn.arxiv.org/abs/1610.01945)   
 NIPS 2016 workshop  
 
-### 1.5.24 RNN
+## 5.24 RNN
 
 1.  [C-RNN-GAN: Continuous recurrent neural networks with adversarial training](http://cn.arxiv.org/abs/1611.09904)  
 [Code](https://github.com/olofmogren/c-rnn-gan)   
@@ -491,11 +491,11 @@ NIPS 2016 workshop
 1.  [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](http://cn.arxiv.org/abs/1609.05473)   
 [Code](https://github.com/LantaoYu/SeqGAN)(AAAI 2017)
 
-### 1.5.25 医疗
+## 5.25 医疗
 
 1.  [Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery](http://cn.arxiv.org/abs/1703.05921)   
 
-### 1.5.26 3D
+## 5.26 3D
 
 1.  [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](http://cn.arxiv.org/abs/1610.07584)   
 [Web](http://3dgan.csail.mit.edu/)  [Code](https://github.com/zck119/3dgan-release)   
@@ -504,12 +504,12 @@ NIPS 2016 workshop
 1.  [Transformation-Grounded Image Generation Network for Novel 3D View Synthesis] [[Web]](http://www.cs.unc.edu/%7Eeunbyung/tvsn/)   
 CVPR 2017   
 
-### 1.5.27 MUSIC
+## 5.27 MUSIC
 
 1.  [MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation using 1D and 2D Conditions](http://cn.arxiv.org/abs/1703.10847)  
 [HOMEPAGE](https://richardyang40148.github.io/TheBlog/midinet_arxiv_demo.html)  
 
-### 1.5.28 离散分布生成
+## 5.28 离散分布生成
 
 1.  [Maximum-Likelihood Augmented Discrete Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.07983v1)   
 
@@ -517,7 +517,7 @@ CVPR 2017
 
 1.  [GANS for Sequences of Discrete Elements with the Gumbel-softmax Distribution](http://cn.arxiv.org/abs/1611.04051)  
 
-### 1.5.29 提高分类和识别任务
+## 5.29 提高分类和识别任务
 
 1. [Generative OpenMax for Multi-Class Open Set Classification](http://cn.arxiv.org/abs/1707.07418)   
 BMVC 2017   
@@ -533,8 +533,10 @@ ICCV2017
 1. [Learning from Simulated and Unsupervised Images through Adversarial Training](http://cn.arxiv.org/abs/1611.07828)  
 [Code](https://github.com/carpedm20/simulated-unsupervised-tensorflow)（Apple paper, CVPR 2017 Best Paper）
 
+## 5.30 数据增强
+[GAN 在数据增强中的应用](/cv/data_augementation/2019/05/20/foundation.html#1-paper)   
 
-### 1.5.30 其他
+## 5.31 其他
 
 1. [Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://cn.arxiv.org/abs/1506.05751)  
 [Code](https://github.com/facebook/eyescream)
@@ -572,7 +574,7 @@ ICLR 2017
 1. [Adversarially Learned Inference](http://cn.arxiv.org/abs/1606.00704)   
 [Code](https://github.com/IshmaelBelghazi/ALI)
 
-## 1.6 渔
+# 6 渔
 1. [Ian Goodfellow](http://www.iangoodfellow.com/)   
 1. [GAN 汇总](https://blog.csdn.net/love666666shen/article/details/74953970)   
 1. [Awesome Adversarial Machine Learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning)   
@@ -586,5 +588,5 @@ ICLR 2017
 
 
 -------------------  
-End
+[End](#1-书籍)
 {:.warning}  

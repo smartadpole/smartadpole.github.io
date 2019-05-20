@@ -1,17 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Video Analysis
-    zh:       视频分析
-    zh-Hans:  视频分析
-    zh-Hant:  视频分析
+    en:       Semantic Analysis
+    zh:       交通信息分析
+    zh-Hans:  交通信息分析
+    zh-Hant:  交通信息分析
 sidebar:
-    nav: Video
+    nav: Traffic
 ---
+
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "video" %}
+        {% if cat[0] == "semantic_analysis" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

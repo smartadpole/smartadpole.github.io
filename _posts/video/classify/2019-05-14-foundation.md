@@ -5,7 +5,7 @@ date:   2019-05-14 11:06:40 +0800
 key: video-classify-foundation-20190514
 aside:
   toc: true
-category: [Video, VideoClassification]
+category: [video, classification]
 tags: 资源
 ---
 关键字：`video understanding` · `video representations` · `video classification` · `action recognition` · `Action Recognition` | `untrimmed Video` · `trimmed Video`      
@@ -199,6 +199,10 @@ ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511)
 1. [Semantic Adversarial Network with Multi-scale Pyramid Attention for Video Classification](http://cn.arxiv.org/abs/1902.02155)   
 *2019-03-06* [paper](https://arxiv.org/abs/1902.02155)   
 仅基于 RGB 的双流网络；   
+
+### 2.7.2 符号图
+1. [Neural Message Passing on Hybrid Spatio-Temporal Visual and Symbolic Graphs for Video Understanding](http://cn.arxiv.org/abs/1905.07385)   
+*2019-05-17* [paper](https://arxiv.org/abs/1905.07385)      
 
 ## 2.7 改进方向
 

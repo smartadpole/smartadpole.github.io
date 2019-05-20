@@ -5,7 +5,7 @@ date:   2019-05-19 13:00:40 +0800
 key: attention-20190519
 aside:
   toc: true
-category: [DL, DLFoundation]
+category: [DL, foundation]
 ---
 `attention`   
 

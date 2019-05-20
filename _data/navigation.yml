@@ -204,6 +204,8 @@ CV:
     children:
       - title:  基础知识
         url:    /assets/category/CV_2D/foundation.html
+      - title:  数据增强
+        url:    /assets/category/CV_2D/data_augementation.html
       - title:  图像分类
         url:    /assets/category/CV_2D/image_classify.html
       - title:  目标检测
@@ -224,6 +226,8 @@ CV:
     children:
       - title:  人
         url:    /assets/category/CV_2D/human.html
+      - title:  交通
+        url:    /assets/category/CV_2D/traffic.html
 
   - title:      CV-3D
     children:
@@ -1099,7 +1103,7 @@ Human:
     children:
       - title:  上一层
         url:    /assets/category/CV_2D/cv.html
-  - title:      人视觉分析
+  - title:      
     children:
       - title:  人脸验证
         url:    /assets/category/CV_2D/human/face_verify.html
@@ -1127,6 +1131,18 @@ Human:
         url:    /assets/category/CV_2D/human/hands_segmentation.html
       - title:  手势识别
         url:    /assets/category/CV_2D/human/gesture_recognition.html
+
+Traffic:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/CV_2D/cv.html
+  - title:      
+    children:
+      - title:  交通信息检测
+        url:    /assets/category/CV_2D/traffic/semantic_analysis.html
+      - title:  交通事件检测
+        url:    /assets/category/CV_2D/traffic/event_analysis.html
 
 Linux:
   - title:

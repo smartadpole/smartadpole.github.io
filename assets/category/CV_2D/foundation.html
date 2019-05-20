@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Foundation of DeepLearning
-    zh:       深度学习基础
-    zh-Hans:  深度学习基础
-    zh-Hant:  深度學習基礎
+    en:       Foundation of Computer Vision
+    zh:       计算机视觉基础知识
+    zh-Hans:  计算机视觉基础知识
+    zh-Hant:  计算机视觉基础知识
 sidebar:
     nav: CV
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "CVFoundation" %}
+        {% if cat[0] == "cv_foundation" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

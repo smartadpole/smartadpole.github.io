@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 目标检测入门"
+title:  "「CV」 目标检测资源汇总"
 date:   2019-05-10 15:00:40 +0800
 key: ObjectDetection-foundation-20190510
 aside:
   toc: true
-category: [CV, ObjectDetection]
+category: [CV, object_detection]
 tags: 资源
 ---
 
@@ -63,6 +63,10 @@ ECCV 2018 *2018.7* [Paper](https://arxiv.org/abs/1807.11590)
 http://cn.arxiv.org/abs/1902.04103
 https://github.com/dmlc/gluon-cv
 https://mp.weixin.qq.com/s/pkFcmm15gnuRJtngFX7f0w
+
+1. [Training Object Detectors With Noisy Data](https://arxiv.org/abs/1905.07202)   
+*2019-05-17* [paper](https://arxiv.org/abs/1905.07202)   
+教师网络处理噪声图像；   
 
 ### 1.3.4 单阶段
 

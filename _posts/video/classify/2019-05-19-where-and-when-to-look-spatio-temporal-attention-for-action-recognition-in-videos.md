@@ -5,7 +5,7 @@ date:   2019-05-19 13:06:40 +0800
 key: where-and-when-to-look-spatio-temporal-attention-for-action-recognition-in-videos-20190519
 aside:
   toc: true
-category: [Video, VideoClassification, PaperReading]
+category: [video, classification, paper_reading]
 ---
 
 >ICLR 2019      
@@ -140,6 +140,10 @@ $$
 
 6.空间注意力提取时为什么使用 3 层卷积层，其他层数效果怎么样，其他结构会怎么样
 {:.warning}
+
+7.公式 $\eqref{loss_unimodal}$ 中为什么要取 $max$
+{:.warning}
+取了 $max$ 之后，岂不是只能训练到所有帧都均衡的状态，不会出现单峰吗？   
 
 
 # 6 总结

@@ -6,7 +6,7 @@ key: docFace-20181029
 aside:
   toc: true
 tags: 孪生网络 图像检索
-categories: [CV, FaceRecognization, TransferLearning, PaperReading]
+categories: [CV, FaceVerification, TransferLearning, PaperReading]
 ---
 
 >论文发表时间：2018年5月  

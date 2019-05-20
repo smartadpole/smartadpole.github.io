@@ -78,7 +78,7 @@ $L_{CE}$ 是分类任务的交叉熵损失；$L_{TV}$ 是在生成 mask，$L_{co
 
 $$
 \begin{align}   
-L_{TV} &= \sum_{i=1}^n \left( \sum_{j,k} \vert M_{i}^{j+1,k} + M_{i}^{j,k} \vert + \sum_{j,k} \vert M_{i}^{j,k+1} - M_{i}^{j,k}\vert \right)  \label{loss_tv}\\
+L_{TV} &= \sum_{i=1}^n \left( \sum_{j,k} \vert M_{i}^{j+1,k} - M_{i}^{j,k} \vert + \sum_{j,k} \vert M_{i}^{j,k+1} - M_{i}^{j,k}\vert \right)  \label{loss_tv}\\
 \end{align}
 $$
 空间注意力损失：公式 $\eqref{loss_tv}$ 中使用 L1 距离在横纵两个方向捕获差异；$M_i$ 代表第 i 帧图像； $M_i^{j,k}$ 代表图像中 $j$ 行 $k$ 列的像素；   

@@ -6,7 +6,7 @@ key: meta-learning-review-20181217
 aside:
   toc: true
 tags: meta-learning
-category: [CV, MetaLearning]
+category: [CV, meta_learning]
 ---
 
 > 译自：Meta-Learning: Learning to Learn Fast <https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html>，有增删  

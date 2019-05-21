@@ -5,7 +5,7 @@ date:   2019-03-29 11:06:40 +0800
 key: image-generation-foundation-20190329
 aside:
   toc: true
-category: [CV, ImageGeneration]
+category: [CV, image_generation]
 tags: 资源
 ---
 <!--more-->  

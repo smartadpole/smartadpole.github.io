@@ -5,7 +5,7 @@ date:   2019-05-05 18:06:40 +0800
 key: image-segmentation-foundation-20190505
 aside:
   toc: true
-category: [CV, ImageSegmentation]
+category: [CV, segmentation]
 tags: 资源
 ---
 

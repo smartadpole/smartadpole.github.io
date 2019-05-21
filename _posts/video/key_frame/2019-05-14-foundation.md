@@ -5,7 +5,7 @@ date:   2019-05-14 10:06:40 +0800
 key: key-frame-extraction-foundation-20190514
 aside:
   toc: true
-category: [video, KeyFrame]
+category: [video, key_frame]
 tags: 资源
 ---
 `video key frame extraction` · `video key clip extraction` · `video summarization` · `key frame Detection`   

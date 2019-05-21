@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「DL」 自编码入门"
+title:  "「DL」 自编码资源汇总"
 date:   2019-04-23 16:08:40 +0800
 key: autoencoder-foundation-20190423
 aside:
   toc: true
-category: [DL, Autoencoder]
+category: [DL, autoencoder]
 tags: 资源
 ---
 >自编码相关资源；   
@@ -15,29 +15,12 @@ tags: 资源
 **AE**：   
 **VAE**：    
 
-# 1 参考资料
-## 1.1 书籍
+# 1 Paper
+
+## 1.1 综述
 
 
-## 1.2 报告
-
-
-## 1.3 课程
-
-## 1.4 资源
-### 1.4.1 论文
-
-### 1.4.2 代码
-
-
-## 1.5 Paper
-### 1.5.1 基础论文
-
-
-### 1.5.2 综述
-
-
-### 1.5.3 理论
+## 1.2 理论
 1. [Auto-Encoding Variational Bayes](http://cn.arxiv.org/abs/1312.6114)   
 ICLR 2014 *2013-12-20* [Paper](https://arxiv.org/abs/1312.6114)   
 **VAE**：   
@@ -55,9 +38,12 @@ $\bullet  \bullet$   `实现网络`{:.warning}
 ICML: 2018 workshop *2018-07-12* [Paper](https://arxiv.org/abs/1807.04689)   
 挛生 VAE 网络研究；融入了李群代数； `什么叫高斯分布类似于斑点的流形结构`{:.warning}     
 
-### 1.5.4 [三维重建](/cv/3dreconstruction/2019/03/28/foundation.html#22-自编码)   
+1. [Dueling Decoders: Regularizing Variational Autoencoder Latent Spaces](http://cn.arxiv.org/abs/1905.07478)   
+*2019-05-17* [paper](https://arxiv.org/abs/1905.07478)   
 
-### 1.5.5 3D VAE
+## 1.3 [三维重建](/cv/3dreconstruction/2019/03/28/foundation.html#22-自编码)   
+
+## 1.4 3D VAE
 1. [Generative and Discriminative Voxel Modeling with Convolutional Neural Networks](http://cn.arxiv.org/abs/1608.04236)    
 *2016-08-16* [Paper](https://arxiv.org/abs/1608.04236) | [Theano](https://github.com/ajbrock/Generative-and-Discriminative-Voxel-Modeling)      
 基于体素的 3D VAE 分类网络；   
@@ -77,10 +63,15 @@ $\bullet  \bullet$   `实现网络结构`{:.warning}
 $\bullet  \bullet$   `和 GAN 有什么区别`{:.warning}    
 AAE：对抗自编码网络    
 
-### 1.5.6 人脸生成
+## 1.5 对抗自编码
+1. [Finding Rats in Cats: Detecting Stealthy Attacks using Group Anomaly Detection](https://arxiv.org/abs/1905.07273)   
+*2019-05-16* [paper](https://arxiv.org/abs/1905.07273)   
+
+## 1.6 应用
+### 1.6.1 人脸生成
 [3D 人脸生成](/cv/imagegeneration/2019/03/29/foundation.html#121-3d-人脸生成)   
 
-### 1.5.6 其他应用
+### 1.6.2 其他
 1. [Authoring image decompositions with generative models](http://cn.arxiv.org/abs/1612.01479)    
 *2016-12-05* [Paper](https://arxiv.org/abs/1612.01479)   
 $\bullet  \bullet$   `网络结构`{:.warning}    
@@ -110,7 +101,9 @@ $\bullet  \bullet$   `VAE结构`{:.warning} `体素转卷积的特点`{:.warning
 使用 VAE 进行大脑老化分析；    
 >课题很有意思；    
 
-## 1.6 渔
+
+
+# 2 渔
 
 -------------------  
 End

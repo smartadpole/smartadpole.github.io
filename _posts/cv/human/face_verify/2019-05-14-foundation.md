@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 人脸验证入门"
+title:  "「CV」 人脸验证资源汇总"
 date:   2019-05-14 14:06:40 +0800
 key: face-verify-foundation-20190514
 aside:
   toc: true
-category: [CV, Human, FaceVerification]
+category: [CV, human, face_verification]
 tags: 资源
 ---
 

@@ -5,7 +5,7 @@ date:   2019-03-03 19:00:40 +0800
 key: PFLD-facial-landmark-20190303
 aside:
   toc: true
-categories: [CV,Human, FacialLandmark,PaperReading]
+categories: [CV,human, facial_landmark,paper_reading]
 ---
 
 >论文发表时间：2019年2月28日    

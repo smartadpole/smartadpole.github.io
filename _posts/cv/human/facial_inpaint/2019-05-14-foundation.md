@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 人脸修复入门"
+title:  "「CV」 人脸修复资源汇总"
 date:   2019-05-14 14:06:40 +0800
 key: facial-inpaint-foundation-20190514
 aside:
   toc: true
-category: [CV, Human, FacialInpaint]
+category: [CV, human, facial_inpaint]
 tags: 资源
 ---
 

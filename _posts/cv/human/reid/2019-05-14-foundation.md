@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 行人重识别入门"
+title:  "「CV」 行人重识别资源汇总"
 date:   2019-05-14 14:06:40 +0800
 key: human-ReID-foundation-20190514
 aside:
   toc: true
-category: [CV, Human, REID]
+category: [CV, human, REID]
 tags: 资源
 ---
 

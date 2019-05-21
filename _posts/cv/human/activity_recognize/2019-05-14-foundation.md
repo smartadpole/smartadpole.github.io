@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 活性检测入门"
+title:  "「CV」 活性检测资源汇总"
 date:   2019-05-14 14:06:40 +0800
 key: activity-recognize-foundation-20190514
 aside:
   toc: true
-category: [CV, Human, ActivityRecognization]
+category: [CV, human, activity_recognization]
 tags: 资源
 ---
 

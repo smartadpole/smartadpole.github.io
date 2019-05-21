@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 视角转换入门"
+title:  "「CV」 视角转换资源汇总"
 date:   2019-04-03 14:06:40 +0800
 key: veiw-synthesis-foundation-20190403
 aside:
   toc: true
-category: [CV, ViewSynthesis]
+category: [CV, 3D, view_synthesis]
 tags: 资源
 ---
 <span id="head"></span>   

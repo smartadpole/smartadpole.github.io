@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 人脸表观分析入门"
+title:  "「CV」 人脸表观分析资源汇总"
 date:   2019-05-14 14:06:40 +0800
 key: apparent-analysis-foundation-20190514
 aside:
   toc: true
-category: [CV, Human, ApparentAnalysis]
+category: [CV, human, apparent_analysis]
 tags: 资源
 ---
 

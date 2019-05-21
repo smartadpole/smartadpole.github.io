@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 三维点云处理入门"
+title:  "「CV」 三维点云处理资源汇总"
 date:   2019-03-29 10:06:40 +0800
 key: point-cloud-foundation-20190329
 aside:
   toc: true
-category: [CV, PointCloud]
+category: [CV, 3D, point_cloud]
 tags: 资源
 ---
 

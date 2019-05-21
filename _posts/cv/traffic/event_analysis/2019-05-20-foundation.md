@@ -5,7 +5,7 @@ date:   2019-05-20 17:18:40 +0800
 key: traffic-event-foundation-20190520
 aside:
   toc: true
-category: [CV, Traffic, event_analysis]
+category: [CV, traffic, event_analysis]
 tags: 资源
 ---
 

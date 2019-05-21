@@ -5,7 +5,7 @@ date:   2019-05-10 15:00:40 +0800
 key: ObjectDetection-foundation-20190510
 aside:
   toc: true
-category: [CV, object_detection]
+category: [CV, detection]
 tags: 资源
 ---
 
@@ -346,6 +346,9 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 ### 1.4.10 船体检测
 ### 1.4.11 视频目标检测
 ### 1.4.12 商品检测
+### 1.4.13 航拍
+1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
+CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
 ## 1.5 面向终端的目标检测
 1. [Towards High Performance Video Object Detection for Mobiles](http://cn.arxiv.org/abs/1804.05830)   

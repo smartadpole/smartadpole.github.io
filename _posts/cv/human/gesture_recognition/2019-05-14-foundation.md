@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 手势识别入门"
+title:  "「CV」 手势识别资源汇总"
 date:   2019-05-14 15:06:40 +0800
 key: Gesture-Recognition-foundation-20190514
 aside:
   toc: true
-category: [CV, Human, GestureRecognition]
+category: [CV, human, gesture_recognition]
 tags: 资源
 ---
 

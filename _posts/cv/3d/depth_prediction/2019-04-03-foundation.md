@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 深度估计入门"
+title:  "「CV」 深度估计资源汇总"
 date:   2019-04-03 14:06:40 +0800
 key: depth-prediction-foundation-20190403
 aside:
   toc: true
-category: [CV, DepthPrediction]
+category: [CV, 3D, depth_prediction]
 tags: 资源
 ---
 

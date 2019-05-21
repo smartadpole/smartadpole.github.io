@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「ML」 强化学习入门"
+title:  "「ML」 强化学习资源汇总"
 date:   2019-04-19 18:038:40 +0800
 key: RL-foundation-20190419
 aside:
@@ -15,31 +15,35 @@ tags: 资源
 <!--more-->
 
 
-# 1 参考资料
-## 1.1 书籍
+# 1 书籍
 1. Richard S. Sutton, Andrew G. Barto. [Reinforcement Learning:An Introduction](http://incompleteideas.net/book/RLbook2018.pdf)[M].    
 [主页](http://incompleteideas.net/book/the-book-2nd.html) | [python 实现](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) | [stanford](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)-pdf     
 
-
-## 1.2 报告
-
-## 1.3 课程
+# 2 课程
 1. An Introduction to Reinforcement Learning  
 David Silver， [Video](https://www.youtube.com/watch?v=2pWv7GOvuf0)-youtube | [Video](https://www.bilibili.com/video/av45357759?from=search&seid=15688458670557550825)-Bilibili | [lectures](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) | [python 实现](https://github.com/dalmia/David-Silver-Reinforcement-learning) | [google-drive](https://drive.google.com/drive/folders/0B6EE3Sw2jmZWNTZXNW9ucHhHS2M)-包括讲义和视频         
 
 1. [OpenAI-spinningup](http://spinningup.openai.com/en/latest/)   
 
-## 1.4 资源
+# 3 资源
+## 3.1 博客
 1. 莫凡. 强化学习[EB/OL]. <https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/>. 2016-11-03/2019-04-19.    
 1. 不会停的蜗牛. 一文了解强化学习[EB/OL]. <https://www.jianshu.com/p/f4409a8b7f71>. 2017-06-16/2019-04-19.     
 1. JustFollowUs. Reinforcement-Learning[EB/OL]. <https://github.com/JustFollowUs/Reinforcement-Learning>. 2017-04-11/2019-04-19.     
 1. 王小惟. 强化学习从入门到放弃的资料[EB/OL]. <https://zhuanlan.zhihu.com/p/34918639>. 2018-03-25/2019-04-22.   
 
-### 1.4.2 代码
+## 3.2 代码
 
-### 1.4.3 技能
+## 3.3 报告
 
-## 1.5 Paper
+# 4 Paper
+## 4.1 综述
+
+## 4.2 理论
+1. [Revisiting the Softmax Bellman Operator: New Benefits and New Perspective](https://arxiv.org/abs/1812.00456)   
+ICML 2019 *2018-12-02* [paper](https://arxiv.org/abs/1812.00456)   
+
+## 4.3 其他
 1. [Meta-Gradient Reinforcement Learning](http://cn.arxiv.org/abs/1805.09801)   
 *2018-05-24* [Paper](https://arxiv.org/abs/1805.09801)
 
@@ -52,7 +56,7 @@ David Silver， [Video](https://www.youtube.com/watch?v=2pWv7GOvuf0)-youtube | [
 *2019-04-16* [Paper](https://arxiv.org/abs/1904.07802)    
 多代理合作的触摸屏 3D 导航协议；    
 
-## 1.6 渔  
+## 6 渔  
 1. [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Home.html)   
 1. [Richard S. Sutton](http://incompleteideas.net/)   
 

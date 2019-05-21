@@ -77,6 +77,10 @@ AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [p
 CVPR 2017 *2016-11-21* [paper](https://arxiv.org/abs/1611.06678) | [zxcvbnm2333](https://blog.csdn.net/zxcvbnm2333/article/details/86489859)   
 TLE:
 
+1. [Learning Video Representations from Correspondence Proposals](http://cn.arxiv.org/abs/1905.07853)   
+CVPR 2019 (Oral) *2019-05-20* [paper](https://arxiv.org/abs/1905.07853)   
+CPNet:   
+
 
 ## 2.5 基本网络
 ### 2.5.1 传统方法
@@ -199,6 +203,9 @@ ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511)
 1. [Semantic Adversarial Network with Multi-scale Pyramid Attention for Video Classification](http://cn.arxiv.org/abs/1902.02155)   
 *2019-03-06* [paper](https://arxiv.org/abs/1902.02155)   
 仅基于 RGB 的双流网络；   
+
+1. [Video Action Transformer Network](https://arxiv.org/abs/1812.02707)   
+CVPR 2019 *2018-12-06* DeepMind [paper](https://arxiv.org/abs/1812.02707)   
 
 ### 2.7.2 符号图
 1. [Neural Message Passing on Hybrid Spatio-Temporal Visual and Symbolic Graphs for Video Understanding](http://cn.arxiv.org/abs/1905.07385)   

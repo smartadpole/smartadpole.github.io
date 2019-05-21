@@ -195,6 +195,15 @@ DL:
       - title:  生成对抗网络
         url:    /assets/category/ml/dl/gan.html
 
+  - title:   
+    children:
+      - title:  自动设计神经网络
+        url:    /assets/category/ml/dl/automl.html
+      - title:  模型压缩
+        url:    /assets/category/ml/dl/compression.html
+      - title:  联邦学习
+        url:    /assets/category/ml/dl/federated_learning.html
+
 CV:
   - title:  
     children:
@@ -1105,6 +1114,14 @@ Human:
         url:    /assets/category/CV_2D/cv.html
   - title:      
     children:
+      - title:  唇语识别
+        url:    /assets/category/CV_2D/human/lip_reading.html
+      - title:  手掌分割
+        url:    /assets/category/CV_2D/human/hands_segmentation.html
+      - title:  手势识别
+        url:    /assets/category/CV_2D/human/gesture_recognition.html
+      - title:  步态识别
+        url:    /assets/category/CV_2D/human/gait_recognition.html
       - title:  人脸验证
         url:    /assets/category/CV_2D/human/face_verify.html
       - title:  人脸识别
@@ -1125,12 +1142,7 @@ Human:
         url:    /assets/category/CV_2D/human/reid.html
       - title:  人群计数
         url:    /assets/category/CV_2D/human/crowd_count.html
-      - title:  唇语识别
-        url:    /assets/category/CV_2D/human/lip_reading.html
-      - title:  手掌分割
-        url:    /assets/category/CV_2D/human/hands_segmentation.html
-      - title:  手势识别
-        url:    /assets/category/CV_2D/human/gesture_recognition.html
+
 
 Traffic:
   - title:

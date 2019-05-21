@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 三维重建入门"
+title:  "「CV」 三维重建资源汇总"
 date:   2019-03-28 10:06:40 +0800
 key: 3D-reconstruction-foundation-20190328
 aside:
   toc: true
-category: [CV, 3DReconstruction]
+category: [CV, 3D, reconstruction]
 tags: 资源
 ---
 <span id="head"></span>   
@@ -154,7 +154,7 @@ $\bullet  \bullet$
 *`图卷积`*  
 
 
-## 2.4 其他
+## 2.3 其他
 1. [Learning to Generate Chairs, Tables and Cars with Convolutional Networks](http://cn.arxiv.org/abs/1411.5928)   
 2014 [Paper](https://arxiv.org/abs/1411.5928)  
 
@@ -341,6 +341,8 @@ ALIGNet：基于无监督学习的未知局部形状对齐：将2D 图像对齐�
 CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf) | [Tensorflow](https://github.com/trucleduc/PointGrid)     
 *`3D 识别`*
 
+1. [Learning to Reconstruct 3D Manhattan Wireframes from a Single Image](https://arxiv.org/abs/1905.07482)   
+*2019-05-17* [paper](https://arxiv.org/abs/1905.07482)   
 
 ## 2.4  RGB-D
 

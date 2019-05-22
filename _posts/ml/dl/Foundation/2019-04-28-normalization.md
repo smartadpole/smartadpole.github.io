@@ -20,8 +20,6 @@ https://arxiv.org/abs/1803.08494)，[Switchable Normalization](https://arxiv.org
 1. 各自的优势    
 1. 原理解析   
 
-1. [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)   
-*2017-06-08* [Paper](https://arxiv.org/abs/1706.02515) | [tensorflow](https://github.com/bioinf-jku/SNNs) | [zhihu](https://www.zhihu.com/question/60910412) | [reddit](https://www.reddit.com/r/MachineLearning/comments/6g5tg1/r_selfnormalizing_neural_networks_improved_elu/dio0qac/)      
 
 -------------------  
 End

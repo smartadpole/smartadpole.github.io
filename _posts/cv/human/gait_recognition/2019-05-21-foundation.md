@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「DL」 步态识别资源汇总"
+title:  "「CV」 步态识别资源汇总"
 date:   2019-05-21 10:08:40 +0800
 key: gait-recognition-foundation-20190521
 aside:
   toc: true
-category: [DL, human, gait_recognition]
+category: [CV, human, gait_recognition]
 tags: 资源
 ---
 

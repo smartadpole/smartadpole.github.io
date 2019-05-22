@@ -215,12 +215,14 @@ CV:
         url:    /assets/category/CV_2D/foundation.html
       - title:  数据增强
         url:    /assets/category/CV_2D/data_augementation.html
-      - title:  图像分类
+      - title:  分类
         url:    /assets/category/CV_2D/image_classify.html
-      - title:  目标检测
+      - title:  检测
         url:    /assets/category/CV_2D/detect.html
       - title:  分割
         url:    /assets/category/CV_2D/segment.html
+      - title:  检索
+        url:    /assets/category/CV_2D/retrival.html
       - title:  迁移学习
         url:    /assets/category/CV_2D/transfer.html
       - title:  元学习
@@ -263,8 +265,12 @@ Video:
     children:
       - title:  视频分类
         url:    /assets/category/video/classify.html
+      - title:  视频检测
+        url:    /assets/category/video/detection.html
       - title:  视频超分辨率
         url:    /assets/category/video/super_resolution.html
+      - title:  视频摘要
+        url:    /assets/category/video/key_frame.html
       - title:  第三方库
         url:    /assets/category/video/library.html
 
@@ -1124,6 +1130,8 @@ Human:
         url:    /assets/category/CV_2D/human/gait_recognition.html
       - title:  人脸验证
         url:    /assets/category/CV_2D/human/face_verify.html
+      - title:  签名验证
+        url:    /assets/category/CV_2D/human/signature_verification.html
       - title:  人脸识别
         url:    /assets/category/CV_2D/human/face_recognize.html
       - title:  人脸对齐

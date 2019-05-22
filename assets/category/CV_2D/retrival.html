@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Retrival
+    zh:       检索
+    zh-Hans:  检索
+    zh-Hant:  检索
+sidebar:
+    nav: CV
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "retrival" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

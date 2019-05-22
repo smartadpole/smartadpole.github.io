@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「VIDEO」 视频摘要入门"
+title:  "「VIDEO」 视频摘要资源汇总"
 date:   2019-05-14 10:06:40 +0800
 key: key-frame-extraction-foundation-20190514
 aside:
@@ -8,6 +8,7 @@ aside:
 category: [video, key_frame]
 tags: 资源
 ---
+<span id='head'></span>
 `video key frame extraction` · `video key clip extraction` · `video summarization` · `key frame Detection`   
 >视频相比图像来说信息更加丰富，但是一个序列里冗余信息太多，如何无监督的提取关键帧对于很多任务都是至关重要的；   
 
@@ -68,14 +69,14 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 *2016-05-28* [Paper](https://arxiv.org/abs/1605.08857)   
 
 ## 1.3 应用
-### 1.3.1  [在手势识别中的应用](/cv/human/gesturerecognition/2019/05/14/foundation.html#12-基于关键帧)
+### 1.3.1  [在手势识别中的应用](/cv/human/gesture_recognition/2019/05/14/foundation.html#12-基于关键帧)
 
-### 1.3.2 [在动作识别中的应用](/cv/human/poseestimation/2019/05/14/foundation.html#12-关键帧提取)
+### 1.3.2 [在动作识别中的应用](/cv/human/pose_estimation/2019/05/14/foundation.html#231-关键帧提取)
 
 
 
 -------------------  
- [End](/video/keyframe/2019/05/14/foundation.html#1-paper)
+[End](#head)
 {:.warning}  
 
 

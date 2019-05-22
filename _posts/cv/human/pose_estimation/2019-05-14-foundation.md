@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「CV」 姿态识别入门"
+title:  "「CV」 姿态识别资源汇总"
 date:   2019-05-14 14:06:40 +0800
 key: pose-estimate-foundation-20190514
 aside:
@@ -8,14 +8,24 @@ aside:
 category: [CV, human, pose_estimation]
 tags: 资源
 ---
+<span id='head'></span>
 `pose estimation` · `action classification`    
 
 >又叫动作识别，给定一幅图像或一段视频，人体姿态识别就是去恢复其中人体关节点位置的过程；   
 
 <!--more-->
 
-# 1 综述  
-# 2 关键帧提取
+# 1 数据集
+
+# 2 论文
+## 2.1 综述  
+## 2.2 图片
+### 2.2.1 头部
+1. [Improving Head Pose Estimation with a Combined Loss and Bounding Box Margin Adjustment](https://arxiv.org/abs/1905.08609)    
+*2019-05-14* [paper](https://arxiv.org/abs/1905.08609)   
+
+## 2.3 视频
+### 2.3.1 关键帧提取
 1. [Deep Keyframe Detection in Human Action Videos](http://cn.arxiv.org/abs/1804.10021)   
 *2018-04-26* [Paper](https://arxiv.org/abs/1804.10021)   
 人体行为关键帧的特点：这些关键帧的类别区分度最强；   
@@ -38,13 +48,14 @@ motivation：视频中包含大量静止画面，如果把这些帧送入网络�
 思考：用分类来提取关键帧，类别分数越高，越有可能成为关键帧；   
 问题：测试时输入的帧也有可能不含有动作信息，为什么还要将各个帧的得分平均？是不是也可以考虑像训练集那样只考虑关键帧的预测结果；   
 
-# 3 3D 姿态估计
+## 2.4 3D 姿态估计
 1. [Patch-based 3D Human Pose Refinement](http://cn.arxiv.org/abs/1905.08231)   
 CVPR 2019 (Augmented Human) *2019-05-20* [paper](https://arxiv.org/abs/1905.08231)   
 
 
+
 -------------------  
- [End]()
+[End](#head)
 {:.warning}  
 
 

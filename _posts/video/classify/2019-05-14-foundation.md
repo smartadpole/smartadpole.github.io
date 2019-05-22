@@ -18,7 +18,7 @@ tags: 资源
 
 | 数据集 | 来源 | 视频数 | 动作数 | 说明 |
 | --- | --- | --- | --- | --- |
-| UCF-101 | YouTube | 13320 | 101 | |
+| [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) | YouTube | 13320 | 101 | |
 | HMDB51 | YouTube | 7000 | 51 | |
 | Kinetics | YouTube | 300K | 400 | |
 | activity-net |  | 10024+4926+5044 | 200 | |

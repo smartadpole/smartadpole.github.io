@@ -8,7 +8,7 @@ aside:
 category: [DL, foundation]
 tags: 资源
 ---
-
+<span id='head'></span>  
 
 <!--more-->
 
@@ -24,6 +24,15 @@ $\bullet \bullet$
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07457)   
 $\bullet \bullet$    
 
+## 3 归一化
+1. [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)   
+*2017-06-08* [Paper](https://arxiv.org/abs/1706.02515) | [tensorflow](https://github.com/bioinf-jku/SNNs) | [zhihu](https://www.zhihu.com/question/60910412) | [reddit](https://www.reddit.com/r/MachineLearning/comments/6g5tg1/r_selfnormalizing_neural_networks_improved_elu/dio0qac/)      
+
+
+1. [ROI Regularization for Semi-supervised and Supervised Learning](http://cn.arxiv.org/abs/1905.08615)   
+*2019-05-15* [paper](https://arxiv.org/abs/1905.08615)  
+
+
 -------------------  
-[End](#1-综述)
+[End](#head)
 {:.warning}  

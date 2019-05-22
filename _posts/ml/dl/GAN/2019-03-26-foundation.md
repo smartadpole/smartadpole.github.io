@@ -10,7 +10,7 @@ sidebar:
   nav: GAN
 tags: 资源
 ---
-
+<span id='head'></span>  
 
 <!--more-->
 
@@ -76,7 +76,7 @@ pytorch 和 tensorflow 实现的 GAN 和 VAE；
 [How to Train a GAN?](https://github.com/soumith/ganhacks)   
 
 
-# 5 Paper
+# 5 论文
 ## 5.1 第一篇论文
 1. :o: [Generative Adversarial Nets](http://cn.arxiv.org/abs/1406.2661)    
 2014-06-10 [Code](https://github.com/goodfeli/adversarial)  [Paper](http://cn.arxiv.org/abs/1406.2661)   
@@ -203,6 +203,10 @@ ICLR 2019
 
 1.  [A Style-Based Generator Architecture for Generative Adversarial Networks](http://cn.arxiv.org/pdf/1811.04948)  
 [Code](https://github.com/NVlabs/stylegan)  
+
+1. [Dilated Spatial Generative Adversarial Networks for Ergodic Image Generation](http://cn.arxiv.org/abs/1905.08613)   
+*2019-05-15* [paper](https://arxiv.org/abs/1905.08613)    
+膨胀卷积助力边缘清晰；    
 
 ## 5.7 场景生成
 
@@ -536,7 +540,11 @@ ICCV2017
 ## 5.30 数据增强
 [GAN 在数据增强中的应用](/cv/data_augementation/2019/05/20/foundation.html#1-paper)   
 
-## 5.31 其他
+## 5.31 语义图转照片
+1. [S-Flow GAN](http://cn.arxiv.org/abs/1905.08474)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08474)    
+
+## 5.32 其他
 
 1. [Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://cn.arxiv.org/abs/1506.05751)  
 [Code](https://github.com/facebook/eyescream)
@@ -588,5 +596,5 @@ ICLR 2017
 
 
 -------------------  
-[End](#1-书籍)
+[End](#head)
 {:.warning}  

@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Signature Verification
+    zh:       签名验证
+    zh-Hans:  签名验证
+    zh-Hant:  签名验证
+sidebar:
+    nav: Human
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "signature_verification" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

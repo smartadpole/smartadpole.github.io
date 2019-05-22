@@ -207,6 +207,9 @@ ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511)
 1. [Video Action Transformer Network](https://arxiv.org/abs/1812.02707)   
 CVPR 2019 *2018-12-06* DeepMind [paper](https://arxiv.org/abs/1812.02707)   
 
+1. [Marginalized Average Attentional Network for Weakly-Supervised Learning](https://openreview.net/pdf?id=HkljioCcFQ)   
+ICML 2019 *2019-03-05* [paper](https://openreview.net/pdf?id=HkljioCcFQ) | [pytorch](https://github.com/yyuanad/MAAN) | [openreview](https://openreview.net/forum?id=HkljioCcFQ)           
+
 ### 2.7.2 符号图
 1. [Neural Message Passing on Hybrid Spatio-Temporal Visual and Symbolic Graphs for Video Understanding](http://cn.arxiv.org/abs/1905.07385)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07385)      
@@ -266,6 +269,10 @@ CVPR 2017 *2017-04-10* [paper](https://arxiv.org/abs/1704.02895) | [project](htt
 lastest name:`Deep Convolutional Neural Networks with Merge-and-Run Mappings`     
 基于ResNet的结构探索新的双流连接方式    
 
+
+### 2.7.3 多模态
+1. [Unseen Action Recognition with Multimodal Learning](http://cn.arxiv.org/abs/1806.08251)   
+*2018-06-21* [paper](https://arxiv.org/abs/1806.08251) | [pytorch](https://github.com/piergiaj/mlb-youtube)      
 
 ## 2.8 数据类型
 ### 2.8.1 修剪视频识别

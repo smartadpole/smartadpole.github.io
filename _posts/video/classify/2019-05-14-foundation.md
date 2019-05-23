@@ -53,19 +53,20 @@ ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)
 
 ## 2.3 经典
 
+1. [StNet: Local and Global Spatial-Temporal Modeling for Action Recognition](http://cn.arxiv.org/abs/1811.01549)    
+AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502)
+
+
 ## 2.4 通用
 
 1. [Non-local Neural Networks](http://cn.arxiv.org/abs/1711.07971)   
-CVPR 2018 *2017-11-21* [paper](https://arxiv.org/abs/1711.07971) [caffe2](https://github.com/facebookresearch/video-nonlocal-net) | [zhihu](https://www.zhihu.com/question/68473183)       
+CVPR 2018 *2017-11-21* [paper](https://arxiv.org/abs/1711.07971) | [caffe2](https://github.com/facebookresearch/video-nonlocal-net) | [zhihu](https://www.zhihu.com/question/68473183)       
 
 1. [ECO: Efficient Convolutional Network for Online Video Understanding](http://cn.arxiv.org/abs/1804.09066)   
 ECCV 2018 *2018-04-24* [paper](https://arxiv.org/abs/1804.09066) | [caffe](https://github.com/mzolfaghari/ECO-efficient-video-understanding) | [pytorch](https://github.com/mzolfaghari/ECO-pytorch) | [林天威](https://zhuanlan.zhihu.com/p/36795554)        
 
 1. [$A^2$ -Nets: Double Attention Networks](http://cn.arxiv.org/abs/1810.11579)   
 NIPS 2018 *2018-10-27* [paper](https://arxiv.org/abs/1810.11579) | [Kivee123](https://blog.csdn.net/qq_37014750/article/details/83989334) | [zhihu](https://www.zhihu.com/question/321294274)
-
-1. [StNet: Local and Global Spatial-Temporal Modeling for Action Recognition](http://cn.arxiv.org/abs/1811.01549)    
-AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502)
 
 1. [Temporal Shift Module for Efficient Video Understanding](http://cn.arxiv.org/abs/1811.08383)   
 *2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-offical | [pytorch](https://github.com/Pika7ma/Temporal-Shift-Module) | [琪瑞](https://zhuanlan.zhihu.com/p/64525610)        

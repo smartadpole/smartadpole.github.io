@@ -81,6 +81,9 @@ TLE:
 CVPR 2019 (Oral) *2019-05-20* [paper](https://arxiv.org/abs/1905.07853)   
 CPNet:   
 
+1. [Lightweight Network Architecture for Real-Time Action Recognition](http://cn.arxiv.org/abs/1905.08711)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08711)   
+$\bullet \bullet$  
 
 ## 2.5 基本网络
 ### 2.5.1 传统方法
@@ -337,6 +340,10 @@ ACM Multimedia 2018 *2018-08-22* [paper](https://arxiv.org/abs/1808.07272)
 - 同行   
 [管超](http://pancakeawesome.ink/)   
 [张智勐](https://blog.csdn.net/zzmshuai)   
+
+- 资源   
+[paper with code](https://paperswithcode.com/task/action-recognition/latest?page=3)
+
 
 -------------------  
  [End](#1-数据集)

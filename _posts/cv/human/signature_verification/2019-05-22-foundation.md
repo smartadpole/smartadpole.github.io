@@ -22,6 +22,8 @@ tags: 资源
 1. [Online Signature Verification Based on Writer Specific Feature Selection and Fuzzy Similarity Measure](https://arxiv.org/abs/1905.08574)   
 CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.org/abs/1905.08574)   
 
+1. [Deep Signatures](http://cn.arxiv.org/abs/1905.08494)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08494) | [pytorch](https://github.com/patrick-kidger/Deep-Signatures)       
 
 -------------------  
 [End](#head)

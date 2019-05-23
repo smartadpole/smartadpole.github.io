@@ -91,7 +91,7 @@ docs-en:
       - title:  视频分析
         url:    /assets/category/video/video.html
 
-  - title:      学习
+  - title:      行进
     children:
       - title:  论文阅读
         url:    /assets/category/study/paper_reading.html
@@ -99,6 +99,8 @@ docs-en:
         url:    /assets/category/study/paper_practice.html
       - title:  竞赛
         url:    /assets/category/study/competition.html
+      - title:  顶会
+        url:    /assets/category/study/meeting.html
 
   - title:      工具
     children:
@@ -239,6 +241,8 @@ CV:
         url:    /assets/category/CV_2D/human.html
       - title:  交通
         url:    /assets/category/CV_2D/traffic.html
+      - title:  医疗
+        url:    /assets/category/CV_2D/medical.html
 
   - title:      CV-3D
     children:

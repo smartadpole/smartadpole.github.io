@@ -208,6 +208,9 @@ ICLR 2019
 *2019-05-15* [paper](https://arxiv.org/abs/1905.08613)    
 膨胀卷积助力边缘清晰；    
 
+1. [Variational Hetero-Encoder Randomized Generative Adversarial Networks for Joint Image-Text Modeling](http://cn.arxiv.org/abs/1905.08622)   
+*2019-05-18* [paper](https://arxiv.org/abs/1905.08622) | [OpenReview](https://openreview.net/forum?id=S1eX-nA5KX)      
+
 ## 5.7 场景生成
 
 1.  [a layer-based sequential framework for scene generation with gans](http://cn.arxiv.org/abs/1901.00671)  
@@ -422,6 +425,13 @@ NIPS 2017
 
 1.  [Art2Real: Unfolding the Reality of Artworks via Semantically-Aware Image-to-Image Translation](http://cn.arxiv.org/abs/1811.10666)   
 CVPR 2019   
+
+1. [Fonts-2-Handwriting: A Seed-Augment-Train framework for universal digit classification](https://arxiv.org/abs/1905.08633)   
+ICLR 2019 *2019-05-16* [paper](https://arxiv.org/abs/1905.08633) | [code](https://github.com/unifyid-labs/DeepGenStruct-Notebooks)       
+手写数字生成；   
+
+1. [Toward Learning a Unified Many-to-Many Mapping for Diverse Image Translation](https://arxiv.org/abs/1905.08766)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08766)    
 
 ## 5.21 人脸编辑
 

@@ -32,6 +32,10 @@ $\bullet \bullet$
 1. [ROI Regularization for Semi-supervised and Supervised Learning](http://cn.arxiv.org/abs/1905.08615)   
 *2019-05-15* [paper](https://arxiv.org/abs/1905.08615)  
 
+## 4 激活函数
+1. [Neurons Activation Visualization and Information Theoretic Analysis](http://cn.arxiv.org/abs/1905.08618)   
+*2019-05-14* [paper](https://arxiv.org/abs/1905.08618)   
+
 
 -------------------  
 [End](#head)

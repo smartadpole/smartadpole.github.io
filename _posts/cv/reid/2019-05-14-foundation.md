@@ -1,24 +1,27 @@
 ---
 layout: article
-title:  "「CV」 行人重识别资源汇总"
+title:  "「CV」 重识别资源汇总"
 date:   2019-05-14 14:06:40 +0800
 key: human-ReID-foundation-20190514
 aside:
   toc: true
-category: [CV, human, REID]
+category: [CV, REID]
 tags: 资源
 ---
-
+<span id='head'></span>  
 <!--more-->
 
-# 1 Paper  
+# 1 数据集
+
+# 2 论文  
 ## 1.1 综述
 
 1. [survey:person re-identification：past，present and future](http://cn.arxiv.org/abs/1610.02984)    
 一篇不错的综述
 [Paper](https://arxiv.org/abs/1610.02984)    
 
-## 1.2 基于图像
+## 1.2 行人
+### 1.2.1 基于图像
 
 1. [Person Re-identification in the Wild](http://cn.arxiv.org/abs/1604.02531)    
 论文中他们采用了各种detector+各种recogniser的组合
@@ -95,15 +98,16 @@ https://mp.weixin.qq.com/s/iotqiyRrH4kwWmBvYi-tMQ
 8,22,23效果差不多，Rank@1=88.24%, mAP=70.68%
 2,21，Rank@1大体都在70~80
 
-## 1.3 基于视频
+### 1.2.2 基于视频
 1. [Video-based Person Re-identification via 3D Convolutional Networks and Non-local Attention](http://cn.arxiv.org/abs/1807.05073)   
 *2018-07-12* [Paper](https://arxiv.org/abs/1807.05073)   
 
-## 1.4 其他
-
+## 1.3 车辆
+1. [Attributes Guided Feature Learning for Vehicle Re-identification](https://arxiv.org/abs/1905.08997)   
+*2019-05-22* [paper](https://arxiv.org/abs/1905.08997)   
 
 -------------------  
- [End]()
+[End](#head)
 {:.warning}  
 
 

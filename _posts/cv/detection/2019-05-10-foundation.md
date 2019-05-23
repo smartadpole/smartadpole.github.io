@@ -350,14 +350,18 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
-## 1.5 面向终端的目标检测
+## 1.5 小目标检测
+1. [Multiple receptive fields and small-object-focusing weakly-supervised segmentation network for fast object detection](http://cn.arxiv.org/abs/1904.12619)   
+*2019-04-19* [paper](https://arxiv.org/abs/1904.12619)   
+
+## 1.6 面向终端的目标检测
 1. [Towards High Performance Video Object Detection for Mobiles](http://cn.arxiv.org/abs/1804.05830)   
 *2018-04-16* [Paper](https://arxiv.org/abs/1804.05830)    
 
-## 1.6 3D 检测
+## 1.7 3D 检测
 
 
-## 1.7 其他
+## 1.8 其他
 1. [Cloud-Net: An end-to-end Cloud Detection Algorithm for Lan](http://cn.arxiv.org/abs/1901.10077)   
 2019-01-29 [Paper](https://arxiv.org/abs/1901.10077)   
 云层检测   

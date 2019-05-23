@@ -12,12 +12,14 @@ tags: 资源
 
 <!--more-->
 
-# 1 论文
-## 1.1 综述
+# 1 数据集
+
+# 2 论文
+## 2.1 综述
 1. [Medical Image Analysis using Convolutional Neural Networks: A Review](http://cn.arxiv.org/abs/1709.02250)   
 *2017-09-04* [paper](https://arxiv.org/abs/1709.02250)   
 
-## 1.2 理论
+## 2.2 理论
 
 
 -------------------  

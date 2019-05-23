@@ -71,7 +71,10 @@ AAE：对抗自编码网络
 ### 1.6.1 人脸生成
 [3D 人脸生成](/cv/imagegeneration/2019/03/29/foundation.html#121-3d-人脸生成)   
 
-### 1.6.2 其他
+### 1.6.2 水下摄影图像增强
+[水下摄影图像增强](/cv/image_enhancement/2019/05/23/foundation.html#241-自编码)   
+
+### 1.6.3 其他
 1. [Authoring image decompositions with generative models](http://cn.arxiv.org/abs/1612.01479)    
 *2016-12-05* [Paper](https://arxiv.org/abs/1612.01479)   
 $\bullet  \bullet$   `网络结构`{:.warning}    

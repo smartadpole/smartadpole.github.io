@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Image Enhancement
+    zh:       图像增强
+    zh-Hans:  图像增强
+    zh-Hant:  图像增强
+sidebar:
+    nav: CV
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "image_enhancement" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

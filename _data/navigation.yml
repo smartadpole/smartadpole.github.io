@@ -203,6 +203,14 @@ DL:
         url:    /assets/category/ml/dl/automl.html
       - title:  模型压缩
         url:    /assets/category/ml/dl/compression.html
+      - title:  元学习
+        url:    /assets/category/ml/dl/meta_learning.html
+      - title:  迁移学习
+        url:    /assets/category/ml/dl/transfer_learning.html
+      - title:  半监督学习
+        url:    /assets/category/ml/dl/semi_supervised.html
+      - title:  无监督学习
+        url:    /assets/category/ml/dl/unsupervised.html
       - title:  联邦学习
         url:    /assets/category/ml/dl/federated_learning.html
 
@@ -225,10 +233,10 @@ CV:
         url:    /assets/category/CV_2D/segment.html
       - title:  检索
         url:    /assets/category/CV_2D/retrival.html
-      - title:  迁移学习
-        url:    /assets/category/CV_2D/transfer.html
-      - title:  元学习
-        url:    /assets/category/CV_2D/meta_learning.html
+      - title:  重识别
+        url:    /assets/category/CV_2D/reid.html
+      - title:  图像增强
+        url:    /assets/category/CV_2D/image_enhancement.html
       - title:  多模态融合
         url:    /assets/category/CV_2D/multimodal.html
       - title:  图像生成
@@ -243,6 +251,8 @@ CV:
         url:    /assets/category/CV_2D/traffic.html
       - title:  医疗
         url:    /assets/category/CV_2D/medical.html
+      - title:  自然
+        url:    /assets/category/CV_2D/nature.html
 
   - title:      CV-3D
     children:
@@ -1150,8 +1160,6 @@ Human:
         url:    /assets/category/CV_2D/human/apparent_analysis.html
       - title:  姿态估计
         url:    /assets/category/CV_2D/human/pose_estimation.html
-      - title:  行人重识别
-        url:    /assets/category/CV_2D/human/reid.html
       - title:  人群计数
         url:    /assets/category/CV_2D/human/crowd_count.html
 

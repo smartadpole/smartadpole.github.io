@@ -283,6 +283,9 @@ CVPR 2018
 1.  [EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning](http://cn.arxiv.org/abs/1901.00212)  
 [Code](https://github.com/knazeri/edge-connect)  
 
+1. [PEPSI++: Fast and Lightweight Network for Image Inpainting](http://cn.arxiv.org/abs/1905.09010)    
+*2019-05-22* [paper](https://arxiv.org/abs/1905.09010)    
+
 ## 5.11 行人重识别
 
 1.  [Pose-Normalized Image Generation for Person Re-identification](http://cn.arxiv.org/abs/1711.02225)  

@@ -272,6 +272,8 @@ CVPR 2017 *2017-04-10* [paper](https://arxiv.org/abs/1704.02895) | [project](htt
 lastest name:`Deep Convolutional Neural Networks with Merge-and-Run Mappings`     
 基于ResNet的结构探索新的双流连接方式    
 
+1. [Bridging Stereo Matching and Optical Flow via Spatiotemporal Correspondence](http://cn.arxiv.org/abs/1905.09265)   
+CVPR 2019 *2019-05-22* [paper](https://arxiv.org/abs/1905.09265) | [pytorch](https://github.com/lelimite4444/BridgeDepthFlow)        
 
 ### 2.7.3 多模态
 1. [Unseen Action Recognition with Multimodal Learning](http://cn.arxiv.org/abs/1806.08251)   

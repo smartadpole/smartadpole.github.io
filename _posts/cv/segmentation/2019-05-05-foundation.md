@@ -8,7 +8,7 @@ aside:
 category: [CV, segmentation]
 tags: 资源
 ---
-
+<span id='head'></span>
 
 <!--more-->  
 
@@ -16,6 +16,21 @@ tags: 资源
 ## 1.1 综述
 
 ## 1.2 理论
+
+1. [Learning Fully Dense Neural Networks for Image Semantic Segmentation](http://cn.arxiv.org/abs/1905.08929)   
+*2019-05-22* [paper](https://arxiv.org/abs/1905.08929)   
+
+1. [Segmentation-Aware Image Denoising without Knowing True Segmentation](http://cn.arxiv.org/abs/1905.08965)   
+*2019-05-22* [paper](https://arxiv.org/abs/1905.08965)   
+
+1. [Spatial Sampling Network for Fast Scene Understanding](http://cn.arxiv.org/abs/1905.09033)   
+CVPR 2019 (Autonomous Driving) *2019-05-22* [paper](https://arxiv.org/abs/1905.09033)    
+
+1. [End-to-End Learned Random Walker for Seeded Image Segmentation](https://arxiv.org/abs/1905.09045)   
+*2019-05-22* [paper](https://arxiv.org/abs/1905.09045)   
+
+1. [WPU-Net:Boundary learning by using weighted propagation in convolution network](https://arxiv.org/abs/1905.09226)   
+*2019-05-22* [paper](https://arxiv.org/abs/1905.09226)   
 
 ## 1.3 经典
 
@@ -53,7 +68,7 @@ ECCV 2018 [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_
 3D FCN  
 
 -------------------  
-End
+[End](#head)
 {:.warning}  
 
 

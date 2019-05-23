@@ -2,7 +2,7 @@
 layout: article
 title:  "「论文解读」 Where And When to Look? Spatio Temporal Attention for Action Recognition in Videos"
 date:   2019-05-19 13:06:40 +0800
-key: where-and-when-to-look-spatio-temporal-attention-for-action-recognition-in-videos-20190519
+key: where-and-when-to-look-20190519
 aside:
   toc: true
 category: [video, classification, paper_reading]

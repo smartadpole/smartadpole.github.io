@@ -17,7 +17,7 @@ category: [video, classification, paper_reading]
 代码：Pytorch <https://github.com/hyperfraise/Pytorch-StNet>   
 
 <center class="half">
-  <img src="/assets/images/video/claaification/classic/StNet-Local-and-Global-Spatial-Temporal-Modeling-for-AR/activaton_maps.png" height="400"/>&emsp;<br>图1：激活地图
+  <img src="/assets/images/video/claaification/classic/StNet-Local-and-Global-Spatial-Temporal-Modeling-for-AR/activaton_maps.png" height="400"/>&emsp;
 </center>
 
 # 1 一句话总结文章
@@ -27,7 +27,7 @@ category: [video, classification, paper_reading]
 前导知识：`CNN`，`深度学习基本知识`     
 
 <center class="half">
-  <img src="/assets/images/video/claaification/classic/StNet-Local-and-Global-Spatial-Temporal-Modeling-for-AR/StNet.png" height="400"/>&emsp;<br>图2：StNet 示意图
+  <img src="/assets/images/video/claaification/classic/StNet-Local-and-Global-Spatial-Temporal-Modeling-for-AR/StNet.png" height="400"/>&emsp;<br>图1：StNet 示意图
 </center>
 
 

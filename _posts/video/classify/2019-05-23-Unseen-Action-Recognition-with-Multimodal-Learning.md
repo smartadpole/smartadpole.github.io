@@ -2,7 +2,7 @@
 layout: article
 title:  "「论文解读」 Unseen Action Recognition with Multimodal Learning"
 date:   2019-05-23 17:06:40 +0800
-key: Unseen-Action-Recognition-with-Multimodal-Learning-20190523
+key: Unseen-AR-Multimodal-20190523
 aside:
   toc: true
 category: [video, classification, paper_reading]

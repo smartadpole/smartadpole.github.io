@@ -2,7 +2,7 @@
 layout: article
 title:  "「论文解读」 StNet: Local and Global Spatial-Temporal Modeling for Action Recognition"
 date:   2019-05-23 17:26:40 +0800
-key: StNet-Local-and-Global-Spatial-Temporal-Modeling-for-AR-20190523
+key: StNet-20190523
 aside:
   toc: true
 category: [video, classification, paper_reading]

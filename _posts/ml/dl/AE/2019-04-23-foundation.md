@@ -8,6 +8,7 @@ aside:
 category: [DL, autoencoder]
 tags: 资源
 ---
+<span id='head'></span>  
 >自编码相关资源；   
 
 <!--more-->
@@ -34,12 +35,18 @@ NIPS 2016 *2016-11-21* [Paper](https://arxiv.org/abs/1611.07308) | [Tensorflow](
 $\bullet  \bullet$   `实现网络`{:.warning}    
 **WAE**：融合了 推土机距离；   
 
+1. [Blind Channel Equalization using Variational Autoencoders](http://cn.arxiv.org/abs/1803.01526)   
+*2018-03-05* [paper](https://arxiv.org/abs/1803.01526)   
+
 1. [Explorations in Homeomorphic Variational Auto-Encoding](http://cn.arxiv.org/abs/1807.04689)    
 ICML: 2018 workshop *2018-07-12* [Paper](https://arxiv.org/abs/1807.04689)   
 挛生 VAE 网络研究；融入了李群代数； `什么叫高斯分布类似于斑点的流形结构`{:.warning}     
 
 1. [Dueling Decoders: Regularizing Variational Autoencoder Latent Spaces](http://cn.arxiv.org/abs/1905.07478)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07478)   
+
+1. [Unsupervised Linear and Nonlinear Channel Equalization and Decoding using Variational Autoencoders](http://cn.arxiv.org/abs/1905.08795)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08795)   
 
 ## 1.3 [三维重建](/cv/3dreconstruction/2019/03/28/foundation.html#22-自编码)   
 
@@ -74,7 +81,10 @@ AAE：对抗自编码网络
 ### 1.6.2 水下摄影图像增强
 [水下摄影图像增强](/cv/image_enhancement/2019/05/23/foundation.html#241-自编码)   
 
-### 1.6.3 其他
+### 1.6.3 数据增强
+[数据增强](/cv/data_augementation/2019/05/20/foundation.html#14-autoencoder)    
+
+### 1.6.4 其他
 1. [Authoring image decompositions with generative models](http://cn.arxiv.org/abs/1612.01479)    
 *2016-12-05* [Paper](https://arxiv.org/abs/1612.01479)   
 $\bullet  \bullet$   `网络结构`{:.warning}    
@@ -109,5 +119,5 @@ $\bullet  \bullet$   `VAE结构`{:.warning} `体素转卷积的特点`{:.warning
 # 2 渔
 
 -------------------  
-End
+[End](#head)
 {:.warning}  

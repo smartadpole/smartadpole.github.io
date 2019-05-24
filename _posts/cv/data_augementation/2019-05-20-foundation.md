@@ -8,6 +8,7 @@ aside:
 category: [CV, data_augementation]
 tags: 资源
 ---
+<span id='head'></span>  
 
 
 <!--more-->
@@ -21,7 +22,11 @@ tags: 资源
 1. [LiDAR Sensor modeling and Data augmentation with GANs for Autonomous driving](http://cv.arxiv.org/abs/1905.07290)   
 ICML Workshop on AI for Autonomous Driving 2019 *2019-05-17* [paper](https://arxiv.org/abs/1905.07290)   
 
-## 1.4 其他
+## 1.4 AutoEncoder
+1. [Learning to Confuse: Generating Training Time Adversarial Data with Auto-Encoder](http://cn.arxiv.org/abs/1905.09027)    
+*2019-05-22* [paper](https://arxiv.org/abs/1905.09027)    
+
+## 1.5 其他
 1. [Online Hyper-parameter Learning for Auto-Augmentation Strategy](http://cn.arxiv.org/abs/1905.07373)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07373)    
 $\bullet  \bullet$  
@@ -29,5 +34,5 @@ $\bullet  \bullet$
 
 
 -------------------  
-End
+[End](#head)
 {:.warning}  

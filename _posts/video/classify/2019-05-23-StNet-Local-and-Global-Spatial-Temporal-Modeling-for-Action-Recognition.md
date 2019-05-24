@@ -20,8 +20,14 @@ category: [video, classification, paper_reading]
   <img src="/assets/images/video/claaification/classic/StNet-Local-and-Global-Spatial-Temporal-Modeling-for-AR/activaton_maps.png" height="400"/>&emsp;
 </center>
 
+- StNet 怎么提取视频特征的    
+- Temporal Xception Block 是什么    
+- Temporal Modeling Block 是什么    
+- 怎么提取时序特征的    
+
 # 1 一句话总结文章
-针对视频特征提取提出了 TXB 来获取时域特征；    
+**第一句**：使用卷积网络（2D 和 3D 卷积）提取视频特征；
+**第二句**：针对视频特征提取提出了 TXB 来获取时域特征；    
 
 # 2 方案
 前导知识：`CNN`，`深度学习基本知识`     
@@ -47,6 +53,23 @@ $$
 
 
 # 5 思考
+1 StNet 怎么提取视频特征的
+{:.warning}  
+
+2 Temporal Xception Block 是什么
+{:.warning}  
+
+3 Temporal Modeling Block 是什么
+{:.warning}  
+
+4 网络怎么提取时序特征的
+{:.warning}  
+
+5 StNet 的输入是什么
+{:.warning}  
+
+6 N 和 T 对模型效果有什么影响
+{:.warning}  
 
 
 # 6 总结

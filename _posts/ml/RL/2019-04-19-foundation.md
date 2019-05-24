@@ -10,6 +10,7 @@ sidebar:
   nav: RL
 tags: 资源
 ---
+<span id='head'></span>  
 >强化学习相关资源；   
 
 <!--more-->
@@ -36,12 +37,15 @@ David Silver， [Video](https://www.youtube.com/watch?v=2pWv7GOvuf0)-youtube | [
 
 ## 3.3 报告
 
-# 4 Paper
+# 4 论文
 ## 4.1 综述
 
 ## 4.2 理论
-1. [Revisiting the Softmax Bellman Operator: New Benefits and New Perspective](https://arxiv.org/abs/1812.00456)   
+1. [Revisiting the Softmax Bellman Operator: New Benefits and New Perspective](http://cn.arxiv.org/abs/1812.00456)   
 ICML 2019 *2018-12-02* [paper](https://arxiv.org/abs/1812.00456)   
+
+1. [Maximum Entropy-Regularized Multi-Goal Reinforcement Learning](https://arxiv.org/abs/1905.08786)    
+ICML 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08786)  
 
 ## 4.3 其他
 1. [Meta-Gradient Reinforcement Learning](http://cn.arxiv.org/abs/1805.09801)   
@@ -61,5 +65,5 @@ ICML 2019 *2018-12-02* [paper](https://arxiv.org/abs/1812.00456)
 1. [Richard S. Sutton](http://incompleteideas.net/)   
 
 -------------------  
-End
+[End](#head)
 {:.warning}  

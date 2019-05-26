@@ -86,6 +86,15 @@ CPNet:
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08711)   
 $\bullet \bullet$  
 
+1. [DynCNN: An Effective Dynamic Architecture on Convolutional Neural Network for Surveillance Videos](https://pdfs.semanticscholar.org/d968/bf19d725d6f73fb5ecd7789e1e029bb07470.pdf)   
+ICLR 2019 *2019* [paper](https://pdfs.semanticscholar.org/d968/bf19d725d6f73fb5ecd7789e1e029bb07470.pdf) | [openreview](https://openreview.net/forum?id=HyVxPsC9tm)     
+
+1. [I Have Seen Enough: A Teacher Student Network for Video Classification Using Fewer Frames](http://cn.arxiv.org/abs/1805.04668)   
+CVPR 2018 (BIVU)*2018-05-12* [paper](https://arxiv.org/abs/1805.04668)   
+
+1. [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383)   
+*2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-offical      
+
 ## 2.5 基本网络
 ### 2.5.1 传统方法
 1. [Dense Trajectories and Motion Boundary Descriptors for Action Recognition](https://hal.inria.fr/hal-00725627v2/document)   

@@ -702,6 +702,8 @@ English:
     children:
       - title:  语法
         url:    /assets/category/foundation/english/grammar.html
+      - title:  语法
+        url:    /assets/category/foundation/english/writing.html
 
 LinearAlgebra:
   - title:  

@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       English Grammar
-    zh:       英语语法
-    zh-Hans:  英语语法
-    zh-Hant:  英语语法
+    en:       English Writing
+    zh:       英语写作
+    zh-Hans:  英语写作
+    zh-Hant:  英语写作
 sidebar:
     nav: English
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "grammer" %}
+        {% if cat[0] == "writing" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

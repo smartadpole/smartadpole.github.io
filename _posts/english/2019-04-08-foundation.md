@@ -5,7 +5,7 @@ date:   2019-04-08 11:06:40 +0800
 key: english-foundation-20190408
 aside:
   toc: true
-category: [English]
+category: [english]
 ---
 
 >找到最适合自己的学单词方式，工具和方法在于精而不在多，将任何一种用到极致，都能创造惊喜；  

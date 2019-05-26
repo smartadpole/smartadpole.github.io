@@ -92,7 +92,7 @@ ICLR 2019 *2019* [paper](https://pdfs.semanticscholar.org/d968/bf19d725d6f73fb5e
 1. [I Have Seen Enough: A Teacher Student Network for Video Classification Using Fewer Frames](http://cn.arxiv.org/abs/1805.04668)   
 CVPR 2018 (BIVU)*2018-05-12* [paper](https://arxiv.org/abs/1805.04668)   
 
-1. [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383)   
+1. [TSM: Temporal Shift Module for Efficient Video Understanding](http://cn.arxiv.org/abs/1811.08383)   
 *2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-offical      
 
 ## 2.5 基本网络

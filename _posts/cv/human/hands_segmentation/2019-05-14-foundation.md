@@ -14,7 +14,8 @@ tags: 资源
 # 1 Paper  
 ## 1.1 综述  
 ## 1.2 其他
-
+1. [Multi-Scale Dual-Branch Fully Convolutional Network for Hand Parsing](http://cn.arxiv.org/abs/1905.10100)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10100)      
 
 -------------------  
  [End]()

@@ -5,7 +5,7 @@ date:   2019-01-21 18:37:40 +0800
 key: binary-search-20190121
 aside:
   toc: true
-category: [Algorithms, AlgSearch]
+category: [algorithms, search]
 ---
 
 >要求：待搜索序列有序；  
@@ -67,7 +67,7 @@ return xxx;
 - 查找第一个大于 key 的元素：[c 示例](#binary_search_first_upper_code_c)，  
 
 ## 四、 实践
-[LeetCode](/algorithms/algsearch/leetcode/2019/01/22/binary-search-leetcode.html)  
+[LeetCode](/algorithms/search/leetcode/2019/01/22/binary-search.html)  
 
 -------------------  
  End

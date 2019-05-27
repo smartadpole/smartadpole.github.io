@@ -165,6 +165,8 @@ ICML 2018
 [Code](https://github.com/google/compare_gan)   
 CVPR 2019   
 
+1. [Generative Flow via Invertible nxn Convolution](https://arxiv.org/abs/1905.10170)  
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10170)   
 
 ## 5.6 高质量图像生成
 
@@ -489,6 +491,10 @@ ECCV 2018 oral
 
 1.  [Geometry Guided Adversarial Facial Expression Synthesis](http://cn.arxiv.org/abs/1711.03474)   
 ACMMM 2018   
+
+1. [Mask-Guided Portrait Editing with Conditional GANs](http://cn.arxiv.org/abs/1905.10346)   
+CVPR 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10346)    
+mask + 条件 GAN：肖像局部编辑    
 
 ## 5.22 美颜
 

@@ -5,7 +5,7 @@ date:   2019-01-22 8:37:40 +0800
 key: binary-search-leetcode-20190122
 aside:
   toc: true
-category: [Algorithms, AlgSearch, LeetCode]
+category: [algorithms, search, leetcode]
 ---
 
 >要求：待搜索序列有序；  

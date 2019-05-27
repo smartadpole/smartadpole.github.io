@@ -14,7 +14,9 @@ tags: 资源
 # 1 Paper  
 ## 1.1 综述  
 ## 1.2 其他
-
+1. [PCC Net: Perspective Crowd Counting via Spatial Convolutional Network](http://cn.arxiv.org/abs/1905.10085)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10085) | [pytorch](https://github.com/gjy3035/PCC-Net)       
+$\bullet \bullet$   
 
 -------------------  
  [End]()

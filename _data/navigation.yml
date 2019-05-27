@@ -108,6 +108,8 @@ docs-en:
         url:    /assets/category/tool/work.html
       - title:  博客
         url:    /assets/category/tool/blog.html
+      - title:  Office
+        url:    /assets/category/tool/office.html
 
   - title:      基础
     children:

@@ -22,6 +22,8 @@ tags: 资源
 $\bullet \bullet$   
 主要讲了 CNN 前向和反向传播，包括卷积层和池化的反向传播的推导的讲解；    
 
+1. [Optimizing Shallow Networks for Binary Classification](http://cn.arxiv.org/abs/1905.10161)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10161)   
 
 ## 2.2 二维
 ### 2.2.1 经典网络

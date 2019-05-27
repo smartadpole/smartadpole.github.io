@@ -53,9 +53,16 @@ CVPR 2019 (Autonomous Driving) *2019-05-22* [paper](https://arxiv.org/abs/1905.0
 1. [Semi-Supervised Segmentation of Salt Bodies in Seismic Images using an Ensemble of Convolutional Neural Networks](http://cn.arxiv.org/abs/1904.04445)   
 *2019-04-09* [paper](https://arxiv.org/abs/1904.04445) | [pytorch](https://github.com/ybabakhin/kaggle_salt_bes_phalanx)-offical      
 
+## 1.5 其他
+1. [ACNet: Attention Based Network to Exploit Complementary Features for RGBD Semantic Segmentation](https://arxiv.org/abs/1905.10089)   
+ICIP 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10089) | [pytorch](https://github.com/anheidelonghu/ACNet)    
+
 # 2 序列
 1. [RVOS: End-to-End Recurrent Network for Video Object Segmentation](http://cn.arxiv.org/abs/1903.05612)   
 CVPR 2019 (camera ready) *2019-03-13* [paper](https://arxiv.org/abs/1903.05612) | [project](https://imatge-upc.github.io/rvos/) | [pytorch](https://github.com/imatge-upc/rvos)-offical   
+
+1. [OVSNet : Towards One-Pass Real-Time Video Object Segmentation](http://cn.arxiv.org/abs/1905.10064)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10064)   
 
 # 3 三维
 ## 3.1 基于点云

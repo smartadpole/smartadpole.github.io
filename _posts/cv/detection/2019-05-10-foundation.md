@@ -19,7 +19,11 @@ tags: 资源
 
 ## 1.1 综述
 
-## 1.2 经典论文
+## 1.2 理论
+1. [Uncertainty Estimation in One-Stage Object Detection](http://cn.arxiv.org/abs/1905.10296)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10296)   
+
+## 1.3 经典论文
 1. [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)     
 *2013-11* [Paper](https://arxiv.org/abs/1311.2524)    
 **RCNN**：
@@ -33,8 +37,8 @@ tags: 资源
 1. [SSD: Single Shot MultiBox Detector](http://cn.arxiv.org/abs/1512.02325)    
 ECCV 2016 Oral *2015-12* ​[Paper](https://arxiv.org/abs/1512.02325) | [caffe](https://github.com/weiliu89/caffe/tree/ssd)-Official | [Caffe-MobileNet](https://github.com/chuanqi305/MobileNet-SSD) | [MxNet](https://github.com/zhreshold/mxnet-ssd) | [MxNet-cpp](https://github.com/zhreshold/mxnet-ssd.cpp) | [Keras](https://github.com/rykov8/ssd_keras) | [Keras](https://github.com/pierluigiferrari/ssd_keras) | [Tensorflow](https://github.com/balancap/SSD-Tensorflow) | [Pytorch](https://github.com/amdegroot/ssd.pytorch)    
 
-## 1.3 通用目标检测
-### 1.3.1 检测框去重
+## 1.4 通用目标检测
+### 1.4.1 检测框去重
 1. NMS   
 FasterRCNN 中有对其效果进行分析；   
 
@@ -47,7 +51,7 @@ FasterRCNN 中有对其效果进行分析；
 ECCV 2018 *2018.7* [Paper](https://arxiv.org/abs/1807.11590)   
 **NMS Network**：设计了 IoU-Net 用来估计 proposal 与其对应 ground-truth 框的 IoU 值，提出了新的边框回归算法以及 NMS 的改进算法；[解读](https://zhuanlan.zhihu.com/p/43590558)   
 
-### 1.3.2 Anchors
+### 1.4.2 Anchors
 1. [MetaAnchor: Learning to Detect Objects with Customized Anchors](http://cn.arxiv.org/pdf/1807.00980v2)   
 ​NIPS 2018 *2018-07* 旷视科技 & 复旦大学 [Paper](https://arxiv.org/abs/1807.00980)   
 动态 anchor；    
@@ -56,7 +60,7 @@ ECCV 2018 *2018.7* [Paper](https://arxiv.org/abs/1807.11590)
 *2019-01* 香港中文大学-商汤联合实验室&Amazon Rekognition&南洋理工大学 [Paper](https://arxiv.org/abs/1901.03278) | [mmdetection](https://github.com/open-mmlab/mmdetection)   
 **Guided Anchoring**:​融合Anchor与关键点   
 
-### 1.3.3 技巧
+### 1.4.3 技巧
 
 1. [Bag of Freebies for Training Object Detection Neural Networks]()  
 [2019.2] GluonCV 检测调参技巧​
@@ -68,11 +72,14 @@ https://mp.weixin.qq.com/s/pkFcmm15gnuRJtngFX7f0w
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07202)   
 教师网络处理噪声图像；   
 
-### 1.3.4 单阶段
+### 1.4.4 单阶段
 
-### 1.3.5 两阶段
+### 1.4.5 两阶段
 
-### 1.3.6 Anchor free
+1. [Light-Weight RetinaNet for Object Detection](http://cn.arxiv.org/abs/1905.10011)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10011)   
+
+### 1.4.6 Anchor free
 
 1. [A closer look: Small object detection in faster R-CNN]()   
 无 pdf 介绍了一种生成anchor proposals的改进建议，并对Faster R-CNN进行修改，利用较高分辨率的小目标的feature maps​
@@ -330,29 +337,32 @@ https://arxiv.org/abs/1901.06563
 https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 
 
-## 1.4 应用场景
-### 1.4.1 人脸检测
-### 1.4.2 行人检测
-### 1.4.3 文本检测
+## 1.5 应用场景
+### 1.5.1 人脸检测
+### 1.5.2 行人检测
+### 1.5.3 文本检测
 [中文](https://github.com/lars76/chinese-subtitle-ocr)    
 
-### 1.4.4 文本行检测
-### 1.4.5 车道线检测
-### 1.4.6 交通标志检测
+### 1.5.4 文本行检测
+### 1.5.5 车道线检测
+### 1.5.6 交通标志检测
 [keras](https://github.com/kuhung/SSD_keras)    
-### 1.4.7 车辆检测
-### 1.4.8 Logo 检测
-### 1.4.9 肺结节检测
-### 1.4.10 船体检测
-### 1.4.11 视频目标检测
-### 1.4.12 商品检测
-### 1.4.13 航拍
+### 1.5.7 车辆检测
+### 1.5.8 Logo 检测
+### 1.5.9 肺结节检测
+### 1.5.10 船体检测
+### 1.5.11 视频目标检测
+### 1.5.12 商品检测
+### 1.5.13 航拍
 1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
 ## 1.5 小目标检测
 1. [Multiple receptive fields and small-object-focusing weakly-supervised segmentation network for fast object detection](http://cn.arxiv.org/abs/1904.12619)   
 *2019-04-19* [paper](https://arxiv.org/abs/1904.12619)   
+
+1. [A Real-Time Tiny Detection Model for Stem End and Blossom End of Navel Orange](http://cn.arxiv.org/abs/1905.09994)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.09994)   
 
 ## 1.6 面向终端的目标检测
 1. [Towards High Performance Video Object Detection for Mobiles](http://cn.arxiv.org/abs/1804.05830)   

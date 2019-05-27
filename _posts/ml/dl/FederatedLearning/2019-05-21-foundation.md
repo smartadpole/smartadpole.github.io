@@ -19,6 +19,9 @@ tags: 资源
 1. [Incentive Design for Efficient Federated Learning in Mobile Networks: A Contract Theory Approach](https://arxiv.org/abs/1905.07479)   
 *2019-05-16* [paper](https://arxiv.org/abs/1905.07479)   
 
+1. [Federated Forest](http://cn.arxiv.org/abs/1905.10053)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10053)    
+
 -------------------  
 [End](#1-综述)
 {:.warning}  

@@ -38,7 +38,7 @@ $\bullet \bullet$
 1. [GradMask: Reduce Overfitting by Regularizing Saliency](http://cn.arxiv.org/abs/1904.07478)   
 *2019-04-16* [paper](https://arxiv.org/abs/1904.07478)   
 
-1.[Overfitting in Synthesis: Theory and Practice](http://cn.arxiv.org/abs/1905.07457)   
+1. [Overfitting in Synthesis: Theory and Practice](http://cn.arxiv.org/abs/1905.07457)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07457)   
 
 1. [Overfitting in Synthesis: Theory and Practice](http://cn.arxiv.org/abs/1905.07457)   

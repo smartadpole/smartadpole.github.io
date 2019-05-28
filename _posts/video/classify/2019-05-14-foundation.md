@@ -295,7 +295,7 @@ CVPR 2019 *2019-05-22* [paper](https://arxiv.org/abs/1905.09265) | [pytorch](htt
 
 
 ### 2.8.2 未修剪视频识别
-1. [UntrimmedNets for Weakly Supervised Action Recognition and Detection](https://arxiv.org/abs/1703.03329)   
+1. [UntrimmedNets for Weakly Supervised Action Recognition and Detection](http://cn.arxiv.org/abs/1703.03329)   
 CVPR 2017 *2017-03-09* [paper](https://arxiv.org/abs/1703.03329) | [caffe](https://github.com/wanglimin/UntrimmedNet)      
 
 ## 2.9 其他

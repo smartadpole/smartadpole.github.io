@@ -2,9 +2,9 @@
 layout: articles
 titles:
     en:       DeepLearning Framework
-    zh:       深度学习框架
-    zh-Hans:  深度学习框架
-    zh-Hant:  深度学习框架
+    zh:       深度学习工具
+    zh-Hans:  深度学习工具
+    zh-Hant:  深度学习工具
 sidebar:
     nav: DLFramework
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "DLFrameworks" %}
+        {% if cat[0] == "dl_frameworks" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

@@ -6,7 +6,7 @@ key: pytorch-foundation-20190117
 aside:
   toc: true
 tags: 资源
-categories: [DLFrameworks, Pytorch]
+categories: [dl_frameworks, pytorch]
 ---
 
 >   

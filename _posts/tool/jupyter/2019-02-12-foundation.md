@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: Jupyter
-category: [WorkTool]
+category: [worktool]
 ---
 
 ## 一、 启动

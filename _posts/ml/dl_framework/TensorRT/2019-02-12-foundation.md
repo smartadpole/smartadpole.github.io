@@ -6,7 +6,7 @@ key: tensorrt-foundation-20190212
 aside:
   toc: true
 tags: 资源
-categories: [DLFrameworks, TensorRT]
+categories: [dl_frameworks, tensorrt]
 ---
 
 > TensorRT 是 NVIDIA 发布的推理框架，用于在 NVIDIA GPUs 上进行深度学习模型部署；针对 NVIDIA 显卡做了优化；支持 TensorFlow、Caffe、PyTorch、MXnet、CNTK等所有主流框架及 ONNX；支持 C++（核心） 和 Python；  

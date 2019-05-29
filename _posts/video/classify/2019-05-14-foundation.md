@@ -54,7 +54,7 @@ ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)
 ## 2.3 经典
 
 1. [StNet: Local and Global Spatial-Temporal Modeling for Action Recognition](http://cn.arxiv.org/abs/1811.01549)    
-AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502)
+AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [pytorch](https://github.com/BigLazyPig/Pytorch-StNet-Full-Implement)-full | [paddlepaddle](https://github.com/PaddlePaddle/models/tree/971509fab5baebca2bfb6fdb32d9b6199197a82a/PaddleCV/video/models/stnet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502)
 
 
 ## 2.4 通用

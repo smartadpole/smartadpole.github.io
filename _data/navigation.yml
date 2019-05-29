@@ -77,7 +77,7 @@ docs-en:
         url:    /assets/category/ml/dl.html
       - title:  强化学习
         url:    /assets/category/ml/reinforcement_learning.html
-      - title:  深度学习框架
+      - title:  深度学习工具
         url:    /assets/category/ml/dl_framework.html
 
   - title:      应用
@@ -316,7 +316,7 @@ DLFramework:
     children:
       - title:  上一层
         url:    /index.html
-  - title:      
+  - title:      训练框架
     children:
       - title:  Caffe
         url:    /assets/category/ml/dl_framework/caffe.html
@@ -326,16 +326,20 @@ DLFramework:
         url:    /assets/category/ml/dl_framework/pytorch.html
       - title:  Tensoflow
         url:    /assets/category/ml/dl_framework/tensorflow.html
-  - title:      
+  - title:      推理框架
     children:
       - title:  TensorRT
         url:    /assets/category/ml/dl_framework/tensorrt.html
       - title:  mace
         url:    /assets/category/ml/dl_framework/mace.html
-  - title:      
+  - title:      中转框架
     children:
       - title:  ONNX
         url:    /assets/category/ml/dl_framework/onnx.html
+  - title:      辅助工具
+    children:
+      - title:  标注工具
+        url:    /assets/category/ml/dl_framework/label_tool.html
 
 
 

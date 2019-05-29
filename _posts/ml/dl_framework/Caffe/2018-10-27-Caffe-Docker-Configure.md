@@ -6,7 +6,7 @@ key: caffe-docker-abc-20181027
 aside:
   toc: true
 tags: 开发环境
-categories: [WorkTool, Caffe, DLFrameworks]
+categories: [dl_frameworks, caffe, worktool]
 ---
 ## 一、Docker 安装  
 [docker 安装教程](/worktool/2018/10/27/Docker-入门.html)  

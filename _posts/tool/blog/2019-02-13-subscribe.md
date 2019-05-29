@@ -5,7 +5,7 @@ date:   2019-02-13 10:08:40 +0800
 key: feed43-20190213
 aside:
   toc: true
-category: [Blog]
+category: [blog]
 ---
 
 ><http://feed43.com/>  

@@ -8,6 +8,8 @@ aside:
 category: [video, classification]
 tags: 资源
 ---
+<span id='head'></span>
+
 关键字：`video understanding` · `video representations` · `video classification` · `action recognition` · `Action Recognition` | `untrimmed Video` · `trimmed Video`      
 >知道这段视频在做什么：包括视频分类，动作识别/行为识别/行为分析；   
 就是对时域预先分割好的序列判定其所属行为动作的类型；   
@@ -358,7 +360,7 @@ ACM Multimedia 2018 *2018-08-22* [paper](https://arxiv.org/abs/1808.07272)
 
 
 -------------------  
- [End](#1-数据集)
+[End](#head)
 {:.warning}  
 
 

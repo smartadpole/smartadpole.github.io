@@ -1,5 +1,11 @@
 header:
   - titles:
+      en:       Life
+      zh:       生活
+      zh-Hans:  生活
+      zh-Hant:  生活
+    url:        /assets/category/life/life.html
+  - titles:
       en:       Category
       zh:       分类
       zh-Hans:  分类
@@ -18,115 +24,120 @@ header:
       zh-Hant:  關於
     url:        /2019/04/18/resume.html
 
+Life:
+  - title:      读书
+    children:
+      - title:  推荐
+        url:    /assets/category/life/reding/recommend.html
 
 docs-en:
   - title:      软件·语法
     children:
       - title:  编程基础
-        url:    /assets/category/software/grammer/foundation.html
+        url:    /assets/category/work/software/grammer/foundation.html
       - title:  C++
-        url:    /assets/category/software/grammer/cpp.html
+        url:    /assets/category/work/software/grammer/cpp.html
       - title:  python
-        url:    /assets/category/software/grammer/python.html
+        url:    /assets/category/work/software/grammer/python.html
       - title:  常用操作
-        url:    /assets/category/software/grammer/skill.html
+        url:    /assets/category/work/software/grammer/skill.html
 
   - title:      软件·算法
     children:
       - title:  数据结构与算法
-        url:    /assets/category/software/algorithms/algorithms.html
+        url:    /assets/category/work/software/algorithms/algorithms.html
 
   - title:      软件·开发方法
     children:
       - title:  软件工程导论
-        url:    /assets/category/software/develop/se_introduction.html
+        url:    /assets/category/work/software/develop/se_introduction.html
       - title:  面向对象程序设计
-        url:    /assets/category/software/develop/oop.html
+        url:    /assets/category/work/software/develop/oop.html
       - title:  并行编程
-        url:    /assets/category/software/develop/parallel_programming.html
+        url:    /assets/category/work/software/develop/parallel_programming.html
       - title:  设计模式
-        url:    /assets/category/software/develop/design_pattern.html
+        url:    /assets/category/work/software/develop/design_pattern.html
       - title:  测试驱动开发
-        url:    /assets/category/software/develop/tdd.html
+        url:    /assets/category/work/software/develop/tdd.html
       - title:  重构
-        url:    /assets/category/software/develop/restructure.html
+        url:    /assets/category/work/software/develop/restructure.html
       - title:  持续集成
-        url:    /assets/category/software/develop/ci.html
+        url:    /assets/category/work/software/develop/ci.html
       - title:  软件测试
-        url:    /assets/category/software/develop/software_test.html
+        url:    /assets/category/work/software/develop/software_test.html
       - title:  软件调试
-        url:    /assets/category/software/develop/software_debug.html
+        url:    /assets/category/work/software/develop/software_debug.html
 
 
   - title:      图像处理
     children:
       - title:  理论
-        url:    /assets/category/image_process/image_process.html
+        url:    /assets/category/work/image_process/image_process.html
       - title:  opencv
-        url:    /assets/category/image_process/opencv.html
+        url:    /assets/category/work/image_process/opencv.html
 
   - title:      机器学习
     children:
       - title:  特征工程
-        url:    /assets/category/ml/feature_engineering.html
+        url:    /assets/category/work/ml/feature_engineering.html
       - title:  模型评估
-        url:    /assets/category/ml/model_evaluation.html
+        url:    /assets/category/work/ml/model_evaluation.html
       - title:  经典机器学习
-        url:    /assets/category/ml/ml.html
+        url:    /assets/category/work/ml/ml.html
       - title:  深度学习
-        url:    /assets/category/ml/dl.html
+        url:    /assets/category/work/ml/dl.html
       - title:  强化学习
-        url:    /assets/category/ml/reinforcement_learning.html
+        url:    /assets/category/work/ml/reinforcement_learning.html
       - title:  深度学习工具
-        url:    /assets/category/ml/dl_framework.html
+        url:    /assets/category/work/ml/dl_framework.html
 
   - title:      应用
     children:
       - title:  计算机视觉
-        url:    /assets/category/CV_2D/cv.html
+        url:    /assets/category/work/CV_2D/cv.html
       - title:  自然语言处理
-        url:    /assets/category/NLP/NLP.html
+        url:    /assets/category/work/NLP/NLP.html
       - title:  语音识别
-        url:    /assets/category/audio/audio.html
+        url:    /assets/category/work/audio/audio.html
       - title:  视频分析
-        url:    /assets/category/video/video.html
+        url:    /assets/category/work/video/video.html
 
   - title:      行进
     children:
       - title:  论文阅读
-        url:    /assets/category/study/paper_reading.html
+        url:    /assets/category/work/study/paper_reading.html
       - title:  论文实践
-        url:    /assets/category/study/paper_practice.html
+        url:    /assets/category/work/study/paper_practice.html
       - title:  竞赛
-        url:    /assets/category/study/competition.html
+        url:    /assets/category/work/study/competition.html
       - title:  顶会
-        url:    /assets/category/study/meeting.html
+        url:    /assets/category/work/study/meeting.html
 
   - title:      工具
     children:
       - title:  工程
-        url:    /assets/category/tool/work.html
+        url:    /assets/category/work/tool/work.html
       - title:  博客
-        url:    /assets/category/tool/blog.html
+        url:    /assets/category/work/tool/blog.html
       - title:  Office
-        url:    /assets/category/tool/office.html
+        url:    /assets/category/work/tool/office.html
       - title:  QT
-        url:    /assets/category/tool/qt.html
+        url:    /assets/category/work/tool/qt.html
 
   - title:      基础
     children:
       - title:  English
-        url:    /assets/category/foundation/english.html
+        url:    /assets/category/work/foundation/english.html
       - title:  微积分
-        url:    /assets/category/foundation/calculus.html
+        url:    /assets/category/work/foundation/calculus.html
       - title:  线性代数
-        url:    /assets/category/foundation/linear_algebra.html
+        url:    /assets/category/work/foundation/linear_algebra.html
       - title:  概率论
-        url:    /assets/category/foundation/probability.html
+        url:    /assets/category/work/foundation/probability.html
       - title:  矩阵论
-        url:    /assets/category/foundation/matrix_theory.html
+        url:    /assets/category/work/foundation/matrix_theory.html
       - title:  Linux
-        url:    /assets/category/foundation/linux.html
+        url:    /assets/category/work/foundation/linux.html
 
 C++:
   - title:  
@@ -136,15 +147,15 @@ C++:
   - title:      
     children:
       - title:  基础知识
-        url:    /assets/category/software/grammer/cpp/foundation.html
+        url:    /assets/category/work/software/grammer/cpp/foundation.html
       - title:  STL
-        url:    /assets/category/software/grammer/cpp/STL.html
+        url:    /assets/category/work/software/grammer/cpp/STL.html
       - title:  专题
-        url:    /assets/category/software/grammer/cpp/advanced.html
+        url:    /assets/category/work/software/grammer/cpp/advanced.html
       - title:  并行编程
-        url:    /assets/category/software/grammer/cpp/parallel.html
+        url:    /assets/category/work/software/grammer/cpp/parallel.html
       - title:  C++11 & C++14
-        url:    /assets/category/software/grammer/cpp/modern.html
+        url:    /assets/category/work/software/grammer/cpp/modern.html
 
 
 Python:
@@ -155,11 +166,11 @@ Python:
   - title:      
     children:
       - title:  入门
-        url:    /assets/category/software/grammer/python/foundation.html
+        url:    /assets/category/work/software/grammer/python/foundation.html
       - title:  标准库
-        url:    /assets/category/software/grammer/python/stl.html
+        url:    /assets/category/work/software/grammer/python/stl.html
       - title:  第三方库
-        url:    /assets/category/software/grammer/python/library3rd.html
+        url:    /assets/category/work/software/grammer/python/library3rd.html
 
 
 DL:
@@ -171,43 +182,43 @@ DL:
   - title:  
     children:
       - title:  基础
-        url:    /assets/category/ml/dl/foundation.html
+        url:    /assets/category/work/ml/dl/foundation.html
       - title:  正则化
-        url:    /assets/category/ml/dl/regularization.html
+        url:    /assets/category/work/ml/dl/regularization.html
       - title:  优化算法
-        url:    /assets/category/ml/dl/optimization.html
+        url:    /assets/category/work/ml/dl/optimization.html
       - title:  前向神经网络
-        url:    /assets/category/ml/dl/forward_net.html
+        url:    /assets/category/work/ml/dl/forward_net.html
       - title:  卷积神经网络
-        url:    /assets/category/ml/dl/cnn.html
+        url:    /assets/category/work/ml/dl/cnn.html
       - title:  循环神经网络
-        url:    /assets/category/ml/dl/rnn.html
+        url:    /assets/category/work/ml/dl/rnn.html
       - title:  自编码器
-        url:    /assets/category/ml/dl/autoencoder.html
+        url:    /assets/category/work/ml/dl/autoencoder.html
 
   - title:   深度生成模型
     children:
       - title:  玻尔兹曼机
-        url:    /assets/category/ml/dl/boltzmann_machine.html
+        url:    /assets/category/work/ml/dl/boltzmann_machine.html
       - title:  生成对抗网络
-        url:    /assets/category/ml/dl/gan.html
+        url:    /assets/category/work/ml/dl/gan.html
 
   - title:   
     children:
       - title:  自动设计神经网络
-        url:    /assets/category/ml/dl/automl.html
+        url:    /assets/category/work/ml/dl/automl.html
       - title:  模型压缩
-        url:    /assets/category/ml/dl/compression.html
+        url:    /assets/category/work/ml/dl/compression.html
       - title:  元学习
-        url:    /assets/category/ml/dl/meta_learning.html
+        url:    /assets/category/work/ml/dl/meta_learning.html
       - title:  迁移学习
-        url:    /assets/category/ml/dl/transfer_learning.html
+        url:    /assets/category/work/ml/dl/transfer_learning.html
       - title:  半监督学习
-        url:    /assets/category/ml/dl/semi_supervised.html
+        url:    /assets/category/work/ml/dl/semi_supervised.html
       - title:  无监督学习
-        url:    /assets/category/ml/dl/unsupervised.html
+        url:    /assets/category/work/ml/dl/unsupervised.html
       - title:  联邦学习
-        url:    /assets/category/ml/dl/federated_learning.html
+        url:    /assets/category/work/ml/dl/federated_learning.html
 
 CV:
   - title:  
@@ -217,52 +228,52 @@ CV:
   - title:      通用任务
     children:
       - title:  基础知识
-        url:    /assets/category/CV_2D/foundation.html
+        url:    /assets/category/work/CV_2D/foundation.html
       - title:  数据增强
-        url:    /assets/category/CV_2D/data_augementation.html
+        url:    /assets/category/work/CV_2D/data_augementation.html
       - title:  分类
-        url:    /assets/category/CV_2D/image_classify.html
+        url:    /assets/category/work/CV_2D/image_classify.html
       - title:  检测
-        url:    /assets/category/CV_2D/detect.html
+        url:    /assets/category/work/CV_2D/detect.html
       - title:  分割
-        url:    /assets/category/CV_2D/segment.html
+        url:    /assets/category/work/CV_2D/segment.html
       - title:  检索
-        url:    /assets/category/CV_2D/retrival.html
+        url:    /assets/category/work/CV_2D/retrival.html
       - title:  重识别
-        url:    /assets/category/CV_2D/reid.html
+        url:    /assets/category/work/CV_2D/reid.html
       - title:  图像增强
-        url:    /assets/category/CV_2D/image_enhancement.html
+        url:    /assets/category/work/CV_2D/image_enhancement.html
       - title:  多模态融合
-        url:    /assets/category/CV_2D/multimodal.html
+        url:    /assets/category/work/CV_2D/multimodal.html
       - title:  图像生成
-        url:    /assets/category/CV_2D/image_generation.html
+        url:    /assets/category/work/CV_2D/image_generation.html
 
 
   - title:      专题 
     children:
       - title:  人
-        url:    /assets/category/CV_2D/human.html
+        url:    /assets/category/work/CV_2D/human.html
       - title:  交通
-        url:    /assets/category/CV_2D/traffic.html
+        url:    /assets/category/work/CV_2D/traffic.html
       - title:  医疗
-        url:    /assets/category/CV_2D/medical.html
+        url:    /assets/category/work/CV_2D/medical.html
       - title:  自然
-        url:    /assets/category/CV_2D/nature.html
+        url:    /assets/category/work/CV_2D/nature.html
 
   - title:      CV-3D
     children:
       - title:  视角转换
-        url:    /assets/category/CV_3D/view_synthesis.html
+        url:    /assets/category/work/CV_3D/view_synthesis.html
       - title:  三维重建
-        url:    /assets/category/CV_3D/3D_reconstruction.html
+        url:    /assets/category/work/CV_3D/3D_reconstruction.html
       - title:  点云处理
-        url:    /assets/category/CV_3D/point_cloud.html
+        url:    /assets/category/work/CV_3D/point_cloud.html
       - title:  姿态估计
-        url:    /assets/category/CV_3D/pose_estimation.html
+        url:    /assets/category/work/CV_3D/pose_estimation.html
       - title:  关键点检测
-        url:    /assets/category/CV_3D/key_point.html
+        url:    /assets/category/work/CV_3D/key_point.html
       - title:  深度估计
-        url:    /assets/category/CV_3D/depth_prediction.html
+        url:    /assets/category/work/CV_3D/depth_prediction.html
 
 
 Video:
@@ -273,15 +284,15 @@ Video:
   - title:      
     children:
       - title:  视频分类
-        url:    /assets/category/video/classify.html
+        url:    /assets/category/work/video/classify.html
       - title:  视频检测
-        url:    /assets/category/video/detection.html
+        url:    /assets/category/work/video/detection.html
       - title:  视频超分辨率
-        url:    /assets/category/video/super_resolution.html
+        url:    /assets/category/work/video/super_resolution.html
       - title:  视频摘要
-        url:    /assets/category/video/key_frame.html
+        url:    /assets/category/work/video/key_frame.html
       - title:  第三方库
-        url:    /assets/category/video/library.html
+        url:    /assets/category/work/video/library.html
 
 AUDIO:
   - title:  
@@ -292,9 +303,9 @@ AUDIO:
   - title:      
     children:
       - title:  声纹识别
-        url:    /assets/category/audio/voiceprint_analysis.html
+        url:    /assets/category/work/audio/voiceprint_analysis.html
       - title:  语音识别
-        url:    /assets/category/audio/audio_analysis.html
+        url:    /assets/category/work/audio/audio_analysis.html
 
 
 NLP:
@@ -312,27 +323,27 @@ DLFramework:
   - title:      训练框架
     children:
       - title:  Caffe
-        url:    /assets/category/ml/dl_framework/caffe.html
+        url:    /assets/category/work/ml/dl_framework/caffe.html
       - title:  MxNet
-        url:    /assets/category/ml/dl_framework/mxnet.html
+        url:    /assets/category/work/ml/dl_framework/mxnet.html
       - title:  Pytorch
-        url:    /assets/category/ml/dl_framework/pytorch.html
+        url:    /assets/category/work/ml/dl_framework/pytorch.html
       - title:  Tensoflow
-        url:    /assets/category/ml/dl_framework/tensorflow.html
+        url:    /assets/category/work/ml/dl_framework/tensorflow.html
   - title:      推理框架
     children:
       - title:  TensorRT
-        url:    /assets/category/ml/dl_framework/tensorrt.html
+        url:    /assets/category/work/ml/dl_framework/tensorrt.html
       - title:  mace
-        url:    /assets/category/ml/dl_framework/mace.html
+        url:    /assets/category/work/ml/dl_framework/mace.html
   - title:      中转框架
     children:
       - title:  ONNX
-        url:    /assets/category/ml/dl_framework/onnx.html
+        url:    /assets/category/work/ml/dl_framework/onnx.html
   - title:      辅助工具
     children:
       - title:  标注工具
-        url:    /assets/category/ml/dl_framework/label_tool.html
+        url:    /assets/category/work/ml/dl_framework/label_tool.html
 
 
 
@@ -359,83 +370,83 @@ DataStructure:
   - title:      数据结构
     children:
       - title:  基本数据结构
-        url:    /assets/category/software/algorithms/data_structure.html
+        url:    /assets/category/work/software/algorithms/data_structure.html
       - title:  并查集
-        url:    /assets/category/software/algorithms/disjoint_set.html
+        url:    /assets/category/work/software/algorithms/disjoint_set.html
       - title:  散列表
-        url:    /assets/category/software/algorithms/hash_table.html
+        url:    /assets/category/work/software/algorithms/hash_table.html
       - title:  数据结构的扩张
-        url:    /assets/category/software/algorithms/data_structure_augment.html
+        url:    /assets/category/work/software/algorithms/data_structure_augment.html
       - title:  斐波那契堆
-        url:    /assets/category/software/algorithms/fibonacci_heap.html
+        url:    /assets/category/work/software/algorithms/fibonacci_heap.html
 
   - title:      数据结构专题
     children:
       - title:  字符串
-        url:    /assets/category/software/algorithms/string.html
+        url:    /assets/category/work/software/algorithms/string.html
       - title:  数组
-        url:    /assets/category/software/algorithms/array.html
+        url:    /assets/category/work/software/algorithms/array.html
       - title:  树
-        url:    /assets/category/software/algorithms/tree.html
+        url:    /assets/category/work/software/algorithms/tree.html
       - title:  图
-        url:    /assets/category/software/algorithms/graph.html
+        url:    /assets/category/work/software/algorithms/graph.html
 
 
   - title:      算法专题
     children:
       - title:  排序
-        url:    /assets/category/software/algorithms/sort.html
+        url:    /assets/category/work/software/algorithms/sort.html
       - title:  查找
-        url:    /assets/category/software/algorithms/search.html
+        url:    /assets/category/work/software/algorithms/search.html
 
   - title:      算法分析技术
     children:
       - title:  分治
-        url:    /assets/category/software/algorithms/divide_conquer.html
+        url:    /assets/category/work/software/algorithms/divide_conquer.html
       - title:  回溯
-        url:    /assets/category/software/algorithms/backtracking.html
+        url:    /assets/category/work/software/algorithms/backtracking.html
       - title:  递归
-        url:    /assets/category/software/algorithms/recursive.html
+        url:    /assets/category/work/software/algorithms/recursive.html
       - title:  分支限界
-        url:    /assets/category/software/algorithms/bound.html
+        url:    /assets/category/work/software/algorithms/bound.html
       - title:  动态规划
-        url:    /assets/category/software/algorithms/dynamic_programming.html
+        url:    /assets/category/work/software/algorithms/dynamic_programming.html
       - title:  贪心算法
-        url:    /assets/category/software/algorithms/greedy.html
+        url:    /assets/category/work/software/algorithms/greedy.html
       - title:  摊还分析
-        url:    /assets/category/software/algorithms/amortize_analysis.html
+        url:    /assets/category/work/software/algorithms/amortize_analysis.html
 
   - title:      算法进阶
     children:
       - title:  组合数学
-        url:    /assets/category/software/algorithms/combinatorics_math.html
+        url:    /assets/category/work/software/algorithms/combinatorics_math.html
       - title:  数学
-        url:    /assets/category/software/algorithms/math.html
+        url:    /assets/category/work/software/algorithms/math.html
       - title:  数论
-        url:    /assets/category/software/algorithms/number_theoretic.html
+        url:    /assets/category/work/software/algorithms/number_theoretic.html
       - title:  计算方法
-        url:    /assets/category/software/algorithms/computing_method.html
+        url:    /assets/category/work/software/algorithms/computing_method.html
       - title:  矩阵运算
-        url:    /assets/category/software/algorithms/matrix_operation.html
+        url:    /assets/category/work/software/algorithms/matrix_operation.html
       - title:  线性规划
-        url:    /assets/category/software/algorithms/linear_programming.html
+        url:    /assets/category/work/software/algorithms/linear_programming.html
       - title:  多项式与傅里叶变换
-        url:    /assets/category/software/algorithms/polynomials_fft.html
+        url:    /assets/category/work/software/algorithms/polynomials_fft.html
       - title:  概率分析与随机化算法
-        url:    /assets/category/software/algorithms/randomization.html
+        url:    /assets/category/work/software/algorithms/randomization.html
       - title:  博弈论
-        url:    /assets/category/software/algorithms/game_theory.html
+        url:    /assets/category/work/software/algorithms/game_theory.html
       - title:  近似算法
-        url:    /assets/category/software/algorithms/approximation.html
+        url:    /assets/category/work/software/algorithms/approximation.html
       - title:  计算几何
-        url:    /assets/category/software/algorithms/computational_geometry.html
+        url:    /assets/category/work/software/algorithms/computational_geometry.html
       - title:  多线程算法
-        url:    /assets/category/software/algorithms/multithread.html
+        url:    /assets/category/work/software/algorithms/multithread.html
 
   - title:      OnlineJudge
     children:
       - title:  LeetCode
-        url:    /assets/category/software/algorithms/leetcode.html
+        url:    /assets/category/work/software/algorithms/leetcode.html
 
 ML:
   - title:  
@@ -446,12 +457,12 @@ ML:
   - title:  
     children:
       - title:  无监督学习
-        url:    /assets/category/ml/ml/unsupervised.html
+        url:    /assets/category/work/ml/ml/unsupervised.html
 
   - title:  
     children:
       - title:  分类
-        url:    /assets/category/cv/ml/classify.html
+        url:    /assets/category/work/cv/ml/classify.html
       - title:  回归
         url:    /index.html
       - title:  决策树
@@ -463,9 +474,9 @@ ML:
   - title:  
     children:
       - title:  降维
-        url:    /assets/category/ml/ml/dimension_reduction.html
+        url:    /assets/category/work/ml/ml/dimension_reduction.html
       - title:  集成学习
-        url:    /assets/category/ml/ml/ensemble_learning.html
+        url:    /assets/category/work/ml/ml/ensemble_learning.html
       - title:  采样
         url:    /index.html
       - title:  结构预测
@@ -507,157 +518,157 @@ DS_Tree:
   - title:  
     children:
       - title:  上一层
-        url:    /assets/category/algorithms/data_structure/foundation.html
+        url:    /assets/category/work/algorithms/data_structure/foundation.html
   - title:  二叉树
     children:
       - title:  二叉查找树（BST）
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  笛卡尔树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  MVP树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Top tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  T树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
   - title:  自平衡二叉查找树
     children:
       - title:  AA树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  AVL树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  左倾红黑树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  红黑树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  替罪羊树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  伸展树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  树堆
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  加权平衡树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
   - title:  B树
     children:
       - title:  B+树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  B*树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Bx树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  UB树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  2-3树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  2-3-4树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  (a,b)-树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Dancing tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  H树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
   - title:  堆
     children:
       - title:  二叉堆
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  二项堆
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  斐波那契堆
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  左偏树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  配对堆
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  斜堆
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Van Emde Boas tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
   - title:  Trie
     children:
       - title:  后缀树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  基数树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  三叉查找树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  X-快速前缀树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Y-快速前缀树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
   - title:  二叉空间分割（BSP）树
     children:
       - title:  四叉树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  八叉树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  k-d树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  隐式k-d树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  VP树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
   - title:  非二叉树
     children:
       - title:  指数树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  融合树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  区间树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  PQ树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Range tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  SPQR树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
   - title:  空间数据分割树
     children:
       - title:  R树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  R*树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  R+树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  M树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  线段树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  希尔伯特R树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  优先R树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
   - title:  其他树
     children:
       - title:  散列日历
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  散列树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Finger tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  顺序统计树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Metric tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Cover tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  BK树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Doubly chained tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  iDistance Link-cut tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Log-structured merge-tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  树状数组
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Metric tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  Cover tree
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
       - title:  BK树
-        url:    /assets/category/algorithms/data_structure/tree.html
+        url:    /assets/category/work/algorithms/data_structure/tree.html
 
 
 Algorithms:
@@ -700,9 +711,9 @@ English:
   - title:  
     children:
       - title:  语法
-        url:    /assets/category/foundation/english/grammar.html
+        url:    /assets/category/work/foundation/english/grammar.html
       - title:  语法
-        url:    /assets/category/foundation/english/writing.html
+        url:    /assets/category/work/foundation/english/writing.html
 
 LinearAlgebra:
   - title:  
@@ -733,7 +744,7 @@ PythonAudioLib:
   - title:
     children:	
       - title:  上一层
-        url:    /assets/category/software/grammer/python/library3rd.html
+        url:    /assets/category/work/software/grammer/python/library3rd.html
   - title:  音频处理库
     children:
       - title:  eyeD3
@@ -747,7 +758,7 @@ PythonVideoLib:
   - title:
     children:	
       - title:  上一层
-        url:    /assets/category/software/grammer/python/library3rd.html
+        url:    /assets/category/work/software/grammer/python/library3rd.html
   - title:  视频处理库
     children:
       - title:  ffmpeg
@@ -760,7 +771,7 @@ PythonThread:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/software/grammer/python/stl.html
+        url:    /assets/category/work/software/grammer/python/stl.html
   - title:  进程与线程
     children:
       - title:  subprocess
@@ -780,7 +791,7 @@ PythonDataPersistence:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/software/grammer/python/stl.html
+        url:    /assets/category/work/software/grammer/python/stl.html
   - title:  数据存储与解析
     children:
       - title:  引言
@@ -807,7 +818,7 @@ Unsupervised:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/ml/ml/unsupervised.html
+        url:    /assets/category/work/ml/ml/unsupervised.html
   - title:  原型/划分聚类
     children:
       - title:  k-means
@@ -840,7 +851,7 @@ Jupyter:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/tool/work.html
+        url:    /assets/category/work/tool/work.html
   - title:  Jupyter
     children:
       - title:  启动 Jupyter
@@ -871,7 +882,7 @@ ML_Ensemble:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/ml/ml.html
+        url:    /assets/category/work/ml/ml.html
   - title:  
     children:
       - title:  集成学习入门
@@ -1001,7 +1012,7 @@ NLP_CMU2019:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/NLP/NLP.html
+        url:    /assets/category/work/NLP/NLP.html
   - title:  CMU Neural Nets for NLP 2019 
     children:
       - title:  L1:Class Introduction
@@ -1080,7 +1091,7 @@ GAN:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/ml/dl/gan.html
+        url:    /assets/category/work/ml/dl/gan.html
   - title:  预备
     children:
       - title:  基础
@@ -1132,50 +1143,50 @@ Human:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/CV_2D/cv.html
+        url:    /assets/category/work/CV_2D/cv.html
   - title:      
     children:
       - title:  唇语识别
-        url:    /assets/category/CV_2D/human/lip_reading.html
+        url:    /assets/category/work/CV_2D/human/lip_reading.html
       - title:  手掌分割
-        url:    /assets/category/CV_2D/human/hands_segmentation.html
+        url:    /assets/category/work/CV_2D/human/hands_segmentation.html
       - title:  手势识别
-        url:    /assets/category/CV_2D/human/gesture_recognition.html
+        url:    /assets/category/work/CV_2D/human/gesture_recognition.html
       - title:  步态识别
-        url:    /assets/category/CV_2D/human/gait_recognition.html
+        url:    /assets/category/work/CV_2D/human/gait_recognition.html
       - title:  人脸验证
-        url:    /assets/category/CV_2D/human/face_verify.html
+        url:    /assets/category/work/CV_2D/human/face_verify.html
       - title:  签名验证
-        url:    /assets/category/CV_2D/human/signature_verification.html
+        url:    /assets/category/work/CV_2D/human/signature_verification.html
       - title:  人脸识别
-        url:    /assets/category/CV_2D/human/face_recognize.html
+        url:    /assets/category/work/CV_2D/human/face_recognize.html
       - title:  人脸对齐
-        url:    /assets/category/CV_2D/human/face_align.html
+        url:    /assets/category/work/CV_2D/human/face_align.html
       - title:  人脸关键点
-        url:    /assets/category/CV_2D/human/facial_landmark.html
+        url:    /assets/category/work/CV_2D/human/facial_landmark.html
       - title:  人脸修复
-        url:    /assets/category/CV_2D/human/facial_inpaint.html
+        url:    /assets/category/work/CV_2D/human/facial_inpaint.html
       - title:  活性检测
-        url:    /assets/category/CV_2D/human/activity_recognize.html
+        url:    /assets/category/work/CV_2D/human/activity_recognize.html
       - title:  表观分析
-        url:    /assets/category/CV_2D/human/apparent_analysis.html
+        url:    /assets/category/work/CV_2D/human/apparent_analysis.html
       - title:  姿态估计
-        url:    /assets/category/CV_2D/human/pose_estimation.html
+        url:    /assets/category/work/CV_2D/human/pose_estimation.html
       - title:  人群计数
-        url:    /assets/category/CV_2D/human/crowd_count.html
+        url:    /assets/category/work/CV_2D/human/crowd_count.html
 
 
 Traffic:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/CV_2D/cv.html
+        url:    /assets/category/work/CV_2D/cv.html
   - title:      
     children:
       - title:  交通信息检测
-        url:    /assets/category/CV_2D/traffic/semantic_analysis.html
+        url:    /assets/category/work/CV_2D/traffic/semantic_analysis.html
       - title:  交通事件检测
-        url:    /assets/category/CV_2D/traffic/event_analysis.html
+        url:    /assets/category/work/CV_2D/traffic/event_analysis.html
 
 Linux:
   - title:
@@ -1185,15 +1196,15 @@ Linux:
   - title:       
     children:
       - title:  Linux 命令
-        url:    /assets/category/foundation/linux/linux_cmd.html
+        url:    /assets/category/work/foundation/linux/linux_cmd.html
       - title:  shell
-        url:    /assets/category/foundation/linux/shell.html
+        url:    /assets/category/work/foundation/linux/shell.html
 
 LinuxCMD:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/foundation/linux.html
+        url:    /assets/category/work/foundation/linux.html
   - title:      Linux 命令 
     children:
       - title:  基本 shell 命令
@@ -1215,7 +1226,7 @@ Shell:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/foundation/linux.html
+        url:    /assets/category/work/foundation/linux.html
   - title:      编程基础 
     children:
       - title:  脚本基础

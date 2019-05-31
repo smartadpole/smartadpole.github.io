@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「Software」 C++ 概览"
+title:  "「C++」 C++ 概览"
 date:   2019-01-08 13:06:40 +0800
 key: cpp-foundation-20190108
 aside:

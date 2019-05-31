@@ -5,7 +5,7 @@ date:   2019-01-25 17:03:40 +0800
 key: numpy-20190125
 aside:
   toc: true
-category: [Python, PythonLibrary]
+category: [python, library]
 ---
 > 官网 <https://matplotlib.org/>  
 功能：一个二维图像绘制库；

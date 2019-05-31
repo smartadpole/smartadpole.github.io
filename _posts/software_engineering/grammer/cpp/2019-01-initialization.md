@@ -1,9 +1,9 @@
 ---
 layout: article
-title:  "「Software」 初始化"
+title:  "「C++」 初始化"
 date:   2019-01-01 8:06:40 +0800
 key: initialization-20190101
 aside:
   toc: true
-category: [c++, CppFoundation]
+category: [c++, cpp_foundation]
 ---

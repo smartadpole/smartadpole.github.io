@@ -6,13 +6,13 @@ titles:
     zh-Hans:  编程基础
     zh-Hant:  编程基础
 sidebar:
-    nav: Programming
+    nav: docs-en
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "ProgrammingFoundation" %}
+        {% if cat[0] == "g_foundation" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

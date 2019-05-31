@@ -110,6 +110,8 @@ docs-en:
         url:    /assets/category/tool/blog.html
       - title:  Office
         url:    /assets/category/tool/office.html
+      - title:  QT
+        url:    /assets/category/tool/qt.html
 
   - title:      基础
     children:
@@ -144,15 +146,6 @@ C++:
       - title:  C++11 & C++14
         url:    /assets/category/software/grammer/cpp/modern.html
 
-Programming:
-  - title:  
-    children:
-      - title:  上一层
-        url:    /index.html
-  - title:      
-    children:
-      - title:  基础知识
-        url:    /assets/category/software/grammer/foundation/foundation.html
 
 Python:
   - title:  

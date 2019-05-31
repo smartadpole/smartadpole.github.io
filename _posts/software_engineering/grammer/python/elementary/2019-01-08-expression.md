@@ -5,7 +5,7 @@ date:   2019-01-08 10:08:40 +0800
 key: python-expression-20190108
 aside:
   toc: true
-category: [Python, PythonElementary]
+category: [python, elementary]
 ---
 
 ## 一、 词法

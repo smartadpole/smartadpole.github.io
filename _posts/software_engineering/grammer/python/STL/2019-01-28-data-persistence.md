@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: PythonDataPersistence
-category: [Python, PythonSTL]
+category: [python, stl]
 ---
 
 > 数据的存储和使用包括两方面：数据在内存中的表示及格式间的转换，和数据存储区的处理；    
@@ -44,7 +44,7 @@ serializing，将数据转换为一种可传输或可存储的格式；
 
 ### B 示例
 <span id="hellow_world">**1. hellow world**</span>  
- 
+
 
 ```python
 

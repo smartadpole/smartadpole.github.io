@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: PythonThread
-category: [Python, PythonSTL]
+category: [python, stl]
 ---
 
 > threading 基于 _thread 模块构建了更高级别的**线程**接口，；  

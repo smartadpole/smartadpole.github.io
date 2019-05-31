@@ -1,17 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Programming
-    zh:       基础知识
-    zh-Hans:  基础知识
-    zh-Hant:  基础知识
+    en:       Q Toolkits
+    zh:       QT
+    zh-Hans:  QT
+    zh-Hant:  QT
 sidebar:
-    nav: Programming
+    nav: docs-en
 ---
+
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "编程基础" %}
+        {% if cat[0] == "qt" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

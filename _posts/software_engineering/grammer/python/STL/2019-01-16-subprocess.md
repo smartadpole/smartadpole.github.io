@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: PythonThread
-category: [Python, PythonSTL]
+category: [python, stl]
 ---
 
 

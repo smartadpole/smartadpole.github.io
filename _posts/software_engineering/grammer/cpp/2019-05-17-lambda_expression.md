@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「Software」 Lambda 表达式"
+title:  "「C++」 Lambda 表达式"
 date:   2019-05-17 17:06:40 +0800
 key: lambda-expression-20190517
 aside:
   toc: true
-category: [c++, ModernCpp]
+category: [c++, modern]
 ---
 
 <!--more-->

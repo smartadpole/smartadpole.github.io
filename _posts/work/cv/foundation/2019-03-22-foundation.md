@@ -5,7 +5,7 @@ date:   2019-03-22 14:06:40 +0800
 key: cv-foundation-20190322
 aside:
   toc: true
-category: [CV]
+category: [CV, cv_foundation]
 ---
 
 # 1. 常见视觉任务

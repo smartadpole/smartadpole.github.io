@@ -6,7 +6,7 @@ key: cv-company-review-20181229
 aside:
   toc: true
 tags: 公司
-category: [CV]
+category: [CV, cv_company]
 ---
 
 *排名不分先后*  

@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Foundation for Computer Vision
-    zh:       计算机视觉基础知识
-    zh-Hans:  计算机视觉基础知识
-    zh-Hant:  计算机视觉基础知识
+    en:       Computer Vision·Agriculture
+    zh:       智慧农业
+    zh-Hans:  智慧农业
+    zh-Hant:  智慧农业
 sidebar:
     nav: CV
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "cv_foundation" %}
+        {% if cat[0] == "agriculture" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

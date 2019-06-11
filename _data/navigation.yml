@@ -257,6 +257,8 @@ CV:
         url:    /assets/category/work/CV_2D/traffic.html
       - title:  医疗
         url:    /assets/category/work/CV_2D/medical.html
+      - title:  农业
+        url:    /assets/category/work/CV_2D/agriculture.html
       - title:  自然
         url:    /assets/category/work/CV_2D/nature.html
 
@@ -274,6 +276,11 @@ CV:
         url:    /assets/category/work/CV_3D/key_point.html
       - title:  深度估计
         url:    /assets/category/work/CV_3D/depth_prediction.html
+
+  - title:      行情
+    children:
+      - title:  公司
+        url:    /assets/category/work/CV_3D/company.html
 
 
 Video:

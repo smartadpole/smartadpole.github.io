@@ -290,7 +290,7 @@ Video:
       - title:  视频超分辨率
         url:    /assets/category/work/video/super_resolution.html
       - title:  视频摘要
-        url:    /assets/category/work/video/key_frame.html
+        url:    /assets/category/work/video/video_summary.html
       - title:  第三方库
         url:    /assets/category/work/video/library.html
 

@@ -2,20 +2,30 @@
 layout: article
 title:  "「VIDEO」 视频摘要资源汇总"
 date:   2019-05-14 10:06:40 +0800
-key: key-frame-extraction-foundation-20190514
+key: video-summary-foundation-20190514
 aside:
   toc: true
-category: [video, key_frame]
+category: [video, video_summary]
 tags: 资源
 ---
 <span id='head'></span>
-`video key frame extraction` · `video key clip extraction` · `video summarization` · `key frame Detection`   
+`shot detection` · `key frame detection` · `video summary` · `video synopsis` · `video key frame extraction` · `video key clip extraction` · `video summarization` · `key frame Detection`   
+
 >视频相比图像来说信息更加丰富，但是一个序列里冗余信息太多，如何无监督的提取关键帧对于很多任务都是至关重要的；   
 
+
 <!--more-->
+
+- **视频摘要**   
+>又称视频浓缩，是对视频内容的一个简单概括；先通过运动目标分析，提取到运动目标及其轨迹；然后将不同的目标拼接到同一个背景中，也可以拼接；视频摘要在视频分析和基于内容的视频检索中扮演着重要角色；    
+
+
+- **视频字幕生成**   
+- **关键帧提取**   
+
 `关键帧提取和视频摘要的关系`{:.warning}   
 
-# 1 Paper
+# 1 论文
 ## 1.1 传统方法
 ### 1.1.1 基于镜头边界
 >将视频分割成多段（镜头），直接取每个镜头的首末帧和中间帧作为关键帧；   
@@ -39,6 +49,7 @@ tags: 资源
 >通过机器学习算法对每帧图像进行打分，取最高分为关键帧；   
 
 ### 1.2.2 视频摘要
+
 1. [Video Summarization with Attention-Based Encoder-Decoder Networks](http://cn.arxiv.org/abs/1708.09545)   
 *2017-08-31* [Paper](https://arxiv.org/abs/1708.09545)   
 
@@ -64,16 +75,22 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 1. [Person Identification with Visual Summary for a Safe Access to a Smart Home](http://cn.arxiv.org/abs/1904.01178)   
 *2019-04-02* [Paper](https://arxiv.org/abs/1904.01178)   
 
+1. [Attention is all you need for Videos: Self-attention based Video Summarization using Universal Transformers](http://cn.arxiv.org/abs/1906.02792)   
+*2019-06-06* [paper](https://arxiv.org/abs/1906.02792)    
+
+
 ### 1.2.3 关键帧提取
 1. [Video Key Frame Extraction using Entropy value as Global and Local Feature](http://cn.arxiv.org/abs/1605.08857)   
 *2016-05-28* [Paper](https://arxiv.org/abs/1605.08857)   
+自注意力机制助力视频字母提取；    
+
+>摘要不是很好，核心不清晰；   
+
 
 ## 1.3 应用
 ### 1.3.1  [在手势识别中的应用](/cv/human/gesture_recognition/2019/05/14/foundation.html#12-基于关键帧)
 
 ### 1.3.2 [在动作识别中的应用](/cv/human/pose_estimation/2019/05/14/foundation.html#231-关键帧提取)
-
-
 
 -------------------  
 [End](#head)

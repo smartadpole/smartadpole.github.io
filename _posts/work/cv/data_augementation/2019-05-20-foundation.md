@@ -17,6 +17,8 @@ tags: 资源
 ## 1.1 综述
 
 ## 1.2 理论
+1. [When Unseen Domain Generalization is Unnecessary? Rethinking Data Augmentation](http://cn.arxiv.org/abs/1906.03347)   
+*2019-06-07* [paper](https://arxiv.org/abs/1906.03347)    
 
 ## 1.3 GAN
 1. [LiDAR Sensor modeling and Data augmentation with GANs for Autonomous driving](http://cv.arxiv.org/abs/1905.07290)   

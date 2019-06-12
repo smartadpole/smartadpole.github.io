@@ -102,6 +102,10 @@ https://mp.weixin.qq.com/s/iotqiyRrH4kwWmBvYi-tMQ
 1. [Video-based Person Re-identification via 3D Convolutional Networks and Non-local Attention](http://cn.arxiv.org/abs/1807.05073)   
 *2018-07-12* [Paper](https://arxiv.org/abs/1807.05073)   
 
+### 1.2.3 多模态
+1. [https://arxiv.org/abs/1906.03142](http://cn.arxiv.org/abs/1906.03142)   
+*2019-06-07* [paper](https://arxiv.org/abs/1906.03142)   
+
 ## 1.3 车辆
 1. [Attributes Guided Feature Learning for Vehicle Re-identification](https://arxiv.org/abs/1905.08997)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.08997)   

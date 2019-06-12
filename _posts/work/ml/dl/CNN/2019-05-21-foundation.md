@@ -25,6 +25,9 @@ $\bullet \bullet$
 1. [Optimizing Shallow Networks for Binary Classification](http://cn.arxiv.org/abs/1905.10161)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10161)   
 
+1. [NICO: A Dataset Towards Non-I.I.D. Image Classification](http://cn.arxiv.org/abs/1906.02899)   
+*2019-06-07* [paper](https://arxiv.org/abs/1906.02899)    
+
 ## 2.2 二维
 ### 2.2.1 经典网络
 

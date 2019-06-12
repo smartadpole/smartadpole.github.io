@@ -13,7 +13,7 @@ tags: 资源
 <!--more-->  
 # 1 数据集
 
-# 2 Paper
+# 2 论文
 ## 2.1 综述
 
 ## 2.2 理论
@@ -324,8 +324,7 @@ www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/download/8137/8861
 
 1. [Simultaneous Feature Learning and Hash Coding with Deep Neural Networks](http://cn.arxiv.org/abs/1504.03410)  
 NINH，DNNH [2015] CVPR . Sun Yat-Sen University & National University of Singapore； NIN Hashing， Deep Neural Network Hashing；  
-[paper](https://arxiv.org/abs/1504.03410)  
-[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lai_Simultaneous_Feature_Learning_2015_CVPR_paper.pdf)  
+[paper](https://arxiv.org/abs/1504.03410) | [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lai_Simultaneous_Feature_Learning_2015_CVPR_paper.pdf)  
 
 1. [Hashing by Deep Learning](http://www.ee.columbia.edu/~wliu/WeiLiu_DLHash.pdf)  
 IBM T. J. Watson Research Center  
@@ -522,6 +521,10 @@ https://github.com/maestrojeong/Deep-Hash-Table-ICML18
 
 1. [PDH : Probabilistic deep hashing based on MAP estimation of Hamming distance](http://cn.arxiv.org/abs/1905.08501)   
 ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)   
+
+1. [Deep Spherical Quantization for Image Search](http://cn.arxiv.org/abs/1906.02865)   
+*2019-06-07* [paper](https://arxiv.org/abs/1906.02865)   
+
 
 ## 2.5 跨模态  
 

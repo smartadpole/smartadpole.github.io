@@ -262,7 +262,13 @@ CV:
       - title:  自然
         url:    /assets/category/work/CV_2D/nature.html
 
-  - title:      CV-3D
+
+  - title:      NLP
+    children:
+      - title:  视觉问答
+        url:    /assets/category/work/CV_2D/vaq.html
+
+  - title:      3D
     children:
       - title:  视角转换
         url:    /assets/category/work/CV_3D/view_synthesis.html
@@ -288,16 +294,24 @@ Video:
     children:
       - title:  上一层
         url:    /index.html
+
   - title:      
     children:
       - title:  视频分类
         url:    /assets/category/work/video/classify.html
-      - title:  视频检测
+      - title:  目标检测
         url:    /assets/category/work/video/detection.html
       - title:  视频超分辨率
         url:    /assets/category/work/video/super_resolution.html
       - title:  视频摘要
-        url:    /assets/category/work/video/video_summary.html
+        url:    /assets/category/work/video/summary.html
+      - title:  动作定位
+        url:    /assets/category/work/video/localization.html
+      - title:  镜头边界检测
+        url:    /assets/category/work/video/sdb.html
+
+  - title:      工具
+    children:
       - title:  第三方库
         url:    /assets/category/work/video/library.html
 

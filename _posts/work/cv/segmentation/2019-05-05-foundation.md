@@ -49,6 +49,11 @@ CVPR 2019 (Autonomous Driving) *2019-05-22* [paper](https://arxiv.org/abs/1905.0
 1. [Task Decomposition and Synchronization for Semantic Biomedical Image Segmentation](http://cn.arxiv.org/abs/1905.08720)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08720)   
 
+1. [Multi-scale guided attention for medical image segmentation](http://cn.arxiv.org/abs/1906.02849)   
+*2019-06-07* [paper](https://arxiv.org/abs/1906.02849) | [pytorch](https://github.com/sinAshish/Multi-Scale-Attention)-offical    
+差不多的低层特征在多个尺度上重复提取，我们就设计了一个注意力，来重复利用这些特征；并在腹部磁共振成像（MRI）上进行了实验；    
+
+
 ### 1.4.2 自然
 1. [Semi-Supervised Segmentation of Salt Bodies in Seismic Images using an Ensemble of Convolutional Neural Networks](http://cn.arxiv.org/abs/1904.04445)   
 *2019-04-09* [paper](https://arxiv.org/abs/1904.04445) | [pytorch](https://github.com/ybabakhin/kaggle_salt_bes_phalanx)-offical      

@@ -76,7 +76,7 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 
 
 ## 1.3 应用
-### 1.3.1  [在手势识别中的应用](/cv/human/gesture_recognition/2019/05/14/foundation.html#12-基于关键帧)
+### 1.3.1  [在手势识别中的应用](/cv/human/gesture_recognition/2019/05/14/foundation.html#22-基于关键帧)
 
 ### 1.3.2 [在动作识别中的应用](/cv/human/pose_estimation/2019/05/14/foundation.html#231-关键帧提取)
 

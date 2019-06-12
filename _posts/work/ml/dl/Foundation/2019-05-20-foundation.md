@@ -129,6 +129,18 @@ ICLR 2019 *2019-01-27* [paper](https://arxiv.org/abs/1901.09321) | [openreview](
 1. [Memorized Sparse Backpropagation](http://cn.arxiv.org/abs/1905.10194)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10194)    
 
+# 8 卷积
+## 8.1 标准卷积
+
+## 8.2 反卷积
+
+## 8.3 深度可分离卷积
+
+## 8.4 维度卷积
+1. [DiCENet: Dimension-wise Convolutions for Efficient Networks](http://cn.arxiv.org/abs/1906.03516)    
+*2019-06-08* [paper](https://arxiv.org/abs/1906.03516) | [pytorch](https://github.com/sacmehta/EdgeNets)       
+
+
 -------------------  
 [End](#head)
 {:.warning}  

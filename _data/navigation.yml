@@ -123,6 +123,8 @@ docs-en:
         url:    /assets/category/work/tool/office.html
       - title:  QT
         url:    /assets/category/work/tool/qt.html
+      - title:  微信小程序
+        url:    /assets/category/work/tool/weixin.html
 
   - title:      基础
     children:
@@ -303,6 +305,8 @@ Video:
         url:    /assets/category/work/video/detection.html
       - title:  视频超分辨率
         url:    /assets/category/work/video/super_resolution.html
+      - title:  视频检索
+        url:    /assets/category/work/video/retrival.html
       - title:  视频摘要
         url:    /assets/category/work/video/summary.html
       - title:  动作定位

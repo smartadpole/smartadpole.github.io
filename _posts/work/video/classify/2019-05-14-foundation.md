@@ -5,7 +5,7 @@ date:   2019-05-14 11:06:40 +0800
 key: video-classify-foundation-20190514
 aside:
   toc: true
-category: [video, classification]
+category: [video, video_classification]
 tags: 资源
 ---
 <span id='head'></span>

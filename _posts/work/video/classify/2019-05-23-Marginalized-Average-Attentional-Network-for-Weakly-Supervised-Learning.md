@@ -5,7 +5,7 @@ date:   2019-05-23 17:16:40 +0800
 key: MAAN-for-WSL-20190523
 aside:
   toc: true
-category: [video, classification, paper_reading]
+category: [video, video_classification, paper_reading]
 ---
 <span id='head'></span>   
 

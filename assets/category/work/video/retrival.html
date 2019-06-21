@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Video Classification
-    zh:       视频分类
-    zh-Hans:  视频分类
-    zh-Hant:  视频分类
+    en:       Video Retrival
+    zh:       视频检索
+    zh-Hans:  视频检索
+    zh-Hant:  视频检索
 sidebar:
     nav: Video
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "video_classification" %}
+        {% if cat[0] == "video_retrival" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

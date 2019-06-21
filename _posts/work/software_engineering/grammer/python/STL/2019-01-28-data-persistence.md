@@ -5,10 +5,9 @@ date:   2019-01-28 10:07:40 +0800
 key: data-persistence-20190128
 aside:
   toc: true
-sidebar:
-  nav: PythonDataPersistence
-category: [python, stl]
+category: [python, pystl]
 ---
+<span id='head'></span>  
 
 > 数据的存储和使用包括两方面：数据在内存中的表示及格式间的转换，和数据存储区的处理；    
 Python 3.5.6 官方文档：<https://docs.python.org/3.5/library/persistence.html>  
@@ -33,16 +32,16 @@ serializing，将数据转换为一种可传输或可存储的格式；
 
 
 -------------------  
- End
+[End](#head)
 {:.warning}  
 
 
 
-## 附录
-### A API
+# 附录
+## A API
 
 
-### B 示例
+## B 示例
 <span id="hellow_world">**1. hellow world**</span>  
 
 
@@ -50,5 +49,5 @@ serializing，将数据转换为一种可传输或可存储的格式；
 
 ```
 
-### 参考资料
+## C 参考资料
 1. Doug Hellmann 著, 苏金国, et al 译. Python3 标准库[M]. 北京:机械工业出版社, 2018.

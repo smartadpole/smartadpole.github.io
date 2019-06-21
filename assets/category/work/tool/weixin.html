@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Video Classification
-    zh:       视频分类
-    zh-Hans:  视频分类
-    zh-Hant:  视频分类
+    en:       WeiXin
+    zh:       微信小程序
+    zh-Hans:  微信小程序
+    zh-Hant:  微信小程序
 sidebar:
-    nav: Video
+    nav: docs-en
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "video_classification" %}
+        {% if cat[0] == "weixin" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

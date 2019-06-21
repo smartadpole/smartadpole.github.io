@@ -8,7 +8,7 @@ aside:
 category: [DL, automl]
 tags: 资源
 ---
-
+<span id='head'></span>  
 
 <!--more-->
 
@@ -35,5 +35,5 @@ CVPR 2019 *2018-10-28* [paper](https://arxiv.org/abs/1810.10804)
 $\bullet \bullet$   
 
 -------------------  
-[End](#1-综述)
+[End](#head)
 {:.warning}  

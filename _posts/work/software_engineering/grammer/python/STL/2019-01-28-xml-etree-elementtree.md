@@ -5,10 +5,9 @@ date:   2019-01-28 10:07:40 +0800
 key: xml-etree-elementTree-20190128
 aside:
   toc: true
-sidebar:
-  nav: PythonDataPersistence
-category: [python, stl]
+category: [python, pystl]
 ---
+<span id='head'></span>  
 
 > Python 3.5.6 官方文档：<https://docs.python.org/3.5/library/xml.etree.elementtree.html>  
 
@@ -20,23 +19,21 @@ category: [python, stl]
 
 
 -------------------  
- End
+[End](#head)
 {:.warning}  
 
+# 附录
+## A API
 
 
-## 附录
-### A API
-
-
-### B 示例
+## B 示例
 <span id="hellow_world">**1. hellow world**</span>  
 
 
 ```python
 
 ```
-### C 推荐资料
+## C 推荐资料
 1. In Depth: k-Means Clustering. <https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html>. -/2019-01-28.    
 *似 jupyter notebook 的解析方式；是 《 Python Data Science Handbook 》 的扩展；很长的博文；*   
 2. sklearn.cluster.KMeans. <https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html>. -/2019-01-28.       
@@ -47,5 +44,5 @@ category: [python, stl]
 *很详尽；*   
 
 
-### 参考文献
+## D 参考文献
 1. Doug Hellmann 著, 苏金国, et al 译. Python3 标准库[M]. 北京:机械工业出版社, 2018.

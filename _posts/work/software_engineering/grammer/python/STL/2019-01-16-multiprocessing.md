@@ -5,10 +5,9 @@ date:   2019-01-16 10:07:40 +0800
 key: py-multiprocessing-20190116
 aside:
   toc: true
-sidebar:
-  nav: PythonThread
-category: [python, stl]
+category: [python, pystl]
 ---
+<span id='head'></span>  
 
 ## 什么是 Multiprocessing
 ## 添加进程 Process
@@ -19,14 +18,15 @@ category: [python, stl]
 ## 共享内存 shared memory
 ## 进程锁 Lock
 
+
 -------------------  
- End
+[End](#head)
 {:.warning}  
 
 
 
-## 附录
-### A 示例
+# 附录
+## A 示例
 
 <span id="map_code">**1. map 示例**</span>  
 
@@ -87,7 +87,7 @@ def main():
   print(res)
 ```
 
-### B 实验
+## B 实验
 
 <span id="map_test">**1. map IO 测试**</span>  
 
@@ -124,5 +124,5 @@ def main():
 
 
 
-### 参考资料
+## C 参考资料
 1. Doug Hellmann 著, 苏金国, et al 译. Python3 标准库[M]. 北京:机械工业出版社, 2018.

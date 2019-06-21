@@ -5,10 +5,9 @@ date:   2019-01-16 10:07:40 +0800
 key: py-threading-20190116
 aside:
   toc: true
-sidebar:
-  nav: PythonThread
-category: [python, stl]
+category: [python, pystl]
 ---
+<span id='head'></span>  
 
 > threading 基于 _thread 模块构建了更高级别的**线程**接口，；  
 源码：<https://hg.python.org/cpython/file/3.5/Lib/threading.py>  
@@ -55,13 +54,13 @@ category: [python, stl]
 
 
 -------------------  
- End
+[End](#head)
 {:.warning}  
 
 
 
-## 附录
-### A API
+# 附录
+## A API
 <span id="active_count">**1. active_count()**</span>  
 返回当前处于活跃状态的 Thread 对象的个数；返回的数目等于 enumerate() 返回的列表的长度；  
 
@@ -89,7 +88,7 @@ category: [python, stl]
 <span id="TIMEOUT_MAX">**9. TIMEOUT_MAX**</span>  
 这个 timeout 参数表示阻塞函数 (Lock.acquire(), RLock.acquire(), Condition.wait(), 等)所允许等待的最长时限；指定超过此值的超时将引发 OverflowError；  
 
-### B 示例
+## B 示例
 <span id="hellow_world">**1. threading（hellow world）示例**</span>  
 
 原始代码：  
@@ -123,5 +122,5 @@ def main():
     t.join()
 ```
 
-### 参考资料
+## C 参考资料
 1. Doug Hellmann 著, 苏金国, et al 译. Python3 标准库[M]. 北京:机械工业出版社, 2018.

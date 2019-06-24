@@ -17,11 +17,6 @@ tags: 资源
 1. [Embedded Meta-Learning: Toward more flexible deep-learning models](http://cn.arxiv.org/abs/1905.09950)   
 *2019-05-23* [paper](https://arxiv.org/abs/1905.09950)   
 
-# 2 小样本学习
-1. [Learning Classifier Synthesis for Generalized Few-Shot Learning](http://cn.arxiv.org/abs/1906.02944)   
-*2019-06-07* [paper](https://arxiv.org/abs/1906.02944)   
-
-# 3 零样本学习
 
 -------------------  
 [End](#head)

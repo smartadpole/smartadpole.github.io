@@ -114,6 +114,9 @@ $\bullet  \bullet$   `VAE结构`{:.warning} `体素转卷积的特点`{:.warning
 使用 VAE 进行大脑老化分析；    
 >课题很有意思；    
 
+### 1.6.5 音频转图片
+1. [Synthesizing Images from Spatio-Temporal Representations using Spike-based Backpropagation](http://cn.arxiv.org/abs/1906.08861)   
+*2019-05-24* [paper](https://arxiv.org/abs/1906.08861)    
 
 
 # 2 渔

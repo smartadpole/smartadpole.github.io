@@ -52,7 +52,9 @@ ICML 2019 *2018-11-02* [paper](https://arxiv.org/abs/1811.00995)
 
 
 # 6 应用
-
+## 6.1 针对嵌入式设备提速
+1. [Closing the Accuracy Gap in an Event-Based Visual Recognition Task](http://cn.arxiv.org/abs/1906.08859)    
+*2019-05-06* [paper](https://arxiv.org/abs/1906.08859)    
 
 -------------------  
 [End](#head)

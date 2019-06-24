@@ -129,6 +129,10 @@ ICLR 2019 *2019-01-27* [paper](https://arxiv.org/abs/1901.09321) | [openreview](
 1. [Memorized Sparse Backpropagation](http://cn.arxiv.org/abs/1905.10194)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10194)    
 
+1. [Fully Decoupled Neural Network Learning Using Delayed Gradients](http://cn.arxiv.org/abs/1906.09108)   
+*2019-06-21* [paper](https://arxiv.org/abs/1906.09108)   
+延迟梯度下降：为了解决反向传播的串行执行方式；    
+
 # 8 卷积
 ## 8.1 标准卷积
 

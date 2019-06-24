@@ -213,6 +213,8 @@ DL:
         url:    /assets/category/work/ml/dl/compression.html
       - title:  元学习
         url:    /assets/category/work/ml/dl/meta_learning.html
+      - title:  小样本学习
+        url:    /assets/category/work/ml/dl/few_shot_learning.html
       - title:  迁移学习
         url:    /assets/category/work/ml/dl/transfer_learning.html
       - title:  半监督学习

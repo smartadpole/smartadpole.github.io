@@ -32,6 +32,7 @@ David Silver， [Video](https://www.youtube.com/watch?v=2pWv7GOvuf0)-youtube | [
 1. 不会停的蜗牛. 一文了解强化学习[EB/OL]. <https://www.jianshu.com/p/f4409a8b7f71>. 2017-06-16/2019-04-19.     
 1. JustFollowUs. Reinforcement-Learning[EB/OL]. <https://github.com/JustFollowUs/Reinforcement-Learning>. 2017-04-11/2019-04-19.     
 1. 王小惟. 强化学习从入门到放弃的资料[EB/OL]. <https://zhuanlan.zhihu.com/p/34918639>. 2018-03-25/2019-04-22.   
+1. [ICLR 2018 总结](https://medium.com/@jianzhang_23841/a-digest-of-reinforcement-learning-papers-from-iclr-2018-1be7322886ab)    
 
 ## 3.2 代码
 

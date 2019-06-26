@@ -6,7 +6,7 @@ key: arXiv-20190305
 aside:
   toc: true
 tags: arXiv
-categories: [PaperReading]
+categories: [paper_reading]
 ---
 
 ><https://arxiv.org/list/cs/new>  

@@ -11,11 +11,21 @@ category: [python, pystl]
 
 > Python 3.5.6 官方文档：<https://docs.python.org/3.5/library/xml.etree.elementtree.html>  
 
-## API
+# 1 API
 
-## 一、 Hello World
-[示例](#hellow_world)  
+| [parse]() | [iter]() | [findall]() | []() |
+| --- | --- | --- | --- |
+| [start]() | [end]() | [close]() | [data]() |
+| [XML]() | [XMLID]() | [Element]() | [SubElement]() |
+| [Comment]() | [tostring]() | [extend]() | [write]() |
 
+
+# 2 读
+[示例](#read)
+
+
+
+# 3 写
 
 
 -------------------  
@@ -27,21 +37,26 @@ category: [python, pystl]
 
 
 ## B 示例
-<span id="hellow_world">**1. hellow world**</span>  
-
-
+<span id='read'>**1. 读取 xml 文件**</span>
 ```python
+import xml.etree.ElementTree as ET
+def read(file):
+    tree = ET.parse(file)
+    root = tree.getroot()
 
+    NAME, SUB_NAME = 'VIDEO', 'file'
+    file_node = root.find(NAME).find(SUB_NAME)
+    name = file_node.text.strip('"')
+
+    data = []
+    NAME_RECURSIVE, NAME_ITEM = 'action', 'id'
+    node_recursive = root.findall(NAME_RECURSIVE)
+    for node in node_recursive:
+        id = int(float(node.find(NAME_ITEM).text))
+        data.append(id)
 ```
+
 ## C 推荐资料
-1. In Depth: k-Means Clustering. <https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html>. -/2019-01-28.    
-*似 jupyter notebook 的解析方式；是 《 Python Data Science Handbook 》 的扩展；很长的博文；*   
-2. sklearn.cluster.KMeans. <https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html>. -/2019-01-28.       
-*sklearn 官方文档；*  
-3. Stardustsky. K-means 在 Python 中的实现. <https://segmentfault.com/a/1190000010863236>. 2017-08-26/2019-01-28.   
-*非常接地气的 sklearn 的示例；*   
-4.  悟乙己. k-means+python︱scikit-learn中的KMeans聚类实现. <https://blog.csdn.net/sinat_26917383/article/details/70240628>. 2017-04-19/2019-01-28.   
-*很详尽；*   
 
 
 ## D 参考文献

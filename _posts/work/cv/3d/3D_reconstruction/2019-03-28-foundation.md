@@ -31,6 +31,11 @@ tags: 资源
 1. [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](http://cn.arxiv.org/abs/1610.07584)   
 NIPS 2016, 3D GAN [Paper](https://arxiv.org/abs/1610.07584) | [Torch](https://github.com/zck119/3dgan-release)       
 
+
+1. [Weakly supervised 3D Reconstruction with Adversarial Constraint](http://cn.arxiv.org/abs/1705.10904)   
+*2017-05-31* [Paper](https://arxiv.org/abs/1705.10904) | [Python](https://github.com/jgwak/McRecon)    
+
+
 1. [3D Shape Induction from 2D Views of Multiple Objects](http://cn.arxiv.org/abs/1612.05872)   
 CVPR 2017 *2016-12-18* [Paper](https://arxiv.org/abs/1612.05872) | [Python](https://github.com/matheusgadelha/PrGAN)        
 弱监督三维重建    
@@ -44,7 +49,7 @@ NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](htt
 >最终效果是挺好，只是从理论上看速度就够慢的；不过开源了这么多代码，也是挺实用；    
 
 1. [GAL: Geometric Adversarial Loss for Single-View 3D-Object Reconstruction](https://xjqi.github.io/GAL.pdf)   
-ECCV 2018, 腾讯优图 [Paper](https://xjqi.github.io/GAL.pdf)    
+ECCV 2018, 腾讯优图，香港中文 [Paper](https://xjqi.github.io/GAL.pdf)    
 *`点云` · `GAN` · `3D卷积` · `点度量`*    
 
 1. [Learning Single-View 3D Reconstruction with Limited Pose Supervision](http://openaccess.thecvf.com/content_ECCV_2018/papers/Guandao_Yang_A_Unified_Framework_ECCV_2018_paper.pdf)   
@@ -126,6 +131,10 @@ $\bullet  \bullet$   `怎么论证的 VAE 效果比 GAN 好`{:.warning} `那段�
 1. [GRAINS: Generative Recursive Autoencoders for INdoor Scenes](http://cn.arxiv.org/abs/1807.09193)    
 *2018-07-24* [Paper](https://arxiv.org/abs/1807.09193)    
 使用递归变分自编码网络进行三维室内场景生成； VAE 主要负责 2D 转 3D；`RNN 在里边干啥了`{:.warning}    
+
+1. [3D Shape Reconstruction from a Single 2D Image via 2D-3D Self-Consistency](http://cn.arxiv.org/abs/1811.12016)   
+*2018-11-29* [paper](https://arxiv.org/abs/1811.12016)   
+>摘要很烂，所用方法之字未提；    
 
 1. [Learning single-image 3D reconstruction by generative modelling of shape, pose and shading](http://cn.arxiv.org/abs/1901.06447)   
 *2019-01-19* [Paper](https://arxiv.org/abs/1901.06447)
@@ -226,9 +235,6 @@ IJCAI 2017 优必选 [Paper](http://static.ijcai.org/proceedings-2017/0404.pdf) 
 
 1. [Interactive 3D Modeling with a Generative Adversarial Network](http://cn.arxiv.org/abs/1706.05170)   
 3DV 2017 [Paper](https://arxiv.org/abs/1706.05170) | [Lua-py](https://github.com/jerryjliu/3dexps)       
-
-1. [Weakly supervised 3D Reconstruction with Adversarial Constraint](http://cn.arxiv.org/abs/1705.10904)   
-2017 [Paper](https://arxiv.org/abs/1705.10904) | [Python](https://github.com/jgwak/McRecon)    
 
 1. [SurfNet: Generating 3D shape surfaces using deep residual networks](http://cn.arxiv.org/abs/1703.04079)   
 CVPR 2017 [Paper](https://arxiv.org/abs/1703.04079) | [Matlab](https://github.com/sinhayan/surfnet)   

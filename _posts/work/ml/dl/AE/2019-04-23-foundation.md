@@ -70,6 +70,11 @@ $\bullet  \bullet$   `实现网络结构`{:.warning}
 $\bullet  \bullet$   `和 GAN 有什么区别`{:.warning}    
 AAE：对抗自编码网络    
 
+1. [Explainable Shape Analysis through Deep Hierarchical Generative Models: Application to Cardiac Remodeling](http://cn.arxiv.org/abs/1907.00058)   
+*2019-06-28* [paper](https://arxiv.org/abs/1907.00058)   
+>思路有点新，看看原理解释；   
+
+
 ## 1.5 对抗自编码
 1. [Finding Rats in Cats: Detecting Stealthy Attacks using Group Anomaly Detection](https://arxiv.org/abs/1905.07273)   
 *2019-05-16* [paper](https://arxiv.org/abs/1905.07273)   

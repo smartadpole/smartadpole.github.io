@@ -11,14 +11,17 @@ tags: 资源
 <span id='head'></span>  
 
 <!--more-->  
-# 1 数据集
 
-# 2 论文
-## 2.1 综述
+# 1 综述
+1. [Hashing for Similarity Search: A Survey](http://cn.arxiv.org/abs/1408.2927)   
+*2014-08-13* [paper](https://arxiv.org/abs/1408.2927)   
 
-## 2.2 理论
+1. [A Survey on Learning to Hash](https://arxiv.org/abs/1606.00185)   
+*2016-06-01* [paper](https://arxiv.org/abs/1606.00185)   
 
-## 2.3 检索
+# 2 理论
+
+# 3 检索
 
 1. [Using Very Deep Autoencoders for Content-Based Image Retrieval](https://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf)  
 [2011] ESANN . Alex Krizhevsky, and Geoffrey E. Hinton  
@@ -313,211 +316,158 @@ https://github.com/pangsm0415/HeW
 [2018.5-2018.10]  
 [paper](https://arxiv.org/abs/1805.08587)  
 
-## 2.4 哈希  
-用来提升检索速度；     
+# 4 哈希  
+>用来提升检索速度；     
 
-
-1. [Supervised Hashing for Image Retrieval via Image Representation Learning](slides: https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
-CNNH [2014] AAAI . Sun Yat-Sen University & National University of SingaporeConvolutional Neural Network Hashing​  
-www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/download/8137/8861  
-[paper](slides: https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
+1. [Supervised Hashing for Image Retrieval via Image Representation Learning](https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
+AAAI 2014 *2014* 中山大学·潘炎、颜水成 [paper](https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
+提出基于 CNN 的深度哈希；   
 
 1. [Simultaneous Feature Learning and Hash Coding with Deep Neural Networks](http://cn.arxiv.org/abs/1504.03410)  
-NINH，DNNH [2015] CVPR . Sun Yat-Sen University & National University of Singapore； NIN Hashing， Deep Neural Network Hashing；  
-[paper](https://arxiv.org/abs/1504.03410) | [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lai_Simultaneous_Feature_Learning_2015_CVPR_paper.pdf)  
+CVPR 2015 *2015-04-14* [paper](https://arxiv.org/abs/1504.03410) | [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lai_Simultaneous_Feature_Learning_2015_CVPR_paper.pdf)  
 
 1. [Hashing by Deep Learning](http://www.ee.columbia.edu/~wliu/WeiLiu_DLHash.pdf)  
-IBM T. J. Watson Research Center  
-[paper](http://www.ee.columbia.edu/~wliu/WeiLiu_DLHash.pdf)  
+*2015* IBM [paper](http://www.ee.columbia.edu/~wliu/WeiLiu_DLHash.pdf)  
 
 1. [Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval](http://cn.arxiv.org/abs/1501.06272)  
-[2015] CVPR . DSRH (Deep Semantic Ranking Hashing)  
-[paper](https://arxiv.org/abs/1501.06272)  
+CVPR 2015 *2015-01-26* [paper](https://arxiv.org/abs/1501.06272)  
 
 1. [Deep Learning of Binary Hash Codes for Fast Image Retrieval](http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvprw15.pdf)  
-DLBHC [2015] CVPR Workshop ；MNIST, CIFAR-10, Yahoo-1M. Deep Learning of Binary Hash Codes；  
-[paper](http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvprw15.pdf)  
-https://github.com/kevinlin311tw/caffe-cvprw15  
-pytorch https://github.com/flyingpot/pytorch_deephash  
+CVPR Workshop 2015 *2015* [paper](http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvprw15.pdf) | [caffe](https://github.com/kevinlin311tw/caffe-cvprw15) | [pytorch](https://github.com/flyingpot/pytorch_deephash)   
 
 1. [Supervised Learning of Semantics-Preserving Hashing via Deep Neural Networks for Large-Scale Image Search](http://cn.arxiv.org/abs/1507.00101)  
 SSDH  
-[paper](https://arxiv.org/abs/1507.00101)  
-https://github.com/kevinlin311tw/Caffe-DeepBinaryCode  
+*2015-07-01* [paper](https://arxiv.org/abs/1507.00101) | [caffe](https://github.com/kevinlin311tw/Caffe-DeepBinaryCode)  
 
 1. [Bit-Scalable Deep Hashing with Regularized Similarity Learning for Image Retrieval and Person Re-identification](http://cn.arxiv.org/abs/1508.04535)  
-DRSCH [2015] IEEE Transactions on Image Processing ；Deep Regularized Similarity Comparison Hashing​  
-[paper](https://arxiv.org/abs/1508.04535)  
-project page: http://vision.sysu.edu.cn/projects/deephashing/  
-https://github.com/ruixuejianfei/BitScalableDeepHash  
+*2015-08-19* [paper](https://arxiv.org/abs/1508.04535) | [project](http://vision.sysu.edu.cn/projects/deephashing/) | [caffe](https://github.com/ruixuejianfei/BitScalableDeepHash)     
 
 1. [Deep Supervised Hashing for Fast Image Retrieval](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Supervised_Hashing_CVPR_2016_paper.pdf)  
-DSH [2016] CVPR； (Deep Supervised Hashing)  
-[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Supervised_Hashing_CVPR_2016_paper.pdf)  
-[paper](http://www.jdl.ac.cn/doc/2011/201711214443668218_deep%20supervised%20hashing%20for%20fast%20image%20retrieval_cvpr2016.pdf)  
-https://github.com/lhmRyan/deep-supervised-hashing-DSH  
-tensorflow https://github.com/yg33717/DSH_tensorflow  
+CVPR 2016 *2016* [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Supervised_Hashing_CVPR_2016_paper.pdf) | [caffe](https://github.com/lhmRyan/deep-supervised-hashing-DSH) | [tensorflow](https://github.com/yg33717/DSH_tensorflow)     
 
-1. [Deep Hashing Network for Efficient Similarity Retrieval]()      
-[2016] AAAI  
-http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12039  
+1. [Deep Hashing Network for Efficient Similarity Retrieval](https://pdfs.semanticscholar.org/eb0c/64244dcf238a2cbf479ab2fdc9047fc80bc5.pdf)      
+AAAI 2016 *2016* [paper](https://pdfs.semanticscholar.org/eb0c/64244dcf238a2cbf479ab2fdc9047fc80bc5.pdf)    
 
 1. [Feature Learning based Deep Supervised Hashing with Pairwise Labels](http://cn.arxiv.org/abs/1511.03855)  
-DSHPL [2016] IJCAI  
-[paper](https://arxiv.org/abs/1511.03855)  
-[paper](https://www.ijcai.org/Proceedings/16/Papers/245.pdf)  
-[paper](https://cs.nju.edu.cn/lwj/paper/IJCAI16_DPSH.pdf)  
-code http://cs.nju.edu.cn/lwj/code/DPSH_code.rar  
-pytorch https://github.com/jiangqy/DPSH-pytorch  
-
-1. [Deep Cross-Modal Hashing](http://cn.arxiv.org/abs/1602.02255)  
-[paper](https://arxiv.org/abs/1602.02255)  
-
-1. [Cycle-Consistent Deep Generative Hashing for Cross-Modal Retrieval](http://cn.arxiv.org/abs/1804.11013)  
-[paper](https://arxiv.org/abs/1804.11013)  
+IJCAI 2016 *2015-11-12* [paper](https://arxiv.org/abs/1511.03855) | [code](http://cs.nju.edu.cn/lwj/code/DPSH.zip)-offical | [pytorch](https://github.com/jiangqy/DPSH-pytorch)  
 
 1. [SSDH: Semi-supervised Deep Hashing for Large Scale Image Retrieval](http://cn.arxiv.org/abs/1607.08477)  
-[paper](https://arxiv.org/abs/1607.08477)  
+*2016-07-28* [paper](https://arxiv.org/abs/1607.08477)  
 
-1. [Deep Semantic-Preserving and Ranking-Based Hashing for Image Retrieval](http://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/Deep-Semantic-Preserving-and-Ranking-Based-Hashing-for-Image-Retrieval.pdf)  
-Microsoft  
-[paper](http://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/Deep-Semantic-Preserving-and-Ranking-Based-Hashing-for-Image-Retrieval.pdf)  
+1. [Deep Semantic-Preserving and Ranking-Based Hashing for Image Retrieval](http://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/Deep-Semantic-Preserving-and-Ranking-Based-Hashing-for-Image-Retrieval.pdf)   
+*2016* [paper](http://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/Deep-Semantic-Preserving-and-Ranking-Based-Hashing-for-Image-Retrieval.pdf)  
 
 1. [Deep Hashing: A Joint Approach for Image Signature Learning](http://cn.arxiv.org/abs/1608.03658)  
-[paper](https://arxiv.org/abs/1608.03658)  
+*2016-08-12* [paper](https://arxiv.org/abs/1608.03658)  
 
-1. [Transitive Hashing Network for Heterogeneous Multimedia Retrieval](http://cn.arxiv.org/abs/1608.04307)  
-state of the art on NUS-WIDE, ImageNet-YahooQA  
-[paper](https://arxiv.org/abs/1608.04307)  
+1. [Transitive Hashing Network for Heterogeneous Multimedia Retrieval](http://cn.arxiv.org/abs/1608.04307)    
+*2016-08-15* [paper](https://arxiv.org/abs/1608.04307)  
 
 1. [Deep Residual Hashing](http://cn.arxiv.org/abs/1612.05400)  
-[paper](https://arxiv.org/abs/1612.05400)  
+*2016-12-16* [paper](https://arxiv.org/abs/1612.05400)  
 
-1. [Deep Binary Representation for Efficient Image Retrieval]()      
-[2017] 上交；  
-https://www.hindawi.com/journals/am/2017/8961091/  
-demo https://github.com/luseiee/DeepBinaryRepre  
+1. [Deep Binary Representation for Efficient Image Retrieval](http://medialab.sjtu.edu.cn/publications/2017/ICMEW2017_DeepHash%20for%20Image%20Retrieval_LuSongXieYangZhang.pdf)      
+*2017* 上交 [paper](https://www.hindawi.com/journals/am/2017/8961091/) | [tensorflow](https://github.com/luseiee/DeepBinaryRepre)      
 
 1. [Deep Region Hashing for Efficient Large-scale Instance Search from Images](http://cn.arxiv.org/abs/1701.07901)  
-Columbia University & University of Electronic Science and Technology of China  
-[paper](https://arxiv.org/abs/1701.07901)  
+*2017-01-26* [paper](https://arxiv.org/abs/1701.07901)  
 
 1. [HashNet: Deep Learning to Hash by Continuation](http://cn.arxiv.org/abs/1702.00758)  
-[2017] ICCV . Tsinghua University  
-[paper](https://arxiv.org/abs/1702.00758)  
-https://github.com/thuml/HashNet  
+ICCV 2017 *2017-02-02* [paper](https://arxiv.org/abs/1702.00758)  | [caffe/pytorch](https://github.com/thuml/HashNet)   
 
 1. [Unsupervised Triplet Hashing for Fast Image Retrieval](http://cn.arxiv.org/abs/1702.08798)  
-[paper](https://arxiv.org/abs/1702.08798)  
+*2017-02-28* [paper](https://arxiv.org/abs/1702.08798)  
 
 1. [Deep Sketch Hashing: Fast Free-hand Sketch-Based Image Retrieval](http://cn.arxiv.org/abs/1703.05605)  
-[2017] CVPR spotlight paper  
-[paper](https://arxiv.org/abs/1703.05605)  
+CVPR spotlight paper 2017 *2017-03-16* [paper](https://arxiv.org/abs/1703.05605)  
 
 1. [Learning Robust Hash Codes for Multiple Instance Image Retrieval](http://cn.arxiv.org/abs/1703.05724)  
-[paper](https://arxiv.org/abs/1703.05724)  
+*2017-03-16* [paper](https://arxiv.org/abs/1703.05724)  
 
 1. [Simultaneous Feature Aggregating and Hashing for Large-scale Image Search](http://cn.arxiv.org/abs/1704.00860)  
-[2017] CVPR  
-[paper](https://arxiv.org/abs/1704.00860)  
-
-1. [Learning to Hash]()      
-blog: https://cs.nju.edu.cn/lwj/L2H.html  
+CVPR 2017 *2017-04-04* [paper](https://arxiv.org/abs/1704.00860)  
 
 1. [Hashing as Tie-Aware Learning to Rank](http://cn.arxiv.org/abs/1705.08562)  
-[paper](https://arxiv.org/abs/1705.08562)  
+*2017-05-23* [paper](https://arxiv.org/abs/1705.08562)  
 
 1. [Deep Hashing Network for Unsupervised Domain Adaptation](http://cn.arxiv.org/abs/1706.07522)  
-[2017] CVPR  
-[paper](https://arxiv.org/abs/1706.07522)  
-MatConvNet: https://github.com/hemanthdv/da-hash  
+CVPR 2017 *2017-06-22* [paper](https://arxiv.org/abs/1706.07522)  | [MatConvNet](https://github.com/hemanthdv/da-hash)   
 
 1. [Deep Binary Reconstruction for Cross-modal Hashing](http://cn.arxiv.org/abs/1708.05127)  
-[2017] ACM Multimedia  
-[paper](https://arxiv.org/abs/1708.05127)  
+ACM Multimedia 2017 *2017-08-17* [paper](https://arxiv.org/abs/1708.05127)  
 
 1. [A Revisit on Deep Hashings for Large-scale Content Based Image Retrieval](http://cn.arxiv.org/abs/1711.06016)  
-Zhejiang University  
-[paper](https://arxiv.org/abs/1711.06016)  
+*2017-11-16* [paper](https://arxiv.org/abs/1711.06016)  
 
-1. [The Devil is in the Middle: Exploiting Mid-level Representations for Cross-Domain Instance Matching](http://cn.arxiv.org/abs/1711.08106)  
-finegrained sketch-based image retrieval (FG-SBIR) and Person Re-identification (person ReID)  
-[paper](https://arxiv.org/abs/1711.08106)  
+1. [The Devil is in the Middle: Exploiting Mid-level Representations for Cross-Domain Instance Matching](http://cn.arxiv.org/abs/1711.08106)    
+*2017-11-22* [paper](https://arxiv.org/abs/1711.08106)  
 
 1. [ForestHash: Semantic Hashing With Shallow Random Forests and Tiny Convolutional Networks](http://cn.arxiv.org/abs/1711.08364)  
-[paper](https://arxiv.org/abs/1711.08364)  
+*2017-11-22* [paper](https://arxiv.org/abs/1711.08364)  
 
 1. [Supervised Hashing with End-to-End Binary Deep Neural Network](http://cn.arxiv.org/abs/1711.08901)  
-[paper](https://arxiv.org/abs/1711.08901)  
+*2017-11-24* [paper](https://arxiv.org/abs/1711.08901)  
 
 1. [Transfer Adversarial Hashing for Hamming Space Retrieval](http://cn.arxiv.org/abs/1712.04616)  
-[paper](https://arxiv.org/abs/1712.04616)  
+*2017-12-13* [paper](https://arxiv.org/abs/1712.04616)  
 
 1. [Dual Asymmetric Deep Hashing Learning](http://cn.arxiv.org/abs/1801.08360)  
-[paper](https://arxiv.org/abs/1801.08360)  
+*2018-01-25* [paper](https://arxiv.org/abs/1801.08360)  
 
 1. [Attribute-Guided Network for Cross-Modal Zero-Shot Hashing](http://cn.arxiv.org/abs/1802.01943)  
-[paper](https://arxiv.org/abs/1802.01943)  
+*2018-02-06* [paper](https://arxiv.org/abs/1802.01943)  
 
 1. [Deep Reinforcement Learning for Image Hashing](http://cn.arxiv.org/abs/1802.02904)  
-[paper](https://arxiv.org/abs/1802.02904)  
-
-1. [Hashing with Mutual Information](http://cn.arxiv.org/abs/1803.00974)  
-[paper](https://arxiv.org/abs/1803.00974)  
-
-1. [Zero-Shot Sketch-Image Hashing](http://cn.arxiv.org/abs/1803.02284)  
-[2018] CVPR spotlight  
-[paper](https://arxiv.org/abs/1803.02284)  
-
-1. [Instance Similarity Deep Hashing for Multi-Label Image Retrieval](http://cn.arxiv.org/abs/1803.02987)  
-[paper](https://arxiv.org/abs/1803.02987)  
-
-1. [Deep Class-Wise Hashing: Semantics-Preserving Hashing via Class-wise Loss](http://cn.arxiv.org/abs/1803.04137)  
-City University of Hong Kong  
-[paper](https://arxiv.org/abs/1803.04137)  
-
-1. [Unsupervised Semantic Deep Hashing](http://cn.arxiv.org/abs/1803.06911)  
-[paper](https://arxiv.org/abs/1803.06911)  
-
-1. [SketchMate: Deep Hashing for Million-Scale Human Sketch Retrieval](http://cn.arxiv.org/abs/1804.01401)  
-[2018] CVPR  
-[paper](https://arxiv.org/abs/1804.01401)  
-
-1. [Improving Deep Binary Embedding Networks by Order-aware Reweighting of Triplets](http://cn.arxiv.org/abs/1804.06061)  
-Sun Yat-sen University  
-[paper](https://arxiv.org/abs/1804.06061)  
-
-1. [Deep Semantic Hashing with Generative Adversarial Networks](http://cn.arxiv.org/abs/1804.08275)  
-[2017] SIGIR Oral  
-[paper](https://arxiv.org/abs/1804.08275)  
-
-1. [Deep Ordinal Hashing with Spatial Attention](http://cn.arxiv.org/abs/1805.02459)  
-[paper](https://arxiv.org/abs/1805.02459)  
-
-1. [Efficient end-to-end learning for quantizable representations](http://cn.arxiv.org/abs/1805.05809)  
-[2018] ICML . Seoul National University  
-[paper](https://arxiv.org/abs/1805.05809)  
-https://github.com/maestrojeong/Deep-Hash-Table-ICML18  
-
-1. [Unsupervised Deep Image Hashing through Tag Embeddings](http://cn.arxiv.org/abs/1806.05804)  
-[paper](https://arxiv.org/abs/1806.05804)  
-
-1. [Adversarial Learning for Fine-grained Image Search](http://cn.arxiv.org/abs/1807.02247)  
-[paper](https://arxiv.org/abs/1807.02247)  
-
-1. [Error Correction Maximization for Deep Image Hashing](http://cn.arxiv.org/abs/1808.01942)  
-[paper](https://arxiv.org/abs/1808.01942)  
-
-1. [Deep Priority Hashing](http://cn.arxiv.org/abs/1809.01238)  
-[2018] ACM MM Poster  
-[paper](https://arxiv.org/abs/1809.01238)  
-
-1. [Neurons Merging Layer: Towards Progressive Redundancy Reduction for Deep Supervised Hashing](http://cn.arxiv.org/abs/1809.02302)  
-[paper](https://arxiv.org/abs/1809.02302)  
+*2018-02-07* [paper](https://arxiv.org/abs/1802.02904)  
 
 1. [Binary Constrained Deep Hashing Network for Image Retrieval without Manual Annotation](http://cn.arxiv.org/abs/1802.07437)  
-[2018.2-2018.8]  
-[paper](https://arxiv.org/abs/1802.07437)  
+*2018-02-21* [paper](https://arxiv.org/abs/1802.07437)  
+
+1. [Hashing with Mutual Information](http://cn.arxiv.org/abs/1803.00974)  
+*2018-03-02* [paper](https://arxiv.org/abs/1803.00974)  
+
+1. [Zero-Shot Sketch-Image Hashing](http://cn.arxiv.org/abs/1803.02284)  
+CVPR spotlight 2018 *2018-03-06* [paper](https://arxiv.org/abs/1803.02284)  
+
+1. [Instance Similarity Deep Hashing for Multi-Label Image Retrieval](http://cn.arxiv.org/abs/1803.02987)  
+*2018-03-08* [paper](https://arxiv.org/abs/1803.02987)  
+
+1. [Deep Class-Wise Hashing: Semantics-Preserving Hashing via Class-wise Loss](http://cn.arxiv.org/abs/1803.04137)  
+*2018-03-12* [paper](https://arxiv.org/abs/1803.04137)  
+
+1. [SketchMate: Deep Hashing for Million-Scale Human Sketch Retrieval](http://cn.arxiv.org/abs/1804.01401)  
+CVPR 2018 *2018-03-13* [paper](https://arxiv.org/abs/1804.01401)  
+
+1. [Unsupervised Semantic Deep Hashing](http://cn.arxiv.org/abs/1803.06911)  
+*2018-03-19* [paper](https://arxiv.org/abs/1803.06911)  
+
+1. [Improving Deep Binary Embedding Networks by Order-aware Reweighting of Triplets](http://cn.arxiv.org/abs/1804.06061)  
+*2018-04-17* [paper](https://arxiv.org/abs/1804.06061)  
+
+1. [Deep Semantic Hashing with Generative Adversarial Networks](http://cn.arxiv.org/abs/1804.08275)  
+SIGIR Oral 2017 *2018-04-23* [paper](https://arxiv.org/abs/1804.08275)  
+
+1. [Deep Ordinal Hashing with Spatial Attention](http://cn.arxiv.org/abs/1805.02459)  
+*2018-05-07* [paper](https://arxiv.org/abs/1805.02459)  
+
+1. [Efficient end-to-end learning for quantizable representations](http://cn.arxiv.org/abs/1805.05809)  
+ICML 2018 *2018-05-15* [paper](https://arxiv.org/abs/1805.05809) | [tensorflow](https://github.com/maestrojeong/Deep-Hash-Table-ICML18)  
+
+1. [Unsupervised Deep Image Hashing through Tag Embeddings](http://cn.arxiv.org/abs/1806.05804)  
+*2018-06-15* [paper](https://arxiv.org/abs/1806.05804)  
+*Weakly Supervised Deep Image Hashing through Tag Embeddings*   
+
+1. [Adversarial Learning for Fine-grained Image Search](http://cn.arxiv.org/abs/1807.02247)  
+*2018-07-06* [paper](https://arxiv.org/abs/1807.02247)  
+
+1. [Error Correction Maximization for Deep Image Hashing](http://cn.arxiv.org/abs/1808.01942)  
+*2018-08-06* [paper](https://arxiv.org/abs/1808.01942)  
+
+1. [Deep Priority Hashing](http://cn.arxiv.org/abs/1809.01238)  
+ACM MM 2018 *2018-09-04* [paper](https://arxiv.org/abs/1809.01238)  
+
+1. [Neurons Merging Layer: Towards Progressive Redundancy Reduction for Deep Supervised Hashing](http://cn.arxiv.org/abs/1809.02302)  
+*2018-09-07* [paper](https://arxiv.org/abs/1809.02302)  
 
 1. [PDH : Probabilistic deep hashing based on MAP estimation of Hamming distance](http://cn.arxiv.org/abs/1905.08501)   
 ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)   
@@ -525,12 +475,20 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 1. [Deep Spherical Quantization for Image Search](http://cn.arxiv.org/abs/1906.02865)   
 *2019-06-07* [paper](https://arxiv.org/abs/1906.02865)   
 
+1. [Adversarially Trained Deep Neural Semantic Hashing Scheme for Subjective Search in Fashion Inventory](http://cn.arxiv.org/abs/1907.00382)    
+*2019-06-30* [paper](https://arxiv.org/abs/1907.00382)   
 
-## 2.5 跨模态  
+# 5 跨模态  
 
 1. [Cross-domain Image Retrieval with a Dual Attribute-aware Ranking Network](http://cn.arxiv.org/abs/1505.07922)  
 DARN [2015] ICCV；​cross-entropy loss, triplet loss；  
 [paper](https://arxiv.org/abs/1505.07922)  
+
+1. [Deep Cross-Modal Hashing](http://cn.arxiv.org/abs/1602.02255)  
+*2016-02-06* [paper](https://arxiv.org/abs/1602.02255)  
+
+1. [Cycle-Consistent Deep Generative Hashing for Cross-Modal Retrieval](http://cn.arxiv.org/abs/1804.11013)  
+*2018-04-30* [paper](https://arxiv.org/abs/1804.11013)  
 
 1. [Deep Learning for Content-Based, Cross-Modal Retrieval of Videos and Music](http://cn.arxiv.org/abs/1704.06761)  
 [paper](https://arxiv.org/abs/1704.06761)  
@@ -572,7 +530,11 @@ VGG
 Xi’an Jiaotong University & University of Technology Sydney & National University of Singapore & CMU  
 [paper](https://arxiv.org/abs/1702.01229)  
 
-## 2.6 深度度量  
+1. [One Network for Multi-Domains: Domain Adaptive Hashing with Intersectant Generative Adversarial Network](http://cn.arxiv.org/abs/1907.00612)   
+IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)   
+还用了 GAN；   
+
+# 6 深度度量  
 
 1. [Deep metric learning using Triplet network](http://cn.arxiv.org/abs/1412.6622)  
 [paper](https://arxiv.org/abs/1412.6622)  
@@ -652,4 +614,13 @@ https://github.com/littleredxh/DREML
 
 
 # 附录
-## A 参考资料
+
+## A 研究者
+1. [Wu-Jun LI](http://cs.nju.edu.cn/lwj/):LAMDA 研究室成员    
+
+## B 参考资料
+1. zwr1994. Learning to Hash 综述阅读笔记[EB/OL]. <https://blog.csdn.net/zwr1994/article/details/78047703>. 2018-03-16/2019-07-02.    
+1. -. Learning to Hash[EB/OL]. <https://cs.nju.edu.cn/lwj/L2H.html>. -/2019-07-02.      
+
+## C 开源项目
+1. [DeepHash](https://github.com/thulab/DeepHash)

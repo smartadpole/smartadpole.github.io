@@ -11,7 +11,7 @@ tags: 资源
 <span id='head'></span>  
 <!--more-->  
 
-# 1 Paper
+# 1 论文
 
 ## 1.1 经典论文
 
@@ -33,7 +33,7 @@ ICACDS 2019 *2019-05-18* [paper](https://arxiv.org/abs/1905.07581)
 *2019-05-13* [paper](https://arxiv.org/abs/1905.08606)   
 
 ## 1.5 医学
-`皮肤病`    
+### 1.5.1 皮肤病
 
 1. [TopoResNet: A hybrid deep learning architecture and its application to skin lesion classification](https://arxiv.org/abs/1905.08607)   
 *2019-05-13* [paper](https://arxiv.org/abs/1905.08607)   
@@ -41,11 +41,31 @@ ICACDS 2019 *2019-05-18* [paper](https://arxiv.org/abs/1905.07581)
 1. [Skin Cancer Recognition using Deep Residual Network](https://arxiv.org/abs/1905.08610)   
 *2019-05-14* [paper](https://arxiv.org/abs/1905.08610)    
 
-## 1.6 自动驾驶
+### 1.5.2 肾小球病变
+1. [Classification of glomerular hypercellularity using convolutional features and support vector machine](http://cn.arxiv.org/abs/1907.00028)   
+*2019-06-28* [paper](https://arxiv.org/abs/1907.00028)    
+>为啥要用深度特征+SVM 啊，直接用全连接+softmax 不好吗；   
+
+### 1.5.3 罕见疾病诊断
+1. [Difficulty-aware Meta-Learning for Rare Disease Diagnosis](http://cn.arxiv.org/abs/1907.00354)   
+*2019-06-30* [paper](https://arxiv.org/abs/1907.00354)    
+零样本学习解决罕见疾病诊断；   
+
+
+## 1.6 交通
 `车辆识别`   
 
 1. [Vehicle Shape and Color Classification Using Convolutional Neural Network](https://arxiv.org/abs/1905.08612)   
 *2019-05-15* [paper](https://arxiv.org/abs/1905.08612)   
+
+## 1.7 自然
+### 1.7.1 叶片分类
+1. [A 1d convolutional network for leaf and time series classification](http://cn.arxiv.org/abs/1907.00069)   
+*2019-06-28* [paper](https://arxiv.org/abs/1907.00069) | [Tensorflow](https://github.com/dykuang/Leaf_Project)-offical     
+1 维卷积在轮廓分类问题中的使用；    
+
+## 1.8 农业
+
 
 -------------------  
 [End](#head)

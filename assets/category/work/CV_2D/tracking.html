@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Multimodal Fusion
-    zh:       多模态融合
-    zh-Hans:  多模态融合
-    zh-Hant:  多模态融合
+    en:       Tracking
+    zh:       跟踪
+    zh-Hans:  跟踪
+    zh-Hant:  跟踪
 sidebar:
     nav: CV
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "multimodal" %}
+        {% if cat[0] == "tracking" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

@@ -27,8 +27,13 @@ tags: 资源
 ## 1.4 年龄
 
 ## 1.5 情绪
+### 1.5.1 基于图像
 1. [Oculum afficit: Ocular Affect Recognition](http://cn.arxiv.org/abs/1905.09240)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09240)   
+
+### 1.5.2 基于视频
+1. [frame attention networks for facial expression recognition in videos](http://cn.arxiv.org/abs/1907.00193)   
+ICIP 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00193)    
 
 ## 1.6 人脸预测
 

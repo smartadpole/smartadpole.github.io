@@ -20,13 +20,19 @@ tags: 资源
 1. [Doctor of Crosswise: Reducing Over-parametrization in Neural Networks](http://cn.arxiv.org/abs/1905.10324)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10324)   
 
+1. [NetTailor: Tuning the Architecture, Not Just the Weights](http://cn.arxiv.org/abs/1907.00274)   
+CVPR 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00274)   
+
 # 3 剪枝
-1. [
-FeTa: A DCA Pruning Algorithm with Generalization Error Guarantees](https://arxiv.org/abs/1803.04239)   
+1. [FeTa: A DCA Pruning Algorithm with Generalization Error Guarantees](https://arxiv.org/abs/1803.04239)   
 *2018-03-12* [paper](https://arxiv.org/abs/1803.04239)   
 
 1. [Revisiting hard thresholding for DNN pruning](http://cn.arxiv.org/abs/1905.08793)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08793)   
+
+1. [Dissecting Pruned Neural Networks](http://cn.arxiv.org/abs/1907.00262)   
+*2019-01-29* [paper](https://arxiv.org/abs/1907.00262)   
+修剪 resnet50，而不影响可解释性；    
 
 # 5 低秩分解
 1. [Learning Low-Rank Approximation for CNNs](http://cn.arxiv.org/abs/1905.10145)   
@@ -35,6 +41,9 @@ FeTa: A DCA Pruning Algorithm with Generalization Error Guarantees](https://arxi
 # 6 权值量化
 1. [Integer Discrete Flows and Lossless Compression](http://cn.arxiv.org/abs/1905.07376)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07376)   
+
+1. [Weight Normalization based Quantization for Deep Neural Network Compression](http://cn.arxiv.org/abs/1907.00593)   
+*2019-07-01* [paper](https://arxiv.org/abs/1907.00593)   
 
 # 7 其他
 1. [Dream Distillation: A Data-Independent Model Compression Framework](http://cn.arxiv.org/abs/1905.07072)   

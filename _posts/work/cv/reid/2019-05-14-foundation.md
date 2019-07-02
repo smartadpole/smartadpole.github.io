@@ -11,17 +11,14 @@ tags: 资源
 <span id='head'></span>  
 <!--more-->
 
-# 1 数据集
-
-# 2 论文  
-## 1.1 综述
+# 1 综述
 
 1. [survey:person re-identification：past，present and future](http://cn.arxiv.org/abs/1610.02984)    
 一篇不错的综述
 [Paper](https://arxiv.org/abs/1610.02984)    
 
-## 1.2 行人
-### 1.2.1 基于图像
+# 2 行人
+## 2.1 基于图像
 
 1. [Person Re-identification in the Wild](http://cn.arxiv.org/abs/1604.02531)    
 论文中他们采用了各种detector+各种recogniser的组合
@@ -98,15 +95,19 @@ https://mp.weixin.qq.com/s/iotqiyRrH4kwWmBvYi-tMQ
 8,22,23效果差不多，Rank@1=88.24%, mAP=70.68%
 2,21，Rank@1大体都在70~80
 
-### 1.2.2 基于视频
+## 2.2 基于视频
 1. [Video-based Person Re-identification via 3D Convolutional Networks and Non-local Attention](http://cn.arxiv.org/abs/1807.05073)   
 *2018-07-12* [Paper](https://arxiv.org/abs/1807.05073)   
 
-### 1.2.3 多模态
+## 2.3 多目标
+1. [Online Multiple Pedestrian Tracking using Deep Temporal Appearance Matching Association](https://arxiv.org/abs/1907.00831)   
+CVPR 2019 · MOTChallenge *2019-07-01* [paper](https://arxiv.org/abs/1907.00831)   
+
+## 2.3 多模态
 1. [https://arxiv.org/abs/1906.03142](http://cn.arxiv.org/abs/1906.03142)   
 *2019-06-07* [paper](https://arxiv.org/abs/1906.03142)   
 
-## 1.3 车辆
+# 3 车辆
 1. [Attributes Guided Feature Learning for Vehicle Re-identification](https://arxiv.org/abs/1905.08997)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.08997)   
 

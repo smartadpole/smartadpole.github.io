@@ -8,22 +8,20 @@ aside:
 category: [CV, detection]
 tags: 资源
 ---
-
+<span id='head'></span>
 <center class="half">
   <img src="/assets/images/cv/detection/overview.jpg" /><br>图1：目标检测发现路线&emsp;
 </center>
 
 <!--more-->  
 
-# 1 论文汇总
+# 1 综述
 
-## 1.1 综述
-
-## 1.2 理论
+# 2 理论
 1. [Uncertainty Estimation in One-Stage Object Detection](http://cn.arxiv.org/abs/1905.10296)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10296)   
 
-## 1.3 经典论文
+# 3 经典论文
 1. [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)     
 *2013-11* [Paper](https://arxiv.org/abs/1311.2524)    
 **RCNN**：
@@ -37,8 +35,8 @@ tags: 资源
 1. [SSD: Single Shot MultiBox Detector](http://cn.arxiv.org/abs/1512.02325)    
 ECCV 2016 Oral *2015-12* ​[Paper](https://arxiv.org/abs/1512.02325) | [caffe](https://github.com/weiliu89/caffe/tree/ssd)-Official | [Caffe-MobileNet](https://github.com/chuanqi305/MobileNet-SSD) | [MxNet](https://github.com/zhreshold/mxnet-ssd) | [MxNet-cpp](https://github.com/zhreshold/mxnet-ssd.cpp) | [Keras](https://github.com/rykov8/ssd_keras) | [Keras](https://github.com/pierluigiferrari/ssd_keras) | [Tensorflow](https://github.com/balancap/SSD-Tensorflow) | [Pytorch](https://github.com/amdegroot/ssd.pytorch)    
 
-## 1.4 通用目标检测
-### 1.4.1 检测框去重
+# 4 通用目标检测
+## 4.1 检测框去重
 1. NMS   
 FasterRCNN 中有对其效果进行分析；   
 
@@ -51,7 +49,7 @@ FasterRCNN 中有对其效果进行分析；
 ECCV 2018 *2018.7* [Paper](https://arxiv.org/abs/1807.11590)   
 **NMS Network**：设计了 IoU-Net 用来估计 proposal 与其对应 ground-truth 框的 IoU 值，提出了新的边框回归算法以及 NMS 的改进算法；[解读](https://zhuanlan.zhihu.com/p/43590558)   
 
-### 1.4.2 Anchors
+## 4.2 Anchors
 1. [MetaAnchor: Learning to Detect Objects with Customized Anchors](http://cn.arxiv.org/pdf/1807.00980v2)   
 ​NIPS 2018 *2018-07* 旷视科技 & 复旦大学 [Paper](https://arxiv.org/abs/1807.00980)   
 动态 anchor；    
@@ -60,7 +58,7 @@ ECCV 2018 *2018.7* [Paper](https://arxiv.org/abs/1807.11590)
 *2019-01* 香港中文大学-商汤联合实验室&Amazon Rekognition&南洋理工大学 [Paper](https://arxiv.org/abs/1901.03278) | [mmdetection](https://github.com/open-mmlab/mmdetection)   
 **Guided Anchoring**:​融合Anchor与关键点   
 
-### 1.4.3 技巧
+## 4.3 技巧
 
 1. [Bag of Freebies for Training Object Detection Neural Networks]()  
 [2019.2] GluonCV 检测调参技巧​
@@ -72,14 +70,14 @@ https://mp.weixin.qq.com/s/pkFcmm15gnuRJtngFX7f0w
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07202)   
 教师网络处理噪声图像；   
 
-### 1.4.4 单阶段
+## 4.4 单阶段
 
-### 1.4.5 两阶段
+## 4.5 两阶段
 
 1. [Light-Weight RetinaNet for Object Detection](http://cn.arxiv.org/abs/1905.10011)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10011)   
 
-### 1.4.6 Anchor free
+## 4.6 Anchor free
 
 1. [A closer look: Small object detection in faster R-CNN]()   
 无 pdf 介绍了一种生成anchor proposals的改进建议，并对Faster R-CNN进行修改，利用较高分辨率的小目标的feature maps​
@@ -88,6 +86,12 @@ https://blog.csdn.net/zhangjunhit/article/details/78900298
 1. [Scale-aware Pixel-wise Object Proposal Networks]()  
 [2016.1 - 2016.7] 提出Scale-aware Pixel-wise Object Proposal（SPOP）网络，可以生成具有高召回率和平均最佳重叠（ABO）的proposals，即使对于小目标也是如此。另外，引入了一个类似分段的像素定位网络来密集预测每个像素的对象坐标，并开发了一种尺度感知对象定位策略，该策略将来自大尺寸和小尺寸网络的预测与加权机制相结合，以提高各种对象尺寸的坐标预测精度​
 https://arxiv.org/abs/1601.04798
+
+## 4.7 无类别
+1. [Learning Objectness from Sonar Images for Class-Independent Object Detection](http://cn.arxiv.org/abs/1907.00734)   
+*2019-07-01* [paper](https://arxiv.org/abs/1907.00734)    
+
+## 4.8 其他
 
 1. [YOLO]()  
 官网 https://pjreddie.com/darknet/yolo/
@@ -337,51 +341,76 @@ https://arxiv.org/abs/1901.06563
 https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 
 
-## 1.5 应用场景
-### 1.5.1 人脸检测
-### 1.5.2 行人检测
-### 1.5.3 文本检测
+# 5 应用场景
+## 5.1 人
+### 5.1.1 人脸检测
+### 5.1.2 行人检测
+
+## 5.2 文本
+
+### 5.2.1 数据集
+1. [ICDAR2019 Robust Reading Challenge on Multi-lingual Scene Text Detection and Recognition -- RRC-MLT-2019](http://cn.arxiv.org/abs/1907.00945)   
+ICDAR 2019*2019-07-01* [paper](https://arxiv.org/abs/1907.00945) | [competition](https://rrc.cvc.uab.es/?ch=15)      
+
+### 5.2.2 文本检测
 [中文](https://github.com/lars76/chinese-subtitle-ocr)    
 
-### 1.5.4 文本行检测
-### 1.5.5 车道线检测
-### 1.5.6 交通标志检测
+### 5.2.3 文本行检测
+
+## 5.3 交通
+### 5.3.1 车道线检测
+### 5.3.2 交通标志检测
 [keras](https://github.com/kuhung/SSD_keras)    
-### 1.5.7 车辆检测
-### 1.5.8 Logo 检测
-### 1.5.9 肺结节检测
-### 1.5.10 船体检测
-### 1.5.11 视频目标检测
-### 1.5.12 商品检测
-### 1.5.13 航拍
+### 5.3.3 车辆检测
+### 5.3.4 船体检测
+
+## 5.4 商品
+### 5.4.1 Logo 检测
+
+### 5.4.2 商品检测
+
+## 5.5 医疗
+### 5.5.1 肺结节检测
+
+## 5.6 视频目标检测
+## 5.7 航拍
 1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
-## 1.5 小目标检测
+# 6 小目标检测
 1. [Multiple receptive fields and small-object-focusing weakly-supervised segmentation network for fast object detection](http://cn.arxiv.org/abs/1904.12619)   
 *2019-04-19* [paper](https://arxiv.org/abs/1904.12619)   
 
 1. [A Real-Time Tiny Detection Model for Stem End and Blossom End of Navel Orange](http://cn.arxiv.org/abs/1905.09994)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.09994)   
 
-## 1.6 面向终端的目标检测
+# 7 面向终端的目标检测
 1. [Towards High Performance Video Object Detection for Mobiles](http://cn.arxiv.org/abs/1804.05830)   
 *2018-04-16* [Paper](https://arxiv.org/abs/1804.05830)    
 
-## 1.7 3D 检测
+# 8 3D 检测
 
 
-## 1.8 其他
+# 9 其他
 1. [Cloud-Net: An end-to-end Cloud Detection Algorithm for Lan](http://cn.arxiv.org/abs/1901.10077)   
 2019-01-29 [Paper](https://arxiv.org/abs/1901.10077)   
 云层检测   
 
-# 2 资源
-## 2.1 论文
+
+-------------------  
+[End](#head)
+{:.warning}  
+
+
+# 附录
+## A 参考资料
+
+## B 资源
+### a 论文
 [amusi](https://github.com/amusi/awesome-object-detection)，[韩东](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)   
 
 
-## 2.2 代码
+### b 代码
 - 数据增强   
 [Paperspace](https://github.com/Paperspace/DataAugmentationForObjectDetection/blob/master/data_aug/data_aug.py)，[maozezhong](https://github.com/maozezhong/CV_ToolBox/blob/master/DataAugForObjectDetection/DataAugmentForObejctDetection.py)    
 - [opencv 跟踪检测](https://github.com/Smorodov/Multitarget-tracker)   
@@ -389,19 +418,10 @@ CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)
 
 [mmdetection](https://github.com/open-mmlab/mmdetection)   
 
-## 2.3 总结
+### c 总结
 [物体检测论文阅读路线图](https://mp.weixin.qq.com/s/X2ReSIU9Qq1OA3bywCNNig)，[hoya012](https://github.com/hoya012/deep_learning_object_detection)，[ECCV2018 目标检测](http://bbs.cvmart.net/topics/194/eccv2018-mu-biao-jian-ce-object-detection-suan-fa-zong-lan-bu-fen-han-dai-ma?from=groupmessage)    
 美图：[一](https://mp.weixin.qq.com/s/oMs4MEQRwIZfGZa-HmzC_w)，[二](https://mp.weixin.qq.com/s/Uu_4DUqDzkZgEMJ7KenMcg)，[三](https://mp.weixin.qq.com/s/XlVGuoUlQwimTWXEE6gPBQ
 https://mp.weixin.qq.com/s/LGj_2Zw6XA_EfZb8Rvv7bg)    
 [目标检测研究综述+LocNet](https://zhuanlan.zhihu.com/p/33058849)   
 [anchor 机制](https://mp.weixin.qq.com/s/oW4vUx7fXRhMRKh7QSQ5TA)，[yolo2 中的trick](https://mp.weixin.qq.com/s/us0VbQgu8YLNCAU5i_5QuA)   
 [NMS](https://mp.weixin.qq.com/s/HeOOHyeeJvAuJr3iNm18Ow)   
-
-
--------------------  
- End
-{:.warning}  
-
-
-# 附录
-## A 参考资料

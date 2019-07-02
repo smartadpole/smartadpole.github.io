@@ -209,6 +209,8 @@ DL:
     children:
       - title:  自动设计神经网络
         url:    /assets/category/work/ml/dl/automl.html
+      - title:  胶囊网络
+        url:    /assets/category/work/ml/dl/capsule.html
       - title:  模型压缩
         url:    /assets/category/work/ml/dl/compression.html
       - title:  元学习
@@ -239,6 +241,8 @@ CV:
         url:    /assets/category/work/CV_2D/detect.html
       - title:  分割
         url:    /assets/category/work/CV_2D/segment.html
+      - title:  跟踪
+        url:    /assets/category/work/CV_2D/tracking.html
       - title:  检索
         url:    /assets/category/work/CV_2D/retrival.html
       - title:  重识别

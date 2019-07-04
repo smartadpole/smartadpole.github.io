@@ -16,10 +16,22 @@ category: [CV, 3D, reconstruction, paper_reading]
 论文地址： <https://arxiv.org/abs/1705.10904>  
 官方代码： theano <https://github.com/jgwak/McRecon>   
 
-*文章好难读哦*   
+`文章好难读哦`{:.info}   
+
+本篇论文骨骼清奇，核心用的 GAN 网络，但是通篇都不用 GAN 相关的术语，而且还解释了文章思路与 GAN 不同，问题是解释又很牵强：    
+
+| GAN 相关术语 | 本文的替换词汇（中） | 本文的替换词汇（中） |
+| --- | --- | --- |
+| GAN | 基于对抗约束的弱监督重建<br>对抗优化 | weakly supervised reconstruction with adversarial constraint<br>constrained optimization |
+| 对抗损失 | 惩罚函数 | penalty function |
+| 判别器 | 流形约束<br>对抗约束<br>约束冲突<br>将生成结果约束到真实数据流形上 |  manifold constraint<br>adversarial constraint<br>constraint violation<br>constrain the reconstruction to be in manifold of realistic shape |
+| 数据分布 | 流形约束的边界 | barrier for manifold constraint |
+| softmax | 对数界限 | log barrier |
+
+`是我没读懂还是论文太烂了`{:.info}   
 
 # 1 一句话总结文章
-GAN 实现弱监督三维重建；   
+GAN 实现三维重建；   
 
 # 2 方案
 前导知识：`深度学习基本知识`，`CNN`，`GAN`， `3D`     
@@ -46,8 +58,14 @@ ShapeNet，ObjectNet3D，OnlineProduct；
 
 
 # 5 思考
-1.本文并为解决「概念集合」难以确定的问题   
+1.什么是「流形」   
 {:.warning}  
+manifold；    
+
+2.为什么文章中作者大量使用「把重建结果约束在真实 3D 物体的流形结构中」，而不是使用「3D 重建」   
+{:.warning}  
+「3D 重建」这个概念并没有告诉我们使用的是无监督、弱监督还是监督，也就是范围太广；而「把重建结果约束在真实 3D 物体的流形结构中」很明显就是弱监督，而不是需要完整的 3D 标签来完成重建；   
+「把重建结果约束在真实 3D 物体的流形结构中」=「弱监督 3D 重建」=「把重建结果约束到真实的数据分布」=「GAN」；个人认为此处加入「流形」这个概念是为了提升论文的档次，并没有用「流形」这一特性来改进模型；     
 
 
 # 6 总结
@@ -61,6 +79,12 @@ ShapeNet，ObjectNet3D，OnlineProduct；
 
 # 附录
 ## A 术语   
+<span id='ill_posed'>**1. ill-posed problem**</span>   
+`well posed problbem`：解存在、唯一、稳定（输入连续变化时，输出不会跳变）；    
+`ill posed problem`：「不适定问题」，也就是「不 well posed problem」，简单来说就是结果不唯一，比如 a+b=5，求 a 和 b 的值就是不适定问题；矩阵乘法如果是不适定问题，通常是因为那个矩阵不满秩，零空间不为空，这样即使真实解发生很大的变化，仍然得到相同的结果；所以对于不适定问题，需要做各种先验假设，来约束它，使它变为 well posed，从而能够求解；很多求逆的问题都是不适定问题；   
+在计算机视觉中，有很多任务不满足“适定”条件，通常不满足第二条和第三条；比如用GAN“伪造”图像的时候，这个任务就不满足“解的唯一性”；做图像超分辨率，或者对图像去雨去雾去模糊等等任务时，这些都没有一个标准答案，解有无数种；更重要的是，这些解都是不稳定的；   
 
+参考书：《逆问题数学理论导论》、《统计和计算中的逆问题》   
+[图像处理中不适定问题（ill posed problem）或称为反问题（inverse Problem）](http://blog.sina.com.cn/s/blog_6833a4df0100nne9.html)    
 
 ## B 参考文献

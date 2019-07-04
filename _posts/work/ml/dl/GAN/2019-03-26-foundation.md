@@ -79,7 +79,7 @@ pytorch 和 tensorflow 实现的 GAN 和 VAE；
 # 5 论文
 ## 5.1 第一篇论文
 1. :o: [Generative Adversarial Nets](http://cn.arxiv.org/abs/1406.2661)    
-2014-06-10 [Code](https://github.com/goodfeli/adversarial)  [Paper](http://cn.arxiv.org/abs/1406.2661)   
+*2014-06-10* [Paper](https://arxiv.org/abs/1406.2661) | [Code](https://github.com/goodfeli/adversarial)     
 
 ## 5.2 综述
 1. :o: Goodfellow I. [NIPS 2016 tutorial: generative adversarial networks](http://cn.arxiv.org/abs/1701.00160). arXiv preprint [arXiv: 1701.00160](http://cn.arxiv.org/abs/1701.00160), 2016.    

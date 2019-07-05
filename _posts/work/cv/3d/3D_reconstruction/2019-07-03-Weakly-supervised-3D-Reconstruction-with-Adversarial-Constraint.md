@@ -42,13 +42,31 @@ GAN 实现三维重建；
 </center>
 
 # 3 损失函数
+<center class='half'>
+  <img src="/assets/images/cv_3d/3D_reconstruction/Weakly-3DGAN/net_simple.png">&emsp;<br>图2：网络简图
+</center>   
 
+$$
+\begin{align}
+\mathcal{L}_{reproj.}(x, \mathbf c, \mathbf m) &= {1 \over M} \sum_j^M \mathcal{L}_s(RP(x, c_j), m_j) \label{loss_project} \\
+Loss &= \mathop{\mathbb{E}}\limits_{v \in views} [\mathcal{L}_{reproj.}(\hat x, m_v)] - {1 \over t} \log g(\hat x) \label{loss} \\
+Loss_{discriminator} &= \mathop{\mathbb{E}}\limits_{x \sim p}[\log g(x)] + \mathop{\mathbb{E}}\limits_{x \sim q}[\log (1-g(x)] \label{Loss_discriminator}  \\
+\end{align}
+$$
+公式 $\eqref{loss_project}$ 中 $M$ 是视图/角的个数，$c$ 是视角，$x$ 是生成的 3D 模型，$RP$ 是 3D 到 2D 的投影函数，$\mathcal{L}_s$ shi 逐像素的交叉熵；    
+公式 $\eqref{Loss_discriminator}$ 中 $p$ 是真实 3D 数据分布，$q$ 是生成的 3D 数据分布；    
 
 # 4 实验
 ## 4.1 数据集
 ShapeNet，ObjectNet3D，OnlineProduct；   
 
 ## 4.2 实验结果
+现有方法的对比   
+评估矩阵    
+消融实验   
+ShapeNet   
+单视角真实数据训练   
+多视角真实数据训练   
 
 
 ### 4.2.1 精度

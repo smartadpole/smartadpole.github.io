@@ -31,7 +31,7 @@ categories: [dl_frameworks, caffe, worktool]
 
 - 3.运行镜像   
   ```shell
-  nvidia-docker run -it bvlc/caffe:gpu /bin/bash  # gpu 版  
+  nvidia-docker run -it --name $name$ -v $src$:$dst$ -p $psrt_src$:$port_dst$ bvlc/caffe:gpu /bin/bash  # gpu 版  
   docker run -it bvlc/caffe:cpu # cpu 版   
   ```
 

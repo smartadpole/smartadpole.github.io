@@ -2,7 +2,7 @@
 layout: article
 title:  "「论文解读」 Weakly supervised 3D Reconstruction with Adversarial Constraint"
 date:   2019-07-03 16:56:40 +0800
-key: Weakly-3DGAN-20190703
+key: Weakly-3DGAN-read-20190703
 aside:
   toc: true
 category: [CV, 3D, reconstruction, paper_reading]
@@ -17,6 +17,8 @@ category: [CV, 3D, reconstruction, paper_reading]
 官方代码： theano <https://github.com/jgwak/McRecon>   
 
 `文章好难读哦`{:.info}   
+
+[实践指南](/cv/3d/reconstruction/paper_practice/2019/07/09/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-practice.html)    
 
 本篇论文骨骼清奇，核心用的 GAN 网络，但是通篇都不用 GAN 相关的术语，而且还解释了文章思路与 GAN 不同，问题是解释又很牵强：    
 
@@ -85,6 +87,14 @@ manifold；
 「3D 重建」这个概念并没有告诉我们使用的是无监督、弱监督还是监督，也就是范围太广；而「把重建结果约束在真实 3D 物体的流形结构中」很明显就是弱监督，而不是需要完整的 3D 标签来完成重建；   
 「把重建结果约束在真实 3D 物体的流形结构中」=「弱监督 3D 重建」=「把重建结果约束到真实的数据分布」=「GAN」；个人认为此处加入「流形」这个概念是为了提升论文的档次，并没有用「流形」这一特性来改进模型；     
 
+3.RayTrace 模块反向传播怎么做的   
+{:.warning}  
+RayTrace 是将 3D 物体投影到 2D 上，投影过程使用了 MaxPooling 操作；所以，对 2D 的求导结果直接按 MaxPooling 的反向传播方式（拷贝梯度）传会 3D 即可；     
+
+1.判别器用的 softmax-crossentropy，这种方式效果真的好吗   
+{:.warning}  
+
+
 
 # 6 总结
 
@@ -106,3 +116,9 @@ manifold；
 [图像处理中不适定问题（ill posed problem）或称为反问题（inverse Problem）](http://blog.sina.com.cn/s/blog_6833a4df0100nne9.html)    
 
 ## B 参考文献
+- 光线追踪   
+1. **octree voxel-walking**  
+[Ray Tracing News](http://graphics.stanford.edu/pub/Graphics/RTNews/html/rtnews2d.html). [Linear-time Voxel Walking for Octrees](http://graphics.stanford.edu/pub/Graphics/RTNews/html/rtnews2d.html#art5), by Jim Arvo.    
+*J. Arvo. Linear-time voxel walking for octrees. Ray Tracing News, 1(2), 1988.*    
+1. **raybox intersection algorithm**   
+*A. Williams, S. Barrus, R. K. Morley, and P. Shirley. An efficient and robust ray-box intersection algorithm. In ACM SIGGRAPH 2005 Courses, page 9. ACM, 2005.*   

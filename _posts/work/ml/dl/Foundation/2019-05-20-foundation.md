@@ -22,6 +22,9 @@ tags: 资源
 $\bullet \bullet$   
 网络逐层单独训练，最终融合在一起；虽然效果不如整体训练好，但是对于算力有限情况下的大型网络训练很有帮助；   
 
+1. [Accelerated Training for Massive Classification via Dynamic Class Selection](http://cn.arxiv.org/abs/1801.01687)   
+*2018-01-05* [paper](https://arxiv.org/abs/1801.01687)   
+
 ## 2.2 过拟合
 1. [One-Step or Two-Step Optimization and the Overfitting Phenomenon: A Case Study on Time Series Classification](http://cn.arxiv.org/abs/1407.4364)   
 *2014-07-16* [paper](https://arxiv.org/abs/1407.4364)   

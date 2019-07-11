@@ -21,7 +21,16 @@ tags: 资源
 
 # 2 理论
 
-# 3 检索
+# 3 验证
+## 3.1 签名验证
+1. [Online Signature Verification Based on Writer Specific Feature Selection and Fuzzy Similarity Measure](http://cn.arxiv.org/abs/1905.08574)   
+CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.org/abs/1905.08574)   
+
+1. [Deep Signatures](http://cn.arxiv.org/abs/1905.08494)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08494) | [pytorch](https://github.com/patrick-kidger/Deep-Signatures)       
+
+
+# 4 检索
 
 1. [Using Very Deep Autoencoders for Content-Based Image Retrieval](https://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf)  
 [2011] ESANN . Alex Krizhevsky, and Geoffrey E. Hinton  
@@ -316,7 +325,7 @@ https://github.com/pangsm0415/HeW
 [2018.5-2018.10]  
 [paper](https://arxiv.org/abs/1805.08587)  
 
-# 4 哈希  
+# 5 哈希  
 >用来提升检索速度；     
 
 1. [Supervised Hashing for Image Retrieval via Image Representation Learning](https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
@@ -478,7 +487,7 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 1. [Adversarially Trained Deep Neural Semantic Hashing Scheme for Subjective Search in Fashion Inventory](http://cn.arxiv.org/abs/1907.00382)    
 *2019-06-30* [paper](https://arxiv.org/abs/1907.00382)   
 
-# 5 跨模态  
+# 6 跨模态  
 
 1. [Cross-domain Image Retrieval with a Dual Attribute-aware Ranking Network](http://cn.arxiv.org/abs/1505.07922)  
 DARN [2015] ICCV；​cross-entropy loss, triplet loss；  
@@ -534,7 +543,7 @@ Xi’an Jiaotong University & University of Technology Sydney & National Univers
 IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)   
 还用了 GAN；   
 
-# 6 深度度量  
+# 7 深度度量  
 
 1. [Deep metric learning using Triplet network](http://cn.arxiv.org/abs/1412.6622)  
 [paper](https://arxiv.org/abs/1412.6622)  

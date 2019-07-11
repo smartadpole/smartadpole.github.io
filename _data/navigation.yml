@@ -1177,6 +1177,8 @@ Human:
     children:
       - title:  唇语识别
         url:    /assets/category/work/CV_2D/human/lip_reading.html
+      - title:  视线追踪
+        url:    /assets/category/work/CV_2D/human/eye_gaze_tracking.html
       - title:  手掌分割
         url:    /assets/category/work/CV_2D/human/hands_segmentation.html
       - title:  手势识别
@@ -1185,8 +1187,6 @@ Human:
         url:    /assets/category/work/CV_2D/human/gait_recognition.html
       - title:  人脸验证
         url:    /assets/category/work/CV_2D/human/face_verify.html
-      - title:  签名验证
-        url:    /assets/category/work/CV_2D/human/signature_verification.html
       - title:  人脸识别
         url:    /assets/category/work/CV_2D/human/face_recognize.html
       - title:  人脸对齐

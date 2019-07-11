@@ -338,7 +338,7 @@ CVPR 2018 *2018.4.29* [Paper](https://arxiv.org/abs/1804.10975) [Pytorch](https:
 $\bullet  \bullet$    
 针对三维重建问题，我们提出了一个高效的网络；核心思想是把三维重建问题当作是二维预测问题；我们先跑了个基准网络，直接根据 2D 图像预测 3D 体素；使用经过验证的基于像素的图片预测任务，效果有所提升；基于这个方法，我们提出了一个能够记忆形状的编码网络，可以递归地重建三维物体，达到高分辨率；
 
-1. [ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning](https://arxiv.org/abs/1804.08497)   
+1. [ALIGNet: Partial-Shape Agnostic Alignment via Unsupervised Learning](http://cn.arxiv.org/abs/1804.08497)   
 SIGGRAPH 2018 [Paper](https://arxiv.org/abs/1804.08497) | [Pytorch](https://github.com/ranahanocka/ALIGNet/)-Offical-lua | [Project](https://ranahanocka.github.io/ALIGNet/)     
 *`无监督`*   
 ALIGNet：基于无监督学习的未知局部形状对齐：将2D 图像对齐到未知的三维形状，传统方法都是匹配特征点来对齐，此时当一部分形状缺失时就无法进行对齐；本文针对缺失的部分专门提供了一个损失函数；  

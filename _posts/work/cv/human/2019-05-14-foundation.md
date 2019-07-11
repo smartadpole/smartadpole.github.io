@@ -33,3 +33,4 @@ tags: 资源
 
 # 附录
 ## A 参考资料
+1. ChanChiChoi. awesome-Face_Recognition[EB/OL]. <https://github.com/ChanChiChoi/awesome-Face_Recognition>. 2018-12-04/2019-07-11.    

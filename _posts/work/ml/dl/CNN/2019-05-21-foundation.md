@@ -53,6 +53,9 @@ ICML 2019 *2018-11-02* [paper](https://arxiv.org/abs/1811.00995)
 1. [3D Dense Separated Convolution Module for Volumetric Image Analysis](http://cn.arxiv.org/abs/1905.08608)   
 *2019-05-14* [paper](https://arxiv.org/abs/1905.08608)   
 
+1. [A review on deep learning techniques for 3D sensed data classification](http://cn.arxiv.org/abs/1907.04444)    
+*2019-07-09* [paper](https://arxiv.org/abs/1907.04444)    
+
 
 
 # 6 应用

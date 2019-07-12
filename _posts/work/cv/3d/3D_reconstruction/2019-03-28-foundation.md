@@ -23,10 +23,15 @@ tags: 资源
 **体素**：volume pixel（voxel），与二维的像素一样，需存储所有三维像素点，没有物体的地方像素值为 0；像素具有规律性的排列，可以直接套用卷积神经网络；运算时需要庞大的内存与运算量；  
 **点云**：point cloud，是三维点的集合，只需记录物体所在的点的坐标；没有规律性的排列，因此无法套用卷积神经网络；高分辨率下，比较节省内存与运算量，也比较适合表示高分辨率的三维物体；  
 
+# 2 综述
+1. [Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era](http://cn.arxiv.org/abs/1906.06543)   
+*2019-06-15* [paper](https://arxiv.org/abs/1906.06543)    
 
-# 2 单视图重建
+# 3 理论
 
-## 2.1 GAN
+
+# 4 单视图重建
+## 4.1 GAN
 使用二维编码器、三维解码器(即 GAN 中的成器)和判别器；   
 1. [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](http://cn.arxiv.org/abs/1610.07584)   
 NIPS 2016, 3D GAN [Paper](https://arxiv.org/abs/1610.07584) | [Torch](https://github.com/zck119/3dgan-release)       
@@ -63,10 +68,11 @@ SIGGRAPH 2018, 深圳大学 [Paper](http://vcc.tech/file/upload_file//image/rese
 
 1. [Learning View Priors for Single-view 3D Reconstruction](http://cn.arxiv.org/abs/1811.10719)   
 CVPR 2019 [Paper](https://arxiv.org/abs/1811.10719) | [Project](http://hiroharu-kato.com/projects_en/view_prior_learning.html) 马上开源     
+$\bullet \bullet \bullet$     
 使用 GAN，并且融合了单视图重建和视角信息；   
 
 
-## 2.2 自编码
+## 4.2 自编码
 针对二维（输入）和三维（标签）分别训练出一个自编码器，得到的两个编码向量越接近越好；使用时，先用二维编码器得到特征向量，然后用三维解码器得到对应的三维数据（可以是体素，也可以是点云）；   
 
 1. [Category-Specific Object Reconstruction from a Single Image](http://cn.arxiv.org/abs/1411.6069)    
@@ -162,8 +168,11 @@ $\bullet  \bullet$
 *2019* [Paper](https://pdfs.semanticscholar.org/0038/a0ddf8a0278be15406cafccd3acde2dbc6a7.pdf?_ga=2.38895779.1829027256.1556162802-1749154426.1548839945)      
 *`图卷积`*  
 
+1. [Photo-Geometric Autoencoding to Learn 3D Objects from Unlabelled Images](http://cn.arxiv.org/abs/1906.01568)   
+*2019-06-04* [paper](https://arxiv.org/abs/1906.01568)    
 
-## 2.3 其他
+
+## 4.3 其他
 1. [Learning to Generate Chairs, Tables and Cars with Convolutional Networks](http://cn.arxiv.org/abs/1411.5928)   
 2014 [Paper](https://arxiv.org/abs/1411.5928)  
 
@@ -350,26 +359,35 @@ CVPR 2018 [Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Le_Point
 1. [Learning to Reconstruct 3D Manhattan Wireframes from a Single Image](https://arxiv.org/abs/1905.07482)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07482)   
 
-## 2.4  RGB-D
+## 4.4  RGB-D
 
 1. [3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions](http://cn.arxiv.org/abs/1603.08182)   
 CVPR 2017 [Paper](https://arxiv.org/abs/1603.08182) | [Matlab](https://github.com/andyzeng/3dmatch-toolbox)-Offical | [Project](http://3dmatch.cs.princeton.edu/)    
 
-# 3 多视图重建
-## 3.1 GAN
+# 5 多视图重建
+## 5.1 GAN
 1. [Learning 3D Shapes as Multi-Layered Height-maps using 2D Convolutional Networks](http:/cn./arxiv.org/abs/1807.08485)   
 ECCV 2018 *2018-07-23* [Paper](https://arxiv.org/abs/1807.08485) | [Pytorch](https://github.com/krips89/mlh_mvcnn)       
 *`CNN` · `3D 形状分类` · `ModelNet` · `DCGAN`*    
 
-## 3.2 自编码
+## 5.2 自编码
 
-## 3.3 其他
+## 5.3 其他
+1. [Conditional Single-view Shape Generation for Multi-view Stereo Reconstruction](http://cn.arxiv.org/abs/1904.06699)    
+CVPR 2019 *2019-04-14* [paper](https://arxiv.org/abs/1904.06699) | [tensorflow](https://github.com/weiyithu/OptimizeMVS)-offical          
+多个视角单独重建的结果取交集；    
+>这就需要假设，未知视线下重建结果是多的，感觉不是很合理啊；    
 
-# 4 基于视角的重建
+
+# 6 基于视角的重建
+
+# 7 其他
+1. [Occupancy Networks: Learning 3D Reconstruction in Function Space](http://cn.arxiv.org/abs/1812.03828)   
+CVPR 2019 *2018-12-10* [paper](https://arxiv.org/abs/1812.03828) | [pytorch](https://github.com/autonomousvision/occupancy_networks)-offical       
 
 
 -------------------  
- [End](#1-基础)
+[End](#head)
 {:.warning}  
 
 
@@ -378,4 +396,5 @@ ECCV 2018 *2018-07-23* [Paper](https://arxiv.org/abs/1807.08485) | [Pytorch](htt
 [1]. 维基百科. 三维重建[EB/OL]. <https://zh.wikipedia.org/wiki/%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA>. -/2019-03-28.   
 [2]. dragonlong. Trending in 3D Vision[EB/OL]. <https://github.com/dragonlong/Trending-in-3D-Vision>. -/2019-03-28.    
 [3]. timzhang642. 3D-Machine-Learning[EB/OL]. <https://github.com/timzhang642/3D-Machine-Learning>. -/2019-03-28.    
-[4]. poodar.chu. 点云感知 CVPR 2018 论文总结. <https://zhuanlan.zhihu.com/p/41287237>.  2018-08-04/2019-03-28  
+[4]. poodar.chu. 点云感知 CVPR 2018 论文总结. <https://zhuanlan.zhihu.com/p/41287237>.  2018-08-04/2019-03-28     
+[5]. sophie. CVPR 2019 论文汇总[EB/OL]. <http://bbs.cvmart.net/topics/302/cvpr#12>. 2019-03/2019-07-12.     

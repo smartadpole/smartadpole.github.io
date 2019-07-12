@@ -563,7 +563,12 @@ ICCV2017
 1. [S-Flow GAN](http://cn.arxiv.org/abs/1905.08474)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08474)    
 
-## 5.32 其他
+## 5.32 多模态
+1. [M3D-GAN: Multi-Modal Multi-Domain Translation with Universal Attention](http://cn.arxiv.org/abs/1907.04378)   
+*2019-07-09* [paper](https://arxiv.org/abs/1907.04378)   
+
+
+## 5.33 其他
 
 1. [Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://cn.arxiv.org/abs/1506.05751)  
 [Code](https://github.com/facebook/eyescream)

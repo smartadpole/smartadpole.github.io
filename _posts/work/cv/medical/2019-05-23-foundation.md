@@ -12,17 +12,20 @@ tags: 资源
 
 <!--more-->
 
-# 1 数据集
-
-# 2 论文
-## 2.1 综述
+# 1 论文
+## 1.1 综述
 1. [Medical Image Analysis using Convolutional Neural Networks: A Review](http://cn.arxiv.org/abs/1709.02250)   
 *2017-09-04* [paper](https://arxiv.org/abs/1709.02250)   
 
-## 2.2 理论
+## 1.2 理论
 
-## 2.3 分割
+## 1.3 分割
 [二维图像分割](/cv/segmentation/2019/05/05/foundation.html#141-生物医疗)   
+
+## 1.4 MRI
+1. [Reducing Uncertainty in Undersampled MRI Reconstruction with Active Acquisition](http://cn.arxiv.org/abs/1902.03051)    
+CVPR 2019 *2019-02-08* facebook [paper](https://arxiv.org/abs/1902.03051) | [keras](https://github.com/Corey-Zumar/MRI-Reconstruction)    
+
 
 
 -------------------  

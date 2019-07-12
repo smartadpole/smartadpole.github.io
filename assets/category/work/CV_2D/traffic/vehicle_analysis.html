@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Traffic Semantic Analysis
-    zh:       交通信息分析
-    zh-Hans:  交通信息分析
-    zh-Hant:  交通信息分析
+    en:       Vehicle Analysis
+    zh:       车辆分析
+    zh-Hans:  车辆分析
+    zh-Hant:  车辆分析
 sidebar:
     nav: Traffic
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "traffic_semantic_analysis" %}
+        {% if cat[0] == "vehicle_analysis" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

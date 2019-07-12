@@ -1,25 +1,32 @@
 ---
 layout: article
-title:  "「CV」 交通信息检测资源汇总"
-date:   2019-05-20 17:28:40 +0800
-key: traffic-semantic-foundation-20190520
+title:  "「CV」 车辆分析资源汇总"
+date:   2019-07-12 15:20:40 +0800
+key: vehicle-analysis-foundation-20190712
 aside:
   toc: true
-category: [CV, traffic, traffic_semantic_analysis]
+category: [CV, traffic, vehicle_analysis]
 tags: 资源
 ---
-
 <span id='head'></span>
 
 <!--more-->
 
 # 1 综述
 
-# 2 交通流量检测
+# 2 理论
 
-# 3 车道占有率
+# 3 车辆检测
 
-# 4 其他
+# 4 车牌识别
+
+# 5 车型识别
+
+# 6 车辆 LOGO 识别
+
+# 7 车身颜色识别
+
+# 8 其他
 1. [Semantic Analysis of Traffic Camera Data: Topic Signal Extraction and Anomalous Event Detection](http://cn.arxiv.org/abs/1905.07332)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07332)
 

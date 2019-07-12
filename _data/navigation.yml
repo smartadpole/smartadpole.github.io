@@ -267,6 +267,8 @@ CV:
         url:    /assets/category/work/CV_2D/agriculture.html
       - title:  自然
         url:    /assets/category/work/CV_2D/nature.html
+      - title:  信息安全
+        url:    /assets/category/work/CV_2D/info_security.html
 
 
   - title:      NLP
@@ -1212,10 +1214,12 @@ Traffic:
         url:    /assets/category/work/CV_2D/cv.html
   - title:      
     children:
+      - title:  车辆分析
+        url:    /assets/category/work/CV_2D/traffic/vehicle_analysis.html
+      - title:  路况分析
+        url:    /assets/category/work/CV_2D/traffic/event_analysis.html
       - title:  交通信息检测
         url:    /assets/category/work/CV_2D/traffic/semantic_analysis.html
-      - title:  交通事件检测
-        url:    /assets/category/work/CV_2D/traffic/event_analysis.html
 
 Linux:
   - title:

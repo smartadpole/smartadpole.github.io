@@ -67,6 +67,12 @@ ICACDS 2019 *2019-05-18* [paper](https://arxiv.org/abs/1905.07581)
 ## 1.8 农业
 
 
+## 1.9 多标签
+1. [Learning a Deep ConvNet for Multi-label Classification with Partial Labels](https://arxiv.org/abs/1902.09720)   
+CVPR 2019 *2019-02-26* [paper](https://arxiv.org/abs/1902.09720)    
+降低多标签任务的标注成本；     
+
+
 -------------------  
 [End](#head)
 {:.warning}  

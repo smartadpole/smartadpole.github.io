@@ -21,6 +21,10 @@ tags: 资源
 1. [Uncertainty Estimation in One-Stage Object Detection](http://cn.arxiv.org/abs/1905.10296)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10296)   
 
+1. [Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](http://cn.arxiv.org/abs/1902.09630)    
+CVPR 2019 *2019-02-25* [paper](https://arxiv.org/abs/1902.09630)   
+使用 IoU 设计新的 loss 函数；    
+
 # 3 经典论文
 1. [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)     
 *2013-11* [Paper](https://arxiv.org/abs/1311.2524)    
@@ -34,6 +38,7 @@ tags: 资源
 
 1. [SSD: Single Shot MultiBox Detector](http://cn.arxiv.org/abs/1512.02325)    
 ECCV 2016 Oral *2015-12* ​[Paper](https://arxiv.org/abs/1512.02325) | [caffe](https://github.com/weiliu89/caffe/tree/ssd)-Official | [Caffe-MobileNet](https://github.com/chuanqi305/MobileNet-SSD) | [MxNet](https://github.com/zhreshold/mxnet-ssd) | [MxNet-cpp](https://github.com/zhreshold/mxnet-ssd.cpp) | [Keras](https://github.com/rykov8/ssd_keras) | [Keras](https://github.com/pierluigiferrari/ssd_keras) | [Tensorflow](https://github.com/balancap/SSD-Tensorflow) | [Pytorch](https://github.com/amdegroot/ssd.pytorch)    
+
 
 # 4 通用目标检测
 ## 4.1 检测框去重
@@ -247,7 +252,7 @@ DetNet [2018.4] ECCV； ​检测和分类不同，较多的下采样降低了�
 https://arxiv.org/abs/1804.06215
 https://mp.weixin.qq.com/s/oxStDMh90jB7_EY4vqja2w
 
-1. [ Object detection at 200 Frames Per Second]()  
+1. [Object detection at 200 Frames Per Second]()  
 [2018.5]
 arxiv.org/abs/1805.06361
 

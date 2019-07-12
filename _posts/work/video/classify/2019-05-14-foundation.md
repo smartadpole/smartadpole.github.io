@@ -16,18 +16,7 @@ tags: 资源
 
 <!--more-->
 
-# 1 数据集
-
-| 数据集 | 来源 | 视频数 | 动作数 | 说明 |
-| --- | --- | --- | --- | --- |
-| [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) | YouTube | 13320 | 101 | |
-| HMDB51 | YouTube | 7000 | 51 | |
-| Kinetics | YouTube | 300K | 400 | |
-| activity-net |  | 10024+4926+5044 | 200 | |
-| 1M sport |  | 1.2 million | 487 | 每类 1k-3k 个视频 |
-
-# 2 Paper
-## 2.1 综述
+# 1 综述
 1. [Delving Deeper into Convolutional Networks for Learning Video Representations](http://cn.arxiv.org/abs/1511.06432)   
 ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)   
 
@@ -46,20 +35,20 @@ ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)
 1. [A Survey of Video Based Action Recognition in Sports](https://pdfs.semanticscholar.org/2bb7/6926af1af556e3fd1c32c6dd557826b8ee2a.pdf?_ga=2.53757928.1506702602.1557989902-129004075.1557370518)   
 *2018-09* [paper](https://pdfs.semanticscholar.org/2bb7/6926af1af556e3fd1c32c6dd557826b8ee2a.pdf?_ga=2.53757928.1506702602.1557989902-129004075.1557370518)    
 
-## 2.2 理论
+# 2 理论
 1. [On the Integration of Optical Flow and Action Recognition](http://cn.arxiv.org/abs/1712.08416)   
 *2017-12-22* [paper](https://arxiv.org/abs/1712.08416) | [陈泰红](https://zhuanlan.zhihu.com/p/32663227)       
 探讨了双流法中为什么光流有用；   
 - 作者认为two-streams 的光流不是表示运动信息，而是表示外观不变性；   
 - 用行为识别分类误差来训练（fine tune）光流比起用EPE误差来能获得更好的行为识别效果；   
 
-## 2.3 经典
+# 3 经典
 
 1. [StNet: Local and Global Spatial-Temporal Modeling for Action Recognition](http://cn.arxiv.org/abs/1811.01549)    
 AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [pytorch](https://github.com/BigLazyPig/Pytorch-StNet-Full-Implement)-full | [paddlepaddle](https://github.com/PaddlePaddle/models/tree/971509fab5baebca2bfb6fdb32d9b6199197a82a/PaddleCV/video/models/stnet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502)
 
 
-## 2.4 通用
+# 4 通用
 
 1. [Non-local Neural Networks](http://cn.arxiv.org/abs/1711.07971)   
 CVPR 2018 *2017-11-21* [paper](https://arxiv.org/abs/1711.07971) | [caffe2](https://github.com/facebookresearch/video-nonlocal-net) | [zhihu](https://www.zhihu.com/question/68473183)       
@@ -97,8 +86,8 @@ CVPR 2018 (BIVU)*2018-05-12* [paper](https://arxiv.org/abs/1805.04668)
 1. [TSM: Temporal Shift Module for Efficient Video Understanding](http://cn.arxiv.org/abs/1811.08383)   
 *2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-offical      
 
-## 2.5 基本网络
-### 2.5.1 传统方法
+# 5 基本网络
+## 5.1 传统方法
 1. [Dense Trajectories and Motion Boundary Descriptors for Action Recognition](https://hal.inria.fr/hal-00725627v2/document)   
 *2013-01-25* [paper](https://hal.inria.fr/hal-00725627v2/document)   
 iDT   
@@ -107,11 +96,11 @@ iDT
 ICCV 2013 *2013-10-16* [paper](https://hal.inria.fr/hal-00873267v2/document)    
 传统方法，密集轨迹算法(DT算法) iDT；     
 
-### 2.5.2 单帧 CNN
+## 5.2 单帧 CNN
 
-### 2.5.3 扩展 CNN
+## 5.3 扩展 CNN
 
-### 2.5.4 双流法
+## 5.4 双流法
 
 1. [Two-Stream Convolutional Networks for Action Recognition in Videos](http://cn.arxiv.org/abs/1406.2199)   
 NIPS 2014 *2014-06-09* VGG 团队 [paper](https://arxiv.org/abs/1406.2199) | [pytorch](https://github.com/jeffreyhuang1/two-stream-action-recognition) | [陈泰红](https://zhuanlan.zhihu.com/p/31841417)   
@@ -173,7 +162,7 @@ ECCV 2018 *2017-12-13* google [paper](https://arxiv.org/abs/1712.04851) | [S3D-G
 CVPR 2019 *2019-01-11* [paper](https://arxiv.org/abs/1901.03460)   
 
 
-### 2.5.5 C3D
+## 5.5 C3D
 1. [3D Convolutional Neural Networks for Human Action Recognition](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.442.8617&rep=rep1&type=pdf)   
 *2013* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.442.8617&rep=rep1&type=pdf) | [陈泰红](https://zhuanlan.zhihu.com/p/31841353)   
 
@@ -182,7 +171,7 @@ ICCV 2015 *2014-12-02* facebook [paper](https://arxiv.org/abs/1412.0767) [projec
 *Learning spatiotemporal features with 3d convolutional networks*     
 
 
-### 2.5.6 RNN
+## 5.6 RNN
 1. [A Torch Library for Action Recognition and Detection Using CNNs and LSTMs](http://cs231n.stanford.edu/reports/2016/pdfs/221_Report.pdf)  
 *2016* [paper](http://cs231n.stanford.edu/reports/2016/pdfs/221_Report.pdf)    
 
@@ -205,8 +194,8 @@ ICCV 2017 oral 中科院深圳先进·院乔宇
 *2017-07-04* [paper](https://arxiv.org/abs/1707.00803)   
 2017 google cloud & YouTube-8M 挑战赛第四名作品；   
 
-## 2.6 扩展技术
-### 2.6.1 注意力
+# 6 扩展技术
+## 6.1 注意力
 1. [Action Recognition using Visual Attention](http://cn.arxiv.org/abs/1511.04119)   
 *2015-11-12* [paper](https://arxiv.org/abs/1511.04119) | [theano](https://github.com/kracwarlock/action-recognition-visual-attention) | [张智勐SDU](https://blog.csdn.net/zzmshuai/article/details/86063410)    
 
@@ -225,13 +214,13 @@ CVPR 2019 *2018-12-06* DeepMind [paper](https://arxiv.org/abs/1812.02707)
 1. [Marginalized Average Attentional Network for Weakly-Supervised Learning](https://openreview.net/pdf?id=HkljioCcFQ)   
 ICML 2019 *2019-03-05* [paper](https://openreview.net/pdf?id=HkljioCcFQ) | [pytorch](https://github.com/yyuanad/MAAN) | [openreview](https://openreview.net/forum?id=HkljioCcFQ)           
 
-### 2.7.2 符号图
+## 6.2 符号图
 1. [Neural Message Passing on Hybrid Spatio-Temporal Visual and Symbolic Graphs for Video Understanding](http://cn.arxiv.org/abs/1905.07385)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07385)      
 
-## 2.7 改进方向
+# 7 改进方向
 
-### 2.7.1 处理输入
+## 7.1 处理输入
 >空间   
 
 1. [A Key Volume Mining Deep Framework for Action Recognition](https://zpascal.net/cvpr2016/Zhu_A_Key_Volume_CVPR_2016_paper.pdf)   
@@ -255,7 +244,7 @@ ACCV 2018 *2017-04-02* [paper](https://arxiv.org/abs/1704.00389) | [caffe](https
 CVPR 2018 *2017-11-29* [paper](https://arxiv.org/abs/1711.11152) | [caffe](https://github.com/kevin-ssy/Optical-Flow-Guided-Feature) | [Elaine_Bao](https://blog.csdn.net/elaine_bao/article/details/80794990)     
 
 
-### 2.7.2 时空信息融合
+## 7.2 时空信息融合
 1. [Beyond Gaussian Pyramid: Multi-skip Feature Stacking for Action Recognition](http://cn.arxiv.org/abs/1411.6660)   
 *2014-11-24* [paper](https://arxiv.org/abs/1411.6660)   
 
@@ -287,20 +276,24 @@ lastest name:`Deep Convolutional Neural Networks with Merge-and-Run Mappings`
 1. [Bridging Stereo Matching and Optical Flow via Spatiotemporal Correspondence](http://cn.arxiv.org/abs/1905.09265)   
 CVPR 2019 *2019-05-22* [paper](https://arxiv.org/abs/1905.09265) | [pytorch](https://github.com/lelimite4444/BridgeDepthFlow)        
 
-### 2.7.3 多模态
+## 7.3 多模态
 1. [Unseen Action Recognition with Multimodal Learning](http://cn.arxiv.org/abs/1806.08251)   
 *2018-06-21* [paper](https://arxiv.org/abs/1806.08251) | [pytorch](https://github.com/piergiaj/mlb-youtube)      
 
-## 2.8 数据类型
-### 2.8.1 修剪视频识别
+## 7.4 AutoML
+1. [Video Action Recognition Via Neural Architecture Searching](http://cn.arxiv.org/abs/1907.04632)   
+ICIP 2019 *2019-07-10* [paper](https://arxiv.org/abs/1907.04632)    
+
+# 8 数据类型
+## 8.1 修剪视频识别
 即 one-hot 类型；
 
 
-### 2.8.2 未修剪视频识别
+## 8.2 未修剪视频识别
 1. [UntrimmedNets for Weakly Supervised Action Recognition and Detection](http://cn.arxiv.org/abs/1703.03329)   
 CVPR 2017 *2017-03-09* [paper](https://arxiv.org/abs/1703.03329) | [caffe](https://github.com/wanglimin/UntrimmedNet)      
 
-## 2.9 其他
+# 9 其他
 1. [Large-scale video classification with convolutional neural networks](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/42455.pdf)   
 CVPR 2014 *2014* 李飞飞 [paper](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/42455.pdf) | [夏洛的网](https://blog.csdn.net/liuxiao214/article/details/78134319)     
 
@@ -340,7 +333,23 @@ ACM Multimedia 2018 *2018-08-22* [paper](https://arxiv.org/abs/1808.07272)
 
 
 
-# 4 渔
+-------------------  
+[End](#head)
+{:.warning}  
+
+
+# 附录
+## A 数据集
+
+| 数据集 | 来源 | 视频数 | 动作数 | 说明 |
+| --- | --- | --- | --- | --- |
+| [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) | YouTube | 13320 | 101 | |
+| HMDB51 | YouTube | 7000 | 51 | |
+| Kinetics | YouTube | 300K | 400 | |
+| activity-net |  | 10024+4926+5044 | 200 | |
+| 1M sport |  | 1.2 million | 487 | 每类 1k-3k 个视频 |
+
+## B 渔
 - 牛人   
 [David Forsyth](http://luthuli.cs.uiuc.edu/~daf/)   
 [Michal Irani](http://www.weizmann.ac.il/math/irani/)   
@@ -357,11 +366,3 @@ ACM Multimedia 2018 *2018-08-22* [paper](https://arxiv.org/abs/1808.07272)
 
 - 资源   
 [paper with code](https://paperswithcode.com/task/action-recognition/latest?page=3)
-
-
--------------------  
-[End](#head)
-{:.warning}  
-
-
-# 附录

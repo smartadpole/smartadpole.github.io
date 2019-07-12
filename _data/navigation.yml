@@ -142,11 +142,11 @@ docs-en:
         url:    /assets/category/work/foundation/linux.html
 
 C++:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
-  - title:      
+  - title:
     children:
       - title:  基础知识
         url:    /assets/category/work/software/grammer/cpp/foundation.html
@@ -161,11 +161,11 @@ C++:
 
 
 Python:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
-  - title:      
+  - title:
     children:
       - title:  入门
         url:    /assets/category/work/software/grammer/python/foundation.html
@@ -176,12 +176,12 @@ Python:
 
 
 DL:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
-  - title:  
+  - title:
     children:
       - title:  基础
         url:    /assets/category/work/ml/dl/foundation.html
@@ -205,7 +205,7 @@ DL:
       - title:  生成对抗网络
         url:    /assets/category/work/ml/dl/gan.html
 
-  - title:   
+  - title:
     children:
       - title:  自动设计神经网络
         url:    /assets/category/work/ml/dl/automl.html
@@ -225,7 +225,7 @@ DL:
         url:    /assets/category/work/ml/dl/federated_learning.html
 
 CV:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
@@ -255,7 +255,7 @@ CV:
         url:    /assets/category/work/CV_2D/image_generation.html
 
 
-  - title:      专题 
+  - title:      专题
     children:
       - title:  人
         url:    /assets/category/work/CV_2D/human.html
@@ -298,12 +298,12 @@ CV:
 
 
 Video:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
-  - title:      
+  - title:
     children:
       - title:  视频分类
         url:    /assets/category/work/video/classify.html
@@ -311,6 +311,8 @@ Video:
         url:    /assets/category/work/video/detection.html
       - title:  视频超分辨率
         url:    /assets/category/work/video/super_resolution.html
+      - title:  视频修复
+        url:    /assets/category/work/video/inpaint.html
       - title:  视频检索
         url:    /assets/category/work/video/retrival.html
       - title:  视频摘要
@@ -326,12 +328,12 @@ Video:
         url:    /assets/category/work/video/library.html
 
 AUDIO:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
-  - title:      
+  - title:
     children:
       - title:  声纹识别
         url:    /assets/category/work/audio/voiceprint_analysis.html
@@ -340,14 +342,14 @@ AUDIO:
 
 
 NLP:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
 
 DLFramework:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
@@ -380,20 +382,20 @@ DLFramework:
 
 
 OpenCV:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
 ImageProcess:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
 
 DataStructure:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
@@ -480,17 +482,17 @@ DataStructure:
         url:    /assets/category/work/software/algorithms/leetcode.html
 
 ML:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
-  - title:  
+  - title:
     children:
       - title:  无监督学习
         url:    /assets/category/work/ml/ml/unsupervised.html
 
-  - title:  
+  - title:
     children:
       - title:  分类
         url:    /assets/category/work/cv/ml/classify.html
@@ -502,7 +504,7 @@ ML:
         url:    /index.html
 
 
-  - title:  
+  - title:
     children:
       - title:  降维
         url:    /assets/category/work/ml/ml/dimension_reduction.html
@@ -517,18 +519,18 @@ ML:
       - title:  神经网络
         url:    /index.html
 
-  - title:  
+  - title:
     children:
       - title:  理论
         url:    /index.html
 
 RL:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
-  - title:  
+  - title:
     children:
       - title:  入门
         url:    /rl/2019/04/19/foundation.html
@@ -546,7 +548,7 @@ RL:
         url:    /rl/2019/04/19/foundation.html
 
 DS_Tree:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /assets/category/work/algorithms/data_structure/foundation.html
@@ -734,12 +736,12 @@ Algorithms:
 
 
 English:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
-  - title:  
+  - title:
     children:
       - title:  语法
         url:    /assets/category/work/foundation/english/grammar.html
@@ -747,25 +749,25 @@ English:
         url:    /assets/category/work/foundation/english/writing.html
 
 LinearAlgebra:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
 Calculus:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
 Probaility:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
 
 MatrixTheory:
-  - title:  
+  - title:
     children:
       - title:  上一层
         url:    /index.html
@@ -773,7 +775,7 @@ MatrixTheory:
 
 PythonAudioLib:
   - title:
-    children:	
+    children:
       - title:  上一层
         url:    /assets/category/work/software/grammer/python/library3rd.html
   - title:  音频处理库
@@ -787,7 +789,7 @@ PythonAudioLib:
 
 PythonVideoLib:
   - title:
-    children:	
+    children:
       - title:  上一层
         url:    /assets/category/work/software/grammer/python/library3rd.html
   - title:  视频处理库
@@ -914,7 +916,7 @@ ML_Ensemble:
     children:
       - title:  上一层
         url:    /assets/category/work/ml/ml.html
-  - title:  
+  - title:
     children:
       - title:  集成学习入门
         url:    /ml/ensemblelearning/2019/02/19/ensemble-learning.html
@@ -1044,7 +1046,7 @@ NLP_CMU2019:
     children:
       - title:  上一层
         url:    /assets/category/work/NLP/NLP.html
-  - title:  CMU Neural Nets for NLP 2019 
+  - title:  CMU Neural Nets for NLP 2019
     children:
       - title:  L1:Class Introduction
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
@@ -1053,19 +1055,19 @@ NLP_CMU2019:
       - title:  L3:Distributional Semantics and Word Vectors
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L4:Convolutional Neural Nets for Text
-        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L5:Recurrent Networks for Sentence or Language Modeling
-        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L6:Efficiency Tricks for Neural Nets
-        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L7:Conditioned Generation
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L8:Attention
-        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html      
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L9:Sentence and Contextual Word Representations
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L10:Debugging Neural Nets (for NLP)
-        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L11:Search-based Structured Prediction
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L12:Reinforcement Learning
@@ -1077,7 +1079,7 @@ NLP_CMU2019:
       - title:  L15:Latent Random Variables
         url:	/nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L16:Adversarial Methods for Text
-        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L17:Spring Break -- No Class!
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L18:Transition-based Parsing Models
@@ -1093,7 +1095,7 @@ NLP_CMU2019:
       - title:  L23:Document-level Models
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L24:Learning from/for Knowledge Graphs
-        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html    
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L25:Spring Carnival -- No Class!!
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L26:Machine Reading w/ Neural Nets
@@ -1103,7 +1105,7 @@ NLP_CMU2019:
       - title:  L28:Advanced Search Algorithms
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L29:TBD
-        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html      
+        url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
       - title:  L30:Poster Presentations
         url:    /nlp/2019/02/22/cmu2019-nn4nlp-l04.html
 
@@ -1131,7 +1133,7 @@ GAN:
         url:    /dl/gan/2019/04/09/generating.html
       - title:  资源汇总
         url:    /dl/gan/2019/03/26/foundation.html
-  - title:  理论 
+  - title:  理论
     children:
       - title:  GAN
         url:    /dl/gan/2019/03/26/survey.html
@@ -1153,7 +1155,7 @@ GAN:
         url:    /dl/gan/2019/04/09/generating-handwritten-digitals.html
       - title:  训练技巧
         url:    /dl/gan/2019/04/09/tricks.html
-  - title:  典型网络 
+  - title:  典型网络
     children:
       - title:  DCGAN
         url:    /dl/gan/2019/04/09/DCGAN.html
@@ -1175,7 +1177,7 @@ Human:
     children:
       - title:  上一层
         url:    /assets/category/work/CV_2D/cv.html
-  - title:      
+  - title:
     children:
       - title:  唇语识别
         url:    /assets/category/work/CV_2D/human/lip_reading.html
@@ -1212,7 +1214,7 @@ Traffic:
     children:
       - title:  上一层
         url:    /assets/category/work/CV_2D/cv.html
-  - title:      
+  - title:
     children:
       - title:  车辆分析
         url:    /assets/category/work/CV_2D/traffic/vehicle_analysis.html
@@ -1226,7 +1228,7 @@ Linux:
     children:
       - title:  上一层
         url:    /index.html
-  - title:       
+  - title:
     children:
       - title:  Linux 命令
         url:    /assets/category/work/foundation/linux/linux_cmd.html
@@ -1238,7 +1240,7 @@ LinuxCMD:
     children:
       - title:  上一层
         url:    /assets/category/work/foundation/linux.html
-  - title:      Linux 命令 
+  - title:      Linux 命令
     children:
       - title:  基本 shell 命令
         url:    /linux/linuxcommand/2019/05/15/shell_basics.html
@@ -1260,7 +1262,7 @@ Shell:
     children:
       - title:  上一层
         url:    /assets/category/work/foundation/linux.html
-  - title:      编程基础 
+  - title:      编程基础
     children:
       - title:  脚本基础
         url:    /linux/shell/2019/05/15/basic_script.html
@@ -1272,7 +1274,7 @@ Shell:
         url:    /linux/shell/2019/05/15/presenting_data.html
       - title:  控制脚本
         url:    /linux/shell/2019/05/15/script_control.html
-  - title:      高级编程 
+  - title:      高级编程
     children:
       - title:  函数
         url:    /linux/shell/2019/05/15/functions.html
@@ -1304,6 +1306,3 @@ Resume:
         url:    /2019/04/18/project.html
       - title:  项目演示
         url:    /2019/04/18/demo.html
-
-
-

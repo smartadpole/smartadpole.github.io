@@ -6,7 +6,7 @@ key: retrival-faster-rcnn-20181018
 aside:
   toc: true
 tags: Faster-RCNN
-category: [CV, detection, paper_reading]
+category: [CV, retrival, paper_reading]
 ---
 https://blog.csdn.net/dengbingfeng/article/details/51453851
 https://zhuanlan.zhihu.com/p/33625603

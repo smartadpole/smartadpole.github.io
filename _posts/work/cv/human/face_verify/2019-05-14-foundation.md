@@ -11,10 +11,13 @@ tags: 资源
 
 <!--more-->
 
-# 1 Paper  
-## 1.1 综述  
-## 1.2 其他
+# 1 综述  
 
+# 2 理论
+
+# 3 其他
+1. [DocFace: Matching ID Document Photos to Selfies](http://cn.arxiv.org/abs/1805.02283)   
+[paper](https://arxiv.org/abs/1805.02283) | [tensorflow](https://github.com/seasonSH/DocFace) | [解读](/cv/face_verification/transferlearning/paper_reading/2018/10/29/DocFace-Matching-ID-Document-Photos-to-Selfies-Reading.html)    
 
 -------------------  
  [End]()

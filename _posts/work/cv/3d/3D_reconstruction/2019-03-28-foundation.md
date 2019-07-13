@@ -38,7 +38,7 @@ NIPS 2016, 3D GAN [Paper](https://arxiv.org/abs/1610.07584) | [Torch](https://gi
 
 
 1. [Weakly supervised 3D Reconstruction with Adversarial Constraint](http://cn.arxiv.org/abs/1705.10904)   
-*2017-05-31* [Paper](https://arxiv.org/abs/1705.10904) | [Python](https://github.com/jgwak/McRecon)    
+*2017-05-31* [Paper](https://arxiv.org/abs/1705.10904) | [theano](https://github.com/jgwak/McRecon) | [解读](/cv/3d/reconstruction/paper_reading/2019/07/03/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-reading.html)    
 
 
 1. [3D Shape Induction from 2D Views of Multiple Objects](http://cn.arxiv.org/abs/1612.05872)   

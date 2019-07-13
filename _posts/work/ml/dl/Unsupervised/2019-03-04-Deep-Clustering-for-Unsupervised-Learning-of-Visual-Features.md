@@ -5,7 +5,7 @@ date:   2019-03-04 17:00:40 +0800
 key: deep-cluster-20190304
 aside:
   toc: true
-categories: [CV,classification,paper_reading]
+categories: [CV, unsupervised, paper_reading]
 ---
 
 >论文发表时间：2018年07月15日    

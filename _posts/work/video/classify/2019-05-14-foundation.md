@@ -45,7 +45,7 @@ ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)
 # 3 经典
 
 1. [StNet: Local and Global Spatial-Temporal Modeling for Action Recognition](http://cn.arxiv.org/abs/1811.01549)    
-AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [pytorch](https://github.com/BigLazyPig/Pytorch-StNet-Full-Implement)-full | [paddlepaddle](https://github.com/PaddlePaddle/models/tree/971509fab5baebca2bfb6fdb32d9b6199197a82a/PaddleCV/video/models/stnet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502)
+AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [pytorch](https://github.com/BigLazyPig/Pytorch-StNet-Full-Implement)-full | [paddlepaddle](https://github.com/PaddlePaddle/models/tree/971509fab5baebca2bfb6fdb32d9b6199197a82a/PaddleCV/video/models/stnet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502) | [解读](/video/video_classification/paper_reading/2019/05/23/StNet-Local-and-Global-Spatial-Temporal-Modeling-for-Action-Recognition.html)    
 
 
 # 4 通用
@@ -197,12 +197,12 @@ ICCV 2017 oral 中科院深圳先进·院乔宇
 # 6 扩展技术
 ## 6.1 注意力
 1. [Action Recognition using Visual Attention](http://cn.arxiv.org/abs/1511.04119)   
-*2015-11-12* [paper](https://arxiv.org/abs/1511.04119) | [theano](https://github.com/kracwarlock/action-recognition-visual-attention) | [张智勐SDU](https://blog.csdn.net/zzmshuai/article/details/86063410)    
+*2015-11-12* [paper](https://arxiv.org/abs/1511.04119) | [theano](https://github.com/kracwarlock/action-recognition-visual-attention) | [张智勐SDU](https://blog.csdn.net/zzmshuai/article/details/86063410) | [解读](/video/video_classification/paper_reading/2019/05/19/Action-recognition-using-visual-attention.html)    
 
 1. [Attentional Pooling for Action Recognition](#attention_pooling)   
 
 1. [Where and When to Look? Spatio-temporal Attention for Action Recognition in Videos](http://cn.arxiv.org/abs/1810.04511)   
-ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511)   
+ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511) | [解读](/video/video_classification/paper_reading/2019/05/19/where-and-when-to-look-spatio-temporal-attention-for-action-recognition-in-videos.html)   
 
 1. [Semantic Adversarial Network with Multi-scale Pyramid Attention for Video Classification](http://cn.arxiv.org/abs/1902.02155)   
 *2019-03-06* [paper](https://arxiv.org/abs/1902.02155)   
@@ -212,7 +212,7 @@ ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511)
 CVPR 2019 *2018-12-06* DeepMind [paper](https://arxiv.org/abs/1812.02707)   
 
 1. [Marginalized Average Attentional Network for Weakly-Supervised Learning](https://openreview.net/pdf?id=HkljioCcFQ)   
-ICML 2019 *2019-03-05* [paper](https://openreview.net/pdf?id=HkljioCcFQ) | [pytorch](https://github.com/yyuanad/MAAN) | [openreview](https://openreview.net/forum?id=HkljioCcFQ)           
+ICML 2019 *2019-03-05* [paper](https://openreview.net/pdf?id=HkljioCcFQ) | [pytorch](https://github.com/yyuanad/MAAN) | [openreview](https://openreview.net/forum?id=HkljioCcFQ) | [解读](/video/video_classification/paper_reading/2019/05/23/Marginalized-Average-Attentional-Network-for-Weakly-Supervised-Learning.html)              
 
 ## 6.2 符号图
 1. [Neural Message Passing on Hybrid Spatio-Temporal Visual and Symbolic Graphs for Video Understanding](http://cn.arxiv.org/abs/1905.07385)   
@@ -278,7 +278,7 @@ CVPR 2019 *2019-05-22* [paper](https://arxiv.org/abs/1905.09265) | [pytorch](htt
 
 ## 7.3 多模态
 1. [Unseen Action Recognition with Multimodal Learning](http://cn.arxiv.org/abs/1806.08251)   
-*2018-06-21* [paper](https://arxiv.org/abs/1806.08251) | [pytorch](https://github.com/piergiaj/mlb-youtube)      
+*2018-06-21* [paper](https://arxiv.org/abs/1806.08251) | [pytorch](https://github.com/piergiaj/mlb-youtube) | [解读](/video/video_classification/paper_reading/2019/05/23/Unseen-Action-Recognition-with-Multimodal-Learning.html)         
 
 ## 7.4 AutoML
 1. [Video Action Recognition Via Neural Architecture Searching](http://cn.arxiv.org/abs/1907.04632)   

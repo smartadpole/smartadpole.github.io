@@ -132,10 +132,7 @@ https://github.com/imatge-upc/retrieval-2016-icmr
 slides:  http://www.slideshare.net/xavigiro/convolutional-features-for-instance-search  
 
 1. [Faster R-CNN Features for Instance Search](http://cn.arxiv.org/abs/1604.08893)  
-[2016.4] DeepVision Workshop in CVPR  
-[paper](https://arxiv.org/abs/1604.08893)  
-homepage:  http://imatge-upc.github.io/retrieval-2016-deepvision/  
-https://github.com/imatge-upc/retrieval-2016-deepvision  
+CVPR 2016 DeepVision *2016-04-29* [paper](https://arxiv.org/abs/1604.08893) | [project](http://imatge-upc.github.io/retrieval-2016-deepvision/) | [tensorflow](https://github.com/imatge-upc/retrieval-2016-deepvision) | [解读](/cv/retrival/paper_reading/2018/10/18/Faster-RCNN-Features-for-Instance-Search-Reading.html)     
 
 1. [Where to Focus: Query Adaptive Matching for Instance Retrieval Using Convolutional Feature Maps](http://cn.arxiv.org/abs/1606.06811)  
 query adaptive matching (QAM), Feature Map Pooling, Overlapped Spatial Pyramid Pooling (OSPP)  

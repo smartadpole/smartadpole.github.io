@@ -366,3 +366,4 @@ ACM Multimedia 2018 *2018-08-22* [paper](https://arxiv.org/abs/1808.07272)
 
 - 资源   
 [paper with code](https://paperswithcode.com/task/action-recognition/latest?page=3)
+[Awesome Action Recognition](https://github.com/jinwchoi/awesome-action-recognition)    

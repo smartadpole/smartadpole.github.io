@@ -282,7 +282,8 @@ CVPR 2019 *2019-05-22* [paper](https://arxiv.org/abs/1905.09265) | [pytorch](htt
 
 ## 7.4 AutoML
 1. [Video Action Recognition Via Neural Architecture Searching](http://cn.arxiv.org/abs/1907.04632)   
-ICIP 2019 *2019-07-10* [paper](https://arxiv.org/abs/1907.04632)    
+ICIP 2019 *2019-07-10* [paper](https://arxiv.org/abs/1907.04632) | [解读](/video/video_classification/paper_reading/2019/07/13/Video-Action-Recognition-Via-Neural-Architecture-Searching.html)    
+
 
 # 8 数据类型
 ## 8.1 修剪视频识别

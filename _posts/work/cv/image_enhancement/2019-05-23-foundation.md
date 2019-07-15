@@ -14,7 +14,7 @@ tags: 资源
 
 # 1 超分辨率
 ## 1.1 注意力
-1. [Hybrid Residual Attention Network for Single Image Super Resolution](https://arxiv.org/abs/1907.05514)   
+1. [Hybrid Residual Attention Network for Single Image Super Resolution](http://cn.arxiv.org/abs/1907.05514)   
 *2019-07-11* [paper](https://arxiv.org/abs/1907.05514)    
 
 

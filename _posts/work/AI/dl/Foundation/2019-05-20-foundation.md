@@ -15,8 +15,50 @@ tags: 资源
 
 # 1 综述
 
-# 2 训练
-## 2.1 训练方法
+# 2 基础
+
+## 2.1 卷积
+### 2.1.1 标准卷积
+
+### 2.1.2 反卷积
+
+### 2.1.3 深度可分离卷积
+
+### 2.1.4 维度卷积
+1. [DiCENet: Dimension-wise Convolutions for Efficient Networks](http://cn.arxiv.org/abs/1906.03516)    
+*2019-06-08* [paper](https://arxiv.org/abs/1906.03516) | [pytorch](https://github.com/sacmehta/EdgeNets)       
+
+### 2.1.5 其他
+1. [VarGNet: Variable Group Convolutional Neural Network for Efficient Embedded Computing](http://cn.arxiv.org/abs/1907.05653)   
+*2019-07-12* [paper](https://arxiv.org/abs/1907.05653)    
+在深度可分离卷积之上做了改进，使其在嵌入式设备上更易优化；    
+
+## 2.2 激活函数
+1. [Neurons Activation Visualization and Information Theoretic Analysis](http://cn.arxiv.org/abs/1905.08618)   
+*2019-05-14* [paper](https://arxiv.org/abs/1905.08618)   
+
+## 2.3 神经网络
+### 2.3.1 神经网络
+1. [Mean Field Limit of the Learning Dynamics of Multilayer Neural Networks](http://cn.arxiv.org/abs/1902.02880)   
+*2019-02-07* [paper](https://arxiv.org/abs/1902.02880)   
+
+1. [Loss Surface Modality of Feed-Forward Neural Network Architectures](http://cn.arxiv.org/abs/1905.10268)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10268)   
+
+1. [What Can ResNet Learn Efficiently, Going Beyond Kernels?](http://cn.arxiv.org/abs/1905.10337)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10337)   
+
+### 2.3.2 反向传播
+1. [Memorized Sparse Backpropagation](http://cn.arxiv.org/abs/1905.10194)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10194)    
+
+1. [Fully Decoupled Neural Network Learning Using Delayed Gradients](http://cn.arxiv.org/abs/1906.09108)   
+*2019-06-21* [paper](https://arxiv.org/abs/1906.09108)   
+延迟梯度下降：为了解决反向传播的串行执行方式；    
+
+
+# 3 实践
+## 3.1 训练方法
 1. [Sequential training algorithm for neural networks](https://arxiv.org/abs/1905.07490)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07490)    
 $\bullet \bullet$   
@@ -25,7 +67,7 @@ $\bullet \bullet$
 1. [Accelerated Training for Massive Classification via Dynamic Class Selection](http://cn.arxiv.org/abs/1801.01687)   
 *2018-01-05* [paper](https://arxiv.org/abs/1801.01687)   
 
-## 2.2 过拟合
+## 3.2 过拟合
 1. [One-Step or Two-Step Optimization and the Overfitting Phenomenon: A Case Study on Time Series Classification](http://cn.arxiv.org/abs/1407.4364)   
 *2014-07-16* [paper](https://arxiv.org/abs/1407.4364)   
 
@@ -51,16 +93,16 @@ $\bullet \bullet$
 1. [The advantages of multiple classes for reducing overfitting from test set reuse](http://cn.arxiv.org/abs/1905.10360)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10360)   
 
-## 2.3 欠拟合
+## 3.3 欠拟合
 
-## 2.4 模型检验
+## 3.4 模型检验
 >验证模型相关性，并检验过拟合和欠拟合；    
 
 1. [Perturbed Model Validation: A New Framework to Validate Model Relevance](http://cn.arxiv.org/abs/1905.10201)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10201)   
 
 
-## 2.5 梯度爆炸
+## 3.5 梯度爆炸
 1. [On the difficulty of training Recurrent Neural Networks](http://cn.arxiv.org/abs/1211.5063)  
 *2012-11-21* [paper](https://arxiv.org/abs/1211.5063)   
 
@@ -71,14 +113,14 @@ NIPS 2018 *2018-01-11* [paper](https://arxiv.org/abs/1801.03744)
 *2018-12-14* [paper](https://arxiv.org/abs/1812.05994)   
 RELU 梯度问题测量；    
 
-## 2.6 初始化
+## 3.6 初始化
 1. [How to start training: The effect of initialization and architecture](http://cn.arxiv.org/abs/1803.01719)    
 NIPS 2018 *2018-03-05* [paper](https://arxiv.org/abs/1803.01719)   
 
 
-
-# 3 优化
-## 3.1 SGD
+# 4 进阶
+## 4.1 优化
+### 4.1.1 SGD
 1. [The Impact of Neural Network Overparameterization on Gradient Confusion and Stochastic Gradient Descent](https://arxiv.org/abs/1904.06963)   
 *2019-04-15* [paper](https://arxiv.org/abs/1904.06963)   
 SGD 对于模型收敛的影响，及相应网络结构的探索；   
@@ -95,7 +137,7 @@ FG-SGD:细粒度优化，确保收敛到最小值；
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10018)   
 
 
-# 4 归一化
+## 4.2 归一化
 1. [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)   
 *2017-06-08* [Paper](https://arxiv.org/abs/1706.02515) | [tensorflow](https://github.com/bioinf-jku/SNNs) | [zhihu](https://www.zhihu.com/question/60910412) | [reddit](https://www.reddit.com/r/MachineLearning/comments/6g5tg1/r_selfnormalizing_neural_networks_improved_elu/dio0qac/)      
 
@@ -106,46 +148,14 @@ ICLR 2019 *2019-01-27* [paper](https://arxiv.org/abs/1901.09321) | [openreview](
 1. [ROI Regularization for Semi-supervised and Supervised Learning](http://cn.arxiv.org/abs/1905.08615)   
 *2019-05-15* [paper](https://arxiv.org/abs/1905.08615)  
 
-# 5 激活函数
-1. [Neurons Activation Visualization and Information Theoretic Analysis](http://cn.arxiv.org/abs/1905.08618)   
-*2019-05-14* [paper](https://arxiv.org/abs/1905.08618)   
 
-# 6 模型可解释性
+
+## 4.3 模型可解释性
 1. [Explainable Machine Learning for Scientific Insights and Discoveries](http://cn.arxiv.org/abs/1905.08883)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08883)   
 
 1. [On the Learning Dynamics of Two-layer Nonlinear Convolutional Neural Networks](http://cn.arxiv.org/abs/1905.10157)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10157)   
-
-# 7 神经网络
-## 7.1 神经网络
-1. [Mean Field Limit of the Learning Dynamics of Multilayer Neural Networks](http://cn.arxiv.org/abs/1902.02880)   
-*2019-02-07* [paper](https://arxiv.org/abs/1902.02880)   
-
-1. [Loss Surface Modality of Feed-Forward Neural Network Architectures](http://cn.arxiv.org/abs/1905.10268)   
-*2019-05-24* [paper](https://arxiv.org/abs/1905.10268)   
-
-1. [What Can ResNet Learn Efficiently, Going Beyond Kernels?](http://cn.arxiv.org/abs/1905.10337)   
-*2019-05-24* [paper](https://arxiv.org/abs/1905.10337)   
-
-## 7.2 反向传播
-1. [Memorized Sparse Backpropagation](http://cn.arxiv.org/abs/1905.10194)   
-*2019-05-24* [paper](https://arxiv.org/abs/1905.10194)    
-
-1. [Fully Decoupled Neural Network Learning Using Delayed Gradients](http://cn.arxiv.org/abs/1906.09108)   
-*2019-06-21* [paper](https://arxiv.org/abs/1906.09108)   
-延迟梯度下降：为了解决反向传播的串行执行方式；    
-
-# 8 卷积
-## 8.1 标准卷积
-
-## 8.2 反卷积
-
-## 8.3 深度可分离卷积
-
-## 8.4 维度卷积
-1. [DiCENet: Dimension-wise Convolutions for Efficient Networks](http://cn.arxiv.org/abs/1906.03516)    
-*2019-06-08* [paper](https://arxiv.org/abs/1906.03516) | [pytorch](https://github.com/sacmehta/EdgeNets)       
 
 
 -------------------  

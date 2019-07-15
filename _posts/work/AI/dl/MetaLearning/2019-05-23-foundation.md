@@ -78,6 +78,9 @@ CVPR 2018 *2018-03-30* 阿里 [paper](https://arxiv.org/abs/1803.11320)
 *2019-06-30* [paper](https://arxiv.org/abs/1907.00330)    
 >设计了一个新的 loss；   
 
+1. [Dual Adversarial Semantics-Consistent Network for Generalized Zero-Shot Learning](http://cn.arxiv.org/abs/1907.05570)    
+*2019-07-12* [paper](https://arxiv.org/abs/1907.05570)    
+双生 GAN；   
 
 # 6 强化学习
 1. [Sample-efficient policy learning in multi-agent Reinforcement Learning via meta-learning](http://cn.arxiv.org/abs/1805.12375)   

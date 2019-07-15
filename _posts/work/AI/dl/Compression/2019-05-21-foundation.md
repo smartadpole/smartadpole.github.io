@@ -45,18 +45,29 @@ CVPR 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00274)
 1. [Weight Normalization based Quantization for Deep Neural Network Compression](http://cn.arxiv.org/abs/1907.00593)   
 *2019-07-01* [paper](https://arxiv.org/abs/1907.00593)   
 
-# 7 其他
+# 7 知识蒸馏
 1. [Dream Distillation: A Data-Independent Model Compression Framework](http://cn.arxiv.org/abs/1905.07072)   
 ICML 2019 workshop *2019-05-17* [paper](https://arxiv.org/abs/1905.07072)   
 $\bullet \bullet$   
 无需重新训练的模型压缩方法；   
 
+1. [AVD: Adversarial Video Distillation](http://cn.arxiv.org/abs/1907.05640)    
+*2019-07-12* [paper](https://arxiv.org/abs/1907.05640)     
+
+
+# 8 其他
 1. [DARC: Differentiable ARchitecture Compression](http://cn.arxiv.org/abs/1905.08170)   
 *2019-05-20* [paper](https://arxiv.org/abs/1905.08170)   
 
 1. [Geometry of Deep Convolutional Networks](http://cn.arxiv.org/abs/1905.08922)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08922)   
 
+1. [Deep Model Compression via Filter Auto-sampling](http://cn.arxiv.org/abs/1907.05642)   
+*2019-07-12* [paper](https://arxiv.org/abs/1907.05642)    
+
+1. [And the Bit Goes Down: Revisiting the Quantization of Neural Networks](http://cn.arxiv.org/abs/1907.05686)   
+*2019-07-12* [paper](https://arxiv.org/abs/1907.05686)    
+对 resnet 系列网络进行了压缩；    
 
 -------------------  
 [End](#head)

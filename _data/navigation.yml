@@ -251,6 +251,8 @@ CV:
         url:    /assets/category/work/CV_2D/multimodal.html
       - title:  图像生成
         url:    /assets/category/work/CV_2D/image_generation.html
+      - title:  对抗攻击
+        url:    /assets/category/work/CV_2D/adversarial_attack.html
 
 
   - title:      专题

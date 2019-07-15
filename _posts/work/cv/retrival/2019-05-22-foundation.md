@@ -322,6 +322,10 @@ https://github.com/pangsm0415/HeW
 [2018.5-2018.10]  
 [paper](https://arxiv.org/abs/1805.08587)  
 
+1. [ACTNET: end-to-end learning of feature activations and aggregation for effective instance image retrieval](http://cn.arxiv.org/abs/1907.05794)   
+*2019-07-12* [paper](https://arxiv.org/abs/1907.05794)   
+多层特征融合；    
+
 # 5 哈希  
 >用来提升检索速度；     
 

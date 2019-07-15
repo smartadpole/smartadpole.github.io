@@ -38,6 +38,10 @@ tags: 资源
 推荐关注这些大牛的最新动向；  
 Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richard Socher, Tomas Mikolov, Oriol Vinyals, Percy Liang, Jason Weston, Hang Li, Tie-Yan Liu, Mu Li；  
 
+## 1.5 研究员
+1. [杨文瀚](https://flyywh.github.io/index.html)   
+
+
 # 2 Paper
 
 ## 附录

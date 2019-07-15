@@ -36,3 +36,7 @@ tags: 资源
 -------------------  
 [End](#head)   
 {:.warning}  
+
+# 附录
+## A 参考资料
+1. [Intelligent Image Enhancement and Restoration - from Prior Driven Model to Advanced Deep Learning](https://flyywh.github.io/ICME_Tutorial_2019/icme_tutorial.html)       

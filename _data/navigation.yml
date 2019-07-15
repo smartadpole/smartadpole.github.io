@@ -76,20 +76,18 @@ docs-en:
       - title:  opencv
         url:    /assets/category/work/image_process/opencv.html
 
-  - title:      机器学习
+  - title:      人工智能
     children:
-      - title:  特征工程
-        url:    /assets/category/work/ml/feature_engineering.html
-      - title:  模型评估
-        url:    /assets/category/work/ml/model_evaluation.html
+      - title:  数据挖掘
+        url:    /assets/category/work/AI/data_mining.html
       - title:  经典机器学习
-        url:    /assets/category/work/ml/ml.html
+        url:    /assets/category/work/AI/ml.html
       - title:  深度学习
-        url:    /assets/category/work/ml/dl.html
+        url:    /assets/category/work/AI/dl.html
       - title:  强化学习
-        url:    /assets/category/work/ml/reinforcement_learning.html
+        url:    /assets/category/work/AI/reinforcement_learning.html
       - title:  深度学习工具
-        url:    /assets/category/work/ml/dl_framework.html
+        url:    /assets/category/work/AI/dl_framework.html
 
   - title:      应用
     children:
@@ -184,45 +182,45 @@ DL:
   - title:
     children:
       - title:  基础
-        url:    /assets/category/work/ml/dl/foundation.html
+        url:    /assets/category/work/AI/dl/foundation.html
       - title:  正则化
-        url:    /assets/category/work/ml/dl/regularization.html
+        url:    /assets/category/work/AI/dl/regularization.html
       - title:  优化算法
-        url:    /assets/category/work/ml/dl/optimization.html
+        url:    /assets/category/work/AI/dl/optimization.html
       - title:  前向神经网络
-        url:    /assets/category/work/ml/dl/forward_net.html
+        url:    /assets/category/work/AI/dl/forward_net.html
       - title:  卷积神经网络
-        url:    /assets/category/work/ml/dl/cnn.html
+        url:    /assets/category/work/AI/dl/cnn.html
       - title:  循环神经网络
-        url:    /assets/category/work/ml/dl/rnn.html
+        url:    /assets/category/work/AI/dl/rnn.html
       - title:  自编码器
-        url:    /assets/category/work/ml/dl/autoencoder.html
+        url:    /assets/category/work/AI/dl/autoencoder.html
 
   - title:   深度生成模型
     children:
       - title:  玻尔兹曼机
-        url:    /assets/category/work/ml/dl/boltzmann_machine.html
+        url:    /assets/category/work/AI/dl/boltzmann_machine.html
       - title:  生成对抗网络
-        url:    /assets/category/work/ml/dl/gan.html
+        url:    /assets/category/work/AI/dl/gan.html
 
   - title:
     children:
       - title:  自动设计神经网络
-        url:    /assets/category/work/ml/dl/automl.html
+        url:    /assets/category/work/AI/dl/automl.html
       - title:  胶囊网络
-        url:    /assets/category/work/ml/dl/capsule.html
+        url:    /assets/category/work/AI/dl/capsule.html
       - title:  模型压缩
-        url:    /assets/category/work/ml/dl/compression.html
+        url:    /assets/category/work/AI/dl/compression.html
       - title:  元学习
-        url:    /assets/category/work/ml/dl/meta_learning.html
+        url:    /assets/category/work/AI/dl/meta_learning.html
       - title:  迁移学习
-        url:    /assets/category/work/ml/dl/transfer_learning.html
+        url:    /assets/category/work/AI/dl/transfer_learning.html
       - title:  半监督学习
-        url:    /assets/category/work/ml/dl/semi_supervised.html
+        url:    /assets/category/work/AI/dl/semi_supervised.html
       - title:  无监督学习
-        url:    /assets/category/work/ml/dl/unsupervised.html
+        url:    /assets/category/work/AI/dl/unsupervised.html
       - title:  联邦学习
-        url:    /assets/category/work/ml/dl/federated_learning.html
+        url:    /assets/category/work/AI/dl/federated_learning.html
 
 CV:
   - title:
@@ -356,27 +354,27 @@ DLFramework:
   - title:      训练框架
     children:
       - title:  Caffe
-        url:    /assets/category/work/ml/dl_framework/caffe.html
+        url:    /assets/category/work/AI/dl_framework/caffe.html
       - title:  MxNet
-        url:    /assets/category/work/ml/dl_framework/mxnet.html
+        url:    /assets/category/work/AI/dl_framework/mxnet.html
       - title:  Pytorch
-        url:    /assets/category/work/ml/dl_framework/pytorch.html
+        url:    /assets/category/work/AI/dl_framework/pytorch.html
       - title:  Tensoflow
-        url:    /assets/category/work/ml/dl_framework/tensorflow.html
+        url:    /assets/category/work/AI/dl_framework/tensorflow.html
   - title:      推理框架
     children:
       - title:  TensorRT
-        url:    /assets/category/work/ml/dl_framework/tensorrt.html
+        url:    /assets/category/work/AI/dl_framework/tensorrt.html
       - title:  mace
-        url:    /assets/category/work/ml/dl_framework/mace.html
+        url:    /assets/category/work/AI/dl_framework/mace.html
   - title:      中转框架
     children:
       - title:  ONNX
-        url:    /assets/category/work/ml/dl_framework/onnx.html
+        url:    /assets/category/work/AI/dl_framework/onnx.html
   - title:      辅助工具
     children:
       - title:  标注工具
-        url:    /assets/category/work/ml/dl_framework/label_tool.html
+        url:    /assets/category/work/AI/dl_framework/label_tool.html
 
 
 
@@ -481,48 +479,62 @@ DataStructure:
       - title:  LeetCode
         url:    /assets/category/work/software/algorithms/leetcode.html
 
+DM:
+  - title:
+    children:
+      - title:  上一层
+        url:    /index.html
+
+
+  - title:
+    children:
+      - title:  异常检测
+        url:    /assets/category/work/AI/data_mining/anomaly_detect.html
+
 ML:
   - title:
     children:
       - title:  上一层
         url:    /index.html
 
+
   - title:
     children:
-      - title:  无监督学习
-        url:    /assets/category/work/ml/ml/unsupervised.html
+      - title:  特征工程
+        url:    /assets/category/work/AI/ml/feature_engineering.html
+      - title:  模型评估
+        url:    /assets/category/work/AI/ml/model_evaluation.html
+      - title:  降维
+        url:    /assets/category/work/AI/ml/dimension_reduction.html
 
   - title:
     children:
       - title:  分类
-        url:    /assets/category/work/cv/ml/classify.html
+        url:    /assets/category/work/AI/ml/classify.html
       - title:  回归
-        url:    /index.html
+        url:    /assets/category/work/AI/ml/classify.html
       - title:  决策树
-        url:    /index.html
+        url:    /assets/category/work/AI/ml/classify.html
       - title:  概率图
-        url:    /index.html
+        url:    /assets/category/work/AI/ml/classify.html
 
 
   - title:
     children:
-      - title:  降维
-        url:    /assets/category/work/ml/ml/dimension_reduction.html
       - title:  集成学习
-        url:    /assets/category/work/ml/ml/ensemble_learning.html
+        url:    /assets/category/work/AI/ml/ensemble_learning.html
       - title:  采样
-        url:    /index.html
+        url:    /assets/category/work/AI/ml/classify.html
       - title:  结构预测
-        url:    /index.html
-      - title:  异常检测
-        url:    /index.html
+        url:    /assets/category/work/AI/ml/classify.html
       - title:  神经网络
-        url:    /index.html
+        url:    /assets/category/work/AI/dl.html
 
   - title:
     children:
-      - title:  理论
-        url:    /index.html
+      - title:  无监督学习
+        url:    /assets/category/work/AI/ml/unsupervised.html
+
 
 RL:
   - title:
@@ -851,7 +863,7 @@ Unsupervised:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/ml/ml/unsupervised.html
+        url:    /assets/category/work/AI/ml/unsupervised.html
   - title:  原型/划分聚类
     children:
       - title:  k-means
@@ -915,7 +927,7 @@ ML_Ensemble:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/ml/ml.html
+        url:    /assets/category/work/AI/ml.html
   - title:
     children:
       - title:  集成学习入门
@@ -1124,7 +1136,7 @@ GAN:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/ml/dl/gan.html
+        url:    /assets/category/work/AI/dl/gan.html
   - title:  预备
     children:
       - title:  基础

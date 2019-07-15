@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「会议」 视觉顶会源汇总"
+title:  "「会议」 视觉顶会资源汇总"
 date:   2019-05-23 10:06:40 +0800
 key: cv-meeting-foundation-20190523
 aside:
@@ -30,6 +30,10 @@ tags: 资源
 # 6 IJCV
 
 # 7 NIPS
+
+# 8 RLDM
+多学科强化学习与决策会议
+[第四届 2019](http://rldm.org/)      
 
 
 -------------------  

@@ -38,18 +38,18 @@ T-CSVT2018 *2017-05-29* [paper](https://arxiv.org/abs/1705.10118)
 
 # 3 通用
 1. [Crowd Counting Via Scale-adaptive Convolutional Neural Network](https://arxiv.org/abs/1711.04433)   
-WACV 2018 *2017-11-13* [paper](https://arxiv.org/abs/1711.04433) | [caffe](https://github.com/miao0913/SaCNN-CrowdCounting-Tencent_Youtu)        
+WACV 2018 *2017-11-13* [paper](http://cn.arxiv.org/abs/1711.04433) | [caffe](https://github.com/miao0913/SaCNN-CrowdCounting-Tencent_Youtu)        
 <span id="SaCNN">**SaCNN**</span>      
 
-1. [Revisiting Perspective Information for Efficient Crowd Counting](https://arxiv.org/abs/1807.01989)    
+1. [Revisiting Perspective Information for Efficient Crowd Counting](http://cn.arxiv.org/abs/1807.01989)    
 CVPR 2019 *2018-07-05* [paper](https://arxiv.org/abs/1807.01989)   
 <span id="PACNN">**PACNN**</span>   
 
-1. [Context-Aware Crowd Counting](https://arxiv.org/abs/1811.10452)   
+1. [Context-Aware Crowd Counting](http://cn.arxiv.org/abs/1811.10452)   
 CVPR 2019 *2018-11-26* [paper](https://arxiv.org/abs/1811.10452) | [pytorch](https://github.com/CommissarMa/Context-Aware_Crowd_Counting-pytorch)       
 <span id="CAN">**CAN**</span>   
 
-1. [ADCrowdNet: An Attention-injective Deformable Convolutional Network for Crowd Understanding](https://arxiv.org/abs/1811.11968)   
+1. [ADCrowdNet: An Attention-injective Deformable Convolutional Network for Crowd Understanding](http://cn.arxiv.org/abs/1811.11968)   
 CVPR 2019 *2018-11-29* [paper](https://arxiv.org/abs/1811.11968)   
 <span id="ADCrowdNet">**ADCrowdNet**</span>   
 
@@ -69,7 +69,7 @@ WACV 2019 *2019-01-17* [paper](https://arxiv.org/abs/1901.06026)
 T-PAMI 2019 *2019-02-17* [paper](https://arxiv.org/abs/1902.06285)   
 <span id="SL2R">**SL2R**</span>   
 
-1. [Crowd Counting and Density Estimation by Trellis Encoder-Decoder Networks](https://arxiv.org/abs/1903.00853)   
+1. [Crowd Counting and Density Estimation by Trellis Encoder-Decoder Networks](http://cn.arxiv.org/abs/1903.00853)   
 CVPR 2019 *2019-03-03* [paper](https://arxiv.org/abs/1903.00853)   
 <span id="TEDnet">**TEDnet**</span>   
 
@@ -101,7 +101,7 @@ ICME 2019 *2019-03-25* [paper](https://arxiv.org/abs/1903.10442) | [code](https:
 1. [Cross-Line Pedestrian Counting Based on Spatially-Consistent Two-Stage Local Crowd Density Estimation and Accumulation](https://ieeexplore.ieee.org/document/8295124)    
 IEEE T-CSVT 2019 *2019* [paper](https://ieeexplore.ieee.org/document/8295124)    
 
-1. [Point in, Box out: Beyond Counting Persons in Crowds](https://arxiv.org/abs/1904.01333)   
+1. [Point in, Box out: Beyond Counting Persons in Crowds](http://cn.arxiv.org/abs/1904.01333)   
 CVPR 2019 *2019-04-02* [paper](https://arxiv.org/abs/1904.01333)   
 <span id="PSDDN">**PSDDN**</span>   
 
@@ -133,7 +133,7 @@ CVPR 2019 *2019* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/L
 1. [Content-aware Density Map for Crowd Counting and Density Estimation](http://cn.arxiv.org/abs/1906.07258)    
 *2019-06-17* [paper](https://arxiv.org/abs/1906.07258)   
 
-1. [Locate, Size and Count: Accurately Resolving People in Dense Crowds via Detection](https://arxiv.org/abs/1906.07538)   
+1. [Locate, Size and Count: Accurately Resolving People in Dense Crowds via Detection](http://cn.arxiv.org/abs/1906.07538)   
 *2019-06-18* [paper](https://arxiv.org/abs/1906.07538) | [pytorch](https://github.com/val-iisc/lsc-cnn)-offical     
 
 1. [Dense Scale Network for Crowd Counting](http://cn.arxiv.org/abs/1906.09707)   

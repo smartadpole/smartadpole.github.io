@@ -40,6 +40,8 @@ Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richar
 
 ## 1.5 研究员
 1. [杨文瀚](https://flyywh.github.io/index.html)   
+1. [Yadong Mu](http://www.muyadong.com/publication.html)    
+1. [万佳](https://jia-wan.github.io/)   
 
 
 # 2 Paper

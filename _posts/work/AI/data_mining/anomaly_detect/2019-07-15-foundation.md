@@ -9,7 +9,7 @@ category: [data_mining, anomaly_detect]
 tags: 资源
 ---
 <span id='head'></span>  
->识别c出不匹配预期模式或数据；异常也被称为离群值、新奇、噪声、偏差和例外；   
+>识别出不匹配预期模式或数据；异常也被称为离群值、新奇、噪声、偏差和例外；   
 
 
 <!--more-->

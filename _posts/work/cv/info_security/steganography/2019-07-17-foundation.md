@@ -1,8 +1,8 @@
 ---
 layout: article
 title:  "「CV」 数字水印资源汇总"
-date:   2019-07-12 15:21:40 +0800
-key: steganography-foundation-20190712
+date:   2019-07-17 15:21:40 +0800
+key: steganography-foundation-20190717
 aside:
   toc: true
 category: [CV, info_security, digital_watermarking]

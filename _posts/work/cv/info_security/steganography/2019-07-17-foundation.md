@@ -49,6 +49,9 @@ TELFOR 2014 *2015-09-10* [paper](https://arxiv.org/abs/1509.03278)
 
 # 4 深度学习
 ## 4.1 通用
+1. [ Moving Steganography and Steganalysis from the Laboratory into the Real World](https://hal.archives-ouvertes.fr/hal-00836407/document)   
+*2013-06-20* [paper](https://hal.archives-ouvertes.fr/hal-00836407/document)   
+
 1. [SSGAN: Secure Steganography Based on Generative Adversarial Networks](http://cn.arxiv.org/abs/1707.01613)   
 *2017-06-06* [paper](https://arxiv.org/abs/1707.01613)   
 
@@ -110,6 +113,11 @@ IEEE *2018-03-24* [paper](https://arxiv.org/abs/1803.09043)
 
 1. [Invisible Steganography via Generative Adversarial Networks](http://cn.arxiv.org/abs/1807.08571)   
 *2018-07-23* [paper](https://arxiv.org/abs/1807.08571)   
+
+1. [Efficient feature learning and multi-size image steganalysis based on CNN](http://cn.arxiv.org/abs/1807.11428)   
+*2018-07-30* [paper](https://arxiv.org/abs/1807.11428)   
+ZhuNet，任意尺寸输入，Inception 有效性证明；     
+
 
 
 1. [StegoAppDB: a Steganography Apps Forensics Image Database](http://cn.arxiv.org/abs/1904.09360)   
@@ -173,3 +181,9 @@ ICMR 2017 *2017-01-15* [paper](https://arxiv.org/abs/1701.04082) | [keras](https
 
 # 附录
 ## A 参考资料
+
+## B 数据集
+
+| 数据集 | 训练集（万张） | 验证集（万张） | 测试集（万张） | 分辨率 |
+| --- | --- | --- | --- | --- |
+| [BOSS](http://agents.fel.cvut.cz/boss/index.php?mode=VIEW&tmpl=materials) | 0.9 | 0.1 | | 512×512 |   

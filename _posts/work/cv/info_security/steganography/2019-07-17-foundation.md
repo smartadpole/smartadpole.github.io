@@ -11,9 +11,14 @@ tags: 资源
 <span id='head'></span>
 >数字水印：在不影响数字载体（包括多媒体——图片、视频、音频，文档，软件等）使用价值的情况下，将标识信息嵌入到载体中；   
 
+<!--more-->
+
+<center class="half">
+  <img src="/assets/images/cv/info_security/steganography/steganography.png"><br>图1：数字水印流程
+</center>
+
 `Digital Watermarking` · `Steganography`      
 
-<!--more-->
 
 # 1 综述
 1. [Watermarking of Digital Images](https://pdfs.semanticscholar.org/6802/ff69fde342b03f54c2b26a36d277527f9154.pdf)   
@@ -51,6 +56,7 @@ TELFOR 2014 *2015-09-10* [paper](https://arxiv.org/abs/1509.03278)
 ## 4.1 通用
 1. [ Moving Steganography and Steganalysis from the Laboratory into the Real World](https://hal.archives-ouvertes.fr/hal-00836407/document)   
 *2013-06-20* [paper](https://hal.archives-ouvertes.fr/hal-00836407/document)   
+显示应用；   
 
 1. [SSGAN: Secure Steganography Based on Generative Adversarial Networks](http://cn.arxiv.org/abs/1707.01613)   
 *2017-06-06* [paper](https://arxiv.org/abs/1707.01613)   

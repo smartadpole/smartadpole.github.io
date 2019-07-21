@@ -23,6 +23,8 @@ tags: 资源
 ### 2.1.2 反卷积
 
 ### 2.1.3 深度可分离卷积
+1. [Network Decoupling: From Regular to Depthwise Separable Convolutions](http://cn.arxiv.org/abs/1808.05517)   
+*2018-08-16* [paper](https://arxiv.org/abs/1808.05517)   
 
 ### 2.1.4 维度卷积
 1. [DiCENet: Dimension-wise Convolutions for Efficient Networks](http://cn.arxiv.org/abs/1906.03516)    

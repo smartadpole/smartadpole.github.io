@@ -105,6 +105,9 @@ AsiaCCS *2018* [paper](https://gzs715.github.io/pubs/WATERMARK_ASIACCS18.pdf)
 1. [End-to-end Trained CNN Encode-Decoder Networks for Image Steganography](http://cn.arxiv.org/abs/1711.07201)   
 *2017-11-20* [paper](https://arxiv.org/abs/1711.07201)   
 
+1. [A Novel Convolutional Neural Network for Image Steganalysis with Shared Normalization](http://cn.arxiv.org/abs/1711.07306)   
+*2017-11-20* [paper](https://arxiv.org/abs/1711.07306)    
+
 1. [Deep Learning Hierarchical Representations for Image Steganalysis](https://web.njit.edu/~usman/courses/cs698_spring18/DEEP%20LEARNING.pdf)   
 *2017-11* [paper](https://web.njit.edu/~usman/courses/cs698_spring18/DEEP%20LEARNING.pdf) | [pytorch](https://github.com/Caenorst/YeNet-Pytorch)      
 
@@ -157,6 +160,7 @@ AAAi 2019 *2018-09-10* [paper](https://arxiv.org/abs/1809.03463)
 
 ## 4.6 网络模型
 >给模型打水印；    
+
 1. [DeepSigns: An End-to-End Watermarking Framework for Protecting the Ownership of Deep Neural Networks](https://www.microsoft.com/en-us/research/uploads/prod/2018/11/2019ASPLOS_Final_DeepSigns.pdf)   
 [paper](https://www.microsoft.com/en-us/research/uploads/prod/2018/11/2019ASPLOS_Final_DeepSigns.pdf)   
 

@@ -169,15 +169,7 @@ Raw 图像的真实场景超分辨率，模拟真实成像过程生成训练数�
 
 
 # 9 应用
-## 9.1 视频
-1. [Recurrent Back-Projection Network for Video Super-Resolution](http://cn.arxiv.org/abs/1903.10128)  
-CVPR 2019 *2019-03-25* 日本丰田技术研究所、美国芝加哥丰田技术研究所 [paper](https://arxiv.org/abs/1903.10128) | [project](https://alterzero.github.io/projects/RBPN.html) | [pytorch](https://github.com/alterzero/RBPN-PyTorch)-offical      
-<span id="RBPN">**RBPN**</span> 用于视频超分辨率的循环反投影网络；   
-
-1. [Fast Spatio-Temporal Residual Network for Video Super-Resolution](http://cn.arxiv.org/abs/1904.02870)   
-CVPR 2019 *2019-04-05* 武汉大学、悉尼大学 [paper](https://arxiv.org/abs/1904.02870)   
-快速时空残差网络，用于视频超分辨；   
-
+## 9.1 [视频](/video/video_super_resolution/2019/05/14/foundation.html)    
 
 ## 9.2 3D
 1. [3D Appearance Super-Resolution With Deep Learning](http://cn.arxiv.org/abs/1906.00925)   

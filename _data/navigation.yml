@@ -183,10 +183,6 @@ DL:
     children:
       - title:  基础
         url:    /assets/category/work/AI/dl/foundation.html
-      - title:  正则化
-        url:    /assets/category/work/AI/dl/regularization.html
-      - title:  优化算法
-        url:    /assets/category/work/AI/dl/optimization.html
       - title:  前向神经网络
         url:    /assets/category/work/AI/dl/forward_net.html
       - title:  卷积神经网络

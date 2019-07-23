@@ -51,6 +51,12 @@ tags: 资源
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10337)   
 
 ### 2.3.2 反向传播
+1. [Learning Internal Representations by Error Propagation](http://concepts.psych.wisc.edu/papers/711/RumelhartBackprop.pdf)   
+*1985-09-05* Hinton [paper](http://concepts.psych.wisc.edu/papers/711/RumelhartBackprop.pdf)   
+
+1. [Learning representations by back-propagating errors](https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf)    
+*1986* Hinton [paper](https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf)     
+
 1. [Memorized Sparse Backpropagation](http://cn.arxiv.org/abs/1905.10194)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10194)    
 
@@ -60,14 +66,19 @@ tags: 资源
 
 
 # 3 实践
-## 3.1 训练方法
+## 3.1 训练
+1. [Large Scale Distributed Deep Networks](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
+NIPS 2012 *2012* [paper](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
+大规模分布式训练；   
+
+1. [Accelerated Training for Massive Classification via Dynamic Class Selection](http://cn.arxiv.org/abs/1801.01687)   
+*2018-01-05* [paper](https://arxiv.org/abs/1801.01687)   
+
 1. [Sequential training algorithm for neural networks](https://arxiv.org/abs/1905.07490)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07490)    
 $\bullet \bullet$   
 网络逐层单独训练，最终融合在一起；虽然效果不如整体训练好，但是对于算力有限情况下的大型网络训练很有帮助；   
 
-1. [Accelerated Training for Massive Classification via Dynamic Class Selection](http://cn.arxiv.org/abs/1801.01687)   
-*2018-01-05* [paper](https://arxiv.org/abs/1801.01687)   
 
 ## 3.2 过拟合
 1. [One-Step or Two-Step Optimization and the Overfitting Phenomenon: A Case Study on Time Series Classification](http://cn.arxiv.org/abs/1407.4364)   
@@ -122,7 +133,70 @@ NIPS 2018 *2018-03-05* [paper](https://arxiv.org/abs/1803.01719)
 
 # 4 进阶
 ## 4.1 优化
-### 4.1.1 SGD
+### 4.1.1 综述
+1. [An overview of gradient descent optimization algorithms](http://cn.arxiv.org/abs/1609.04747)   
+*2016-09-15* [paper](https://arxiv.org/abs/1609.04747)   
+
+1. [A Survey of Optimization Methods from a Machine Learning Perspective](http://cn.arxiv.org/abs/1906.06821)   
+*2019-06-17* [paper](https://arxiv.org/abs/1906.06821)    
+
+### 4.1.2 经典
+1. [Two problems with backpropagation and other steepest-descent learning procedures for networks](http://incompleteideas.net/papers/sutton-86.pdf)   
+*1986* [paper](http://incompleteideas.net/papers/sutton-86.pdf)   
+指出SGD搜索的效率十分低下的缺陷；    
+
+1. [Improving the convergence of back-propagation learning with second-order methods](http://yann.lecun.com/exdb/publis/pdf/becker-lecun-89.pdf)   
+*1988* [paper](http://yann.lecun.com/exdb/publis/pdf/becker-lecun-89.pdf)    
+
+1. [Acceleration of stochastic approximation by averaging](https://pdfs.semanticscholar.org/6dc6/1f37ecc552413606d8c89ffbc46ec98ed887.pdf)   
+*1992-07* [paper](https://pdfs.semanticscholar.org/6dc6/1f37ecc552413606d8c89ffbc46ec98ed887.pdf)   
+平均随机梯度下降；   
+
+1. [Analysis of Natural Gradient Descent for Multilayer Neural Networks](http://cn.arxiv.org/abs/cond-mat/9901212)   
+*1999-01-21* [paper](https://arxiv.org/abs/cond-mat/9901212)    
+
+1. [On the momentum term in gradient descent learning algorithms](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.5612&rep=rep1&type=pdf)   
+*1999* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.5612&rep=rep1&type=pdf)   
+动量应用于SGD；    
+
+1. [Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf)   
+*2011-07* [paper](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf)    
+**Adagrade**：对每个参数有单独的学习速率；但是学习速度会快速下降；     
+
+1. [ADADELTA: An Adaptive Learning Rate Method](http://cn.arxiv.org/abs/1212.5701)  
+*2012-12-22* [paper](https://arxiv.org/abs/1212.5701)   
+**AdadDelta**    
+
+1. [Adam: A Method for Stochastic Optimization](http://cn.arxiv.org/abs/1412.6980)    
+ICLR 2014 *2014-12-22* [paper](https://arxiv.org/abs/1412.6980)    
+**Adam**：改进 RMSProp；可以为每个参数单独指定自适应学习速率，除了存储像RMSprop之类的过去梯度的平方的指数加权平均值之外，Adam还计算过去梯度的指数加权平均值，类似于动量；          
+
+1. [Kalman-Based Stochastic Gradient Method with Stop Condition and Insensitivity to Conditioning](https://arxiv.org/abs/1512.01139)   
+*2015-12-03* [paper](https://arxiv.org/abs/1512.01139)   
+**kSGD**：基于卡尔曼的随机梯度下降，对超参不敏感，但是计算量太大；   
+
+1. [Small steps and giant leaps: Minimal Newton solvers for Deep Learning](https://arxiv.org/abs/1805.08095)   
+*2018-05-21* [paper](https://arxiv.org/abs/1805.08095) | [openreview](https://openreview.net/forum?id=Sygx4305KQ)     
+直接替换当前使用的深度学习求解器的快速二阶方法；   
+
+### 4.1.2 其他
+
+1. [No More Pesky Learning Rates](http://cn.arxiv.org/abs/1206.1106)   
+*2012-06-06* [paper](https://arxiv.org/abs/1206.1106)   
+自适应调整学习率；   
+
+1. [Aggregated Momentum: Stability Through Passive Damping](http://cn.arxiv.org/abs/1804.00325)   
+*2018-04-01* [paper](https://arxiv.org/abs/1804.00325)   
+
+
+1. [Adaptive Gradient Methods With Dynamic Bound Of Learning Rate](http://cn.arxiv.org/abs/1902.09843)   
+ICLR 2019 *2019-02-26* [paper](https://arxiv.org/abs/1902.09843) | [pytorch](https://github.com/Luolc/AdaBound)-offical | [openreview](https://openreview.net/forum?id=Bkg3g2R9FX)      
+
+
+### 4.1.3 SGD
+1. [Deep learning with Elastic Averaging SGD](http://cn.arxiv.org/abs/1412.6651)   
+NIPS 2015 *2014-12-20* [paper](https://arxiv.org/abs/1412.6651)   
+
 1. [The Impact of Neural Network Overparameterization on Gradient Confusion and Stochastic Gradient Descent](https://arxiv.org/abs/1904.06963)   
 *2019-04-15* [paper](https://arxiv.org/abs/1904.06963)   
 SGD 对于模型收敛的影响，及相应网络结构的探索；   

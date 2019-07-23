@@ -15,6 +15,9 @@ tags: 资源
 
 
 # 1 综述
+1. [Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149)   
+ICLR 2016 oral *2015-10-01* [paper](https://arxiv.org/abs/1510.00149)    
+
 
 # 2 理论
 1. [Doctor of Crosswise: Reducing Over-parametrization in Neural Networks](http://cn.arxiv.org/abs/1905.10324)   

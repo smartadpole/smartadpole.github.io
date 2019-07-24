@@ -78,16 +78,18 @@ docs-en:
 
   - title:      人工智能
     children:
+      - title:  深度学习工具
+        url:    /assets/category/work/AI/dl_framework.html
+      - title:  深度学习
+        url:    /assets/category/work/AI/dl.html
       - title:  数据挖掘
         url:    /assets/category/work/AI/data_mining.html
       - title:  经典机器学习
         url:    /assets/category/work/AI/ml.html
-      - title:  深度学习
-        url:    /assets/category/work/AI/dl.html
       - title:  强化学习
         url:    /assets/category/work/AI/reinforcement_learning.html
-      - title:  深度学习工具
-        url:    /assets/category/work/AI/dl_framework.html
+      - title:  人工智能
+        url:    /assets/category/work/AI/ai.html
 
   - title:      应用
     children:

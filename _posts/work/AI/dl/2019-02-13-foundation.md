@@ -34,15 +34,6 @@ tags: 资源
   [智能单元](https://zhuanlan.zhihu.com/easyml)，
   [深度学习大讲堂](https://zhuanlan.zhihu.com/dlclass)
 
-## 1.4 大牛
-推荐关注这些大牛的最新动向；  
-Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richard Socher, Tomas Mikolov, Oriol Vinyals, Percy Liang, Jason Weston, Hang Li, Tie-Yan Liu, Mu Li；  
-
-## 1.5 研究员
-1. [杨文瀚](https://flyywh.github.io/index.html)   
-1. [Yadong Mu](http://www.muyadong.com/publication.html)    
-1. [万佳](https://jia-wan.github.io/)   
-
 
 # 2 Paper
 

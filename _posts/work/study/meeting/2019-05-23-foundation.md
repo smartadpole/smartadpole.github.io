@@ -9,6 +9,7 @@ category: [meeting]
 tags: 资源
 ---
 <span id='head'></span>  
+>顶会论文于业界常常具有导向作用；     
 
 
 <!--more-->
@@ -32,13 +33,21 @@ tags: 资源
 # A 类
 >A类是顶会，尤其是一些热门的研究方向，一般是投稿多录用率低；    
 
-## AAAI
+## [AAAI](https://www.aaai.org/Conferences/conferences.php)
 >AAAI Conference on Artificial Intelligence    
 
-|  | 2017年	| 2018年	| 2019年 |
+[paper](https://www.aaai.org/Library/AAAI/aaai-library.php)
+|  | 2017年	| 2018年	| [2019年](https://aaai.org/Conferences/AAAI-19/) |
 | --- | --- | --- | --- |
-| 投稿数	| 2571	| 3808	| 7745|
+| 投稿数	| 2571	| 3808	| 7095|
+| 一作·学生	| 	| 	| 4865 |
+| 录用数	| 639	| 938	| 1147 |
+| oral	| 	| 	| 460 |
 | 录用率	| 24.9%	| 24.6%	| 16.2%|
+| 最佳论文	| 	| 	| |
+
+[2017 最佳](https://www.jiqizhixin.com/articles/2017-08-17-11)   
+[2019 关键词](https://aaai.org/Conferences/AAAI-19/aaai19keywords/)、[2019 笔记](https://david-abel.github.io/notes/aaai_2019.pdf)、[2019 最佳](https://medium.com/syncedreview/aaai-19-announces-best-papers-9b1d4510cf73)            
 
 ## IJCAI
 >International Joint Conference on Artificial Intelligence    
@@ -46,6 +55,7 @@ tags: 资源
 |  | 2017年	| 2018年	| 2019年 |
 | --- | --- | --- | --- |
 | 投稿数	| 2540	| 3470	| 4752 |
+| 录用数	| 660	| 710	|  |
 | 录用率	| 26%	| 20.5%	| 17.8% |
 
 
@@ -65,18 +75,27 @@ tags: 资源
 |  | 2017年	| 2018年	| [2019年](https://icml.cc/Conferences/2019/Schedule?type=Poster)  |
 | --- | --- | --- | --- |
 | 投稿数	| 1676	| 2473	| 3424 |
+| 录用数	| 434	| 	|  |
 | 录用率	| 25.9%	| 25%	| 22.6% |
 
 
 ## NIPS
+>Annual Conference on Neural Information Processing Systems    
+
+|  | 2017年	| 2018年	| 2019年 |
+| --- | --- | --- | --- |
+| 投稿数	| 3240	| 4856	|  |
+| 录用数	| 678	| 1011	|  |
+| 录用率	| 20.9%	| 20.7%	|  |
 
 ## CVPR
 >IEEE Conference on Computer Vision and Pattern Recognition   
 
 |  | 2017年	| 2018年	| [2019年](http://openaccess.thecvf.com/CVPR2019.py) |
 | --- | --- | --- | --- |
-| 投稿数	| 2680	| 3309	| 5100+|
-| 录用率	| 29%	| 29.6%	| 25.2%|
+| 投稿数	| 2680	| 3309	| 5100+ |
+| 录用数	| 783	| 979	|  |
+| 录用率	| 29%	| 29.6%	| 25.2% |
 
 ## IJCV
 >International Journal of Computer Vision；学术刊物    

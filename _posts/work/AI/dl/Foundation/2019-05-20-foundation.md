@@ -14,11 +14,20 @@ tags: 资源
 
 
 # 1 综述
+1. [Deep Learning](https://pdfs.semanticscholar.org/425f/c05d848f0318289f496f7b5e8cad26b123f6.pdf)   
+*2015* Hinton [PPT](https://pdfs.semanticscholar.org/425f/c05d848f0318289f496f7b5e8cad26b123f6.pdf)    
+
+1. [Review of Deep Learning](http://cn.arxiv.org/abs/1804.01653)   
+*2018-04-05* [paper](https://arxiv.org/abs/1804.01653)   
+
 
 # 2 基础
 
 ## 2.1 卷积
 ### 2.1.1 标准卷积
+1. [A guide to convolution arithmetic for deep learning](http://cn.arxiv.org/abs/1603.07285)    
+*2016-03-23* [paper](https://arxiv.org/abs/1603.07285)    
+
 
 ### 2.1.2 反卷积
 
@@ -34,6 +43,10 @@ tags: 资源
 1. [VarGNet: Variable Group Convolutional Neural Network for Efficient Embedded Computing](http://cn.arxiv.org/abs/1907.05653)   
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05653)    
 在深度可分离卷积之上做了改进，使其在嵌入式设备上更易优化；    
+
+1. [Random Shifting for CNN: a Solution to Reduce Information Loss in Down-Sampling Layers](https://www.ijcai.org/proceedings/2017/0486.pdf)    
+IJCAI 2017 *2017* [paper](https://www.ijcai.org/proceedings/2017/0486.pdf)    
+
 
 ## 2.2 激活函数
 1. [Neurons Activation Visualization and Information Theoretic Analysis](http://cn.arxiv.org/abs/1905.08618)   

@@ -618,6 +618,16 @@ PyTorch: https://github.com/bnulihaixia/Deep_metric
 [paper](https://arxiv.org/abs/1808.04469)  
 https://github.com/littleredxh/DREML  
 
+# 8 其他
+1. [Large-Scale Image Retrieval with Attentive Deep Local Features](http://cn.arxiv.org/abs/1612.06321)   
+ICCV 2017 *2016-12-19* Google [paper](https://arxiv.org/abs/1612.06321) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)      
+**DELF**，同时发布了较大的[地标建筑检索数据集](https://www.kaggle.com/google/google-landmarks-dataset#test.csv)([详细说明](/competition/2019/07/25/Google-Landmark-Retrieval-2019.html))；   
+
+# 9 检测&检索
+1. [Detect-to-Retrieve: Efficient Regional Aggregation for Image Search](http://cn.arxiv.org/abs/1812.01584)   
+CVPR 2019 *2018-12-04* Google [paper](https://arxiv.org/abs/1812.01584) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)       
+
+
 -------------------  
 [End](#head)
 {:.warning}  
@@ -631,6 +641,7 @@ https://github.com/littleredxh/DREML
 ## B 参考资料
 1. zwr1994. Learning to Hash 综述阅读笔记[EB/OL]. <https://blog.csdn.net/zwr1994/article/details/78047703>. 2018-03-16/2019-07-02.    
 1. -. Learning to Hash[EB/OL]. <https://cs.nju.edu.cn/lwj/L2H.html>. -/2019-07-02.      
+1. [CVPR 2018 地标建筑物识别](https://landmarksworkshop.github.io/CVPRW2018/)     
 
 ## C 开源项目
 1. [DeepHash](https://github.com/thulab/DeepHash)

@@ -24,15 +24,26 @@ tags: 资源
 ## 1.1 综述
 1. [Watermarking of Digital Images](https://pdfs.semanticscholar.org/6802/ff69fde342b03f54c2b26a36d277527f9154.pdf)   
 *2012-06-03* [paper](https://pdfs.semanticscholar.org/6802/ff69fde342b03f54c2b26a36d277527f9154.pdf)   
+$\bullet \bullet$    
+关于传统算法的水印综述，内容非常全面广泛，除了没有覆盖到 DL；     
+*貌似是 99 年的论文，因为原稿丢了，12 年重新出版了这个；*    
 
 1. [A Survey of Digital Watermarking Techniques and its Applications](http://cn.arxiv.org/abs/1407.4735)   
 *2014-07-17* [paper](https://arxiv.org/abs/1407.4735)    
+$\bullet \bullet$ **入门**   
+关于传统水印算法的总数，总共 4 页，真是短小精悍；看完会对水印有个整体认识的，非常推荐作为水印入门读物；     
+>可惜了我花了两天时间要死要活地折腾出一个[Survey](/cv/info_security/digital_watermarking/2019/07/17/survey.html)，要是早看到这篇，分分钟搞定，看来还是综述文章最容易入门；     
 
 1. [Analysis of Visible and Invisible Image Watermarking – A Review](https://pdfs.semanticscholar.org/49cd/4d69855f4cc89e46385a2f3e803262100c56.pdf)   
 *2016-08* [paper](https://pdfs.semanticscholar.org/49cd/4d69855f4cc89e46385a2f3e803262100c56.pdf)   
+针对传统方法的综述，主讲了 DWT、DCT 和 DFT；    
+>文章内容较少，不是一篇优质的 review，应该是频域水印算法回顾；    
 
 1. [A Comprehensive Survey of Watermarking Relational Databases Research](http://cn.arxiv.org/abs/1801.08271)   
 *2018-01-25* [paper](https://arxiv.org/abs/1801.08271)    
+数据库和数字指纹综述；    
+>似乎已经超出 CV 领域，不过也有借鉴意义，空了可以看；    
+
 
 ## 1.2 理论
 1. [Steganography Security: Principle and Practice](http://cn.arxiv.org/abs/1806.03618)  

@@ -516,30 +516,33 @@ ICCV2017
 *2017-01-04* [paper](https://arxiv.org/abs/1701.01081) | [theano](https://github.com/imatge-upc/saliency-salgan-2017)   
 
 
-## 34 其他
-
+# 34 其他
 1. [Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://cn.arxiv.org/abs/1506.05751)  
-[Code](https://github.com/facebook/eyescream)
+*2015-01-18* [paper](https://arxiv.org/abs/1506.05751) | [torch](https://github.com/facebook/eyescream)    
 
-1. [Adversarial Autoencoders](http://arxiv.org/abs/1511.05644)  
-[Code](https://github.com/musyoku/adversarial-autoencoder)
+1. [Adversarial Autoencoders](http://cn.arxiv.org/abs/1511.05644)  
+*2015-11-18* [paper](https://arxiv.org/abs/1511.05644) | [chainer](https://github.com/musyoku/adversarial-autoencoder)    
 
 1. [Generating Images with Perceptual Similarity Metrics based on Deep Networks](http://cn.arxiv.org/abs/1601.02644)   
+*2016-02-08* [paper](https://arxiv.org/abs/1602.02644) | [tensorflow](https://github.com/shijx12/DeepSim)        
+**DeepSim**   
 
 1. [Generating images with recurrent adversarial networks](http://cn.arxiv.org/abs/1601.05110)  
-[Code](https://github.com/ofirnachum/sequence_gan)
+*2016-02-16* [paper](https://arxiv.org/abs/1602.05110) | [theano](https://github.com/ofirnachum/sequence_gan)    
+**GRAN**    
 
-1. [Generative Visual Manipulation on the Natural Image Manifold](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/eccv16_gvm.pdf)  
-[Code](https://github.com/junyanz/iGAN)
+1. [Generative Visual Manipulation on the Natural Image Manifold](http://cn.arxiv.org/abs/1609.03552)  
+ECCV 2016 *2016-09-12* [paper](https://arxiv.org/abs/1609.03552) | [theano](https://github.com/junyanz/iGAN)    
+**iGAN**    
 
 1. [Learning What and Where to Draw](http://cn.arxiv.org/abs/1610.02454)     
-NIPS 2016 *2016-10-08* [paper](https://arxiv.org/abs/1610.02454) | [Code](https://github.com/reedscot/nips2016)
+NIPS 2016 *2016-10-08* [paper](https://arxiv.org/abs/1610.02454) | [torch](https://github.com/reedscot/nips2016)    
 
 1. [Adversarial Training for Sketch Retrieval](http://cn.arxiv.org/abs/1607.02748)   
-ECCV 2016 *2016-07-10* [paper](https://arxiv.org/abs/1607.02748)     
+ECCV 2016 *2016-07-10* [paper](https://arxiv.org/abs/1607.02748)      
 
 1. [Generative Image Modeling using Style and Structure Adversarial Networks](http://cn.arxiv.org/abs/1603.05631)  
-*2016-03-17* [paper](https://arxiv.org/abs/1603.05631) | [torch](https://github.com/xiaolonw/ss-gan)
+*2016-03-17* [paper](https://arxiv.org/abs/1603.05631) | [torch](https://github.com/xiaolonw/ss-gan)    
 
 1. [Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](http://cn.arxiv.org/abs/1605.09304)   
 NIPS *2016-05-30* [paper](https://arxiv.org/abs/1605.09304) | [caffe](https://github.com/Evolving-AI-Lab/synthesizing) | [project](http://www.evolvingai.org/synthesizing)   

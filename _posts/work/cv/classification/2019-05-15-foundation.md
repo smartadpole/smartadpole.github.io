@@ -31,7 +31,7 @@ CVPR 2019 *2019-02-26* [paper](https://arxiv.org/abs/1902.09720)
 
 
 # 6 应用
-## 6.1 OCR
+## 6.1 [OCR](/cv/ocr/2019/07/27/foundation.html#3-字符识别)
 
 ## 6.2 金融
 `股票预测`    

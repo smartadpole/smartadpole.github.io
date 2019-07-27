@@ -257,6 +257,8 @@ CV:
     children:
       - title:  人
         url:    /assets/category/work/CV_2D/human.html
+      - title:  OCR
+        url:    /assets/category/work/CV_2D/ocr.html
       - title:  交通
         url:    /assets/category/work/CV_2D/traffic.html
       - title:  医疗
@@ -265,11 +267,11 @@ CV:
         url:    /assets/category/work/CV_2D/agriculture.html
       - title:  自然
         url:    /assets/category/work/CV_2D/nature.html
-      - title:  信息安全
+      - title:  安全隐私
         url:    /assets/category/work/CV_2D/info_security.html
 
 
-  - title:      NLP
+  - title:      NLP&CV
     children:
       - title:  视觉问答
         url:    /assets/category/work/CV_2D/vaq.html
@@ -517,6 +519,8 @@ ML:
         url:    /assets/category/work/AI/ml/classify.html
       - title:  概率图
         url:    /assets/category/work/AI/ml/classify.html
+      - title:  贝叶斯学习
+        url:    /assets/category/work/AI/ml/classify.html
 
 
   - title:
@@ -527,12 +531,22 @@ ML:
         url:    /assets/category/work/AI/ml/classify.html
       - title:  结构预测
         url:    /assets/category/work/AI/ml/classify.html
+      - title:  进化学习
+        url:    /assets/category/work/AI/ml/classify.html
+      - title:  规则学习
+        url:    /assets/category/work/AI/ml/classify.html
+      - title:  核方法
+        url:    /assets/category/work/AI/ml/classify.html
+      - title:  推荐系统
+        url:    /assets/category/work/AI/ml/classify.html
       - title:  神经网络
         url:    /assets/category/work/AI/dl.html
 
   - title:
     children:
       - title:  无监督学习
+        url:    /assets/category/work/AI/ml/unsupervised.html
+      - title:  弱监督学习
         url:    /assets/category/work/AI/ml/unsupervised.html
 
 

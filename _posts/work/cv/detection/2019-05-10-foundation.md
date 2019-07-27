@@ -351,16 +351,7 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 ### 5.1.1 人脸检测
 ### 5.1.2 行人检测
 
-## 5.2 文本
-
-### 5.2.1 数据集
-1. [ICDAR2019 Robust Reading Challenge on Multi-lingual Scene Text Detection and Recognition -- RRC-MLT-2019](http://cn.arxiv.org/abs/1907.00945)   
-ICDAR 2019*2019-07-01* [paper](https://arxiv.org/abs/1907.00945) | [competition](https://rrc.cvc.uab.es/?ch=15)      
-
-### 5.2.2 文本检测
-[中文](https://github.com/lars76/chinese-subtitle-ocr)    
-
-### 5.2.3 文本行检测
+## 5.2 [文本](/cv/ocr/2019/07/27/foundation.html)
 
 ## 5.3 交通
 ### 5.3.1 车道线检测

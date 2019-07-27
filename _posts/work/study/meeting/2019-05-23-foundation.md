@@ -37,6 +37,7 @@ tags: 资源
 >AAAI Conference on Artificial Intelligence    
 
 [paper](https://www.aaai.org/Library/AAAI/aaai-library.php)
+
 |  | 2017年	| 2018年	| [2019年](https://aaai.org/Conferences/AAAI-19/) |
 | --- | --- | --- | --- |
 | 投稿数	| 2571	| 3808	| 7095|

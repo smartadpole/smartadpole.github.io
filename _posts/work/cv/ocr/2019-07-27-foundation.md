@@ -42,8 +42,8 @@ tags: 资源
 # 2 理论
 
 # 3 其他
-1. [ICDAR2019 Robust Reading Challenge on Multi-lingual Scene Text Detection and Recognition -- RRC-MLT-2019](http://cn.arxiv.org/abs/1907.00945)   
-ICDAR 2019*2019-07-01* [paper](https://arxiv.org/abs/1907.00945) | [competition](https://rrc.cvc.uab.es/?ch=15)      
+1. [ICDAR 2019 Robust Reading Challenge on Multi-lingual Scene Text Detection and Recognition -- RRC-MLT-2019](http://cn.arxiv.org/abs/1907.00945)   
+ICDAR 2019 *2019-07-01* [paper](https://arxiv.org/abs/1907.00945) | [competition](https://rrc.cvc.uab.es/?ch=15)      
 
 1. [Total-Text: A Comprehensive Dataset for Scene Text Detection and Recognition](http://cn.arxiv.org/abs/1710.10400)    
 ICDAR 2017 *2017-10-28* [paper](https://arxiv.org/abs/1710.10400) | [code4downloads](https://github.com/cs-chan/Total-Text-Dataset)     
@@ -56,45 +56,45 @@ EAST/CTPN/SegLink/PixelLink/TextBoxes/TextBoxes++/TextSnake/MSR/
 
 ## 4.2 理论
 
-## 4.3 其他
+## 4.3 常规文本
+
+## 4.4 文本行
+
+## 4.5 多方向文本
+
+## 4.6 不规则文本
 
 
-# 5 文本行检测
+
+# 5 文字识别
+
 ## 5.1 综述
 
 ## 5.2 理论
 
-## 5.3 其他
+## 5.3 常规文本
+
+### 5.3.1 CNN
 
 
+### 5.3.2 CRNN
 
-# 6 文字识别
-CRNN或Seq2Seq    
+### 5.3.3 Seq2Seq
 
-## 6.1 综述
+## 5.4 多方向文本
 
-## 6.2 理论
-
-## 6.3 常规文本
-### 6.3.1 CNN
-
-
-### 6.3.2 CRNN
-
-### 6.3.3 Seq2Seq
-
-## 6.4 不规则文本
-### 6.4.1 CNN
+## 5.5 不规则文本
+### 5.5.1 CNN
 1. [Scene Text Recognition from Two-Dimensional Perspective](http://cn.arxiv.org/abs/1809.06508)   
 AAAI 2019 *2018-09-18* 白翔组 [paper](https://arxiv.org/abs/1809.06508)   
 检测时加入分割，定位到每个字符的位置，然后对单个字符进行分类，以分类代替是识别；同时使用了可变形卷积，以提取文字区域不同形状的特征；   
 
 
-### 6.4.2 CRNN
+### 5.5.2 CRNN
 
-### 6.4.3 Seq2Seq
+### 5.5.3 Seq2Seq
 
-### 6.4.4 其他
+### 5.5.4 其他
 1. [Robust Scene Text Recognition with Automatic Rectification](http://cn.arxiv.org/abs/1603.03915)    
 CVPR 2016 *2016-03-12* [paper](https://arxiv.org/abs/1603.03915)    
 使用 STN 空间仿射网络对不规则文本进行仿射变换，修正后再送入识别网络；    
@@ -109,13 +109,13 @@ CVPR 2019 *2018-11-04* [paper](https://arxiv.org/abs/1811.01396)
 CVPR 2019 *2018-12-14* [paper](https://arxiv.org/abs/1812.05824)   
 **ESIR**:设计了仿射网络；       
 
-## 6.5 其他
+## 5.6 其他
 1. [Study on Feature Extraction Methods for Character Recognition of Balinese Script on Palm Leaf Manuscript Images](https://hal.archives-ouvertes.fr/hal-01422135/document)   
 *2016* [paper](https://hal.archives-ouvertes.fr/hal-01422135/document)   
 
 
 
-# 7 端到端文字识别
+# 6 端到端文字识别
 >检测 + 识别   
 
 1. [Towards End-to-end Text Spotting with Convolutional Recurrent Neural Networks](http://cn.arxiv.org/abs/1707.03985)   
@@ -164,6 +164,7 @@ ECCV 2018 *2018* [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Z
 ## A 参考资料
 1. [中文字幕分析](https://github.com/lars76/chinese-subtitle-ocr)    
 SSD 做的检测，然后自适应与之分割，最后进行识别；    
+1. [awesome-ocr](https://github.com/ChanChiChoi/awesome-ocr)    
 
 ## B 开源代码
 1. [OCRE(OCR Easy)](http://lem.eui.upm.es/ocre.html)   

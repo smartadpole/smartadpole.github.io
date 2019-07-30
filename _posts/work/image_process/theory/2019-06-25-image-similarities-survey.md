@@ -148,6 +148,7 @@ $$
 # 附录
 ## A 参考资料
 1. wangyaning. OpenCV进行图像相似度对比的几种办法[EB/OL]. <https://www.cnblogs.com/wangyaning/p/7854046.html>. 2017-11-17/2019-06-26.  
+1. [移动端图像相似度算法选型](https://www.jiqizhixin.com/articles/2018-10-24-14)    
 
 ## B 基本概念
 <span id='hash_progress'>**1. 感知哈希的计算过程**</span>    

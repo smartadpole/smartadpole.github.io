@@ -218,13 +218,9 @@ https://github.com/janesjanes/sketchy
 [paper](https://arxiv.org/abs/1704.00763)  
 https://github.com/kanchen-usc/amc_att  
 
-1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
-AsymNet [2017] CVPR；  
-[paper](https://arxiv.org/abs/1804.05287)  
 
-1. [Deep image representations using caption generators](http://cn.arxiv.org/abs/1705.09142)  
-[2017] ICME  
-[paper](https://arxiv.org/abs/1705.09142)  
+1. [Deep image representations using caption generators](http://cn.arxiv.org/abs/1705.09142)   
+ICME 2017 [paper](https://arxiv.org/abs/1705.09142)     
 
 1. [Visual Search at eBay](http://cn.arxiv.org/abs/1706.03154)  
 [2017] 23rd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD),  
@@ -500,10 +496,6 @@ DARN [2015] ICCV；​cross-entropy loss, triplet loss；
 1. [Cycle-Consistent Deep Generative Hashing for Cross-Modal Retrieval](http://cn.arxiv.org/abs/1804.11013)  
 *2018-04-30* [paper](https://arxiv.org/abs/1804.11013)  
 
-1. [Deep Learning for Content-Based, Cross-Modal Retrieval of Videos and Music](http://cn.arxiv.org/abs/1704.06761)  
-[paper](https://arxiv.org/abs/1704.06761)  
-supplementary: https://youtu.be/ZyINqDMo3Fg  
-
 1. [Deep Binaries: Encoding Semantic-Rich Cues for Efficient Textual-Visual Cross Retrieval](http://cn.arxiv.org/abs/1708.02531)  
 [2017] ICCV  
 [paper](https://arxiv.org/abs/1708.02531)  
@@ -523,10 +515,6 @@ supplementary: https://youtu.be/ZyINqDMo3Fg
 1. [Objects that Sound](http://cn.arxiv.org/abs/1712.06651)  
 DeepMind, VGG  
 [paper](https://arxiv.org/abs/1712.06651)  
-
-1. [Cross-modal Embeddings for Video and Audio Retrieval](http://cn.arxiv.org/abs/1801.02200)  
-[paper](https://arxiv.org/abs/1801.02200)  
-https://github.com/surisdi/youtube-8m  
 
 1. [Learnable PINs: Cross-Modal Embeddings for Person Identity](http://cn.arxiv.org/abs/1805.00833)  
 VGG  
@@ -618,14 +606,16 @@ PyTorch: https://github.com/bnulihaixia/Deep_metric
 [paper](https://arxiv.org/abs/1808.04469)  
 https://github.com/littleredxh/DREML  
 
-# 8 其他
+# 8 [视频检索](/video/video_retrival/2019/06/21/foundation.html)
+
+# 9 其他
 1. [Large-Scale Image Retrieval with Attentive Deep Local Features](http://cn.arxiv.org/abs/1612.06321)   
 ICCV 2017 *2016-12-19* Google [paper](https://arxiv.org/abs/1612.06321) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)      
 **DELF**，同时发布了较大的[地标建筑检索数据集](https://www.kaggle.com/google/google-landmarks-dataset#test.csv)([详细说明](/competition/2019/07/25/Google-Landmark-Retrieval-2019.html))；   
 
-# 9 检测&检索
 1. [Detect-to-Retrieve: Efficient Regional Aggregation for Image Search](http://cn.arxiv.org/abs/1812.01584)   
 CVPR 2019 *2018-12-04* Google [paper](https://arxiv.org/abs/1812.01584) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)       
+基于检测的检索；    
 
 
 -------------------  

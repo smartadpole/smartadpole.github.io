@@ -9,7 +9,7 @@ category: [CV, ocr]
 tags: 资源
 ---
 <span id='head'></span>
->光学字符识别；   
+>光学字符识别；感觉在 2017 年爆炸了；       
 
 <!--more-->
 
@@ -68,7 +68,8 @@ ICDAR 2019 *2019-07-01* [paper](https://arxiv.org/abs/1907.00945) | [competition
 ## 4.2 理论
 
 ## 4.3 字符
->这个系列的方法感觉都好复杂；   
+>需要分离出两个模型，一个负责检测字符，一个负责合并；除了速度上的降低，还存在分步累计误差，且无法进行端到端的训练；    
+感觉都好复杂；   
 
 1. [Text-Attentional Convolutional Neural Network for Scene Text Detection](http://cn.arxiv.org/abs/1510.03283)    
 *2015-10-12* [paper](https://arxiv.org/abs/1510.03283)    
@@ -87,6 +88,14 @@ CVPR 2017 *2017-03-19* [paper](https://arxiv.org/abs/1703.06520) | [tensorflow](
 ICCV 2017 *2017-08-22* [paper](https://arxiv.org/abs/1708.06720)      
 使用预训练的字符检测网络，对结果进行聚类的到文本块，后接识别模块；    
 
+1. [WeText: Scene Text Detection under Weak Supervision](http://cn.arxiv.org/abs/1710.04826)    
+ICCV 2017 *2017-10-13* [paper](https://arxiv.org/abs/1710.04826)   
+$\bullet \bullet$   
+SSD 基础上使用弱监督和半监督来扩充训练数据；单数速度较慢，且只能处理水平方向字符；     
+
+>文章的亮点就在与怎么训练 SSD，但是又没有给出训练的具体细节；     
+
+
 ## 4.4 文本行
 ### 4.4.1 常规
 1. [Reading Text in the Wild with Convolutional Neural Networks](http://cn.arxiv.org/abs/1412.1842)   
@@ -95,9 +104,24 @@ ICCV 2017 *2017-08-22* [paper](https://arxiv.org/abs/1708.06720)
 1. [Deep Convolutional Neural Networks for Text Spotting in Natural Images](https://pdfs.semanticscholar.org/8c58/0758ad5541c357a46f4a0fd92dcf0955c24d.pdf)    
 *2015* [paper](https://pdfs.semanticscholar.org/8c58/0758ad5541c357a46f4a0fd92dcf0955c24d.pdf)   
 
+1. [DeepText:A Unified Framework for Text Proposal Generation and Text Detection in Natural Images](http://cn.arxiv.org/abs/1605.07314)     
+*2016-05-24* [paper](https://arxiv.org/abs/1605.07314)    
+改进 FasterRCNN，提出了 Inception RPN；    
+
 1. [TextBoxes: A Fast Text Detector with a Single Deep Neural Network](http://cn.arxiv.org/abs/1611.06779)   
 AAAI 2017 *2016-11-21* [paper](https://arxiv.org/abs/1611.06779) | [caffe](https://github.com/MhLiao/TextBoxes)-offical      
 SSD 基础上做的修改以适应文字检测；    
+
+1. [Improving Text Proposal for Scene Images with Fully Convolutional Networks](http://cn.arxiv.org/abs/1702.05089)    
+ICPR 2016 *2017-02-16* [paper](https://arxiv.org/abs/1702.05089) | [caffe](https://github.com/gombru/TextFCN)-other    
+
+1. [Self-organized Text Detection with Minimal Post-processing via Border Learning](http://openaccess.thecvf.com/content_ICCV_2017/papers/Wu_Self-Organized_Text_Detection_ICCV_2017_paper.pdf)    
+ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Wu_Self-Organized_Text_Detection_ICCV_2017_paper.pdf)    
+$\bullet \bullet$   
+**SODT**: 为了解决 character based pipeline 的复杂后处理，提出了基于边界的方法，简化了解码过程；   
+同时还分析了用二分类问题做检测的局限性；公布了 PPT 文本检测的数据集；    
+对水平和倾斜文字效果都不错，但是对于扭曲尤其是垂直文字效果不好；     
+>TextField， TextMoutain， pixellink，psenet 等方法，实际上都是基于文字区域的分割然后加上对边界的校准，提升算法的性能，即检测+分割+回归；同时，也可以看出，为了让算法检测出更为复杂的文本，边界的设计尤为重要；   
 
 1. [PixelLink: Detecting Scene Text via Instance Segmentation](http://cn.arxiv.org/abs/1801.01315)   
 AAAI 2018 *2018-01-04* [paper](https://arxiv.org/abs/1801.01315) | [tensorflow](https://github.com/ZJULearning/pixel_link)-offical        
@@ -134,7 +158,8 @@ FasterRCNN 基础上做扩展；调整了 ROIPooling 的尺寸，引进了倾斜
 
 1. [Single Shot Text Detector with Regional Attention](http://cn.arxiv.org/abs/1709.00138)   
 ICCV 2017 *2017-09-01* [paper](https://arxiv.org/abs/1709.00138) | [caffe](https://github.com/BestSonny/SSTD)-offical | [pytorch](https://github.com/HotaekHan/SSTDNet)    
-SSD + attention，通过修改网络结构提升检测效果;        
+SSD + attention，通过修改网络结构提升检测效果；所谓的 attention 就是融入了分割，来指导模型训练；            
+>方案本身让工程实践变得更复杂，当然如果本身就有大量分割的标注，可以用这个方法；    
 
 1. [TextBoxes++: A Single-Shot Oriented Scene Text Detector](http://cn.arxiv.org/abs/1801.02765)   
 *2018-01-09* [paper](https://arxiv.org/abs/1801.02765) | [torch + caffe](https://github.com/MhLiao/TextBoxes_plusplus)        
@@ -164,7 +189,24 @@ CVPR 2018 *2018-02-25* 白翔组 [paper](https://arxiv.org/abs/1802.08948) | [py
 
 ### 5.3.2 CRNN
 
+1. [Reading Scene Text in Deep Convolutional Sequences](http://cn.arxiv.org/abs/1506.04395)    
+AAAI 2016 *2015-06-14* 汤晓鸥组 [paper](https://arxiv.org/abs/1506.04395)     
+使用 RNN 进行字符识别，可以应对形变大和有歧义的字符串，并且可以识别新组合的字符串；和白翔组的 CRNN 很相似；     
+文章还对比了 Maxout 和 RELU；    
+
+1. [An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition](http://cn.arxiv.org/abs/1507.05717)    
+*2015-07-21* [paper](https://arxiv.org/abs/1507.05717)    
+**CRNN**:     
+
 ### 5.3.3 Seq2Seq
+
+### 5.3.4 其他
+
+1. [Focusing Attention: Towards Accurate Text Recognition in Natural Images](http://cn.arxiv.org/abs/1709.02054)    
+ICCV 2017 *2017-09-07* 海康威视、复旦大学与上交 [paper](https://arxiv.org/abs/1709.02054)    
+$\bullet \bullet$   
+**FAN**: 注意力聚焦网络；作者发现对于低质图像，注意力会失效，也就是 attention drift——注意力不能精确联系特征向量与输入图像对应的目标区域；    
+>咋发现漂移这个事的     
 
 ## 5.4 多角度
 
@@ -196,57 +238,11 @@ CVPR 2019 *2018-12-14* [paper](https://arxiv.org/abs/1812.05824)
 
 ## 5.6 其他
 1. [Study on Feature Extraction Methods for Character Recognition of Balinese Script on Palm Leaf Manuscript Images](https://hal.archives-ouvertes.fr/hal-01422135/document)   
-*2016* [paper](https://hal.archives-ouvertes.fr/hal-01422135/document)   
+*2016* [paper](https://hal.archives-ouvertes.fr/hal-01422135/document)      
 
-1. [WeText: Scene Text Detection under Weak Supervision]()    
-ICCV 2017   
+1. [Full-Page TextRecognition : Learning Where to Start and When to Stop](https://arxiv.org/abs/1704.08628)    
+*2017-04-27* [paper](http://cn.arxiv.org/abs/1704.08628)     
 
-1. [Single Shot Text Detector with Regional Attention]()   
-ICCV 2017    
-
-1. [Self-organized Text Detection with Minimal Post-processing via Border Learning]()   
-ICCV 2017    
-
-1. [Focusing Attention: Towards Accurate Text Recognition in Natural Images]()    
-ICCV 2017    
-
-1. [Towards End-to-end Text Spotting with Convolutional Recurrent Neural Networks]()    
-ICCV 2017    
-
-1. [Unambiguous Text Localization and Retrieval for Cluttered Scenes]()    
-CVPR 2017    
-
-1. [WordSup: Exploiting Word Annotations for Character based Text Detection]()    
-ICCV 2017    
-
-1. [Deep TextSpotter: An End-to-End Trainable Scene Text Localization and
-Recognition Framework]()    
-ICCV 2017    
-
-1. [Cascaded Segmentation-Detection Networks for Word-Level Text Spotting]()    
-
-1. [Detection and Recognition of Text Embedding in Online Images via Neural Context Models]()     
-AAAI 2017    
-
-1. [Improving Text Proposal for Scene Images with Fully Convolutional Networks]()    
-
-1. [TextBoxes: A Fast TextDetector with a Single Deep Neural Network]()     
-AAAI 2017    
-
-1. [Detecting Oriented Text in Natural Images by Linking Segments]()     
-CVPR 2017
-
-1. [Arbitrary-Oriented Scene Text Detection via Rotation Proposals]()     
-
-1. [Deep Matching Prior Network: Toward Tighter Multi-oriented Text Detection]()    
-CVPR 2017   
-
-1. [DeepText:A Unified Framework for Text Proposal Generation and Text Detection in Natural Images]()     
-
-1. [Full-Page TextRecognition : Learning Where to Start and When to Stop]()    
-
-1. [Reading Scene Text in Deep Convolutional Sequences]()    
-AAAI 2016    
 
 1. [Reading Text in the Wild with Convolutional Neural Networks]()    
 IJCV 2016     
@@ -282,6 +278,11 @@ ICPR 2012
 # 6 端到端文字识别
 >检测 + 识别 不中断；      
 
+## 6.1 LSTM
+1. [Unambiguous Text Localization and Retrieval for Cluttered Scenes](http://openaccess.thecvf.com/content_cvpr_2017/papers/Rong_Unambiguous_Text_Localization_CVPR_2017_paper.pdf)    
+CVPR 2017 [paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Rong_Unambiguous_Text_Localization_CVPR_2017_paper.pdf)     
+
+## 6.2 其他
 1. [Towards End-to-end Text Spotting with Convolutional Recurrent Neural Networks](http://cn.arxiv.org/abs/1707.03985)   
 ICCV 2017 *2017-07-13* [paper](https://arxiv.org/abs/1707.03985)    
 FasterRCNN 接 LSTM；该方法在复杂任务上效果不是很好，原因是检测结果对整个任务起到决定性作用；    
@@ -297,6 +298,10 @@ $\bullet \bullet$
 
 1. [STN-OCR: A single Neural Network for Text Detection and Text Recognition](http://cn.arxiv.org/abs/1707.08831)   
 *2017-07-27* [paper](https://arxiv.org/abs/1707.08831)   
+
+1. [Detection and Recognition of Text Embedding in Online Images via Neural Context Models](https://pdfs.semanticscholar.org/4c28/b0309105ec5633be22512167e6eff32f4c4f.pdf)     
+AAAI 2017 [paper](https://pdfs.semanticscholar.org/4c28/b0309105ec5633be22512167e6eff32f4c4f.pdf)        
+**CTSN**:     
 
 1. [SEE: Towards Semi-Supervised End-to-End Scene Text Recognition](http://cn.arxiv.org/abs/1712.05404)   
 AAAI 2018 *2017-12-14* [paper](https://arxiv.org/abs/1712.05404) | [tensorflow](https://github.com/Bartzi/see)        
@@ -328,6 +333,8 @@ ECCV 2018 *2018* [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Z
 ## A 研究员
 1. 白翔小组    
 廖明辉，[石葆光](https://vision.cornell.edu/se3/people/baoguang-shi/)， 白翔, 王兴刚 ，刘文予      
+1. [汤晓欧](https://www.ie.cuhk.edu.hk/people/xotang.shtml)组   
+[黄伟林](http://www.whuang.org/), [乔宇](http://mmlab.siat.ac.cn/yuqiao/)，    
 
 ## B 参考资料
 1. [中文字幕分析](https://github.com/lars76/chinese-subtitle-ocr)    
@@ -340,6 +347,7 @@ SSD 做的检测，然后自适应与之分割，最后进行识别；
 
 
 ## C 开源代码
+### a 库
 1. [OCRE(OCR Easy)](http://lem.eui.upm.es/ocre.html)   
 
 1. [Clara OCR](http://directory.fsf.org/claraocr.html)          
@@ -356,6 +364,10 @@ SSD 做的检测，然后自适应与之分割，最后进行识别；
 
 1. [TESSERACT-OCR](http://code.google.com/p/tesseract-ocr/)     
 2005年 由 HP 开源，2006年之后，由 Google 维护； 4.0 版本中加入了 LSTM；目前支持 100 多种语言的文本识别；支持文档格式包括文本、HTML 和 PDF 等；提供 C 和 C++ 接口；   
+
+### b 工程
+1. [textDetectionWithScriptID](https://github.com/isi-vista/textDetectionWithScriptID)    
+
 
 ## D 数据集
 

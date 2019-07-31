@@ -41,7 +41,7 @@ MSE &= {1 \over {H \times W}} \sum_{i = 1}^{H} \sum_{j = 1}^{W} (X_{i, j} - Y_{i
 $$
 注：$MSE$ 表示当前图像 $X$ 和参考图像 $Y$ 的均方误差（Mean Square Error），$H$、$W$ 分别为图像的高度和宽度；    
 
-p = 1 时， 为切比雪夫距离：   
+p = $\infty$ 时， 为切比雪夫距离：   
 >Chebyshevdistance；    
 
 **公式**：   

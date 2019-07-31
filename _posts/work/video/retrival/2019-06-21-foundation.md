@@ -23,12 +23,9 @@ tags: 资源
 
 
 # 3 重复视频检测
-`duplicate video detection` · `near-duplicate`； `Video Copy Detection`；
+`duplicate video detection` · `near-duplicate`；；
 
 ## 3.1 综述
-1. [A Survey On Video Forgery Detection](http://cn.arxiv.org/abs/1503.00843)    
-*2015-03-03* [paper](https://arxiv.org/abs/1503.00843)   
-
 1. [Survey on Web Scale Based Near Duplicate Video Retrieval](https://pdfs.semanticscholar.org/c6b0/0a76cb8c540b4824369ddbf7def551720394.pdf)   
 *2016* [paper](https://pdfs.semanticscholar.org/c6b0/0a76cb8c540b4824369ddbf7def551720394.pdf)    
 
@@ -44,20 +41,8 @@ tags: 资源
 1. [Efficient Near-duplicate Detection and Sub-image Retrieval](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)     
 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)    
 
-1. [Video Copy Detection: a Comparative Study](https://www.irisa.fr/vista/Papers/2007_civr_law-to.pdf)   
-*2007* [paper](https://www.irisa.fr/vista/Papers/2007_civr_law-to.pdf)    
-
 1. [A Framework for Handling Spatiotemporal Variations in Video Copy Detection](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)   
 *2008* [rar](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)    
-
-1. [Scalable mining of large video databases using copy detection](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
-*2008* [paper](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
-
-1. [A compact, effective descriptor for video copy detection](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)   
-*2009* [paper](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)    
-
-1. [Video copy detection by fast sequence matching](http://aifc2011.csie.ntnu.edu.tw/~myeh/papers/civr09.pdf)    
-*2009* [paper](http://aifc2011.csie.ntnu.edu.tw/~myeh/papers/civr09.pdf)   
 
 1. [SHOT AGGREGATING STRATEGY FOR NEAR-DUPLICATE VIDEO RETRIEVAL](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
 *2015* [paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
@@ -77,6 +62,40 @@ tags: 资源
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)         
 ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)     
 
+1. [A Coarse-to-fine Deep Convolutional Neural Network Framework for Frame Duplication Detection and Localization in Forged Videos](http://cn.arxiv.org/abs/1811.10762)    
+*2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
+
+
+# 4 视频拷贝检测
+>Content Based Copy Detection, CDBC: 作用等同于水印，主要用于版权保护；不同之处在与他是直接从视频本身提取一些特征；     
+
+`Video Copy Detection` · `Video Forgery Detection`；    
+
+## 4.1 综述
+1. [Video Copy Detection: a Comparative Study](https://www.irisa.fr/vista/Papers/2007_civr_law-to.pdf)   
+*2007* [paper](https://www.irisa.fr/vista/Papers/2007_civr_law-to.pdf)    
+
+1. [A Survey On Video Forgery Detection](http://cn.arxiv.org/abs/1503.00843)    
+*2015-03-03* [paper](https://arxiv.org/abs/1503.00843)   
+
+1. [Recent advances in content based video copy detection](http://cn.arxiv.org/abs/1610.09087)    
+*2016-10-28* [paper](https://arxiv.org/abs/1610.09087)   
+
+## 4.2 理论
+
+## 4.3 其他
+1. [Partial Copy Detection in Videos: A Benchmark and An Evaluation of Popular Methods](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
+[paper](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
+
+1. [Scalable mining of large video databases using copy detection](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
+*2008* [paper](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
+
+1. [A compact, effective descriptor for video copy detection](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)   
+*2009* [paper](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)    
+
+1. [Video copy detection by fast sequence matching](http://aifc2011.csie.ntnu.edu.tw/~myeh/papers/civr09.pdf)    
+*2009* [paper](http://aifc2011.csie.ntnu.edu.tw/~myeh/papers/civr09.pdf)   
+
 1. [A PatchMatch-based Dense-field Algorithm for Video Copy-Move Detection and Localization](http://cn.arxiv.org/abs/1703.04636)    
 *2017-03-14* [paper](https://arxiv.org/abs/1703.04636)    
 发布了新的数据集；     
@@ -84,24 +103,25 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 1. [Simple Yet Efficient Content Based Video Copy Detection](http://cn.arxiv.org/abs/1804.07019)   
 *2018-04-19* [paper](https://arxiv.org/abs/1804.07019)   
 
-1. [A Coarse-to-fine Deep Convolutional Neural Network Framework for Frame Duplication Detection and Localization in Forged Videos](http://cn.arxiv.org/abs/1811.10762)    
-*2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
+1. Geometrically robust video hashing based on ST-PCT for video copy     
 
 
-# 4 相似视频检索
+# 5 基于内容的视频检索
+>Content Based Video Retrival, CBVR: 用于相似场景检测；    
 
-# 5 跨模态检索
-## 5.1 图片
+
+# 6 跨模态检索
+## 6.1 图片
 
 1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
 **AsymNet**: 用 FasterRCNN 检测出物体，然后进行比对；          
 
-## 5.2 文本
+## 6.2 文本
 1. [Dual Encoding for Zero-Example Video Retrieval](http://cn.arxiv.org/abs/1809.06181)    
 CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](https://github.com/danieljf24/dual_encoding)-offical | [解读](/video/video_retrival/paper_reading/2019/06/23/Dual-Encoding-for-Zero-Example-Video-Retrieval-reading.html)    
 
-## 5.3 音频
+## 6.3 音频
 
 1. [Content-Based Video-Music Retrieval Using Soft Intra-Modal Structure Constraint](http://cn.arxiv.org/abs/1704.06761)  
 *2017-04-22* [paper](https://arxiv.org/abs/1704.06761) | [示例](https://youtu.be/ZyINqDMo3Fg) | [tensorflow](https://github.com/csehong/VM-NET)-offical    

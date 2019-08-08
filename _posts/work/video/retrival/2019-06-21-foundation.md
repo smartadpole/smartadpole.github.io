@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「VIDEO」 视频检索资源汇总"
+title:  "「VIDEO」 检索资源汇总"
 date:   2019-06-21 18:06:40 +0800
 key: video-retrival-foundation-20190621
 aside:
@@ -9,9 +9,12 @@ category: [video, video_retrival]
 tags: 资源
 ---
 <span id='head'></span>
-`video retrieval`； `duplicate video detection` · `near-duplicate`； `Video Copy Detection`； `key frame extraction` · `bag of keyframes`； `video localization`；       
+>**相似视频检索**: 相似指的是通过修改原视频的到新的视频；      
 
 <!--more-->
+`video retrieval`； `duplicate video detection` · `near-duplicate`； `Video Copy Detection`； `video localization`； `Local Features` · `Global Features`； `Performance Measures`；         
+
+
 *发现这方面论文很凌乱，很少；关键字都有很多个版本；*      
 
 # 1 综述
@@ -34,6 +37,8 @@ tags: 资源
 
 1. [A Systematic Review of Near Duplicate Video Retrieval Techniques](https://acadpubl.eu/hub/2018-118-24/3/569.pdf)    
 *2018-05-27* [paper](https://acadpubl.eu/hub/2018-118-24/3/569.pdf)    
+>太简单，就是一个粗糙的博客；没有思考性的东西，也缺乏大量实验比对；图表模糊，不合格；     
+
 
 ## 3.2 理论
 
@@ -43,6 +48,13 @@ tags: 资源
 
 1. [A Framework for Handling Spatiotemporal Variations in Video Copy Detection](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)   
 *2008* [rar](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)    
+1. [Multiple feature hashing for real-time large scale near-duplicate video retrieval](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)     
+*2011-12* [ppt](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)    
+发布了数据集 [UQ_VIDEO](http://staff.itee.uq.edu.au/shenht/UQ_VIDEO/)     
+
+1. [VCDB: A Large-Scale Database for Partial Copy Detection in Videos](http://www.yugangjiang.info/publication/eccv14-VCDB.pdf)    
+*2014* [paper](http://www.yugangjiang.info/publication/eccv14-VCDB.pdf)    
+发布了数据集    
 
 1. [SHOT AGGREGATING STRATEGY FOR NEAR-DUPLICATE VIDEO RETRIEVAL](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
 *2015* [paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
@@ -149,6 +161,14 @@ CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](htt
 
 | 名称 | 类型 | 数量(训练/测试) | 说明 | 发布日期 |
 | --- | --- | --- | --- | --- |
+| [TRECVID](https://trecvid.nist.gov/) & [data](https://www-nlpir.nist.gov/projects/trecvid/trecvid.data.html) |  |  |  | 2001~2019 |
 | [CC_WEB_VIDEO](http://vireo.cs.cityu.edu.hk/webvideo/) |  |  | 包含颜色亮度变换，画面编辑和拼接 | 2007 |
 | [MuscleVCD ST1](https://www.video-comparer.com/product-benchmark.php) |  |  |  |  |
+| [UQ_VIDEO](http://staff.itee.uq.edu.au/shenht/UQ_VIDEO/) |  | 169,952 | 查询视频 400 个，检索视频 20 万；单个视频对应的检索视频最多 1000 个；<br>提取到的关键帧有 3,305,525 个；<br>共 15G； | 2011 |
+| [Copy-move forgeries dataset](https://sites.google.com/site/rewindpolimi/downloads/datasets/video-copy-move-forgeries-dataset) |  |  |  |  |
+| [VCDB](http://www.yugangjiang.info/research/VCDB/) |  |  | 8G | 2014 |
 |  |  |  |  |  |
+
+
+## D 开源项目
+1. [ThreatExchange](https://developers.facebook.com/docs/threat-exchange/v4.0): [code](https://github.com/facebook/ThreatExchange) | [TMK + PDQF](https://github.com/facebook/ThreatExchange/tree/master/hashing/tmk)-相似视频识别 | [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq)-相似图片识别       

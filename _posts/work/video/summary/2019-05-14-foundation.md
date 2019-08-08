@@ -9,34 +9,33 @@ category: [video, video_summary]
 tags: 资源
 ---
 <span id='head'></span>
-`shot detection` · `key frame detection` · `video summary` · `video synopsis` · `video key frame extraction` · `video key clip extraction` · `video summarization` · `key frame Detection`   
+`shot detection` · `video summary` · `video synopsis` · `video key clip extraction` · `video summarization` · `key frame Detection`   
 
->视频相比图像来说信息更加丰富，但是一个序列里冗余信息太多，如何无监督的提取关键帧对于很多任务都是至关重要的；   
+>又称视频浓缩，是对视频内容的一个简单概括；       
 
 
 <!--more-->
 
->又称视频浓缩，是对视频内容的一个简单概括；先通过运动目标分析，提取到运动目标及其轨迹；然后将不同的目标拼接到同一个背景中，也可以拼接；视频摘要在视频分析和基于内容的视频检索中扮演着重要角色；    
+>先通过运动目标分析，提取到运动目标及其轨迹；然后将不同的目标拼接到同一个背景中，也可以拼接；视频摘要在视频分析和基于内容的视频检索中扮演着重要角色；    
 
 
 
-# 1 论文
-## 1.1 传统方法
-### 1.1.1 基于镜头边界
+# 1 传统方法
+## 1.1 基于镜头边界
 
-### 1.1.2 基于运动分析
+## 1.2 基于运动分析
 
-### 1.1.3 基于视觉内容
+## 1.3 基于视觉内容
 
-### 1.1.4 基于聚类
+## 1.4 基于聚类
 
 
-## 1.2 机器学习方法
+# 2 机器学习方法
 
-### 1.2.1 基于回归
+## 2.1 基于回归
 >通过机器学习算法对每帧图像进行打分，取最高分为关键帧；   
 
-### 1.2.2 视频摘要
+## 2.2 视频摘要
 
 1. [Video Summarization with Attention-Based Encoder-Decoder Networks](http://cn.arxiv.org/abs/1708.09545)   
 *2017-08-31* [Paper](https://arxiv.org/abs/1708.09545)   
@@ -67,18 +66,8 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 *2019-06-06* [paper](https://arxiv.org/abs/1906.02792)    
 
 
-### 1.2.3 关键帧提取
-1. [Video Key Frame Extraction using Entropy value as Global and Local Feature](http://cn.arxiv.org/abs/1605.08857)   
-*2016-05-28* [Paper](https://arxiv.org/abs/1605.08857)   
-自注意力机制助力视频字母提取；    
+## 2.3 [关键帧提取](/video/key_frame/2019/06/12/foundation.html)
 
->摘要不是很好，核心不清晰；   
-
-
-## 1.3 应用
-### 1.3.1  [在手势识别中的应用](/cv/human/gesture_recognition/2019/05/14/foundation.html#22-基于关键帧)
-
-### 1.3.2 [在动作识别中的应用](/cv/human/pose_estimation/2019/05/14/foundation.html#231-关键帧提取)
 
 -------------------  
 [End](#head)

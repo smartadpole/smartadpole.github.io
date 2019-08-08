@@ -305,22 +305,22 @@ Video:
 
   - title:
     children:
+      - title:  关键帧
+        url:    /assets/category/work/video/key_frame.html
+      - title:  视频摘要
+        url:    /assets/category/work/video/summary.html
       - title:  视频分类
         url:    /assets/category/work/video/classify.html
       - title:  目标检测
         url:    /assets/category/work/video/detection.html
       - title:  视频超分辨率
         url:    /assets/category/work/video/super_resolution.html
-      - title:  视频修复
-        url:    /assets/category/work/video/inpaint.html
       - title:  视频检索
         url:    /assets/category/work/video/retrival.html
-      - title:  视频摘要
-        url:    /assets/category/work/video/summary.html
+      - title:  视频修复
+        url:    /assets/category/work/video/inpaint.html
       - title:  动作定位
         url:    /assets/category/work/video/localization.html
-      - title:  镜头边界检测
-        url:    /assets/category/work/video/sdb.html
 
   - title:      工具
     children:
@@ -1345,3 +1345,23 @@ InfoSecurity:
         url:    /assets/category/work/CV_2D/info_security/digital_watermarking.html
       - title:  数字指纹
         url:    /assets/category/work/CV_2D/info_security/digital_fingerprinting.html
+
+NDVR:  
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/video/retrival.html
+
+  - title:	视频检索
+    children:
+      - title:  概述
+        url:    /video/video_retrival/2019/07/30/survey.html
+
+  - title:	关键技术
+    children:
+      - title:  关键帧提取
+        url:    /video/key_frame/2019/08/08/survey.html
+      - title:  特征提取
+        url:    /video/video_retrival/2019/08/08/feature-extract-survey.html
+      - title:  相似度度量
+        url:    /video/video_retrival/2019/08/08/similarity-measures-survey.html

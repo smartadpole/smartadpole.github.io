@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Shot Boundary Detection
-    zh:       镜头边界检测
-    zh-Hans:  镜头边界检测
-    zh-Hant:  镜头边界检测
+    en:       Key Frame Extract
+    zh:       视频关键帧提取
+    zh-Hans:  视频关键帧提取
+    zh-Hant:  视频关键帧提取
 sidebar:
     nav: Video
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "SBD" %}
+        {% if cat[0] == "key_frame" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

@@ -1248,6 +1248,8 @@ Traffic:
         url:    /assets/category/work/CV_2D/traffic/event_analysis.html
       - title:  交通信息检测
         url:    /assets/category/work/CV_2D/traffic/semantic_analysis.html
+      - title:  自动驾驶
+        url:    /assets/category/work/CV_2D/traffic/auto_drive.html
 
 Linux:
   - title:

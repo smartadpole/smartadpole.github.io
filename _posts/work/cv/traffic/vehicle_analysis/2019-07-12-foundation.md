@@ -16,17 +16,15 @@ tags: 资源
 
 # 2 理论
 
-# 3 车辆检测
+# 3 车牌识别
 
-# 4 车牌识别
+# 4 车型识别
 
-# 5 车型识别
+# 5 车辆 LOGO 识别
 
-# 6 车辆 LOGO 识别
+# 6 车身颜色识别
 
-# 7 车身颜色识别
-
-# 8 其他
+# 7 其他
 1. [Semantic Analysis of Traffic Camera Data: Topic Signal Extraction and Anomalous Event Detection](http://cn.arxiv.org/abs/1905.07332)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07332)
 

@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "「NLP」 NLP 概览"
+title:  "「NLP」 NLP 资源汇总"
 date:   2019-02-22 14:50:40 +0800
-key: nlp-abc-20190222
+key: nlp-foundation-20190222
 aside:
   toc: true
 tags: 资源
@@ -10,8 +10,14 @@ category: [NLP]
 ---
 
 
-## 一、 介绍
-:ghost:
+# 1 综述
+1. [A Study on Neural Network Language Modeling](http://cn.arxiv.org/abs/1708.07252)   
+*2017-08-24* [paper](https://arxiv.org/abs/1708.07252)    
+
+1. [A Survey on Neural Network Language Models](http://cn.arxiv.org/abs/1906.03591)    
+*2019-06-09* [paper](https://arxiv.org/abs/1906.03591)    
+
+# 2 理论
 
 
 -------------------  
@@ -19,13 +25,17 @@ category: [NLP]
 {:.warning}  
 
 
-## 附录
-### A 推荐书籍
+# 附录
+## A 推荐书籍
 
 
-### B 推荐资料
+## B 推荐资料
 1. [CMU Neural Nets for NLP 2018](http://www.phontron.com/class/nn4nlp2018/schedule.html)  
 官网：<http://www.phontron.com/class/nn4nlp2018/schedule.html>  
 
 2. [CMU Neural Nets for NLP 2019](http://phontron.com/class/nn4nlp2019/schedule.html)  
-官网：<http://phontron.com/class/nn4nlp2019/schedule.html>  
+官网：<http://phontron.com/class/nn4nlp2019/schedule.html>     
+
+## C 工程
+1. [pytorch-transformers](https://github.com/huggingface/pytorch-transformers)    
+多个预训练模型；     

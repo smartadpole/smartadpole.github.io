@@ -18,6 +18,9 @@ tags: 资源
 1. [A Review of Audio Fingerprinting](http://www.music.mcgill.ca/~ich/classes/mumt621_09/fingerprinting/cano05review.pdf)    
 *2005* [paper](http://www.music.mcgill.ca/~ich/classes/mumt621_09/fingerprinting/cano05review.pdf)    
 
+1. [Digital Rights Management for E-Commerce Systems](https://books.google.com/books?id=wA8hf4IfSlkC&pg=PT198&lpg=PT198&dq=Image+signature+robust+to+caption+superimposition+for+video+sequence+identification&source=bl&ots=3vKBSURkWD&sig=ACfU3U10s40rd8u2I6wd1d14jPpvSZAIEA&hl=zh-CN&sa=X&ved=2ahUKEwi4zK2klf3jAhXNBIgKHWGiB1gQ6AEwAnoECAgQAQ#v=onepage&q=Image%20signature%20robust%20to%20caption%20superimposition%20for%20video%20sequence%20identification&f=false)    
+*2009* [paper](https://books.google.com/books?id=wA8hf4IfSlkC&pg=PT198&lpg=PT198&dq=Image+signature+robust+to+caption+superimposition+for+video+sequence+identification&source=bl&ots=3vKBSURkWD&sig=ACfU3U10s40rd8u2I6wd1d14jPpvSZAIEA&hl=zh-CN&sa=X&ved=2ahUKEwi4zK2klf3jAhXNBIgKHWGiB1gQ6AEwAnoECAgQAQ#v=onepage&q=Image%20signature%20robust%20to%20caption%20superimposition%20for%20video%20sequence%20identification&f=false)   
+
 1. [A Survey of Audio Fingerprinting](http://www.ijarcsms.com/docs/paper/volume1/SplDecember2013/V1I7-0020.pdf)   
 *2013-12* [paper](http://www.ijarcsms.com/docs/paper/volume1/SplDecember2013/V1I7-0020.pdf)    
 

@@ -97,6 +97,11 @@ https://arxiv.org/abs/1601.04798
 *2019-07-01* [paper](https://arxiv.org/abs/1907.00734)    
 
 ## 4.8 其他
+1. [Towards Universal Object Detection by Domain Attention](http://cn.arxiv.org/abs/1904.04402)    
+CVPR 2019 *2019-04-09* [paper](https://arxiv.org/abs/1904.04402) | [project](http://www.svcl.ucsd.edu/projects/universal-detection/) | [code](https://github.com/xuw080/towards-universal-objects-detection)-Official-coming        
+用注意力来解决泛化能力不好的问题；    
+>感觉就是在灌水；这不就是集成了几个模型嘛，最后融合的时候用所谓的注意力来融合，跟投票机制甚至是整个集成学习都没太大区别；    
+另外，这个改进是对基础网络做的，应该放在分类中，而不是局限在检测任务里；     
 
 1. [YOLO]()  
 官网 https://pjreddie.com/darknet/yolo/

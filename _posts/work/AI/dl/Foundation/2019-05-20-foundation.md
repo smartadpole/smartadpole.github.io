@@ -20,26 +20,29 @@ tags: 资源
 1. [Review of Deep Learning](http://cn.arxiv.org/abs/1804.01653)   
 *2018-04-05* [paper](https://arxiv.org/abs/1804.01653)   
 
+# 2 理论
+1. [What does it mean to understand a neural network?](http://cn.arxiv.org/abs/1907.06374)     
+*2019-07-15* DeepMind, 宾夕法尼亚 [paper](https://arxiv.org/abs/1907.06374)    
 
-# 2 基础
+# 3 基础
 
-## 2.1 卷积
-### 2.1.1 标准卷积
+## 3.1 卷积
+### 3.1.1 标准卷积
 1. [A guide to convolution arithmetic for deep learning](http://cn.arxiv.org/abs/1603.07285)    
 *2016-03-23* [paper](https://arxiv.org/abs/1603.07285)    
 
 
-### 2.1.2 反卷积
+### 3.1.2 反卷积
 
-### 2.1.3 深度可分离卷积
+### 3.1.3 深度可分离卷积
 1. [Network Decoupling: From Regular to Depthwise Separable Convolutions](http://cn.arxiv.org/abs/1808.05517)   
 *2018-08-16* [paper](https://arxiv.org/abs/1808.05517)   
 
-### 2.1.4 维度卷积
+### 3.1.4 维度卷积
 1. [DiCENet: Dimension-wise Convolutions for Efficient Networks](http://cn.arxiv.org/abs/1906.03516)    
 *2019-06-08* [paper](https://arxiv.org/abs/1906.03516) | [pytorch](https://github.com/sacmehta/EdgeNets)       
 
-### 2.1.5 其他
+### 3.1.5 其他
 1. [VarGNet: Variable Group Convolutional Neural Network for Efficient Embedded Computing](http://cn.arxiv.org/abs/1907.05653)   
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05653)    
 在深度可分离卷积之上做了改进，使其在嵌入式设备上更易优化；    
@@ -48,12 +51,12 @@ tags: 资源
 IJCAI 2017 *2017* [paper](https://www.ijcai.org/proceedings/2017/0486.pdf)    
 
 
-## 2.2 激活函数
+## 3.2 激活函数
 1. [Neurons Activation Visualization and Information Theoretic Analysis](http://cn.arxiv.org/abs/1905.08618)   
 *2019-05-14* [paper](https://arxiv.org/abs/1905.08618)   
 
-## 2.3 神经网络
-### 2.3.1 神经网络
+## 3.3 神经网络
+### 3.3.1 神经网络
 1. [Mean Field Limit of the Learning Dynamics of Multilayer Neural Networks](http://cn.arxiv.org/abs/1902.02880)   
 *2019-02-07* [paper](https://arxiv.org/abs/1902.02880)   
 
@@ -63,7 +66,7 @@ IJCAI 2017 *2017* [paper](https://www.ijcai.org/proceedings/2017/0486.pdf)
 1. [What Can ResNet Learn Efficiently, Going Beyond Kernels?](http://cn.arxiv.org/abs/1905.10337)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10337)   
 
-### 2.3.2 反向传播
+### 3.3.2 反向传播
 1. [Learning Internal Representations by Error Propagation](http://concepts.psych.wisc.edu/papers/711/RumelhartBackprop.pdf)   
 *1985-09-05* Hinton [paper](http://concepts.psych.wisc.edu/papers/711/RumelhartBackprop.pdf)   
 
@@ -78,8 +81,8 @@ IJCAI 2017 *2017* [paper](https://www.ijcai.org/proceedings/2017/0486.pdf)
 延迟梯度下降：为了解决反向传播的串行执行方式；    
 
 
-# 3 实践
-## 3.1 训练
+# 4 实践
+## 4.1 训练
 1. [Large Scale Distributed Deep Networks](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
 NIPS 2012 *2012* [paper](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
 大规模分布式训练；   
@@ -93,7 +96,7 @@ $\bullet \bullet$
 网络逐层单独训练，最终融合在一起；虽然效果不如整体训练好，但是对于算力有限情况下的大型网络训练很有帮助；   
 
 
-## 3.2 过拟合
+## 4.2 过拟合
 1. [One-Step or Two-Step Optimization and the Overfitting Phenomenon: A Case Study on Time Series Classification](http://cn.arxiv.org/abs/1407.4364)   
 *2014-07-16* [paper](https://arxiv.org/abs/1407.4364)   
 
@@ -119,16 +122,16 @@ $\bullet \bullet$
 1. [The advantages of multiple classes for reducing overfitting from test set reuse](http://cn.arxiv.org/abs/1905.10360)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10360)   
 
-## 3.3 欠拟合
+## 4.3 欠拟合
 
-## 3.4 模型检验
+## 4.4 模型检验
 >验证模型相关性，并检验过拟合和欠拟合；    
 
 1. [Perturbed Model Validation: A New Framework to Validate Model Relevance](http://cn.arxiv.org/abs/1905.10201)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10201)   
 
 
-## 3.5 梯度爆炸
+## 4.5 梯度爆炸
 1. [On the difficulty of training Recurrent Neural Networks](http://cn.arxiv.org/abs/1211.5063)  
 *2012-11-21* [paper](https://arxiv.org/abs/1211.5063)   
 
@@ -139,21 +142,21 @@ NIPS 2018 *2018-01-11* [paper](https://arxiv.org/abs/1801.03744)
 *2018-12-14* [paper](https://arxiv.org/abs/1812.05994)   
 RELU 梯度问题测量；    
 
-## 3.6 初始化
+## 4.6 初始化
 1. [How to start training: The effect of initialization and architecture](http://cn.arxiv.org/abs/1803.01719)    
 NIPS 2018 *2018-03-05* [paper](https://arxiv.org/abs/1803.01719)   
 
 
-# 4 进阶
-## 4.1 优化
-### 4.1.1 综述
+# 5 进阶
+## 5.1 优化
+### 5.1.1 综述
 1. [An overview of gradient descent optimization algorithms](http://cn.arxiv.org/abs/1609.04747)   
 *2016-09-15* [paper](https://arxiv.org/abs/1609.04747)   
 
 1. [A Survey of Optimization Methods from a Machine Learning Perspective](http://cn.arxiv.org/abs/1906.06821)   
 *2019-06-17* [paper](https://arxiv.org/abs/1906.06821)    
 
-### 4.1.2 经典
+### 5.1.2 经典
 1. [Two problems with backpropagation and other steepest-descent learning procedures for networks](http://incompleteideas.net/papers/sutton-86.pdf)   
 *1986* [paper](http://incompleteideas.net/papers/sutton-86.pdf)   
 指出SGD搜索的效率十分低下的缺陷；    
@@ -192,7 +195,7 @@ ICLR 2014 *2014-12-22* [paper](https://arxiv.org/abs/1412.6980)
 *2018-05-21* [paper](https://arxiv.org/abs/1805.08095) | [openreview](https://openreview.net/forum?id=Sygx4305KQ)     
 直接替换当前使用的深度学习求解器的快速二阶方法；   
 
-### 4.1.2 其他
+### 5.1.2 其他
 
 1. [No More Pesky Learning Rates](http://cn.arxiv.org/abs/1206.1106)   
 *2012-06-06* [paper](https://arxiv.org/abs/1206.1106)   
@@ -206,7 +209,7 @@ ICLR 2014 *2014-12-22* [paper](https://arxiv.org/abs/1412.6980)
 ICLR 2019 *2019-02-26* [paper](https://arxiv.org/abs/1902.09843) | [pytorch](https://github.com/Luolc/AdaBound)-offical | [openreview](https://openreview.net/forum?id=Bkg3g2R9FX)      
 
 
-### 4.1.3 SGD
+### 5.1.3 SGD
 1. [Deep learning with Elastic Averaging SGD](http://cn.arxiv.org/abs/1412.6651)   
 NIPS 2015 *2014-12-20* [paper](https://arxiv.org/abs/1412.6651)   
 
@@ -226,7 +229,7 @@ FG-SGD:细粒度优化，确保收敛到最小值；
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10018)   
 
 
-## 4.2 归一化
+## 5.2 归一化
 1. [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)   
 *2017-06-08* [Paper](https://arxiv.org/abs/1706.02515) | [tensorflow](https://github.com/bioinf-jku/SNNs) | [zhihu](https://www.zhihu.com/question/60910412) | [reddit](https://www.reddit.com/r/MachineLearning/comments/6g5tg1/r_selfnormalizing_neural_networks_improved_elu/dio0qac/)      
 
@@ -239,7 +242,7 @@ ICLR 2019 *2019-01-27* [paper](https://arxiv.org/abs/1901.09321) | [openreview](
 
 
 
-## 4.3 模型可解释性
+## 5.3 模型可解释性
 1. [Explainable Machine Learning for Scientific Insights and Discoveries](http://cn.arxiv.org/abs/1905.08883)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08883)   
 

@@ -99,3 +99,5 @@ category: [video, video_retrival]
 
 
 # 附录
+## A 资源
+1. [Introduction to video hashing](http://signal.ee.psu.edu/VideoHashing_Version4.pdf)-limu      

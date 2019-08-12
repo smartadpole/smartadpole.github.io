@@ -12,23 +12,14 @@ tags: 资源
 >**相似视频检索**: 相似指的是通过修改原视频的到新的视频；      
 
 <!--more-->
-`video retrieval`； `duplicate video detection` · `near-duplicate`； `Video Copy Detection`； `video localization`； `Local Features` · `Global Features`； `Performance Measures`；         
+`video retrieval`； `duplicate video detection` · `near-duplicate`； `Video Copy Detection`； `video localization`； `Local Features` · `Global Features`； `Performance Measures`； `Video Content Identification`; `Video Signature`         
 
 
 *发现这方面论文很凌乱，很少；关键字都有很多个版本；*      
 
 # 1 综述
 
-# 2 理论
-
-1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
-*1998* [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
-
-
-# 3 重复视频检测
-`duplicate video detection` · `near-duplicate`；；
-
-## 3.1 综述
+## 1.1 重复视频检测
 1. [Survey on Web Scale Based Near Duplicate Video Retrieval](https://pdfs.semanticscholar.org/c6b0/0a76cb8c540b4824369ddbf7def551720394.pdf)   
 *2016* [paper](https://pdfs.semanticscholar.org/c6b0/0a76cb8c540b4824369ddbf7def551720394.pdf)    
 
@@ -39,15 +30,77 @@ tags: 资源
 *2018-05-27* [paper](https://acadpubl.eu/hub/2018-118-24/3/569.pdf)    
 >太简单，就是一个粗糙的博客；没有思考性的东西，也缺乏大量实验比对；图表模糊，不合格；     
 
+## 1.2 拷贝检测
 
-## 3.2 理论
+1. [Video Copy Detection: a Comparative Study](https://www.irisa.fr/vista/Papers/2007_civr_law-to.pdf)   
+*2007* [paper](https://www.irisa.fr/vista/Papers/2007_civr_law-to.pdf)    
 
-## 3.3 其他
+1. [A Survey On Video Forgery Detection](http://cn.arxiv.org/abs/1503.00843)    
+*2015-03-03* [paper](https://arxiv.org/abs/1503.00843)   
+
+1. [Recent advances in content based video copy detection](http://cn.arxiv.org/abs/1610.09087)    
+*2016-10-28* [paper](https://arxiv.org/abs/1610.09087)   
+
+## 1.3 视频签名
+1. [Video Content Identification Using Video Signature: Survey](https://pdfs.semanticscholar.org/772a/ac1375c51bd984ac400c2bc4ccedd5fa0b43.pdf)    
+*2017-07* [paper](https://pdfs.semanticscholar.org/772a/ac1375c51bd984ac400c2bc4ccedd5fa0b43.pdf)   
+
+## 1.4 基于内容的视频检索
+
+
+## 1.5 跨模态视频检索
+
+## 1.6 版权保护
+1. [/media/hao/DS/OTHER/SOURCE/OpenCV/opencv_contrib.tar](http://infolab.stanford.edu/~shiva/Pubs/thesis.pdf)    
+*1999* [paper](http://infolab.stanford.edu/~shiva/Pubs/thesis.pdf)    
+
+# 2 理论
+
+# 3 技术点
+## 3.1 特征提取
+1. [Ordinal measures for visual correspondence](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)    
+*1996* [paper](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)   
+顺序度量 OM;    
+
+1. [Ordinal measures for image correspondence](https://pdfs.semanticscholar.org/a431/2c7886c88cfae3bb8af9d75c2f91d700e466.pdf)    
+*1998* [paper](https://pdfs.semanticscholar.org/a431/2c7886c88cfae3bb8af9d75c2f91d700e466.pdf)    
+顺序度量 OM；     
+
+1. [Robust video signature based on ordinal measure](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
+*2004* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
+
+1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)   
+*2016-08* [paper](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)   
+
+## 3.2 距离度量
+1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
+*1998* [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
+
+
+## 3.2 Hash
+1. [Spatio–Temporal Transform Based Video Hashing](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
+*2006* [paper](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
+DCT + Hash;    
+
+1. [Submodular Video Hashing: A Unified Framework Towards Video Pooling and Indexing](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
+*2012* [paper](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
+
+
+
+# 4 应用
+## 4.1 重复视频检测
+`duplicate video detection` · `near-duplicate`；；
+
 1. [Efficient Near-duplicate Detection and Sub-image Retrieval](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)     
 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)    
 
 1. [A Framework for Handling Spatiotemporal Variations in Video Copy Detection](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)   
 *2008* [rar](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)    
+
+1. [Realtime near duplicate elimination for web video search with content and context](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)    
+*2009* [paper](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)   
+
+
 1. [Multiple feature hashing for real-time large scale near-duplicate video retrieval](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)     
 *2011-12* [ppt](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)    
 发布了数据集 [UQ_VIDEO](http://staff.itee.uq.edu.au/shenht/UQ_VIDEO/)     
@@ -74,30 +127,31 @@ tags: 资源
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)         
 ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)     
 
+1. [Multiscale video sequence matching for near-duplicate detection and retrieval](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)     
+*2018-05* [paper](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)    
+
 1. [A Coarse-to-fine Deep Convolutional Neural Network Framework for Frame Duplication Detection and Localization in Forged Videos](http://cn.arxiv.org/abs/1811.10762)    
 *2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
 
 
-# 4 视频拷贝检测
+## 4.2 视频拷贝检测
 >Content Based Copy Detection, CDBC: 作用等同于水印，主要用于版权保护；不同之处在与他是直接从视频本身提取一些特征；     
 
 `Video Copy Detection` · `Video Forgery Detection`；    
 
-## 4.1 综述
-1. [Video Copy Detection: a Comparative Study](https://www.irisa.fr/vista/Papers/2007_civr_law-to.pdf)   
-*2007* [paper](https://www.irisa.fr/vista/Papers/2007_civr_law-to.pdf)    
+`跟重复视频检测有什么区别`{:.warning}    
 
-1. [A Survey On Video Forgery Detection](http://cn.arxiv.org/abs/1503.00843)    
-*2015-03-03* [paper](https://arxiv.org/abs/1503.00843)   
-
-1. [Recent advances in content based video copy detection](http://cn.arxiv.org/abs/1610.09087)    
-*2016-10-28* [paper](https://arxiv.org/abs/1610.09087)   
-
-## 4.2 理论
-
-## 4.3 其他
 1. [Partial Copy Detection in Videos: A Benchmark and An Evaluation of Popular Methods](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
 [paper](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
+1. [Feature statistical retrieval applied to content-based copy identification](https://www-sop.inria.fr/members/Alexis.Joly/ajolyICIP04.pdf)     
+*2004* [paper](https://www-sop.inria.fr/members/Alexis.Joly/ajolyICIP04.pdf)    
+兴趣点签名，对打数据检索高效；   
+
+1. [A New Approach to Image Copy Detection Based on Extended Feature Sets](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)    
+*2007* [paper](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)   
+
+1. [Efficient and Effective Video Copy Detection Based on Spatiotemporal Analysis](https://www.iis.sinica.edu.tw/papers/song/15904-F.pdf)    
+*2007* [paper](https://www.iis.sinica.edu.tw/papers/song/15904-F.pdf)   
 
 1. [Scalable mining of large video databases using copy detection](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
 *2008* [paper](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
@@ -108,6 +162,9 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 1. [Video copy detection by fast sequence matching](http://aifc2011.csie.ntnu.edu.tw/~myeh/papers/civr09.pdf)    
 *2009* [paper](http://aifc2011.csie.ntnu.edu.tw/~myeh/papers/civr09.pdf)   
 
+1. [Video Copy Detection by Fast Sequence Matching ](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
+*2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
+
 1. [A PatchMatch-based Dense-field Algorithm for Video Copy-Move Detection and Localization](http://cn.arxiv.org/abs/1703.04636)    
 *2017-03-14* [paper](https://arxiv.org/abs/1703.04636)    
 发布了新的数据集；     
@@ -117,23 +174,26 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 
 1. Geometrically robust video hashing based on ST-PCT for video copy     
 
+## 4.3 视频签名
 
-# 5 基于内容的视频检索
+## 4.4 基于内容的视频检索
 >Content Based Video Retrival, CBVR: 用于相似场景检测；    
 
+1. [Retrieval of News Video using Video Sequence Matching](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
+*2005* [paper](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 
-# 6 跨模态检索
-## 6.1 图片
+## 4.5 跨模态检索
+### 4.5.1 图片
 
 1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
 **AsymNet**: 用 FasterRCNN 检测出物体，然后进行比对；          
 
-## 6.2 文本
+### 4.5.2 文本
 1. [Dual Encoding for Zero-Example Video Retrieval](http://cn.arxiv.org/abs/1809.06181)    
 CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](https://github.com/danieljf24/dual_encoding)-offical | [解读](/video/video_retrival/paper_reading/2019/06/23/Dual-Encoding-for-Zero-Example-Video-Retrieval-reading.html)    
 
-## 6.3 音频
+### 4.5.3 音频
 
 1. [Content-Based Video-Music Retrieval Using Soft Intra-Modal Structure Constraint](http://cn.arxiv.org/abs/1704.06761)  
 *2017-04-22* [paper](https://arxiv.org/abs/1704.06761) | [示例](https://youtu.be/ZyINqDMo3Fg) | [tensorflow](https://github.com/csehong/VM-NET)-offical    

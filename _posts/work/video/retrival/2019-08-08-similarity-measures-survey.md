@@ -13,6 +13,18 @@ category: [video, video_retrival]
 
 <!--more-->  
 
+# 1 一对一
+见图片相似度度量；    
+
+# 2 多对多
+多帧匹配中主要会存在 A 视频中的多个帧匹配到 B 视频中的一帧或交叉匹配的情况；     
+
+## 2.1 动态规划
+
+
+## 2.2 [累计最小（大）距离](https://yongyuan.name/blog/asymmetry-problem-in-computer-vision.html)
+计算效率比动态规划高；    
+往库存视频累计，还是往查询视频累计，有什么区别；    
 
 
 -------------------  

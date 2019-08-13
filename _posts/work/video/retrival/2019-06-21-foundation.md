@@ -12,7 +12,7 @@ tags: 资源
 >**相似视频检索**: 相似指的是通过修改原视频的到新的视频；      
 
 <!--more-->
-`video retrieval`； `duplicate video detection` · `near-duplicate`； `Video Copy Detection`； `video localization`； `Local Features` · `Global Features`； `Performance Measures`； `Video Content Identification`; `Video Signature`         
+`video retrieval`; `duplicate video detection` · `near-duplicate`; `Video Copy Detection`; `video localization`; `Local Features` · `Global Features`; `Performance Measures`; `Video Signature` · `spatial signature` · `temporal signature`; `Video Hashing`; `Video Content Identification`; `video vreification` · `video clip identification` · `authentication of the video content` · `content based watermarking`;            
 
 
 *发现这方面论文很凌乱，很少；关键字都有很多个版本；*      
@@ -20,8 +20,22 @@ tags: 资源
 # 1 综述
 
 ## 1.1 重复视频检测
+1. [Large-scale near-duplicate web video search: Challenge and opportunity](http://vireo.cs.cityu.edu.hk/tansong/icme09-oral.pdf)    
+*2009* [paper](http://vireo.cs.cityu.edu.hk/tansong/icme09-oral.pdf)    
+
+1. [Million-scale Near-duplicate Video Retrieval System](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
+*2011-12* [paper](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
+
+1. [Near-Duplicate Video Retrieval: Current Research and Future Trends](http://vireo.cs.cityu.edu.hk/papers/a44-liu.pdf)    
+*2013-08* [paper](http://vireo.cs.cityu.edu.hk/papers/a44-liu.pdf)    
+使用了一款视频编辑软件；    
+
 1. [Survey on Web Scale Based Near Duplicate Video Retrieval](https://pdfs.semanticscholar.org/c6b0/0a76cb8c540b4824369ddbf7def551720394.pdf)   
 *2016* [paper](https://pdfs.semanticscholar.org/c6b0/0a76cb8c540b4824369ddbf7def551720394.pdf)    
+
+1. [视频拷贝检测方法综述](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3395)    
+*2017-04* 复旦·计算机 姜育刚 [paper](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3395)    
+
 
 1. [GVoS: A General System for Near-Duplicate Video Related Applications on Storm](http://net.pku.edu.cn/~cuibin/Papers/2017%20TOIS.pdf)    
 *2017* [paper](http://net.pku.edu.cn/~cuibin/Papers/2017%20TOIS.pdf)    
@@ -46,18 +60,21 @@ tags: 资源
 *2017-07* [paper](https://pdfs.semanticscholar.org/772a/ac1375c51bd984ac400c2bc4ccedd5fa0b43.pdf)   
 
 ## 1.4 基于内容的视频检索
-
+1. [FIVR: Fine-grained Incident Video Retrieval](http://cn.arxiv.org/abs/1809.04094)    
+*2018-09-11* [paper](https://arxiv.org/abs/1809.04094)   
+发布了新数据集  FIVR-200K；     
 
 ## 1.5 跨模态视频检索
 
 ## 1.6 版权保护
-1. [/media/hao/DS/OTHER/SOURCE/OpenCV/opencv_contrib.tar](http://infolab.stanford.edu/~shiva/Pubs/thesis.pdf)    
+1. [DETECTING DIGITAL COPYRIGHT VIOLATIONS ON THE INTERNET](http://infolab.stanford.edu/~shiva/Pubs/thesis.pdf)    
 *1999* [paper](http://infolab.stanford.edu/~shiva/Pubs/thesis.pdf)    
 
 # 2 理论
 
 # 3 技术点
 ## 3.1 特征提取
+### 3.1.1 传统
 1. [Ordinal measures for visual correspondence](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)    
 *1996* [paper](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)   
 顺序度量 OM;    
@@ -69,8 +86,16 @@ tags: 资源
 1. [Robust video signature based on ordinal measure](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
 *2004* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
 
-1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)   
-*2016-08* [paper](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)   
+1. [Aggregating local descriptors into a compact image representation](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)    
+*2010* [paper](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)   
+
+### 3.1.2 DL
+1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1)   
+*2016-08* [paper](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)       
+CNN，map+准确ud+召回率；    
+
+1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)    
+ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)   
 
 ## 3.2 距离度量
 1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
@@ -85,7 +110,11 @@ DCT + Hash;
 1. [Submodular Video Hashing: A Unified Framework Towards Video Pooling and Indexing](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
 *2012* [paper](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
 
+1. [Unsupervised t-Distributed Video Hashing and Its Deep Hashing Extension](https://www.research.manchester.ac.uk/portal/files/58965691/final.pdf)    
+*2016-12* [paper](https://www.research.manchester.ac.uk/portal/files/58965691/final.pdf)    
 
+1. [Unsupervised Deep Video Hashing via Balanced Code for Large-Scale Video Retrieval](https://eprints.lancs.ac.uk/id/eprint/130708/1/TIP_author_accepted_manuscript.pdf)    
+*2018* [paper](https://eprints.lancs.ac.uk/id/eprint/130708/1/TIP_author_accepted_manuscript.pdf)    
 
 # 4 应用
 ## 4.1 重复视频检测
@@ -93,6 +122,7 @@ DCT + Hash;
 
 1. [Efficient Near-duplicate Detection and Sub-image Retrieval](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)     
 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)    
+哈希；   
 
 1. [A Framework for Handling Spatiotemporal Variations in Video Copy Detection](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)   
 *2008* [rar](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)    
@@ -100,6 +130,9 @@ DCT + Hash;
 1. [Realtime near duplicate elimination for web video search with content and context](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)    
 *2009* [paper](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)   
 
+1. [Real-time Large Scale Near- duplicate Web Video Retrieval](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/MM10_Real-time-Large-Scale-Near-Duplicate-Web-Video-Identification.pdf)    
+*2010* [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/MM10_Real-time-Large-Scale-Near-Duplicate-Web-Video-Identification.pdf)    
+倒排，map+准确度+召回率；     
 
 1. [Multiple feature hashing for real-time large scale near-duplicate video retrieval](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)     
 *2011-12* [ppt](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)    
@@ -123,6 +156,10 @@ DCT + Hash;
 
 1. [Detecting near-duplicate videos by aggregating features from intermediate CNN layers](https://www.researchgate.net/publication/221572367_Detection_and_location_of_near-duplicate_video_sub-clips_by_finding_dense_subgraphs)    
 *2016-08* [paper](https://www.researchgate.net/publication/221572367_Detection_and_location_of_near-duplicate_video_sub-clips_by_finding_dense_subgraphs) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection)        
+
+1. [Stochastic Multiview Hashing for Large-Scale Near- Duplicate Video Retrieval](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
+*2017-01* [paper](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
+镜头边界检测，哈希，汉明距离，map；     
 
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)         
 ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)     
@@ -211,9 +248,13 @@ CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](htt
 # 附录
 ## A 参考资料
 1. [Cross-Modal Retrieval](https://paperswithcode.com/task/cross-modal-retrieval)-paper_with_code     
+1. [InVID H2020 Project](https://zenodo.org/communities/invid-h2020/?page=1&size=20)    
+1. [Multiple feature hashing for real-time large scale near-duplicate video retrieval](https://scite.ai/reports/multiple-feature-hashing-for-real-time-JX3G1Y)-引用文献     
+1. [scinapse](https://scinapse.io/papers/2165798132)    
 
 ## B 报告
 1. ICIP 2017 [Near-Duplicate Video Detection Exploiting Noise Residual Traces](https://pdfs.semanticscholar.org/e604/9608e35f9633bb3c2cf50896f2d26d29a9cd.pdf)    
+1. [Introduction to video hashing](http://signal.ee.psu.edu/VideoHashing_Version4.pdf)-limu      
 
 ## C 数据集
 

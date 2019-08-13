@@ -16,8 +16,20 @@ tags: 资源
 <!--more-->  
 
 # 1 综述
+1. [Deep Learning for Generic Object Detection: A Survey](http://cn.arxiv.org/abs/1809.02165)    
+IJCV 2018 *2018-09-06* [paper](https://arxiv.org/abs/1809.02165)    
+
+1. [Object Detection in 20 Years: A Survey](http://cn.arxiv.org/abs/1905.05055)    
+*2019-03-13* [paper](https://arxiv.org/abs/1905.05055)    
+
+1. [A Survey of Deep Learning-based Object Detection](http://cn.arxiv.org/abs/1907.09408)   
+*2019-07-11* [paper](https://arxiv.org/abs/1907.09408)    
 
 # 2 理论
+1. [Deep Neural Networks for Object Detection](https://papers.nips.cc/paper/5207-deep-neural-networks-for-object-detection.pdf)    
+google [paper](https://papers.nips.cc/paper/5207-deep-neural-networks-for-object-detection.pdf)    
+目标检测中的神经网络；    
+
 1. [Uncertainty Estimation in One-Stage Object Detection](http://cn.arxiv.org/abs/1905.10296)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10296)   
 

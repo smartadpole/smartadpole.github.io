@@ -339,6 +339,8 @@ AUDIO:
         url:    /assets/category/work/audio/voiceprint_analysis.html
       - title:  语音识别
         url:    /assets/category/work/audio/audio_analysis.html
+      - title:  检索
+        url:    /assets/category/work/audio/audio_retrival.html
 
 
 NLP:
@@ -346,6 +348,7 @@ NLP:
     children:
       - title:  上一层
         url:    /index.html
+
 
 
 DLFramework:

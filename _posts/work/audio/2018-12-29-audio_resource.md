@@ -1,12 +1,12 @@
 ---
 layout: article
-title:  "语音识别资源汇总"
+title:  "「AUDIO」 语音识别资源汇总"
 date:   2018-12-29 8:06:40 +0800
 key: audio-resource-20181229
 aside:
   toc: true
 tags: 资源
-category: [Audio, AudioAnalysis, VoiceprintAnalysis]
+category: [audio, audio_analysis, voiceprint_analysis]
 ---
 
 *排名不分先后*  

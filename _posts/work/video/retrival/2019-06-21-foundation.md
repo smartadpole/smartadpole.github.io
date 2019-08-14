@@ -10,12 +10,14 @@ tags: 资源
 ---
 <span id='head'></span>
 >**相似视频检索**: 相似指的是通过修改原视频的到新的视频；      
+相关资料：[检索概述](/video/video_retrival/2019/07/30/survey.html) · [图像检索资源](/cv/retrival/2019/05/22/foundation.html) · [音频检索资源](/audio/audio_retrival/2019/08/14/foundation.html)    
 
 <!--more-->
-`video retrieval`; `duplicate video detection` · `near-duplicate`; `Video Copy Detection`; `video localization`; `Local Features` · `Global Features`; `Performance Measures`; `Video Signature` · `spatial signature` · `temporal signature`; `Video Hashing`; `Video Content Identification`; `video vreification` · `video clip identification` · `authentication of the video content` · `content based watermarking`;            
+`video fingerprinting` · `video DNA` · `video signature` · `video hash` · `video content-based watermarking`;      
+`video retrieval`; `near-duplicate video detection` · `Video Copy Detection` · `Video Forgery Detection` · `Video Content Identification`; `video vreification` · `video authentication` ;            
 
 
-*发现这方面论文很凌乱，很少；关键字都有很多个版本；*      
+*发现这方面论文很凌乱，关键字都有很多个版本；每个方向也不多*      
 
 # 1 综述
 
@@ -73,8 +75,13 @@ tags: 资源
 # 2 理论
 
 # 3 技术点
-## 3.1 特征提取
-### 3.1.1 传统
+## 3.1 关键帧
+`keyframe extract` · `shot boundary detection`;      
+
+## 3.2 特征提取
+`feature extract` · `video fingerprinting` · `video DNA` · `video signature` · `video hash` · `video content-based watermarking`;          
+
+### 3.2.1 传统
 1. [Ordinal measures for visual correspondence](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)    
 *1996* [paper](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)   
 顺序度量 OM;    
@@ -89,7 +96,11 @@ tags: 资源
 1. [Aggregating local descriptors into a compact image representation](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)    
 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)   
 
-### 3.1.2 DL
+1. [Spatio–Temporal Transform Based Video Hashing](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
+*2006* [paper](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
+DCT + Hash;    
+
+### 3.2.2 DL
 1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1)   
 *2016-08* [paper](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)       
 CNN，map+准确ud+召回率；    
@@ -97,15 +108,7 @@ CNN，map+准确ud+召回率；
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)    
 ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)   
 
-## 3.2 距离度量
-1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
-*1998* [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
-
-
-## 3.2 Hash
-1. [Spatio–Temporal Transform Based Video Hashing](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
-*2006* [paper](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
-DCT + Hash;    
+### 3.2.3
 
 1. [Submodular Video Hashing: A Unified Framework Towards Video Pooling and Indexing](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
 *2012* [paper](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
@@ -113,12 +116,20 @@ DCT + Hash;
 1. [Unsupervised t-Distributed Video Hashing and Its Deep Hashing Extension](https://www.research.manchester.ac.uk/portal/files/58965691/final.pdf)    
 *2016-12* [paper](https://www.research.manchester.ac.uk/portal/files/58965691/final.pdf)    
 
+1. [Joint Audio-Video Fingerprint Media Retrieval Using Rate-Coverage Optimization](http://cn.arxiv.org/abs/1609.01331)    
+*2016-09-05* [paper](https://arxiv.org/abs/1609.01331)   
+
 1. [Unsupervised Deep Video Hashing via Balanced Code for Large-Scale Video Retrieval](https://eprints.lancs.ac.uk/id/eprint/130708/1/TIP_author_accepted_manuscript.pdf)    
 *2018* [paper](https://eprints.lancs.ac.uk/id/eprint/130708/1/TIP_author_accepted_manuscript.pdf)    
 
-# 4 应用
+## 3.3 距离度量
+1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
+*1998* [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
+
+
+# 4 应用方向
 ## 4.1 重复视频检测
-`duplicate video detection` · `near-duplicate`；；
+`near-duplicate video detection`
 
 1. [Efficient Near-duplicate Detection and Sub-image Retrieval](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)     
 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)    
@@ -211,26 +222,25 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 
 1. Geometrically robust video hashing based on ST-PCT for video copy     
 
-## 4.3 视频签名
-
-## 4.4 基于内容的视频检索
+## 4.3 基于内容的视频检索
 >Content Based Video Retrival, CBVR: 用于相似场景检测；    
 
 1. [Retrieval of News Video using Video Sequence Matching](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 *2005* [paper](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 
-## 4.5 跨模态检索
-### 4.5.1 图片
+## 4.4 跨模态检索
+### 4.4.1 图片
 
 1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
 **AsymNet**: 用 FasterRCNN 检测出物体，然后进行比对；          
 
-### 4.5.2 文本
+### 4.4.2 文本
 1. [Dual Encoding for Zero-Example Video Retrieval](http://cn.arxiv.org/abs/1809.06181)    
 CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](https://github.com/danieljf24/dual_encoding)-offical | [解读](/video/video_retrival/paper_reading/2019/06/23/Dual-Encoding-for-Zero-Example-Video-Retrieval-reading.html)    
 
-### 4.5.3 音频
+
+### 4.4.3 音频
 
 1. [Content-Based Video-Music Retrieval Using Soft Intra-Modal Structure Constraint](http://cn.arxiv.org/abs/1704.06761)  
 *2017-04-22* [paper](https://arxiv.org/abs/1704.06761) | [示例](https://youtu.be/ZyINqDMo3Fg) | [tensorflow](https://github.com/csehong/VM-NET)-offical    

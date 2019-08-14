@@ -1,12 +1,12 @@
 ---
 layout: article
-title:  "语音识别企业汇总"
+title:  "「AUDIO」 语音识别企业汇总"
 date:   2018-12-29 8:06:40 +0800
 key: audio-company-review-20181229
 aside:
   toc: true
 tags: 公司
-category: [Audio, AudioAnalysis, VoiceprintAnalysis]
+category: [audio, audio_analysis, voiceprint_analysis]
 ---
 
 *排名不分先后*  

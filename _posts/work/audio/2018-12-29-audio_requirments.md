@@ -1,12 +1,12 @@
 ---
 layout: article
-title:  "语音识别需求汇总"
+title:  "「AUDIO」 语音识别需求汇总"
 date:   2018-12-29 8:06:40 +0800
 key: audio-requirement-20181229
 aside:
   toc: true
 tags: 需求
-category: [Audio, AudioAnalysis, VoiceprintAnalysis]
+category: [audio, audio_analysis, voiceprint_analysis]
 ---
 
 ## 1. 1：1 的身份认证以及 1：n 的身份识别

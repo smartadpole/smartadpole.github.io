@@ -9,6 +9,7 @@ category: [CV, retrival]
 tags: 资源
 ---
 <span id='head'></span>  
+>相关资料：[视频检索资源](/video/video_retrival/2019/06/21/foundation.html) · [音频检索资源](/audio/audio_retrival/2019/08/14/foundation.html)      
 
 <!--more-->  
 
@@ -90,19 +91,8 @@ blog:  https://engineering.pinterest.com/blog/introducing-new-way-visually-searc
 1. [Group Invariant Deep Representations for Image Instance Retrieval](http://cn.arxiv.org/abs/1601.02093)  
 [paper](https://arxiv.org/abs/1601.02093)  
 
-1. [Where to Buy It: Matching Street Clothing Photos in Online Shops](http://www.tamaraberg.com/papers/street2shop.pdf)  
-[2015] ICCV  
-[paper](http://www.tamaraberg.com/papers/street2shop.pdf)  
-http://www.cv-foundation.org/openaccess/content_iccv_2015/html/Kiapour_Where_to_Buy_ICCV_2015_paper.html  
-hmepage:  http://www.tamaraberg.com/street2shop/  
-
-1. [Natural Language Object Retrieval](http://cn.arxiv.org/abs/1511.04164)  
-[2015] CVPR  
-[paper](https://arxiv.org/abs/1511.04164)  
-homepage:  http://ronghanghu.com/text_obj_retrieval/  
-[paper](slides:  http://ronghanghu.com/slides/cvpr16_text_obj_retrieval_slides.pdf)  
-https://github.com/ronghanghu/natural-language-object-retrieval  
-https://github.com/andrewliao11/Natural-Language-Object-Retrieval-tensorflow  
+1. [Where to Buy It: Matching Street Clothing Photos in Online Shops](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kiapour_Where_to_Buy_ICCV_2015_paper.pdf)  
+ICCV 2015 [paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kiapour_Where_to_Buy_ICCV_2015_paper.pdf) | [project](http://www.tamaraberg.com/street2shop/)      
 
 1. [Cross-dimensional Weighting for Aggregated Deep Convolutional Features](http://cn.arxiv.org/abs/1512.04065)  
 [2015.12-2016.7]；非参数空间，通道维度；效果提升很大；​  
@@ -210,9 +200,6 @@ https://github.com/janesjanes/sketchy
 1. [Context Aware Query Image Representation for Particular Object Retrieval](http://cn.arxiv.org/abs/1703.01226)  
 [paper](https://arxiv.org/abs/1703.01226)  
 
-1. [An End-to-End Approach to Natural Language Object Retrieval via Context-Aware Deep Reinforcement Learning](http://cn.arxiv.org/abs/1703.07579)  
-[paper](https://arxiv.org/abs/1703.07579)  
-
 1. [AMC: Attention guided Multi-modal Correlation Learning for Image Search](http://cn.arxiv.org/abs/1704.00763)  
 [2017] CVPR  
 [paper](https://arxiv.org/abs/1704.00763)  
@@ -286,9 +273,6 @@ Microsoft
 
 1. [Approximate Query Matching for Image Retrieval](http://cn.arxiv.org/abs/1803.05401)  
 [paper](https://arxiv.org/abs/1803.05401)  
-
-1. [Object Captioning and Retrieval with Natural Language](http://cn.arxiv.org/abs/1803.06152)  
-[paper](https://arxiv.org/abs/1803.06152)  
 
 1. [Triplet-Center Loss for Multi-View 3D Object Retrieval](http://cn.arxiv.org/abs/1803.06189)  
 [2018] CVPR  
@@ -485,7 +469,20 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 *2019-06-30* [paper](https://arxiv.org/abs/1907.00382)   
 
 # 6 跨模态  
+## 6.1 文本
+1. [Natural Language Object Retrieval](http://cn.arxiv.org/abs/1511.04164)  
+CVPR 2016 *2015*  [paper](https://arxiv.org/abs/1511.04164) | [project](http://ronghanghu.com/text_obj_retrieval/) | [caffe](https://github.com/ronghanghu/natural-language-object-retrieval) | [tensorflow & caffe](https://github.com/andrewliao11/Natural-Language-Object-Retrieval-tensorflow)      
 
+
+1. [An End-to-End Approach to Natural Language Object Retrieval via Context-Aware Deep Reinforcement Learning](http://cn.arxiv.org/abs/1703.07579)      
+*2017* [paper](https://arxiv.org/abs/1703.07579)  
+
+
+1. [Object Captioning and Retrieval with Natural Language](http://cn.arxiv.org/abs/1803.06152)  
+*2018* [paper](https://arxiv.org/abs/1803.06152)  
+
+
+## 6.2 其他
 1. [Cross-domain Image Retrieval with a Dual Attribute-aware Ranking Network](http://cn.arxiv.org/abs/1505.07922)  
 DARN [2015] ICCV；​cross-entropy loss, triplet loss；  
 [paper](https://arxiv.org/abs/1505.07922)  

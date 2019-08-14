@@ -1348,8 +1348,6 @@ InfoSecurity:
     children:
       - title:  数字水印
         url:    /assets/category/work/CV_2D/info_security/digital_watermarking.html
-      - title:  数字指纹
-        url:    /assets/category/work/CV_2D/info_security/digital_fingerprinting.html
 
 NDVR:  
   - title:

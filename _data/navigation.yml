@@ -240,7 +240,7 @@ CV:
       - title:  跟踪
         url:    /assets/category/work/CV_2D/tracking.html
       - title:  检索
-        url:    /assets/category/work/CV_2D/retrival.html
+        url:    /assets/category/work/CV_2D/retrieval.html
       - title:  重识别
         url:    /assets/category/work/CV_2D/reid.html
       - title:  图像增强
@@ -316,7 +316,7 @@ Video:
       - title:  视频超分辨率
         url:    /assets/category/work/video/super_resolution.html
       - title:  视频检索
-        url:    /assets/category/work/video/retrival.html
+        url:    /assets/category/work/video/retrieval.html
       - title:  视频修复
         url:    /assets/category/work/video/inpaint.html
       - title:  动作定位
@@ -340,7 +340,7 @@ AUDIO:
       - title:  语音识别
         url:    /assets/category/work/audio/audio_analysis.html
       - title:  检索
-        url:    /assets/category/work/audio/audio_retrival.html
+        url:    /assets/category/work/audio/audio_retrieval.html
 
 
 NLP:
@@ -1353,18 +1353,18 @@ NDVR:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/video/retrival.html
+        url:    /assets/category/work/video/retrieval.html
 
   - title:	视频检索
     children:
       - title:  概述
-        url:    /video/video_retrival/2019/07/30/survey.html
+        url:    /video/video_retrieval/2019/07/30/survey.html
 
   - title:	关键技术
     children:
       - title:  关键帧提取
         url:    /video/key_frame/2019/08/08/survey.html
       - title:  特征提取
-        url:    /video/video_retrival/2019/08/08/feature-extract-survey.html
+        url:    /video/video_retrieval/2019/08/08/feature-extract-survey.html
       - title:  相似度度量
-        url:    /video/video_retrival/2019/08/08/similarity-measures-survey.html
+        url:    /video/video_retrieval/2019/08/08/similarity-measures-survey.html

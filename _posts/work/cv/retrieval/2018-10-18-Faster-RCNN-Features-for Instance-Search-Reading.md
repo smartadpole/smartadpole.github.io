@@ -2,11 +2,11 @@
 layout: article
 title:  "「论文解读」Faster R-CNN Features for Instance Search"
 date:   2018-10-18 14:06:40 +0800
-key: retrival-faster-rcnn-20181018
+key: retrieval-faster-rcnn-20181018
 aside:
   toc: true
 tags: Faster-RCNN
-category: [CV, retrival, paper_reading]
+category: [CV, retrieval, paper_reading]
 ---
 https://blog.csdn.net/dengbingfeng/article/details/51453851
 https://zhuanlan.zhihu.com/p/33625603
@@ -71,10 +71,10 @@ CA-SR 和 CS-SR 的区别就在于，用来重排序的指标不同；
 ### 2. 实验结果
 
 <span id="pooling-result">**池化实验结果**</span>：求和池化 & 最大池化的对比  
-![](/assets/images/cv/dl/paper_reading/FasterRCNN-retrival/faster-rcnn-for-retrival-sum-max.png)  
+![](/assets/images/cv/dl/paper_reading/FasterRCNN-retrieval/faster-rcnn-for-retrieval-sum-max.png)  
 
 **CA-SR 和 CS-SR 的实验结果**：  
-![](/assets/images/cv/dl/paper_reading/FasterRCNN-retrival/faster-rcnn-for-retrival-CASR-CSSR.png)  
+![](/assets/images/cv/dl/paper_reading/FasterRCNN-retrieval/faster-rcnn-for-retrieval-CASR-CSSR.png)  
 
 ## 五、总结
 

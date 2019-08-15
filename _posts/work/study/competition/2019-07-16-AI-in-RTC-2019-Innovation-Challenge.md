@@ -18,12 +18,14 @@ category: [Competition]
 
 ## 一、 介绍
 目标是图像超分辨率；      
-[**赛程安排**](#schedule)，[赛制](#rule)，[奖项设置](#awards)    
+组队截止到 2019-09-27 14：00 [**赛程安排**](#schedule)，[赛制](#rule)，[奖项设置](#awards)    
+官方竞赛 QQ群494363927    
 
 ## 二、 数据
 
 | 赛程 | 数据量（张） | 发布时间（2019年） | 说明 |   
 | --- | --- | --- | --- |
+| 训练集[DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)、[Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar) | 800+200、 |  |  |
 | 验证集 | 100×3 | 7.1 | val-images_original：原始图，val-images_x2：下采样至1/2，val-images_x4：下采样至1/4，共 100 组（一一对应） |
 | 测试集 | - | 7.20 - 8.1 | test-images_x4：下采样至1/4，100张 |  
 

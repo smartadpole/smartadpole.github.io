@@ -5,18 +5,18 @@ date:   2019-07-03 15:34:40 +0800
 key: agriculture-ai-20190703
 aside:
   toc: true
-category: [Competition]
+category: [Competition, agriculture]
 ---
 <span id='head'></span>
 >竞赛主页：<https://tianchi.aliyun.com/competition/entrance/231717/introduction>   
 
 <!--more-->
 
-## 一、 介绍
+# 1 介绍
 报名于2019年7月19日12：00结束，目标是分割出农作物地表；      
-[**赛程安排**](#schedule)，[赛制](#rule)，[奖项设置](#awards)    
+[**赛程安排**](#schedule)，[赛制](#rule)，[奖项设置](#awards)，[赛题解读](https://tianchi.aliyun.com/course/video?spm=5176.12586971.1001.6.18857195iHZzGv&liveId=41074)    
 
-## 二、 数据
+# 2 数据
 
 | 赛程 | 数据量（张） | 发布时间（2019年） |  
 | --- | --- | --- |
@@ -30,14 +30,25 @@ category: [Competition]
 图像是类似 5万×4万的大图，需要自己进行裁剪以供训练；     
 
 
-## 三、 评估指标
+# 3 评估指标
 
 
-## 四、 思路
+# 4 思路
+## 4.1 数据预处理
+opencv 和 pil 读取会比较慢；使用 gdal、rasterio 等可以进行高效读取；     
+针对想素值过大的问题，可使用 opencv 的 OPENCV_IO_MAX_IMAGE_PIXELS 或 Image.MAX_IMAGE_PIXELS 等设置像素值边界；   
 
+## 4.2 模型
+语义分割问题；主流模型包括 U-shape 结构（Unet，Segnet，RefineNet）和 Dilated 结构（PSP，Deeplab，HRNet）；    
+Unet 比较经典，尤其适合小样本的情况；    
 
-## 五、 榜单
+## 4.3 建议
+不太建议用太重的数据增强；    
 
+# 5 榜单
+
+# 6 主办方
+阿里云数据智能产品事业部，主要聚焦农业和养殖业；     
 
 
 

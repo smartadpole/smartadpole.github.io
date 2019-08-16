@@ -158,6 +158,8 @@ C++:
         url:    /assets/category/work/software/grammer/cpp/parallel.html
       - title:  C++11 & C++14
         url:    /assets/category/work/software/grammer/cpp/modern.html
+      - title:  线性运算
+        url:    /assets/category/work/software/grammer/cpp/blas.html
 
 
 Python:

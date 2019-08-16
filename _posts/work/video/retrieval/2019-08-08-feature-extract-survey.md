@@ -16,6 +16,7 @@ category: [video, video_retrieval]
 
 
 # 1 帧特征
+>低层特征：HOG, HOF, MBH, IDTF 等      
 
 ## 1.1 全局特征
 >对图像内容的整体性描述；      

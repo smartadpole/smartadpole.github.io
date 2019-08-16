@@ -6,7 +6,7 @@ key: cpp-foundation-20190108
 aside:
   toc: true
 tags: 资源
-category: [c++]
+category: [c++, cpp_foundation]
 ---
 
 

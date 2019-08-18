@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       RE-ID
-    zh:       重识别
-    zh-Hans:  重识别
-    zh-Hant:  重识别
+    en:       Human RE-ID
+    zh:       行人重识别
+    zh-Hans:  行人重识别
+    zh-Hant:  行人重识别
 sidebar:
-    nav: CV
+    nav: Human
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "REID" %}
+        {% if cat[0] == "human_reid" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

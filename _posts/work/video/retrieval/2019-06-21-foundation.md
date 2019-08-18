@@ -108,6 +108,9 @@ tags: 资源
 *2006* [paper](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
 DCT + Hash;    
 
+1. [Deep Signatures](http://cn.arxiv.org/abs/1905.08494)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08494) | [pytorch](https://github.com/patrick-kidger/Deep-Signatures)       
+
 #### 3.2.1.2 DL
 1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1)   
 *2016-08* [paper](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)       
@@ -238,28 +241,66 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 
 1. Geometrically robust video hashing based on ST-PCT for video copy     
 
-## 4.3 基于内容的视频检索
+## 4.3 签名验证
+1. [Online Signature Verification Based on Writer Specific Feature Selection and Fuzzy Similarity Measure](http://cn.arxiv.org/abs/1905.08574)   
+CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.org/abs/1905.08574)   
+
+
+## 4.4 基于内容的视频检索
 >Content Based Video retrieval, CBVR: 用于相似场景检测；    
 
 1. [Retrieval of News Video using Video Sequence Matching](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 *2005* [paper](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 
-## 4.4 跨模态检索
-### 4.4.1 图片
+## 4.5 跨模态检索
+`multi-modal hashing` · `cross-modal retrieval`；    
+`siam-network`；    
+`Zero-Example Video Retrieval` · `Text-Video Retrieval`；     
+`Video-Music Retrieval`；    
 
+| 年份 | AAAI | ICML | NIPS | CVPR | ICCV | ECCV |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2019 | 2 | 0 |  | 1 |  |  |
+| 2018 | 0 |  | 0 | 0 |  | 0 |
+| 2017 | 1 |  |  | 0 | 0 |  |
+| 2016 | 1 |  |  | 0 |  |  |
+| 2015 | 0 |  |  | 1 | 0 |  |
+| 2014 | 0 |  |  | 0 |  |  |
+| 2013 | 0 |  |  | 0 | 0 |  |
+
+
+1. [一种多模态融合的网络视频相关性度量方法](http://html.rhhz.net/tis/html/20160311.htm)    
+1. [多模态视频分析技术研究与应用](https://www.jishuwen.com/d/2FPy#tuit)    
+1. [优酷在多模态内容理解上的研究及应用](https://www.infoq.cn/article/xgP_eyfidAA2l5ShcCPp)     
+
+### 4.5.1 跨模态
+
+1. [Coupled CycleGAN: Unsupervised Hashing Network for Cross-Modal Retrieval](https://arxiv.org/abs/1903.02149)    
+AAAI 2019 *2019-03-06* [paper](https://arxiv.org/abs/1903.02149)     
+UCH： 为了解决跨模态散列问题，使用 GAN 将特征提取和哈希连接起来；       
+
+
+
+### 4.5.2 图片
+#### 4.5.2.1 [行人重识别](/cv/human/human_reid/2019/05/14/foundation.html#352-视频)    
+#### 4.5.2.2 商品检索
 1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
 **AsymNet**: 用 FasterRCNN 检测出物体，然后进行比对；          
 
-### 4.4.2 文本
-1. [Dual Encoding for Zero-Example Video Retrieval](http://cn.arxiv.org/abs/1809.06181)    
-CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](https://github.com/danieljf24/dual_encoding)-offical | [解读](/video/video_retrieval/paper_reading/2019/06/23/Dual-Encoding-for-Zero-Example-Video-Retrieval-reading.html)    
-
+### 4.5.3 文本
 1. [Joint Embeddings with Multimodal Cues for Video-Text Retrieval](https://vcg.ece.ucr.edu/sites/g/files/rcwecm2661/files/2019-03/IJMIR_Camera_Ready.pdf)     
 *2018* [paper](https://vcg.ece.ucr.edu/sites/g/files/rcwecm2661/files/2019-03/IJMIR_Camera_Ready.pdf)    
 
+1. [Multilevel Language and Vision Integration for Text-to-Clip Retrieval](https://arxiv.org/abs/1804.05113)    
+AAAI 2019 *2018-04-13* [paper](https://arxiv.org/abs/1804.05113)    
+视频片段检索；   
 
-### 4.4.3 音频
+1. [Dual Encoding for Zero-Example Video Retrieval](http://cn.arxiv.org/abs/1809.06181)    
+CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](https://github.com/danieljf24/dual_encoding)-offical | [解读](/video/video_retrieval/paper_reading/2019/06/23/Dual-Encoding-for-Zero-Example-Video-Retrieval-reading.html)    
+
+
+### 4.5.4 音频
 
 1. [Content-Based Video-Music Retrieval Using Soft Intra-Modal Structure Constraint](http://cn.arxiv.org/abs/1704.06761)  
 *2017-04-22* [paper](https://arxiv.org/abs/1704.06761) | [示例](https://youtu.be/ZyINqDMo3Fg) | [tensorflow](https://github.com/csehong/VM-NET)-offical    
@@ -280,6 +321,7 @@ CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](htt
 1. [InVID H2020 Project](https://zenodo.org/communities/invid-h2020/?page=1&size=20)    
 1. [Multiple feature hashing for real-time large scale near-duplicate video retrieval](https://scite.ai/reports/multiple-feature-hashing-for-real-time-JX3G1Y)-引用文献     
 1. [scinapse](https://scinapse.io/papers/2165798132)    
+
 
 ## B 报告
 1. ICIP 2017 [Near-Duplicate Video Detection Exploiting Noise Residual Traces](https://pdfs.semanticscholar.org/e604/9608e35f9633bb3c2cf50896f2d26d29a9cd.pdf)    

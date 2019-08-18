@@ -243,8 +243,6 @@ CV:
         url:    /assets/category/work/CV_2D/tracking.html
       - title:  检索
         url:    /assets/category/work/CV_2D/retrieval.html
-      - title:  重识别
-        url:    /assets/category/work/CV_2D/reid.html
       - title:  图像增强
         url:    /assets/category/work/CV_2D/image_enhancement.html
       - title:  图像生成
@@ -1230,6 +1228,8 @@ Human:
         url:    /assets/category/work/CV_2D/human/facial_landmark.html
       - title:  人脸修复
         url:    /assets/category/work/CV_2D/human/facial_inpaint.html
+      - title:  行人重识别
+        url:    /assets/category/work/CV_2D/human/reid.html
       - title:  活性检测
         url:    /assets/category/work/CV_2D/human/activity_recognize.html
       - title:  表观分析

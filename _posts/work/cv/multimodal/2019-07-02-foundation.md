@@ -32,4 +32,5 @@ tags: 资源
 
 # 附录
 ## A 参考资料
-[1]. tangzhenyu. 行人重识别（re-ID）与跟踪（tracking）有什么区别[EB/OL]. <https://www.zhihu.com/question/68584669>. 2018-04-29/2019-07-02.   
+1. tangzhenyu. 行人重识别（re-ID）与跟踪（tracking）有什么区别[EB/OL]. <https://www.zhihu.com/question/68584669>. 2018-04-29/2019-07-02.   
+1. [这可能是「多模态机器学习」最通俗易懂的介绍](https://zhuanlan.zhihu.com/p/53511144)     

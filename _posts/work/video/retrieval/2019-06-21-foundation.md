@@ -146,8 +146,15 @@ ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_wo
 
 ### 3.3.2 基于序列
 1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
-*1998* [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
-
+*1998* 香港中文 [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
+`distance measure` · `edit distance` · `sequence-tosequence matching` · `video string`     
+**贡献**：在传统 edit distance 上融入了 vstring 的概念，并加入了三种操作来适应序列间的匹配；    
+**说明**：vstring 负责序列数据的组织，edit distance 负责非等长数据之间的匹配；        
+**算法特点**：对空间特征的鲁棒性要求较高；空间和时间复杂度较高；      
+**疑问**：    
+- vstring 怎么实现的；    
+- edit distance 怎么实现的；     
+>感觉 ED 系列的方法都是针对本身就相似的特征，使用串匹配的方法详细计算其相似度，所以更适合用来计算数据之间的相似性，而不适合用在拷贝检测相关问题中；因为拷贝检测问题是为了找出该视频副本，也就是副本和原视频越相似越好；而 ED 则是很客观地给出副本和原视频的不相似程度；      
 
 # 4 应用方向
 ## 4.1 重复视频检测

@@ -32,7 +32,7 @@ category: [video, video_retrieval, paper_reading]
 
 ## 2.1 模型结构
 <center class="half">
-  <img src="/assets/images/video/retrival/Dual-Encoding-ZVR/dual_encoding.png" height="400"/>&emsp;<br>图1：网络结构   
+  <img src="/assets/images/video/retrieval/Dual-Encoding-ZVR/dual_encoding.png" height="400"/>&emsp;<br>图1：网络结构   
 </center>
 
 使用的模块有： [CNN](#CNN)，[BiGRU-CNN](#BiGRU_CNN)，[FPN](#FPN)，[VSE++](#VSE)    
@@ -76,20 +76,20 @@ MSR-VTT, TRECVIR 2016&2017, MSCOCO；
 
 ### 4.2.1 精度
 <center class="half">
-  <img src="/assets/images/video/retrival/Dual-Encoding-ZVR/MSR_VTT.png"/>&emsp;<br>图2：MSR-VTT 实验结果   
+  <img src="/assets/images/video/retrieval/Dual-Encoding-ZVR/MSR_VTT.png"/>&emsp;<br>图2：MSR-VTT 实验结果   
 </center>
 <center class="half">
-  <img src="/assets/images/video/retrival/Dual-Encoding-ZVR/MSR_VTT_ablation.png"/>&emsp;<br>图3：MSR-VTT 上的消融实验   
+  <img src="/assets/images/video/retrieval/Dual-Encoding-ZVR/MSR_VTT_ablation.png"/>&emsp;<br>图3：MSR-VTT 上的消融实验   
 </center>
 `第三行和倒数第二行有什么区别吗`{:.warning}   
 
 <center class="half">
-  <img src="/assets/images/video/retrival/Dual-Encoding-ZVR/TRECVID_2016.png"/>&emsp;<img src="/assets/images/video/retrival/Dual-Encoding-ZVR/TRECVID_2017.png"/>&emsp;<br>图4：TRECVIR 实验结果   
+  <img src="/assets/images/video/retrieval/Dual-Encoding-ZVR/TRECVID_2016.png"/>&emsp;<img src="/assets/images/video/retrieval/Dual-Encoding-ZVR/TRECVID_2017.png"/>&emsp;<br>图4：TRECVIR 实验结果   
 </center>
 
 
 <center class="half">
-  <img src="/assets/images/video/retrival/Dual-Encoding-ZVR/MSCOCO.png"/>&emsp;<br>图5：MSCOCO 实验结果   
+  <img src="/assets/images/video/retrieval/Dual-Encoding-ZVR/MSCOCO.png"/>&emsp;<br>图5：MSCOCO 实验结果   
 </center>
 
 ### 4.2.2 速度
@@ -173,13 +173,13 @@ MSR-VTT, TRECVIR 2016&2017, MSCOCO；
 <span id='concept_based'>**2. 基于概念的方法**</span>     
 对于不同模态的数据相似度计算，会事先学习到一个模态到另一个模态所有可能的情况，这种映射结果，我们称之为「概念空间」；然后在计算相似度时，將两个模态的原数据统一映射到到概念空间，再计算其距离；[^1]     
 <center class="half">
-  <img src="/assets/images/video/retrival/Dual-Encoding-ZVR/Multi_modal_Fusion.png" height="400"/>&emsp;<br>图6：基于概念的视频检索   
+  <img src="/assets/images/video/retrieval/Dual-Encoding-ZVR/Multi_modal_Fusion.png" height="400"/>&emsp;<br>图6：基于概念的视频检索   
 </center>
 
 <span id='joint_embedding'>**3. 联合嵌入的方法**</span>     
 分别提取两个模态的特征，最后映射到统一的空间进行相似度度量；[^2]     
 <center class="half">
-  <img src="/assets/images/video/retrival/Dual-Encoding-ZVR/joint_embedding.png" height="400"/>&emsp;<br>图7：基于联合嵌入的视频检索   
+  <img src="/assets/images/video/retrieval/Dual-Encoding-ZVR/joint_embedding.png" height="400"/>&emsp;<br>图7：基于联合嵌入的视频检索   
 </center>
 
 <span id='close_set'>**4. 闭集 & 开集**</span>     

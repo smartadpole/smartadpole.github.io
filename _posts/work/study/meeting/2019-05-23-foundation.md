@@ -34,9 +34,9 @@ tags: 资源
 >A类是顶会，尤其是一些热门的研究方向，一般是投稿多录用率低；    
 
 ## [AAAI](https://www.aaai.org/Conferences/conferences.php)
->AAAI Conference on Artificial Intelligence    
+>[AAAI Conference on Artificial Intelligence](https://dblp.uni-trier.de/db/conf/aaai/)    
 
-[paper](https://www.aaai.org/Library/AAAI/aaai-library.php)
+[历年 paper](https://www.aaai.org/Library/AAAI/aaai-library.php)、[2017 最佳](https://www.jiqizhixin.com/articles/2017-08-17-11)、[2019 关键词](https://aaai.org/Conferences/AAAI-19/aaai19keywords/)、[2019 笔记](https://david-abel.github.io/notes/aaai_2019.pdf)、[2019 最佳](https://medium.com/syncedreview/aaai-19-announces-best-papers-9b1d4510cf73)       
 
 |  | 2017年	| 2018年	| [2019年](https://aaai.org/Conferences/AAAI-19/) |
 | --- | --- | --- | --- |
@@ -47,11 +47,10 @@ tags: 资源
 | 录用率	| 24.9%	| 24.6%	| 16.2%|
 | 最佳论文	| 	| 	| |
 
-[2017 最佳](https://www.jiqizhixin.com/articles/2017-08-17-11)   
-[2019 关键词](https://aaai.org/Conferences/AAAI-19/aaai19keywords/)、[2019 笔记](https://david-abel.github.io/notes/aaai_2019.pdf)、[2019 最佳](https://medium.com/syncedreview/aaai-19-announces-best-papers-9b1d4510cf73)            
+
 
 ## IJCAI
->International Joint Conference on Artificial Intelligence    
+>[International Joint Conference on Artificial Intelligence](https://dblp.uni-trier.de/db/conf/ijcai/)    
 
 |  | 2017年	| 2018年	| 2019年 |
 | --- | --- | --- | --- |
@@ -61,17 +60,18 @@ tags: 资源
 
 
 ## ICCV
->International Conference on Computer Vision    
+>[International Conference on Computer Vision](http://dblp.uni-trier.de/db/conf/iccv/)    
 两年一次；    
 
-|  | 2015年	| 2017年	| 2019年 |
-| --- | --- | --- | --- |
-| 投稿数	| 1698	| 2143	| 4328 |
-| 录用率	| 30.3%	| 28%	| 正在评审 |
+|  | [2013](http://openaccess.thecvf.com/ICCV2013.py) [年](http://openaccess.thecvf.com/ICCV2013_workshops/menu.py) | [2015](http://openaccess.thecvf.com/ICCV2015.py) [年](http://openaccess.thecvf.com/ICCV2015_workshops/menu.py)	| [2017](http://openaccess.thecvf.com/ICCV2017.py) [年](http://openaccess.thecvf.com/ICCV2017_workshops/menu.py)	| [2019]() [年]() |
+| --- | --- | --- | --- | --- |
+| 投稿数	|  | 1698	| 2143	| 4328 |
+| 录用数	| 455 | 527 | 621 |  |
+| 录用率	|  | 30.3%	| 28%	| 正在评审 |
 
 
 ## ICML
->International Conference on Machine Learning    
+>[International Conference on Machine Learning](https://dblp.uni-trier.de/db/conf/icml/)    
 
 |  | 2017年	| 2018年	| [2019年](https://icml.cc/Conferences/2019/Schedule?type=Poster)  |
 | --- | --- | --- | --- |
@@ -81,7 +81,7 @@ tags: 资源
 
 
 ## NIPS
->Annual Conference on Neural Information Processing Systems    
+>[Annual Conference on Neural Information Processing Systems](https://dblp.uni-trier.de/db/conf/nips/)    
 
 |  | 2017年	| 2018年	| 2019年 |
 | --- | --- | --- | --- |
@@ -90,16 +90,16 @@ tags: 资源
 | 录用率	| 20.9%	| 20.7%	|  |
 
 ## CVPR
->IEEE Conference on Computer Vision and Pattern Recognition   
+>[IEEE Conference on Computer Vision and Pattern Recognition](https://dblp.uni-trier.de/db/conf/cvpr/)   
 
-|  | 2017年	| 2018年	| [2019年](http://openaccess.thecvf.com/CVPR2019.py) |
-| --- | --- | --- | --- |
-| 投稿数	| 2680	| 3309	| 5100+ |
-| 录用数	| 783	| 979	|  |
-| 录用率	| 29%	| 29.6%	| 25.2% |
+|  | [2013](http://openaccess.thecvf.com/CVPR2013.py) [年](http://openaccess.thecvf.com/CVPR2013_workshops/menu.py) | [2014](http://openaccess.thecvf.com/CVPR2014.py) [年](http://openaccess.thecvf.com/CVPR2014_workshops/menu.py) | [2015](http://openaccess.thecvf.com/CVPR2015.py) [年](http://openaccess.thecvf.com/CVPR2015_workshops/menu.py) | [2016](http://openaccess.thecvf.com/CVPR2016.py) [年](http://openaccess.thecvf.com/CVPR2016_workshops/menu.py) | [2017](http://openaccess.thecvf.com/CVPR2017.py) [年](http://openaccess.thecvf.com/CVPR2017_workshops/menu.py)	| [2018](http://openaccess.thecvf.com/CVPR2018.py) [年](http://openaccess.thecvf.com/CVPR2018_workshops/menu.py)	| [2019](http://openaccess.thecvf.com/CVPR2019.py) [年](http://openaccess.thecvf.com/CVPR2019_workshops/menu.py) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 投稿数	|  |  |  |  | 2680	| 3309	| 5100+ |
+| 录用数	| 471 | 540 | 602 | 643 | 783	| 979	| 1294 |
+| 录用率	|  |  |  |  |  29%	| 29.6%	| 25.2% |
 
 ## IJCV
->International Journal of Computer Vision；学术刊物    
+>[International Journal of Computer Vision](https://dblp.uni-trier.de/db/journals/ijcv/)；学术刊物    
 
 
 # B 类
@@ -107,7 +107,7 @@ tags: 资源
 
 
 ## ICAPS
->International Conference on Automated Planning and Scheduling     
+>[International Conference on Automated Planning and Scheduling](https://dblp.uni-trier.de/db/conf/aips/)     
 
 |  | 2017年	| 2018年	| 2019年 |
 | --- | --- | --- | --- |
@@ -115,7 +115,7 @@ tags: 资源
 | 录用率		| 29.5%	| 30% |
 
 ## AAMAS
->International Joint Conference on Autonomous Agents and Multi-agent Systems     
+>[International Joint Conference on Autonomous Agents and Multi-agent Systems](https://dblp.uni-trier.de/db/journals/aamas/) 学术刊物     
 
 |  | 2017年	| 2018年	| 2019年 |
 | --- | --- | --- | --- |
@@ -123,7 +123,7 @@ tags: 资源
 | 录用率	| 26.1%	| 25.3%	| 24.3%+22%的poster |
 
 ## ECAI
->European Conference on Artificial Intelligence     
+>[European Conference on Artificial Intelligence](https://dblp.uni-trier.de/db/conf/ecai/)     
 
 | 2014年	| 2016年	| 2018年 |
 | --- | --- | --- | --- |
@@ -131,15 +131,26 @@ tags: 资源
 | 录用率	| 28.1%	| 27%	与IJCAI合办 |
 
 ## ECCV
->European Conference on Computer Vision     
+>[European Conference on Computer Vision](https://dblp.uni-trier.de/db/conf/eccv/)     
 
-|  | 2014年	| 2016年	| 2019年 |
+|  | 2014年	| 2016年	| [2018](http://openaccess.thecvf.com/ECCV2018.py) [年](http://openaccess.thecvf.com/ECCV2018_workshops/menu.py) | 2019年 |
+| --- | --- | --- | --- | --- |
+| 投稿数	| 1359	| 1561	|  | 2439 |
+| 录用数	|  |  | 776 |  |
+| 录用率	| 26.7%	| 26.6%	|  | 31.8% |
+
+## ICMR
+>[ACM SIGMM International Conference on Multimedia Retrieval](https://dblp.uni-trier.de/db/conf/mir/)专门做多媒体检索的；    
+
+[COMPENDIUM OF ICMR RESEARCH PAPERS (1919-2010)](https://www.icmr.nic.in/sites/default/files/research_paper/Compandium.pdf)     
+
+|  | [2015年](http://www.sigmm.org/archive/ICMR/icmr15/accepted_papers.html) | [2016年](https://www.icmr2016.com/acceptedpapers.html) |2017年	| [2018年](http://www.sigmm.org/archive/ICMR/icmr18/index-2.html)	| [2019年](http://www.icmr2019.org/) |
 | --- | --- | --- | --- |
-| 投稿数	| 1359	| 1561	| 2439 |
-| 录用率	| 26.7%	| 26.6%	| 31.8% |
+| 投稿数	| 	|  |  |
+| 录用数	| 	|  | [93](https://easychair.org/publications/preprints) |
 
 ## ICRA
->IEEE International Conference on Robotics and Automation     
+>[IEEE International Conference on Robotics and Automation](https://dblp.uni-trier.de/db/conf/icra/)     
 
 |  | 2017年	| 2018年	| 2019年 |
 | --- | --- | --- | --- |
@@ -147,7 +158,7 @@ tags: 资源
 | 录用率	| 41%	| 40%	| 44% |
 
 ## ICME
->IEEE 国际多媒体与博览会，IEEE International Conference on Multimedia & Expo     
+>IEEE 国际多媒体与博览会，[IEEE International Conference on Multimedia & Expo](https://dblp.uni-trier.de/db/conf/icmcs/)     
 
 
 |  | 2017年	| 2018年	| [2019年](http://www.icme2019.org/)   |
@@ -155,22 +166,24 @@ tags: 资源
 | 投稿数	| 850	| 582	| 1000+ |
 | 录用率	|	| 30%	| 30% |
 
+
+# C类
+>一般；    
+
+
 ## ACCV
->Asian Conference on Computer Vision     
+>[Asian Conference on Computer Vision](https://dblp.uni-trier.de/db/conf/accv/)     
 两年一次    
 
 平均录用率：26%-29%    
 
 ## IROS
->IEEE\RSJ International Conference on Intelligent Robots and Systems     
+>[IEEE\RSJ International Conference on Intelligent Robots and Systems](https://dblp.uni-trier.de/db/conf/iros/)     
 
 平均录用率：40%+  
 
-# C类
->一般；    
-
 ## BMVC
->British Machine Vision Conference     
+>[British Machine Vision Conference](https://dblp.uni-trier.de/db/conf/bmvc/)     
 两年一次    
 
 平均录用率：29%-35%    
@@ -179,6 +192,12 @@ tags: 资源
 
 ## ICLR
 [介绍](https://www.zhihu.com/question/47940549)  
+
+|  | [2017年](https://iclr.cc/archive/www/2017.html)	| 2018年	| 2019年 |
+| --- | --- | --- | --- |
+| 投稿数	| [490](https://openreview.net/group?id=ICLR.cc/2017/conference)+[158](https://openreview.net/group?id=ICLR.cc/2017/workshop) | [555](https://iclr.cc/Conferences/2018/Schedule)	| [525](https://iclr.cc/Conferences/2019/Schedule) |
+| 录用数	| 289+111 | [336](https://iclr.cc/Conferences/2018/Schedule?type=Poster) | [501](https://iclr.cc/Conferences/2019/Schedule?type=Poster) |
+| 录用率	|	|  |  |
 
 
 ## RLDM
@@ -195,3 +214,4 @@ tags: 资源
 # 附录
 1. 中国计算机学会. [计算机图形学与多媒体](https://www.ccf.org.cn/xspj/jsjtxxydmt/)   
 1. 中国计算机学会. [人工智能](https://www.ccf.org.cn/xspj/rgzn/)
+1. [conference、symposium、workshop等概念的区别](https://blog.csdn.net/qq_38262728/article/details/85055057)    

@@ -105,7 +105,7 @@ https://mp.weixin.qq.com/s/iotqiyRrH4kwWmBvYi-tMQ
 *2018-07-12* [Paper](https://arxiv.org/abs/1807.05073)   
 
 ## 3.3 多目标
-1. [Online Multiple Pedestrian Tracking using Deep Temporal Appearance Matching Association](https://arxiv.org/abs/1907.00831)   
+1. [Online Multiple Pedestrian Tracking using Deep Temporal Appearance Matching Association](http://cn.arxiv.org/abs/1907.00831)   
 CVPR 2019 · MOTChallenge *2019-07-01* [paper](https://arxiv.org/abs/1907.00831)   
 
 ## 3.4 多模态

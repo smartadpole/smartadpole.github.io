@@ -69,6 +69,9 @@ tags: 资源
 *2018-09-11* [paper](https://arxiv.org/abs/1809.04094)   
 发布了新数据集  FIVR-200K；     
 
+1. [Interactive video retrieval in the age of deep learning](http://www.icmr2019.org/wp-content/uploads/2019/05/ICMR_tutorial_Interactive-video-retrieval-in-the-age-of-deep-learning.pdf)     
+ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/2019/05/ICMR_tutorial_Interactive-video-retrieval-in-the-age-of-deep-learning.pdf)    
+
 ## 1.5 跨模态视频检索
 
 ## 1.6 版权保护
@@ -275,7 +278,7 @@ CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.o
 
 ### 4.5.1 跨模态
 
-1. [Coupled CycleGAN: Unsupervised Hashing Network for Cross-Modal Retrieval](https://arxiv.org/abs/1903.02149)    
+1. [Coupled CycleGAN: Unsupervised Hashing Network for Cross-Modal Retrieval](http://cn.arxiv.org/abs/1903.02149)    
 AAAI 2019 *2019-03-06* [paper](https://arxiv.org/abs/1903.02149)     
 UCH： 为了解决跨模态散列问题，使用 GAN 将特征提取和哈希连接起来；       
 
@@ -292,7 +295,7 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 1. [Joint Embeddings with Multimodal Cues for Video-Text Retrieval](https://vcg.ece.ucr.edu/sites/g/files/rcwecm2661/files/2019-03/IJMIR_Camera_Ready.pdf)     
 *2018* [paper](https://vcg.ece.ucr.edu/sites/g/files/rcwecm2661/files/2019-03/IJMIR_Camera_Ready.pdf)    
 
-1. [Multilevel Language and Vision Integration for Text-to-Clip Retrieval](https://arxiv.org/abs/1804.05113)    
+1. [Multilevel Language and Vision Integration for Text-to-Clip Retrieval](http://cn.arxiv.org/abs/1804.05113)    
 AAAI 2019 *2018-04-13* [paper](https://arxiv.org/abs/1804.05113)    
 视频片段检索；   
 

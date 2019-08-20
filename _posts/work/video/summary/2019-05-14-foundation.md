@@ -12,6 +12,7 @@ tags: 资源
 `shot detection` · `video summary` · `video synopsis` · `video key clip extraction` · `video summarization` · `key frame Detection`   
 
 >又称视频浓缩，是对视频内容的一个简单概括；       
+相关资源：[视频摘要概述](/video/video_summary/2019/06/10/survey.html)、[关键帧提取概述](/video/key_frame/2019/08/08/survey.html)、[关键帧提取资源汇总](/video/key_frame/2019/06/12/foundation.html)     
 
 
 <!--more-->
@@ -55,10 +56,6 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 1. [Hierarchical Recurrent Neural Network for Video Summarization](http://cn.arxiv.org/abs/1904.12251)   
 *2019-04-28* [Paper](https://arxiv.org/abs/1904.12251)   
 
-1. Unsupervised Video Summarization with Adversarial LSTM Networks   
-先验：关键帧的分布应该与原序列的分布一直（去除冗余信息）；  
-正规化：关键帧的个数应该尽可能的少；关键帧的信息尽可能离散；   
-
 1. [Person Identification with Visual Summary for a Safe Access to a Smart Home](http://cn.arxiv.org/abs/1904.01178)   
 *2019-04-02* [Paper](https://arxiv.org/abs/1904.01178)   
 
@@ -66,7 +63,7 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 *2019-06-06* [paper](https://arxiv.org/abs/1906.02792)    
 
 
-## 2.3 [关键帧提取](/video/key_frame/2019/06/12/foundation.html)
+## 2.3 [静态摘要](/video/key_frame/2019/06/12/foundation.html)
 
 
 -------------------  
@@ -76,3 +73,4 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 
 # 附录
 ## A 参考资料
+1. [paper with code](https://paperswithcode.com/task/video-summarization/codeless)    

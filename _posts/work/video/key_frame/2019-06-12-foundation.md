@@ -9,6 +9,8 @@ category: [video, key_frame]
 tags: 资源
 ---
 <span id='head'></span>
+>诸多视频分析技术都是以关键帧提取作为基础，在此就做一个汇总；    
+相关资源：[关键帧提取概述](/video/key_frame/2019/08/08/survey.html)    
 
 <!--more-->
 `key frame extraction` · `bag of keyframes` · `key frame detection`    
@@ -22,6 +24,10 @@ tags: 资源
 *2016-05-28* [Paper](https://arxiv.org/abs/1605.08857)   
 自注意力机制助力视频字幕提取；    
 >摘要不是很好，核心不清晰；   
+
+1. [基于深度学习的视频关键帧提取与视频检索](http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=JZDF201905027&dbcode=CJFD&dbname=DKFXTEMP)     
+*2019* 梁建胜,温贺平 [paper](http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=JZDF201905027&dbcode=CJFD&dbname=DKFXTEMP)    
+
 
 # 4 镜头边界检测
 1. [TransNet: A deep network for fast detection of common shot transitions](https://arxiv.org/abs/1906.03363)   
@@ -59,6 +65,30 @@ motivation：视频中包含大量静止画面，如果把这些帧送入网络�
 做法：将多个帧输入到网络中，只优化对于在目标类中取得最大概率的帧的loss；   
 思考：用分类来提取关键帧，类别分数越高，越有可能成为关键帧；   
 问题：测试时输入的帧也有可能不含有动作信息，为什么还要将各个帧的得分平均？是不是也可以考虑像训练集那样只考虑关键帧的预测结果；   
+
+## 5.3 视频摘要
+
+1. [Video Summarization with LongShort-term Memory](http://cn.arxiv.org/abs/1605.08110)    
+ECCV 2016 *2016-05-26* [paper](https://arxiv.org/abs/1605.08110) | [blog](https://blog.csdn.net/nana13628679472/article/details/82826592) | [theano](https://github.com/kezhang-cs/Video-Summarization-with-LSTM)              
+用 LSTM 提取关键帧序列；     
+
+1. [Unsupervised Video Summarization with Adversarial LSTM Networks](http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_summarization.pdf)     
+[paper](http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_summarization.pdf)    
+**先验**：关键帧的分布应该与原序列的分布一直（去除冗余信息）；  
+**正规化**：关键帧的个数应该尽可能的少；关键帧的信息尽可能离散；   
+**做法**：    
+- slstm：输出每一帧的得分，与原来帧加权后得到新的特征；      
+- elstm：对于lstm得到的特征编码，得到一个特征；      
+- dlstm：对elstm得到的特征解码，恢复出原来的特征；      
+- clstm：判断dlstm得到的特征是否还是原来的特征；      
+
+**处理**：根据每一帧的得分选出关键帧     
+- 将视频分成不重叠的几个clip；      
+- 每个clip的得分是这个clip中所有帧的得分的平均，对clip排序；      
+- 高得分的clip中的帧按照分数排序，选出最高的几帧；      
+
+## 5.4 REID
+
 
 -------------------  
 [End](#head)

@@ -81,7 +81,7 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 # 2 理论
 
 # 3 技术点
-## 3.1 关键帧
+## 3.1 [关键帧](/cv/retrieval/2019/05/22/foundation.html)
 `keyframe extract` · `shot boundary detection`;      
 
 ## 3.2 特征提取
@@ -343,7 +343,7 @@ CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](htt
 
 | 名称 | 类型 | 数量(训练/测试) | 说明 | 发布日期 |
 | --- | --- | --- | --- | --- |
-| [TRECVID](https://trecvid.nist.gov/) & [data](https://www-nlpir.nist.gov/projects/trecvid/trecvid.data.html) |  |  |  | 2001~2019 |
+| [TRECVID](https://trecvid.nist.gov/) & [data](https://www-nlpir.nist.gov/projects/trecvid/trecvid.data.html) |  |  | 著名的视频拷贝检测竞赛 | 2001~2019 |
 | [CC_WEB_VIDEO](http://vireo.cs.cityu.edu.hk/webvideo/) |  |  | 包含颜色亮度变换，画面编辑和拼接 | 2007 |
 | [MuscleVCD ST1](https://www.video-comparer.com/product-benchmark.php) |  |  |  |  |
 | [UQ_VIDEO](http://staff.itee.uq.edu.au/shenht/UQ_VIDEO/) |  | 169,952 | 查询视频 400 个，检索视频 20 万；单个视频对应的检索视频最多 1000 个；<br>提取到的关键帧有 3,305,525 个；<br>共 15G； | 2011 |

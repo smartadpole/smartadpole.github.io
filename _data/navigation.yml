@@ -1361,12 +1361,26 @@ NDVR:
     children:
       - title:  概述
         url:    /video/video_retrieval/2019/07/30/survey.html
-
-  - title:	关键技术
-    children:
       - title:  关键帧提取
         url:    /video/key_frame/2019/08/08/survey.html
       - title:  特征提取
         url:    /video/video_retrieval/2019/08/08/feature-extract-survey.html
       - title:  相似度度量
         url:    /video/video_retrieval/2019/08/08/similarity-measures-survey.html
+
+
+
+ImageRetrieval:  
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/CV_2D/retrieval.html
+
+  - title:	图像检索
+    children:
+      - title:  概述
+        url:    /cv/retrieval/2019/08/20/survey.html
+      - title:  特征提取
+        url:    /image_process/2019/07/03/feature-extract.html
+      - title:  距离度量
+        url:    /image_process/2019/06/25/image-similarities-survey.html

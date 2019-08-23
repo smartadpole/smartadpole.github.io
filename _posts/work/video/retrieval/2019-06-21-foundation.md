@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「VIDEO」 检索资源汇总"
+title:  "「VIDEO」 视频检索资源汇总"
 date:   2019-06-21 18:06:40 +0800
 key: video-retrieval-foundation-20190621
 aside:
@@ -298,17 +298,7 @@ UCH： 为了解决跨模态散列问题，使用 GAN 将特征提取和哈希�
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
 **AsymNet**: 用 FasterRCNN 检测出物体，然后进行比对；          
 
-### 4.5.3 文本
-1. [Joint Embeddings with Multimodal Cues for Video-Text Retrieval](https://vcg.ece.ucr.edu/sites/g/files/rcwecm2661/files/2019-03/IJMIR_Camera_Ready.pdf)     
-*2018* [paper](https://vcg.ece.ucr.edu/sites/g/files/rcwecm2661/files/2019-03/IJMIR_Camera_Ready.pdf)    
-
-1. [Multilevel Language and Vision Integration for Text-to-Clip Retrieval](http://cn.arxiv.org/abs/1804.05113)    
-AAAI 2019 *2018-04-13* [paper](https://arxiv.org/abs/1804.05113)    
-视频片段检索；   
-
-1. [Dual Encoding for Zero-Example Video Retrieval](http://cn.arxiv.org/abs/1809.06181)    
-CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](https://github.com/danieljf24/dual_encoding)-offical | [解读](/video/video_retrieval/paper_reading/2019/06/23/Dual-Encoding-for-Zero-Example-Video-Retrieval-reading.html)    
-
+### 4.5.3 [文本](/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
 
 ### 4.5.4 音频
 

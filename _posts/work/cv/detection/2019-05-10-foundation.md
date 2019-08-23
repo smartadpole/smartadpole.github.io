@@ -308,12 +308,6 @@ https://arxiv.org/abs/1808.07993?context=cs
 [2018.9] 目标检测综述
 https://arxiv.org/abs/1809.03193
 
-1. [Deep Learning for Generic Object Detection: A Survey]()  
-[2018.9] IJCV；
-https://arxiv.org/abs/1809.02165
-https://github.com/hoya012/deep_learning_object_detection#2014
-解读 https://zhuanlan.zhihu.com/p/45196320
-
 1. [Context Refinement for Object Detection]()  
 ECCV 2018
 http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhe_Chen_Context_Refinement_for_ECCV_2018_paper.pdf
@@ -420,8 +414,7 @@ CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)
 
 ## B 资源
 ### a 论文
-[amusi](https://github.com/amusi/awesome-object-detection)，[韩东](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)   
-
+[amusi](https://github.com/amusi/awesome-object-detection)，[韩东](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)，[deep learning object detection](https://github.com/hoya012/deep_learning_object_detection)       
 
 ### b 代码
 - 数据增强   

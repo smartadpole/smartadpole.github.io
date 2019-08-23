@@ -27,6 +27,9 @@ tags: 资源
 1. [SharpNet: Fast and Accurate Recovery of Occluding Contours in Monocular Depth Estimation](http://cn.arxiv.org/abs/1905.08598)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08598)   
 
+1. [Enhancing self-supervised monocular depth estimation with traditional visual odometry](http://cn.arxiv.org/abs/1908.03127)    
+*2019-08-08* [paper](https://arxiv.org/abs/1908.03127)    
+
 -------------------  
 [End](#head)
 {:.warning}  

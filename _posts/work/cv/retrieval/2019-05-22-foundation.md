@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「CV」 检索资源汇总"
+title:  "「CV」 图片检索资源汇总"
 date:   2019-05-22 11:06:40 +0800
 key: retrieval-foundation-20190522
 aside:
@@ -620,6 +620,11 @@ IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)
 1. [Attributes Guided Feature Learning for Vehicle Re-identification](https://arxiv.org/abs/1905.08997)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.08997)   
 
+# 5 改进方向
+## 5.1 零样本检索
+1. [Semantic-Aware Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval](http://cn.arxiv.org/abs/1904.03208)     
+ICCV 2019 *2019-04-05* [paper](https://arxiv.org/abs/1904.03208)    
+`什么是零样本检索`{:.warning}     
 
 
 

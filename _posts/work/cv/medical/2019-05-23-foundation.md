@@ -26,6 +26,9 @@ tags: 资源
 1. [Reducing Uncertainty in Undersampled MRI Reconstruction with Active Acquisition](http://cn.arxiv.org/abs/1902.03051)    
 CVPR 2019 *2019-02-08* facebook [paper](https://arxiv.org/abs/1902.03051) | [keras](https://github.com/Corey-Zumar/MRI-Reconstruction)    
 
+1. [DUAL-GLOW: Conditional Flow-Based Generative Model for Modality Transfer](http://cn.arxiv.org/abs/1908.08074)    
+ICCV 2019 *2019-08-21* [paper](https://arxiv.org/abs/1908.08074)    
+用 MRI 合成 PET 图像；    
 
 
 -------------------  

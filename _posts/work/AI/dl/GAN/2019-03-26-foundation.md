@@ -164,8 +164,10 @@ GoogleBrain ICLR 2017
 1.  [Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space](http://cn.arxiv.org/abs/1611.00005v1)  
 [Code](https://github.com/Evolving-AI-Lab/ppgn)   
 
-1.  [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](http://cn.arxiv.org/abs/1611.03242)  
-[Code](https://github.com/hanzhanggit/StackGAN)  
+
+
+1. [Lifelong GAN: Continual Learning for Conditional Image Generation](http://cn.arxiv.org/abs/1907.10107)    
+ICCV 2019 *2019-07-23* [paper](https://arxiv.org/abs/1907.10107)     
 
 
 ## 2.4 强化学习
@@ -208,8 +210,9 @@ Goodfellow's paper
 1.  [Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space](http://cn.arxiv.org/abs/1611.00005v1)    
 [Code](https://github.com/Evolving-AI-Lab/ppgn)   
 
-1.  [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](http://cn.arxiv.org/abs/1611.03242)   
-[Code](https://github.com/hanzhanggit/StackGAN)    
+1.  [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](http://cn.arxiv.org/abs/1611.03242)  
+*2016-11-10* [paper](https://arxiv.org/abs/1611.03242) | [tensorflow](https://github.com/hanzhanggit/StackGAN) | [pytorch](https://github.com/hanzhanggit/StackGAN-Pytorch) | [v2-pytorch](https://github.com/hanzhanggit/StackGAN-v2)    
+StackGAN:     
 
 1.  [Improved Training of Wasserstein GANs](http://cn.arxiv.org/abs/1704.00028)     
 [Code](https://github.com/igul222/improved_wgan_training)   

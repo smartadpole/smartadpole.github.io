@@ -167,6 +167,8 @@ CVPR 2019 *2019-04-06* 中国科技大学 [paper](https://arxiv.org/abs/1904.033
 CVPR 2019 *2019-05-29* 商汤 [paper](https://arxiv.org/abs/1905.12156) | [project](https://sites.google.com/view/xiangyuxu/rawsr_cvpr19) | [code](https://drive.google.com/file/d/1yvCceNAgt4UsxZXahPFBkuL1JXyfgr8B/view)-offical       
 Raw 图像的真实场景超分辨率，模拟真实成像过程生成训练数据，基于相机Raw数据进行超分辨率；   
 
+1. [Flickr1024: A Large-Scale Dataset for Stereo Image Super-Resolution](http://cn.arxiv.org/abs/1903.06332)    
+ICCV 2019 workshop *2019-03-15* [paper](https://arxiv.org/abs/1903.06332)    
 
 # 9 应用
 ## 9.1 [视频](/video/video_super_resolution/2019/05/14/foundation.html)    

@@ -15,7 +15,9 @@ tags: 资源
 
 
 # 2 理论
-
+1. [Transferability and Hardness of Supervised Classification Tasks](http://cn.arxiv.org/abs/1908.08142)    
+ICCV 2019 *2019-08-21* [paper](https://arxiv.org/abs/1908.08142)    
+无需训练，使用条件熵来衡量两个任务之间迁移的难易程度；     
 
 # 3 经典论文
 

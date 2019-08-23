@@ -84,7 +84,7 @@ ICLR 2019 *2019* [paper](https://pdfs.semanticscholar.org/d968/bf19d725d6f73fb5e
 CVPR 2018 (BIVU)*2018-05-12* [paper](https://arxiv.org/abs/1805.04668)   
 
 1. [TSM: Temporal Shift Module for Efficient Video Understanding](http://cn.arxiv.org/abs/1811.08383)   
-*2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-offical      
+ICCV 2019 *2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-offical      
 
 # 5 基本网络
 ## 5.1 传统方法
@@ -279,6 +279,10 @@ CVPR 2019 *2019-05-22* [paper](https://arxiv.org/abs/1905.09265) | [pytorch](htt
 ## 7.3 多模态
 1. [Unseen Action Recognition with Multimodal Learning](http://cn.arxiv.org/abs/1806.08251)   
 *2018-06-21* [paper](https://arxiv.org/abs/1806.08251) | [pytorch](https://github.com/piergiaj/mlb-youtube) | [解读](/video/video_classification/paper_reading/2019/05/23/Unseen-Action-Recognition-with-Multimodal-Learning.html)         
+
+1. [EPIC-Fusion: Audio-Visual Temporal Binding for Egocentric Action Recognition](http://cn.arxiv.org/abs/1908.08498)    
+ICCV 2019 *2019-08-22* [paper](https://arxiv.org/abs/1908.08498)     
+在初期融合了图像、流和音频；`什么是流`{:.warning}    
 
 ## 7.4 AutoML
 1. [Video Action Recognition Via Neural Architecture Searching](http://cn.arxiv.org/abs/1907.04632)   

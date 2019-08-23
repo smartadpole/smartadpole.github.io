@@ -271,7 +271,7 @@ CV:
         url:    /assets/category/work/CV_2D/info_security.html
 
 
-  - title:      NLP&CV
+  - title:      NLP
     children:
       - title:  视觉问答
         url:    /assets/category/work/CV_2D/vaq.html
@@ -321,6 +321,13 @@ Video:
         url:    /assets/category/work/video/inpaint.html
       - title:  动作定位
         url:    /assets/category/work/video/localization.html
+      - title:  视频生成
+        url:    /assets/category/work/video/video_generation.html
+
+  - title:      NLP
+    children:
+      - title:  视频描述
+        url:    /assets/category/work/video/video_caption.html
 
   - title:      工具
     children:

@@ -18,12 +18,12 @@ tags: 资源
   <img src="/assets/images/AI/dl/GAN/GAN-trend.png" /><br>图1：GAN 的 论文数量&emsp;
 </center>
 
-
-# 1 第一篇论文
+# 1 学术
+## 1.1 第一篇论文
 1. :o: [Generative Adversarial Nets](http://cn.arxiv.org/abs/1406.2661)    
 *2014-06-10* [Paper](https://arxiv.org/abs/1406.2661) | [Code](https://github.com/goodfeli/adversarial)     
 
-# 2 综述
+## 1.2 综述
 1. :o: Goodfellow I. [NIPS 2016 tutorial: generative adversarial networks](http://cn.arxiv.org/abs/1701.00160). arXiv preprint [arXiv: 1701.00160](http://cn.arxiv.org/abs/1701.00160), 2016.    
 2016-12-31  
 
@@ -34,20 +34,7 @@ tags: 资源
 2017 中科院自动化所，中文综述；   
 
 
-# 3 经典网络
-
-
-# 4 模型评估
-1. Xu Q, Huang G, Yuan Y, et al. [An empirical study on evaluation metrics of generative adversarial networks](http://cn.arxiv.org/abs/1806.07755)[J]. arXiv preprint [arXiv:1806.07755](http://cn.arxiv.org/abs/1806.07755), 2018.   
-2018-06   
-
-1. Borji A. [Pros and cons of gan evaluation measures](http://cn.arxiv.org/abs/1801.03446)[J]. arXiv preprint [arXiv:1801.03446](http://cn.arxiv.org/abs/1801.03446), 2019.   
-2018-02   
-
-1. Shmelkov K, Schmid C, Alahari K. [How good is my GAN?](http://cn.arxiv.org/abs/1807.09499)[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 213-229.   
-2018-07   
-
-# 5 理论
+## 1.3 理论
 
 1.  [Energy-based generative adversarial network](http://cn.arxiv.org/abs/1609.03126)   
 [Code](https://github.com/buriburisuri/ebgan)  
@@ -110,7 +97,102 @@ CVPR 2019
 1. [Generative Flow via Invertible nxn Convolution](https://arxiv.org/abs/1905.10170)  
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10170)   
 
-# 6 高质量图像生成
+
+## 1.4 经典网络
+
+
+## 1.5 模型评估
+1. Xu Q, Huang G, Yuan Y, et al. [An empirical study on evaluation metrics of generative adversarial networks](http://cn.arxiv.org/abs/1806.07755)[J]. arXiv preprint [arXiv:1806.07755](http://cn.arxiv.org/abs/1806.07755), 2018.   
+2018-06   
+
+1. Borji A. [Pros and cons of gan evaluation measures](http://cn.arxiv.org/abs/1801.03446)[J]. arXiv preprint [arXiv:1801.03446](http://cn.arxiv.org/abs/1801.03446), 2019.   
+2018-02   
+
+1. Shmelkov K, Schmid C, Alahari K. [How good is my GAN?](http://cn.arxiv.org/abs/1807.09499)[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 213-229.   
+2018-07   
+
+# 2 技术应用
+
+## 2.1 半监督学习
+
+1.  [Adversarial Training Methods for Semi-Supervised Text Classification](http://cn.arxiv.org/abs/1605.07725)  
+[Note](https://github.com/dennybritz/deeplearning-papernotes/blob/master/notes/adversarial-text-classification.md)   
+ Ian Goodfellow Paper   
+
+1.  [Improved Techniques for Training GANs](http://cn.arxiv.org/abs/1606.03498)  
+[Code](https://github.com/openai/improved-gan)   
+Goodfellow's paper
+
+1.  [Unsupervised and Semi-supervised Learning with Categorical Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06390)   
+ICLR   
+
+1.  [Semi-Supervised QA with Generative Domain-Adaptive Nets](http://cn.arxiv.org/abs/1701.02206)   
+ACL 2017  
+
+1.  [Good Semi-supervised Learning that Requires a Bad GAN](http://cn.arxiv.org/abs/1705.09783)  
+[Code](https://github.com/kimiyoung/ssl_bad_gan)  
+NIPS 2017  
+
+## 2.2 集成学习
+
+1.  [AdaGAN: Boosting Generative Models](http://cn.arxiv.org/abs/1701.02386)    
+[Code]
+Google Brain  
+
+1.  [GP-GAN: Towards Realistic High-Resolution Image Blending](http://cn.arxiv.org/abs/1703.07195)  
+[Code](https://github.com/wuhuikai/GP-GAN)   
+
+
+## 2.3 条件对抗
+
+1.  [Conditional Generative Adversarial Nets](http://cn.arxiv.org/abs/1411.1784)  
+[Code](https://github.com/zhangqianhui/Conditional-Gans)   
+
+1.  [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](http://cn.arxiv.org/abs/1606.03657)  
+[Code](https://github.com/buriburisuri/supervised_infogan)  [Code](https://github.com/openai/InfoGAN)   
+
+1.  [Conditional Image Synthesis With Auxiliary Classifier GANs](http://cn.arxiv.org/abs/1610.09585)   
+[Code](https://github.com/buriburisuri/ac-gan)   
+GoogleBrain ICLR 2017
+
+1.  [Pixel-Level Domain Transfer](http://cn.arxiv.org/abs/1603.07442v2)  
+[Code](https://github.com/fxia22/pldtgan)   
+
+1.  [Invertible Conditional GANs for image editing](http://cn.arxiv.org/abs/1611.06355)  
+[Code](https://github.com/Guim3/IcGAN)   
+
+1.  [Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space](http://cn.arxiv.org/abs/1611.00005v1)  
+[Code](https://github.com/Evolving-AI-Lab/ppgn)   
+
+1.  [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](http://cn.arxiv.org/abs/1611.03242)  
+[Code](https://github.com/hanzhanggit/StackGAN)  
+
+
+## 2.4 强化学习
+
+1.  [Connecting Generative Adversarial Networks and Actor-Critic Methods](http://cn.arxiv.org/abs/1610.01945)   
+NIPS 2016 workshop  
+
+## 2.5 RNN
+
+1.  [C-RNN-GAN: Continuous recurrent neural networks with adversarial training](http://cn.arxiv.org/abs/1611.09904)  
+[Code](https://github.com/olofmogren/c-rnn-gan)   
+
+1.  [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](http://cn.arxiv.org/abs/1609.05473)   
+[Code](https://github.com/LantaoYu/SeqGAN)(AAAI 2017)
+
+
+## 2.6 离散分布生成
+
+1.  [Maximum-Likelihood Augmented Discrete Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.07983v1)   
+
+1.  [Boundary-Seeking Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.08431)   
+
+1.  [GANS for Sequences of Discrete Elements with the Gumbel-softmax Distribution](http://cn.arxiv.org/abs/1611.04051)  
+
+
+# 3 CV
+## 3.1 高质量图像生成
 
 1.  [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06434)      
 ICLR *2015-11-19* [Theano](https://github.com/Newmu/dcgan_code) · [Keras](https://github.com/jacobgil/keras-dcgan) · [Pytorch](https://github.com/pytorch/examples/tree/master/dcgan) · [Pytorch-MNIST/CelebA](https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN) · [Tensorflow](https://github.com/carpedm20/DCGAN-tensorflow) · [Torch](https://github.com/soumith/dcgan.torch)     
@@ -155,42 +237,13 @@ ICLR 2019
 1. [Variational Hetero-Encoder Randomized Generative Adversarial Networks for Joint Image-Text Modeling](http://cn.arxiv.org/abs/1905.08622)   
 *2019-05-18* [paper](https://arxiv.org/abs/1905.08622) | [OpenReview](https://openreview.net/forum?id=S1eX-nA5KX)      
 
-# 7 场景生成
+## 3.2 场景生成
 
 1.  [a layer-based sequential framework for scene generation with gans](http://cn.arxiv.org/abs/1901.00671)  
 [Code](https://github.com/0zgur0/Seq_Scene_Gen)  
 AAAI 2019  
 
-# 8 半监督学习
-
-1.  [Adversarial Training Methods for Semi-Supervised Text Classification](http://cn.arxiv.org/abs/1605.07725)  
-[Note](https://github.com/dennybritz/deeplearning-papernotes/blob/master/notes/adversarial-text-classification.md)   
- Ian Goodfellow Paper   
-
-1.  [Improved Techniques for Training GANs](http://cn.arxiv.org/abs/1606.03498)  
-[Code](https://github.com/openai/improved-gan)   
-Goodfellow's paper
-
-1.  [Unsupervised and Semi-supervised Learning with Categorical Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06390)   
-ICLR   
-
-1.  [Semi-Supervised QA with Generative Domain-Adaptive Nets](http://cn.arxiv.org/abs/1701.02206)   
-ACL 2017  
-
-1.  [Good Semi-supervised Learning that Requires a Bad GAN](http://cn.arxiv.org/abs/1705.09783)  
-[Code](https://github.com/kimiyoung/ssl_bad_gan)  
-NIPS 2017  
-
-# 9 集成学习
-
-1.  [AdaGAN: Boosting Generative Models](http://cn.arxiv.org/abs/1701.02386)    
-[Code]
-Google Brain  
-
-1.  [GP-GAN: Towards Realistic High-Resolution Image Blending](http://cn.arxiv.org/abs/1703.07195)  
-[Code](https://github.com/wuhuikai/GP-GAN)   
-
-# 10 图像修复
+## 3.3 图像修复
 
 1.  [Semantic Image Inpainting with Perceptual and Contextual Losses](http://cn.arxiv.org/abs/1607.07539)  
 [Code](https://github.com/bamos/dcgan-completion.tensorflow)  
@@ -230,14 +283,77 @@ CVPR 2018
 1. [PEPSI++: Fast and Lightweight Network for Image Inpainting](http://cn.arxiv.org/abs/1905.09010)    
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09010)    
 
-# 11 行人重识别
+## 3.4 人
+### 3.4.1 行人重识别
 
 1.  [Pose-Normalized Image Generation for Person Re-identification](http://cn.arxiv.org/abs/1711.02225)  
 [Code](https://github.com/naiq/PN_GAN)  
 ECCV 2018  
 
+### 3.4.2 人脸编辑
 
-# 12 超分辨率
+1.  [Autoencoding beyond pixels using a learned similarity metric](http://cn.arxiv.org/abs/1511.09300)    
+[Code](https://github.com/andersbll/autoencoding_beyond_pixels) [Tensorflow code](https://github.com/zhangqianhui/vae-gan-tensorflow)   
+
+1.  [Coupled Generative Adversarial Networks](http://mingyuliu.net/)   
+[Caffe Code](https://github.com/mingyuliutw/CoGAN)   [Tensorflow Code](https://github.com/andrewliao11/CoGAN-tensorflow)   
+NIPS  
+
+1.  [Invertible Conditional GANs for image editing](https://drive.google.com/file/d/0B48XS5sLi1OlRkRIbkZWUmdoQmM/view)  
+[Code](https://github.com/Guim3/IcGAN)
+
+1.  [Learning Residual Images for Face Attribute Manipulation](http://cn.arxiv.org/abs/1611.05363)  
+[Code](https://github.com/Zhongdao/FaceAttributeManipulation)   
+CVPR 2017   
+
+1.  [Neural Photo Editing with Introspective Adversarial Networks](http://cn.arxiv.org/abs/1609.07093)  
+[Code](https://github.com/ajbrock/Neural-Photo-Editor)   
+ICLR 2017  
+
+1.  [Neural Face Editing with Intrinsic Image Disentangling](http://cn.arxiv.org/abs/1704.04131)   
+CVPR 2017   
+
+1.  [GeneGAN: Learning Object Transfiguration and Attribute Subspace from Unpaired Data ](http://cn.arxiv.org/abs/1705.04932)  
+[Code](https://github.com/Prinsphield/GeneGAN)   
+BMVC 2017   
+
+1.  [ST-GAN: Unsupervised Facial Image Semantic Transformation Using Generative Adversarial Networks](http://proceedings.mlr.press/v77/zhang17c.html)   
+
+1.  [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](http://cn.arxiv.org/abs/1704.04086)   
+ICCV 2017  
+
+1.  [StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](http://cn.arxiv.org/abs/1711.09020)  
+[Code](https://github.com/yunjey/StarGAN)   
+CVPR 2018
+
+1.  [Arbitrary Facial Attribute Editing: Only Change What You Want](http://cn.arxiv.org/abs/1711.10678)  
+[Code](https://github.com/LynnHo/AttGAN-Tensorflow)
+
+1.  [ELEGANT: Exchanging Latent Encodings with GAN for Transferring Multiple Face Attributes](http://cn.arxiv.org/abs/1803.10562)   
+[Code](https://github.com/Prinsphield/ELEGANT)   
+ECCV 2018  
+
+1.  [Sparsely Grouped Multi-task Generative Adversarial Networks for Facial Attribute Manipulation](http://cn.arxiv.org/abs/1805.07509)  
+[Code](https://github.com/zhangqianhui/Sparsely-Grouped-GAN)   
+ACM MM2018 oral   
+
+1.  [GANimation: Anatomically-aware Facial Animation from a Single Image](http://www.albertpumarola.com/research/GANimation/index.html)  
+[Code](https://github.com/albertpumarola/GANimation)   
+ECCV 2018 oral   
+
+1.  [Geometry Guided Adversarial Facial Expression Synthesis](http://cn.arxiv.org/abs/1711.03474)   
+ACMMM 2018   
+
+1. [Mask-Guided Portrait Editing with Conditional GANs](http://cn.arxiv.org/abs/1905.10346)   
+CVPR 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10346)    
+mask + 条件 GAN：肖像局部编辑    
+
+### 3.4.3 美颜
+
+1.  [BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network](https://dl.acm.org/citation.cfm?id=3240618)  
+ACMMM 2018  
+
+## 3.5 超分辨率
 
 1.  [Image super-resolution through deep learning](http://cn.arxiv.org/abs/1501.00092)   
 [Code](https://github.com/david-gpu/srez)(Just for face dataset)   
@@ -251,11 +367,11 @@ ECCV 2018
 [Code](https://github.com/xinntao/ESRGAN)   
 ECCV 2018 workshop
 
-# 13 去遮挡
+## 3.6 去遮挡
 `跟图像修复有啥区别`{:.warning}   
 1.  [Robust LSTM-Autoencoders for Face De-Occlusion in the Wild](http://cn.arxiv.org/abs/1611.08534)   
 
-# 14  语义分割
+## 3.7  语义分割
 
 1.  [Adversarial Deep Structural Networks for Mammographic Mass Segmentation](http://cn.arxiv.org/abs/1611.05970)   
 [Code](https://github.com/wentaozhu/adversarial-deep-structural-networks)   
@@ -263,7 +379,7 @@ ECCV 2018 workshop
 1.  [Semantic Segmentation using Adversarial Networks](http://cn.arxiv.org/abs/1611.08408)  
 soumith's paper
 
-# 15 物体检测
+## 3.8 物体检测
 
 1.  [Perceptual generative adversarial networks for small object detection](http://cn.arxiv.org/abs/1706.05274v2)  
 CVPR 2017  
@@ -272,36 +388,64 @@ CVPR 2017
 [Code](https://github.com/xiaolonw/adversarial-frcnn)  
 CVPR 2017
 
-# 16 关键点检测
+## 3.9 关键点检测
 
 1.  [Style aggregated network for facial landmark detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Style_Aggregated_Network_CVPR_2018_paper.pdf)  
 CVPR 2018  
 
-# 17 条件对抗
+## 3.10 纹理合成 & 风格迁移
 
-1.  [Conditional Generative Adversarial Nets](http://cn.arxiv.org/abs/1411.1784)  
-[Code](https://github.com/zhangqianhui/Conditional-Gans)   
+1.  [Precomputed real-time texture synthesis with markovian generative adversarial networks](http://cn.arxiv.org/abs/1604.04382)  
+[Code](https://github.com/chuanli11/MGANs)  
+ECCV 2016  
 
-1.  [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](http://cn.arxiv.org/abs/1606.03657)  
-[Code](https://github.com/buriburisuri/supervised_infogan)  [Code](https://github.com/openai/InfoGAN)   
+## 3.11 提高分类和识别任务
 
-1.  [Conditional Image Synthesis With Auxiliary Classifier GANs](http://cn.arxiv.org/abs/1610.09585)   
-[Code](https://github.com/buriburisuri/ac-gan)   
-GoogleBrain ICLR 2017
+1. [Generative OpenMax for Multi-Class Open Set Classification](http://cn.arxiv.org/abs/1707.07418)   
+BMVC 2017   
 
-1.  [Pixel-Level Domain Transfer](http://cn.arxiv.org/abs/1603.07442v2)  
-[Code](https://github.com/fxia22/pldtgan)   
+1. [Controllable Invariance through Adversarial Feature Learning](http://cn.arxiv.org/abs/1705.11122)  
+[Code](https://github.com/github-pengge/adversarial_invariance_feature_learning)   
+NIPS 2017
 
-1.  [Invertible Conditional GANs for image editing](http://cn.arxiv.org/abs/1611.06355)  
-[Code](https://github.com/Guim3/IcGAN)   
+1. [Unlabeled Samples Generated by GAN Improve the Person Re-identification Baseline in vitro](http://cn.arxiv.org/abs/1701.07717)  
+[Code](https://github.com/layumi/Person-reID_GAN)   
+ICCV2017  
 
-1.  [Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space](http://cn.arxiv.org/abs/1611.00005v1)  
-[Code](https://github.com/Evolving-AI-Lab/ppgn)   
+1. [Learning from Simulated and Unsupervised Images through Adversarial Training](http://cn.arxiv.org/abs/1611.07828)  
+[Code](https://github.com/carpedm20/simulated-unsupervised-tensorflow)（Apple paper, CVPR 2017 Best Paper）
 
-1.  [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](http://cn.arxiv.org/abs/1611.03242)  
-[Code](https://github.com/hanzhanggit/StackGAN)  
+## 3.12 数据增强
+1. [LiDAR Sensor modeling and Data augmentation with GANs for Autonomous driving](http://cv.arxiv.org/abs/1905.07290)   
+ICML Workshop on AI for Autonomous Driving 2019 *2019-05-17* [paper](https://arxiv.org/abs/1905.07290)   
 
-# 18 视频生成
+## 3.13 显著性检测
+
+1. [SalGAN: Visual Saliency Prediction with Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.01081)  
+*2017-01-04* [paper](https://arxiv.org/abs/1701.01081) | [theano](https://github.com/imatge-upc/saliency-salgan-2017)   
+
+## 3.14 检索
+1. [IRGAN: A Minimax Game for Unifying Generative and Discriminative Information Retrieval Models](http://cn.arxiv.org/abs/1705.10513)     
+*2017-05-30* [paper](https://arxiv.org/abs/1705.10513)    
+IRGAN:     
+
+
+## 3.15 医疗
+
+1.  [Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery](http://cn.arxiv.org/abs/1703.05921)   
+
+## 3.16 3D
+
+1.  [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](http://cn.arxiv.org/abs/1610.07584)   
+[Web](http://3dgan.csail.mit.edu/)  [Code](https://github.com/zck119/3dgan-release)   
+2016 NIPS   
+
+1.  [Transformation-Grounded Image Generation Network for Novel 3D View Synthesis] [[Web]](http://www.cs.unc.edu/%7Eeunbyung/tvsn/)   
+CVPR 2017   
+
+
+# 4 视频
+## 4.1 视频生成
 
 1.  [Deep multi-scale video prediction beyond mean square error](http://cn.arxiv.org/abs/1511.05440)  
 [Code](https://github.com/dyelax/Adversarial_Video_Generation)  
@@ -312,13 +456,9 @@ Yann LeCun's paper
 
 1.  [MoCoGAN: Decomposing Motion and Content for Video Generation](http://cn.arxiv.org/abs/1707.04993)   
 
-# 19 纹理合成 & 风格迁移
 
-1.  [Precomputed real-time texture synthesis with markovian generative adversarial networks](http://cn.arxiv.org/abs/1604.04382)  
-[Code](https://github.com/chuanli11/MGANs)  
-ECCV 2016  
-
-# 20 图像翻译
+# 5 NLP
+## 5.1 图像翻译
 
 1.  [UNSUPERVISED CROSS-DOMAIN IMAGE GENERATION](http://cn.arxiv.org/abs/1611.02200)  
 [Code](https://github.com/yunjey/domain-transfer-network)  
@@ -380,143 +520,24 @@ ICLR 2019 *2019-05-16* [paper](https://arxiv.org/abs/1905.08633) | [code](https:
 1. [Toward Learning a Unified Many-to-Many Mapping for Diverse Image Translation](https://arxiv.org/abs/1905.08766)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08766)    
 
-# 21 人脸编辑
-
-1.  [Autoencoding beyond pixels using a learned similarity metric](http://cn.arxiv.org/abs/1511.09300)    
-[Code](https://github.com/andersbll/autoencoding_beyond_pixels) [Tensorflow code](https://github.com/zhangqianhui/vae-gan-tensorflow)   
-
-1.  [Coupled Generative Adversarial Networks](http://mingyuliu.net/)   
-[Caffe Code](https://github.com/mingyuliutw/CoGAN)   [Tensorflow Code](https://github.com/andrewliao11/CoGAN-tensorflow)   
-NIPS  
-
-1.  [Invertible Conditional GANs for image editing](https://drive.google.com/file/d/0B48XS5sLi1OlRkRIbkZWUmdoQmM/view)  
-[Code](https://github.com/Guim3/IcGAN)
-
-1.  [Learning Residual Images for Face Attribute Manipulation](http://cn.arxiv.org/abs/1611.05363)  
-[Code](https://github.com/Zhongdao/FaceAttributeManipulation)   
-CVPR 2017   
-
-1.  [Neural Photo Editing with Introspective Adversarial Networks](http://cn.arxiv.org/abs/1609.07093)  
-[Code](https://github.com/ajbrock/Neural-Photo-Editor)   
-ICLR 2017  
-
-1.  [Neural Face Editing with Intrinsic Image Disentangling](http://cn.arxiv.org/abs/1704.04131)   
-CVPR 2017   
-
-1.  [GeneGAN: Learning Object Transfiguration and Attribute Subspace from Unpaired Data ](http://cn.arxiv.org/abs/1705.04932)  
-[Code](https://github.com/Prinsphield/GeneGAN)   
-BMVC 2017   
-
-1.  [ST-GAN: Unsupervised Facial Image Semantic Transformation Using Generative Adversarial Networks](http://proceedings.mlr.press/v77/zhang17c.html)   
-
-1.  [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](http://cn.arxiv.org/abs/1704.04086)   
-ICCV 2017  
-
-1.  [StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](http://cn.arxiv.org/abs/1711.09020)  
-[Code](https://github.com/yunjey/StarGAN)   
-CVPR 2018
-
-1.  [Arbitrary Facial Attribute Editing: Only Change What You Want](http://cn.arxiv.org/abs/1711.10678)  
-[Code](https://github.com/LynnHo/AttGAN-Tensorflow)
-
-1.  [ELEGANT: Exchanging Latent Encodings with GAN for Transferring Multiple Face Attributes](http://cn.arxiv.org/abs/1803.10562)   
-[Code](https://github.com/Prinsphield/ELEGANT)   
-ECCV 2018  
-
-1.  [Sparsely Grouped Multi-task Generative Adversarial Networks for Facial Attribute Manipulation](http://cn.arxiv.org/abs/1805.07509)  
-[Code](https://github.com/zhangqianhui/Sparsely-Grouped-GAN)   
-ACM MM2018 oral   
-
-1.  [GANimation: Anatomically-aware Facial Animation from a Single Image](http://www.albertpumarola.com/research/GANimation/index.html)  
-[Code](https://github.com/albertpumarola/GANimation)   
-ECCV 2018 oral   
-
-1.  [Geometry Guided Adversarial Facial Expression Synthesis](http://cn.arxiv.org/abs/1711.03474)   
-ACMMM 2018   
-
-1. [Mask-Guided Portrait Editing with Conditional GANs](http://cn.arxiv.org/abs/1905.10346)   
-CVPR 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10346)    
-mask + 条件 GAN：肖像局部编辑    
-
-# 22 美颜
-
-1.  [BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network](https://dl.acm.org/citation.cfm?id=3240618)  
-ACMMM 2018   
-
-# 23 强化学习
-
-1.  [Connecting Generative Adversarial Networks and Actor-Critic Methods](http://cn.arxiv.org/abs/1610.01945)   
-NIPS 2016 workshop  
-
-# 24 RNN
-
-1.  [C-RNN-GAN: Continuous recurrent neural networks with adversarial training](http://cn.arxiv.org/abs/1611.09904)  
-[Code](https://github.com/olofmogren/c-rnn-gan)   
-
-1.  [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient](http://cn.arxiv.org/abs/1609.05473)   
-[Code](https://github.com/LantaoYu/SeqGAN)(AAAI 2017)
-
-# 25 医疗
-
-1.  [Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery](http://cn.arxiv.org/abs/1703.05921)   
-
-# 26 3D
-
-1.  [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](http://cn.arxiv.org/abs/1610.07584)   
-[Web](http://3dgan.csail.mit.edu/)  [Code](https://github.com/zck119/3dgan-release)   
-2016 NIPS   
-
-1.  [Transformation-Grounded Image Generation Network for Novel 3D View Synthesis] [[Web]](http://www.cs.unc.edu/%7Eeunbyung/tvsn/)   
-CVPR 2017   
-
-# 27 MUSIC
+# 6 音频
+## 6.1 MUSIC
 
 1.  [MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation using 1D and 2D Conditions](http://cn.arxiv.org/abs/1703.10847)  
 [HOMEPAGE](https://richardyang40148.github.io/TheBlog/midinet_arxiv_demo.html)  
 
-# 28 离散分布生成
 
-1.  [Maximum-Likelihood Augmented Discrete Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.07983v1)   
-
-1.  [Boundary-Seeking Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.08431)   
-
-1.  [GANS for Sequences of Discrete Elements with the Gumbel-softmax Distribution](http://cn.arxiv.org/abs/1611.04051)  
-
-# 29 提高分类和识别任务
-
-1. [Generative OpenMax for Multi-Class Open Set Classification](http://cn.arxiv.org/abs/1707.07418)   
-BMVC 2017   
-
-1. [Controllable Invariance through Adversarial Feature Learning](http://cn.arxiv.org/abs/1705.11122)  
-[Code](https://github.com/github-pengge/adversarial_invariance_feature_learning)   
-NIPS 2017
-
-1. [Unlabeled Samples Generated by GAN Improve the Person Re-identification Baseline in vitro](http://cn.arxiv.org/abs/1701.07717)  
-[Code](https://github.com/layumi/Person-reID_GAN)   
-ICCV2017  
-
-1. [Learning from Simulated and Unsupervised Images through Adversarial Training](http://cn.arxiv.org/abs/1611.07828)  
-[Code](https://github.com/carpedm20/simulated-unsupervised-tensorflow)（Apple paper, CVPR 2017 Best Paper）
-
-# 30 数据增强
-[GAN 在数据增强中的应用](/cv/data_augementation/2019/05/20/foundation.html#1-paper)   
-
-# 31 语义图转照片
-1. [S-Flow GAN](http://cn.arxiv.org/abs/1905.08474)   
-*2019-05-21* [paper](https://arxiv.org/abs/1905.08474)    
-
-# 32 多模态
+# 7 多模态
+## 7.1 融合
 1. [M3D-GAN: Multi-Modal Multi-Domain Translation with Universal Attention](http://cn.arxiv.org/abs/1907.04378)   
 *2019-07-09* [paper](https://arxiv.org/abs/1907.04378)   
 
-
-# 33 显著性检测
-
-1. [SalGAN: Visual Saliency Prediction with Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.01081)  
-*2017-01-04* [paper](https://arxiv.org/abs/1701.01081) | [theano](https://github.com/imatge-upc/saliency-salgan-2017)   
+## 7.2 语义图转照片
+1. [S-Flow GAN](http://cn.arxiv.org/abs/1905.08474)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08474)    
 
 
-# 34 其他
+# 8 其他
 1. [Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://cn.arxiv.org/abs/1506.05751)  
 *2015-01-18* [paper](https://arxiv.org/abs/1506.05751) | [torch](https://github.com/facebook/eyescream)    
 

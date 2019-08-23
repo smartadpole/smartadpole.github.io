@@ -20,9 +20,7 @@ tags: 资源
 1. [When Unseen Domain Generalization is Unnecessary? Rethinking Data Augmentation](http://cn.arxiv.org/abs/1906.03347)   
 *2019-06-07* [paper](https://arxiv.org/abs/1906.03347)    
 
-## 1.3 GAN
-1. [LiDAR Sensor modeling and Data augmentation with GANs for Autonomous driving](http://cv.arxiv.org/abs/1905.07290)   
-ICML Workshop on AI for Autonomous Driving 2019 *2019-05-17* [paper](https://arxiv.org/abs/1905.07290)   
+## 1.3 [GAN](/dl/gan/2019/03/26/foundation.html#312-数据增强)
 
 ## 1.4 AutoEncoder
 1. [Learning to Confuse: Generating Training Time Adversarial Data with Auto-Encoder](http://cn.arxiv.org/abs/1905.09027)    

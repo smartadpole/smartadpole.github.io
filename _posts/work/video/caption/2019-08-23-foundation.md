@@ -43,6 +43,9 @@ CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](htt
 # 5 视频问答
 `videoQA`     
 
+1. [A Joint Sequence Fusion Model for Video Question Answering and Retrieval](http://cn.arxiv.org/abs/1808.02559)    
+ECCV 2018 *2018-08-07* [paper](https://arxiv.org/abs/1808.02559) | [tensorflow](https://github.com/yj-yu/lsmdc)-offical        
+
 1. [Two-stream Spatiotemporal Feature for Video QA Task](http://cn.arxiv.org/abs/1907.05006)   
 *2019-07-11* [paper](https://arxiv.org/abs/1907.05006)   
 

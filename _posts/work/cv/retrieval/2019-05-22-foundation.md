@@ -9,7 +9,7 @@ category: [CV, retrieval]
 tags: 资源
 ---
 <span id='head'></span>  
->相关资料：[视频检索资源](/video/video_retrieval/2019/06/21/foundation.html) · [音频检索资源](/audio/audio_retrieval/2019/08/14/foundation.html)      
+>相关资料：[图片检索概述](/cv/retrieval/2019/08/20/survey.html)、[视频检索资源](/video/video_retrieval/2019/06/21/foundation.html) · [音频检索资源](/audio/audio_retrieval/2019/08/14/foundation.html)      
 
 <!--more-->  
 
@@ -20,14 +20,143 @@ tags: 资源
 1. [A Survey on Learning to Hash](https://arxiv.org/abs/1606.00185)   
 *2016-06-01* [paper](https://arxiv.org/abs/1606.00185)   
 
+1. [large scale search](https://www.di.ens.fr/willow/events/cvml2013/materials/slides/monday/Mon_2_search_large_2013.pdf)      
+*2013* Microsoft     
+
 # 2 理论
 
 # 3 技术
 ## 3.1 特征提取
-### 3.1.1 传统方法
+### 3.1.1 传统
+1. [Ordinal measures for visual correspondence](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)    
+*1996* [paper](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)   
+顺序度量 OM;    
 
-### 3.1.2 深度哈希
->用来提升检索速度；     
+1. [Ordinal measures for image correspondence](https://pdfs.semanticscholar.org/a431/2c7886c88cfae3bb8af9d75c2f91d700e466.pdf)    
+*1998* [paper](https://pdfs.semanticscholar.org/a431/2c7886c88cfae3bb8af9d75c2f91d700e466.pdf)    
+顺序度量 OM；     
+
+1. [Object recognition from local scale-invariant features](https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)    
+ICCV 1999 *1999* [paper](https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)    
+sift；     
+
+1. [Distinctive image features from scale-invariant keypoints](https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf)     
+IJCV 2004 *2004* [paper](https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf)    
+sift;    
+
+1. [PCA-SIFT: A more distinctive representation for local image descriptors](http://www.cs.cmu.edu/~rahuls/pub/cvpr2004-keypoint-rahuls.pdf)     
+CVPR 2004 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/cvpr2004-keypoint-rahuls.pdf)    
+PCA-Sift;     
+
+1. [Robust video signature based on ordinal measure](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
+*2004* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
+
+1. [Spatio–Temporal Transform Based Video Hashing](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
+*2006* [paper](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
+DCT + Hash;    
+
+1. Gradient ordinal signature and fixed-point embedding for efficient near-duplicate video detection     
+*2012*    
+svd sift;    
+
+<span id="LSH_SIFT"></span>     
+1. Large-scale video copy retrieval with temporal-concentration SIFT     
+*2016*     
+改进 sift；LSH：位置敏感 hash，解决高维特征检索慢的问题；        
+
+### 3.1.2 [DL](/dl/cnn/2019/05/21/foundation.html)
+
+<span id="PCD_E">
+1.  Partial copy detection in videos: A benchmark and an evaluation of popular methods     
+*2016*     
+深度局部特征+词袋模型；    
+
+1. Image copy detection based on convolutional neural networks     
+*2016*  
+深度全局特征；    
+
+1. Compact CNN based video representation for efficient video copy detection     
+*2017*    
+VGG 提取帧特征；     
+
+1. [Deep Signatures](http://cn.arxiv.org/abs/1905.08494)   
+*2019-05-21* [paper](https://arxiv.org/abs/1905.08494) | [pytorch](https://github.com/patrick-kidger/Deep-Signatures)       
+
+1. [Learning to compare image patches via convolutional neural networks](http://cn.arxiv.org/abs/1504.03641)    
+CVPR 2015 *2015-04-14* [paper](https://arxiv.org/abs/1504.03641)   
+SCNN: 挛生网络；    
+
+### 3.1.3 特征编码
+>将局部特征组合成全局图像特征；    
+
+#### 3.1.3.1 词袋模型
+
+1. [Near-duplicate keyframe retrieval with visual keywords and semantic context](http://vireo.cs.cityu.edu.hk/research/wuxiao/CIVR07.pdf)     
+*2007* [paper](http://vireo.cs.cityu.edu.hk/research/wuxiao/CIVR07.pdf)     
+
+<span id="HamWG"></span>
+1. [Hamming embedding and weak geometric consistency for large scale image search](https://lear.inrialpes.fr/pubs/2008/JDS08/jegou_hewgc08.pdf)    
+ECCV 2008 *2008* [paper](https://lear.inrialpes.fr/pubs/2008/JDS08/jegou_hewgc08.pdf)    
+使用 Hanmming 嵌入处理视觉词袋的量化误差；针对倒排索引中的弱几何一致性做了改进；         
+
+1. [Improving bag-of-features for large scale image search](https://hal.inria.fr/inria-00514760/document)     
+*2010* [paper](https://hal.inria.fr/inria-00514760/document)     
+
+1. [Partial copy detection in videos: A benchmark and an evaluation of popular methods](#PCD_E)     
+
+1. Effective and efficient global context verification for image copy detection     
+*2017* OR-GCD 处理视觉词袋的量化误差；     
+
+#### 3.1.3.2 Fisher-Vector
+1. [Fisher kernels on visual vocabularies for image categorization](http://www.ee.oulu.fi/research/imag/courses/Vedaldi/2006-034.pdf)     
+CVPR 2007 *2007* [paper](http://www.ee.oulu.fi/research/imag/courses/Vedaldi/2006-034.pdf)    
+
+1. [Aggregating local descriptors into a compact image representation](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)    
+CVPR 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)   
+
+<span id="CVD_PTA"></span>
+1. [Compact video description for copy detection with precise temporal alignment](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10.pdf)     
+ECCV 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10.pdf)    
+
+
+### 3.1.4 其他
+1. [A New Approach to Image Copy Detection Based on Extended Feature Sets](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)    
+*2007* [paper](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)   
+
+## 3.2 检索
+### 3.2.1 树形结构
+
+### 3.2.2 VA-File
+
+### 3.2.3 Hash
+#### 3.2.3.1 传统
+1. [Large-scale video copy retrieval with temporal-concentration SIFT](#LSH_SIFT)     
+
+1. Locality-sensitive hashing scheme based on p -stable distributions      
+*2004*     
+LSH;     
+
+1. [Bayesian Locality Sensitive Hashing for Fast Similarity Search](http://cn.arxiv.org/abs/1110.1328)     
+*2011-10-06* [paper](https://arxiv.org/abs/1110.1328)   
+
+1. [Beyond Locality-Sensitive Hashing](http://cn.arxiv.org/abs/1306.1547)     
+*2013-06-06* [paper](https://arxiv.org/abs/1306.1547)    
+
+1. [Locality-Sensitive Hashing of Curves](http://cn.arxiv.org/abs/1703.04040)    
+*2017-03-11* [paper](https://arxiv.org/abs/1703.04040)     
+
+1. [Locality Sensitive Hashing for Similar Item Search](https://towardsdatascience.com/locality-sensitive-hashing-for-music-search-f2f1940ace23)      
+
+#### 3.2.3.2 DL
+
+>用来提升检索速度；`怎么提升的`{:.warning}      
+
+1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1)   
+*2016-08* [paper](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)       
+CNN，map+准确度+召回率；    
+
+1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)    
+ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)       
 
 1. [Supervised Hashing for Image Retrieval via Image Representation Learning](https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
 AAAI 2014 *2014* 中山大学·潘炎、颜水成 [paper](https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
@@ -192,11 +321,18 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 1. [Adversarially Trained Deep Neural Semantic Hashing Scheme for Subjective Search in Fashion Inventory](http://cn.arxiv.org/abs/1907.00382)    
 *2019-06-30* [paper](https://arxiv.org/abs/1907.00382)   
 
+### 3.2.4 倒排
 
-## 3.2 距离度量
-### 3.2.1 传统方法
+1. [Hamming embedding and weak geometric consistency for large scale image search](#HamWG)     
 
-### 3.2.2 深度度量
+1. Flip-invariant SIFT for copy and object detection     
+*2013*     
+解决弱几何一致性；    
+
+## 3.3 距离度量
+### 3.3.1 传统方法
+
+### 3.3.2 深度度量
 
 1. [Deep metric learning using Triplet network](http://cn.arxiv.org/abs/1412.6622)  
 [paper](https://arxiv.org/abs/1412.6622)  

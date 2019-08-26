@@ -30,6 +30,9 @@ ICCV 2019 oral *2019-04-06* [paper](https://arxiv.org/abs/1904.03493)
 # 4 零样本检索
 `Video-Text Retrieval` · `Text-to-Clip Retrieval` · `Zero-Example Video Retrieval`      
 
+1. [Video Google: A text retrieval approach to object matching in videos](http://www.robots.ox.ac.uk/~vgg/publications/papers/sivic03.pdf)     
+*2003* [paper](http://www.robots.ox.ac.uk/~vgg/publications/papers/sivic03.pdf)      
+
 1. [Joint Embeddings with Multimodal Cues for Video-Text Retrieval](https://vcg.ece.ucr.edu/sites/g/files/rcwecm2661/files/2019-03/IJMIR_Camera_Ready.pdf)     
 *2018* [paper](https://vcg.ece.ucr.edu/sites/g/files/rcwecm2661/files/2019-03/IJMIR_Camera_Ready.pdf)    
 

@@ -28,15 +28,73 @@ $\bullet \bullet$
 
 # 2 二维
 ## 2.1 经典网络
+1. [ImageNet classification with deep convolutional neural networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)     
+*2012* [paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | [tensorflow](https://github.com/Abhisek-/AlexNet)    
+AlexNet；     
 
-## 2.2 轻量级网络
+1. [Very deep convolutional networks for large-scale image recognition](http://cn.arxiv.org/abs/1409.1556)    
+ICLR 2015 oral *2014-09-04* [paper](https://arxiv.org/abs/1409.1556) | [tensorflow](https://github.com/Abhisek-/VGG)       
+VGG:    
+
+1. [Going deeper with convolutions](http://cn.arxiv.org/abs/1409.4842)     
+CVPR 2015 *2014-09-17* [paper]https://arxiv.org/abs/1409.4842     
+GoogLeNet;     
+
+1. [Deep residual learning for image recognition](http://cn.arxiv.org/abs/1512.03385)     
+CVPR 2016 *2015-12-10* [paper](https://arxiv.org/abs/1512.03385)     
+ResNet;    
+
 1. [Squeeze-and-Excitation Networks](http://cn.arxiv.org/abs/1709.01507)   
 *2017-09-05* [Paper](https://arxiv.org/abs/1709.01507)   
 SENet   
 
-1. [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244)   
+## 2.2 轻量级网络
+1. [Aggregated Residual Transformations for Deep Neural Networks](http://cn.arxiv.org/abs/1611.05431)     
+CVPR 2017 *2016-11-16* [paper](https://arxiv.org/abs/1611.05431)     
+ResNeXt;     
+
+1. [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size](http://cn.arxiv.org/abs/1602.07360)    
+ICLR 2017 *2016-02-24* 伯克利&斯坦福 [paper](https://arxiv.org/abs/1602.07360)    
+SqueezeNet     
+
+1. [Xception: Deep Learning with Depthwise Separable Convolutions](http://cn.arxiv.org/abs/1610.02357)    
+*2016-10-07* Google [paper](https://arxiv.org/abs/1610.02357)    
+Xception     
+
+1. [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](http://cn.arxiv.org/abs/1704.04861)    
+CVPR 2017 *2017-04-17* [paper](https://arxiv.org/abs/1704.04861)    
+MobileNet     
+
+1. [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](http://cn.arxiv.org/abs/1707.01083)     
+CVPR 2017 *2017-07-04* Face++ [paper](https://arxiv.org/abs/1707.01083)     
+ShuffleNet     
+
+1. [Interleaved Group Convolutions for Deep Neural Networks](http://cn.arxiv.org/abs/1707.02725)     
+ICCV 2017 *2017-07-10* 微软 [paper](https://arxiv.org/abs/1707.02725)    
+IGCV     
+
+1. [MobileNetV2: Inverted Residuals and Linear Bottlenecks](http://cn.arxiv.org/abs/1801.04381)     
+*2018-01-13* [paper](https://arxiv.org/abs/1801.04381) | [mxnet](https://github.com/liangfu/mxnet-mobilenet-v2)    
+MobileNetV2      
+
+1. [IGCV2: Interleaved Structured Sparse Convolutional Neural Networks](http://cn.arxiv.org/abs/1804.06202)     
+*2018-04-17* 微软 [paper](https://arxiv.org/abs/1804.06202)     
+IGCV2     
+
+1. [IGCV3: Interleaved Low-Rank Group Convolutions for Efficient Deep Neural Networks](http://cn.arxiv.org/abs/1806.00178)     
+BMVC 2018 *2018-06-01* 微软 [paper](https://arxiv.org/abs/1806.00178) | [mxnet](https://github.com/homles11/IGCV3) | [pytorch](https://github.com/xxradon/IGCV3-pytorch)              
+IGCV3     
+
+1. [ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design](http://cn.arxiv.org/abs/1807.11164v1)     
+*2018-07-30* [paper](https://arxiv.org/abs/1807.11164v1)    
+ShuffleNetV2    
+
+1. [Searching for MobileNetV3](http://cn.arxiv.org/abs/1905.02244)   
 *2019-05-06* google [paper](https://arxiv.org/abs/1905.02244) | [pytorch](https://github.com/xiaolai-sqlai/mobilenetv3) | [pytorch](https://github.com/shanglianlm0525/MobileNetV3-Pytorch) | [我爱计算机视觉](https://www.jiqizhixin.com/articles/2019-05-09-2)   
 MobileNetV3:    
+
+1. [MoGA: Searching Beyond MobileNetV3](http://cn.arxiv.org/abs/1908.01314)     
+*2019-08-04* [paper](https://arxiv.org/abs/1908.01314) | [pytorch](https://github.com/xiaomi-automl/MoGA)-official          
 
 ## 2.3 提升泛化能力
 1. [Learning to Find Correlated Features by Maximizing Information Flow in Convolutional Neural Networks](http://cn.arxiv.org/abs/1907.00348)   

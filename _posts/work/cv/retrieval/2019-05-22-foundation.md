@@ -28,13 +28,8 @@ tags: 资源
 # 3 技术
 ## 3.1 特征提取
 ### 3.1.1 传统
-1. [Ordinal measures for visual correspondence](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)    
-*1996* [paper](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)   
-顺序度量 OM;    
-
-1. [Ordinal measures for image correspondence](https://pdfs.semanticscholar.org/a431/2c7886c88cfae3bb8af9d75c2f91d700e466.pdf)    
-*1998* [paper](https://pdfs.semanticscholar.org/a431/2c7886c88cfae3bb8af9d75c2f91d700e466.pdf)    
-顺序度量 OM；     
+#### 3.1.1.1 局部特征
+>Harris角点、SIFT、PCA-SIFT和SURF等；     
 
 1. [Object recognition from local scale-invariant features](https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)    
 ICCV 1999 *1999* [paper](https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)    
@@ -48,13 +43,6 @@ sift;
 CVPR 2004 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/cvpr2004-keypoint-rahuls.pdf)    
 PCA-Sift;     
 
-1. [Robust video signature based on ordinal measure](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
-*2004* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
-
-1. [Spatio–Temporal Transform Based Video Hashing](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
-*2006* [paper](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
-DCT + Hash;    
-
 1. Gradient ordinal signature and fixed-point embedding for efficient near-duplicate video detection     
 *2012*    
 svd sift;    
@@ -63,6 +51,25 @@ svd sift;
 1. Large-scale video copy retrieval with temporal-concentration SIFT     
 *2016*     
 改进 sift；LSH：位置敏感 hash，解决高维特征检索慢的问题；        
+
+
+#### 3.1.1.2 全局特征
+1. [Ordinal measures for visual correspondence](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)    
+*1996* [paper](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)   
+顺序度量 OM;    
+
+1. [Ordinal measures for image correspondence](https://pdfs.semanticscholar.org/a431/2c7886c88cfae3bb8af9d75c2f91d700e466.pdf)    
+*1998* [paper](https://pdfs.semanticscholar.org/a431/2c7886c88cfae3bb8af9d75c2f91d700e466.pdf)    
+顺序度量 OM；     
+
+1. [Robust video signature based on ordinal measure](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
+*2004* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)   
+顺序度量 OM；     
+
+1. [Spatio–Temporal Transform Based Video Hashing](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
+*2006* [paper](http://www.busim.ee.boun.edu.tr/~sankur/SankurFolder/SpatioTemporal_Hashing.pdf)    
+DCT + Hash;    
+
 
 ### 3.1.2 [DL](/dl/cnn/2019/05/21/foundation.html)
 
@@ -119,6 +126,10 @@ CVPR 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compac
 ECCV 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10.pdf)    
 
 
+1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1)   
+*2016-08* [paper](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)       
+CNN，map+准确度+召回率；    
+
 ### 3.1.4 其他
 1. [A New Approach to Image Copy Detection Based on Extended Feature Sets](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)    
 *2007* [paper](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)   
@@ -151,9 +162,6 @@ LSH;
 
 >用来提升检索速度；`怎么提升的`{:.warning}      
 
-1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1)   
-*2016-08* [paper](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)       
-CNN，map+准确度+召回率；    
 
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)    
 ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)       

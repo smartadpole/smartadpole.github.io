@@ -49,7 +49,7 @@ category: [c++, cpp_foundation]
 ### B 推荐书籍
 
 <center class="half">
-  <img src="/assets/images/programming/cpp/thinking_in_cpp.jpeg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/using_stl.jpeg" height="200"/>
+  <img src="/assets/images/programming/cpp/books/thinking_in_cpp.jpeg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/using_stl.jpeg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/effective_modern_cpp.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/cpp_optimization_cn.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/cpp_optimization_en.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/boost.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/annotations.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/qt.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/think_like_cs.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/open_ds.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/rook.jpg" height="200"/>&emsp;<img src="/assets/images/programming/cpp/books/gcc.jpg" height="200"/>&emsp;
 </center>
 
 1. **《Thinking in C++》**  
@@ -59,15 +59,59 @@ category: [c++, cpp_foundation]
 
 1. **《Using the C++ Standard Template Libraries》**  
 《C++ 标准模板库编程实战》  
-`Ivor Horton 著. 郭小虎. 程聪. 译.  C++ 标准模板库编程实战[M]. 北京:清华大学出版社, 2017.`  
+`Ivor Horton 著, 郭小虎. 程聪. 译.  C++ 标准模板库编程实战[M]. 北京:清华大学出版社, 2017.`  
 
 1. **《Effective Modern C++》**  
 《Effective Modern C++》  
 `Scott Meyers.  Effective Modern C++[M]. 南京:东南大学出版社, 2018.`  
 
+1. **《C++ Footprint and Performance Optimization》**  
+《C++ 高效编程: 内存与性能优化》  
+`R.Alexande 著, 王峰. 史金虎. 译.  C++ 高效编程: 内存与性能优化[M]. 北京:中国电力出版社, 2003.`  
+
+
+1. **《The Boost C++ Libraries》**  
+《Boost C++ 类库》，[官网](https://www.boost.org/)，[库](https://theboostcpplibraries.com/) ，[Blog](https://www.ctolib.com/docs/sfile/the-boost-cpp-libraries/index.html)      
+`Boris Schäling.  The Boost C++ Libraries[M]. XML Press, 2011.`    
+提供多个库，包括多线程、容器、字符串和文本处理、迭代器、线性代数、伪随机数产生、元程序设计模板、并发程序设计、数据结构、图像处理、正则表达式和单元测试；可以轻松地管理内存、处理字符串；      
+
+
+1. **《C++ Annotations》**  
+《C++ 注释》，[doc](http://www.icce.rug.nl/documents/cplusplus/) ，[latest](https://fbb-git.gitlab.io/cppannotations/)，[Blog](https://www.ctolib.com/docs/sfile/the-boost-cpp-libraries/index.html)      
+`Frank B. Brokken.  C++ Annotations[EB/OL]. -, 2013.`    
+全面的入门教程；    
+
+1. **《An Introduction to Design Patterns in C++ with Qt》**  
+《C++ Qt 设计模式》, [PDF](http://ptgmedia.pearsoncmg.com/images/9780131879058/downloads/0131879057_Ezust_book.pdf)-1, [PDF](ftp://ftp.micronet-rostov.ru/linux-support/books/programming/C++/[Prentice%20Hall]%20-%20Introduction.to.Design.Patterns.in.CPP.with.Qt.2nd.Edition.pdf)-2           
+`Alan Ezust, Paul Ezust 著, 闫锋欣 等译. C++ Qt 设计模式[M]. 北京:电子工业出版社, 2012.`    
+从 C++ 基础到设计模式；对函数、继承和多态的讲解尤为优秀；        
+
+1. **《How to Think Like a Computer Scientist: C++》**  
+《像计算机科学家一样思考：C++》, [PDF](http://www.inf.ufpr.br/cursos/ci067/Docs/thinkCScpp.pdf)-1, [PDF](http://www.greenteapress.com/thinkcpp/thinkCScpp.pdf)-1.1.0, [Github](https://github.com/AllenDowney/ThinkCPP)               
+`Allen B. Downey.  像计算机科学家一样思考：C++[M]. CreateSpace Independent Publishing Platform, 2012.`    
+理论到实践的过度（基础）；   
+
+1. **《[Open Data Structures](http://opendatastructures.org/) (in C++)》**  
+《开放数据结构（C++ 版）》, [HTML](https://opendatastructures.org/ods-cpp/), [PDF](https://lecture.ecc.u-tokyo.ac.jp/~ktanaka/mis2-2017/ods-cpp-mis2.pdf)-2017, [PDF](https://opendatastructures.org/versions/edition-0.1e/ods-cpp.pdf)          
+`Pat Morin.  开放数据结构（C++ 版）[M]. AU Press, 2013.`    
+理论到实践的过度（基础）；        
+
+
+1. **《The Rook’s Guide to C++》**  
+《Rook 的 C++ 指南》, [PDF](https://rooksguide.files.wordpress.com/2013/11/rooks-guide-to-c-proof.pdf)-2013, []      
+`Jeremy Hansen. The Rook’s Guide to C++[M]. lulu.com, 2013.`    
+集中处理预处理器、高等代数、文件输入输出、指针、动态数据、类和抽象、分离编译和标准模板库等问题；      
+本书大部分都是由 25 位 Norwich 大学的学生于一个黑客马拉松周末写成；    
+
+1. **《An Introduction to GCC》**  
+《GCC 简介》, [HTML](http://lampwww.epfl.ch/~fsalvi/docs/gcc/www.network-theory.co.uk/docs/gccintro/index.html), [PDF](https://tfetimes.com/wp-content/uploads/2015/09/An_Introduction_to_GCC-Brian_Gough.pdf)-En, [PDF](http://www.leegoogol.com/documents/An_Introduction_to_GCC_%E4%B8%AD%E6%96%87.pdf)-中文         
+`Brian Gough.  GCC 简介[M]. Network Theory Ltd, 2004.`    
+介绍了 GNU：gcc、g++，解释了如何单独使用编译器；    
+
 
 ### C 推荐资料
-
+1. [Optimizing software in C++](https://www.agner.org/optimize/optimizing_cpp.pdf)    
+1. [Optimization in C & C++](http://formation.in2p3.fr/Info12/20120207-binet-opt-cxx.pdf)     
 
 ### D 参考文献
 [^1]: 我心不死. 讨论一下《C++ 编程思想》这本书[EB/OL]. <https://bbs.csdn.net/topics/20147884>. -/2019-01-21.  

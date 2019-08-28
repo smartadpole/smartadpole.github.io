@@ -24,3 +24,7 @@ https://arxiv.org/abs/1803.08494)，[Switchable Normalization](https://arxiv.org
 -------------------  
 End
 {:.warning}  
+
+# 附录
+## A 参考资料
+1. [Differences between normalization, standardization and regularization](https://maristie.com/blog/differences-between-normalization-standardization-and-regularization/)     

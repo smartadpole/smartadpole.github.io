@@ -5,12 +5,12 @@ date:   2019-05-22 16:08:40 +0800
 key: OpenCV-foundation-20190522
 aside:
   toc: true
-category: [opencv]
+category: [opencv, opencv_introduction]
 tags: 资源
 ---
 <span id='head'></span>  
 >源码：<https://github.com/opencv/opencv>   
-docs：<https://docs.opencv.org/3.4.6/>   
+docs：<https://docs.opencv.org>   
 
 
 <!--more-->

@@ -1,17 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       Linear Algebra
-    zh:       线性代数
-    zh-Hans:  线性代数
-    zh-Hant:  线性代数
+    en:       Determinants
+    zh:       行列式
+    zh-Hans:  行列式
+    zh-Hant:  行列式
 sidebar:
     nav: LinearAlgebra
 ---
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "linear_algebra" %}
+        {% if cat[0] == "la_determinant" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

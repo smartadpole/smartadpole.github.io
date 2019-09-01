@@ -782,6 +782,21 @@ LinearAlgebra:
       - title:  上一层
         url:    /index.html
 
+  - title:	线性代数
+    children:
+      - title:  行列式
+        url:    /assets/category/work/foundation/linear_algebra/determinant.html
+      - title:  矩阵
+        url:    /assets/category/work/foundation/linear_algebra/matrix.html
+      - title:  向量
+        url:    /assets/category/work/foundation/linear_algebra/vector.html
+      - title:  线性方程组
+        url:    /assets/category/work/foundation/linear_algebra/equations.html
+      - title:  特征
+        url:    /assets/category/work/foundation/linear_algebra/eigen.html
+      - title:  二次型
+        url:    /assets/category/work/foundation/linear_algebra/quadratic_form.html
+
 Calculus:
   - title:
     children:
@@ -1350,7 +1365,7 @@ InfoSecurity:
       - title:  数字水印
         url:    /assets/category/work/CV_2D/info_security/digital_watermarking.html
 
-NDVR:  
+NDVR:
   - title:
     children:
       - title:  上一层
@@ -1369,7 +1384,7 @@ NDVR:
 
 
 
-ImageRetrieval:  
+ImageRetrieval:
   - title:
     children:
       - title:  上一层
@@ -1388,7 +1403,7 @@ ImageRetrieval:
 
 
 
-OpenCV:  
+OpenCV:
   - title:
     children:
       - title:  上一层

@@ -1,17 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       Linear Algebra
-    zh:       线性代数
-    zh-Hans:  线性代数
-    zh-Hant:  线性代数
+    en:       Quadratic Form
+    zh:       二次型
+    zh-Hans:  二次型
+    zh-Hant:  二次型
 sidebar:
     nav: LinearAlgebra
 ---
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "linear_algebra" %}
+        {% if cat[0] == "la_quadratic_form" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

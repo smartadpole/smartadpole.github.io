@@ -1,17 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       Linear Algebra
-    zh:       线性代数
-    zh-Hans:  线性代数
-    zh-Hant:  线性代数
+    en:       Vectors
+    zh:       向量
+    zh-Hans:  向量
+    zh-Hant:  向量
 sidebar:
     nav: LinearAlgebra
 ---
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "linear_algebra" %}
+        {% if cat[0] == "la_vector" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

@@ -18,12 +18,20 @@ tags: 资源
 
 # 2 理论
 
-# 3 检索任务
+# 3 经典论文
+1. [Intriguing properties of neural networks](http://cn.arxiv.org/abs/1312.6199)    
+*2013-12-21* Ian Goodfellow [paper](https://arxiv.org/abs/1312.6199)     
+阐述了分类网络的缺陷——对攻击敏感；并给出了简单的图像扰动策略；    
+
+# 4 检索任务
 1. [Unsupervised Adversarial Attacks on Deep Feature-based Retrieval with GAN](http://cn.arxiv.org/abs/1907.05793)   
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05793)    
 
 
-# 3 其他
+# 5 其他
+1. [Explaining and Harnessing Adversarial Examples](http://cn.arxiv.org/abs/1412.6572)    
+*2014-12-20* Ian Goodfellow [paper](https://arxiv.org/abs/1412.6572)    
+
 1. [Adversarial Reprogramming of Neural Networks](http://cn.arxiv.org/abs/1806.11146)   
 *2018-06-28* [paper](https://arxiv.org/abs/1806.11146)   
 

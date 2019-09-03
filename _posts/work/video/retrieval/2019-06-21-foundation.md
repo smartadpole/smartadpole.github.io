@@ -40,7 +40,7 @@ tags: 资源
 
 1. [视频拷贝检测方法综述](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3395)    
 *2017-04* 复旦·计算机 姜育刚 [paper](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3395)    
-
+全方位的概述；    
 
 1. [GVoS: A General System for Near-Duplicate Video Related Applications on Storm](http://net.pku.edu.cn/~cuibin/Papers/2017%20TOIS.pdf)    
 *2017* [paper](http://net.pku.edu.cn/~cuibin/Papers/2017%20TOIS.pdf)    

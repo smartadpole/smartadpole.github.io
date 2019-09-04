@@ -62,7 +62,7 @@ SqueezeNet
 Xception     
 
 1. [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](http://cn.arxiv.org/abs/1704.04861)    
-CVPR 2017 *2017-04-17* [paper](https://arxiv.org/abs/1704.04861)    
+CVPR 2017 *2017-04-17* [paper](https://arxiv.org/abs/1704.04861) | [ncnn](https://github.com/Revo-Future/ncnn_mobileNet)-[Blog](https://blog.csdn.net/computerme/article/details/77876633)      
 MobileNet     
 
 1. [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](http://cn.arxiv.org/abs/1707.01083)     

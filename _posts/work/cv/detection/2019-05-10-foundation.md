@@ -49,7 +49,7 @@ CVPR 2019 *2019-02-25* [paper](https://arxiv.org/abs/1902.09630)
 *2015-06* [Paper](https://arxiv.org/abs/1506.01497) | [pytorch](https://ai.yanxishe.com/page/TextTranslation/1304?from=groupmessage)   
 
 1. [SSD: Single Shot MultiBox Detector](http://cn.arxiv.org/abs/1512.02325)    
-ECCV 2016 Oral *2015-12* ​[Paper](https://arxiv.org/abs/1512.02325) | [caffe](https://github.com/weiliu89/caffe/tree/ssd)-Official | [Caffe-MobileNet](https://github.com/chuanqi305/MobileNet-SSD) | [MxNet](https://github.com/zhreshold/mxnet-ssd) | [MxNet-cpp](https://github.com/zhreshold/mxnet-ssd.cpp) | [Keras](https://github.com/rykov8/ssd_keras) | [Keras](https://github.com/pierluigiferrari/ssd_keras) | [Tensorflow](https://github.com/balancap/SSD-Tensorflow) | [Pytorch](https://github.com/amdegroot/ssd.pytorch)    
+ECCV 2016 Oral *2015-12* ​[Paper](https://arxiv.org/abs/1512.02325) | [caffe](https://github.com/weiliu89/caffe/tree/ssd)-Official | [Caffe-MobileNet](https://github.com/chuanqi305/MobileNet-SSD) | [MxNet](https://github.com/zhreshold/mxnet-ssd) | [MxNet-cpp](https://github.com/zhreshold/mxnet-ssd.cpp) | [Keras](https://github.com/rykov8/ssd_keras) | [Keras](https://github.com/pierluigiferrari/ssd_keras) | [Tensorflow](https://github.com/balancap/SSD-Tensorflow) | [Pytorch](https://github.com/amdegroot/ssd.pytorch) | [TensorRT3](https://github.com/chenzhi1992/TensorRT-SSD)/SSD/MobileNet-SSD | [TensorRT4-mobilenet](https://github.com/Ghustwb/MobileNet-SSD-TensorRT) | [ncnn-mobilenet](https://github.com/arlose/ncnn-mobilenet-ssd) | [caffe](https://github.com/FreeApe/VGG-or-MobileNet-SSD)/VGG/Mobilenet/Shufflenet | [caffe-mobilenet-focal-loss](https://github.com/canteen-man/MobileNet-SSD-Focal-loss)         
 
 
 # 4 通用目标检测
@@ -88,6 +88,37 @@ https://mp.weixin.qq.com/s/pkFcmm15gnuRJtngFX7f0w
 教师网络处理噪声图像；   
 
 ## 4.4 单阶段
+### 4.4.1 SSD 扩展
+1. [DSSD : Deconvolutional Single Shot Detector](http://cn.arxiv.org/abs/1701.06659)  
+*2017-01-23* [paper](https://arxiv.org/abs/1701.06659) | [mxnet](https://github.com/MTCloudVision/mxnet-dssd)     
+DSSD: 使用 Top-Down 网络结构，解决小物体检测的问题​
+
+
+1. [Enhancement of SSD by concatenating feature maps for object detection](http://cn.arxiv.org/abs/1705.09587)  
+*2017-05-26* [paper](https://arxiv.org/abs/1705.09587)      
+RSSD:      
+
+<span id="refinenet"></span>    
+1. [Single-Shot Refinement Neural Network for Object Detection](http://cn.arxiv.org/abs/1711.06897)  
+cvpr 2018 *2017-11-18* [paper](https://arxiv.org/abs/1711.06897) | [caffe](https://github.com/sfzhang15/RefineDet)        
+RefineNet: 融合了 Faster RCNN 的两阶段和 FPN 特征融合的策略，检测用的 SSD，提高对小目标的检测效果；     
+
+1. [FSSD: Feature Fusion Single Shot Multibox Detector](http://cn.arxiv.org/abs/1712.00960)  
+*2017-12-04* [paper](https://arxiv.org/abs/1712.00960) | [caffe](https://github.com/lzx1413/CAFFE_SSD/tree/fssd)-Official          
+FSSD: 特征融合后在下采样，之后进行预测；速度略有降低 1080Ti 上 65 fps，map 提升至 82.7；    
+理论上对小目标会更好；    
+
+1. [Single-Shot Object Detection with Enriched Semantics](http://cn.arxiv.org/abs/1712.00433)      
+cvpr 2018 *2017-12-01* [paper](https://arxiv.org/abs/1712.00433)    
+DES: 在 SSD 网络基础上，增加了语义分割分支和全局激活模块；前者增加低层检测特征，后者通过学习特征通道和目标类别的语义关系来进行高层目标检测特征；    ​
+
+
+<span id="STDN"></span>    
+1. [Scale-Transferrable Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Scale-Transferrable_Object_Detection_CVPR_2018_paper.pdf)      
+cvpr 2018 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Scale-Transferrable_Object_Detection_CVPR_2018_paper.pdf)      
+STDN: 提高对多尺度的适应性（尤其是小目标）；backbone 使用的是 DenseNet ，检测用的 SSD；引入scale-transfer layer，实现了在几乎不增加参数量和计算量的前提下生成大尺寸的 feature map（其他常见的算法基本上都是采用 deconvolution 或 upsample）；      
+
+### 4.4.2 YOLO 扩展
 
 ## 4.5 两阶段
 
@@ -136,10 +167,9 @@ https://arxiv.org/abs/1612.08242
 https://arxiv.org/abs/1704.03414v1
 https://github.com/xiaolonw/adversarial-frcnn
 
-1. [Detecting Small Signs from Large Images]()  
-[2017.6] large images are broken into small patches as input to a Small Object-Sensitive-CNN (SOS-CNN) modified from a Single Shot Multibox Detector (SSD) framework with a VGG-16 network as the base network to produce patch-level object detection results. Scale invariance is achieved by applying the SOS-CNN on an image pyramid. Then, image-level object detection is obtained by projecting all the patch-level detection results to the image at the original scale.​
-https://arxiv.org/abs/1706.08574
-
+1. [Detecting Small Signs from Large Images](http://cn.arxiv.org/abs/1706.08574)  
+*2017-06-26* [paper](https://arxiv.org/abs/1706.08574)     
+​
 1. [Perceptual Generative Adversarial Networks for Small Object Detection]()  
 P-GAN [2017.6] P-GAN将小目标的特征映射到相似的大目标特征上来缩小差别，便能将小目标足够近似到大目标来欺骗判别器，达到小目标检测的目的​
 https://arxiv.org/abs/1706.05274
@@ -148,11 +178,8 @@ https://arxiv.org/abs/1706.05274
 [2017]
 http://www.skicyyu.org/Paper/RFCN_plus_plus.pdf
 
-1. [DSSD : Deconvolutional Single Shot Detector]()  
-[2017.1]  使用 Top-Down 网络结构，解决小物体检测的问题​
-https://arxiv.org/abs/1701.06659
-github.com/MTCloudVision/mxnet-dssd
-https://zhuanlan.zhihu.com/p/33036037
+
+
 
 1. [Mask R-CNN]()  
 [2017.3 - 2018.1] cvpr 2017, 1. 解决 RoIPooling 在 Pooling 过程中对 RoI 区域产生形变，且位置信息提取不精确的问题。2. 通过改进 Faster R-CNN 结构完成分割任务​
@@ -163,13 +190,6 @@ github.com/TuSimple/mx-maskrcnn
  https://arxiv.org/abs/1703.06211
 https://github.com/msracver/Deformable-ConvNets
 
-1. [Enhancement of SSD by concatenating feature maps for object detection]()  
-[2017.5]
-https://arxiv.org/abs/1705.09587
-
-1. [Enhancement of SSD by concatenating feature maps for object detection]()  
-RSSD [2017.5]
-https://arxiv.org/abs/1705.09587
 
 1. [DSOD : learning deeply supervised object detectors from scratch]()  
 [2017.08 - 2018.4] iccv 2017,
@@ -199,14 +219,6 @@ SNIP [2017.11 - 2018.3] cvpr2018, 可看成改版版本的Image Pyramid。分析
  https://arxiv.org/abs/1711.08189
 http://bit.ly/2yXVg4c
 
-1. [Single-Shot Refinement Neural Network for Object Detection]()  
-RefineNet [2017.11 - 2018.1] cvpr2018, 可看做将Faster RCNN的two stages检测方法和SSD结合​；主要思想：一方面引入two stage类型的object detection算法中对box的由粗到细的回归思想（由粗到细回归其实就是先通过RPN网络得到粗粒度的box信息，然后再通过常规的回归支路进行进一步回归从而得到更加精确的框信息，这也是two stage类型的object detection算法效果优于one stage类型的一个重要原因）。另一方面引入类似FPN网络的特征融合操作用于检测网络，可以有效提高对小目标的检测效果，检测网络的框架还是SSD​propose a novel one-stage framework(RefineDet) consists of two inter-connected modules. the former aims to (1) filter out negative anchors to reduce search space for the classifier, and (2) coarsely adjust the locations and sizes of anchors to provide better initialization for the subsequent regressor. The latter module takes the refined anchors as the input from the former to further improve the regression and predict multi-class label. Meanwhile, we design a transfer connection block to transfer the features in the anchor refinement module to predict locations, sizes and class labels of objects in the object detection module. The multitask loss function enables us to train the whole network in an end-to-end way.​
- http://arxiv.org/abs/1711.06897
-caffe https://github.com/sfzhang15/RefineDet
-
-1. [FSSD: Feature Fusion Single Shot Multibox Detector]()  
-FSSD [2017.12 - 2018.5]
-https://arxiv.org/abs/1712.00960
 
 1. [ R-FCN-3000 at 30fps: Decoupling Detection and Classification]()  
 R-FCN-3000  [2017.12] cvpr 2018, YOLO9000 将检测数据集和分类数据集合并训练检测模型，但 r-fcn-3000 仅采用具有辅助候选框信息的 ImageNet 数据集训练检测分类器​
@@ -217,9 +229,6 @@ https://arxiv.org/abs/1712.01802
  https://arxiv.org/abs/1712.00726
 caffe matlab https://github.com/zhaoweicai/cascade-rcnn
 
-1. [Single-Shot Object Detection with Enriched Semantics]()  
-DES [2017.12 - 2018.4] cvpr2018, 在SSD网络基础上，增加了语义分割分支和全局激活模块。前者增加低层检测特征，后者通过学习特征通道和目标类别的语义关系来进行高层目标检测特征。​
-https://arxiv.org/abs/1712.00433
 
 1. [Zero-Shot Detection]()  
 [2018.3]
@@ -244,10 +253,6 @@ https://arxiv.org/abs/1808.04974v1
 1. [Domain Adaptive Faster R-CNN for Object Detection in the Wild]()  
 [2018.3]
 https://arxiv.org/abs/1803.03243
-
-1. [Scale-Transferrable Object Detection]()  
-STDN [2018] cvpr2018, Scale-Transferrable Detection Network（STDN）算法主要用于提高object detection算法对不同scale的object的检测效果。该算法采用DenseNet网络作为特征提取网络（自带高低层特征融合），基于多层特征做预测（类似SSD），并对预测结果做融合得到最终结果。该算法有两个特点：1、主网络采用DenseNet，了解DenseNet的同学应该知道该网络在一个block中，每一层的输入feature map是前面几层的输出feature map做concate后的结果，因此相当于高低层特征做了融合。高低层特征融合其实对object detection算法而言是比较重要的，FPN算法是显式地做了高低层特征融合，而SSD没有，这也是为什么SSD在小目标问题上检测效果不好的原因之一，因此该算法虽然看似SSD，但其实和SSD有区别。2、引入scale-transfer layer，实现了在几乎不增加参数量和计算量的前提下生成大尺寸的feature map（其他常见的算法基本上都是采用deconvolution或upsample），由于scale-transfer layer是一个转换操作，因此基本不会引入额外的参数量和计算量​
-http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1376.pdf
 
 1. [Multi-scale Location-aware Kernel Representation for Object Detection]()  
 [2018.4] cvpr, 提出了一种新颖的多尺度位置感知核表示（MLKP），将判别性高阶统计量结合到object proposals的表示中以进行有效的对象检测。MLKP基于多项式核近似，可以有效生成低维高阶表示，其固有的位置保持性和敏感性也保证了可以灵活地用于目标检测​
@@ -356,13 +361,19 @@ https://mp.weixin.qq.com/s/4nJGdV3qF4IsfxLM8BBeqg
 https://arxiv.org/abs/1901.06563
 https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 
+1. [Multiple receptive fields and small-object-focusing weakly-supervised segmentation network for fast object detection](http://cn.arxiv.org/abs/1904.12619)   
+*2019-04-19* [paper](https://arxiv.org/abs/1904.12619)   
+
+1. [A Real-Time Tiny Detection Model for Stem End and Blossom End of Navel Orange](http://cn.arxiv.org/abs/1905.09994)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.09994)   
+
 
 # 5 应用场景
 ## 5.1 人
 ### 5.1.1 人脸检测
 ### 5.1.2 行人检测
 
-## 5.2 [文本](/cv/ocr/2019/07/27/foundation.html)
+## 5.2 [文本](/cv/ocr/2019/07/27/foundation.html#4-文本检测)
 
 ## 5.3 交通
 ### 5.3.1 车道线检测
@@ -379,29 +390,18 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 ## 5.5 医疗
 ### 5.5.1 肺结节检测
 
-## 5.6 视频目标检测
+## 5.6 [视频](/video/video_detection/2019/05/22/foundation.html)
+
 ## 5.7 航拍
 1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
-# 6 小目标检测
-1. [Multiple receptive fields and small-object-focusing weakly-supervised segmentation network for fast object detection](http://cn.arxiv.org/abs/1904.12619)   
-*2019-04-19* [paper](https://arxiv.org/abs/1904.12619)   
-
-1. [A Real-Time Tiny Detection Model for Stem End and Blossom End of Navel Orange](http://cn.arxiv.org/abs/1905.09994)   
-*2019-05-24* [paper](https://arxiv.org/abs/1905.09994)   
-
-# 7 面向终端的目标检测
-1. [Towards High Performance Video Object Detection for Mobiles](http://cn.arxiv.org/abs/1804.05830)   
-*2018-04-16* [Paper](https://arxiv.org/abs/1804.05830)    
-
-# 8 3D 检测
-
-
-# 9 其他
+## 5.8 自然
 1. [Cloud-Net: An end-to-end Cloud Detection Algorithm for Lan](http://cn.arxiv.org/abs/1901.10077)   
-2019-01-29 [Paper](https://arxiv.org/abs/1901.10077)   
+*2019-01-29* [Paper](https://arxiv.org/abs/1901.10077)   
 云层检测   
+
+# 6 3D 检测
 
 
 -------------------  

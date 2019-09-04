@@ -9,6 +9,7 @@ category: [CV, adversarial_attack]
 tags: 资源
 ---
 <span id='head'></span>  
+>相关资源：[对抗攻击概述](/cv/adversarial_attack/2019/09/03/survey.html)       
 
 <!--more-->
 # 1 综述

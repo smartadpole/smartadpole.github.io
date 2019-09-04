@@ -10,6 +10,7 @@ tags: 资源
 ---
 <span id='head'></span>
 >光学字符识别；感觉在 2017 年爆炸了；       
+相关资源：[目标检测资源](/cv/detection/2019/05/10/foundation.html)     
 
 <!--more-->
 

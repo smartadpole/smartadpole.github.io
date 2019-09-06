@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 Pytorch 数据预处理"
+title:  "「DLFramework」 Pytorch 数据预处理"
 date:   2019-06-17 16:00:40 +0800
 key: pytorch-data-augmentation-20190617
 aside:
@@ -8,17 +8,14 @@ aside:
 categories: [dl_frameworks, pytorch]
 ---
 <span id='head'></span>  
->   
 
-
-# 1
-
-
+<!--more-->   
 
 
 -------------------  
 [End](#head)
 {:.warning}  
+
 
 # 附录
 ## A 参考资料

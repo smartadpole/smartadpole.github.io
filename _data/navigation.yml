@@ -379,6 +379,8 @@ DLFramework:
         url:    /assets/category/work/AI/dl_framework/tensorrt.html
       - title:  mace
         url:    /assets/category/work/AI/dl_framework/mace.html
+      - title:  ncnn
+        url:    /assets/category/work/AI/dl_framework/ncnn.html
   - title:      中转框架
     children:
       - title:  ONNX

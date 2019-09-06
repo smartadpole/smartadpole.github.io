@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 TensorRT 入门"
+title:  "「DLFramework」 TensorRT 入门"
 date:   2019-02-12 16:00:40 +0800
 key: tensorrt-foundation-20190212
 aside:
@@ -8,13 +8,14 @@ aside:
 tags: 资源
 categories: [dl_frameworks, tensorrt]
 ---
-
+<span id='head'></span>  
 > TensorRT 是 NVIDIA 发布的推理框架，用于在 NVIDIA GPUs 上进行深度学习模型部署；针对 NVIDIA 显卡做了优化；支持 TensorFlow、Caffe、PyTorch、MXnet、CNTK等所有主流框架及 ONNX；支持 C++（核心） 和 Python；  
 官网: <https://developer.nvidia.com/tensorrt>  
 ONNX TensorRT: <https://github.com/onnx/onnx-tensorrt>  
 官方文档汇总: <https://docs.nvidia.com/deeplearning/sdk/tensorrt-archived/index.html>,  
 python API: <https://docs.nvidia.com/deeplearning/sdk/tensorrt-api/python_api/>  
 
+<!--more-->   
 ## 一、 安装  
 ### 1. Linux 环境[^1]' [^2]  
 
@@ -39,14 +40,13 @@ sudo apt-get install tensorrt
 
 [TensorRT 文件组织](#install_dir)  
 
-## 二、 Demo
-
 
 
 
 -------------------  
- End
+[End](#head)
 {:.warning}  
+
 
 
 

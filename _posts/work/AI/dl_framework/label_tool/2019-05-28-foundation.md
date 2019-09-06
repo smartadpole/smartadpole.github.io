@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 标注工具资源汇总"
+title:  "「DLFramework」 标注工具资源汇总"
 date:   2019-05-28 15:00:40 +0800
 key: label-tool-foundation-20190528
 aside:
@@ -8,7 +8,9 @@ aside:
 categories: [dl_frameworks, label_tool]
 tags: 资源
 ---
-<span id='head'></span>
+<span id='head'></span>  
+
+<!--more-->   
 
 # 1 音频标注
 ## 1.1 VIA   
@@ -84,5 +86,5 @@ https://cvhci.anthropomatik.kit.edu/~baeuml/projects/a-universal-labeling-tool-f
 
 
 -------------------  
-[End](tags: 资源)
+[End](#head)
 {:.warning}  

@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 Caffe Docker 配置"
+title:  "「DLFramework」 Caffe Docker 配置"
 date:   2018-10-27 18:30:40 +0800
 key: caffe-docker-abc-20181027
 aside:
@@ -8,6 +8,9 @@ aside:
 tags: 开发环境
 categories: [dl_frameworks, caffe, worktool]
 ---
+<span id='head'></span>  
+
+<!--more-->   
 ## 一、Docker 安装  
 [docker 安装教程](/worktool/2018/10/27/Docker-入门.html)  
 
@@ -71,3 +74,7 @@ categories: [dl_frameworks, caffe, worktool]
   ```
 
 :ghost:
+
+-------------------  
+[End](#head)
+{:.warning}  

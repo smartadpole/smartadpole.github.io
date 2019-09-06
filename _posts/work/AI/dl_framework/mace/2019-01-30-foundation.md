@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 Mace 入门"
+title:  "「DLFramework」 Mace 入门"
 date:   2019-01-30 15:00:40 +0800
 key: mace-foundation-20190130
 aside:
@@ -8,13 +8,14 @@ aside:
 tags: 资源
 categories: [dl_frameworks, mace]
 ---
-
+<span id='head'></span>  
 > mace 是 2018年4月小米开源的移动端深度学习框架；  
 github:<https://github.com/XiaoMi/mace>  
 document:<https://mace.readthedocs.io/en/latest/>  
 model zoo:<https://github.com/XiaoMi/mace-models>  
 
 
+<!--more-->   
 ## 一、 安装  
 ### 1. Linux 环境  
 1） 安装 bazel   
@@ -56,14 +57,12 @@ docker run -it --privileged -d --name mace-dev \
 docker exec -it mace-dev /bin/bash    #  执行该容器
 ```
 
-## 二、
-
-
 
 
 -------------------  
- End
+[End](#head)
 {:.warning}  
+
 
 
 

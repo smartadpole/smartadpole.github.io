@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 Pytorch 入门"
+title:  "「DLFramework」 Pytorch 入门"
 date:   2019-01-17 14:00:40 +0800
 key: pytorch-foundation-20190117
 aside:
@@ -8,11 +8,10 @@ aside:
 tags: 资源
 categories: [dl_frameworks, pytorch]
 ---
+<span id='head'></span>  
 
->   
+<!--more-->   
 
-
-## 一、 安装  
-
-
-## 二、
+-------------------  
+[End](#head)
+{:.warning}  

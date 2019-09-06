@@ -62,7 +62,7 @@ SqueezeNet
 Xception     
 
 1. [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](http://cn.arxiv.org/abs/1704.04861)    
-CVPR 2017 *2017-04-17* [paper](https://arxiv.org/abs/1704.04861) | [ncnn](https://github.com/Revo-Future/ncnn_mobileNet)-[Blog](https://blog.csdn.net/computerme/article/details/77876633)      
+CVPR 2017 *2017-04-17* [paper](https://arxiv.org/abs/1704.04861) | [ncnn](https://github.com/Revo-Future/ncnn_mobileNet)-[Blog](https://blog.csdn.net/computerme/article/details/77876633) | [caffe](https://github.com/shicai/MobileNet-Caffe)      
 MobileNet     
 
 1. [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](http://cn.arxiv.org/abs/1707.01083)     
@@ -74,7 +74,7 @@ ICCV 2017 *2017-07-10* 微软 [paper](https://arxiv.org/abs/1707.02725)
 IGCV     
 
 1. [MobileNetV2: Inverted Residuals and Linear Bottlenecks](http://cn.arxiv.org/abs/1801.04381)     
-*2018-01-13* [paper](https://arxiv.org/abs/1801.04381) | [mxnet](https://github.com/liangfu/mxnet-mobilenet-v2)    
+*2018-01-13* [paper](https://arxiv.org/abs/1801.04381) | [mxnet](https://github.com/liangfu/mxnet-mobilenet-v2) | [caffe](https://github.com/shicai/MobileNet-Caffe)    
 MobileNetV2      
 
 1. [IGCV2: Interleaved Structured Sparse Convolutional Neural Networks](http://cn.arxiv.org/abs/1804.06202)     

@@ -33,3 +33,5 @@ category: [video, video_retrieval]
 
 
 # 附录
+## A 参考资料
+1. [局部敏感哈希(Locality-Sensitive Hashing, LSH)](https://www.cnblogs.com/wmx24/p/10209315.html)    

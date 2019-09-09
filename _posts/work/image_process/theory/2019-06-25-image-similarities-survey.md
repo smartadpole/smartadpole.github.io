@@ -81,3 +81,5 @@ $$
 1. wangyaning. OpenCV进行图像相似度对比的几种办法[EB/OL]. <https://www.cnblogs.com/wangyaning/p/7854046.html>. 2017-11-17/2019-06-26.  
 1. [移动端图像相似度算法选型](https://www.jiqizhixin.com/articles/2018-10-24-14)    
 1. [关于计算两张图像相似度,用深度学习去做,有什么好的方法与建议](https://www.zhihu.com/question/319373907)      
+1. [Python Numpy计算各类距离](https://blog.csdn.net/qq_19707521/article/details/78479532)    
+1. [余弦距离、欧氏距离和杰卡德相似性度量的对比分析](https://www.cnblogs.com/chaosimple/p/3160839.html)    

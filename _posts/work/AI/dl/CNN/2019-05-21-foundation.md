@@ -12,6 +12,8 @@ tags: 资源
 <!--more-->
 
 # 1 综述
+1. [What Do We Understand About Convolutional Networks?](http://cn.arxiv.org/abs/1803.08834)    
+*2019-09-09* [paper](https://arxiv.org/abs/1803.08834)      
 
 # 2 理论
 1. [Notes on Convolutional Neural Networks](http://cogprints.org/5869/1/cnn_tutorial.pdf)   

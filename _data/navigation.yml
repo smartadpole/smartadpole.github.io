@@ -375,10 +375,15 @@ DLFramework:
         url:    /assets/category/work/AI/dl_framework/pytorch.html
       - title:  Tensoflow
         url:    /assets/category/work/AI/dl_framework/tensorflow.html
-  - title:      移动端推理
+
+
+  - title:      服务端推理
     children:
       - title:  TensorRT
         url:    /assets/category/work/AI/dl_framework/tensorrt.html
+
+  - title:      移动端推理
+    children:
       - title:  mace
         url:    /assets/category/work/AI/dl_framework/mace.html
       - title:  ncnn
@@ -390,10 +395,15 @@ DLFramework:
       - title:  Paddle-Lite
         url:    /assets/category/work/AI/dl_framework/paddle_lite.html
 
-  - title:      中转框架
+  - title:      模型表示
     children:
       - title:  ONNX
         url:    /assets/category/work/AI/dl_framework/onnx.html
+      - title:  TVM & NNVM
+        url:    /assets/category/work/AI/dl_framework/tvm.html
+      - title:  NNEF
+        url:    /assets/category/work/AI/dl_framework/nnef.html
+
   - title:      辅助工具
     children:
       - title:  标注工具

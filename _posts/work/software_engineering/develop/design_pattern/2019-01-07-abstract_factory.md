@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「设计模式」抽象工厂"
+title:  "「设计模式」 抽象工厂"
 date:   2019-01-07 8:06:40 +0800
 key: abstract-factory-20190107
 aside:
   toc: true
-category: [SoftwareEngineering, DesignPattern]
+category: [software, design_pattern]
 ---
 
 

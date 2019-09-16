@@ -5,7 +5,6 @@ date:   2019-02-12 16:00:40 +0800
 key: tensorrt-foundation-20190212
 aside:
   toc: true
-tags: 资源
 categories: [dl_frameworks, tensorrt]
 ---
 <span id='head'></span>  

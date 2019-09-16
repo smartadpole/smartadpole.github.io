@@ -54,7 +54,7 @@ docs-en:
       - title:  面向对象程序设计
         url:    /assets/category/work/software/develop/oop.html
       - title:  并行编程
-        url:    /assets/category/work/software/develop/parallel_programming.html
+        url:    /assets/category/work/software/develop/parallel.html
       - title:  设计模式
         url:    /assets/category/work/software/develop/design_pattern.html
       - title:  测试驱动开发
@@ -101,6 +101,8 @@ docs-en:
         url:    /assets/category/work/audio/audio.html
       - title:  视频分析
         url:    /assets/category/work/video/video.html
+      - title:  商业案例
+        url:    /assets/category/work/project/project.html
 
   - title:      行进
     children:
@@ -373,7 +375,7 @@ DLFramework:
         url:    /assets/category/work/AI/dl_framework/pytorch.html
       - title:  Tensoflow
         url:    /assets/category/work/AI/dl_framework/tensorflow.html
-  - title:      推理框架
+  - title:      移动端推理
     children:
       - title:  TensorRT
         url:    /assets/category/work/AI/dl_framework/tensorrt.html
@@ -381,6 +383,13 @@ DLFramework:
         url:    /assets/category/work/AI/dl_framework/mace.html
       - title:  ncnn
         url:    /assets/category/work/AI/dl_framework/ncnn.html
+      - title:  PPL
+        url:    /assets/category/work/AI/dl_framework/ppl.html
+      - title:  MNN
+        url:    /assets/category/work/AI/dl_framework/mnn.html
+      - title:  Paddle-Lite
+        url:    /assets/category/work/AI/dl_framework/paddle_lite.html
+
   - title:      中转框架
     children:
       - title:  ONNX
@@ -1437,3 +1446,36 @@ OpenCV:
         url:    /assets/category/work/image_process/opencv/ml.html
       - title:  cuda
         url:    /assets/category/work/image_process/opencv/cuda.html
+
+PROJECT:
+  - title:
+    children:
+      - title:  上一层
+        url:    /index.html
+
+  - title:	图像
+    children:
+      - title:  Vision Seed
+        url:    /assets/category/work/project/vision_seed.html
+
+  - title:	视频
+    children:
+      - title:  Video DNA
+        url:    /assets/category/work/project/video_dna.html
+
+  - title:	语音
+
+PARALLEL:
+  - title:
+    children:
+      - title:  上一层
+        url:    /index.html
+  - title:
+    children:
+      - title:  cuda
+        url:    /assets/category/work/software/develop/parallel/cuda.html
+      - title:  Vulkan
+        url:    /assets/category/work/software/develop/parallel/vulkan.html
+      - title:  OpenMP
+        url:    /assets/category/work/software/develop/parallel/openmp.html
+

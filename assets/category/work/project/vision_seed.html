@@ -1,18 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       Software Test
-    zh:       软件测试
-    zh-Hans:  软件测试
-    zh-Hant:  软件测试
+    en:       Vision Seed
+    zh:       Vision Seed
+    zh-Hans:  Vision Seed
+    zh-Hant:  Vision Seed
 sidebar:
-    nav: docs-en
+    nav: PROJECT
 ---
-
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "sf_test" %}
+        {% if cat[0] == "vision_seed" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

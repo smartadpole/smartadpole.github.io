@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "单例模式"
+title:  "「设计模式」 单例模式"
 date:   2019-01-07 8:06:40 +0800
 key: singleton-20190107
 aside:
   toc: true
-category: [SoftwareEngineering, DesignPattern]
+category: [software, design_pattern]
 ---
 
 单例模式 和 MONOSTATE
@@ -14,7 +14,7 @@ category: [SoftwareEngineering, DesignPattern]
 
 
 
- 
+
 
 class CSingleton
 

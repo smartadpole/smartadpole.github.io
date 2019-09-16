@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Software Test
-    zh:       软件测试
-    zh-Hans:  软件测试
-    zh-Hant:  软件测试
+    en:       Parallel Programming
+    zh:       并行编程
+    zh-Hans:  并行编程
+    zh-Hant:  并行编程
 sidebar:
     nav: docs-en
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "sf_test" %}
+        {% if cat[0] == "parallel" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

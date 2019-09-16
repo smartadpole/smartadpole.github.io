@@ -1,12 +1,12 @@
 ---
 layout: article
-title:  "设计模式概览"
+title:  "「设计模式」 概览"
 date:   2019-01-07 8:00:40 +0800
 key: design-pattern-foundation-20190107
 aside:
   toc: true
 tags: 资源
-category: [SoftwareEngineering, DesignPattern]
+category: [software, design_pattern]
 ---
 
 ## 一、 学习目标

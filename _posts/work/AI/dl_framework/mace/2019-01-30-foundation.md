@@ -5,7 +5,6 @@ date:   2019-01-30 15:00:40 +0800
 key: mace-foundation-20190130
 aside:
   toc: true
-tags: 资源
 categories: [dl_frameworks, mace]
 ---
 <span id='head'></span>  

@@ -2,7 +2,7 @@
 layout: article
 title:  "「DLFramework」 caffe2NCNN: 分类网络"
 date:   2019-09-05 10:00:40 +0800
-key: mace-foundation-20190905
+key: ncnn-foundation-20190905
 aside:
   toc: true
 categories: [dl_frameworks, ncnn]

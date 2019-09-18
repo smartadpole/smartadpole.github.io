@@ -292,6 +292,10 @@ CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.o
 1. [FIVR: Fine-grained Incident Video Retrieval](https://arxiv.org/abs/1809.04094)    
 *2018-09-11* [paper](https://arxiv.org/abs/1809.04094)    
 
+1. [Use What You Have: Video Retrieval Using Representations From Collaborative Experts](http://cn.arxiv.org/abs/1907.13487)    
+BMVC 2019 *2019-07-31* [paper](https://arxiv.org/abs/1907.13487) | [pytorch](https://github.com/albanie/collaborative-experts)-official       
+
+
 ## 4.5 跨模态检索
 `multi-modal hashing` · `cross-modal retrieval`；    
 `siam-network`；    
@@ -333,7 +337,7 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 ### 4.5.4 音频
 
 1. [Content-Based Video-Music Retrieval Using Soft Intra-Modal Structure Constraint](http://cn.arxiv.org/abs/1704.06761)  
-*2017-04-22* [paper](https://arxiv.org/abs/1704.06761) | [示例](https://youtu.be/ZyINqDMo3Fg) | [tensorflow](https://github.com/csehong/VM-NET)-offical    
+*2017-04-22* [paper](https://arxiv.org/abs/1704.06761) | [示例](https://youtu.be/ZyINqDMo3Fg) | [tensorflow](https://github.com/csehong/VM-NET)-official    
 
 
 1. [Cross-modal Embeddings for Video and Audio Retrieval](http://cn.arxiv.org/abs/1801.02200)  
@@ -356,7 +360,7 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 1. [InVID H2020 Project](https://zenodo.org/communities/invid-h2020/?page=1&size=20)    
 1. [Multiple feature hashing for real-time large scale near-duplicate video retrieval](https://scite.ai/reports/multiple-feature-hashing-for-real-time-JX3G1Y)-引用文献     
 1. [scinapse](https://scinapse.io/papers/2165798132)    
-
+1. [video-retrieval](https://github.com/topics/video-retrieval)-github    
 
 ## B 报告
 1. ICIP 2017 [Near-Duplicate Video Detection Exploiting Noise Residual Traces](https://pdfs.semanticscholar.org/e604/9608e35f9633bb3c2cf50896f2d26d29a9cd.pdf)    

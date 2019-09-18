@@ -23,6 +23,12 @@ tags: 资源
 # 2 理论
 
 # 3 视频描述
+1. [End-to-end Concept Word Detection for Video Captioning, Retrieval, and Question Answering](http://cn.arxiv.org/abs/1610.02947)     
+CVPR 2017 *2016-10-10* [paper](https://arxiv.org/abs/1610.02947) | [honme](https://yj-yu.github.io/home/)        
+
+1. [Learning from Video and Text via Large-Scale Discriminative Clustering](http://cn.arxiv.org/abs/1707.09074)    
+ICCV 2017 *2017-07-27* [paper](https://arxiv.org/abs/1707.09074) | [matlab](https://github.com/antoine77340/iccv17learning)        
+
 1. [VATEX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research](http://cn.arxiv.org/abs/1904.03493)    
 ICCV 2019 oral *2019-04-06* [paper](https://arxiv.org/abs/1904.03493)     
 

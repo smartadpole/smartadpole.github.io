@@ -5,12 +5,12 @@ date:   2019-01-30 15:00:40 +0800
 key: ncnn-foundation-20190130
 aside:
   toc: true
-categories: [dl_frameworks, ncnn, worktool]
+categories: [dl_frameworks, ncnn]
 ---
 <span id='head'></span>  
->腾讯 2017 年 7 月     开源的面向移动端的深度学习框架    
-github:<https://github.com/Tencent/ncnn>  
-document:<https://github.com/Tencent/ncnn/wiki>  
+>腾讯 2017 年 7 月 开源的面向移动端的深度学习框架    
+github: <https://github.com/Tencent/ncnn>  
+document: <https://github.com/Tencent/ncnn/wiki>  
 支持语言: C++      
 支持框架: mxnet, caffe, onnx(pytorch)     
 支持平台: 跨平台 ios/linux/windows，主要支持 Android；     

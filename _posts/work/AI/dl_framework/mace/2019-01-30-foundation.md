@@ -9,9 +9,9 @@ categories: [dl_frameworks, mace]
 ---
 <span id='head'></span>  
 > mace 是 2018年4月小米开源的移动端深度学习框架；  
-github:<https://github.com/XiaoMi/mace>  
-document:<https://mace.readthedocs.io/en/latest/>  
-model zoo:<https://github.com/XiaoMi/mace-models>  
+github: <https://github.com/XiaoMi/mace>  
+document: <https://mace.readthedocs.io/en/latest/>  
+model zoo: <https://github.com/XiaoMi/mace-models>  
 
 
 <!--more-->   
@@ -77,3 +77,4 @@ N: 无法认证来自该源的数据，所以使用它会带`
 
 ### B 参考资料
 1. 十岁的小男孩. MACE(1)-----环境搭建[EB/OL]. <https://www.cnblogs.com/missidiot/p/9480033.html>. -/2019-01-30.  
+1. Amusi. 小米开源自研移动端深度学习框架MACE[EB/OL]. <https://zhuanlan.zhihu.com/p/38712703>. 2018-06-30/2019-09-18.     

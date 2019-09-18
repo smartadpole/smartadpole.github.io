@@ -75,3 +75,7 @@ $\bullet \bullet$
 -------------------  
 [End](#head)
 {:.warning}  
+
+# 附录
+## A 参考资料
+1. EwenWanW. 神经网络压缩 剪枝 量化 嵌入式计算优化NCNN[EB/OL]. <https://blog.csdn.net/xiaoxiaowenqiang/article/details/80946522>. 2018-07-06/2019-09-18.     

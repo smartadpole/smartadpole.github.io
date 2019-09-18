@@ -381,6 +381,8 @@ DLFramework:
     children:
       - title:  TensorRT
         url:    /assets/category/work/AI/dl_framework/tensorrt.html
+      - title:  ZQCNN
+        url:    /assets/category/work/AI/dl_framework/zqcnn.html
 
   - title:      移动端推理
     children:
@@ -392,8 +394,21 @@ DLFramework:
         url:    /assets/category/work/AI/dl_framework/ppl.html
       - title:  MNN
         url:    /assets/category/work/AI/dl_framework/mnn.html
+      - title:  TEngine
+        url:    /assets/category/work/AI/dl_framework/tengine.html
+      - title:  TensorFlow Lite
+        url:    /assets/category/work/AI/dl_framework/tf_lite.html
+      - title:  Core ML
+        url:    /assets/category/work/AI/dl_framework/core_ml.html
+      - title:  CaffePresso
+        url:    /assets/category/work/AI/dl_framework/caffepresso.html
       - title:  Paddle-Lite
         url:    /assets/category/work/AI/dl_framework/paddle_lite.html
+
+  - title:      模型压缩
+    children:
+      - title:  BNN
+        url:    /assets/category/work/AI/dl_framework/bnn.html
 
   - title:      模型表示
     children:

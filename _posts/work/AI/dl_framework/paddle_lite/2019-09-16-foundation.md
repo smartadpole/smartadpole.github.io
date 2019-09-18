@@ -5,7 +5,7 @@ date:   2019-09-16 15:00:40 +0800
 key: paddl-foundation-20190916
 aside:
   toc: true
-categories: [dl_frameworks, paddle_lite, worktool]
+categories: [dl_frameworks, paddle_lite]
 ---
 <span id='head'></span>  
 >百度开源；    

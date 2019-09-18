@@ -6,7 +6,7 @@ key: caffe-docker-abc-20181027
 aside:
   toc: true
 tags: 开发环境
-categories: [dl_frameworks, caffe, worktool]
+categories: [dl_frameworks, caffe]
 ---
 <span id='head'></span>  
 

@@ -18,7 +18,7 @@ python API: <https://docs.nvidia.com/deeplearning/sdk/tensorrt-api/python_api/>
 <!--more-->   
 
 # 0 背景
-CNN 的效率一直备受关注，主要思路是剪枝和量化； TnesorRT 就是进行量化，将FP32位权值数据优化为 FP16 或者 INT8，而推理精度不发生明显的降低；     
+CNN 的效率一直备受关注，主要思路是剪枝和量化； TnesorRT 就是进行量化，将 FP32 位权值数据优化为 FP16 或者 INT8，而推理精度不发生明显的降低；     
 
 1. 只支持推理，不支持训练；
 2. 底层针对NVIDIA显卡做了多方面的优化，不仅仅是量化，可以和 CUDA CODEC SDK 结合使用，也就是另一个开发包 DeepStream；
@@ -26,7 +26,6 @@ CNN 的效率一直备受关注，主要思路是剪枝和量化； TnesorRT 就
 
 # 1 安装  
 ## 1.1 Linux 环境
-参考[^1]' [^2]    
 [安装报错解决方案](#error_install)    
 1）准备  
 - 安装 cuda；（建议用 deb 安装）  
@@ -121,13 +120,12 @@ libnvinfer.so, libnvToolsExt.so, libnvinfer_plugin.a, libnvinfer_plugin.so.4, li
 ```
 
 ## B 推荐资料
-1. arleyzhang. TensorRT(5)-INT8校准原理. <https://arleyzhang.github.io/articles/923e2c40/>. 2018年09月03.   
+1. arleyzhang. TensorRT(5)-INT8校准原理[EB/OL]. <https://arleyzhang.github.io/articles/923e2c40/>. 2018年09月03.   
+1.  NVIDIA. TensorRT Installation Guide[EB/OL]. <https://docs.nvidia.com/deeplearning/sdk/tensorrt-archived/tensorrt_401/tensorrt-install-guide/index.html#installing-debian>. -/2019-02-12.   
+1.  arleyzhang. TensorRT(1)-介绍-使用-安装[EB/OL]. <https://arleyzhang.github.io/articles/7f4b25ce/>. 2018-08-31/2019-02-12.   
+1. linolzhang. TensorRT深度学习推理框架介绍[EB/OL]. <https://blog.csdn.net/linolzhang/article/details/79079863>. 2018-01-16/2019-09-18.     
 
-## C 参考资料
-[^1]:  NVIDIA. TensorRT Installation Guide[EB/OL]. <https://docs.nvidia.com/deeplearning/sdk/tensorrt-archived/tensorrt_401/tensorrt-install-guide/index.html#installing-debian>. -/2019-02-12.   
-[^2]:  arleyzhang. TensorRT(1)-介绍-使用-安装[EB/OL]. <https://arleyzhang.github.io/articles/7f4b25ce/>. 2018-08-31/2019-02-12.   
-
-## D 代码示例
+## C 代码示例
 <span id="caffe_convert">**1. 转换 caffe 模型**</span>     
 ```c++
 void caffeToGIEModel( const std::string& deployFile,    // name for caffe prototxt

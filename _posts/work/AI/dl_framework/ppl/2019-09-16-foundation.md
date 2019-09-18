@@ -5,7 +5,7 @@ date:   2019-09-16 16:00:40 +0800
 key: ppl-foundation-20190916
 aside:
   toc: true
-categories: [dl_frameworks, ppl, worktool]
+categories: [dl_frameworks, ppl]
 ---
 <span id='head'></span>  
 >商汤自研的闭源 DL 推理框架；     

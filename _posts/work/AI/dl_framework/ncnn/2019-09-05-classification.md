@@ -125,7 +125,7 @@ for (int j=0; j<out_flatterned.w; j++)
 ```
 # 4 某些使用技巧
 
-Extractor 有个多线程加速的开关，设置线程数能加快计算
+## 4.1 Extractor 有个多线程加速的开关，设置线程数能加快计算
 ```
 ex.set_num_threads(4);
 ```
@@ -151,6 +151,9 @@ net.load_model(fp);
 fclose(fp);
 ```
 
+## 4.2 取特定层的值
+打开 param 文件，第二列就是 Input，每一层的 Input 名称就是上一层的输出名称；   
+
 
 -------------------  
 [End](#head)
@@ -169,4 +172,4 @@ fclose(fp);
 | mobileNetV3 |  |  |  |
 
 
-*[model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)*
+*[caffe model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)*

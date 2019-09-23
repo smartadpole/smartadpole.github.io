@@ -325,6 +325,9 @@ ECCV 2018 *2018* [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Z
 **PRNet**:发布了一个包含 250k 图的中国车牌数据集 CCPD，每个标注包含 1 个 box，4 个定位点，及文字 GT；   
 对不同尺度的特征图进行 ROIPooling，拼接后进行识别；只是一个 BaseLine 方案；     
 
+# 7 数据生成
+1. [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator)     
+
 
 -------------------  
 [End](#head)
@@ -345,6 +348,9 @@ SSD 做的检测，然后自适应与之分割，最后进行识别；
 1. [场景文本位置感知与识别的论文资源汇总](https://github.com/whitelok/image-text-localization-recognition/blob/master/README.zh-cn.yearwise.md)    
 1. [52CV-文字识别](https://www.52cv.net/?cat=18)    
 1. [52CV-文本检测](https://www.52cv.net/?cat=37)    
+1. [Scene Text Recognition Resources](https://github.com/HCIILAB/Scene-Text-Recognition)     
+1. [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)     
+现有方法的对比；      
 
 
 ## C 开源代码
@@ -372,9 +378,9 @@ SSD 做的检测，然后自适应与之分割，最后进行识别；
 
 ## D 数据集
 
-| 名称 | 类型 | 数量(训练/测试) | 说明 | 发布日期 |
+| 名称 | 类型 | 数量(训练/验证/测试) | 说明 | 发布日期 |
 | --- | --- | --- | --- | --- |
-| [MNIST](http://yann.lecun.com/exdb/mnist/ ) | 手写数字识别 |  | 入门级 |  |
+| [MNIST](http://yann.lecun.com/exdb/mnist/) | 手写数字识别 |  | 入门级 |  |
 | [USPS](http://www.gaussianprocess.org/gpml/data/) | 手写数字识别 | 10×4696<br>10×4696 |  |   |
 | [UCI](http://archive.ics.uci.edu/ml/datasets/Letter+Recognition) | 字母识别 | 20000 | 包含 20 中不同字体；二值图像； | 1991-01-01 |
 | ICDAR 2011<br>[Born-Digital Image (Web and Email)](http://www.cvc.uab.es/icdar2011competition/) | 文档分析 |  |  | 2011-06 |
@@ -382,8 +388,8 @@ SSD 做的检测，然后自适应与之分割，最后进行识别；
 | ICDAR 2013<br>[Born-Digital Image (Web and Email)](http://dagdata.cvc.uab.es/icdar2013competition/) | 文档分析 |  |  | 2013-01 |
 | ICDAR 2013<br>[Scene Images](http://dag.cvc.uab.es/icdar2013competition/?ch=2&com=downloads) | 检测+识别 |  |  | 2013-01 |
 | ICDAR 2013<br>[videos](http://dag.cvc.uab.es/icdar2013competition/?ch=3&com=downloads) | 文档分析 |  |  | 2013-01 |
-| []() |  |  |  |  |
-| []() |  |  |  |  |
+| [SVHN](http://ufldl.stanford.edu/housenumbers/) | 自然场景·数字·检测、识别 | 73,257/26,032 | 额外有 53,1131 张难度较小的样本 | 2011 |
+| [COCO-Text](https://vision.cornell.edu/se3/coco-text-2/) | 43,686/10,000/10,000 | 检测+识别 | 打印体、手写体；清晰的、模糊的；英文、非英文 | 2016 |
 | []() |  |  |  |  |
 
 ## E 报告

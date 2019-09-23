@@ -83,7 +83,11 @@ MICCAI 2019 *2019-07-01* [paper](https://arxiv.org/abs/1907.00641)
 1. [Semi-Supervised Segmentation of Salt Bodies in Seismic Images using an Ensemble of Convolutional Neural Networks](http://cn.arxiv.org/abs/1904.04445)   
 *2019-04-09* [paper](https://arxiv.org/abs/1904.04445) | [pytorch](https://github.com/ybabakhin/kaggle_salt_bes_phalanx)-offical      
 
-## 1.6 其他
+## 1.6 轮廓提取
+1. [Semantic Contours from Inverse Detectors](http://home.bharathh.info/pubs/pdfs/BharathICCV2011.pdf)   
+ICCV 2011 *2011* [paper](http://home.bharathh.info/pubs/pdfs/BharathICCV2011.pdf)     
+
+## 1.7 其他
 1. [ACNet: Attention Based Network to Exploit Complementary Features for RGBD Semantic Segmentation](https://arxiv.org/abs/1905.10089)   
 ICIP 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10089) | [pytorch](https://github.com/anheidelonghu/ACNet)    
 

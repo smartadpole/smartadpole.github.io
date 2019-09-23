@@ -431,3 +431,12 @@ https://mp.weixin.qq.com/s/LGj_2Zw6XA_EfZb8Rvv7bg)
 [目标检测研究综述+LocNet](https://zhuanlan.zhihu.com/p/33058849)   
 [anchor 机制](https://mp.weixin.qq.com/s/oW4vUx7fXRhMRKh7QSQ5TA)，[yolo2 中的trick](https://mp.weixin.qq.com/s/us0VbQgu8YLNCAU5i_5QuA)   
 [NMS](https://mp.weixin.qq.com/s/HeOOHyeeJvAuJr3iNm18Ow)   
+
+## C 数据集
+
+| 名称 | 类型 | 数量(训练/验证/测试) | 说明 | 发布日期 |
+| --- | --- | --- | --- | --- |
+| [COCO](http://cocodataset.org/) | 通用目标检测 |  | 微软 |  |
+| []() |  |  |  |  |
+
+1. [COCO数据集提取自己需要的类转VOC](http://www.manongjc.com/article/28607.html)      

@@ -12,24 +12,24 @@ tags: 资源
 <!--more-->
 
 # 1 综述
-1. [What Do We Understand About Convolutional Networks?](http://cn.arxiv.org/abs/1803.08834)    
-*2019-09-09* [paper](https://arxiv.org/abs/1803.08834)      
 
-# 2 理论
 1. [Notes on Convolutional Neural Networks](http://cogprints.org/5869/1/cnn_tutorial.pdf)   
 *2006-11-22* [Paper](http://cogprints.org/5869/1/cnn_tutorial.pdf) | [亦轩Dhc](https://www.cnblogs.com/daihengchen/p/5646526.html)   
 $\bullet \bullet$   
-主要讲了 CNN 前向和反向传播，包括卷积层和池化的反向传播的推导的讲解；    
+主要讲了 CNN 前向和反向传播，包括卷积层和池化的反向传播的推导的讲解；        
 
-1. [Optimizing Shallow Networks for Binary Classification](http://cn.arxiv.org/abs/1905.10161)   
-*2019-05-24* [paper](https://arxiv.org/abs/1905.10161)   
+1. [What does it mean to understand a neural network?](http://cn.arxiv.org/abs/1907.06374)     
+*2019-07-15* DeepMind, 宾夕法尼亚 [paper](https://arxiv.org/abs/1907.06374)    
 
-1. [NICO: A Dataset Towards Non-I.I.D. Image Classification](http://cn.arxiv.org/abs/1906.02899)   
-*2019-06-07* [paper](https://arxiv.org/abs/1906.02899)    
+1. [What Do We Understand About Convolutional Networks?](http://cn.arxiv.org/abs/1803.08834)    
+*2019-09-09* [paper](https://arxiv.org/abs/1803.08834)  
 
 
-# 2 二维
-## 2.1 经典网络
+# 2 理论
+
+
+# 3 二维
+## 3.1 经典网络
 1. [ImageNet classification with deep convolutional neural networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)     
 *2012* [paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | [tensorflow](https://github.com/Abhisek-/AlexNet)    
 AlexNet；     
@@ -50,7 +50,7 @@ ResNet;
 *2017-09-05* [Paper](https://arxiv.org/abs/1709.01507)   
 SENet   
 
-## 2.2 轻量级网络
+## 3.2 轻量级网络
 1. [Aggregated Residual Transformations for Deep Neural Networks](http://cn.arxiv.org/abs/1611.05431)     
 CVPR 2017 *2016-11-16* [paper](https://arxiv.org/abs/1611.05431)     
 ResNeXt;     
@@ -98,30 +98,24 @@ MobileNetV3:
 1. [MoGA: Searching Beyond MobileNetV3](http://cn.arxiv.org/abs/1908.01314)     
 *2019-08-04* [paper](https://arxiv.org/abs/1908.01314) | [pytorch](https://github.com/xiaomi-automl/MoGA)-official          
 
-## 2.3 提升泛化能力
+## 3.3 提升泛化能力
 1. [Learning to Find Correlated Features by Maximizing Information Flow in Convolutional Neural Networks](http://cn.arxiv.org/abs/1907.00348)   
 *2019-06-30*  [paper](https://arxiv.org/abs/1907.00348)    
 设计了新的 loss 来指导网络学习更多的相关特征，以应对未见过的数据；    
 
 
-## 2.4 其他
+## 3.4 其他
 1.[Invertible Residual Networks](https://arxiv.org/abs/1811.00995)   
 ICML 2019 *2018-11-02* [paper](https://arxiv.org/abs/1811.00995)  
 
 
-# 3 三维
+# 4 三维
 1. [3D Dense Separated Convolution Module for Volumetric Image Analysis](http://cn.arxiv.org/abs/1905.08608)   
 *2019-05-14* [paper](https://arxiv.org/abs/1905.08608)   
 
 1. [A review on deep learning techniques for 3D sensed data classification](http://cn.arxiv.org/abs/1907.04444)    
 *2019-07-09* [paper](https://arxiv.org/abs/1907.04444)    
 
-
-
-# 6 应用
-## 6.1 针对嵌入式设备提速
-1. [Closing the Accuracy Gap in an Event-Based Visual Recognition Task](http://cn.arxiv.org/abs/1906.08859)    
-*2019-05-06* [paper](https://arxiv.org/abs/1906.08859)    
 
 -------------------  
 [End](#head)

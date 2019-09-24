@@ -58,7 +58,11 @@ $\bullet \bullet$
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05640)     
 
 
-# 8 其他
+# 8 嵌入式加速
+1. [Closing the Accuracy Gap in an Event-Based Visual Recognition Task](http://cn.arxiv.org/abs/1906.08859)    
+*2019-05-06* [paper](https://arxiv.org/abs/1906.08859)    
+
+# 9 其他
 1. [DARC: Differentiable ARchitecture Compression](http://cn.arxiv.org/abs/1905.08170)   
 *2019-05-20* [paper](https://arxiv.org/abs/1905.08170)   
 
@@ -71,6 +75,7 @@ $\bullet \bullet$
 1. [And the Bit Goes Down: Revisiting the Quantization of Neural Networks](http://cn.arxiv.org/abs/1907.05686)   
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05686)    
 对 resnet 系列网络进行了压缩；    
+
 
 -------------------  
 [End](#head)

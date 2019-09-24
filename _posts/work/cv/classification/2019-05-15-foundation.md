@@ -15,6 +15,13 @@ tags: 资源
 
 
 # 2 理论
+
+1. [Optimizing Shallow Networks for Binary Classification](http://cn.arxiv.org/abs/1905.10161)   
+*2019-05-24* [paper](https://arxiv.org/abs/1905.10161)   
+
+1. [NICO: A Dataset Towards Non-I.I.D. Image Classification](http://cn.arxiv.org/abs/1906.02899)   
+*2019-06-07* [paper](https://arxiv.org/abs/1906.02899)    
+
 1. [Transferability and Hardness of Supervised Classification Tasks](http://cn.arxiv.org/abs/1908.08142)    
 ICCV 2019 *2019-08-21* [paper](https://arxiv.org/abs/1908.08142)    
 无需训练，使用条件熵来衡量两个任务之间迁移的难易程度；     

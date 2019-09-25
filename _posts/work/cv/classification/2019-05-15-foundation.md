@@ -99,6 +99,7 @@ CVPR 2009 *2009-12* [ppt](http://www.cs.bilkent.edu.tr/~cansin/projects/cs554-vi
 1. [Tiny-Inception-ResNet-v2: Using Deep Learning for Eliminating Bonded Labors of Brick Kilns in South Asia](http://cn.arxiv.org/abs/1907.05552)   
 CVPR 2019 *2019-07-12* [paper](https://arxiv.org/abs/1907.05552)   
 
+# 7 [训练](/dl/foundation/2019/05/20/foundation.html#311-分类)
 
 
 -------------------  

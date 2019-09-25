@@ -75,17 +75,7 @@ ECCV 2018 *2018.7* [Paper](https://arxiv.org/abs/1807.11590)
 *2019-01* 香港中文大学-商汤联合实验室&Amazon Rekognition&南洋理工大学 [Paper](https://arxiv.org/abs/1901.03278) | [mmdetection](https://github.com/open-mmlab/mmdetection)   
 **Guided Anchoring**:​融合Anchor与关键点   
 
-## 4.3 技巧
-
-1. [Bag of Freebies for Training Object Detection Neural Networks]()  
-[2019.2] GluonCV 检测调参技巧​
-http://cn.arxiv.org/abs/1902.04103
-https://github.com/dmlc/gluon-cv
-https://mp.weixin.qq.com/s/pkFcmm15gnuRJtngFX7f0w
-
-1. [Training Object Detectors With Noisy Data](https://arxiv.org/abs/1905.07202)   
-*2019-05-17* [paper](https://arxiv.org/abs/1905.07202)   
-教师网络处理噪声图像；   
+## 4.3 [训练](/dl/foundation/2019/05/20/foundation.html#312-检测)
 
 ## 4.4 单阶段
 ### 4.4.1 SSD 扩展

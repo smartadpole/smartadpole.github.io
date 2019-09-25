@@ -85,16 +85,33 @@ IJCAI 2017 *2017* [paper](https://www.ijcai.org/proceedings/2017/0486.pdf)
 
 # 3 实践
 ## 3.1 训练
-1. [Large Scale Distributed Deep Networks](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
-NIPS 2012 *2012* [paper](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
-大规模分布式训练；   
+### 3.1.1 分类
 
 1. [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](http://cn.arxiv.org/abs/1510.03820)    
 *2015-10-13* [paper](https://arxiv.org/abs/1510.03820)    
+$\bullet \bullet \bullet \bullet \bullet$   
 
 
 1. [Accelerated Training for Massive Classification via Dynamic Class Selection](http://cn.arxiv.org/abs/1801.01687)   
 *2018-01-05* [paper](https://arxiv.org/abs/1801.01687)   
+
+### 3.1.2 检测
+
+1. [Bag of Freebies for Training Object Detection Neural Networks](http://cn.arxiv.org/abs/1902.04103)  
+*2019-02-11* [paper](https://arxiv.org/abs/1902.04103)      
+GluonCV 检测调参技巧​；    
+
+
+1. [Training Object Detectors With Noisy Data](https://arxiv.org/abs/1905.07202)   
+*2019-05-17* [paper](https://arxiv.org/abs/1905.07202)   
+教师网络处理噪声图像；   
+
+### 3.1.3 其他
+
+1. [Large Scale Distributed Deep Networks](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
+NIPS 2012 *2012* [paper](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
+大规模分布式训练；   
+
 
 1. [Joint Training of Neural Network Ensembles](http://cn.arxiv.org/abs/1902.04422)    
 *2019-02-12* [paper](https://arxiv.org/abs/1902.04422) | [pytorch](https://github.com/grey-area/modular-loss-experiments)    

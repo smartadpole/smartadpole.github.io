@@ -32,8 +32,8 @@ VOC2007
 
 注： 自己的数据可用标注工具 labelImg 等制作；    
 
-## 1.2 准备 map.prototxt
-类别标签文件；labelmap.prototxt，其类别数为目标数量 + 1（背景）；       
+## 1.2 准备标签
+类别标签 ID 文件，labelmap.prototxt，其类别数为目标数量 + 1（背景）；       
 ```shell
 item {
   name: "none_of_the_above"

@@ -378,19 +378,23 @@ SSD 做的检测，然后自适应与之分割，最后进行识别；
 
 ## D 数据集
 
-| 名称 | 类型 | 数量(训练/验证/测试) | 说明 | 发布日期 |
-| --- | --- | --- | --- | --- |
-| [MNIST](http://yann.lecun.com/exdb/mnist/) | 手写数字识别 |  | 入门级 |  |
-| [USPS](http://www.gaussianprocess.org/gpml/data/) | 手写数字识别 | 10×4696<br>10×4696 |  |   |
-| [UCI](http://archive.ics.uci.edu/ml/datasets/Letter+Recognition) | 字母识别 | 20000 | 包含 20 中不同字体；二值图像； | 1991-01-01 |
-| ICDAR 2011<br>[Born-Digital Image (Web and Email)](http://www.cvc.uab.es/icdar2011competition/) | 文档分析 |  |  | 2011-06 |
-| ICDAR 2011<br>[Scene Images](http://robustreading.opendfki.de/wiki/SceneText) | 检测+识别 |  |  | 2011-06 |
-| ICDAR 2013<br>[Born-Digital Image (Web and Email)](http://dagdata.cvc.uab.es/icdar2013competition/) | 文档分析 |  |  | 2013-01 |
-| ICDAR 2013<br>[Scene Images](http://dag.cvc.uab.es/icdar2013competition/?ch=2&com=downloads) | 检测+识别 |  |  | 2013-01 |
-| ICDAR 2013<br>[videos](http://dag.cvc.uab.es/icdar2013competition/?ch=3&com=downloads) | 文档分析 |  |  | 2013-01 |
-| [SVHN](http://ufldl.stanford.edu/housenumbers/) | 自然场景·数字·检测、识别 | 73,257/26,032 | 额外有 53,1131 张难度较小的样本 | 2011 |
-| [COCO-Text](https://vision.cornell.edu/se3/coco-text-2/) | 43,686/10,000/10,000 | 检测+识别 | 打印体、手写体；清晰的、模糊的；英文、非英文 | 2016 |
-| []() |  |  |  |  |
+| 名称 | 语言 | 特点 | 字符检测 | 单词检测 | 文本行检测 | 字符识别 | 单词识别 | 端到端 | 数量 | 训练 | 测试 | 大小(G) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [MNIST](http://yann.lecun.com/exdb/mnist/) | 数字 | 水平<br>手写 |  |  |  |  | $\checkmark$ |  |  |  |  |  |
+| [USPS](http://www.gaussianprocess.org/gpml/data/) | 数字 | 水平<br>手写 |  |  |  |  | $\checkmark$ |  |  |  |  |  |
+| [UCI](http://archive.ics.uci.edu/ml/datasets/Letter+Recognition)<br>1991 | 英文 |  |  |  | $\checkmark$ |  |  |  | 20000 |  |  |  |
+| ICDAR 2011<br>[Web](http://www.cvc.uab.es/icdar2011competition/) | 英文 |  |  | $\checkmark$ |  |  | $\checkmark$ | $\checkmark$ |  |  |  |  |
+| ICDAR 2011<br>[Scene](http://robustreading.opendfki.de/wiki/SceneText) |  |  |  |  |  |  |  |  |  |  |  |  |
+| ICDAR 2013<br>[Web](http://dagdata.cvc.uab.es/icdar2013competition/) | 英文 |  | $\checkmark$ | $\checkmark$ |  | $\checkmark$ | $\checkmark$ | $\checkmark$ |  |  |  |  |
+| ICDAR 2013<br>[Scene](http://dag.cvc.uab.es/icdar2013competition/?ch=2&com=downloads) |  |  |  |  |  |  |  |  |  |  |  |  |
+| ICDAR 2013<br>[videos](http://dag.cvc.uab.es/icdar2013competition/?ch=3&com=downloads) |  |  |  |  |  |  |  |  |  |  |  |  |
+| [SVHN](http://ufldl.stanford.edu/housenumbers/)<br>2011 | 数字 | 自然场景 | $\checkmark$ |  |  | $\checkmark$ |  |  |  |  33,402<br>（73,257） | 13,068<br>（26,032） |  |
+| [COCO-Text](https://vision.cornell.edu/se3/coco-text-2/)<br>2016 | 英文<br>字符？ | 打印<br>手写<br>水平 |  | $\checkmark$ |  |  | $\checkmark$ | $\checkmark$ |  | 43,686 | 20,000 |  |
+| [SynthText](http://www.robots.ox.ac.uk/~vgg/data/scenetext/)<br>[2016](https://hyper.ai/datasets/4917) | 英文 | 自然场景 | $\checkmark$ | $\checkmark$ | $\checkmark$ |  |  |  | 80万<br>（800万） |  |  | 40 |
+| []() |  |  |  |  |  |  |  |  |  |  |  |  |
+| []() |  |  |  |  |  |  |  |  |  |  |  |  |
+
+1. [文字检测与识别资料整理（数据库，代码，博客）【持续更新】](https://www.cnblogs.com/lillylin/p/6893500.html)    
 
 ## E 报告
 1. [OCR and Text Spotting](http://llcao.net/cu-deeplearning15/pdf/8OCR.pdf)    

@@ -177,6 +177,8 @@ Python:
         url:    /assets/category/work/software/grammer/python/stl.html
       - title:  第三方库
         url:    /assets/category/work/software/grammer/python/library3rd.html
+      - title:  爬虫
+        url:    /assets/category/work/software/grammer/python/spider.html
 
 
 DL:

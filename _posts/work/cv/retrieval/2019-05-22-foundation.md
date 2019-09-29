@@ -114,6 +114,7 @@ ECCV 2008 *2008* [paper](https://lear.inrialpes.fr/pubs/2008/JDS08/jegou_hewgc08
 1. Effective and efficient global context verification for image copy detection     
 *2017* OR-GCD 处理视觉词袋的量化误差；     
 
+
 #### 3.1.3.2 Fisher-Vector
 1. [Fisher kernels on visual vocabularies for image categorization](http://www.ee.oulu.fi/research/imag/courses/Vedaldi/2006-034.pdf)     
 CVPR 2007 *2007* [paper](http://www.ee.oulu.fi/research/imag/courses/Vedaldi/2006-034.pdf)    

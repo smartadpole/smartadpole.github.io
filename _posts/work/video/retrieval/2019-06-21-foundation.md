@@ -93,8 +93,8 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 ### 3.2.1 [帧特征](/cv/retrieval/2019/05/22/foundation.html#31-特征提取)
 
-### 3.2.2 视频特征
-#### 3.2.2.1 多帧融合
+### 3.2.2 深度视频特征
+### 3.2.3 多帧融合
 1. [Towards effective indexing for very large video sequence database](http://staff.itee.uq.edu.au/zxf/_papers/SIGMOD05.pdf)      
 对帧特征进行聚类；     
 
@@ -114,9 +114,11 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 *2009* [paper](http://net.pku.edu.cn/~cuibin/Papers/2009-TOIS-vedio.pdf)     
 使用 PCA 对多帧视频特征降维得到视频特征；       
 
-#### 3.2.2.2 DL
+1. [Real-time Large Scale Near-duplicate Web Video Retrieval](#RLDW_LBP_BOW)     
 
-#### 3.2.2.3 其他
+1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](#SEMANTIC_BOW)      
+
+### 3.2.4 其他
 1. [Submodular Video Hashing: A Unified Framework Towards Video Pooling and Indexing](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
 *2012* [paper](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
 
@@ -142,7 +144,32 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 1. [ Trading quality for time with nearest-neighbor search](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.38.5809&rep=rep1&type=pdf)     
 *2000* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.38.5809&rep=rep1&type=pdf)    
 
+1. [iDistance: An Adaptive B+-Tree Based Indexing Method for Nearest Neighbor Search](https://people.eng.unimelb.edu.au/zr/publications/Tods05_idistance.pdf)     
+*2007* [paper](https://people.eng.unimelb.edu.au/zr/publications/Tods05_idistance.pdf)     
+iDistance;     
+
+1. [Indexing High-Dimensional Data in Dual Distance Spaces: A Symmetrical Encoding Approach](https://openproceedings.org/2008/conf/edbt/ZhuangZLCY08.pdf)   
+*2008* [paper](https://openproceedings.org/2008/conf/edbt/ZhuangZLCY08.pdf)    
+
+1. Online Near-Duplicate Video Clip Detection and Retrieval: An Accurate and Fast System     
+*2009*     
+
+1. [Towards effective indexing for very large video sequence database](https://www.comp.nus.edu.sg/~ooibc/sigmod-video.pdf)     
+*2005* [paper](https://www.comp.nus.edu.sg/~ooibc/sigmod-video.pdf)      
+iDistance;    
+
 ### 3.3.3 Hash
+1. [A Posteriori Multi-Probe Locality Sensitive Hashing](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/p209-joly.pdf)     
+*2008* [paper](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/p209-joly.pdf)    
+LSH: 提升准确度；    
+
+1. [Quality and Efficiency in High Dimensional Nearest Neighbor Search](https://www.cse.ust.hk/~yike/sigmod09-lsb.pdf)    
+*2009* [paper](https://www.cse.ust.hk/~yike/sigmod09-lsb.pdf)    
+LSH: 改映射函数；    
+
+1. An Image-Based Approach to Video Copy Detection With Spatio-Temporal Post-Filtering      
+*2010*      
+LSH 改进，词袋模型；    
 
 ### 3.3.4 倒排
 <span id="SDP"></span>
@@ -150,6 +177,10 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 *2009* [paper](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/acmmm09-tan.pdf)     
 倒排，针对弱几何一致性做了改进；使用了图对齐；     
 
+<span id='RLDW_LBP_BOW'></span>
+1. [Real-time Large Scale Near-duplicate Web Video Retrieval](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/MM10_Real-time-Large-Scale-Near-Duplicate-Web-Video-Identification.pdf)    
+*2010* [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/MM10_Real-time-Large-Scale-Near-Duplicate-Web-Video-Identification.pdf)    
+倒排，map+准确度+召回率；LBP 直方图相交；词袋模型+时序特征；     
 
 ## 3.4 时间对齐
 ### 3.4.1 滑窗  
@@ -171,9 +202,15 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 `sequence matching` · `similarity measure`    
 `longest common sub-sequence`     
 
-### 3.5.1 基于关键帧
+### 3.5.1 单帧
 
-### 3.5.2 基于序列
+<span id='SEMANTIC_BOW'></span>
+1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)     
+*2009* [paper](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)    
+在单帧的局部特征上用词袋模型，合成帧的全局特征，然后用 EMD 算法计算距离；    
+
+
+### 3.5.2 串
 1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
 *1998* 香港中文 [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
 `distance measure` · `edit distance` · `sequence-tosequence matching` · `video string`     
@@ -184,6 +221,14 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 - vstring 怎么实现的；    
 - edit distance 怎么实现的；     
 >感觉 ED 系列的方法都是针对本身就相似的特征，使用串匹配的方法详细计算其相似度，所以更适合用来计算数据之间的相似性，而不适合用在拷贝检测相关问题中；因为拷贝检测问题是为了找出该视频副本，也就是副本和原视频越相似越好；而 ED 则是很客观地给出副本和原视频的不相似程度；      
+
+### 3.5.3 对称匹配
+
+
+
+## 3.6 多特征&多模态
+1. [A MULTIMODAL VIDEO COPY DETECTION APPROACH WITH SEQUENTIAL PYRAMID MATCHING∗](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICIP-2011/papers/1569407283.pdf)    
+*2011* [paper](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICIP-2011/papers/1569407283.pdf)    
 
 
 # 4 应用方向
@@ -199,10 +244,6 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 1. [Realtime near duplicate elimination for web video search with content and context](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)    
 *2009* [paper](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)   
-
-1. [Real-time Large Scale Near- duplicate Web Video Retrieval](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/MM10_Real-time-Large-Scale-Near-Duplicate-Web-Video-Identification.pdf)    
-*2010* [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/MM10_Real-time-Large-Scale-Near-Duplicate-Web-Video-Identification.pdf)    
-倒排，map+准确度+召回率；     
 
 1. [Multiple feature hashing for real-time large scale near-duplicate video retrieval](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)     
 *2011-12* [ppt](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)    

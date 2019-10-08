@@ -93,7 +93,14 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 ### 3.2.1 [帧特征](/cv/retrieval/2019/05/22/foundation.html#31-特征提取)
 
-### 3.2.2 深度视频特征
+### 3.2.2 视频特征
+1. [Video Shot Characterization∗](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.7150&rep=rep1&type=pdf)     
+[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.7150&rep=rep1&type=pdf)    
+
+1. [Deep Video Hashing](http://ivg.au.tsinghua.edu.cn/paper/2017_Deep%20video%20hashing.pdf)     
+*2016* [paper](http://ivg.au.tsinghua.edu.cn/paper/2017_Deep%20video%20hashing.pdf)     
+
+
 ### 3.2.3 多帧融合
 1. [Towards effective indexing for very large video sequence database](http://staff.itee.uq.edu.au/zxf/_papers/SIGMOD05.pdf)      
 对帧特征进行聚类；     
@@ -118,7 +125,16 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](#SEMANTIC_BOW)      
 
-### 3.2.4 其他
+1. Compact CNN Based Video Representation for Efficient Video Copy Detection    
+*2016-12*      
+CNN 提取特征，然后稀疏编码到固定长度；     
+
+### 3.2.4 视频编码
+1. [Bit Rate-based H. 264 Video Copy Detection](https://jit.ndhu.edu.tw/article/download/1629/1637)     
+*2018-01* [paper](https://jit.ndhu.edu.tw/article/download/1629/1637)     
+无需解码视频，根据编码信息提取特征，可应对裁剪等拷贝操作；     
+
+### 3.2.5 其他
 1. [Submodular Video Hashing: A Unified Framework Towards Video Pooling and Indexing](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
 *2012* [paper](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
 
@@ -171,6 +187,10 @@ LSH: 改映射函数；
 *2010*      
 LSH 改进，词袋模型；    
 
+1. Stochastic Multiview Hashing for Large-Scale Near-Duplicate Video Retrieval    
+*2016-09-15*     
+多视角随机 hash 提升检索精度和速度；     
+
 ### 3.3.4 倒排
 <span id="SDP"></span>
 1. [Scalable Detection of Partial Near-Duplicate Videos by Visual-Temporal Consistency](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/acmmm09-tan.pdf)     
@@ -195,6 +215,26 @@ LSH 改进，词袋模型；
 
 1. Efficient mining of multiple partial near-duplicate alignments by temporal network       
 *2010*     
+
+### 3.4.4 其他
+1. [Block based video alignment with linear time and space complexity](https://miliadis.github.io/papers/ICIP_video_align.pdf)    
+ICIP *2016-09* [paper](https://miliadis.github.io/papers/ICIP_video_align.pdf)     
+线性时间和空间复杂度；    
+
+1. [Energy based fast event retrieval in video with temporal match kernel](http://home.ustc.edu.cn/~pjh/publications/ICIP2017Energy/paper.pdf)      
+ICIP 2017 *2017-09* [paper](http://home.ustc.edu.cn/~pjh/publications/ICIP2017Energy/paper.pdf) |  [ppt](https://pdfs.semanticscholar.org/2d1d/b02a45e0a8152c14c80102211e2fec7ae999.pdf)     
+乘积量化；    
+
+1. [Temporal Matching Kernel with Embedded Stability-Sensitive Filter](http://home.ustc.edu.cn/~pjh/publications/ICIP2017Energy/paper.pdf)     
+*2017-12* [paper](http://home.ustc.edu.cn/~pjh/publications/ICIP2017Energy/paper.pdf)     
+
+1. [Circulant Temporal Encoding for Video Retrieval and Temporal Alignment](http://cn.arxiv.org/abs/1506.02588)     
+*2015-06-08* [paper](https://arxiv.org/abs/1506.02588)     
+使用复数处理特征，以达到精确匹配；    
+
+1. [Burst-survive Temporal Matching Kernel with Fibonacci Periods](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0002062.pdf)     
+ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0002062.pdf) | [python](https://github.com/fyang93/BURST)          
+
 
 工具：[VIREO-VH](https://sourceforge.net/projects/vireovh/)     
 
@@ -290,7 +330,9 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 `跟重复视频检测有什么区别`{:.warning}    
 
 1. [Partial Copy Detection in Videos: A Benchmark and An Evaluation of Popular Methods](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
-[paper](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
+*2016-03-01* [paper](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
+公开 VCDB 数据集，有 10 万条视频，9000 对；   
+
 1. [Feature statistical retrieval applied to content-based copy identification](https://www-sop.inria.fr/members/Alexis.Joly/ajolyICIP04.pdf)     
 *2004* [paper](https://www-sop.inria.fr/members/Alexis.Joly/ajolyICIP04.pdf)    
 兴趣点签名，对打数据检索高效；   

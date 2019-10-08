@@ -328,6 +328,10 @@ ECCV 2018 *2018* [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Z
 # 7 数据生成
 1. [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator)     
 
+1. [awesome-SynthText](https://github.com/TianzhongSong/awesome-SynthText)     
+
+1. [Synthetic Data for Text Localisation in Natural Images](http://cn.arxiv.org/abs/1604.06646)      
+CVPR 2016 *2016-04-22* [paper](https://arxiv.org/abs/1604.06646) | [github](https://github.com/ankush-me/SynthText) | [home](http://www.robots.ox.ac.uk/~vgg/data/scenetext/)        
 
 -------------------  
 [End](#head)

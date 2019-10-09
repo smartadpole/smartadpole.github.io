@@ -8,6 +8,7 @@ aside:
 category: [CV, human, apparent_analysis]
 tags: 资源
 ---
+<span id='head'></span>  
 
 <!--more-->
 `人脸识别和表观分析的区别是什么，一个子集？`{:.warning}     
@@ -23,8 +24,9 @@ tags: 资源
 *2019-06-29* [paper](https://arxiv.org/abs/1907.00217)    
 
 
+
 -------------------  
-[End]()
+[End](#head)
 {:.warning}  
 
 

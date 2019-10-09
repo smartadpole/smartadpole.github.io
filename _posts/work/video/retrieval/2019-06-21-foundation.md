@@ -65,6 +65,9 @@ tags: 资源
 *2017-07* [paper](https://pdfs.semanticscholar.org/772a/ac1375c51bd984ac400c2bc4ccedd5fa0b43.pdf)   
 
 ## 1.4 基于内容的视频检索
+1. [Content based Video Retrieval: A Survey](https://pdfs.semanticscholar.org/379e/b29b015daa3fac6e0de2f6132733f16d46c7.pdf)    
+*2015-01* [paper](https://pdfs.semanticscholar.org/379e/b29b015daa3fac6e0de2f6132733f16d46c7.pdf)     
+
 1. [FIVR: Fine-grained Incident Video Retrieval](http://cn.arxiv.org/abs/1809.04094)    
 *2018-09-11* [paper](https://arxiv.org/abs/1809.04094)   
 发布了新数据集  FIVR-200K；     
@@ -102,20 +105,14 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 
 ### 3.2.3 多帧融合
+#### 3.2.3.1 聚类
 1. [Towards effective indexing for very large video sequence database](http://staff.itee.uq.edu.au/zxf/_papers/SIGMOD05.pdf)      
 对帧特征进行聚类；     
 
-1. [Video histogram: A novel video signature for efficient Web video duplicate detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.1722&rep=rep1&type=pdf)     
-*2007* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.1722&rep=rep1&type=pdf)    
-相关直方图；    
-
+#### 3.2.3.2 降维
 1. [UQLIPS: A Real-time Near-duplicate Video Clip Detection System](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.129.4492&rep=rep1&type=pdf)     
 *2007* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.129.4492&rep=rep1&type=pdf)     
 使用 PCA 对多帧视频特征降维得到视频特征；       
-
-1. [Practical elimination of near-duplicates from Web video search](http://vireo.cs.cityu.edu.hk/papers/mm07wu1.pdf)    
-*2007* [paper](http://vireo.cs.cityu.edu.hk/papers/mm07wu1.pdf)     
-累积直方图；     
 
 1. [Bounded coordinate system indexing for real-time video clip search](http://net.pku.edu.cn/~cuibin/Papers/2009-TOIS-vedio.pdf)      
 *2009* [paper](http://net.pku.edu.cn/~cuibin/Papers/2009-TOIS-vedio.pdf)     
@@ -125,9 +122,26 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](#SEMANTIC_BOW)      
 
+#### 3.2.3.3 Fisher vector
+1. [SHOT AGGREGATING STRATEGY FOR NEAR-DUPLICATE VIDEO RETRIEVAL](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
+*2015* [paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
+镜头聚合；     
+
+#### 3.2.3.4 稀疏编码
 1. Compact CNN Based Video Representation for Efficient Video Copy Detection    
 *2016-12*      
 CNN 提取特征，然后稀疏编码到固定长度；     
+
+#### 3.2.3.4 其他
+
+1. [Video histogram: A novel video signature for efficient Web video duplicate detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.1722&rep=rep1&type=pdf)     
+*2007* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.1722&rep=rep1&type=pdf)    
+相关直方图；    
+
+1. [Practical elimination of near-duplicates from Web video search](http://vireo.cs.cityu.edu.hk/papers/mm07wu1.pdf)    
+*2007* [paper](http://vireo.cs.cityu.edu.hk/papers/mm07wu1.pdf)     
+累积直方图；     
+
 
 ### 3.2.4 视频编码
 1. [Bit Rate-based H. 264 Video Copy Detection](https://jit.ndhu.edu.tw/article/download/1629/1637)     
@@ -217,6 +231,14 @@ LSH 改进，词袋模型；
 *2010*     
 
 ### 3.4.4 其他
+1. Efficient video copy detection via aligning video signature time series     
+*2012*    
+基于倾斜的时间对齐；对齐时引入了帧的插入、删除和替换策略；         
+
+1. Video Copy Detection Based on Path Merging and Query Content Prediction     
+*2015-10*    
+基于图模型的路径合并；     
+
 1. [Block based video alignment with linear time and space complexity](https://miliadis.github.io/papers/ICIP_video_align.pdf)    
 ICIP *2016-09* [paper](https://miliadis.github.io/papers/ICIP_video_align.pdf)     
 线性时间和空间复杂度；    
@@ -225,8 +247,8 @@ ICIP *2016-09* [paper](https://miliadis.github.io/papers/ICIP_video_align.pdf)
 ICIP 2017 *2017-09* [paper](http://home.ustc.edu.cn/~pjh/publications/ICIP2017Energy/paper.pdf) |  [ppt](https://pdfs.semanticscholar.org/2d1d/b02a45e0a8152c14c80102211e2fec7ae999.pdf)     
 乘积量化；    
 
-1. [Temporal Matching Kernel with Embedded Stability-Sensitive Filter](http://home.ustc.edu.cn/~pjh/publications/ICIP2017Energy/paper.pdf)     
-*2017-12* [paper](http://home.ustc.edu.cn/~pjh/publications/ICIP2017Energy/paper.pdf)     
+1. Temporal Matching Kernel with Embedded Stability-Sensitive Filter      
+*2017-12*     
 
 1. [Circulant Temporal Encoding for Video Retrieval and Temporal Alignment](http://cn.arxiv.org/abs/1506.02588)     
 *2015-06-08* [paper](https://arxiv.org/abs/1506.02588)     
@@ -275,6 +297,11 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 ## 4.1 重复视频检测
 `near-duplicate video detection`
 
+
+1. [Real time repeated video sequence identification](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.578.2230&rep=rep1&type=pdf)    
+*2003* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.578.2230&rep=rep1&type=pdf)     
+
+
 1. [Efficient Near-duplicate Detection and Sub-image Retrieval](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)     
 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)    
 哈希；   
@@ -293,8 +320,6 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 *2014* [paper](http://www.yugangjiang.info/publication/eccv14-VCDB.pdf)    
 发布了数据集    
 
-1. [SHOT AGGREGATING STRATEGY FOR NEAR-DUPLICATE VIDEO RETRIEVAL](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
-*2015* [paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
 
 1. [Pattern-Based Near-Duplicate Video Retrieval and Localization on Web-Scale Videos](https://www.semanticscholar.org/paper/Pattern-Based-Near-Duplicate-Video-Retrieval-and-on-Chou-Chen/b0a2b8945c947816ff0efa5605016c5ab25ef6a8)   
 *2015* [paper](https://www.semanticscholar.org/paper/Pattern-Based-Near-Duplicate-Video-Retrieval-and-on-Chou-Chen/b0a2b8945c947816ff0efa5605016c5ab25ef6a8)    
@@ -417,6 +442,10 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 
 ### 4.5.3 [文本](/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
 
+#### 4.5.3.1 广告植入
+>根据输入的关键词，给出视频中与之呼应的情景片段；    
+
+
 ### 4.5.4 音频
 
 1. [Content-Based Video-Music Retrieval Using Soft Intra-Modal Structure Constraint](http://cn.arxiv.org/abs/1704.06761)  
@@ -426,10 +455,6 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 1. [Cross-modal Embeddings for Video and Audio Retrieval](http://cn.arxiv.org/abs/1801.02200)  
 *2018-01-07* [paper](https://arxiv.org/abs/1801.02200) | [Youtube-8m](https://github.com/surisdi/youtube-8m)-训练   
 
-
-## 4.6 重复序列检测
-1. [Real time repeated video sequence identification](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.578.2230&rep=rep1&type=pdf)    
-*2003* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.578.2230&rep=rep1&type=pdf)     
 
 
 -------------------  

@@ -8,11 +8,13 @@ aside:
 tags: 孪生网络 图像检索
 categories: [CV, face_verification, TransferLearning, paper_reading]
 ---
+<span id='head'></span>  
 
 >论文发表时间：2018年5月  
 论文地址：<https://arxiv.org/abs/1805.02283>  
 官方代码：<https://github.com/seasonSH/DocFace>（Tensorflow）  
 
+<!--more-->
 
 ## 一、一句话总结  
 **第一句**：在[人证比对](#face-verification-id-doc)场景中，「[DocFace](#DocFace)」 比[通用人脸验证](#general_fv)方案准确度更高；    
@@ -138,6 +140,10 @@ Commercial-Off-The-Shelf：目前商用的人脸验证方案；
 本蝌蚪认为区别在此：「孪生网络」的初衷是为了比较两个输出的相似度，因此将网络复制了一份，很明显，其权值是相同的（即权值共享）；而本文的网络设计，初衷是为了针对不同域获取不同的映射方法，以降低其映射到相同域的难度，很明显，两个网络的权重必然不同；所以，「孪生」与「兄弟」最大的区别就在于出发点不同，及随之而来的两个网络权值共享的差异；  
 本蝌蚪在想，「孪生」或「兄弟」就权值共享问题再做出个变种啥的，该咋命名了哩 :ghost:      
 其实，「sibling net」还有另一个名字，叫「伪孪生网络 pseudo-siamese network」[^Siamese_net] :ghost:   
+
+-------------------  
+[End](#head)
+{:.warning}  
 
 ## 附录  
 ### （一）基本概念  

@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「CV」 唇语识别资源汇总"
-date:   2019-05-14 14:06:40 +0800
-key: lip-reading-foundation-20190514
+title:  "「CV」 人脸生成资源汇总"
+date:   2019-10-09 17:09:40 +0800
+key: face-generation-foundation-20191009
 aside:
   toc: true
-category: [CV, human, lip_reading]
+category: [CV, human, face_generation]
 tags: 资源
 ---
 <span id='head'></span>  

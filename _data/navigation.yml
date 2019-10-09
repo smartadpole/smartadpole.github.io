@@ -255,6 +255,8 @@ CV:
         url:    /assets/category/work/CV_2D/multimodal.html
       - title:  对抗攻击
         url:    /assets/category/work/CV_2D/adversarial_attack.html
+      - title:  视觉可供性
+        url:    /assets/category/work/CV_2D/affordance.html
 
 
   - title:      专题
@@ -1258,38 +1260,56 @@ Human:
     children:
       - title:  上一层
         url:    /assets/category/work/CV_2D/cv.html
-  - title:
+
+  - title:	静态
     children:
-      - title:  唇语识别
-        url:    /assets/category/work/CV_2D/human/lip_reading.html
-      - title:  视线追踪
-        url:    /assets/category/work/CV_2D/human/eye_gaze_tracking.html
-      - title:  手掌分割
-        url:    /assets/category/work/CV_2D/human/hands_segmentation.html
-      - title:  手势识别
-        url:    /assets/category/work/CV_2D/human/gesture_recognition.html
-      - title:  步态识别
-        url:    /assets/category/work/CV_2D/human/gait_recognition.html
-      - title:  人脸验证
-        url:    /assets/category/work/CV_2D/human/face_verify.html
+      - title:  人体分割
+        url:    /assets/category/work/CV_2D/human/human_segmentation.html
       - title:  人脸识别
         url:    /assets/category/work/CV_2D/human/face_recognize.html
       - title:  人脸对齐
         url:    /assets/category/work/CV_2D/human/face_align.html
       - title:  人脸关键点
         url:    /assets/category/work/CV_2D/human/facial_landmark.html
-      - title:  人脸修复
-        url:    /assets/category/work/CV_2D/human/facial_inpaint.html
-      - title:  行人重识别
-        url:    /assets/category/work/CV_2D/human/reid.html
-      - title:  活性检测
-        url:    /assets/category/work/CV_2D/human/activity_recognize.html
       - title:  表观分析
         url:    /assets/category/work/CV_2D/human/apparent_analysis.html
-      - title:  姿态估计
-        url:    /assets/category/work/CV_2D/human/pose_estimation.html
       - title:  人群计数
         url:    /assets/category/work/CV_2D/human/crowd_count.html
+
+  - title:	动态
+    children:
+      - title:  手势识别
+        url:    /assets/category/work/CV_2D/human/gesture_recognition.html
+      - title:  唇语识别
+        url:    /assets/category/work/CV_2D/human/lip_reading.html
+      - title:  视线追踪
+        url:    /assets/category/work/CV_2D/human/eye_gaze_tracking.html
+      - title:  姿态估计
+        url:    /assets/category/work/CV_2D/human/pose_estimation.html
+      - title:  活性检测
+        url:    /assets/category/work/CV_2D/human/activity_recognize.html
+
+  - title:	重识别
+    children:
+      - title:  步态识别
+        url:    /assets/category/work/CV_2D/human/gait_recognition.html
+      - title:  人脸验证
+        url:    /assets/category/work/CV_2D/human/face_verify.html
+      - title:  行人重识别
+        url:    /assets/category/work/CV_2D/human/reid.html
+
+  - title:	生成
+    children:
+      - title:  人脸生成
+        url:    /assets/category/work/CV_2D/human/face_generation.html
+      - title:  人脸修复
+        url:    /assets/category/work/CV_2D/human/facial_inpaint.html
+      - title:  人脸编辑
+        url:    /assets/category/work/CV_2D/human/facial_attribute_editing.html
+      - title:  美容美发
+        url:    /assets/category/work/CV_2D/human/makeup.html
+      - title:  虚拟试衣间
+        url:    /assets/category/work/CV_2D/human/fitting_room.html
 
 
 Traffic:

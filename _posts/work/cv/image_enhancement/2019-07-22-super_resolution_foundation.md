@@ -95,17 +95,25 @@ ECCV 2018 *2018-03-23* [paper](https://arxiv.org/abs/1803.08664) | [pytorch](htt
 级联残差下的快速、准确、轻量级的超分辨率网络；   
 
 # 7 GAN
+
+1.  [Image super-resolution through deep learning](http://cn.arxiv.org/abs/1501.00092)   
+*2014-12-31* [paper](https://arxiv.org/abs/1501.00092) | [tensorflow](https://github.com/david-gpu/srez)    
+
+1.  [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](http://cn.arxiv.org/abs/1609.04802)     
+CVPR 2016 oral *2016-09-15*  [paper](https://arxiv.org/abs/1609.04802) | [torch](https://github.com/leehomyc/Photo-Realistic-Super-Resoluton)    
+
+1.  [EnhanceGAN](https://medium.com/@richardherbert/faces-from-noise-super-enhancing-8x8-images-with-enhancegan-ebda015bb5e0#.io6pskvin)    
+
 1. [ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks](http://cn.arxiv.org/abs/1809.00219)   
 ECCV 2018 *2018-09-01* [paper](https://arxiv.org/abs/1809.00219) | [pytorch](https://github.com/xinntao/ESRGAN)-offical   
 <span id="ESRGAN">**ESRGAN**</span>
-
 
 # 8 其他
 1. [Accelerating the Super-Resolution Convolutional Neural Network](http://cn.arxiv.org/abs/1608.00367)   
 ECCV 2016 *2016-08-01* [paper](https://arxiv.org/abs/1608.00367)   
 
 1. [Pixel Recursive Super Resolution](http://cn.arxiv.org/abs/1702.00783)   
-*2017-02-02* [paper](https://arxiv.org/abs/1702.00783)   
+*2017-02-02* google [paper](https://arxiv.org/abs/1702.00783)   
 
 1. [Image Super-Resolution via Deep Recursive Residual Network](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tai_Image_Super-Resolution_via_CVPR_2017_paper.pdf)   
 CVPR 2017 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tai_Image_Super-Resolution_via_CVPR_2017_paper.pdf)   

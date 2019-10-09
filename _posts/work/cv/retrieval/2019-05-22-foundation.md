@@ -759,11 +759,16 @@ IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)
 
 ## 4.3 重识别
 
-### 4.3.1 [行人重识别](/cv/human/human_reid/2019/05/14/foundation.html)
+### 4.3.1 [行人](/cv/human/human_reid/2019/05/14/foundation.html)
 
 ### 4.3.2 车辆
 1. [Attributes Guided Feature Learning for Vehicle Re-identification](https://arxiv.org/abs/1905.08997)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.08997)   
+
+## 4.4 内容检索
+1. [GetNet: Get Target Area for Image Pairing](http://cn.arxiv.org/abs/1910.03152)     
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03152)    
+先检测再检索；    
 
 # 5 改进方向
 ## 5.1 零样本检索

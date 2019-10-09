@@ -9,6 +9,9 @@ category: [CV, classification]
 tags: 资源
 ---
 <span id='head'></span>  
+>[CNN](/dl/cnn/2019/05/21/foundation.html)     
+
+
 <!--more-->  
 
 # 1 综述
@@ -32,9 +35,12 @@ ICCV 2019 *2019-08-21* [paper](https://arxiv.org/abs/1908.08142)
 *2018-11-21* 何恺明 [Paper](https://arxiv.org/abs/1811.08883)   
 
 # 4 one-hot
+1. [Dynamic Mode Decomposition based feature for Image Classification](http://cn.arxiv.org/abs/1910.03188)    
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03188)     
+动态模式分解 + SVM；对数据量要求不那么高；      
 
 # 5 多标签
-1. [Learning a Deep ConvNet for Multi-label Classification with Partial Labels](https://arxiv.org/abs/1902.09720)   
+1. [Learning a Deep ConvNet for Multi-label Classification with Partial Labels](http://cn.arxiv.org/abs/1902.09720)   
 CVPR 2019 *2019-02-26* [paper](https://arxiv.org/abs/1902.09720)    
 降低多标签任务的标注成本；     
 

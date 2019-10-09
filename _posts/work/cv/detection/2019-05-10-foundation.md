@@ -109,6 +109,9 @@ cvpr 2018 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Z
 STDN: 提高对多尺度的适应性（尤其是小目标）；backbone 使用的是 DenseNet ，检测用的 SSD；引入scale-transfer layer，实现了在几乎不增加参数量和计算量的前提下生成大尺寸的 feature map（其他常见的算法基本上都是采用 deconvolution 或 upsample）；      
 
 ### 4.4.2 YOLO 扩展
+1. [xYOLO: A Model For Real-Time Object Detection In Humanoid Soccer On Low-End Hardware](https://arxiv.org/abs/1910.03159)    
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03159)     
+TinyYOLO 上再做改进，速度更快；同时公布了一个足球数据集；       
 
 ## 4.5 两阶段
 

@@ -8,7 +8,7 @@ aside:
 category: [CV, human, gait_recognition]
 tags: 资源
 ---
-
+<span id='head'></span>  
 
 <!--more-->
 
@@ -20,6 +20,7 @@ tags: 资源
 *2019-05-16* [paper](https://arxiv.org/abs/1905.07058)   
 
 
+
 -------------------  
-[End](#1-综述)
+[End](#head)
 {:.warning}  

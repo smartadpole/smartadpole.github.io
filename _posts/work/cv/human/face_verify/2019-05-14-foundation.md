@@ -8,6 +8,7 @@ aside:
 category: [CV, human, face_verification]
 tags: 资源
 ---
+<span id='head'></span>  
 
 <!--more-->
 
@@ -19,8 +20,9 @@ tags: 资源
 1. [DocFace: Matching ID Document Photos to Selfies](http://cn.arxiv.org/abs/1805.02283)   
 [paper](https://arxiv.org/abs/1805.02283) | [tensorflow](https://github.com/seasonSH/DocFace) | [解读](/cv/face_verification/transferlearning/paper_reading/2018/10/29/DocFace-Matching-ID-Document-Photos-to-Selfies-Reading.html)    
 
+
 -------------------  
- [End]()
+[End](#head)
 {:.warning}  
 
 

@@ -33,9 +33,14 @@ tags: 资源
 # 4 单视图重建
 ## 4.1 GAN
 使用二维编码器、三维解码器(即 GAN 中的成器)和判别器；   
-1. [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](http://cn.arxiv.org/abs/1610.07584)   
-NIPS 2016, 3D GAN [Paper](https://arxiv.org/abs/1610.07584) | [Torch](https://github.com/zck119/3dgan-release)       
 
+1.  [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](http://cn.arxiv.org/abs/1610.07584)   
+NIPS 2016 *2016-10-24* [paper](https://arxiv.org/abs/1610.07584) | [project](http://3dgan.csail.mit.edu/)  [torch](https://github.com/zck119/3dgan-release)      
+3D GAN   
+
+
+1.  [Transformation-Grounded Image Generation Network for Novel 3D View Synthesis](https://zpascal.net/cvpr2017/Park_Transformation-Grounded_Image_Generation_CVPR_2017_paper.pdf)    
+CVPR 2017 *2017* [paper](https://zpascal.net/cvpr2017/Park_Transformation-Grounded_Image_Generation_CVPR_2017_paper.pdf) | [project](http://www.cs.unc.edu/%7Eeunbyung/tvsn/) | [torch](https://github.com/silverbottlep/tvsn)-official    
 
 1. [Weakly supervised 3D Reconstruction with Adversarial Constraint](http://cn.arxiv.org/abs/1705.10904)   
 *2017-05-31* [Paper](https://arxiv.org/abs/1705.10904) | [theano](https://github.com/jgwak/McRecon) | [解读](/cv/3d/reconstruction/paper_reading/2019/07/03/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-reading.html)    
@@ -233,9 +238,6 @@ BMVC 2017 [Paper](https://arxiv.org/abs/1707.06267)
 1. [PCPNET:Learning Local Shape Properties from Raw Point Clouds](http://cn.arxiv.org/abs/1710.04954)   
 2017 [Paper](https://arxiv.org/abs/1710.04954) | [Torch](https://github.com/paulguerrero/pcpnet)      
 
-1. [Transformation-Grounded Image Generation Network for Novel 3D View Synthesis](http://cn.arxiv.org/abs/1703.02921)   
-CVPR 2017 [Paper](https://arxiv.org/abs/1703.02921) | [Torch](https://github.com/silverbottlep/tvsn)    
-
 1. [Tag Disentangled Generative Adversarial Networks for Object Image Re-rendering]()   
 IJCAI 2017 优必选 [Paper](http://static.ijcai.org/proceedings-2017/0404.pdf) | [Video](http://www.mooc.ai/open/course/248)       
 
@@ -250,9 +252,6 @@ CVPR 2017 [Paper](https://arxiv.org/abs/1703.04079) | [Matlab](https://github.co
 
 1. [3D-PRNN: Generating Shape Primitives with Recurrent Neural Networks](http://cn.arxiv.org/abs/1708.01648)   
 ICCV 2017 [Paper](https://arxiv.org/abs/1708.01648) | [Pytorch-lua](https://github.com/zouchuhang/3D-PRNN)   
-
-1. [Neural 3D Mesh Renderer](http://cn.arxiv.org/abs/1711.07566)   
-CVPR 2018 [Paper](https://arxiv.org/abs/1711.07566) | [Chainer](https://github.com/hiroharu-kato/neural_renderer)-Offical | [Pytorch](https://github.com/daniilidis-group/neural_renderer) | [Tensorflow-Chainer](https://github.com/laughtervv/tf_neural_renderer) | [Project](http://hiroharu-kato.com/projects_en/neural_renderer.html)    
 
 1. [Large-Scale 3D Shape Reconstruction and Segmentation from ShapeNet Core55](http://cn.arxiv.org/abs/1710.06104)   
 ICCV 2017 [Paper](https://arxiv.org/abs/1710.06104)    
@@ -274,6 +273,14 @@ NIPS 2017 [Paper](https://arxiv.org/abs/1711.03129) | [Pytorch](https://github.c
 
 1. [ComplementMe: Weakly-Supervised Component Suggestions for 3D Modeling](http://cn.arxiv.org/abs/1708.01841)   
 SIGGRAPH 2017 [Paper](https://arxiv.org/abs/1708.01841) | [Tensorflow](https://github.com/mhsung/complement-me)-Offical | [Project](https://mhsung.github.io/complement-me.html)       
+
+
+1. [Learning to Reconstruct High-quality 3D Shapes with Cascaded Fully Convolutional Networks](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_Cao_Learning_to_Reconstruct_ECCV_2018_paper.pdf）    
+ECCV 2018 *2018* [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_Cao_Learning_to_Reconstruct_ECCV_2018_paper.pdf)     
+3D FCN；   
+
+1. [Neural 3D Mesh Renderer](http://cn.arxiv.org/abs/1711.07566)   
+CVPR 2018 [Paper](https://arxiv.org/abs/1711.07566) | [Chainer](https://github.com/hiroharu-kato/neural_renderer)-Offical | [Pytorch](https://github.com/daniilidis-group/neural_renderer) | [Tensorflow-Chainer](https://github.com/laughtervv/tf_neural_renderer) | [Project](http://hiroharu-kato.com/projects_en/neural_renderer.html)    
 
 1. [Multi-view Consistency as Supervisory Signal  for Learning Shape and Pose Prediction](http://cn.arxiv.org/abs/1801.03910)   
 CVPR 2018 [Paper](https://arxiv.org/abs/1801.03910) | [Pytorch](https://github.com/shubhtuls/mvcSnP)-Offical | [Project](https://shubhtuls.github.io/mvcSnP/)  

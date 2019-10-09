@@ -19,8 +19,14 @@ tags: 资源
 # 2 理论
 
 # 3 视频生成
+
+1.  [a layer-based sequential framework for scene generation with gans](http://cn.arxiv.org/abs/1901.00671)  
+AAAI 2019 *2019-01-03* [paper](https://arxiv.org/abs/1901.00671) | [pytorch](https://github.com/0zgur0/Seq_Scene_Gen)  
+
 1. [Compositional Video Prediction](http://cn.arxiv.org/abs/1908.08522)     
 ICCV 2019 *2019-08-22* [paper](https://arxiv.org/abs/1908.08522)    
+
+
 
 
 

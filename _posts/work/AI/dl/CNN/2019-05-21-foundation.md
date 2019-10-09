@@ -104,7 +104,12 @@ MobileNetV3:
 设计了新的 loss 来指导网络学习更多的相关特征，以应对未见过的数据；    
 
 
-## 3.4 其他
+## 3.4 注意力
+1. [ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks](http://cn.arxiv.org/abs/1910.03151)    
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03151) | [pytorch](https://github.com/BangguWu/ECANet)-official         
+反思注意力带来的计算冗余问题；    
+
+## 3.5 其他
 1.[Invertible Residual Networks](https://arxiv.org/abs/1811.00995)   
 ICML 2019 *2018-11-02* [paper](https://arxiv.org/abs/1811.00995)  
 

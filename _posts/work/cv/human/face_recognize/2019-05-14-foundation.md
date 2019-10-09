@@ -25,6 +25,9 @@ tags: 资源
 ## 1.3 性别
 
 ## 1.4 年龄
+1. [Self-Paced Deep Regression Forests for Facial Age Estimation](http://cn.arxiv.org/abs/1910.03244)    
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03244)    
+渐进式；   
 
 ## 1.5 情绪
 ### 1.5.1 基于图像

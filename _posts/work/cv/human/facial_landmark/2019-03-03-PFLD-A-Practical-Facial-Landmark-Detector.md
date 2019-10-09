@@ -7,12 +7,13 @@ aside:
   toc: true
 categories: [CV,human, facial_landmark,paper_reading]
 ---
+<span id='head'></span>  
 
 >论文发表时间：2019年2月28日    
 论文：<https://arxiv.org/abs/1902.10859>  
 作者分别来自天津大学、武汉大学、腾讯AI实验室、美国天普大学  
 
-
+<!--more-->
 
 ## 一、一句话总结  
 **第一句**：设计了新的 loss 函数来处理了类别不均衡问题；    
@@ -48,3 +49,9 @@ categories: [CV,human, facial_landmark,paper_reading]
 <span id="explore">**1. 实验**</span>    
 
 **结论一**：  
+
+
+
+-------------------  
+[End](#head)
+{:.warning}  

@@ -60,7 +60,7 @@ ECCV 2018 *2018-04-24* [paper](https://arxiv.org/abs/1804.09066) | [caffe](https
 NIPS 2018 *2018-10-27* [paper](https://arxiv.org/abs/1810.11579) | [Kivee123](https://blog.csdn.net/qq_37014750/article/details/83989334) | [zhihu](https://www.zhihu.com/question/321294274)
 
 1. [Temporal Shift Module for Efficient Video Understanding](http://cn.arxiv.org/abs/1811.08383)   
-*2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-offical | [pytorch](https://github.com/Pika7ma/Temporal-Shift-Module) | [琪瑞](https://zhuanlan.zhihu.com/p/64525610)        
+*2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-official | [pytorch](https://github.com/Pika7ma/Temporal-Shift-Module) | [琪瑞](https://zhuanlan.zhihu.com/p/64525610)        
 
 1. [Convolutional sparse coding for capturing high speed video content](http://cn.arxiv.org/abs/1806.04935)   
 *2018-06-13* [paper](https://arxiv.org/abs/1806.04935)   
@@ -84,7 +84,7 @@ ICLR 2019 *2019* [paper](https://pdfs.semanticscholar.org/d968/bf19d725d6f73fb5e
 CVPR 2018 (BIVU)*2018-05-12* [paper](https://arxiv.org/abs/1805.04668)   
 
 1. [TSM: Temporal Shift Module for Efficient Video Understanding](http://cn.arxiv.org/abs/1811.08383)   
-ICCV 2019 *2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-offical      
+ICCV 2019 *2018-11-20* [paper](https://arxiv.org/abs/1811.08383) | [pytorch](https://github.com/MIT-HAN-LAB/temporal-shift-module)-official      
 
 # 5 基本网络
 ## 5.1 传统方法
@@ -135,6 +135,10 @@ TSN 改进一：fusion 部分，不同的片段的应该有不同的权重，而
 CVPR 2017 *2017-05-22* DeepMind [paper](https://arxiv.org/abs/1705.07750)   
 I3D:基于inception-V1模型，将2D卷积扩展到3D卷积，融合了双流和 C3D，准确度取得了飞跃提升，达到 80%，用了 64 块 GPU；   
 
+1. [Video Classification With CNNs: Using The Codec As A Spatio-Temporal Activity Sensor](http://cn.arxiv.org/abs/1710.05112)     
+ICIP 2017 *2017-10-14* [paper](https://arxiv.org/abs/1710.05112) | [tensorflow](https://github.com/mvcnn/mvcnn)-official           
+超快；用运动矢量代替光流，选择性解码代替全部解码；       
+
 1. [End-to-end Video-level Representation Learning for Action Recognition](http://cn.arxiv.org/abs/1711.04161)   
 ICPR 2018 *2017-11-11* [paper](https://arxiv.org/abs/1711.04161) | [caffe](https://github.com/zhujiagang/DTPP) | [山水之间2018](https://blog.csdn.net/gavinmiaoc/article/details/81198831)   
 DTPP:为了捕捉不同长度的信息，在时空上都进行 pooling；   
@@ -167,7 +171,7 @@ CVPR 2019 *2019-01-11* [paper](https://arxiv.org/abs/1901.03460)
 *2013* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.442.8617&rep=rep1&type=pdf) | [陈泰红](https://zhuanlan.zhihu.com/p/31841353)   
 
 1. [C3D: Generic Features for Video Analysis](http://cn.arxiv.org/abs/1412.0767)     
-ICCV 2015 *2014-12-02* facebook [paper](https://arxiv.org/abs/1412.0767) [project](http://vlg.cs.dartmouth.edu/c3d/) | [caffe](https://github.com/facebook/C3D)-offical | [tensorflow](https://github.com/hx173149/C3D-tensorflow) | [极市平台](https://zhuanlan.zhihu.com/p/25912625)      
+ICCV 2015 *2014-12-02* facebook [paper](https://arxiv.org/abs/1412.0767) [project](http://vlg.cs.dartmouth.edu/c3d/) | [caffe](https://github.com/facebook/C3D)-official | [tensorflow](https://github.com/hx173149/C3D-tensorflow) | [极市平台](https://zhuanlan.zhihu.com/p/25912625)      
 *Learning spatiotemporal features with 3d convolutional networks*     
 
 
@@ -235,7 +239,7 @@ CVPR 2017 *2016-11-24* [paper](https://arxiv.org/abs/1611.08240) | [tensorflow](
 >时间   
 
 1. <span id='hidden_tsc'>[Hidden Two-Stream Convolutional Networks for Action Recognition](http://cn.arxiv.org/abs/1704.00389)</span>   
-ACCV 2018 *2017-04-02* [paper](https://arxiv.org/abs/1704.00389) | [caffe](https://github.com/bryanyzhu/Hidden-Two-Stream)-offical | [陈泰红](https://zhuanlan.zhihu.com/p/32169316)       
+ACCV 2018 *2017-04-02* [paper](https://arxiv.org/abs/1704.00389) | [caffe](https://github.com/bryanyzhu/Hidden-Two-Stream)-official | [陈泰红](https://zhuanlan.zhihu.com/p/32169316)       
 舍弃光流，使用网络自动学习到相邻帧的运动信息，速度提高了 10 倍；   
 论文主要参考了 flownet，即使用神经网络学习生成光流图，然后作为 temporal 网络的输入；该方法提升了光流的质量，而且模型大小也比 flownet 小很多；有论文证明，光流质量的提高，尤其是对于边缘微小运动光流的提升，对分类有关键作用；   
 另一方面，论文中也比较了其余的输入格式，如 RGB diff，但效果没有光流好；   
@@ -261,7 +265,7 @@ CVPR 2017 [paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_Spa
 文章提出了 STCB 模块；交互方面，在保留空间、时序流的同时，对时空信息进行了一次融合，最后三路融合；   
 
 1. <span id='attention_pooling'>[Attentional Pooling for Action Recognition](http://cn.arxiv.org/abs/1711.01467)</span>   
-NIPS 2017 *2017-11-04* [paper](https://arxiv.org/abs/1711.01467) | [project](https://rohitgirdhar.github.io/AttentionalPoolingAction/) | [tensorflow](https://github.com/rohitgirdhar/AttentionalPoolingAction/)-offical | [若羽](https://zhuanlan.zhihu.com/p/57195300)       
+NIPS 2017 *2017-11-04* [paper](https://arxiv.org/abs/1711.01467) | [project](https://rohitgirdhar.github.io/AttentionalPoolingAction/) | [tensorflow](https://github.com/rohitgirdhar/AttentionalPoolingAction/)-official | [若羽](https://zhuanlan.zhihu.com/p/57195300)       
 从pooling的层面提高了双流的交互能力；   
 
 1. [ActionVLAD for video action classification](http://cn.arxiv.org/abs/1704.02895)   

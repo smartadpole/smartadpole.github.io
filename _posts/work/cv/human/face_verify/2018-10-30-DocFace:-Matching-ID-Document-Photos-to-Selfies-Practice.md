@@ -8,11 +8,13 @@ aside:
 tags: 孪生网络
 categories: [CV, human, face_verification, paper_practice]
 ---
+<span id='head'></span>  
 
 >论文发表时间：2018年5月  
 论文地址：<https://arxiv.org/abs/1805.02283>  
 官方代码：<https://github.com/seasonSH/DocFace>（Tensorflow）  
 
+<!--more-->
 
 ## 一、数据集  
 
@@ -21,3 +23,8 @@ categories: [CV, human, face_verification, paper_practice]
 ## 三、训练  
 
 ## 四、训练结果  
+
+
+-------------------  
+[End](#head)
+{:.warning}  

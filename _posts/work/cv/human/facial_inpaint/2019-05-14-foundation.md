@@ -8,18 +8,18 @@ aside:
 category: [CV, human, facial_inpaint]
 tags: 资源
 ---
+<span id='head'></span>  
 
 <!--more-->
 
-# 1 Paper  
-## 1.1 综述  
-## 1.2 其他
+# 1 综述  
+# 2 其他
+
 
 
 -------------------  
- [End]()
+[End](#head)
 {:.warning}  
-
 
 # 附录
 ## A 参考资料

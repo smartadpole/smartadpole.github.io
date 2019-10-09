@@ -13,7 +13,7 @@ tags: 资源
 <!--more-->
 
 # 1 综述  
-# 理论
+# 2 理论
 
 # 3 手掌分割
 1. [Multi-Scale Dual-Branch Fully Convolutional Network for Hand Parsing](http://cn.arxiv.org/abs/1905.10100)   

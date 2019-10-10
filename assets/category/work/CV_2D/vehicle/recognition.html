@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Vehicle Analysis
-    zh:       车辆分析
-    zh-Hans:  车辆分析
-    zh-Hant:  车辆分析
+    en:       Vehicle Recognition
+    zh:       车辆识别
+    zh-Hans:  车辆识别
+    zh-Hant:  车辆识别
 sidebar:
-    nav: Traffic
+    nav: VEHICLE
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "vehicle_analysis" %}
+        {% if cat[0] == "vehicle_recognition" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

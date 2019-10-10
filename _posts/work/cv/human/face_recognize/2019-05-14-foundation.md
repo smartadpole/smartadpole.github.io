@@ -23,6 +23,9 @@ tags: 资源
 人脸遮挡对于人脸识别的影响；    
 
 ## 1.3 性别
+1. [Bias-Resilient Neural Network](http://cn.arxiv.org/abs/1910.03676)    
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03676) | [keras](https://github.com/QingyuZhao/BR-Net/)-tensorflow     
+设计新的损失函数解决不同人种对于性别分类的影响；    
 
 ## 1.4 年龄
 1. [Self-Paced Deep Regression Forests for Facial Age Estimation](http://cn.arxiv.org/abs/1910.03244)    

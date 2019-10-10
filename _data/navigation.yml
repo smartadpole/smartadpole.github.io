@@ -259,12 +259,17 @@ CV:
         url:    /assets/category/work/CV_2D/affordance.html
 
 
-  - title:      专题
+  - title:      特定目标
     children:
       - title:  人
         url:    /assets/category/work/CV_2D/human.html
+      - title:  车
+        url:    /assets/category/work/CV_2D/vehicle.html
       - title:  OCR
         url:    /assets/category/work/CV_2D/ocr.html
+
+  - title:      专题
+    children:
       - title:  交通
         url:    /assets/category/work/CV_2D/traffic.html
       - title:  医疗
@@ -275,7 +280,9 @@ CV:
         url:    /assets/category/work/CV_2D/industry.html
       - title:  自然
         url:    /assets/category/work/CV_2D/nature.html
-      - title:  安全隐私
+      - title:  媒体
+        url:    /assets/category/work/CV_2D/media.html
+      - title:  安全
         url:    /assets/category/work/CV_2D/info_security.html
 
 
@@ -1314,6 +1321,22 @@ Human:
         url:    /assets/category/work/CV_2D/human/fitting_room.html
 
 
+VEHICLE:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/CV_2D/cv.html
+  - title:
+    children:
+      - title:  车辆检测
+        url:    /assets/category/work/CV_2D/vehicle/detection.html
+      - title:  车辆分割
+        url:    /assets/category/work/CV_2D/vehicle/segmentation.html
+      - title:  车辆识别
+        url:    /assets/category/work/CV_2D/vehicle/recognition.html
+      - title:  车辆重识别
+        url:    /assets/category/work/CV_2D/vehicle/reid.html
+
 Traffic:
   - title:
     children:
@@ -1322,13 +1345,15 @@ Traffic:
   - title:
     children:
       - title:  车辆分析
-        url:    /assets/category/work/CV_2D/traffic/vehicle_analysis.html
+        url:    /assets/category/work/CV_2D/vehicle.html
       - title:  路况分析
         url:    /assets/category/work/CV_2D/traffic/event_analysis.html
       - title:  交通信息检测
         url:    /assets/category/work/CV_2D/traffic/semantic_analysis.html
       - title:  自动驾驶
         url:    /assets/category/work/CV_2D/traffic/auto_drive.html
+      - title:  驾驶员分析
+        url:    /assets/category/work/CV_2D/traffic/driver_analysis.html
 
 Linux:
   - title:

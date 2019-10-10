@@ -325,7 +325,13 @@ ECCV 2018 *2018* [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Z
 **PRNet**:发布了一个包含 250k 图的中国车牌数据集 CCPD，每个标注包含 1 个 box，4 个定位点，及文字 GT；   
 对不同尺度的特征图进行 ROIPooling，拼接后进行识别；只是一个 BaseLine 方案；     
 
-# 7 数据生成
+# 7 数据集
+## 7.1 数据集
+1. [MIDV-2019: Challenges of the modern mobile-based document OCR](http://cn.arxiv.org/abs/1910.04009)     
+*2019-10-09* [paper](https://arxiv.org/abs/1910.04009) | [数据集](ftp://smartengines.com/midv-500/extra/midv-2019/)   
+公开了一个自然场景下拍摄的身份证件数据集；    
+
+## 7.2 数据生成
 1. [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator)     
 
 1. [awesome-SynthText](https://github.com/TianzhongSong/awesome-SynthText)     

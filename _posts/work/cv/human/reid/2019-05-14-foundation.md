@@ -73,30 +73,45 @@ tags: 资源
 [Paper](https://arxiv.org/abs/1707.00408)   
 
 1. [Domain Adaptation through Synthesis for Unsupervised Person Re-identification](http://cn.arxiv.org/abs/1804.10094)    
-[2018.4.26] [Paper](https://arxiv.org/abs/1804.10094)   
+*2018-4-26* [Paper](https://arxiv.org/abs/1804.10094)   
 
 1. [Learning Deep Feature Representations with Domain Guided Dropout for Person Re-identification](http://cn.arxiv.org/abs/1604.07528)    
-[2016.4.26] [Paper](https://arxiv.org/abs/1604.07528)   
+*2016-4-26* [Paper](https://arxiv.org/abs/1604.07528)   
 code-caffe https://github.com/Cysu/dgd_person_reid
 
 1. [A Discriminatively Learned CNN Embedding for Person Re-identification](http://cn.arxiv.org/abs/1611.05666)    
-[2016.11.17] [Paper](https://arxiv.org/abs/1611.05666)    
+*2016-11-17* [Paper](https://arxiv.org/abs/1611.05666)    
 code-caffe https://github.com/D-X-Y/caffe-reid
 
 1. [A Discriminatively Learned CNN Embedding for Person Re-identification]()    
-[2016.11.17-2017.2.3] https://arxiv.org/abs/1611.05666
+*2016-11-17* https://arxiv.org/abs/1611.05666
+
 1. [【PCB】Beyond Part Models: Person Retrieval with Refined Part Pooling (and a Strong Convolutional
   Baseline)](http://cn.arxiv.org/abs/1711.09349)    
-[2017.11.26 - 2018.1.9] [Paper](https://arxiv.org/abs/1711.09349)    
+*2017-11-26* [Paper](https://arxiv.org/abs/1711.09349)    
 
 1. [Camera Style Adaptation for Person Re-identification](http://cn.arxiv.org/abs/1711.10295)    
-[2017.11.28 - 2018.4.10] [Paper](https://arxiv.org/abs/1711.10295)   
+*2017-11-28* [Paper](https://arxiv.org/abs/1711.10295)   
 
 1. [Harmonious Attention Network for Person Re-Identification](http://cn.arxiv.org/abs/1802.08122)    
-[2018.2.22] [Paper](https://arxiv.org/abs/1802.08122)   
+*2018-02-22* [Paper](https://arxiv.org/abs/1802.08122)   
 https://mp.weixin.qq.com/s/iotqiyRrH4kwWmBvYi-tMQ
 8,22,23效果差不多，Rank@1=88.24%, mAP=70.68%
 2,21，Rank@1大体都在70~80
+
+1. [View Confusion Feature Learning for Person Re-identification](http://cn.arxiv.org/abs/1910.03849)    
+ICCV 2019 *2019-10-09* [paper](https://arxiv.org/abs/1910.03849)    
+视角融合；    
+
+1. [A Semi-Supervised Maximum Margin Metric Learning Approach for Small Scale Person Re-identification](http://cn.arxiv.org/abs/1910.03905)    
+*2019-10-09* [paper](https://arxiv.org/abs/1910.03905)    
+
+1. [Multiple Kernel Fisher Discriminant Metric Learning for Person Re-identification](http://cn.arxiv.org/abs/1910.03923)    
+*2019-10-09* [paper](https://arxiv.org/abs/1910.03923)   
+设计了新的度量方式；    
+
+1. [Person re-identification based on Res2Net network](http://cn.arxiv.org/abs/1910.04061)    
+*2019-10-08* [paper](https://arxiv.org/abs/1910.04061)    
 
 
 # 4 基于视频

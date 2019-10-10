@@ -27,6 +27,11 @@ tags: 资源
 1. [A Comprehensive Survey of Deep Learning for Image Captioning](https://arxiv.org/abs/1810.04020)     
 *2018-10-06* [paper](https://arxiv.org/abs/1810.04020)    
 
+## 3.3 生成文学作品
+1. [Prose for a Painting](http://cn.arxiv.org/abs/1910.03634)     
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03634)    
+以英文为例，为画作生成莎士比亚风格的散文；    
+说公开了模型和代码，但是没有看到；    
 
 # 4 扩展技术
 ## 4.1 注意力

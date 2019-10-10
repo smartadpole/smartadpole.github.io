@@ -198,6 +198,11 @@ ICCV 2017 oral 中科院深圳先进·院乔宇
 *2017-07-04* [paper](https://arxiv.org/abs/1707.00803)   
 2017 google cloud & YouTube-8M 挑战赛第四名作品；   
 
+## 5.7 图网络
+1. [Graph-based Spatial-temporal Feature Learning for Neuromorphic Vision Sensing](http://cn.arxiv.org/abs/1910.03579)     
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03579)      
+能够保持事件区间，具有连续性；      
+
 # 6 扩展技术
 ## 6.1 注意力
 1. [Action Recognition using Visual Attention](http://cn.arxiv.org/abs/1511.04119)   

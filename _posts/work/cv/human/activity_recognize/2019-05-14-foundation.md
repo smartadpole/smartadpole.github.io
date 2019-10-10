@@ -12,8 +12,16 @@ tags: 资源
 
 <!--more-->
 
-# 1 Paper  
-## 1.1 综述  
+`Face Anti-Spoofing` · `activity recognize`    
+
+# 1 综述  
+
+# 2 理论
+
+# 3 活性检测
+1. [Learning deep forest with multi-scale Local Binary Pattern features for face anti-spoofing](http://cn.arxiv.org/abs/1910.03850)     
+*2019-10-09* [paper](https://arxiv.org/abs/1910.03850)    
+非深度学习方法；    
 
 
 -------------------  

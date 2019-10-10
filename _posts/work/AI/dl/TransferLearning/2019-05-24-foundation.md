@@ -14,11 +14,25 @@ tags: 资源
 
 # 2 域适应
 1. [Joint Information Preservation for Heterogeneous Domain Adaptation](https://arxiv.org/abs/1905.08924)   
-*2019-05-22* [paper](https://arxiv.org/abs/1905.08924)
+*2019-05-22* [paper](https://arxiv.org/abs/1905.08924)      
 
-# 3 其他
+1. [MixMatch Domain Adaptaion: Prize-winning solution for both tracks of VisDA 2019 challenge](http://cn.arxiv.org/abs/1910.03903)     
+ICCV 2019 *2019-10-09* [paper](https://arxiv.org/abs/1910.03903) | [VisDA](http://ai.bu.edu/visda-2019/) | [tensorflow](https://github.com/filaPro/visda2019)-official        
+
+
+# 3 元迁移
+1. [Meta-Transfer Learning for Few-Shot Learning](http://cn.arxiv.org/abs/1812.02391)    
+cvpr 2019 *2018-12-06* [paper](https://arxiv.org/abs/1812.02391)    
+
+1. [Meta-Transfer Learning through Hard Tasks](http://cn.arxiv.org/abs/1910.03648)    
+*2019-10-07* [paper](https://arxiv.org/abs/1910.03648)    
+上篇文章的扩展；     
+
+# 4 其他
 [Brain-mediated Transfer Learning of Convolutional Neural Networks](http://cn.arxiv.org/abs/1905.10037)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10037)   
+
+
 
 -------------------  
 [End](#head)

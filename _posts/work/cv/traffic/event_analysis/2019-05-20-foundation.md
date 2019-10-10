@@ -28,9 +28,14 @@ tags: 资源
 # 7 隧道烟雾
 
 # 8 行人
+## 8.1 2D
 1. [Fast Estimating Pedestrian Moving State Based on Single 2D Body Pose by Shallow Neural Network](http://cn.arxiv.org/abs/1907.04361)   
 *2019-07-09* [paper](https://arxiv.org/abs/1907.04361)   
 使用浅层网络通过人体姿态判断移动状态；   
+
+1. [Intention Recognition of Pedestrians and Cyclists by 2D Pose Estimation](http://cn.arxiv.org/abs/1910.03858)    
+*2019-10-09* [paper](https://arxiv.org/abs/1910.03858)     
+
 
 # 9 抛撒物
 

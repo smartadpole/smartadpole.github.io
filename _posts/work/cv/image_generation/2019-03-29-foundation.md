@@ -103,7 +103,10 @@ ECCV 2018 *2018-07-26* [Paper](https://arxiv.org/abs/1807.10267) | [Tensorflow](
 2018 [Paper](https://arxiv.org/abs/1803.08495) | [Tensorflow](https://github.com/kchen92/text2shape/)-Offical WGAN | [Project](http://text2shape.stanford.edu/)      
 根据文本生成彩色三维图像，使用了 Wasserstein GAN；  
 
-
+# 10 序列
+1. [Unaligned Image-to-Sequence Transformation with Loop Consistency](http://cn.arxiv.org/abs/1910.04149)     
+*2019-10-09* [paper](https://arxiv.org/abs/1910.04149)   
+季节和人脸衰老的生成；     
 
 -------------------  
  End

@@ -365,15 +365,23 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 ## 5.1 人
 ### 5.1.1 人脸检测
 ### 5.1.2 行人检测
+1. [Detection and Identification of Objects and Humans in Thermal Images](http://cn.arxiv.org/abs/1910.03617)    
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03617)    
+红外图像，消防场景人体检测和识别；   
+
+*仿照后边的分类，应该是也要单列出来的*   
 
 ## 5.2 [文本](/cv/ocr/2019/07/27/foundation.html#4-文本检测)
 
 ## 5.3 交通
-### 5.3.1 车道线检测
+### 5.3.1 [车道线检测](/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
 ### 5.3.2 交通标志检测
 [keras](https://github.com/kuhung/SSD_keras)    
-### 5.3.3 车辆检测
+### 5.3.3 [车辆检测](/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
 ### 5.3.4 船体检测
+### 5.3.5 [安全带检测](/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)
+
+*类别待整理*   
 
 ## 5.4 商品
 ### 5.4.1 Logo 检测
@@ -394,7 +402,10 @@ CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)
 *2019-01-29* [Paper](https://arxiv.org/abs/1901.10077)   
 云层检测   
 
-# 6 3D 检测
+
+# 6 3D
+1. [Patch Refinement -- Localized 3D Object Detection](http://cn.arxiv.org/abs/1910.04093)     
+NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04093)    
 
 
 -------------------  

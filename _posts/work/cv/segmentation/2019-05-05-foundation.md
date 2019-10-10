@@ -112,6 +112,9 @@ MICCAI 2019 *2019-07-01* [paper](https://arxiv.org/abs/1907.00641)
 
 ## 1.8 [人](/cv/human/human_segmentation/2019/05/14/foundation.html)
 
+## 1.9 交通
+### 1.9.1 [车辆](/cv/vehicle/vehicle_segmentation/2019/10/10/foundation.html)
+### 1.9.2 交通标志   
 
 # 2 序列
 1. [RVOS: End-to-End Recurrent Network for Video Object Segmentation](http://cn.arxiv.org/abs/1903.05612)   
@@ -133,6 +136,11 @@ ECCV 2018 [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_
 ## 3.3 深度图
 1. [RFBNet: Deep Multimodal Networks with Residual Fusion Blocks for RGB-D Semantic Segmentation](http://cn.arxiv.org/abs/1907.00135)   
 *2019-06-29* [paper](https://arxiv.org/abs/1907.00135)   
+
+# 4 全景分割
+1. [Fast Panoptic Segmentation Network](http://cn.arxiv.org/abs/1910.03892)    
+*2019-10-09* [paper](https://arxiv.org/abs/1910.03892)    
+
 
 -------------------  
 [End](#head)

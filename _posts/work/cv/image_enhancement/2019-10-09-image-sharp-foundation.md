@@ -22,17 +22,23 @@ tags: 资源
 ## 3.1 去雾
 
 ## 3.2 去水珠
-
-## 3.3 水下摄影
 1. [Underwater Color Restoration Using U-Net Denoising Autoencoder](http://cn.arxiv.org/abs/1905.09000)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09000)   
 自编码；     
 
+1. [Gradient Information Guided Deraining with A Novel Network and Adversarial Training](http://cn.arxiv.org/abs/1910.03839)     
+*2019-10-09* [paper](https://arxiv.org/abs/1910.03839)     
+使用 GAN，并设计了 Sobel 卷积层助力网络拟合；    
+
 ## 3.4 去气流
-1. [ATFaceGAN: Single Face Image Restoration and Recognition from Atmospheric Turbulence](https://arxiv.org/abs/1910.03119)    
+1. [ATFaceGAN: Single Face Image Restoration and Recognition from Atmospheric Turbulence](http://cn.arxiv.org/abs/1910.03119)    
 *2019-10-07* [paper](https://arxiv.org/abs/1910.03119)     
 针对人脸做恢复；     
 
+## 3.5 去模糊
+1. [Semantic-aware Image Deblurring](http://cn.arxiv.org/abs/1910.03853)    
+*2019-10-09* [paper](https://arxiv.org/abs/1910.03853)     
+GAN;    
 
 -------------------  
 [End](#head)   

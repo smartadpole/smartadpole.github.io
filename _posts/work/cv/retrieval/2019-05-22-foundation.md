@@ -415,7 +415,7 @@ PyTorch: https://github.com/bnulihaixia/Deep_metric
 [paper](https://arxiv.org/abs/1808.04469)  
 https://github.com/littleredxh/DREML  
 
-# 4 应用
+# 4 技术方向
 ## 4.1 检索
 
 1. [Using Very Deep Autoencoders for Content-Based Image Retrieval](https://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf)  
@@ -770,11 +770,17 @@ IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03152)    
 先检测再检索；    
 
-# 5 改进方向
-## 5.1 零样本检索
+## 4.5 零样本检索
 1. [Semantic-Aware Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval](http://cn.arxiv.org/abs/1904.03208)     
 ICCV 2019 *2019-04-05* [paper](https://arxiv.org/abs/1904.03208)    
 `什么是零样本检索`{:.warning}     
+
+
+# 5 应用
+## 5.1 地标检索
+1. [TraffickCam: Explainable Image Matching For Sex Trafficking Investigations](http://cn.arxiv.org/abs/1910.03455)    
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03455)    
+地标检索助力人口贩卖；    
 
 
 

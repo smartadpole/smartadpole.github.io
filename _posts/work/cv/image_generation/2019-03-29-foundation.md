@@ -20,6 +20,10 @@ tags: 资源
 # 4 风格迁移
 ## 4.1 美颜
 
+## 4.2 艺术
+1. [Multi-Source Domain Adaptation and Semi-Supervised Domain Adaptation with Focus on Visual Domain Adaptation Challenge 2019](https://arxiv.org/abs/1910.03548)     
+VisDA-2019 *2019-10-08* [paper](https://arxiv.org/abs/1910.03548) | [pytorch](https://github.com/Panda-Peter/visda2019-multisource)-多源-official | [pytorch](https://github.com/Panda-Peter/visda2019-semisupervised)-半监督-official     
+
 # 5 图像编辑
 ## 5.1 人脸编辑
 

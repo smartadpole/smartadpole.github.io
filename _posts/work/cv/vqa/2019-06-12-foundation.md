@@ -28,7 +28,13 @@ tags: 资源
 *2018-10-06* [paper](https://arxiv.org/abs/1810.04020)    
 
 
-# 4 视觉问答
+# 4 扩展技术
+## 4.1 注意力
+1. [Modulated Self-attention Convolutional Network for VQA](http://cn.arxiv.org/abs/1910.03343)     
+NIPS 2019 workshop *2019-10-08* [paper](https://arxiv.org/abs/1910.03343)    
+
+
+
 
 
 -------------------  

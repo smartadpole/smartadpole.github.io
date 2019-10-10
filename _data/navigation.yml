@@ -271,6 +271,8 @@ CV:
         url:    /assets/category/work/CV_2D/medical.html
       - title:  农业
         url:    /assets/category/work/CV_2D/agriculture.html
+      - title:  工业
+        url:    /assets/category/work/CV_2D/industry.html
       - title:  自然
         url:    /assets/category/work/CV_2D/nature.html
       - title:  安全隐私
@@ -1361,6 +1363,17 @@ LinuxCMD:
         url:    /linux/linuxcommand/2019/05/15/install_software.html
       - title:  编辑器
         url:    /linux/linuxcommand/2019/05/15/editors.html
+
+INDUSTRY:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/CV_2D/cv.html
+
+  - title:	
+    children:
+      - title:  工业检测
+        url:    /assets/category/work/CV_2D/industry/defect_inspection.html
 
 Shell:
   - title:

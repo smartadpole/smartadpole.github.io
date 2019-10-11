@@ -15,10 +15,7 @@ tags: 资源
 
 # 1 综述
 
-# 2 损失函数设计
-1. [AM-LFS: AutoML for Loss Function Search](http://cn.arxiv.org/abs/1905.07375)   
-*2019-05-17* [paper](https://arxiv.org/abs/1905.07375)    
-使用强化学习自动设计损失函数    
+# 2 理论
 
 # 3 神经网络搜索
 ## 3.1 通用网络
@@ -33,6 +30,18 @@ EENA:具有导向性地神经网络自动搜索；
 1. [Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells](http://cn.arxiv.org/abs/1810.10804)   
 CVPR 2019 *2018-10-28* [paper](https://arxiv.org/abs/1810.10804)     
 $\bullet \bullet$   
+
+# 4 改进
+## 4.1 损失函数设计
+1. [AM-LFS: AutoML for Loss Function Search](http://cn.arxiv.org/abs/1905.07375)   
+*2019-05-17* [paper](https://arxiv.org/abs/1905.07375)    
+使用强化学习自动设计损失函数    
+
+## 4.2 加速
+1. [Searching for A Robust Neural Architecture in Four GPU Hours](http://cn.arxiv.org/abs/1910.04465)      
+CVPR 2019 改进版 *2019-10-10* [paper](https://arxiv.org/abs/1910.04465) | [pytorch](https://github.com/D-X-Y/NAS-Projects)-official          
+
+
 
 -------------------  
 [End](#head)

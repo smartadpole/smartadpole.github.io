@@ -362,14 +362,7 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 
 
 # 5 应用场景
-## 5.1 人
-### 5.1.1 人脸检测
-### 5.1.2 行人检测
-1. [Detection and Identification of Objects and Humans in Thermal Images](http://cn.arxiv.org/abs/1910.03617)    
-*2019-10-08* [paper](https://arxiv.org/abs/1910.03617)    
-红外图像，消防场景人体检测和识别；   
-
-*仿照后边的分类，应该是也要单列出来的*   
+## 5.1 [人](/cv/human/human_detection/2019/10/11/foundation.html)
 
 ## 5.2 [文本](/cv/ocr/2019/07/27/foundation.html#4-文本检测)
 

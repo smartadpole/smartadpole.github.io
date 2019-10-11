@@ -94,7 +94,7 @@ docs-en:
   - title:      应用
     children:
       - title:  计算机视觉
-        url:    /assets/category/work/CV_2D/cv.html
+        url:    /assets/category/work/CV/cv.html
       - title:  自然语言处理
         url:    /assets/category/work/NLP/NLP.html
       - title:  语音识别
@@ -234,82 +234,81 @@ CV:
   - title:      通用任务
     children:
       - title:  基础知识
-        url:    /assets/category/work/CV_2D/foundation.html
+        url:    /assets/category/work/CV/foundation.html
       - title:  数据增强
-        url:    /assets/category/work/CV_2D/data_augementation.html
+        url:    /assets/category/work/CV/data_augementation.html
       - title:  分类
-        url:    /assets/category/work/CV_2D/image_classify.html
+        url:    /assets/category/work/CV/image_classify.html
       - title:  检测
-        url:    /assets/category/work/CV_2D/detect.html
+        url:    /assets/category/work/CV/detect.html
       - title:  分割
-        url:    /assets/category/work/CV_2D/segment.html
+        url:    /assets/category/work/CV/segment.html
       - title:  跟踪
-        url:    /assets/category/work/CV_2D/tracking.html
+        url:    /assets/category/work/CV/tracking.html
       - title:  检索
-        url:    /assets/category/work/CV_2D/retrieval.html
+        url:    /assets/category/work/CV/retrieval.html
       - title:  图像增强
-        url:    /assets/category/work/CV_2D/image_enhancement.html
+        url:    /assets/category/work/CV/image_enhancement.html
       - title:  图像生成
-        url:    /assets/category/work/CV_2D/image_generation.html
+        url:    /assets/category/work/CV/image_generation.html
       - title:  多模态融合
-        url:    /assets/category/work/CV_2D/multimodal.html
+        url:    /assets/category/work/CV/multimodal.html
       - title:  对抗攻击
-        url:    /assets/category/work/CV_2D/adversarial_attack.html
+        url:    /assets/category/work/CV/adversarial_attack.html
       - title:  视觉可供性
-        url:    /assets/category/work/CV_2D/affordance.html
+        url:    /assets/category/work/CV/affordance.html
 
-
-  - title:      特定目标
-    children:
-      - title:  人
-        url:    /assets/category/work/CV_2D/human.html
-      - title:  车
-        url:    /assets/category/work/CV_2D/vehicle.html
-      - title:  OCR
-        url:    /assets/category/work/CV_2D/ocr.html
 
   - title:      专题
     children:
-      - title:  交通
-        url:    /assets/category/work/CV_2D/traffic.html
-      - title:  医疗
-        url:    /assets/category/work/CV_2D/medical.html
-      - title:  农业
-        url:    /assets/category/work/CV_2D/agriculture.html
-      - title:  工业
-        url:    /assets/category/work/CV_2D/industry.html
-      - title:  自然
-        url:    /assets/category/work/CV_2D/nature.html
-      - title:  媒体
-        url:    /assets/category/work/CV_2D/media.html
-      - title:  安全
-        url:    /assets/category/work/CV_2D/info_security.html
+      - title:  人
+        url:    /assets/category/work/CV/human.html
+      - title:  车
+        url:    /assets/category/work/CV/vehicle.html
+      - title:  OCR
+        url:    /assets/category/work/CV/ocr.html
+      - title:  情感分析
+        url:    /assets/category/work/CV/sentiment_analysis.html
 
+  - title:      应用
+    children:
+      - title:  交通
+        url:    /assets/category/work/CV/traffic.html
+      - title:  医疗
+        url:    /assets/category/work/CV/medical.html
+      - title:  农业
+        url:    /assets/category/work/CV/agriculture.html
+      - title:  工业
+        url:    /assets/category/work/CV/industry.html
+      - title:  自然
+        url:    /assets/category/work/CV/nature.html
+      - title:  安全
+        url:    /assets/category/work/CV/info_security.html
 
   - title:      NLP
     children:
       - title:  视觉问答
-        url:    /assets/category/work/CV_2D/vaq.html
+        url:    /assets/category/work/CV/vaq.html
 
   - title:      3D
     children:
       - title:  视角转换
-        url:    /assets/category/work/CV_3D/view_synthesis.html
+        url:    /assets/category/work/CV/3D/view_synthesis.html
       - title:  三维重建
-        url:    /assets/category/work/CV_3D/3D_reconstruction.html
+        url:    /assets/category/work/CV/3D/3D_reconstruction.html
       - title:  点云处理
-        url:    /assets/category/work/CV_3D/point_cloud.html
+        url:    /assets/category/work/CV/3D/point_cloud.html
       - title:  姿态估计
-        url:    /assets/category/work/CV_3D/pose_estimation.html
+        url:    /assets/category/work/CV/3D/pose_estimation.html
       - title:  关键点检测
-        url:    /assets/category/work/CV_3D/key_point.html
+        url:    /assets/category/work/CV/3D/key_point.html
       - title:  深度估计
-        url:    /assets/category/work/CV_3D/depth_prediction.html
+        url:    /assets/category/work/CV/3D/depth_prediction.html
 
   - title:      行情
     children:
       - title:  公司
-        url:    /assets/category/work/CV_3D/company.html
+        url:    /assets/category/work/CV/3D/company.html
 
 
 Video:
@@ -1268,92 +1267,114 @@ Human:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV_2D/cv.html
+        url:    /assets/category/work/CV/cv.html
 
   - title:	静态
     children:
+      - title:  人体检测
+        url:    /assets/category/work/CV/human/detect.html
       - title:  人体分割
-        url:    /assets/category/work/CV_2D/human/human_segmentation.html
+        url:    /assets/category/work/CV/human/segmentation.html
       - title:  人脸识别
-        url:    /assets/category/work/CV_2D/human/face_recognize.html
+        url:    /assets/category/work/CV/human/face_recognize.html
       - title:  人脸对齐
-        url:    /assets/category/work/CV_2D/human/face_align.html
+        url:    /assets/category/work/CV/human/face_align.html
       - title:  人脸关键点
-        url:    /assets/category/work/CV_2D/human/facial_landmark.html
+        url:    /assets/category/work/CV/human/facial_landmark.html
       - title:  表观分析
-        url:    /assets/category/work/CV_2D/human/apparent_analysis.html
+        url:    /assets/category/work/CV/human/apparent_analysis.html
       - title:  人群计数
-        url:    /assets/category/work/CV_2D/human/crowd_count.html
+        url:    /assets/category/work/CV/human/crowd_count.html
 
   - title:	动态
     children:
       - title:  手势识别
-        url:    /assets/category/work/CV_2D/human/gesture_recognition.html
+        url:    /assets/category/work/CV/human/gesture_recognition.html
       - title:  唇语识别
-        url:    /assets/category/work/CV_2D/human/lip_reading.html
+        url:    /assets/category/work/CV/human/lip_reading.html
       - title:  视线追踪
-        url:    /assets/category/work/CV_2D/human/eye_gaze_tracking.html
+        url:    /assets/category/work/CV/human/eye_gaze_tracking.html
       - title:  姿态估计
-        url:    /assets/category/work/CV_2D/human/pose_estimation.html
+        url:    /assets/category/work/CV/human/pose_estimation.html
       - title:  活性检测
-        url:    /assets/category/work/CV_2D/human/activity_recognize.html
+        url:    /assets/category/work/CV/human/activity_recognize.html
 
   - title:	重识别
     children:
       - title:  步态识别
-        url:    /assets/category/work/CV_2D/human/gait_recognition.html
+        url:    /assets/category/work/CV/human/gait_recognition.html
       - title:  人脸验证
-        url:    /assets/category/work/CV_2D/human/face_verify.html
+        url:    /assets/category/work/CV/human/face_verify.html
       - title:  行人重识别
-        url:    /assets/category/work/CV_2D/human/reid.html
+        url:    /assets/category/work/CV/human/reid.html
 
   - title:	生成
     children:
       - title:  人脸生成
-        url:    /assets/category/work/CV_2D/human/face_generation.html
+        url:    /assets/category/work/CV/human/face_generation.html
       - title:  人脸修复
-        url:    /assets/category/work/CV_2D/human/facial_inpaint.html
+        url:    /assets/category/work/CV/human/facial_inpaint.html
       - title:  人脸编辑
-        url:    /assets/category/work/CV_2D/human/facial_attribute_editing.html
+        url:    /assets/category/work/CV/human/facial_attribute_editing.html
       - title:  美容美发
-        url:    /assets/category/work/CV_2D/human/makeup.html
+        url:    /assets/category/work/CV/human/makeup.html
       - title:  虚拟试衣间
-        url:    /assets/category/work/CV_2D/human/fitting_room.html
+        url:    /assets/category/work/CV/human/fitting_room.html
+      - title:  动作迁移
+        url:    /assets/category/work/CV/human/action_retarget.html
 
 
 VEHICLE:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV_2D/cv.html
+        url:    /assets/category/work/CV/cv.html
   - title:
     children:
       - title:  车辆检测
-        url:    /assets/category/work/CV_2D/vehicle/detection.html
+        url:    /assets/category/work/CV/vehicle/detection.html
       - title:  车辆分割
-        url:    /assets/category/work/CV_2D/vehicle/segmentation.html
+        url:    /assets/category/work/CV/vehicle/segmentation.html
       - title:  车辆识别
-        url:    /assets/category/work/CV_2D/vehicle/recognition.html
+        url:    /assets/category/work/CV/vehicle/recognition.html
       - title:  车辆重识别
-        url:    /assets/category/work/CV_2D/vehicle/reid.html
+        url:    /assets/category/work/CV/vehicle/reid.html
 
 Traffic:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV_2D/cv.html
-  - title:
+        url:    /assets/category/work/CV/cv.html
+  - title:	交通监管
     children:
-      - title:  车辆分析
-        url:    /assets/category/work/CV_2D/vehicle.html
+      - title:  车辆识别
+        url:    /assets/category/work/CV/traffic/vehicle_recognition.html
+      - title:  车辆重识别
+        url:    /assets/category/work/CV/traffic/vehicle_reid.html
       - title:  路况分析
-        url:    /assets/category/work/CV_2D/traffic/event_analysis.html
+        url:    /assets/category/work/CV/traffic/event_analysis.html
       - title:  交通信息检测
-        url:    /assets/category/work/CV_2D/traffic/semantic_analysis.html
-      - title:  自动驾驶
-        url:    /assets/category/work/CV_2D/traffic/auto_drive.html
+        url:    /assets/category/work/CV/traffic/analysis.html
+
+  - title:	辅助驾驶
+    children:
       - title:  驾驶员分析
-        url:    /assets/category/work/CV_2D/traffic/driver_analysis.html
+        url:    /assets/category/work/CV/traffic/driver_analysis.html
+
+  - title:	自动驾驶
+    children:
+      - title:  车辆检测
+        url:    /assets/category/work/CV/traffic/vehicle_detection.html
+      - title:  车辆分割
+        url:    /assets/category/work/CV/traffic/vehicle_segmentation.html
+      - title:  交通信号识别
+        url:    /assets/category/work/CV/traffic/signals_recognition.html
+      - title:  交通意图分析
+        url:    /assets/category/work/CV/traffic/intention_analysis.html
+      - title:  自动驾驶
+        url:    /assets/category/work/CV/traffic/auto_drive.html
+
+
 
 Linux:
   - title:
@@ -1393,12 +1414,12 @@ INDUSTRY:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV_2D/cv.html
+        url:    /assets/category/work/CV/cv.html
 
   - title:	
     children:
       - title:  工业检测
-        url:    /assets/category/work/CV_2D/industry/defect_inspection.html
+        url:    /assets/category/work/CV/industry/defect_inspection.html
 
 Shell:
   - title:
@@ -1454,12 +1475,12 @@ InfoSecurity:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV_2D/cv.html
+        url:    /assets/category/work/CV/cv.html
 
   - title:
     children:
       - title:  数字水印
-        url:    /assets/category/work/CV_2D/info_security/digital_watermarking.html
+        url:    /assets/category/work/CV/info_security/digital_watermarking.html
 
 NDVR:
   - title:
@@ -1484,7 +1505,7 @@ ImageRetrieval:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV_2D/retrieval.html
+        url:    /assets/category/work/CV/retrieval.html
 
   - title:	图像检索
     children:

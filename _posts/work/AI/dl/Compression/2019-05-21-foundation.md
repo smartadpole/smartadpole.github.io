@@ -41,6 +41,10 @@ CVPR 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00274)
 1. [Learning Low-Rank Approximation for CNNs](http://cn.arxiv.org/abs/1905.10145)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10145)   
 
+1. [Traned Rank Pruning for Efficient Deep Neural Networks](http://cn.arxiv.org/abs/1910.04576)     
+NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04576)      
+认为离线低秩分解误差太大，于是将其集成到训练过程；    
+
 # 6 权值量化
 1. [Integer Discrete Flows and Lossless Compression](http://cn.arxiv.org/abs/1905.07376)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07376)   
@@ -57,6 +61,9 @@ $\bullet \bullet$
 1. [AVD: Adversarial Video Distillation](http://cn.arxiv.org/abs/1907.05640)    
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05640)     
 
+1. [Cross-modal knowledge distillation for action recognition](http://cn.arxiv.org/abs/1910.04641)    
+NIPS 2019 *2019-10-10* [paper](https://arxiv.org/abs/1910.04641)    
+跨模态知识蒸馏（动作识别），使用交叉熵损失代替 KL 散度；认为其对于小数据集效果更好；   
 
 # 8 嵌入式加速
 1. [Closing the Accuracy Gap in an Event-Based Visual Recognition Task](http://cn.arxiv.org/abs/1906.08859)    

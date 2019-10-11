@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Computer Vision·Media
-    zh:       媒体
-    zh-Hans:  媒体
-    zh-Hant:  媒体
+    en:       Vehicle Recognition
+    zh:       车辆识别
+    zh-Hans:  车辆识别
+    zh-Hant:  车辆识别
 sidebar:
-    nav: CV
+    nav: Traffic
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "media" %}
+        {% if cat[0] == "vehicle_recognition" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

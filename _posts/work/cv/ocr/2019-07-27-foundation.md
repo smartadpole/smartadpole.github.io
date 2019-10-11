@@ -173,6 +173,8 @@ CVPR 2018 *2018-02-25* 白翔组 [paper](https://arxiv.org/abs/1802.08948) | [py
 
 
 ### 4.4.3 不规则文字
+1. [On Recognizing Texts of Arbitrary Shapes with 2D Self-Attention](http://cn.arxiv.org/abs/1910.04396)    
+*2019-10-10* [paper](https://arxiv.org/abs/1910.04396)    
 
 
 

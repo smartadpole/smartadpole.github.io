@@ -76,7 +76,7 @@ CVPR 2018
 
 
 # 7 图像生成
-## 7.1 人脸生成
+## 7.1 [人脸生成](/cv/human/face_generation/2019/10/09/foundation.html)
 
 ## 7.2 场景生成
 
@@ -87,15 +87,7 @@ ECCV 2016 *2016-04-15* [paper](https://arxiv.org/abs/1604.04382) | [torch](https
 
 
 # 8 3D
-## 8.1 人脸生成
-1. [Semi-supervised Adversarial Learning to Generate Photorealistic Face Images of New Identities from 3D Morphable Model](http://cn.arxiv.org/abs/1804.03675)    
-ECCV 2018 *2018-04-10* [Paper](https://arxiv.org/abs/1804.03675) | [Tensorflow](https://github.com/barisgecer/facegan)    
-*`半监督` · `GAN` · `3D face`*   
-对比了 DCGAN、BEGAN 和 GAN-CLS；    
-
-1. [Generating 3D faces using Convolutional Mesh Autoencoders](http://cn.arxiv.org/abs/1807.10267)   
-ECCV 2018 *2018-07-26* [Paper](https://arxiv.org/abs/1807.10267) | [Tensorflow](https://github.com/anuragranj/coma)  
-自编码网络；    
+## 8.1 [人脸](/cv/human/face_generation/2019/10/09/foundation.html#4-3d)
 
 # 9 跨模态
 ## 9.1 文本
@@ -104,9 +96,7 @@ ECCV 2018 *2018-07-26* [Paper](https://arxiv.org/abs/1807.10267) | [Tensorflow](
 根据文本生成彩色三维图像，使用了 Wasserstein GAN；  
 
 # 10 序列
-1. [Unaligned Image-to-Sequence Transformation with Loop Consistency](http://cn.arxiv.org/abs/1910.04149)     
-*2019-10-09* [paper](https://arxiv.org/abs/1910.04149)   
-季节和人脸衰老的生成；     
+## 10.1 [人脸](/cv/human/face_generation/2019/10/09/foundation.html#5-序列)
 
 -------------------  
  End

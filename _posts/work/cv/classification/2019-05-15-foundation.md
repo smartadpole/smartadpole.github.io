@@ -101,6 +101,11 @@ ISIC 2019 *2019-10-09* [paper](https://arxiv.org/abs/1910.03910) | [ISIC 2019](h
 *2019-06-30* [paper](https://arxiv.org/abs/1907.00354)    
 零样本学习解决罕见疾病诊断；   
 
+### 6.8.5 肿瘤存活率
+1. [Semi-Supervised Variational Autoencoder for Survival Prediction](http://cn.arxiv.org/abs/1910.04488)    
+*2019-10-10* [paper](https://arxiv.org/abs/1910.04488)     
+弱监督分类，根据脑肿瘤分割结果预测其存活率；   
+
 
 ## 6.8 建筑
 1. [Tour the World: Building a Web-Scale Landmark Recognition Engine](http://www.cs.bilkent.edu.tr/~cansin/projects/cs554-vision/landmark-recognition/landmark-recognition-presentation.pdf)   

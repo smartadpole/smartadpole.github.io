@@ -379,7 +379,14 @@ ICLR 2019 *2019-05-16* [paper](https://arxiv.org/abs/1905.08633) | [code](https:
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08474)    
 
 
-# 8 其他
+# 8 不确定性
+>GAN 生成图像的不确定性——不连贯；     
+
+1. [Visual Indeterminacy in Generative Neural Art](http://cn.arxiv.org/abs/1910.04639)     
+NIPS 2019 workshop *2019-10-10* [paper](https://arxiv.org/abs/1910.04639)     
+
+
+# 9 其他
 1. [Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://cn.arxiv.org/abs/1506.05751)  
 *2015-01-18* [paper](https://arxiv.org/abs/1506.05751) | [torch](https://github.com/facebook/eyescream)    
 
@@ -420,6 +427,7 @@ ICLR 2017 *2016-05-31* [paper](https://arxiv.org/abs/1605.09782)
 
 1. [Generative Adversarial Networks as Variational Training of Energy Based Models](http://www.mathpubs.com/detail/1611.01799v1/Generative-Adversarial-Networks-as-Variational-Training-of-Energy-Based-Models)   
 ICLR 2017 *2016-11-06* [paper](https://arxiv.org/abs/1611.01799) | [theano](https://github.com/Shuangfei/vgan)-offical    
+
 
 
 -------------------  

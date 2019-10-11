@@ -23,6 +23,10 @@ tags: 资源
 ICCV 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.03876)     
 融合了去噪和矫正两个任务；   
 
+1. [Practical License Plate Recognition in Unconstrained Surveillance Systems with Adversarial Super-Resolution](http://cn.arxiv.org/abs/1910.04324)     
+VISAPP 2019 *2019-10-10* [paper](https://arxiv.org/abs/1910.04324)    
+
+
 # 4 车型识别
 
 # 5 车辆 LOGO 识别

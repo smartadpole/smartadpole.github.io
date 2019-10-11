@@ -267,7 +267,7 @@ CV:
         url:    /assets/category/work/CV/vehicle.html
       - title:  OCR
         url:    /assets/category/work/CV/ocr.html
-      - title:  情感分析
+      - title:  情感
         url:    /assets/category/work/CV/sentiment_analysis.html
 
   - title:      应用
@@ -287,6 +287,8 @@ CV:
 
   - title:      NLP
     children:
+      - title:  图片描述
+        url:    /assets/category/work/CV/caption.html
       - title:  视觉问答
         url:    /assets/category/work/CV/vaq.html
 

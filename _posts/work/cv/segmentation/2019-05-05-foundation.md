@@ -141,6 +141,9 @@ ECCV 2018 [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_
 1. [Fast Panoptic Segmentation Network](http://cn.arxiv.org/abs/1910.03892)    
 *2019-10-09* [paper](https://arxiv.org/abs/1910.03892)    
 
+1. [Panoptic-DeepLab](http://cn.arxiv.org/abs/1910.04751)     
+*2019-10-10* [paper](https://arxiv.org/abs/1910.04751)    
+
 
 -------------------  
 [End](#head)

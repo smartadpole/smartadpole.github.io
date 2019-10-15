@@ -38,4 +38,5 @@ category: [NLP]
 
 ## C 工程
 1. [pytorch-transformers](https://github.com/huggingface/pytorch-transformers)    
-多个预训练模型；     
+tensorflow 和 pytorch 支持的 NLP 预训练模型；     
+1. [lightKG，lightsmile个人的知识图谱技术框架](https://github.com/smilelight/lightKG)     

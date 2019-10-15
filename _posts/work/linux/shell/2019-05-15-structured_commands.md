@@ -13,6 +13,7 @@ sidebar:
 <!--more-->
 
 
+1. [将Linux命令的结果作为下一个命令的参数](https://my.oschina.net/leopardsaga/blog/112335)    
 
 
 -------------------  

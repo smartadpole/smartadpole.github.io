@@ -184,10 +184,11 @@ NIPS 2018 *2018-03-05* [paper](https://arxiv.org/abs/1803.01719)
 
 
 # 4 进阶
-## 4.1 优化
+## 4.1 优化器
 ### 4.1.1 综述
 1. [An overview of gradient descent optimization algorithms](http://cn.arxiv.org/abs/1609.04747)   
-*2016-09-15* [paper](https://arxiv.org/abs/1609.04747)   
+*2016-09-15* [paper](https://arxiv.org/abs/1609.04747) | [bolg](http://ruder.io/optimizing-gradient-descent/index.html)       
+博客的 paper 版；主要绍了 Batch gradient descent，Stochastic gradient descent，Mini-batch gradient descent 等方法；简洁明了的介绍了 Momentum，Nesterov accelerated gradient，Adagrad，Adadelta，RMSprop，Adam，AdaMax，Nadam 等；    
 
 1. [A Survey of Optimization Methods from a Machine Learning Perspective](http://cn.arxiv.org/abs/1906.06821)   
 *2019-06-17* [paper](https://arxiv.org/abs/1906.06821)    
@@ -236,6 +237,11 @@ ICLR 2014 *2014-12-22* [paper](https://arxiv.org/abs/1412.6980)
 1. [No More Pesky Learning Rates](http://cn.arxiv.org/abs/1206.1106)   
 *2012-06-06* [paper](https://arxiv.org/abs/1206.1106)   
 自适应调整学习率；   
+
+1. [YellowFin and the Art of Momentum Tuning](https://arxiv.org/abs/1706.03471)     
+*2017-06-12* [paper](https://arxiv.org/abs/1706.03471)     
+SGD 收敛慢，但是准确度比较高；    
+
 
 1. [Aggregated Momentum: Stability Through Passive Damping](http://cn.arxiv.org/abs/1804.00325)   
 *2018-04-01* [paper](https://arxiv.org/abs/1804.00325)   

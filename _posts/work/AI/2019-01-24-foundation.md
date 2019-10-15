@@ -9,11 +9,11 @@ tags: 资源
 ---
 
 
-## 一、 介绍
+# 1 介绍
 :ghost:
 
-## 附录
-### A 推荐书籍
+# 附录
+## A 推荐书籍
 
 <center class="half">
   <img src="/assets/images/AI/books/baimian_ml.jpeg" height="200"/>&emsp;<img src="/assets/images/AI/books/ml_practice.jpeg" height="200"/>&emsp;<img src="/assets/images/AI/books/lr2dl.jpeg" height="200"/>&emsp;
@@ -31,4 +31,4 @@ tags: 资源
 4. **《机器学习》**  
 `周志华. 机器学习[M]. 北京:清华大学出版社, 2016.`   
 
-### B 推荐资料
+## B 推荐资料

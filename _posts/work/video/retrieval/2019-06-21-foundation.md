@@ -230,7 +230,21 @@ LSH 改进，词袋模型；
 1. Efficient mining of multiple partial near-duplicate alignments by temporal network       
 *2010*     
 
-### 3.4.4 其他
+### 3.4.4 DL
+1. [Temporal Cycle-Consistency Learning](http://cn.arxiv.org/abs/1904.07846)     
+CVPR 2019 *2019-04-16* Google & Deepmind [paper](https://arxiv.org/abs/1904.07846) | [project](https://sites.google.com/view/temporal-cycle-consistency) | [tensorflow](https://github.com/google-research/google-research/tree/master/tcc)-official              
+
+<span id="TA3N1"></span>
+1. [Temporal Attentive Alignment for Video Domain Adaptation](http://cn.arxiv.org/abs/1905.10861)     
+CVPR 2019 workshop *2019-05-26* [paper](https://arxiv.org/abs/1905.10861) | [pytorch](https://github.com/cmhungsteve/TA3N)-official           
+与 [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](#TA3N2) 是同一团队；    
+
+<span id="TA3N2"></span>
+1. [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](http://cn.arxiv.org/abs/1907.12743)     
+ICCV 2019 oral *2019-07-30* [paper](https://arxiv.org/abs/1907.12743) | [pytorch](https://github.com/cmhungsteve/TA3N)-official | [reddit](https://www.reddit.com/r/MachineLearning/comments/cn9eqd/research_temporal_attentive_alignment_for/)        
+与 [Temporal Attentive Alignment for Video Domain Adaptation](#TA3N1) 是同一团队；    
+
+### 3.4.5 其他
 1. Efficient video copy detection via aligning video signature time series     
 *2012*    
 基于倾斜的时间对齐；对齐时引入了帧的插入、删除和替换策略；         
@@ -394,6 +408,9 @@ CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.o
 ## 4.4 基于内容的视频检索
 >Content Based Video retrieval, CBVR: 用于相似场景检测；    
 
+1. [A Fully Automated Content-Based Video Search Engine Supporting Spatiotemporal Queries](https://pdfs.semanticscholar.org/ad44/ffbad45b2de2147585016e5272a7d745cb57.pdf)     
+*1998* [paper](https://pdfs.semanticscholar.org/ad44/ffbad45b2de2147585016e5272a7d745cb57.pdf)     
+
 1. [Retrieval of News Video using Video Sequence Matching](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 *2005* [paper](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 
@@ -403,8 +420,24 @@ CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.o
 1. [Use What You Have: Video Retrieval Using Representations From Collaborative Experts](http://cn.arxiv.org/abs/1907.13487)    
 BMVC 2019 *2019-07-31* [paper](https://arxiv.org/abs/1907.13487) | [pytorch](https://github.com/albanie/collaborative-experts)-official       
 
+## 4.5 重定位
+>找到给定视频在目标视频中的位置；     
 
-## 4.5 跨模态检索
+`video relocation`     
+
+1. [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](http://cn.arxiv.org/abs/1705.08421)     
+CVPR 2018 *2018-05-23* [paper](https://arxiv.org/abs/1705.08421) | [AVA](https://research.google.com/ava/)-dataset         
+
+
+1. [Video Re-localization](http://cn.arxiv.org/abs/1808.01575)    
+ECCV 2018 *2018-08-05* 腾讯 AI Lab + 美国罗切斯特大学 [paper](https://arxiv.org/abs/1808.01575) | [tensorflow](https://github.com/fengyang0317/video_reloc)-official        
+重组ActivityNet数据集视频，生成了一个符合研究需求的新数据集，并提出一种交叉过滤的双线性匹配模型；        
+
+1. [Spatio-temporal Video Re-localization by Warp LSTM](http://cn.arxiv.org/abs/1905.03922)     
+*2019-05-10* [paper](https://arxiv.org/abs/1905.03922)     
+
+
+## 4.6 跨模态检索
 `multi-modal hashing` · `cross-modal retrieval`；    
 `siam-network`；    
 `Zero-Example Video Retrieval` · `Text-Video Retrieval`；     
@@ -425,7 +458,7 @@ BMVC 2019 *2019-07-31* [paper](https://arxiv.org/abs/1907.13487) | [pytorch](htt
 1. [多模态视频分析技术研究与应用](https://www.jishuwen.com/d/2FPy#tuit)    
 1. [优酷在多模态内容理解上的研究及应用](https://www.infoq.cn/article/xgP_eyfidAA2l5ShcCPp)     
 
-### 4.5.1 跨模态
+### 4.6.1 跨模态
 
 1. [Coupled CycleGAN: Unsupervised Hashing Network for Cross-Modal Retrieval](http://cn.arxiv.org/abs/1903.02149)    
 AAAI 2019 *2019-03-06* [paper](https://arxiv.org/abs/1903.02149)     
@@ -433,20 +466,20 @@ UCH： 为了解决跨模态散列问题，使用 GAN 将特征提取和哈希�
 
 
 
-### 4.5.2 图片
-#### 4.5.2.1 [行人重识别](/cv/human/human_reid/2019/05/14/foundation.html#352-视频)    
-#### 4.5.2.2 商品检索
+### 4.6.2 图片
+#### 4.6.2.1 [行人重识别](/cv/human/human_reid/2019/05/14/foundation.html#352-视频)    
+#### 4.6.2.2 商品检索
 1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
 **AsymNet**: 用 FasterRCNN 检测出物体，然后进行比对；          
 
-### 4.5.3 [文本](/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
+### 4.6.3 [文本](/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
 
-#### 4.5.3.1 广告植入
+#### 4.6.3.1 广告植入
 >根据输入的关键词，给出视频中与之呼应的情景片段；    
 
 
-### 4.5.4 音频
+### 4.6.4 音频
 
 1. [Content-Based Video-Music Retrieval Using Soft Intra-Modal Structure Constraint](http://cn.arxiv.org/abs/1704.06761)  
 *2017-04-22* [paper](https://arxiv.org/abs/1704.06761) | [示例](https://youtu.be/ZyINqDMo3Fg) | [tensorflow](https://github.com/csehong/VM-NET)-official    
@@ -493,3 +526,6 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 
 ## D 开源项目
 1. [ThreatExchange](https://developers.facebook.com/docs/threat-exchange/v4.0): [code](https://github.com/facebook/ThreatExchange) | [TMK + PDQF](https://github.com/facebook/ThreatExchange/tree/master/hashing/tmk)-相似视频识别 | [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq)-相似图片识别       
+
+## E 研究员
+1. [OLIVES Research](https://ghassanalregib.info/) | [github](https://github.com/olivesgatech)       

@@ -66,3 +66,10 @@ ECCV 2018 *2018-08-07* [paper](https://arxiv.org/abs/1808.02559) | [tensorflow](
 
 # 附录
 ## A 参考资料
+1. [视频的结构化描述](https://blog.csdn.net/vblittleboy/article/details/7798530)    
+1. [监控视频中异常事件检测方法研究](https://zhuanlan.zhihu.com/p/47152875)    
+1. [Video Captioning](https://www.cnblogs.com/vincentqliu/p/7806832.html)    
+1. [视频结构化相关调研](https://www.cnblogs.com/vincentqliu/p/7806821.html)    
+1. [Video Analysis 论文笔记](https://zhuanlan.zhihu.com/wzmsltw)    
+1. [视频描述（video caption）历年突破性论文总结](https://blog.csdn.net/sinat_35177634/article/details/88568491)    
+1. []

@@ -367,6 +367,8 @@ ACM Multimedia 2018 *2018-08-22* [paper](https://arxiv.org/abs/1808.07272)
 | activity-net |  | 10024+4926+5044 | 200 | |
 | 1M sport |  | 1.2 million | 487 | 每类 1k-3k 个视频 |
 
+1. [法国INRIA Data Sets & Images 数据集和图像库](http://www.voidcn.com/article/p-pujvjeut-cm.html)     
+
 ## B 渔
 - 牛人   
 [David Forsyth](http://luthuli.cs.uiuc.edu/~daf/)   
@@ -385,3 +387,6 @@ ACM Multimedia 2018 *2018-08-22* [paper](https://arxiv.org/abs/1808.07272)
 - 资源   
 [paper with code](https://paperswithcode.com/task/action-recognition/latest?page=3)
 [Awesome Action Recognition](https://github.com/jinwchoi/awesome-action-recognition)    
+
+## C 参考资料
+1. [视频行为检测&分类方案整理](https://www.jianshu.com/p/583c26bbb675)     

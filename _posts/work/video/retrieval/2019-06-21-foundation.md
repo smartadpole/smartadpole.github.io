@@ -230,6 +230,9 @@ LSH 改进，词袋模型；
 1. Efficient mining of multiple partial near-duplicate alignments by temporal network       
 *2010*     
 
+1. [Video Hyperlinking: Libraries and Tools for Threading and Visualizing Large Video Collection](http://vireo.cs.cityu.edu.hk/papers/mm12-pang.pdf)     
+*2012* [paper](http://vireo.cs.cityu.edu.hk/papers/mm12-pang.pdf) | [tool](https://sourceforge.net/projects/vireovh/)        
+
 ### 3.4.4 DL
 1. [Temporal Cycle-Consistency Learning](http://cn.arxiv.org/abs/1904.07846)     
 CVPR 2019 *2019-04-16* Google & Deepmind [paper](https://arxiv.org/abs/1904.07846) | [project](https://sites.google.com/view/temporal-cycle-consistency) | [tensorflow](https://github.com/google-research/google-research/tree/master/tcc)-official              
@@ -271,8 +274,6 @@ ICIP 2017 *2017-09* [paper](http://home.ustc.edu.cn/~pjh/publications/ICIP2017En
 1. [Burst-survive Temporal Matching Kernel with Fibonacci Periods](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0002062.pdf)     
 ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0002062.pdf) | [python](https://github.com/fyang93/BURST)          
 
-
-工具：[VIREO-VH](https://sourceforge.net/projects/vireovh/)     
 
 ## 3.5 相似度度量
 `sequence matching` · `similarity measure`    

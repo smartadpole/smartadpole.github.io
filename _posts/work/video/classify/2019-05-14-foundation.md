@@ -203,6 +203,8 @@ ICCV 2017 oral 中科院深圳先进·院乔宇
 2017 google cloud & YouTube-8M 挑战赛第四名作品；   
 
 ## 5.7 图网络
+>[图卷积网络资源](/dl/gcn/2019/10/16/foundation.html)     
+
 1. [Graph-based Spatial-temporal Feature Learning for Neuromorphic Vision Sensing](http://cn.arxiv.org/abs/1910.03579)     
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03579)      
 能够保持事件区间，具有连续性；      

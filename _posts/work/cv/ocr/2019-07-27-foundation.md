@@ -64,11 +64,7 @@ ICDAR 2019 *2019-07-01* [paper](https://arxiv.org/abs/1907.00945) | [competition
 # 4 文本检测
 >找到文字区域的位置；        
 
-## 4.1 综述
-
-## 4.2 理论
-
-## 4.3 字符
+## 4.1 字符
 >需要分离出两个模型，一个负责检测字符，一个负责合并；除了速度上的降低，还存在分步累计误差，且无法进行端到端的训练；    
 感觉都好复杂；   
 
@@ -97,8 +93,8 @@ SSD 基础上使用弱监督和半监督来扩充训练数据；单数速度较�
 >文章的亮点就在与怎么训练 SSD，但是又没有给出训练的具体细节；     
 
 
-## 4.4 文本行
-### 4.4.1 常规
+## 4.2 文本行
+### 4.2.1 常规
 1. [Reading Text in the Wild with Convolutional Neural Networks](http://cn.arxiv.org/abs/1412.1842)   
 *2014-12-04* [paper](https://arxiv.org/abs/1412.1842)   
 
@@ -127,7 +123,7 @@ $\bullet \bullet$
 1. [PixelLink: Detecting Scene Text via Instance Segmentation](http://cn.arxiv.org/abs/1801.01315)   
 AAAI 2018 *2018-01-04* [paper](https://arxiv.org/abs/1801.01315) | [tensorflow](https://github.com/ZJULearning/pixel_link)-offical        
 
-### 4.4.2 多角度
+### 4.2.2 多角度
 1. [Accurate Text Localization in Natural Image with Cascaded Convolutional TextNetwork](http://cn.arxiv.org/abs/1603.09423)   
 *2016-03-31* [paper](https://arxiv.org/abs/1603.09423)   
 
@@ -172,7 +168,7 @@ CVPR 2018 *2018-02-25* 白翔组 [paper](https://arxiv.org/abs/1802.08948) | [py
 >怎么感觉那么像 cornernet 呢；   
 
 
-### 4.4.3 不规则文字
+### 4.2.3 不规则文字
 1. [On Recognizing Texts of Arbitrary Shapes with 2D Self-Attention](http://cn.arxiv.org/abs/1910.04396)    
 *2019-10-10* [paper](https://arxiv.org/abs/1910.04396)    
 
@@ -181,16 +177,12 @@ CVPR 2018 *2018-02-25* 白翔组 [paper](https://arxiv.org/abs/1802.08948) | [py
 # 5 文字识别
 >识别出文字的内容；可以说是图片转文字；     
 
-## 5.1 综述
+## 5.1 常规
 
-## 5.2 理论
-
-## 5.3 常规
-
-### 5.3.1 CNN
+### 5.1.1 CNN
 
 
-### 5.3.2 CRNN
+### 5.1.2 CRNN
 
 1. [Reading Scene Text in Deep Convolutional Sequences](http://cn.arxiv.org/abs/1506.04395)    
 AAAI 2016 *2015-06-14* 汤晓鸥组 [paper](https://arxiv.org/abs/1506.04395)     
@@ -201,9 +193,7 @@ AAAI 2016 *2015-06-14* 汤晓鸥组 [paper](https://arxiv.org/abs/1506.04395)
 *2015-07-21* [paper](https://arxiv.org/abs/1507.05717)    
 **CRNN**:     
 
-### 5.3.3 Seq2Seq
-
-### 5.3.4 其他
+### 5.1.3 其他
 
 1. [Focusing Attention: Towards Accurate Text Recognition in Natural Images](http://cn.arxiv.org/abs/1709.02054)    
 ICCV 2017 *2017-09-07* 海康威视、复旦大学与上交 [paper](https://arxiv.org/abs/1709.02054)    
@@ -211,20 +201,13 @@ $\bullet \bullet$
 **FAN**: 注意力聚焦网络；作者发现对于低质图像，注意力会失效，也就是 attention drift——注意力不能精确联系特征向量与输入图像对应的目标区域；    
 >咋发现漂移这个事的     
 
-## 5.4 多角度
-
-## 5.5 不规则
-### 5.5.1 CNN
+## 5.2 不规则
+### 5.2.1 CNN
 1. [Scene Text Recognition from Two-Dimensional Perspective](http://cn.arxiv.org/abs/1809.06508)   
 AAAI 2019 *2018-09-18* 白翔组 [paper](https://arxiv.org/abs/1809.06508)   
 检测时加入分割，定位到每个字符的位置，然后对单个字符进行分类，以分类代替是识别；同时使用了可变形卷积，以提取文字区域不同形状的特征；   
 
-
-### 5.5.2 CRNN
-
-### 5.5.3 Seq2Seq
-
-### 5.5.4 其他
+### 5.2.2 其他
 1. [Robust Scene Text Recognition with Automatic Rectification](http://cn.arxiv.org/abs/1603.03915)    
 CVPR 2016 *2016-03-12* [paper](https://arxiv.org/abs/1603.03915)    
 使用 STN 空间仿射网络对不规则文本进行仿射变换，修正后再送入识别网络；    
@@ -239,7 +222,7 @@ CVPR 2019 *2018-11-04* [paper](https://arxiv.org/abs/1811.01396)
 CVPR 2019 *2018-12-14* [paper](https://arxiv.org/abs/1812.05824)   
 **ESIR**:设计了仿射网络；       
 
-## 5.6 其他
+## 5.3 其他
 1. [Study on Feature Extraction Methods for Character Recognition of Balinese Script on Palm Leaf Manuscript Images](https://hal.archives-ouvertes.fr/hal-01422135/document)   
 *2016* [paper](https://hal.archives-ouvertes.fr/hal-01422135/document)      
 
@@ -334,6 +317,12 @@ ECCV 2018 *2018* [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Z
 公开了一个自然场景下拍摄的身份证件数据集；    
 
 ## 7.2 数据生成
+1. [A Method to Generate Synthetically Warped Document Image](http://cn.arxiv.org/abs/1910.06621)     
+*2019-10-15* [paper](https://arxiv.org/abs/1910.06621)     
+文档图像仿射变换；     
+>感觉一个仿射变换就够了；     
+
+
 1. [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator)     
 
 1. [awesome-SynthText](https://github.com/TianzhongSong/awesome-SynthText)     

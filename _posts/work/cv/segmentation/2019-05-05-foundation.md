@@ -43,6 +43,11 @@ ICCV 2011 *2011* [paper](http://home.bharathh.info/pubs/pdfs/BharathICCV2011.pdf
 1. [ACNet: Attention Based Network to Exploit Complementary Features for RGBD Semantic Segmentation](https://arxiv.org/abs/1905.10089)   
 ICIP 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10089) | [pytorch](https://github.com/anheidelonghu/ACNet)    
 
+1. [SegSort: Segmentation by Discriminative Sorting of Segments](https://arxiv.org/abs/1910.06962)    
+ICCV 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06962) | [project](https://jyhjinghwang.github.io/projects/segsort.html) | [tensorflow](https://github.com/jyhjinghwang/SegSort)-official    
+SegSort: 大津阈值的思路；跨图像训练；    
+
+
 ### 1.5.2 GAN
 
 1.  [Adversarial Deep Structural Networks for Mammographic Mass Segmentation](http://cn.arxiv.org/abs/1611.05970)   
@@ -68,7 +73,7 @@ ICIP 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10089) | [pytorch](htt
 
 # 2 序列
 1. [RVOS: End-to-End Recurrent Network for Video Object Segmentation](http://cn.arxiv.org/abs/1903.05612)   
-CVPR 2019 (camera ready) *2019-03-13* [paper](https://arxiv.org/abs/1903.05612) | [project](https://imatge-upc.github.io/rvos/) | [pytorch](https://github.com/imatge-upc/rvos)-offical   
+CVPR 2019 (camera ready) *2019-03-13* [paper](https://arxiv.org/abs/1903.05612) | [project](https://imatge-upc.github.io/rvos/) | [pytorch](https://github.com/imatge-upc/rvos)-official   
 
 1. [OVSNet : Towards One-Pass Real-Time Video Object Segmentation](http://cn.arxiv.org/abs/1905.10064)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10064)   

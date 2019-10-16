@@ -195,6 +195,8 @@ DL:
         url:    /assets/category/work/AI/dl/forward_net.html
       - title:  卷积神经网络
         url:    /assets/category/work/AI/dl/cnn.html
+      - title:  图卷积网络
+        url:    /assets/category/work/AI/dl/gcn.html
       - title:  循环神经网络
         url:    /assets/category/work/AI/dl/rnn.html
       - title:  自编码器

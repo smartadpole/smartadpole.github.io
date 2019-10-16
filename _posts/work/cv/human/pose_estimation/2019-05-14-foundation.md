@@ -13,6 +13,7 @@ tags: 资源
 
 >又叫动作识别，给定一幅图像或一段视频，人体姿态识别就是去恢复其中人体关节点位置的过程；     
 当然，后来也发展出，根据已有的姿态序列，预测下一个姿态；       
+[视频动作识别资源](/video/video_classification/2019/05/14/foundation.html)     
 
 <!--more-->
 
@@ -20,13 +21,14 @@ tags: 资源
 # 2 理论
 
 # 3 识别
-## 3.1 图片
-### 2.2.1 头部
+## 3.1 头部
 1. [Improving Head Pose Estimation with a Combined Loss and Bounding Box Margin Adjustment](http://cn.arxiv.org/abs/1905.08609)    
 *2019-05-14* [paper](https://arxiv.org/abs/1905.08609)   
 
-## 3.2 视频
-### 3.2.1 [关键帧提取](/video/key_frame/2019/06/12/foundation.html#52-动作识别)
+## 3.2 身体
+1. [Being the center of attention: A Person-Context CNN framework for Personality Recognition](http://cn.arxiv.org/abs/1910.06690)     
+*2010-10-15* [paper](https://arxiv.org/abs/1910.06690)    
+从姿态看社会属性；    
 
 ## 3.3 3D
 1. [Patch-based 3D Human Pose Refinement](http://cn.arxiv.org/abs/1905.08231)   

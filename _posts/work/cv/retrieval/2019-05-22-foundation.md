@@ -695,6 +695,10 @@ CVPR 2019 *2018-12-04* Google [paper](https://arxiv.org/abs/1812.01584) | [tenso
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05794)   
 多层特征融合；    
 
+1. [A Compact Neural Architecture for Visual Place Recognition](http://cn.arxiv.org/abs/1910.06840)     
+*2019-10-15* [paper](https://arxiv.org/abs/1910.06840)     
+跨越白天黑夜，春夏秋冬；     
+
 ## 4.2 跨模态  
 ### 4.2.1 文本
 1. [Natural Language Object Retrieval](http://cn.arxiv.org/abs/1511.04164)  

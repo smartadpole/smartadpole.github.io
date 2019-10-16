@@ -32,6 +32,8 @@ ICCV 2017 *2017-07-27* [paper](https://arxiv.org/abs/1707.09074) | [matlab](http
 1. [VATEX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research](http://cn.arxiv.org/abs/1904.03493)    
 ICCV 2019 oral *2019-04-06* [paper](https://arxiv.org/abs/1904.03493)     
 
+1. [Integrating Temporal and Spatial Attentions for VATEX Video Captioning Challenge 2019](https://arxiv.org/abs/1910.06737)     
+ICCV 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06737)     
 
 # 4 零样本检索
 `Video-Text Retrieval` · `Text-to-Clip Retrieval` · `Zero-Example Video Retrieval`      

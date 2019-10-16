@@ -113,6 +113,9 @@ ICCV 2019 *2019-10-09* [paper](https://arxiv.org/abs/1910.03849)
 1. [Person re-identification based on Res2Net network](http://cn.arxiv.org/abs/1910.04061)    
 *2019-10-08* [paper](https://arxiv.org/abs/1910.04061)    
 
+1. [Learning Generalisable Omni-Scale Representations for Person Re-Identification](http://cn.arxiv.org/abs/1910.06827)     
+*2019-10-15* [paper](https://arxiv.org/abs/1910.06827) | [pytorch](https://github.com/KaiyangZhou/deep-person-reid)-official     
+
 
 # 4 基于视频
 1. [Video-based Person Re-identification via 3D Convolutional Networks and Non-local Attention](http://cn.arxiv.org/abs/1807.05073)   

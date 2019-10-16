@@ -28,7 +28,12 @@ cvpr 2019 *2018-12-06* [paper](https://arxiv.org/abs/1812.02391)
 *2019-10-07* [paper](https://arxiv.org/abs/1910.03648)    
 上篇文章的扩展；     
 
-# 4 其他
+# 4 多模态嵌入
+1. [Target-Oriented Deformation of Visual-Semantic Embedding Space](http://cn.arxiv.org/abs/1910.06514)     
+*2019-10-15* [paper](https://arxiv.org/abs/1910.06514)     
+
+
+# 5 其他
 [Brain-mediated Transfer Learning of Convolutional Neural Networks](http://cn.arxiv.org/abs/1905.10037)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10037)   
 

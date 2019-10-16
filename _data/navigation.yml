@@ -1376,6 +1376,32 @@ Traffic:
       - title:  自动驾驶
         url:    /assets/category/work/CV/traffic/auto_drive.html
 
+NATURE:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/CV/cv.html
+
+  - title:	
+    children:
+      - title:  基础
+        url:    /assets/category/work/CV/nature/foundation.html
+
+  - title:	自然灾害
+    children:
+      - title:  火灾
+        url:    /assets/category/work/CV/nature/fire.html
+      - title:  台风
+        url:    /assets/category/work/CV/nature/typhoon.html
+      - title:  地震
+        url:    /assets/category/work/CV/nature/earthquake.html
+
+  - title:	自然
+    children:
+      - title:  天空
+        url:    /assets/category/work/CV/nature/sky.html
+      - title:  盐体
+        url:    /assets/category/work/CV/nature/salt_bodies.html
 
 
 Linux:

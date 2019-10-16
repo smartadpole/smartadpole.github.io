@@ -27,6 +27,10 @@ tags: 资源
 1. [A Comprehensive Survey of Deep Learning for Image Captioning](https://arxiv.org/abs/1810.04020)     
 *2018-10-06* [paper](https://arxiv.org/abs/1810.04020)    
 
+1. [Exploring Overall Contextual Information for Image Captioning in Human-Like Cognitive Style](http://cn.arxiv.org/abs/1910.06475)     
+ICCV 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06475)     
+LSTM + coco；    
+
 ## 3.3 生成文学作品
 1. [Prose for a Painting](http://cn.arxiv.org/abs/1910.03634)     
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03634)    

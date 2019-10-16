@@ -11,27 +11,32 @@ tags: 资源
 <span id='head'></span>
 `pose estimation` · `action classification`    
 
->又叫动作识别，给定一幅图像或一段视频，人体姿态识别就是去恢复其中人体关节点位置的过程；   
+>又叫动作识别，给定一幅图像或一段视频，人体姿态识别就是去恢复其中人体关节点位置的过程；     
+当然，后来也发展出，根据已有的姿态序列，预测下一个姿态；       
 
 <!--more-->
 
-# 1 数据集
+# 1 综述  
+# 2 理论
 
-# 2 论文
-## 2.1 综述  
-## 2.2 图片
+# 3 识别
+## 3.1 图片
 ### 2.2.1 头部
-1. [Improving Head Pose Estimation with a Combined Loss and Bounding Box Margin Adjustment](https://arxiv.org/abs/1905.08609)    
+1. [Improving Head Pose Estimation with a Combined Loss and Bounding Box Margin Adjustment](http://cn.arxiv.org/abs/1905.08609)    
 *2019-05-14* [paper](https://arxiv.org/abs/1905.08609)   
 
-## 2.3 视频
-### 2.3.1 [关键帧提取](/video/key_frame/2019/06/12/foundation.html#52-动作识别)
+## 3.2 视频
+### 3.2.1 [关键帧提取](/video/key_frame/2019/06/12/foundation.html#52-动作识别)
 
-## 2.4 3D 姿态估计
+## 3.3 3D
 1. [Patch-based 3D Human Pose Refinement](http://cn.arxiv.org/abs/1905.08231)   
 CVPR 2019 (Augmented Human) *2019-05-20* [paper](https://arxiv.org/abs/1905.08231)   
 
 
+# 4 预测
+1. [Trajectorylet-Net: a novel framework for pose prediction based on trajectorylet descriptors](http://cn.arxiv.org/abs/1910.06583)    
+*2019-10-15* [paper](https://arxiv.org/abs/1910.06583)    
+Trajectorylet-Net；    
 
 -------------------  
 [End](#head)

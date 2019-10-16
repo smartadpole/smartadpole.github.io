@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Computer Vision·Nature
-    zh:       自然·视觉分析
-    zh-Hans:  自然·视觉分析
-    zh-Hant:  自然·视觉分析
+    en:       Earthquake
+    zh:       地震
+    zh-Hans:  地震
+    zh-Hant:  地震
 sidebar:
     nav: NATURE
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "nature" %}
+        {% if cat[0] == "earthquake" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

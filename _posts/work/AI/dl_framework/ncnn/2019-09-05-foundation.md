@@ -19,12 +19,13 @@ document: <https://github.com/Tencent/ncnn/wiki>
 
 # 1 安装
 ## 1.1 Linux
-下载源码，使用 [cmake]() 编译；    
+下载源码，使用 [cmake]() 编译；最终 <install_dir> 目录下就会出现编译好的库文件和头文件；    
 ```shell
 cd <ncnn-root-dir>
 mkdir build && cd build
 cmake -D CMAKE_INSTALL_PREFIX=<install_dir> ..
 make -j4
+make install
 ```
 
 如果要支持 GPU(mobile)，需安装 vulkan；且为 cmake 添加参数 `-D Vulkan=ON`；    

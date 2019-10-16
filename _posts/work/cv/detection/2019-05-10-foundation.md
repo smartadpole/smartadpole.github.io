@@ -391,15 +391,16 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
 ## 5.8 自然
-1. [Cloud-Net: An end-to-end Cloud Detection Algorithm for Lan](http://cn.arxiv.org/abs/1901.10077)   
-*2019-01-29* [Paper](https://arxiv.org/abs/1901.10077)   
-云层检测   
+### 5.8.1 [云层检测](/cv/nature/sky/2019/10/16/foundation.html#31-检测)    
 
 
 # 6 3D
 1. [Patch Refinement -- Localized 3D Object Detection](http://cn.arxiv.org/abs/1910.04093)     
 NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04093)    
 
+1. [End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](http://cn.arxiv.org/abs/1910.06528)     
+CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)    
+体素 + KITTI、Waymo Open；    
 
 -------------------  
 [End](#head)

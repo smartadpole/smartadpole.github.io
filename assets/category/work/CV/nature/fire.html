@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Computer Vision·Nature
-    zh:       自然·视觉分析
-    zh-Hans:  自然·视觉分析
-    zh-Hant:  自然·视觉分析
+    en:       Fire Disaster
+    zh:       火灾
+    zh-Hans:  火灾
+    zh-Hant:  火灾
 sidebar:
     nav: NATURE
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "nature" %}
+        {% if cat[0] == "fire_disaster" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

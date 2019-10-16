@@ -51,64 +51,14 @@ ICIP 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10089) | [pytorch](htt
 1.  [Semantic Segmentation using Adversarial Networks](http://cn.arxiv.org/abs/1611.08408)  
 *2016-11-25* [paper](https://arxiv.org/abs/1611.08408)     
 
-## 1.6 生物医疗
-### 1.6.1 肺结核
-1. [Dual-branch residual network for lung nodule segmentation](http://cn.arxiv.org/abs/1905.08413)   
-*2019-05-21* [paper](https://arxiv.org/abs/1905.08413)   
-
-1. [Lung nodule segmentation via level set machine learning](http://cn.arxiv.org/abs/1910.03191)    
-*2019-10-08* [paper](https://arxiv.org/abs/1910.03191)    
-基于 CT；     
-
-### 1.6.2 白细胞
-1. [A novel algorithm for segmentation of leukocytes in peripheral blood](http://cn.arxiv.org/abs/1905.08416)   
-*2019-05-21* [paper](https://arxiv.org/abs/1905.08416)   
-
-### 1.6.3 手术器械
-1. [RASNet: Segmentation for Tracking Surgical Instruments in Surgical Videos Using Refined Attention Segmentation Network](http://cn.arxiv.org/abs/1905.08663)   
-*2019-05-21* [paper](https://arxiv.org/abs/1905.08663)   
-
-1. [Learning Where to Look While Tracking Instruments in Robot-assisted Surgery](http://cn.arxiv.org/abs/1907.00214)   
-MICCAI 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00214)    
-
-### 1.6.4 头部 CT
-1. [Improved ICH classification using task-dependent learning](http://cn.arxiv.org/abs/1907.00148)   
-*2019-06-29* [paper](https://arxiv.org/abs/1907.00148)   
-分割、分类双任务同时进行，最后的 loss 有借鉴意义；    
-
-### 1.6.5 骨骼
-1. [Permutohedral Attention Module for Efficient Non-Local Neural Networks](http://cn.arxiv.org/abs/1907.00641)   
-MICCAI 2019 *2019-07-01* [paper](https://arxiv.org/abs/1907.00641)   
-椎骨分割，用了注意力；   
-
-### 1.6.6 皮肤
-1. [MobileGAN: Skin Lesion Segmentation Using a Lightweight Generative Adversarial Network](http://cn.arxiv.org/abs/1907.00856)   
-*2019-07-01* [paper](https://arxiv.org/abs/1907.00856)   
-使用 GAN 进行分割；    
-
-### 1.6.7 肿瘤
-1. [An Efficient Solution for Breast Tumor Segmentation and Classification in Ultrasound Images Using Deep Adversarial Learning](https://arxiv.org/abs/1907.00887)   
-*2019-07-01* [paper](https://arxiv.org/abs/1907.00887)    
-使用了对抗学习；   
-
-### 1.6.7 其他
-1. [Task Decomposition and Synchronization for Semantic Biomedical Image Segmentation](http://cn.arxiv.org/abs/1905.08720)   
-*2019-05-21* [paper](https://arxiv.org/abs/1905.08720)   
-
-1. [Multi-scale guided attention for medical image segmentation](http://cn.arxiv.org/abs/1906.02849)   
-*2019-06-07* [paper](https://arxiv.org/abs/1906.02849) | [pytorch](https://github.com/sinAshish/Multi-Scale-Attention)-offical    
-差不多的低层特征在多个尺度上重复提取，我们就设计了一个注意力，来重复利用这些特征；并在腹部磁共振成像（MRI）上进行了实验；    
+## 1.6 [生物医疗](/cv/medical/2019/05/23/foundation.html#13-分割)
 
 
 ## 1.7 自然
-### 1.7.1 盐体分割
-1. [Semi-Supervised Segmentation of Salt Bodies in Seismic Images using an Ensemble of Convolutional Neural Networks](http://cn.arxiv.org/abs/1904.04445)   
-*2019-04-09* [paper](https://arxiv.org/abs/1904.04445) | [pytorch](https://github.com/ybabakhin/kaggle_salt_bes_phalanx)-offical      
+### 1.7.1 [盐体分割](/cv/nature/salt_bodies/2019/10/16/foundation.html#3-分割)
+### 1.7.2 [天空分割](/cv/nature/sky/2019/10/16/foundation.html#4-天空分割)
+### 1.7.3 [火灾区域分割](/cv/nature/fire_disaster/2019/10/16/foundation.html#3-火灾区域分割)
 
-### 1.7.2 天空分割
-1. [Sky pixel detection in outdoor imagery using an adaptive algorithm and machine learning](http://cn.arxiv.org/abs/1910.03182)    
-*2019-10-08* [paper](https://arxiv.org/abs/1910.03182)    
-集成传统方法做天空分割；     
 
 ## 1.8 [人](/cv/human/human_segmentation/2019/05/14/foundation.html)
 

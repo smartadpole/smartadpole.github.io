@@ -26,7 +26,9 @@ tags: 资源
 轻量级网络，适合车载环境；   
 
 # 6 疲劳驾驶
-
+1. [Real-time monitoring of driver drowsiness on mobile platforms using 3D neural networks](http://cn.arxiv.org/abs/1910.06540)     
+*2019-10-15* [paper](https://arxiv.org/abs/1910.06540)     
+3D 可分离卷积；ImageNet 和 Kinetics 预训练；     
 
 -------------------  
 [End](#head)

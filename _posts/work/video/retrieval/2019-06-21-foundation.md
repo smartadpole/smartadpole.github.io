@@ -225,6 +225,8 @@ LSH 改进，词袋模型；
 *2007* [paper](http://www.cs.bilkent.edu.tr/~duygulu/papers/MIR2007.pdf)     
 
 ### 3.4.3 图对齐
+>[最大流](/algorithms/graph/2019/10/20/maximum-flow.html)      
+
 1. [Scalable Detection of Partial Near-Duplicate Videos by Visual-Temporal Consistency](#SDP)    
 
 1. Efficient mining of multiple partial near-duplicate alignments by temporal network       
@@ -310,7 +312,9 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 # 4 应用方向
 ## 4.1 重复视频检测
-`near-duplicate video detection`
+>又叫视频拷贝检测，Content Based Copy Detection, CDBC: 作用等同于水印，主要用于版权保护；不同之处在与他是直接从视频本身提取一些特征；     
+
+`Video Copy Detection` · `Video Forgery Detection` · `near-duplicate video detection`     
 
 
 1. [Real time repeated video sequence identification](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.578.2230&rep=rep1&type=pdf)    
@@ -323,6 +327,10 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 1. [A Framework for Handling Spatiotemporal Variations in Video Copy Detection](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)   
 *2008* [rar](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)    
+
+1. [Scale-Rotation Invariant Pattern Entropy for Keypoint-based Near-Duplicate Detection](http://vireo.cs.cityu.edu.hk/papers/tip09_zhao.pdf)    
+*2009* [paper](http://vireo.cs.cityu.edu.hk/papers/tip09_zhao.pdf)    
+
 
 1. [Realtime near duplicate elimination for web video search with content and context](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)    
 *2009* [paper](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)   
@@ -362,13 +370,6 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 *2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
 
 
-## 4.2 视频拷贝检测
->Content Based Copy Detection, CDBC: 作用等同于水印，主要用于版权保护；不同之处在与他是直接从视频本身提取一些特征；     
-
-`Video Copy Detection` · `Video Forgery Detection`；    
-
-`跟重复视频检测有什么区别`{:.warning}    
-
 1. [Partial Copy Detection in Videos: A Benchmark and An Evaluation of Popular Methods](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
 *2016-03-01* [paper](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
 公开 VCDB 数据集，有 10 万条视频，9000 对；   
@@ -386,9 +387,6 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 1. [A compact, effective descriptor for video copy detection](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)   
 *2009* [paper](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)    
 
-1. [Video copy detection by fast sequence matching](http://aifc2011.csie.ntnu.edu.tw/~myeh/papers/civr09.pdf)    
-*2009* [paper](http://aifc2011.csie.ntnu.edu.tw/~myeh/papers/civr09.pdf)   
-
 1. [Video Copy Detection by Fast Sequence Matching ](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
 *2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
 
@@ -399,14 +397,15 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 1. [Simple Yet Efficient Content Based Video Copy Detection](http://cn.arxiv.org/abs/1804.07019)   
 *2018-04-19* [paper](https://arxiv.org/abs/1804.07019)   
 
-1. Geometrically robust video hashing based on ST-PCT for video copy     
+1. [Geometrically robust video hashing based on ST-PCT for video copy](https://link.springer.com/article/10.1007/s11042-019-7513-8)     
+*2019-04-08*    
 
-## 4.3 签名验证
+## 4.2 签名验证
 1. [Online Signature Verification Based on Writer Specific Feature Selection and Fuzzy Similarity Measure](http://cn.arxiv.org/abs/1905.08574)   
 CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.org/abs/1905.08574)   
 
 
-## 4.4 基于内容的视频检索
+## 4.3 基于内容的视频检索
 >Content Based Video retrieval, CBVR: 用于相似场景检测；    
 
 1. [A Fully Automated Content-Based Video Search Engine Supporting Spatiotemporal Queries](https://pdfs.semanticscholar.org/ad44/ffbad45b2de2147585016e5272a7d745cb57.pdf)     
@@ -421,7 +420,7 @@ CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.o
 1. [Use What You Have: Video Retrieval Using Representations From Collaborative Experts](http://cn.arxiv.org/abs/1907.13487)    
 BMVC 2019 *2019-07-31* [paper](https://arxiv.org/abs/1907.13487) | [pytorch](https://github.com/albanie/collaborative-experts)-official       
 
-## 4.5 重定位
+## 4.4 重定位
 >找到给定视频在目标视频中的位置；     
 
 `video relocation`     
@@ -438,7 +437,7 @@ ECCV 2018 *2018-08-05* 腾讯 AI Lab + 美国罗切斯特大学 [paper](https://
 *2019-05-10* [paper](https://arxiv.org/abs/1905.03922)     
 
 
-## 4.6 跨模态检索
+## 4.5 跨模态检索
 `multi-modal hashing` · `cross-modal retrieval`；    
 `siam-network`；    
 `Zero-Example Video Retrieval` · `Text-Video Retrieval`；     
@@ -459,7 +458,7 @@ ECCV 2018 *2018-08-05* 腾讯 AI Lab + 美国罗切斯特大学 [paper](https://
 1. [多模态视频分析技术研究与应用](https://www.jishuwen.com/d/2FPy#tuit)    
 1. [优酷在多模态内容理解上的研究及应用](https://www.infoq.cn/article/xgP_eyfidAA2l5ShcCPp)     
 
-### 4.6.1 跨模态
+### 4.5.1 跨模态
 
 1. [Coupled CycleGAN: Unsupervised Hashing Network for Cross-Modal Retrieval](http://cn.arxiv.org/abs/1903.02149)    
 AAAI 2019 *2019-03-06* [paper](https://arxiv.org/abs/1903.02149)     
@@ -467,20 +466,20 @@ UCH： 为了解决跨模态散列问题，使用 GAN 将特征提取和哈希�
 
 
 
-### 4.6.2 图片
-#### 4.6.2.1 [行人重识别](/cv/human/human_reid/2019/05/14/foundation.html#352-视频)    
-#### 4.6.2.2 商品检索
+### 4.5.2 图片
+#### 4.5.2.1 [行人重识别](/cv/human/human_reid/2019/05/14/foundation.html#352-视频)    
+#### 4.5.2.2 商品检索
 1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
 **AsymNet**: 用 FasterRCNN 检测出物体，然后进行比对；          
 
-### 4.6.3 [文本](/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
+### 4.5.3 [文本](/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
 
-#### 4.6.3.1 广告植入
+#### 4.5.3.1 广告植入
 >根据输入的关键词，给出视频中与之呼应的情景片段；    
 
 
-### 4.6.4 音频
+### 4.5.4 音频
 
 1. [Content-Based Video-Music Retrieval Using Soft Intra-Modal Structure Constraint](http://cn.arxiv.org/abs/1704.06761)  
 *2017-04-22* [paper](https://arxiv.org/abs/1704.06761) | [示例](https://youtu.be/ZyINqDMo3Fg) | [tensorflow](https://github.com/csehong/VM-NET)-official    
@@ -526,7 +525,8 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 
 
 ## D 开源项目
-1. [ThreatExchange](https://developers.facebook.com/docs/threat-exchange/v4.0): [code](https://github.com/facebook/ThreatExchange) | [TMK + PDQF](https://github.com/facebook/ThreatExchange/tree/master/hashing/tmk)-相似视频识别 | [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq)-相似图片识别       
+1. [ThreatExchange](https://developers.facebook.com/docs/threat-exchange/v4.0)    
+[code](https://github.com/facebook/ThreatExchange) | [TMK + PDQF](https://github.com/facebook/ThreatExchange/tree/master/hashing/tmk)-相似视频识别 | [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq)-相似图片识别       
 
 ## E 研究员
-1. [OLIVES Research](https://ghassanalregib.info/) | [github](https://github.com/olivesgatech)       
+1. [OLIVES Research](https://ghassanalregib.info/)、[github](https://github.com/olivesgatech)       

@@ -414,9 +414,6 @@ CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.o
 1. [Retrieval of News Video using Video Sequence Matching](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 *2005* [paper](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 
-1. [FIVR: Fine-grained Incident Video Retrieval](https://arxiv.org/abs/1809.04094)    
-*2018-09-11* [paper](https://arxiv.org/abs/1809.04094)    
-
 1. [Use What You Have: Video Retrieval Using Representations From Collaborative Experts](http://cn.arxiv.org/abs/1907.13487)    
 BMVC 2019 *2019-07-31* [paper](https://arxiv.org/abs/1907.13487) | [pytorch](https://github.com/albanie/collaborative-experts)-official       
 

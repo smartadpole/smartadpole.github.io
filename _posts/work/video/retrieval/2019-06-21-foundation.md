@@ -84,7 +84,7 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 # 2 理论
 
 # 3 技术点
-## 3.1 [关键帧](/cv/retrieval/2019/05/22/foundation.html)
+## 3.1 [关键帧提取](/video/key_frame/2019/06/12/foundation.html)
 `keyframe extract` · `shot boundary detection`;      
 
 ## 3.2 特征提取

@@ -116,6 +116,10 @@ ICCV 2019 *2019-10-09* [paper](https://arxiv.org/abs/1910.03849)
 1. [Learning Generalisable Omni-Scale Representations for Person Re-Identification](http://cn.arxiv.org/abs/1910.06827)     
 *2019-10-15* [paper](https://arxiv.org/abs/1910.06827) | [pytorch](https://github.com/KaiyangZhou/deep-person-reid)-official     
 
+1. [Attention Network Robustification for Person ReID](http://cn.arxiv.org/abs/1910.07038)    
+*2019-10-15* [paper](https://arxiv.org/abs/1910.07038)    
+精简网络结构；   
+
 
 # 4 基于视频
 1. [Video-based Person Re-identification via 3D Convolutional Networks and Non-local Attention](http://cn.arxiv.org/abs/1807.05073)   

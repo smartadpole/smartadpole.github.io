@@ -127,6 +127,8 @@ docs-en:
         url:    /assets/category/work/tool/qt.html
       - title:  微信小程序
         url:    /assets/category/work/tool/weixin.html
+      - title:  Git
+        url:    /assets/category/work/tool/git.html
 
   - title:      基础
     children:

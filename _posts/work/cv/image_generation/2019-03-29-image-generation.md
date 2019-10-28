@@ -8,33 +8,18 @@ aside:
 category: [CV, image_generation]
 tags: 资源
 ---
-<!--more-->  
+<span id='head'></span>  
+
+<!--more-->
 
 # 1 综述
 
 # 2 理论
 
 # 3 图像修复
-## 3.1 人脸修复
+>修补图像中少量的缺失；    
 
-# 4 风格迁移
-## 4.1 美颜
-
-## 4.2 艺术
-1. [Multi-Source Domain Adaptation and Semi-Supervised Domain Adaptation with Focus on Visual Domain Adaptation Challenge 2019](https://arxiv.org/abs/1910.03548)     
-VisDA-2019 *2019-10-08* [paper](https://arxiv.org/abs/1910.03548) | [pytorch](https://github.com/Panda-Peter/visda2019-multisource)-多源-official | [pytorch](https://github.com/Panda-Peter/visda2019-semisupervised)-半监督-official     
-
-# 5 图像编辑
-## 5.1 人脸编辑
-
-## 5.2 去模糊
-
-## 5.3 去遮挡
-`跟图像修复有啥区别`{:.warning}   
-1.  [Robust LSTM-Autoencoders for Face De-Occlusion in the Wild](http://cn.arxiv.org/abs/1612.08534)   
-*2016-11-25* [paper](https://arxiv.org/abs/1612.08534) | [caffe](https://github.com/zhaofang0627/face-deocc-lstm)        
-
-# 6 图像修复
+`Image inpainting`    
 
 1.  [Semantic Image Inpainting with Perceptual and Contextual Losses](http://cn.arxiv.org/abs/1607.07539)  
 [Code](https://github.com/bamos/dcgan-completion.tensorflow)  
@@ -65,6 +50,11 @@ CVPR 2018
 [Project](http://jiahuiyu.com/deepfill)  [Demo](http://jiahuiyu.com/deepfill)[[YouTube]](https://youtu.be/xz1ZvcdhgQ0)  [Code](https://github.com/JiahuiYu/generative_inpainting)    
 CVPR 2018
 
+
+1. [Image inpainting for irregular holes using partial convolutions](http://cn.arxiv.org/abs/1804.07723)    
+ECCV 2018 *2018-04-20* [paper](https://arxiv.org/abs/1804.07723) | [pytorch](https://github.com/NVIDIA/partialconv)-official       
+
+
 1.  [Free-Form Image Inpainting with Gated Convolution](http://cn.arxiv.org/abs/1806.03589)  
 [Project](http://jiahuiyu.com/deepfill2)  [YouTube](https://youtu.be/uZkEi9Y2dj4)   
 
@@ -74,32 +64,62 @@ CVPR 2018
 1. [PEPSI++: Fast and Lightweight Network for Image Inpainting](http://cn.arxiv.org/abs/1905.09010)    
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09010)    
 
+# 4 图像补全
+>比图像修复更进一步，能从一个图像片段“推断”出外延的部分，补全成整个画面；是斯坦福大学 CS230 课程中 Mark Sabini 的期末作品；     
+
+`Image outpainting`     
+
+1. Globally and Locally consistent image completion     
+*2017* [torch](https://github.com/satoshiiizuka/siggraph2017_inpainting)-official       
+
+1. [Painting Outside the Box: Image Outpainting with GANs](http://cn.arxiv.org/abs/1808.08483)    
+*2018-08-25* [paper](https://arxiv.org/abs/1808.08483) | [note](https://cs230.stanford.edu/projects_spring_2018/posters/8265861.pdf) | [keras](https://github.com/bendangnuksung/Image-OutPainting) | [blog](https://www.itcodemonkey.com/article/6793.html)    
+
+1. [Multimodal Image Outpainting With Regularized Normalized Diversification](http://cn.arxiv.org/abs/1910.11481)   
+*2019-10-25* [paper](https://arxiv.org/abs/1910.11481)    
+提出新的正则化方法处理多样的输入；并使用特征金字塔提高生成图像的质量；     
+
+
+
+# 5 风格迁移
+## 5.1 美颜
+
+## 5.2 艺术
+1. [Multi-Source Domain Adaptation and Semi-Supervised Domain Adaptation with Focus on Visual Domain Adaptation Challenge 2019](https://arxiv.org/abs/1910.03548)     
+VisDA-2019 *2019-10-08* [paper](https://arxiv.org/abs/1910.03548) | [pytorch](https://github.com/Panda-Peter/visda2019-multisource)-多源-official | [pytorch](https://github.com/Panda-Peter/visda2019-semisupervised)-半监督-official     
+
+# 6 图像编辑
+## 6.1 人脸编辑
+
+## 6.2 去模糊
+
+## 6.3 去遮挡
+`跟图像修复有啥区别`{:.warning}   
+1.  [Robust LSTM-Autoencoders for Face De-Occlusion in the Wild](http://cn.arxiv.org/abs/1612.08534)   
+*2016-11-25* [paper](https://arxiv.org/abs/1612.08534) | [caffe](https://github.com/zhaofang0627/face-deocc-lstm)        
 
 # 7 图像生成
-## 7.1 [人脸生成](/cv/human/face_generation/2019/10/09/foundation.html)
-
-## 7.2 场景生成
-
-## 7.3 纹理生成
-
-1.  [Precomputed real-time texture synthesis with markovian generative adversarial networks](http://cn.arxiv.org/abs/1604.04382)  
-ECCV 2016 *2016-04-15* [paper](https://arxiv.org/abs/1604.04382) | [torch](https://github.com/chuanli11/MGANs)  
-
-
-# 8 3D
-## 8.1 [人脸](/cv/human/face_generation/2019/10/09/foundation.html#4-3d)
-
-# 9 跨模态
-## 9.1 文本
+## 7.1 序列
+## 7.2 跨模态
+### 7.2.1 文本
 1. [Text2Shape: Generating Shapes from Natural Language by Learning Joint Embeddings](http://cn.arxiv.org/abs/1803.08495)   
 2018 [Paper](https://arxiv.org/abs/1803.08495) | [Tensorflow](https://github.com/kchen92/text2shape/)-Offical WGAN | [Project](http://text2shape.stanford.edu/)      
 根据文本生成彩色三维图像，使用了 Wasserstein GAN；  
 
-# 10 序列
-## 10.1 [人脸](/cv/human/face_generation/2019/10/09/foundation.html#5-序列)
+
+## 7.3 3D
+
+## 7.4 应用
+### 7.4.1 [人脸](/cv/human/face_generation/2019/10/09/foundation.html)
+### 7.4.2 场景生成
+
+### 7.4.3 纹理生成
+1.  [Precomputed real-time texture synthesis with markovian generative adversarial networks](http://cn.arxiv.org/abs/1604.04382)  
+ECCV 2016 *2016-04-15* [paper](https://arxiv.org/abs/1604.04382) | [torch](https://github.com/chuanli11/MGANs)  
+
 
 -------------------  
- End
+[End](#head)
 {:.warning}  
 
 

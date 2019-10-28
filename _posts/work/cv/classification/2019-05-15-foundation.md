@@ -123,6 +123,11 @@ CVPR 2019 *2019-07-12* [paper](https://arxiv.org/abs/1907.05552)
 
 # 7 [训练](/dl/foundation/2019/05/20/foundation.html#311-分类)
 
+# 8 数据集
+1. [Places : A 10 milLion image database for scene recognition](http://places2.csail.mit.edu/PAMI_places.pdf)     
+*2017* [paper](http://places2.csail.mit.edu/PAMI_places.pdf)    
+
+
 
 -------------------  
 [End](#head)

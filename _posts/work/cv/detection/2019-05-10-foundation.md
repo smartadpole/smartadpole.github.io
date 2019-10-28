@@ -367,22 +367,22 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 ## 5.2 [文本](/cv/ocr/2019/07/27/foundation.html#4-文本检测)
 
 ## 5.3 交通
-### 5.3.1 [车道线检测](/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
-### 5.3.2 交通标志检测
+### 5.3.1 [车道线](/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
+### 5.3.2 交通标志
 [keras](https://github.com/kuhung/SSD_keras)    
-### 5.3.3 [车辆检测](/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
-### 5.3.4 船体检测
-### 5.3.5 [安全带检测](/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)
+### 5.3.3 [车辆](/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
+### 5.3.4 船体
+### 5.3.5 [安全带](/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)
 
 *类别待整理*   
 
 ## 5.4 商品
-### 5.4.1 Logo 检测
+### 5.4.1 Logo
 
-### 5.4.2 商品检测
+### 5.4.2 商品
 
 ## 5.5 医疗
-### 5.5.1 肺结节检测
+### 5.5.1 肺结节
 
 ## 5.6 [视频](/video/video_detection/2019/05/22/foundation.html)
 
@@ -391,7 +391,11 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
 ## 5.8 自然
-### 5.8.1 [云层检测](/cv/nature/sky/2019/10/16/foundation.html#31-检测)    
+### 5.8.1 [云层](/cv/nature/sky/2019/10/16/foundation.html#31-检测)    
+### 5.8.2 动物
+1. [Animal Detection in Man-made Environments](http://cn.arxiv.org/abs/1910.11443)    
+*2019-10-24* [paper](https://arxiv.org/abs/1910.11443)  | [supplementary](http://webdocs.cs.ualberta.ca/~vis/asingh1/docs/animal_detection_supp.pdf)   
+居民区动物检测；文章分析了自然场景动物检测无法适用于居住场景；最终使用合成数据集解决了该问题；demo 中有较多标注工具；    
 
 
 # 6 3D
@@ -399,7 +403,7 @@ CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)
 NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04093)    
 
 1. [End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](http://cn.arxiv.org/abs/1910.06528)     
-CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)    
+CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)     
 体素 + KITTI、Waymo Open；    
 
 -------------------  

@@ -9,14 +9,14 @@ category: [CV, human, face_generation]
 tags: 资源
 ---
 <span id='head'></span>  
->[通用图像生成资源](/cv/image_generation/2019/03/29/foundation.html)     
+>[通用图像生成资源](/cv/image_generation/2019/03/29/image-generation.html)     
 
 
 <!--more-->
 
 # 1 综述  
 # 2 理论
-# 3 人脸
+# 3 2D
 # 4 3D
 1. [Semi-supervised Adversarial Learning to Generate Photorealistic Face Images of New Identities from 3D Morphable Model](http://cn.arxiv.org/abs/1804.03675)    
 ECCV 2018 *2018-04-10* [Paper](https://arxiv.org/abs/1804.03675) | [Tensorflow](https://github.com/barisgecer/facegan)    

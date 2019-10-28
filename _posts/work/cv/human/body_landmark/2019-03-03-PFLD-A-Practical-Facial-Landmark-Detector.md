@@ -5,7 +5,7 @@ date:   2019-03-03 19:00:40 +0800
 key: PFLD-facial-landmark-20190303
 aside:
   toc: true
-categories: [CV,human, facial_landmark,paper_reading]
+categories: [CV,human, body_landmark, paper_reading]
 ---
 <span id='head'></span>  
 

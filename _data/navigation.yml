@@ -1285,8 +1285,8 @@ Human:
         url:    /assets/category/work/CV/human/face_recognize.html
       - title:  人脸对齐
         url:    /assets/category/work/CV/human/face_align.html
-      - title:  人脸关键点
-        url:    /assets/category/work/CV/human/facial_landmark.html
+      - title:  人体关键点
+        url:    /assets/category/work/CV/human/body_landmark.html
       - title:  表观分析
         url:    /assets/category/work/CV/human/apparent_analysis.html
       - title:  人群计数

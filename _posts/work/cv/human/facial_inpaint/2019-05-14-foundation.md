@@ -9,6 +9,7 @@ category: [CV, human, facial_inpaint]
 tags: 资源
 ---
 <span id='head'></span>  
+>[通用图像修复资源](/cv/image_generation/2019/03/29/image-generation.html#3-图像修复)    
 
 <!--more-->
 

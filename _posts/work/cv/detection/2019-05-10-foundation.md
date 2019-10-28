@@ -360,45 +360,50 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 1. [A Real-Time Tiny Detection Model for Stem End and Blossom End of Navel Orange](http://cn.arxiv.org/abs/1905.09994)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.09994)   
 
+# 5 技术点
+## 5.1 类别不均衡
+1. [Team PFDet's Methods for Open Images Challenge 2019](http://cn.arxiv.org/abs/1910.11534)    
+*2019-10-25* [paper](https://arxiv.org/abs/1910.11534)    
+针对类别不均衡和联合标注问题做了处理；竞赛的 3、4 名；      
 
-# 5 应用场景
-## 5.1 [人](/cv/human/human_detection/2019/10/11/foundation.html)
+# 6 应用场景
+## 6.1 [人](/cv/human/human_detection/2019/10/11/foundation.html)
 
-## 5.2 [文本](/cv/ocr/2019/07/27/foundation.html#4-文本检测)
+## 6.2 [文本](/cv/ocr/2019/07/27/foundation.html#4-文本检测)
 
-## 5.3 交通
-### 5.3.1 [车道线](/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
-### 5.3.2 交通标志
+## 6.3 交通
+### 6.3.1 [车道线](/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
+### 6.3.2 交通标志
 [keras](https://github.com/kuhung/SSD_keras)    
-### 5.3.3 [车辆](/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
-### 5.3.4 船体
-### 5.3.5 [安全带](/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)
+### 6.3.3 [车辆](/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
+### 6.3.4 船体
+### 6.3.5 [安全带](/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)
 
 *类别待整理*   
 
-## 5.4 商品
-### 5.4.1 Logo
+## 6.4 商品
+### 6.4.1 Logo
 
-### 5.4.2 商品
+### 6.4.2 商品
 
-## 5.5 医疗
-### 5.5.1 肺结节
+## 6.5 医疗
+### 6.5.1 肺结节
 
-## 5.6 [视频](/video/video_detection/2019/05/22/foundation.html)
+## 6.6 [视频](/video/video_detection/2019/05/22/foundation.html)
 
-## 5.7 航拍
+## 6.7 航拍
 1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
-## 5.8 自然
-### 5.8.1 [云层](/cv/nature/sky/2019/10/16/foundation.html#31-检测)    
-### 5.8.2 动物
+## 6.8 自然
+### 6.8.1 [云层](/cv/nature/sky/2019/10/16/foundation.html#31-检测)    
+### 6.8.2 动物
 1. [Animal Detection in Man-made Environments](http://cn.arxiv.org/abs/1910.11443)    
 *2019-10-24* [paper](https://arxiv.org/abs/1910.11443)  | [supplementary](http://webdocs.cs.ualberta.ca/~vis/asingh1/docs/animal_detection_supp.pdf)   
 居民区动物检测；文章分析了自然场景动物检测无法适用于居住场景；最终使用合成数据集解决了该问题；demo 中有较多标注工具；    
 
 
-# 6 3D
+# 7 3D
 1. [Patch Refinement -- Localized 3D Object Detection](http://cn.arxiv.org/abs/1910.04093)     
 NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04093)    
 

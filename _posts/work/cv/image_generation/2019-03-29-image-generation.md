@@ -64,6 +64,9 @@ ECCV 2018 *2018-04-20* [paper](https://arxiv.org/abs/1804.07723) | [pytorch](htt
 1. [PEPSI++: Fast and Lightweight Network for Image Inpainting](http://cn.arxiv.org/abs/1905.09010)    
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09010)    
 
+## 3.1 应用
+### 3.1.1 [人脸](/cv/human/facial_inpaint/2019/05/14/foundation.html)
+
 # 4 图像补全
 >比图像修复更进一步，能从一个图像片段“推断”出外延的部分，补全成整个画面；是斯坦福大学 CS230 课程中 Mark Sabini 的期末作品；     
 
@@ -89,11 +92,11 @@ ECCV 2018 *2018-04-20* [paper](https://arxiv.org/abs/1804.07723) | [pytorch](htt
 VisDA-2019 *2019-10-08* [paper](https://arxiv.org/abs/1910.03548) | [pytorch](https://github.com/Panda-Peter/visda2019-multisource)-多源-official | [pytorch](https://github.com/Panda-Peter/visda2019-semisupervised)-半监督-official     
 
 # 6 图像编辑
-## 6.1 人脸编辑
+>替换掉图像中的某些物件或部位；    
 
-## 6.2 去模糊
+## 6.1 [人脸编辑](/cv/human/facial_attribute_editing/2019/10/09/foundation.html)
 
-## 6.3 去遮挡
+## 6.2 去遮挡
 `跟图像修复有啥区别`{:.warning}   
 1.  [Robust LSTM-Autoencoders for Face De-Occlusion in the Wild](http://cn.arxiv.org/abs/1612.08534)   
 *2016-11-25* [paper](https://arxiv.org/abs/1612.08534) | [caffe](https://github.com/zhaofang0627/face-deocc-lstm)        

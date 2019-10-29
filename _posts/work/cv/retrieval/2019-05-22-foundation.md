@@ -778,6 +778,13 @@ IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)
 ICCV 2019 *2019-04-05* [paper](https://arxiv.org/abs/1904.03208)    
 `什么是零样本检索`{:.warning}     
 
+## 4.6 伪造检测
+1. [Tampering Detection and Localization through Clustering of Camera-Based CNN Features](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w28/papers/Tubaro_Tampering_Detection_and_CVPR_2017_paper.pdf)     
+CVPR 2017 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w28/papers/Tubaro_Tampering_Detection_and_CVPR_2017_paper.pdf)     
+
+1. [Protecting World Leaders Against Deep Fakes](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Agarwal_Protecting_World_Leaders_Against_Deep_Fakes_CVPRW_2019_paper.pdf)    
+CVPR 2019 workshop *2019-01* [paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Agarwal_Protecting_World_Leaders_Against_Deep_Fakes_CVPRW_2019_paper.pdf)     
+
 
 # 5 应用
 ## 5.1 地标检索
@@ -802,6 +809,7 @@ ICCV 2019 *2019-04-05* [paper](https://arxiv.org/abs/1904.03208)
 1. zwr1994. Learning to Hash 综述阅读笔记[EB/OL]. <https://blog.csdn.net/zwr1994/article/details/78047703>. 2018-03-16/2019-07-02.    
 1. -. Learning to Hash[EB/OL]. <https://cs.nju.edu.cn/lwj/L2H.html>. -/2019-07-02.      
 1. [CVPR 2018 地标建筑物识别](https://landmarksworkshop.github.io/CVPRW2018/)     
+1. [Image Tampering Detection and Localization](https://github.com/yannadani/image_tampering_detection_references)     
 
 ## C 开源项目
 1. [DeepHash](https://github.com/thulab/DeepHash)

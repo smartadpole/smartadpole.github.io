@@ -1304,6 +1304,8 @@ Human:
         url:    /assets/category/work/CV/human/pose_estimation.html
       - title:  活性检测
         url:    /assets/category/work/CV/human/activity_recognize.html
+      - title:  篡改检测
+        url:    /assets/category/work/CV/human/manipulated_detect.html
 
   - title:	重识别
     children:

@@ -14,7 +14,7 @@ tags: 资源
 
 <!--more-->
 `video fingerprinting` · `video DNA` · `video signature` · `video hash` · `video content-based watermarking`;      
-`video retrieval`; `near-duplicate video detection` · `Video Copy Detection` · `Video Forgery Detection` · `Video Content Identification`; `video vreification` · `video authentication` ;            
+`video retrieval`; `near-duplicate video detection` · `video copy detection` · `video forgery detection` · `video content identification`; `video vreification` · `video authentication` ;            
 
 
 *发现这方面论文很凌乱，关键字都有很多个版本；每个方向也不多*      
@@ -30,6 +30,10 @@ tags: 资源
 
 1. [Million-scale Near-duplicate Video Retrieval System](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
 *2011-12* [paper](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
+
+1. [An Exploration based on Multifarious Video Copy Detection Strategies](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.428.9010&rep=rep1&type=pdf)     
+*2013* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.428.9010&rep=rep1&type=pdf)    
+
 
 1. [Near-Duplicate Video Retrieval: Current Research and Future Trends](http://vireo.cs.cityu.edu.hk/papers/a44-liu.pdf)    
 *2013-08* [paper](http://vireo.cs.cityu.edu.hk/papers/a44-liu.pdf)    
@@ -100,8 +104,26 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 1. [Video Shot Characterization∗](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.7150&rep=rep1&type=pdf)     
 [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.7150&rep=rep1&type=pdf)    
 
+
+1. [A Rotation Invariant Descriptor for Robust Video Copy Detection](http://www.jdl.link/doc/2011/201112291745236454_pcm2011-a%20rotation%20invariant%20descriptor%20for%20robust%20video%20copy%20detection.pdf)     
+*2007* [paper](http://www.jdl.link/doc/2011/201112291745236454_pcm2011-a%20rotation%20invariant%20descriptor%20for%20robust%20video%20copy%20detection.pdf)   
+
+1. [VIDEO COPY DETECTION USING FINGERPRINTING WITH FAST IMAGE PROCESSING](https://pdfs.semanticscholar.org/04cd/3343d2e951d108f406bcc9ee784000f939fa.pdf)    
+*2016-04* [paper](https://pdfs.semanticscholar.org/04cd/3343d2e951d108f406bcc9ee784000f939fa.pdf)    
+
 1. [Deep Video Hashing](http://ivg.au.tsinghua.edu.cn/paper/2017_Deep%20video%20hashing.pdf)     
 *2016* [paper](http://ivg.au.tsinghua.edu.cn/paper/2017_Deep%20video%20hashing.pdf)     
+
+1. Video Copy Detection Based On Temporal Contextual Hashing    
+*2016*    
+时序二进制 hash；   
+
+1. [A Survey of Deep Learning Solutions for Multimedia Visual Content Analysis](http://repository.essex.ac.uk/24887/1/08744516.pdf)     
+*2019* [paper](http://repository.essex.ac.uk/24887/1/08744516.pdf)     
+
+1. [Extracting camera-based fingerprints for video forensics](https://pdfs.semanticscholar.org/2ef8/3bb794d35765ca02c0fad4ba0781de0ede3a.pdf?_ga=2.158555002.1153843306.1572339852-129004075.1557370518)     
+CVPR 2019 workshop *2019* [paper](https://pdfs.semanticscholar.org/2ef8/3bb794d35765ca02c0fad4ba0781de0ede3a.pdf?_ga=2.158555002.1153843306.1572339852-129004075.1557370518)    
+
 
 
 ### 3.2.3 多帧融合
@@ -235,6 +257,11 @@ LSH 改进，词袋模型；
 1. [Video Hyperlinking: Libraries and Tools for Threading and Visualizing Large Video Collection](http://vireo.cs.cityu.edu.hk/papers/mm12-pang.pdf)     
 *2012* [paper](http://vireo.cs.cityu.edu.hk/papers/mm12-pang.pdf) | [tool](https://sourceforge.net/projects/vireovh/)        
 
+1. Video Copy Detection Based on Path Merging and Query Content Prediction     
+*2015-10*    
+基于图模型的路径合并；     
+
+
 ### 3.4.4 DL
 1. [Temporal Cycle-Consistency Learning](http://cn.arxiv.org/abs/1904.07846)     
 CVPR 2019 *2019-04-16* Google & Deepmind [paper](https://arxiv.org/abs/1904.07846) | [project](https://sites.google.com/view/temporal-cycle-consistency) | [tensorflow](https://github.com/google-research/google-research/tree/master/tcc)-official              
@@ -254,9 +281,10 @@ ICCV 2019 oral *2019-07-30* [paper](https://arxiv.org/abs/1907.12743) | [pytorch
 *2012*    
 基于倾斜的时间对齐；对齐时引入了帧的插入、删除和替换策略；         
 
-1. Video Copy Detection Based on Path Merging and Query Content Prediction     
-*2015-10*    
-基于图模型的路径合并；     
+1. [Frame filtering and path verification for improving video copy detection](http://mic.bjtu.edu.cn/resouce/Frame%20Filtering%20and%20Path%20Verification%20for%20Improving%20Video%20Copy%20Detection.pdf)       
+*2013* [paper](http://mic.bjtu.edu.cn/resouce/Frame%20Filtering%20and%20Path%20Verification%20for%20Improving%20Video%20Copy%20Detection.pdf)    
+$\bullet \bullet$   
+针对定位精度和就三效率做了处理；   
 
 1. [Block based video alignment with linear time and space complexity](https://miliadis.github.io/papers/ICIP_video_align.pdf)    
 ICIP *2016-09* [paper](https://miliadis.github.io/papers/ICIP_video_align.pdf)     
@@ -302,6 +330,17 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 - edit distance 怎么实现的；     
 >感觉 ED 系列的方法都是针对本身就相似的特征，使用串匹配的方法详细计算其相似度，所以更适合用来计算数据之间的相似性，而不适合用在拷贝检测相关问题中；因为拷贝检测问题是为了找出该视频副本，也就是副本和原视频越相似越好；而 ED 则是很客观地给出副本和原视频的不相似程度；      
 
+1. [Comparison of distance measures for video copy detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.5791&rep=rep1&type=pdf)    
+*2001* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.5791&rep=rep1&type=pdf)    
+比较了几种视频序列度量的方法；    
+
+
+1. Spatiotemporal sequence matching for efficient video copy detection     
+*2005* [Semantic Scholar](https://www.semanticscholar.org/paper/Spatiotemporal-sequence-matching-for-efficient-copy-Kim-Vasudev/59f16dc158240afbe655277c3a94ccfc380e8c31)     
+
+1. [Video copy detection by fast sequence matching](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
+*2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
+
 ### 3.5.3 对称匹配
 
 
@@ -315,7 +354,7 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 ## 4.1 重复视频检测
 >又叫视频拷贝检测，Content Based Copy Detection, CDBC: 作用等同于水印，主要用于版权保护；不同之处在与他是直接从视频本身提取一些特征；     
 
-`Video Copy Detection` · `Video Forgery Detection` · `near-duplicate video detection`     
+`video copy detection` · `video forgery detection` · `near-duplicate video detection` · `video tampering` · `video manipulation`        
 
 
 1. [Real time repeated video sequence identification](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.578.2230&rep=rep1&type=pdf)    
@@ -325,6 +364,9 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 1. [Efficient Near-duplicate Detection and Sub-image Retrieval](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)     
 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)    
 哈希；   
+
+1. [A Time Warping Based Approach for Video Copy Detection](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)     
+*2006* [paper](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)   
 
 1. [A Framework for Handling Spatiotemporal Variations in Video Copy Detection](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)   
 *2008* [rar](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)    
@@ -336,9 +378,20 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 1. [Realtime near duplicate elimination for web video search with content and context](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)    
 *2009* [paper](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)   
 
+1. [Frame Fusion for Video Copy Detection](http://www.avc2-lab.net/~eczhu/FILE/J-17.pdf)    
+*2011* [paper](http://www.avc2-lab.net/~eczhu/FILE/J-17.pdf)   
+
+
 1. [Multiple feature hashing for real-time large scale near-duplicate video retrieval](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)     
 *2011-12* [ppt](https://nanopdf.com/download/multiple-feature-hashing-for-real-time-large-scale-near_pdf)    
 发布了数据集 [UQ_VIDEO](http://staff.itee.uq.edu.au/shenht/UQ_VIDEO/)     
+
+1. [Content Based Video Copy Detection: Issues and Practices](http://www.iitg.ac.in/iciss2012/pdf/Tutorials/Sanjoy_Saha.pdf)     
+*2012* [paper](http://www.iitg.ac.in/iciss2012/pdf/Tutorials/Sanjoy_Saha.pdf)     
+
+
+1. [Content-Based Video Copy Detection Benchmarking at TRECVID](https://repository.ubn.ru.nl/bitstream/handle/2066/129924/129924pre.pdf?sequence=3)    
+*2014* [paper](https://repository.ubn.ru.nl/bitstream/handle/2066/129924/129924pre.pdf?sequence=3)    
 
 1. [VCDB: A Large-Scale Database for Partial Copy Detection in Videos](http://www.yugangjiang.info/publication/eccv14-VCDB.pdf)    
 *2014* [paper](http://www.yugangjiang.info/publication/eccv14-VCDB.pdf)    
@@ -367,6 +420,10 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 1. [Multiscale video sequence matching for near-duplicate detection and retrieval](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)     
 *2018-05* [paper](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)    
 
+1. [TRECVID 2018: Benchmarking Video Activity Detection, Video Captioning and Matching, Video Storytelling Linking and Video Search](https://hal.archives-ouvertes.fr/hal-01919873/document)   
+*2018-11-12* [paper](https://hal.archives-ouvertes.fr/hal-01919873/document)    
+
+
 1. [A Coarse-to-fine Deep Convolutional Neural Network Framework for Frame Duplication Detection and Localization in Forged Videos](http://cn.arxiv.org/abs/1811.10762)    
 *2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
 
@@ -391,29 +448,68 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 1. [Video Copy Detection by Fast Sequence Matching ](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
 *2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
 
+1. [Detection and Localization of Video Copy-Move Forgery in Temporal and Spatial Domain](https://pdfs.semanticscholar.org/26d2/c8c5ccef3867c3d5d85a0e577b018fd7a525.pdf)    
+*2015* [paper](https://pdfs.semanticscholar.org/26d2/c8c5ccef3867c3d5d85a0e577b018fd7a525.pdf)     
+
+
+1. [A new technique for video copy-move forgery detection](https://pdfs.semanticscholar.org/738d/9c24ad3b14778454f2333622a59f2b52eb21.pdf?_ga=2.197873775.1153843306.1572339852-129004075.1557370518)     
+*2017* [paper](https://pdfs.semanticscholar.org/738d/9c24ad3b14778454f2333622a59f2b52eb21.pdf?_ga=2.197873775.1153843306.1572339852-129004075.1557370518)    
+
 1. [A PatchMatch-based Dense-field Algorithm for Video Copy-Move Detection and Localization](http://cn.arxiv.org/abs/1703.04636)    
 *2017-03-14* [paper](https://arxiv.org/abs/1703.04636)    
 发布了新的数据集；     
 
+1. [Autoencoder with recurrent neural networks for video forgery detection](http://cn.arxiv.org/abs/1708.08754)     
+*2017-08-29* [paper](https://arxiv.org/abs/1708.08754)    
+
+
 1. [Simple Yet Efficient Content Based Video Copy Detection](http://cn.arxiv.org/abs/1804.07019)   
 *2018-04-19* [paper](https://arxiv.org/abs/1804.07019)   
+
+1. [Capsule-forensics: Using Capsule Networks to Detect Forged Images and Videos](http://cn.arxiv.org/abs/1810.11215)    
+*2018-10-26* [paper](https://arxiv.org/abs/1810.11215)    
+
 
 1. [Geometrically robust video hashing based on ST-PCT for video copy](https://link.springer.com/article/10.1007/s11042-019-7513-8)     
 *2019-04-08*    
 
+1. [Video tampering localisation using features learned from authentic content](https://link.springer.com/content/pdf/10.1007%2Fs00521-019-04272-z.pdf)    
+*2019* [paper](https://link.springer.com/content/pdf/10.1007%2Fs00521-019-04272-z.pdf)    
+
+1. [We Need No Pixels: Video Manipulation Detection Using Stream Descriptors](https://arxiv.org/abs/1906.08743)     
+ICML 2019 Worksop *2019-06-20* [paper](https://arxiv.org/abs/1906.08743)    
+
+
 ## 4.2 签名验证
+`video vreification`     
+
 1. [Online Signature Verification Based on Writer Specific Feature Selection and Fuzzy Similarity Measure](http://cn.arxiv.org/abs/1905.08574)   
 CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.org/abs/1905.08574)   
 
 
 ## 4.3 基于内容的视频检索
->Content Based Video retrieval, CBVR: 用于相似场景检测；    
+>CBVR: 用于相似场景检测；    
+
+`content based video retrieval` · `video content identification`    
 
 1. [A Fully Automated Content-Based Video Search Engine Supporting Spatiotemporal Queries](https://pdfs.semanticscholar.org/ad44/ffbad45b2de2147585016e5272a7d745cb57.pdf)     
 *1998* [paper](https://pdfs.semanticscholar.org/ad44/ffbad45b2de2147585016e5272a7d745cb57.pdf)     
 
 1. [Retrieval of News Video using Video Sequence Matching](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
 *2005* [paper](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/mmm05-young.pdf)    
+
+1. [Content based video retrieval systems](http://cn.arxiv.org/abs/1205.1641)    
+*2012-05-08* [paper](https://arxiv.org/abs/1205.1641)    
+
+1. [Content Based Video Retrieval](https://pdfs.semanticscholar.org/c0f5/baaf479ed048d7061e4f7fe36919e314eb2c.pdf?_ga=2.231257823.1153843306.1572339852-129004075.1557370518)     
+*2016-05* [paper](https://pdfs.semanticscholar.org/c0f5/baaf479ed048d7061e4f7fe36919e314eb2c.pdf?_ga=2.231257823.1153843306.1572339852-129004075.1557370518)    
+
+1. [Content-based Video Indexing and Retrieval Using Corr-LDA](http://cn.arxiv.org/abs/1602.08581)    
+*2016-02-27* [paper](https://arxiv.org/abs/1602.08581)    
+
+1. [Content-Based Video Retrieval in Historical Collections of the German Broadcasting Archive](http://cn.arxiv.org/abs/1702.03790)    
+*2017-02-13* [paper](https://arxiv.org/abs/1702.03790)    
+
 
 1. [Use What You Have: Video Retrieval Using Representations From Collaborative Experts](http://cn.arxiv.org/abs/1907.13487)    
 BMVC 2019 *2019-07-31* [paper](https://arxiv.org/abs/1907.13487) | [pytorch](https://github.com/albanie/collaborative-experts)-official       
@@ -429,7 +525,7 @@ CVPR 2018 *2018-05-23* [paper](https://arxiv.org/abs/1705.08421) | [AVA](https:/
 
 1. [Video Re-localization](http://cn.arxiv.org/abs/1808.01575)    
 ECCV 2018 *2018-08-05* 腾讯 AI Lab + 美国罗切斯特大学 [paper](https://arxiv.org/abs/1808.01575) | [tensorflow](https://github.com/fengyang0317/video_reloc)-official        
-重组ActivityNet数据集视频，生成了一个符合研究需求的新数据集，并提出一种交叉过滤的双线性匹配模型；        
+重组 ActivityNet 数据集视频，生成了一个符合研究需求的新数据集，并提出一种交叉过滤的双线性匹配模型；        
 
 1. [Spatio-temporal Video Re-localization by Warp LSTM](http://cn.arxiv.org/abs/1905.03922)     
 *2019-05-10* [paper](https://arxiv.org/abs/1905.03922)     

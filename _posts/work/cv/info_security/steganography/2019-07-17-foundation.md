@@ -233,6 +233,17 @@ AAAi 2019 *2018-09-10* [paper](https://arxiv.org/abs/1809.03463)
 *2019* [paper](https://cs.uwaterloo.ca/~fkerschb/icassp19.pdf)   
 
 
+# 4 防篡改
+`video tampering`     
+
+1. [Computer-Aided Annotation for Video Tampering Dataset of Forensic Research](http://cn.arxiv.org/abs/1802.02308)     
+*2018-02-07* [paper](https://arxiv.org/abs/1802.02308)     
+
+
+1. [ARCHANGEL: Tamper-proofing Video Archives using Temporal Content Hashes on the Blockchain](http://cn.arxiv.org/abs/1904.12059)    
+CVPR 2019 workshop *2019-04-26* [paper](https://arxiv.org/abs/1904.12059)    
+
+
 -------------------  
 [End](#head)
 {:.warning}  

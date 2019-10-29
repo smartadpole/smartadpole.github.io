@@ -289,7 +289,8 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 在单帧的局部特征上用词袋模型，合成帧的全局特征，然后用 EMD 算法计算距离；    
 
 
-### 3.5.2 串
+### 3.5.2 [序列](/algorithms/string/2019/10/29/pattern-match-foundation.html)
+
 1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
 *1998* 香港中文 [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
 `distance measure` · `edit distance` · `sequence-tosequence matching` · `video string`     

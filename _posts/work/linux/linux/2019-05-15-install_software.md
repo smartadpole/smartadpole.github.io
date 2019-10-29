@@ -1,14 +1,15 @@
 ---
 layout: article
-title:  "「Linux」 管理文件系统"
+title:  "「Linux」 软件安装"
 date:   2019-05-15 13:06:40 +0800
-key: manage-filesystems-20190515
+key: install-software-20190515
 aside:
   toc: true
-category: [Linux, LinuxCommand]
+category: [linux, linux_foundation]
 sidebar:
-  nav: LinuxCMD
+  nav: LinuxFoundation
 ---
+<span id="head"></span>
 
 <!--more-->
 
@@ -16,7 +17,7 @@ sidebar:
 
 
 -------------------  
- [End]()
+[End](#head)
 {:.warning}  
 
 

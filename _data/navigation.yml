@@ -1415,12 +1415,12 @@ Linux:
         url:    /index.html
   - title:
     children:
-      - title:  Linux 命令
-        url:    /assets/category/work/foundation/linux/linux_cmd.html
+      - title:  Linux
+        url:    /assets/category/work/foundation/linux/foundation.html
       - title:  shell
         url:    /assets/category/work/foundation/linux/shell.html
 
-LinuxCMD:
+LinuxFoundation:
   - title:
     children:
       - title:  上一层

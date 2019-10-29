@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「Linux」 shell 数据库输出"
+title:  "「Shell」 数据库输出"
 date:   2019-05-15 13:16:40 +0800
 key: presenting-data-20190515
 aside:
   toc: true
-category: [Linux, Shell]
+category: [linux, Shell]
 sidebar:
   nav: Shell
 ---

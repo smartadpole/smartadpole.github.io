@@ -1,14 +1,15 @@
 ---
 layout: article
-title:  "「Linux」 bash shell 进阶命令"
+title:  "「Linux」 文件权限"
 date:   2019-05-15 13:06:40 +0800
-key: bahs-shell-advanced-20190515
+key: file-permission-20190515
 aside:
   toc: true
-category: [Linux, LinuxCommand]
+category: [linux, linux_foundation]
 sidebar:
-  nav: LinuxCMD
+  nav: LinuxFoundation
 ---
+<span id="head"></span>
 
 <!--more-->
 
@@ -16,7 +17,7 @@ sidebar:
 
 
 -------------------  
- [End]()
+[End](#head)
 {:.warning}  
 
 

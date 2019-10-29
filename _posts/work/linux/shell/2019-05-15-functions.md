@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「Linux」 shell 函数"
+title:  "「Shell」 函数"
 date:   2019-05-15 13:16:40 +0800
 key: shell-functions-20190515
 aside:
   toc: true
-category: [Linux, Shell]
+category: [linux, Shell]
 sidebar:
   nav: Shell
 ---

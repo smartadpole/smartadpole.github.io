@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「Linux」 shell 处理用户输入"
+title:  "「Shell」 处理用户输入"
 date:   2019-05-15 13:16:40 +0800
 key: user-input-20190515
 aside:
   toc: true
-category: [Linux, Shell]
+category: [linux, Shell]
 sidebar:
   nav: Shell
 ---

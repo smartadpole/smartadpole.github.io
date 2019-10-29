@@ -1,15 +1,16 @@
 ---
 layout: article
-title:  "「Shell」 脚本基础"
-date:   2019-05-15 13:16:40 +0800
-key: basic-scripts-20190515
+title:  "「Linux」 管理文件系统"
+date:   2019-05-15 13:06:40 +0800
+key: manage-filesystems-20190515
 aside:
   toc: true
-category: [linux, Shell]
+category: [linux, linux_foundation]
 sidebar:
-  nav: Shell
+  nav: LinuxFoundation
 ---
 <span id="head"></span>
+
 <!--more-->
 
 

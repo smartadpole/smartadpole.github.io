@@ -5,10 +5,11 @@ date:   2019-05-15 13:06:40 +0800
 key: environment-variables-20190515
 aside:
   toc: true
-category: [Linux, LinuxCommand]
+category: [linux, linux_foundation]
 sidebar:
-  nav: LinuxCMD
+  nav: LinuxFoundation
 ---
+<span id="head"></span>
 
 <!--more-->
 
@@ -16,7 +17,7 @@ sidebar:
 
 
 -------------------  
- [End]()
+[End](#head)
 {:.warning}  
 
 

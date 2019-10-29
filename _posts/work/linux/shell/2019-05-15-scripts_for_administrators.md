@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「Linux」 系统维护"
+title:  "「Shell」 系统维护"
 date:   2019-05-15 13:16:40 +0800
 key: scripts4administrato-20190515
 aside:
   toc: true
-category: [Linux, Shell]
+category: [linux, Shell]
 sidebar:
   nav: Shell
 ---

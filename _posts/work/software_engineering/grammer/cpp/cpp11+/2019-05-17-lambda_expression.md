@@ -30,4 +30,5 @@ category: [c++, modern]
 ## A 参考文献
 1. zhangyifei216. Effective Modern C++笔记汇总[EB/OL]. <https://blog.csdn.net/zhangyifei216/article/details/72868345>. 2017-06-05/2019-05-17.   
 1. aboydfd. Effective-mordern-c++[EB/OL]. <https://www.aboydfd.com/search/>. 2016-01-01/2019-05-17.   
-1. Scott Meyers.  Effective Modern C++[M]. 南京:东南大学出版社, 2018.
+1. Scott Meyers.  Effective Modern C++[M]. 南京:东南大学出版社, 2018.    
+1. [C++11的语法糖](https://imzlp.me/posts/2441/)      

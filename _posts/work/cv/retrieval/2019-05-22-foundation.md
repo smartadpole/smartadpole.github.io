@@ -47,11 +47,6 @@ PCA-Sift;
 *2012*    
 svd sift;    
 
-<span id="LSH_SIFT"></span>     
-1. Large-scale video copy retrieval with temporal-concentration SIFT     
-*2016*     
-改进 sift；LSH：位置敏感 hash，解决高维特征检索慢的问题；        
-
 
 #### 3.1.1.2 全局特征
 1. [Ordinal measures for visual correspondence](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)    
@@ -142,11 +137,13 @@ CNN，map+准确度+召回率；
 
 ### 3.2.3 Hash
 #### 3.2.3.1 传统
-1. [Large-scale video copy retrieval with temporal-concentration SIFT](#LSH_SIFT)     
-
-1. Locality-sensitive hashing scheme based on p -stable distributions      
-*2004*     
+1. [Locality-sensitive hashing scheme based on p-stable distributions](https://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf)      
+*2004* [paper](https://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf)     
 LSH;     
+
+1. [Multi-Probe LSH: Efficient Indexing for High-Dimensional Similarity Search](https://pdfs.semanticscholar.org/56fa/f3b709e330f82e126474a12f7cf648bf7360.pdf?_ga=2.186719080.1153843306.1572339852-129004075.1557370518)    
+*2007* [paper](https://pdfs.semanticscholar.org/56fa/f3b709e330f82e126474a12f7cf648bf7360.pdf?_ga=2.186719080.1153843306.1572339852-129004075.1557370518)    
+LSH 的改进版，速度一样，存储减小了一个数量级；    
 
 1. [Bayesian Locality Sensitive Hashing for Fast Similarity Search](http://cn.arxiv.org/abs/1110.1328)     
 *2011-10-06* [paper](https://arxiv.org/abs/1110.1328)   
@@ -339,9 +336,17 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 解决弱几何一致性；    
 
 ## 3.3 距离度量
-### 3.3.1 传统方法
+### 3.3.1 综述
+1. [Comprehensive Survey on Distance/Similarity Measures between Probability Density Functions](http://users.uom.gr/~kouiruki/sung.pdf)     
+*2007* [paper](http://users.uom.gr/~kouiruki/sung.pdf)     
+比较了各种距离度量方法，并探讨了他们的相似性；    
 
-### 3.3.2 深度度量
+### 3.3.2 传统方法
+1. [Similarity Measures](https://pdfs.semanticscholar.org/8389/62cef6bf99c2b99afb26dc5d6cf82366ef20.pdf?_ga=2.235583169.1153843306.1572339852-129004075.1557370518)     
+*1999* [paper](https://pdfs.semanticscholar.org/8389/62cef6bf99c2b99afb26dc5d6cf82366ef20.pdf?_ga=2.235583169.1153843306.1572339852-129004075.1557370518)    
+
+
+### 3.3.3 深度度量
 
 1. [Deep metric learning using Triplet network](http://cn.arxiv.org/abs/1412.6622)  
 [paper](https://arxiv.org/abs/1412.6622)  

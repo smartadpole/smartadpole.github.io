@@ -122,6 +122,7 @@ NIPS 2012 *2012* [paper](https://www.cs.toronto.edu/~ranzato/publications/DistBe
 $\bullet \bullet$   
 网络逐层单独训练，最终融合在一起；虽然效果不如整体训练好，但是对于算力有限情况下的大型网络训练很有帮助；   
 
+1. [深度学习参数怎么调优，这12个trick告诉你](https://zhuanlan.zhihu.com/p/52189739)    
 
 ## 3.2 过拟合
 1. [One-Step or Two-Step Optimization and the Overfitting Phenomenon: A Case Study on Time Series Classification](http://cn.arxiv.org/abs/1407.4364)   

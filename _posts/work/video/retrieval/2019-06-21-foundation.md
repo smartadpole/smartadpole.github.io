@@ -219,9 +219,13 @@ LSH: 提升准确度；
 *2009* [paper](https://www.cse.ust.hk/~yike/sigmod09-lsb.pdf)    
 LSH: 改映射函数；    
 
-1. An Image-Based Approach to Video Copy Detection With Spatio-Temporal Post-Filtering      
-*2010*      
+1. [An Image-Based Approach to Video Copy Detection With Spatio-Temporal Post-Filtering](https://hal.inria.fr/file/index/docid/604034/filename/douze_tmm.pdf)      
+*2010* [paper](https://hal.inria.fr/file/index/docid/604034/filename/douze_tmm.pdf)      
 LSH 改进，词袋模型；    
+
+1. Large-scale video copy retrieval with temporal-concentration SIFT     
+*2016*     
+改进 sift；LSH：位置敏感 hash，解决高维特征检索慢的问题；        
 
 1. Stochastic Multiview Hashing for Large-Scale Near-Duplicate Video Retrieval    
 *2016-09-15*     
@@ -340,6 +344,11 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 1. [Video copy detection by fast sequence matching](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
 *2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
+
+1. [Beyond Distance Measurement: Constructing Neighborhood Similarity for Video Annotation](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)    
+*2009-04* [paper](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)         
+邻域度量；     
+
 
 ### 3.5.3 对称匹配
 

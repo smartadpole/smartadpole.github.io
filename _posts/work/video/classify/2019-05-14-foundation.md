@@ -17,6 +17,16 @@ tags: 资源
 <!--more-->
 
 # 1 综述
+1. [Digital Video Processing](https://pdfs.semanticscholar.org/ecc2/3e5a7902460572d5144664acae27469cf79a.pdf?_ga=2.228334685.1153843306.1572339852-129004075.1557370518)    
+*1995* [paper](https://pdfs.semanticscholar.org/ecc2/3e5a7902460572d5144664acae27469cf79a.pdf?_ga=2.228334685.1153843306.1572339852-129004075.1557370518)    
+《数字视频处理》一书包含：    
+去噪和恢复运动估计：图像形成；运动模型；       
+运动估计：差分，匹配，优化和变换域方法，3D运动和形状估计；       
+跟踪：   
+分段：颜色和运动分段，变化检测，镜头边界检测，视频消光；    
+视频过滤：视频质量图像过滤：梯度估计，边缘检测，缩放，多分辨率表示，增强；多帧过滤，运动补偿过滤，多帧标准转换，多帧噪声滤波；    
+压缩：无损压缩，JPEG，小波和JPEG2000视频压缩；    
+
 1. [Delving Deeper into Convolutional Networks for Learning Video Representations](http://cn.arxiv.org/abs/1511.06432)   
 ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)   
 

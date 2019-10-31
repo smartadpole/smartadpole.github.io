@@ -23,6 +23,9 @@ tags: 资源
 1. [large scale search](https://www.di.ens.fr/willow/events/cvml2013/materials/slides/monday/Mon_2_search_large_2013.pdf)      
 *2013* Microsoft     
 
+1. [Towards Practical Visual Search Engine Within](http://cn.arxiv.org/abs/1806.08896)     
+SIGIR eCom 2018 *2018-06-23* [paper](https://arxiv.org/abs/1806.08896)    
+
 # 2 理论
 
 # 3 技术

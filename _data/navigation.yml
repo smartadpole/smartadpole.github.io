@@ -129,6 +129,8 @@ docs-en:
         url:    /assets/category/work/tool/weixin.html
       - title:  Git
         url:    /assets/category/work/tool/git.html
+      - title:  Python
+        url:    /assets/category/work/tool/python.html
 
   - title:      基础
     children:

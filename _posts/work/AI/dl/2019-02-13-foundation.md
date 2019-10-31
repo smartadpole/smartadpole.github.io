@@ -14,6 +14,7 @@ tags: 资源
 ## 1.1 推荐书籍
 
 ## 1.2 推荐资料
+1. [Convolutional Neural Network (CNN)](https://developer.nvidia.com/discover/convolutional-neural-network) NVIDIA 博客；    
 
 ## 1.3 常用网站
   [使用 RSS 订阅以下网站](#rss) 关注 DL 最新动向  

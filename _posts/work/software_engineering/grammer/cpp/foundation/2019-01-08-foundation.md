@@ -112,6 +112,7 @@ category: [c++, cpp_foundation]
 ### C 推荐资料
 1. [Optimizing software in C++](https://www.agner.org/optimize/optimizing_cpp.pdf)    
 1. [Optimization in C & C++](http://formation.in2p3.fr/Info12/20120207-binet-opt-cxx.pdf)     
+1. [C++ Programming Language](https://www.geeksforgeeks.org/c-plus-plus/)     
 
 ### D 参考文献
 [^1]: 我心不死. 讨论一下《C++ 编程思想》这本书[EB/OL]. <https://bbs.csdn.net/topics/20147884>. -/2019-01-21.  

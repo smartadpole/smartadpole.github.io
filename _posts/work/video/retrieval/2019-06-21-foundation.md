@@ -105,6 +105,10 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 ### 3.2.1 [帧特征](/cv/retrieval/2019/05/22/foundation.html#31-特征提取)
 
 ### 3.2.2 视频特征
+1. [Robust video signature based on ordinal measure](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)     
+*2004* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)     
+重采样应对帧率变化；顺序度量特征，固定滑窗计算相似度；    
+
 1. [Video Shot Characterization∗](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.7150&rep=rep1&type=pdf)     
 [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.7150&rep=rep1&type=pdf)    
 
@@ -124,6 +128,12 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 1. [Deep Hashing with Category Mask for Fast Video Retrieval](http://cn.arxiv.org/abs/1712.08315)     
 *2017-12-22* 美图 [paper](https://arxiv.org/abs/1712.08315) | [blog](https://juejin.im/post/5b4d5a816fb9a04fcf59c9a5)       
+使用网络提取**视频特征**：先用 backbone 网络针对每一帧提取特征，然后将多个特征进行融合，得到固定维度的特征就是视频特征；    
+得到特征后使用阈值进行量化，得到 Hash 码；然后计算 hamming 距离；     
+>
+- 该方案的可扩展性有待深究（阈值的设定、特征融合对于输入帧数的限制）；   
+- 文章默认未考虑视频剪辑的情况；因为只适应从视频采样出固定的几帧，那么就只能完成检索任务，没有办法定位到时间；且如果采样到不相关的帧，对检索结果影响也较大；   
+- 文章对于如何采样并没有说明；感觉工作不是很严谨；整体方案应是只停留在理想环境；    
 
 1. [Convolutional Hashing for Automated Scene Matching](http://cn.arxiv.org/abs/1802.03101)     
 *2018-02-09* [paper](https://arxiv.org/abs/1802.03101)     
@@ -336,9 +346,13 @@ $\bullet \bullet$
 
 
 ### 3.4.8 多项式逼近
+>只能应对滑窗试匹配；   
+
+`polynomial approximation`     
+
 1. [A novel scheme for fast and efficient video sequence matching using compact signatures](http://www.ifp.illinois.edu/~milind/papers/conferences/spie60.ps.gz)     
 *2000* [paper](http://www.ifp.illinois.edu/~milind/papers/conferences/spie60.ps.gz)    
-片段匹配；    
+特征使用的 DCT 直方图，针对片段匹配；    
 
 ### 3.4.9 其他
 1. [Video sequence matching based on temporal ordinal measurement](https://www.ee.ucl.ac.uk/~fstentif/PR%20Letters%20manuscript.pdf)     
@@ -378,16 +392,8 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 `sequence matching` · `similarity measure`    
 `longest common sub-sequence`     
 
-### 3.5.1 单帧
-
-<span id='SEMANTIC_BOW'></span>
-1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)     
-*2009* [paper](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)    
-在单帧的局部特征上用词袋模型，合成帧的全局特征，然后用 EMD 算法计算距离；    
-
-
-### 3.5.2 [序列](/algorithms/string/2019/10/29/pattern-match-foundation.html)
-
+### 3.5.1 对应帧匹配
+#### 3.5.1.1 编辑距离
 1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
 *1998* 香港中文 [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
 `distance measure` · `edit distance` · `sequence-tosequence matching` · `video string`     
@@ -413,10 +419,43 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 1. [Video copy detection by fast sequence matching](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
 *2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
+先前的相似度计算方法是基于关键帧的，没有考虑时间连续性；编辑距离 ED（最长公共子序列是 ED 的特例）虽然考虑了时序，但是他是针对全局序列的匹配，无法应对剪辑和拼接；文章就此提出了针对局部序列匹配的改进版 ED 算法；    
+采样：固定时间采样（1s）；    
+特征：MSF-color（半全局特征，马尔可夫）；       
+相似度：一方面，整体框架使用了 [史密斯·沃特曼算法](https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF-%E6%B2%83%E7%89%B9%E6%9B%BC%E7%AE%97%E6%B3%95)，内有 ED 的概念；另一方面，替换操作定义为常量两帧之间的距离；     
+$$
+\begin{align}
+v(q_i, r_i) &= c - d(q_i, r_i) \\
+d(q_i, r_i) &= \chi^2 = \sum_j {\frac{(q_{ij} - r_{ij})^2}{r_{ij}}} \\
+\end{align}
+$$
+$i$ 是帧号，$x_i$ 是一帧图像的特征向量，$x_{ij}$ 是特征向量中的一个值；    
+
 
 1. [Beyond Distance Measurement: Constructing Neighborhood Similarity for Video Annotation](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)    
 *2009-04* [paper](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)         
 邻域度量；     
+
+<span id='SEMANTIC_BOW'></span>
+1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)     
+*2009* [paper](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)    
+针对关键帧检索任务（通过文字或图像检索），在单帧的局部特征上用词袋模型，合成帧的全局特征，然后用 EMD 算法计算距离；    
+
+
+
+### 3.5.2 [序列匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html)
+#### 3.5.2.1 DTW
+
+1. [A Time Warping Based Approach for Video Copy Detection](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)     
+*2006* [paper](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)   
+文章认为之前的方法速度太慢，且没有考虑视频间序列变化问题；因此进行了如下改进：   
+**优化速度**：    
+提取关键帧：拉氏变换 + 时序峰值；     
+提取片段：基于关键帧，确定可用的起止位置；组合后得到可用的片段；    
+**提升准确度**：    
+精确计算视频距离（时间差分）：当前对应帧距离 + 关联帧距离（关联帧距离中的最小值）；    
+>文章所说的 DTW 中的动态，也只是在候选片段上多跑几次，没有太大的理论意义；    
+文章大量篇幅在讲关键帧，但是未曾引用相关论文，且 TW 模块也是；因此论文工作量不足，可信度和理论解释也一般；     
 
 
 ### 3.5.3 对称匹配
@@ -441,9 +480,6 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 1. [Efficient Near-duplicate Detection and Sub-image Retrieval](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)     
 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)    
 哈希；   
-
-1. [A Time Warping Based Approach for Video Copy Detection](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)     
-*2006* [paper](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)   
 
 1. [A Framework for Handling Spatiotemporal Variations in Video Copy Detection](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)   
 *2008* [rar](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)    

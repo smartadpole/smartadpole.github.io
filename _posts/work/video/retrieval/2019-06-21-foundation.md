@@ -422,7 +422,7 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 先前的相似度计算方法是基于关键帧的，没有考虑时间连续性；编辑距离 ED（最长公共子序列是 ED 的特例）虽然考虑了时序，但是他是针对全局序列的匹配，无法应对剪辑和拼接；文章就此提出了针对局部序列匹配的改进版 ED 算法；    
 采样：固定时间采样（1s）；    
 特征：MSF-color（半全局特征，马尔可夫）；       
-相似度：一方面，整体框架使用了 [史密斯·沃特曼算法](https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF-%E6%B2%83%E7%89%B9%E6%9B%BC%E7%AE%97%E6%B3%95)，内有 ED 的概念；另一方面，替换操作定义为常量两帧之间的距离；     
+相似度：一方面，整体框架使用了 [史密斯·沃特曼算法](https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF-%E6%B2%83%E7%89%B9%E6%9B%BC%E7%AE%97%E6%B3%95)，内有 ED 的概念；另一方面，替换操作定义为常量减去两帧之间的距离；     
 $$
 \begin{align}
 v(q_i, r_i) &= c - d(q_i, r_i) \\
@@ -749,9 +749,10 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 |  |  |  |  |  |
 
 
-## D 开源项目
+## D 项目
 1. [ThreatExchange](https://developers.facebook.com/docs/threat-exchange/v4.0)    
-[code](https://github.com/facebook/ThreatExchange) | [TMK + PDQF](https://github.com/facebook/ThreatExchange/tree/master/hashing/tmk)-相似视频识别 | [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq)-相似图片识别       
+[code](https://github.com/facebook/ThreatExchange) | [TMK + PDQF](https://github.com/facebook/ThreatExchange/tree/master/hashing/tmk)-相似视频识别 | [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq)-相似图片识别    
+1. [duplicate video search](http://duplicatevideosearch.com/)        
 
 ## E 研究员
 1. [OLIVES Research](https://ghassanalregib.info/)、[github](https://github.com/olivesgatech)       

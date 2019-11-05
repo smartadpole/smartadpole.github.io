@@ -106,7 +106,11 @@ KDD 2019 oral *2019-03-24* [paper](https://arxiv.org/abs/1905.13131)
 1. wikipedia. Sequence alignment[EB/OL]. <https://en.wikipedia.org/wiki/Sequence_alignment>. -/2019-11-05.     
 1. 维基百科. 序列比对[EB/OL]. <https://zh.wikipedia.org/wiki/%E5%BA%8F%E5%88%97%E6%AF%94%E5%B0%8D>. -/2019-11-05.     
 1. 维基百科. 尼德曼-翁施算法[EB/OL]. <https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%BE%B7%E6%9B%BC-%E7%BF%81%E6%96%BD%E7%AE%97%E6%B3%95>. -/2019-11-05.     
+Saul B. Needleman; and Christian D. Wunsch. A general method applicable to the search for similarities in the amino acid sequence of two proteins. Journal of Molecular Biology. 1970, 48: 443–453. doi:10.1016/0022-2836(70)90057-4；    
+启发式的同源算法；    
 1. 维基百科. 史密斯-沃特曼算法[EB/OL]. <https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF-%E6%B2%83%E7%89%B9%E6%9B%BC%E7%AE%97%E6%B3%95>. -/2019-11-05.     
+M.S Waterman; T.F Smith; and W.A Beyer. Some biological sequence metrics. Advances in Mathematics. 1976, 20: 367–387. doi:10.1016/0001-8708(76)90202-4；     
+在 Peter H. Sellers. On the Theory and Computation of Evolutionary Distances. Journal of Applied Mathematics. 1974, 26: 787–793. doi:10.1137/0126070 基础上加了插入和删除；    
 1. 维基百科. 莱文斯坦距离[EB/OL]. <https://zh.wikipedia.org/wiki/%E8%90%8A%E6%96%87%E6%96%AF%E5%9D%A6%E8%B7%9D%E9%9B%A2>. -/2019-11-05.     
 1. 小狗贤. 从零开始生物信息学(2):序列比对-Needleman-Wunsch算法[EB/OL]. <https://zhuanlan.zhihu.com/p/54142276>. 2019-01-17/2019-11-05.   
 1. 小狗贤. 从零开始生物信息学(3):序列比对-Smith–Waterman算法[EB/OL]. <https://zhuanlan.zhihu.com/p/54194091>. 2019-01-17/2019-11-05.   

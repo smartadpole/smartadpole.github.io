@@ -1,17 +1,17 @@
 ---
 layout: articles
 titles:
-    en:       Probaility
+    en:       Probability
     zh:       概率论
     zh-Hans:  概率论
     zh-Hant:  概率论
 sidebar:
-    nav: Probaility
+    nav: Probability
 ---
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "概率论" %}
+        {% if cat[0] == "probability" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

@@ -818,6 +818,8 @@ CVPR 2019 workshop *2019-01* [paper](http://openaccess.thecvf.com/content_CVPRW_
 1. -. Learning to Hash[EB/OL]. <https://cs.nju.edu.cn/lwj/L2H.html>. -/2019-07-02.      
 1. [CVPR 2018 地标建筑物识别](https://landmarksworkshop.github.io/CVPRW2018/)     
 1. [Image Tampering Detection and Localization](https://github.com/yannadani/image_tampering_detection_references)     
+1. [图像检索中的相似度度量：EMD距离](https://blog.csdn.net/index20001/article/details/77162495)      
+
 
 ## C 开源项目
 1. [DeepHash](https://github.com/thulab/DeepHash)

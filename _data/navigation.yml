@@ -550,6 +550,8 @@ DM:
     children:
       - title:  异常检测
         url:    /assets/category/work/AI/data_mining/anomaly_detect.html
+      - title:  序列对齐
+        url:    /assets/category/work/AI/data_mining/sequence_alignment.html
 
 ML:
   - title:

@@ -328,24 +328,8 @@ ICCV 2019 oral *2019-07-30* [paper](https://arxiv.org/abs/1907.12743) | [pytorch
 1. [Searching for Near-Duplicate Video Sequences from a Scalable Sequence Aligner](https://hal.archives-ouvertes.fr/hal-00906327/document)     
 *2013-11-19* [paper](https://hal.archives-ouvertes.fr/hal-00906327/document)     
 
-### 3.4.7 最优时间公共子序列
-`Optimal Temporal Common Subsequence`    
 
-1. [Efficient and Effective State-based Framework for News Video Retrival](https://pdfs.semanticscholar.org/554f/724ac379ab70c68f807c208a5a4a8608d6f4.pdf?_ga=2.75141723.833172005.1572513273-129004075.1557370518)    
-*2010* [paper](https://pdfs.semanticscholar.org/554f/724ac379ab70c68f807c208a5a4a8608d6f4.pdf?_ga=2.75141723.833172005.1572513273-129004075.1557370518)     
-当作多维字符串处理；    
-$\bullet \bullet$    
-
-1. The Optimal Temporal Common Subsequence     
-*2010* [library](https://ieeexplore.ieee.org/abstract/document/5542904)    
-
-1. [Multiscale video sequence matching for near-duplicate detection and retrieval](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)    
-*2018-05-04* [paper](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)    
-$\bullet \bullet$    
-多阶段检索；     
-
-
-### 3.4.8 多项式逼近
+### 3.4.7 多项式逼近
 >只能应对滑窗试匹配；   
 
 `polynomial approximation`     
@@ -354,7 +338,7 @@ $\bullet \bullet$
 *2000* [paper](http://www.ifp.illinois.edu/~milind/papers/conferences/spie60.ps.gz)    
 特征使用的 DCT 直方图，针对片段匹配；    
 
-### 3.4.9 其他
+### 3.4.8 其他
 1. [Video sequence matching based on temporal ordinal measurement](https://www.ee.ucl.ac.uk/~fstentif/PR%20Letters%20manuscript.pdf)     
 *2007* [paper](https://www.ee.ucl.ac.uk/~fstentif/PR%20Letters%20manuscript.pdf)    
 提取了时间维度特征；   
@@ -392,7 +376,7 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 `sequence matching` · `similarity measure`    
 `longest common sub-sequence`     
 
-### 3.5.1 对应帧匹配
+### 3.5.1 全局匹配
 #### 3.5.1.1 编辑距离
 1. [A distance measure for video sequence similarity matching](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)   
 *1998* 香港中文 [paper](http://www.cs.cuhk.edu.hk/~king/PUB/adjeroh98b.pdf)    
@@ -417,6 +401,23 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 1. Spatiotemporal sequence matching for efficient video copy detection     
 *2005* [Semantic Scholar](https://www.semanticscholar.org/paper/Spatiotemporal-sequence-matching-for-efficient-copy-Kim-Vasudev/59f16dc158240afbe655277c3a94ccfc380e8c31)     
 
+1. [Beyond Distance Measurement: Constructing Neighborhood Similarity for Video Annotation](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)    
+*2009-04* [paper](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)         
+邻域度量；     
+
+<span id='SEMANTIC_BOW'></span>
+1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)     
+*2009* [paper](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)    
+针对关键帧检索任务（通过文字或图像检索），在单帧的局部特征上用词袋模型，合成帧的全局特征，然后用 EMD 算法计算距离；    
+
+
+1. An image-based near-duplicate video retrieval and localization using improved edit distance    
+*2017*    
+改进 ED， 可以过滤不相似的帧；    
+
+### 3.5.2 [局部匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html)
+#### 3.5.2.1 沃特曼
+
 1. [Video copy detection by fast sequence matching](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
 *2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
 先前的相似度计算方法是基于关键帧的，没有考虑时间连续性；编辑距离 ED（最长公共子序列是 ED 的特例）虽然考虑了时序，但是他是针对全局序列的匹配，无法应对剪辑和拼接；文章就此提出了针对局部序列匹配的改进版 ED 算法；    
@@ -431,20 +432,24 @@ d(q_i, r_i) &= \chi^2 = \sum_j {\frac{(q_{ij} - r_{ij})^2}{r_{ij}}} \\
 $$
 $i$ 是帧号，$x_i$ 是一帧图像的特征向量，$x_{ij}$ 是特征向量中的一个值；    
 
+#### 3.5.2.2 最优时间公共子序列
+`Optimal Temporal Common Subsequence`    
 
-1. [Beyond Distance Measurement: Constructing Neighborhood Similarity for Video Annotation](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)    
-*2009-04* [paper](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)         
-邻域度量；     
+1. [Efficient and Effective State-based Framework for News Video Retrival](https://pdfs.semanticscholar.org/554f/724ac379ab70c68f807c208a5a4a8608d6f4.pdf?_ga=2.75141723.833172005.1572513273-129004075.1557370518)    
+*2010* [paper](https://pdfs.semanticscholar.org/554f/724ac379ab70c68f807c208a5a4a8608d6f4.pdf?_ga=2.75141723.833172005.1572513273-129004075.1557370518)     
+当作多维字符串处理；    
+$\bullet \bullet$    
 
-<span id='SEMANTIC_BOW'></span>
-1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)     
-*2009* [paper](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)    
-针对关键帧检索任务（通过文字或图像检索），在单帧的局部特征上用词袋模型，合成帧的全局特征，然后用 EMD 算法计算距离；    
+1. The Optimal Temporal Common Subsequence     
+*2010* [library](https://ieeexplore.ieee.org/abstract/document/5542904)    
+
+1. [Multiscale video sequence matching for near-duplicate detection and retrieval](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)    
+*2018-05-04* [paper](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)    
+$\bullet \bullet$    
+多阶段检索；     
 
 
-
-### 3.5.2 [序列匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html)
-#### 3.5.2.1 DTW
+#### 3.5.2.3 DTW
 
 1. [A Time Warping Based Approach for Video Copy Detection](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)     
 *2006* [paper](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)   
@@ -456,10 +461,6 @@ $i$ 是帧号，$x_i$ 是一帧图像的特征向量，$x_{ij}$ 是特征向量�
 精确计算视频距离（时间差分）：当前对应帧距离 + 关联帧距离（关联帧距离中的最小值）；    
 >文章所说的 DTW 中的动态，也只是在候选片段上多跑几次，没有太大的理论意义；    
 文章大量篇幅在讲关键帧，但是未曾引用相关论文，且 TW 模块也是；因此论文工作量不足，可信度和理论解释也一般；     
-
-
-### 3.5.3 对称匹配
-
 
 
 ## 3.6 多特征&多模态
@@ -513,6 +514,10 @@ $i$ 是帧号，$x_i$ 是一帧图像的特征向量，$x_{ij}$ 是特征向量�
 
 1. [Pattern-Based Near-Duplicate Video Retrieval and Localization on Web-Scale Videos](https://www.semanticscholar.org/paper/Pattern-Based-Near-Duplicate-Video-Retrieval-and-on-Chou-Chen/b0a2b8945c947816ff0efa5605016c5ab25ef6a8)   
 *2015* [paper](https://www.semanticscholar.org/paper/Pattern-Based-Near-Duplicate-Video-Retrieval-and-on-Chou-Chen/b0a2b8945c947816ff0efa5605016c5ab25ef6a8)    
+
+1. [Frame-level matching of near duplicate videos based on ternary frame descriptor and iterative refinement](http://ijariie.com/AdminUploadPdf/FRAME_LEVEL_MATCHING_OF_NEAR_DUPLICATE_VIDEOS_BASED_ON_TERNARY_FRAME_DESCRIPTOR_AND_ITERATIVE_REFINEMENT_ijariie5350.pdf)     
+ICIP 2015 *2015* [paper](http://ijariie.com/AdminUploadPdf/FRAME_LEVEL_MATCHING_OF_NEAR_DUPLICATE_VIDEOS_BASED_ON_TERNARY_FRAME_DESCRIPTOR_AND_ITERATIVE_REFINEMENT_ijariie5350.pdf)    
+
 
 1. [Near-Duplicate Video Detection Based on an Approximate Similarity Self-Join Strategy](https://hal.inria.fr/hal-01305691/document)    
 *2016-04* [paper](https://hal.inria.fr/hal-01305691/document)    

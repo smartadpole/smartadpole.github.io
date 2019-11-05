@@ -32,3 +32,6 @@ tags: 资源
 `周志华. 机器学习[M]. 北京:清华大学出版社, 2016.`   
 
 ## B 推荐资料
+
+## C 研究员
+1. [jony0917](https://blog.csdn.net/gaofeipaopaotang)    

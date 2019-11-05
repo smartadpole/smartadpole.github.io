@@ -373,6 +373,8 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 
 ## 3.5 相似度度量
+>[序列度量](/data_mining/sequence_alignment/2019/11/05/foundation.html)
+
 `sequence matching` · `similarity measure`    
 `longest common sub-sequence`     
 

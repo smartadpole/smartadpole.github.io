@@ -204,12 +204,37 @@ CNN 提取特征，然后稀疏编码到固定长度；
 *2018* [paper](https://eprints.lancs.ac.uk/id/eprint/130708/1/TIP_author_accepted_manuscript.pdf)    
 
 
-## 3.3 检索
-### 3.3.1 树形结构
+## 3.3  索引
+### 3.3.1 综述
+1. Review of Image and Video Indexing Techniques      
+*1997* [semanticscholar](https://www.semanticscholar.org/paper/Review-of-Image-and-Video-Indexing-Techniques-Idris-Panchanathan/ce61e49a9a3c88152e1f1b1b6e2e803328cc48f1)     
+
+1. [Image and video indexing in the compressed domain](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.40.8228&rep=rep1&type=pdf)      
+*1997* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.40.8228&rep=rep1&type=pdf)     
+另一个名字是 `A critical evaluation of image and video indexing techniques in the compressed domain`      
+针对频域索引技术进行了比对，包括傅立叶变换，余弦变换，Karhunen-Loeve变换，子带和小波的变换域技术；还有矢量量化和分形的空间域技术和基于运动矢量的时间索引技术；    
+
+1. [A state-of-the-art review on multimodal video indexing](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.479.2287&rep=rep1&type=pdf)      
+*2002* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.479.2287&rep=rep1&type=pdf)     
+
+
+1. [Multimodal video indexing: A review of the state-of-the-art](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.77.8258&rep=rep1&type=pdf)    
+*2005* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.77.8258&rep=rep1&type=pdf)     
+多模态索引；     
+
+1. [A Survey on Visual Content-Based Video Indexing and Retrieval](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.6377&rep=rep1&type=pdf)     
+*2011* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.6377&rep=rep1&type=pdf)     
+
+
+1. [Multimedia Indexing and Retrieval Techniques: A Review](https://pdfs.semanticscholar.org/3cc4/3cceddaa0e9ad7f3ae11932a9317cf742f31.pdf)     
+*2012* [paper](https://pdfs.semanticscholar.org/3cc4/3cceddaa0e9ad7f3ae11932a9317cf742f31.pdf)     
+
+
+### 3.3.2 树形结构
 1. [Prover: Probabilistic video retrieval using the Gauss-tree](https://www.dbs.ifi.lmu.de/Publikationen/Papers/icde-prover.pdf)     
 *2007* [paper](https://www.dbs.ifi.lmu.de/Publikationen/Papers/icde-prover.pdf)     
 
-### 3.3.2 VA-File
+### 3.3.3 VA-File
 1. [A quantitative analysis and performance study for similarity-search methods in high-dimensional spaces](https://pdfs.semanticscholar.org/63ea/eb0c48175065ffd096aad10aed712c6d7bbb.pdf)     
 *1998* [paper](https://pdfs.semanticscholar.org/63ea/eb0c48175065ffd096aad10aed712c6d7bbb.pdf)    
 
@@ -230,7 +255,7 @@ iDistance;
 *2005* [paper](https://www.comp.nus.edu.sg/~ooibc/sigmod-video.pdf)      
 iDistance;    
 
-### 3.3.3 Hash
+### 3.3.4 Hash
 1. [A Posteriori Multi-Probe Locality Sensitive Hashing](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/p209-joly.pdf)     
 *2008* [paper](https://www.cs.princeton.edu/courses/archive/spring13/cos598C/p209-joly.pdf)    
 LSH: 提升准确度；    
@@ -251,7 +276,7 @@ LSH 改进，词袋模型；
 *2016-09-15*     
 多视角随机 hash 提升检索精度和速度；     
 
-### 3.3.4 倒排
+### 3.3.5 倒排
 1. [Video Google: a text retrieval approach to object matching in videos](http://www.robots.ox.ac.uk/~vgg/publications/papers/sivic03.pdf)    
 *2003* [paper](http://www.robots.ox.ac.uk/~vgg/publications/papers/sivic03.pdf)    
 

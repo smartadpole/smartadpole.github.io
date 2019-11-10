@@ -66,27 +66,8 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 ## 2.3 [静态摘要](/video/key_frame/2019/06/12/foundation.html)
 
 # 3 扩展技术
-## 3.1 关键帧
->[关键帧资源](/video/key_frame/2019/06/12/foundation.html)    
+## 3.1 [关键帧](/video/key_frame/2019/06/12/foundation.html#53-视频摘要)    
 
-1. [Video Summarization with LongShort-term Memory](http://cn.arxiv.org/abs/1605.08110)    
-ECCV 2016 *2016-05-26* [paper](https://arxiv.org/abs/1605.08110) | [blog](https://blog.csdn.net/nana13628679472/article/details/82826592) | [theano](https://github.com/kezhang-cs/Video-Summarization-with-LSTM)              
-用 LSTM 提取关键帧序列；     
-
-1. [Unsupervised Video Summarization with Adversarial LSTM Networks](http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_summarization.pdf)     
-CVPR 2017 *2017* [paper](http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_summarization.pdf)    
-**先验**：关键帧的分布应该与原序列的分布一直（去除冗余信息）；  
-**正规化**：关键帧的个数应该尽可能的少；关键帧的信息尽可能离散；   
-**做法**：    
-- slstm：输出每一帧的得分，与原来帧加权后得到新的特征；      
-- elstm：对于lstm得到的特征编码，得到一个特征；      
-- dlstm：对elstm得到的特征解码，恢复出原来的特征；      
-- clstm：判断dlstm得到的特征是否还是原来的特征；      
-
-**处理**：根据每一帧的得分选出关键帧     
-- 将视频分成不重叠的几个clip；      
-- 每个clip的得分是这个clip中所有帧的得分的平均，对clip排序；      
-- 高得分的clip中的帧按照分数排序，选出最高的几帧；      
 
 
 

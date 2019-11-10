@@ -76,6 +76,10 @@ tags: 资源
 1. [Content based Video Retrieval: A Survey](https://pdfs.semanticscholar.org/379e/b29b015daa3fac6e0de2f6132733f16d46c7.pdf)    
 *2015-01* [paper](https://pdfs.semanticscholar.org/379e/b29b015daa3fac6e0de2f6132733f16d46c7.pdf)     
 
+1. [Content-Based Video Retrieval in Historical Collections of the German Broadcasting Archive](http://cn.arxiv.org/abs/1702.03790)      
+*2017-02-13* [paper](https://arxiv.org/abs/1702.03790)     
+提供了丰富的视频检索流程；     
+
 1. [FIVR: Fine-grained Incident Video Retrieval](http://cn.arxiv.org/abs/1809.04094)    
 *2018-09-11* [paper](https://arxiv.org/abs/1809.04094)   
 发布了新数据集  FIVR-200K；     
@@ -137,6 +141,10 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 1. [Convolutional Hashing for Automated Scene Matching](http://cn.arxiv.org/abs/1802.03101)     
 *2018-02-09* [paper](https://arxiv.org/abs/1802.03101)     
+
+1. [A Video Database Management System for Advancing Video Database Research](http://cn.arxiv.org/abs/1802.03101)     
+*2018-02-09* [paper](https://arxiv.org/abs/1802.03101)     
+cnn hash，设计了新的 loss 函数；   
 
 1. [A Survey of Deep Learning Solutions for Multimedia Visual Content Analysis](http://repository.essex.ac.uk/24887/1/08744516.pdf)     
 *2019* [paper](http://repository.essex.ac.uk/24887/1/08744516.pdf)     
@@ -726,6 +734,10 @@ UCH： 为了解决跨模态散列问题，使用 GAN 将特征提取和哈希�
 1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
 **AsymNet**: 用 FasterRCNN 检测出物体，然后进行比对；          
+
+1. [Asymmetric Spatio-Temporal Embeddings for Large-Scale Image-to-Video Retrieval](https://pdfs.semanticscholar.org/8e6d/6c4f5696e5e3430e0862e9defc66034e1133.pdf?_ga=2.164909311.1970495203.1573369005-504939339.1571502740)     
+BMVC 2018 *2018* [paper](https://pdfs.semanticscholar.org/8e6d/6c4f5696e5e3430e0862e9defc66034e1133.pdf?_ga=2.164909311.1970495203.1573369005-504939339.1571502740)     
+
 
 ### 4.5.3 [文本](/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
 

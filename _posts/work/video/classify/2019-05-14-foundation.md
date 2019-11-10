@@ -63,6 +63,13 @@ $\bullet \bullet \bullet$
 视频片段处理时间 cpu 37ms，gpu 10ms；     
 
 # 4 通用
+1. [A Variable Size Block Matching Based Descriptor for Human Action Recognition](https://pdfs.semanticscholar.org/66ef/b4d99d3dffac4d1da6525dbc9adcc86d488d.pdf?_ga=2.138762099.1970495203.1573369005-504939339.1571502740)     
+*2015-11* [paper](https://pdfs.semanticscholar.org/66ef/b4d99d3dffac4d1da6525dbc9adcc86d488d.pdf?_ga=2.138762099.1970495203.1573369005-504939339.1571502740)     
+
+
+1. [Deep Temporal Linear Encoding Networks](http://cn.arxiv.org/abs/1611.06678)   
+CVPR 2017 *2016-11-21* [paper](https://arxiv.org/abs/1611.06678) | [zxcvbnm2333](https://blog.csdn.net/zxcvbnm2333/article/details/86489859)   
+TLE:
 
 1. [Non-local Neural Networks](http://cn.arxiv.org/abs/1711.07971)   
 CVPR 2018 *2017-11-21* [paper](https://arxiv.org/abs/1711.07971) | [caffe2](https://github.com/facebookresearch/video-nonlocal-net) | [zhihu](https://www.zhihu.com/question/68473183)       
@@ -78,10 +85,6 @@ NIPS 2018 *2018-10-27* [paper](https://arxiv.org/abs/1810.11579) | [Kivee123](ht
 
 1. [Convolutional sparse coding for capturing high speed video content](http://cn.arxiv.org/abs/1806.04935)   
 *2018-06-13* [paper](https://arxiv.org/abs/1806.04935)   
-
-1. [Deep Temporal Linear Encoding Networks](http://cn.arxiv.org/abs/1611.06678)   
-CVPR 2017 *2016-11-21* [paper](https://arxiv.org/abs/1611.06678) | [zxcvbnm2333](https://blog.csdn.net/zxcvbnm2333/article/details/86489859)   
-TLE:
 
 1. [Learning Video Representations from Correspondence Proposals](http://cn.arxiv.org/abs/1905.07853)   
 CVPR 2019 (Oral) *2019-05-20* [paper](https://arxiv.org/abs/1905.07853)   
@@ -336,7 +339,7 @@ CVPR 2017 *2017-03-09* [paper](https://arxiv.org/abs/1703.03329) | [caffe](https
 
 
 # 9 应用
-## 9.1 手势识别 
+## 9.1 手势识别
 ### 9.1.1 [关键帧](/video/key_frame/2019/06/12/foundation.html#51--手势识别)
 
 

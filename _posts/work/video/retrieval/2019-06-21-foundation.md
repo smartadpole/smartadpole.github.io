@@ -93,6 +93,19 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 1. [DETECTING DIGITAL COPYRIGHT VIOLATIONS ON THE INTERNET](http://infolab.stanford.edu/~shiva/Pubs/thesis.pdf)    
 *1999* [paper](http://infolab.stanford.edu/~shiva/Pubs/thesis.pdf)    
 
+## 1.7 视频指纹
+1. [Introduction to Video Fingerprinting](http://disp.ee.ntu.edu.tw/~pujols/Introduction%20to%20Video%20Fingerprinting.pdf)     
+*2009* [paper](http://disp.ee.ntu.edu.tw/~pujols/Introduction%20to%20Video%20Fingerprinting.pdf)     
+
+1. [Video fingerprinting for copy identification: From research to industry applications](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.394.4048&rep=rep1&type=pdf)     
+*2009* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.394.4048&rep=rep1&type=pdf)     
+
+
+1. [The Core of Video Fingerprinting: Examples of Feature](http://disp.ee.ntu.edu.tw/~pujols/The%20Core%20of%20Video%20Fingerprinting.pdf)     
+*2009* [paper](http://disp.ee.ntu.edu.tw/~pujols/The%20Core%20of%20Video%20Fingerprinting.pdf)      
+$\bullet \bullet$    
+
+
 # 2 理论
 
 # 3 技术点
@@ -119,6 +132,8 @@ ICMR 2019 toturial *2019* [paper](http://www.icmr2019.org/wp-content/uploads/201
 
 1. [A Rotation Invariant Descriptor for Robust Video Copy Detection](http://www.jdl.link/doc/2011/201112291745236454_pcm2011-a%20rotation%20invariant%20descriptor%20for%20robust%20video%20copy%20detection.pdf)     
 *2007* [paper](http://www.jdl.link/doc/2011/201112291745236454_pcm2011-a%20rotation%20invariant%20descriptor%20for%20robust%20video%20copy%20detection.pdf)   
+
+1. [Content-based video fingerprinting method for fast key generation and retrieval]()
 
 1. [VIDEO COPY DETECTION USING FINGERPRINTING WITH FAST IMAGE PROCESSING](https://pdfs.semanticscholar.org/04cd/3343d2e951d108f406bcc9ee784000f939fa.pdf)    
 *2016-04* [paper](https://pdfs.semanticscholar.org/04cd/3343d2e951d108f406bcc9ee784000f939fa.pdf)    
@@ -158,6 +173,11 @@ CVPR 2019 workshop *2019* [paper](https://pdfs.semanticscholar.org/2ef8/3bb794d3
 #### 3.2.3.1 聚类
 1. [Towards effective indexing for very large video sequence database](http://staff.itee.uq.edu.au/zxf/_papers/SIGMOD05.pdf)      
 对帧特征进行聚类；     
+
+1. [Comprehensive Feature-based Robust Video Fingerprinting Using Tensor Model](http://cn.arxiv.org/abs/1601.07270)     
+*2016-01-27* [paper](https://arxiv.org/abs/1601.07270)      
+$\bullet \bullet$    
+特征融合及索引；    
 
 #### 3.2.3.2 降维
 1. [UQLIPS: A Real-time Near-duplicate Video Clip Detection System](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.129.4492&rep=rep1&type=pdf)     
@@ -526,6 +546,10 @@ $\bullet \bullet$
 
 1. [Realtime near duplicate elimination for web video search with content and context](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)    
 *2009* [paper](http://vireo.cs.cityu.edu.hk/papers/TMM_Context_wuxiao.pdf)   
+
+1. [A Robust and Fast Video Copy Detection System Using Content-Based Fingerprinting](http://www.cs.sjsu.edu/faculty/stamp/papers/topics/topic12/05672596.pdf)     
+*2011* [paper](http://www.cs.sjsu.edu/faculty/stamp/papers/topics/topic12/05672596.pdf)     
+
 
 1. [Frame Fusion for Video Copy Detection](http://www.avc2-lab.net/~eczhu/FILE/J-17.pdf)    
 *2011* [paper](http://www.avc2-lab.net/~eczhu/FILE/J-17.pdf)   

@@ -54,8 +54,8 @@ tags: 资源
 *2018-03-23* [paper](https://pdfs.semanticscholar.org/1f88/6b62bce35e7a1605112a54f53ccce3add58b.pdf?_ga=2.141014258.1970495203.1573369005-504939339.1571502740)     
 
 
-1. [基于深度学习的视频关键帧提取与视频检索](http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=JZDF201905027&dbcode=CJFD&dbname=DKFXTEMP)     
-*2019* 梁建胜,温贺平 [paper](http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=JZDF201905027&dbcode=CJFD&dbname=DKFXTEMP)    
+1. 基于深度学习的视频关键帧提取与视频检索        
+*2019* 梁建胜,温贺平 [知网](http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=JZDF201905027&dbcode=CJFD&dbname=DKFXTEMP)    
 
 
 # 2 理论

@@ -106,7 +106,6 @@ ISIC 2019 *2019-10-09* [paper](https://arxiv.org/abs/1910.03910) | [ISIC 2019](h
 *2019-10-10* [paper](https://arxiv.org/abs/1910.04488)     
 弱监督分类，根据脑肿瘤分割结果预测其存活率；   
 
-
 ## 6.8 建筑
 1. [Tour the World: Building a Web-Scale Landmark Recognition Engine](http://www.cs.bilkent.edu.tr/~cansin/projects/cs554-vision/landmark-recognition/landmark-recognition-presentation.pdf)   
 CVPR 2009 *2009-12* [ppt](http://www.cs.bilkent.edu.tr/~cansin/projects/cs554-vision/landmark-recognition/landmark-recognition-presentation.pdf)   
@@ -120,6 +119,10 @@ CVPR 2019 *2019-07-12* [paper](https://arxiv.org/abs/1907.05552)
 ## 6.9 人
 ### 6.9.1 [人脸识别](/cv/human/face_recognization/2019/05/14/foundation.html)
 ### 6.9.2 [步态识别](/cv/human/gait_recognition/2019/05/21/foundation.html)
+### 6.9.3 指纹识别
+1. [A Novel Approach for Partial Fingerprint Identification to Mitigate MasterPrint Generation](http://cn.arxiv.org/abs/1911.03052)      
+*2019-11-08* [paper](https://arxiv.org/abs/1911.03052)     
+
 
 # 7 [训练](/dl/foundation/2019/05/20/foundation.html#311-分类)
 

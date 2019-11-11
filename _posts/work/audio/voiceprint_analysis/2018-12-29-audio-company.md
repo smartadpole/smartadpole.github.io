@@ -6,9 +6,13 @@ key: audio-company-review-20181229
 aside:
   toc: true
 tags: 公司
-category: [audio, audio_analysis, voiceprint_analysis]
+category: [audio, voiceprint_analysis]
 ---
+<span id='head'></span>  
+>
 
+
+<!--more-->
 *排名不分先后*  
 
 ## 一、 科大讯飞

@@ -40,6 +40,13 @@ ICCV 2019 *2019-10-10* [paper](https://arxiv.org/abs/1910.04562)
 1. [Oculum afficit: Ocular Affect Recognition](http://cn.arxiv.org/abs/1905.09240)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09240)   
 
+1. [Dynamic Multi-Task Learning for Face Recognition with Facial Expression](http://cn.arxiv.org/abs/1911.03281)     
+ICCV 2019 *2019-11-08* [paper](https://arxiv.org/abs/1911.03281)    
+
+1. [Dynamic Deep Multi-task Learning for Caricature-Visual Face Recognition](http://cn.arxiv.org/abs/1911.03341)     
+ICDAR 2019 *2019-11-08* [paper](https://arxiv.org/abs/1911.03341)      
+卡通人脸识别；    
+
 ## 6.2 基于视频
 1. [frame attention networks for facial expression recognition in videos](http://cn.arxiv.org/abs/1907.00193)   
 ICIP 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00193)    

@@ -6,9 +6,13 @@ key: audio-requirement-20181229
 aside:
   toc: true
 tags: 需求
-category: [audio, audio_analysis, voiceprint_analysis]
+category: [audio, voiceprint_analysis]
 ---
+<span id='head'></span>  
+>
 
+
+<!--more-->
 ## 1. 1：1 的身份认证以及 1：n 的身份识别
 不限文本、不限语种的情况下，包括各种方言；其中 n 可能为几万；  
 

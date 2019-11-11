@@ -31,6 +31,10 @@ tags: 资源
 1. [Million-scale Near-duplicate Video Retrieval System](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
 *2011-12* [paper](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
 
+1. [Spatio-temporal video copy detection](http://summit.sfu.ca/system/files/iritems1/11976/etd6860_RHarvey.pdf)     
+*2011* [paper](http://summit.sfu.ca/system/files/iritems1/11976/etd6860_RHarvey.pdf)     
+
+
 1. [An Exploration based on Multifarious Video Copy Detection Strategies](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.428.9010&rep=rep1&type=pdf)     
 *2013* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.428.9010&rep=rep1&type=pdf)    
 
@@ -324,6 +328,7 @@ LSH 改进，词袋模型；
 
 ### 3.4.1 滑窗  
 1. [Compact video description for copy detection with precise temporal alignment](/cv/retrieval/2019/05/22/foundation.html#CVD_PTA)
+分层索引，霍夫投票；     
 
 ### 3.4.2 树形结构
 1. [Searching for repeated video sequences](http://www.cs.bilkent.edu.tr/~duygulu/papers/MIR2007.pdf)     
@@ -396,6 +401,9 @@ ICCV 2019 oral *2019-07-30* [paper](https://arxiv.org/abs/1907.12743) | [pytorch
 *2007* [paper](https://www.ee.ucl.ac.uk/~fstentif/PR%20Letters%20manuscript.pdf)    
 提取了时间维度特征；   
 
+1. [Fast Visual Retrieval Using Accelerated Sequence Matching](http://lbmedia.ece.ucsb.edu/resources/ref/ITMM.pdf)    
+*2010* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/ITMM.pdf)     
+
 
 1. Efficient video copy detection via aligning video signature time series     
 *2012*    
@@ -426,7 +434,7 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 
 ## 3.5 相似度度量
->[序列相似度度量](/data_mining/sequence_alignment/2019/11/05/foundation.html)
+>[序列相似度度量](/data_mining/sequence_alignment/2019/11/05/foundation.html)、[字符串匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html)
 
 `sequence matching` · `similarity measure`    
 `longest common sub-sequence`     
@@ -470,7 +478,7 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 *2017*    
 改进 ED， 可以过滤不相似的帧；    
 
-### 3.5.2 [局部匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html)
+### 3.5.2 局部匹配
 #### 3.5.2.1 沃特曼
 
 1. [Video copy detection by fast sequence matching](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     

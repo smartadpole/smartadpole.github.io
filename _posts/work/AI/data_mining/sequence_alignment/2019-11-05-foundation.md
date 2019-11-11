@@ -10,7 +10,7 @@ tags: 资源
 ---
 <span id='head'></span>  
 >计算两个序列的相似度，可找到两者公共的部分，可带容错；   
-
+[字符串匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html)
 
 <!--more-->
 
@@ -23,7 +23,37 @@ tags: 资源
 
 # 2 理论
 
-# 3 其他
+# 3 全局
+
+## 3.1 [串模式匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html#11-模式匹配)
+
+# 4 局部
+
+## 4.1 [最长公共子序列](/algorithms/string/2019/10/29/pattern-match-foundation.html#12-最长公共子序列)
+
+## 4.2 沃特曼
+
+1. [Identification of Common Molecular Subsequences](https://dornsife.usc.edu/assets/sites/516/docs/papers/msw_papers/msw-042.pdf)      
+*1981* [paper](https://dornsife.usc.edu/assets/sites/516/docs/papers/msw_papers/msw-042.pdf)     
+SmithWaterman;    
+
+1. [An Improved Algorithm For Matching Biological Sequences](http://www.genome.ist.i.kyoto-u.ac.jp/~aln_user/archive/JMB82.pdf)      
+*1982* [paper](http://www.genome.ist.i.kyoto-u.ac.jp/~aln_user/archive/JMB82.pdf)     
+
+1. Optimal Sequence Alignment Using Affine Gap Costs     
+*1986*     
+
+1. [Optimal alignments in linear space](https://pdfs.semanticscholar.org/a882/afa232d945a14bb71f79f9ed27adde16c1a6.pdf)     
+*1988* [paper](https://pdfs.semanticscholar.org/a882/afa232d945a14bb71f79f9ed27adde16c1a6.pdf)      
+
+# 5 启发式
+>速度更快；     
+
+1. [Basic Local Alignment Search Tool](http://www.gersteinlab.org/courses/452/09-spring/pdf/Altschul.pdf)     
+*1990* [paper](http://www.gersteinlab.org/courses/452/09-spring/pdf/Altschul.pdf)     
+BLAST     
+
+# 6 其他
 
 1. [The similarity metric](http://cn.arxiv.org/abs/cs/0111054)    
 *2001-11-20* [paper](https://arxiv.org/abs/cs/0111054)     
@@ -36,6 +66,10 @@ tags: 资源
 
 1. [An Algorithm for Alignment-free Sequence Comparison using Logical Match](http://cn.arxiv.org/abs/1407.2237)    
 ICCAE 2010 *2014-07-06* [paper](https://arxiv.org/abs/1407.2237)    
+
+1. [An Alignment Algorithm for Sequences](http://cn.arxiv.org/abs/1210.8398)     
+*2012-10-31* [paper](https://arxiv.org/abs/1210.8398)    
+
 
 1. [Ultra-fast Multiple Genome Sequence Matching Using GPU](http://cn.arxiv.org/abs/1303.3692)    
 *2013-03-15* [paper](https://arxiv.org/abs/1303.3692)     
@@ -56,16 +90,9 @@ $\bullet \bullet$
 比 DTW 更稳健；    
 
 
-# 4 应用
-## 4.1 全局
+# 7 应用
 
-### 4.1.1 [串模式匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html#11-模式匹配)
-
-## 4.2 局部
-
-### 4.2.1 [最长公共子序列](/algorithms/string/2019/10/29/pattern-match-foundation.html#12-最长公共子序列)
-
-### 4.2.2 生物序列
+## 7.1 生物序列
 
 1. [Measuring the similarity of protein structures by means of the universal similarity metric](https://pdfs.semanticscholar.org/5edd/204c9c3ecb4513ec3de44ef0a51795b1d870.pdf?_ga=2.197400687.1153843306.1572339852-129004075.1557370518)    
 *2004* [paper](https://pdfs.semanticscholar.org/5edd/204c9c3ecb4513ec3de44ef0a51795b1d870.pdf?_ga=2.197400687.1153843306.1572339852-129004075.1557370518)    
@@ -82,7 +109,7 @@ ICIAfS 2016 *2018-11-26* [paper](https://arxiv.org/abs/1811.10498)
 1. [FindeR: Accelerating FM-Index-based Exact Pattern Matching in Genomic Sequences through ReRAM technology](http://cn.arxiv.org/abs/1907.04965)    
 *2019-07-11* [paper](https://arxiv.org/abs/1907.04965)    
 
-### 4.2.3 购买意向
+## 7.2 购买意向
 
 1. [Personalized Purchase Prediction of Market Baskets with Wasserstein-Based Sequence Matching](http://cn.arxiv.org/abs/1905.13131)    
 KDD 2019 oral *2019-03-24* [paper](https://arxiv.org/abs/1905.13131)    
@@ -90,11 +117,11 @@ KDD 2019 oral *2019-03-24* [paper](https://arxiv.org/abs/1905.13131)
 
 
 
-### 4.2.4 股票预测
+## 7.3 股票预测
 
-### 4.2.5 [视频序列匹配](/video/video_retrieval/2019/06/21/foundation.html#35-相似度度量)     
+## 7.4 [视频序列匹配](/video/video_retrieval/2019/06/21/foundation.html#35-相似度度量)     
 
-### 4.2.6 手势识别
+## 7.5 手势识别
 
 
 -------------------  
@@ -102,7 +129,13 @@ KDD 2019 oral *2019-03-24* [paper](https://arxiv.org/abs/1905.13131)
 {:.warning}  
 
 # 附录
-## A 参考资料
+## A 讲义
+1. [Linear-Space Alignment](https://web.stanford.edu/class/cs262/presentations/lecture3.pdf)     
+1. [Space-Efficient Alignment](https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/linspace.pdf)      
+1. [Alignment in linear space](https://www.cs.colostate.edu/~asa/courses/cs548/fall11/pdfs/alignment3)     
+1. [Sequence Alignment](http://math.mit.edu/classes/18.417/Slides/alignment.pdf)     
+
+## B 参考资料
 1. wikipedia. Sequence alignment[EB/OL]. <https://en.wikipedia.org/wiki/Sequence_alignment>. -/2019-11-05.     
 1. 维基百科. 序列比对[EB/OL]. <https://zh.wikipedia.org/wiki/%E5%BA%8F%E5%88%97%E6%AF%94%E5%B0%8D>. -/2019-11-05.     
 1. 维基百科. 尼德曼-翁施算法[EB/OL]. <https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%BE%B7%E6%9B%BC-%E7%BF%81%E6%96%BD%E7%AE%97%E6%B3%95>. -/2019-11-05.     

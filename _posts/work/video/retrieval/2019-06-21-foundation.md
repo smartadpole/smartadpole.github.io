@@ -29,7 +29,9 @@ tags: 资源
 *2009* [paper](http://vireo.cs.cityu.edu.hk/tansong/icme09-oral.pdf)    
 
 1. [Million-scale Near-duplicate Video Retrieval System](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
-*2011-12* [paper](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
+*2011-11-28* [paper](http://www.cs.cmu.edu/~caiyang/papers/msndvr-cai-11.pdf)    
+$\bullet \bullet$    
+使用颜色特征； K-Means++ 选择特征，倒排加速搜索；      
 
 1. [Spatio-temporal video copy detection](http://summit.sfu.ca/system/files/iritems1/11976/etd6860_RHarvey.pdf)     
 *2011* [paper](http://summit.sfu.ca/system/files/iritems1/11976/etd6860_RHarvey.pdf)     
@@ -165,6 +167,9 @@ $\bullet \bullet$
 *2018-02-09* [paper](https://arxiv.org/abs/1802.03101)     
 cnn hash，设计了新的 loss 函数；   
 
+1. Finding Near-Duplicate Videos in Large-Scale Collections     
+*2019*  
+
 1. [A Survey of Deep Learning Solutions for Multimedia Visual Content Analysis](http://repository.essex.ac.uk/24887/1/08744516.pdf)     
 *2019* [paper](http://repository.essex.ac.uk/24887/1/08744516.pdf)     
 
@@ -190,7 +195,7 @@ $\bullet \bullet$
 
 1. [Bounded coordinate system indexing for real-time video clip search](http://net.pku.edu.cn/~cuibin/Papers/2009-TOIS-vedio.pdf)      
 *2009* [paper](http://net.pku.edu.cn/~cuibin/Papers/2009-TOIS-vedio.pdf)     
-使用 PCA 对多帧视频特征降维得到视频特征；       
+使用 BCS（PCA+） 对多帧视频特征降维得到视频特征；       
 
 1. [Real-time Large Scale Near-duplicate Web Video Retrieval](#RLDW_LBP_BOW)     
 
@@ -206,7 +211,12 @@ $\bullet \bullet$
 *2016-12*      
 CNN 提取特征，然后稀疏编码到固定长度；     
 
-#### 3.2.3.4 其他
+#### 3.2.3.4 VLAD
+1. [Aggregating local descriptors into a compact image representation](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)     
+*2010* [paper](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)     
+
+
+#### 3.2.3.5 其他
 
 1. [Video histogram: A novel video signature for efficient Web video duplicate detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.1722&rep=rep1&type=pdf)     
 *2007* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.1722&rep=rep1&type=pdf)    
@@ -214,7 +224,33 @@ CNN 提取特征，然后稀疏编码到固定长度；
 
 1. [Practical elimination of near-duplicates from Web video search](http://vireo.cs.cityu.edu.hk/papers/mm07wu1.pdf)    
 *2007* [paper](http://vireo.cs.cityu.edu.hk/papers/mm07wu1.pdf)     
-累积直方图；     
+CC_Web_VIDEO 数据集，基于关键帧，一阶段用颜色，累积直方图，过滤不相似的视频；而阶段用 PCA-SIFT + 滑窗；     
+
+1. [CNN Features Off-the-Shelf: An Astounding Baseline for Recognition](http://cn.arxiv.org/abs/1403.6382)     
+*2014-03-23* [paper](https://arxiv.org/abs/1403.6382)    
+$\bullet \bullet$    
+
+1. [A discriminative CNN video representation for event detection](http://cn.arxiv.org/abs/1411.4006)    
+*2014-11-14* [paper](https://arxiv.org/abs/1411.4006)     
+
+
+1. [Hierarchical feature fusion hashing for near-duplicate video retrieval](http://engine.scichina.com/doi/pdf/54032229BB484DC5A232803260489F9B)     
+*2016* [paper](http://engine.scichina.com/doi/pdf/54032229BB484DC5A232803260489F9B)      
+$\bullet \bullet$   
+
+1. [Detecting near-duplicate videos by aggregating features from intermediate CNN layers](https://www.researchgate.net/publication/221572367_Detection_and_location_of_near-duplicate_video_sub-clips_by_finding_dense_subgraphs)    
+*2016-08* [paper](https://www.researchgate.net/publication/221572367_Detection_and_location_of_near-duplicate_video_sub-clips_by_finding_dense_subgraphs) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection)        
+$\bullet \bullet$    
+流程：CNN 提取特征（每层都提）；K-Means 生成码本（最佳值是 1000）；Apache Spark 助力计算；   
+对比了 AlexNet、VGG、GoogleNet 在视频检索中的表现；并且与传统方法做了比较；效果更好；     
+>实验很细致，也给出了一个相对完整的视频检索流程；只是没有考虑剪辑的情况；      
+
+1. [Near-duplicate video retrieval by aggregating intermediate cnn layers](https://www.researchgate.net/profile/Giorgos_Kordopatis-Zilos/publication/311990276_Near-Duplicate_Video_Retrieval_by_Aggregating_Intermediate_CNN_Layers/links/59e1d80c458515393d57bc5e/Near-Duplicate-Video-Retrieval-by-Aggregating-Intermediate-CNN-Layers.pdf)      
+2017** [paper](https://www.researchgate.net/profile/Giorgos_Kordopatis-Zilos/publication/311990276_Near-Duplicate_Video_Retrieval_by_Aggregating_Intermediate_CNN_Layers/links/59e1d80c458515393d57bc5e/Near-Duplicate-Video-Retrieval-by-Aggregating-Intermediate-CNN-Layers.pdf)     
+$\bullet \bullet$    
+
+1. Effective Multiple Feature Hashing for Large-Scale Near-Duplicate Video Retrieval      
+监督学习进行特征 hash；   
 
 
 ### 3.2.4 视频编码
@@ -298,7 +334,7 @@ LSH: 改映射函数；
 
 1. [An Image-Based Approach to Video Copy Detection With Spatio-Temporal Post-Filtering](https://hal.inria.fr/file/index/docid/604034/filename/douze_tmm.pdf)      
 *2010* [paper](https://hal.inria.fr/file/index/docid/604034/filename/douze_tmm.pdf)      
-LSH 改进，词袋模型；    
+基于关键点，LSH 改进，词袋模型；    
 
 1. Large-scale video copy retrieval with temporal-concentration SIFT     
 *2016*     
@@ -545,8 +581,25 @@ $\bullet \bullet$
 *2004* [paper](http://www.cs.cmu.edu/~rahuls/pub/mm2004-pcasift-rahuls.pdf)    
 哈希；   
 
+
+1. [Feature statistical retrieval applied to content-based copy identification](https://www-sop.inria.fr/members/Alexis.Joly/ajolyICIP04.pdf)     
+*2004* [paper](https://www-sop.inria.fr/members/Alexis.Joly/ajolyICIP04.pdf)    
+兴趣点签名，对打数据检索高效；   
+
+1. [Efficient and Effective Video Copy Detection Based on Spatiotemporal Analysis](https://www.iis.sinica.edu.tw/papers/song/15904-F.pdf)    
+*2007* [paper](https://www.iis.sinica.edu.tw/papers/song/15904-F.pdf)   
+
+1. [Scalable mining of large video databases using copy detection](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
+*2008* [paper](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
+
 1. [A Framework for Handling Spatiotemporal Variations in Video Copy Detection](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)   
 *2008* [rar](http://mclab.cs.ccu.edu.tw/files/ken2585699/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection/A%20Framework%20for%20Handling%20Spatiotemporal%20Variations%20in%20Video%20Copy%20Detection.rar)    
+
+1. [A compact, effective descriptor for video copy detection](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)   
+*2009* [paper](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)    
+
+1. [Video Copy Detection by Fast Sequence Matching ](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
+*2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
 
 1. [Scale-Rotation Invariant Pattern Entropy for Keypoint-based Near-Duplicate Detection](http://vireo.cs.cityu.edu.hk/papers/tip09_zhao.pdf)    
 *2009* [paper](http://vireo.cs.cityu.edu.hk/papers/tip09_zhao.pdf)    
@@ -571,6 +624,11 @@ $\bullet \bullet$
 *2012* [paper](http://www.iitg.ac.in/iciss2012/pdf/Tutorials/Sanjoy_Saha.pdf)     
 
 
+1. [Implementation of a Content Based Video Copy Detection Using Spatio-Temporal Measure](https://pdfs.semanticscholar.org/5faf/d40a490c10866afc0b375e71907b07e421a9.pdf?_ga=2.255512769.833172005.1572513273-129004075.1557370518)    
+*2012* [paper](https://pdfs.semanticscholar.org/5faf/d40a490c10866afc0b375e71907b07e421a9.pdf?_ga=2.255512769.833172005.1572513273-129004075.1557370518)     
+基于镜头；或许并未考虑序列问题；       
+
+
 1. [Content-Based Video Copy Detection Benchmarking at TRECVID](https://repository.ubn.ru.nl/bitstream/handle/2066/129924/129924pre.pdf?sequence=3)    
 *2014* [paper](https://repository.ubn.ru.nl/bitstream/handle/2066/129924/129924pre.pdf?sequence=3)    
 
@@ -578,13 +636,23 @@ $\bullet \bullet$
 *2014* [paper](http://www.yugangjiang.info/publication/eccv14-VCDB.pdf)    
 发布了数据集    
 
+1. [Detection and Localization of Video Copy-Move Forgery in Temporal and Spatial Domain](https://pdfs.semanticscholar.org/26d2/c8c5ccef3867c3d5d85a0e577b018fd7a525.pdf)    
+*2015* [paper](https://pdfs.semanticscholar.org/26d2/c8c5ccef3867c3d5d85a0e577b018fd7a525.pdf)     
+
 
 1. [Pattern-Based Near-Duplicate Video Retrieval and Localization on Web-Scale Videos](https://www.semanticscholar.org/paper/Pattern-Based-Near-Duplicate-Video-Retrieval-and-on-Chou-Chen/b0a2b8945c947816ff0efa5605016c5ab25ef6a8)   
 *2015* [paper](https://www.semanticscholar.org/paper/Pattern-Based-Near-Duplicate-Video-Retrieval-and-on-Chou-Chen/b0a2b8945c947816ff0efa5605016c5ab25ef6a8)    
+$\bullet \bullet$     
+基于模式的特征处理，过滤不相似的视频；     
 
 1. [Frame-level matching of near duplicate videos based on ternary frame descriptor and iterative refinement](http://ijariie.com/AdminUploadPdf/FRAME_LEVEL_MATCHING_OF_NEAR_DUPLICATE_VIDEOS_BASED_ON_TERNARY_FRAME_DESCRIPTOR_AND_ITERATIVE_REFINEMENT_ijariie5350.pdf)     
 ICIP 2015 *2015* [paper](http://ijariie.com/AdminUploadPdf/FRAME_LEVEL_MATCHING_OF_NEAR_DUPLICATE_VIDEOS_BASED_ON_TERNARY_FRAME_DESCRIPTOR_AND_ITERATIVE_REFINEMENT_ijariie5350.pdf)    
 
+
+1. [Partial Copy Detection in Videos: A Benchmark and An Evaluation of Popular Methods](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
+*2016-03-01* [paper](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
+$\bullet \bullet$    
+公开 VCDB 数据集，有 10 万条视频，9000 对；深度局部特征+词袋模型；    
 
 1. [Near-Duplicate Video Detection Based on an Approximate Similarity Self-Join Strategy](https://hal.inria.fr/hal-01305691/document)    
 *2016-04* [paper](https://hal.inria.fr/hal-01305691/document)    
@@ -592,50 +660,13 @@ ICIP 2015 *2015* [paper](http://ijariie.com/AdminUploadPdf/FRAME_LEVEL_MATCHING_
 1. [Near Duplicate Video Retrieval using Spatio Temporal Approach with Multifeature Mechanism](http://www.ijirset.com/upload/2016/june/174_Near.pdf)    
 *2016-06* [paper](http://www.ijirset.com/upload/2016/june/174_Near.pdf)    
 
-1. [Detecting near-duplicate videos by aggregating features from intermediate CNN layers](https://www.researchgate.net/publication/221572367_Detection_and_location_of_near-duplicate_video_sub-clips_by_finding_dense_subgraphs)    
-*2016-08* [paper](https://www.researchgate.net/publication/221572367_Detection_and_location_of_near-duplicate_video_sub-clips_by_finding_dense_subgraphs) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection)        
-
 1. [Stochastic Multiview Hashing for Large-Scale Near- Duplicate Video Retrieval](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
 *2017-01* [paper](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
 镜头边界检测，哈希，汉明距离，map；     
 
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)         
 ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)     
-
-1. [TRECVID 2018: Benchmarking Video Activity Detection, Video Captioning and Matching, Video Storytelling Linking and Video Search](https://hal.archives-ouvertes.fr/hal-01919873/document)   
-*2018-11-12* [paper](https://hal.archives-ouvertes.fr/hal-01919873/document)    
-
-
-1. [A Coarse-to-fine Deep Convolutional Neural Network Framework for Frame Duplication Detection and Localization in Forged Videos](http://cn.arxiv.org/abs/1811.10762)    
-*2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
-
-
-1. [Partial Copy Detection in Videos: A Benchmark and An Evaluation of Popular Methods](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
-*2016-03-01* [paper](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
-公开 VCDB 数据集，有 10 万条视频，9000 对；   
-
-1. [Feature statistical retrieval applied to content-based copy identification](https://www-sop.inria.fr/members/Alexis.Joly/ajolyICIP04.pdf)     
-*2004* [paper](https://www-sop.inria.fr/members/Alexis.Joly/ajolyICIP04.pdf)    
-兴趣点签名，对打数据检索高效；   
-
-1. [Efficient and Effective Video Copy Detection Based on Spatiotemporal Analysis](https://www.iis.sinica.edu.tw/papers/song/15904-F.pdf)    
-*2007* [paper](https://www.iis.sinica.edu.tw/papers/song/15904-F.pdf)   
-
-1. [Scalable mining of large video databases using copy detection](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
-*2008* [paper](http://cedric.cnam.fr/~crucianm/src/poullot08scalable.pdf)   
-
-1. [A compact, effective descriptor for video copy detection](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)   
-*2009* [paper](http://www.csie.ntnu.edu.tw/~myeh/papers/mm09.pdf)    
-
-1. [Video Copy Detection by Fast Sequence Matching ](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
-*2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)    
-
-1. [Implementation of a Content Based Video Copy Detection Using Spatio-Temporal Measure](https://pdfs.semanticscholar.org/5faf/d40a490c10866afc0b375e71907b07e421a9.pdf?_ga=2.255512769.833172005.1572513273-129004075.1557370518)    
-*2012* [paper](https://pdfs.semanticscholar.org/5faf/d40a490c10866afc0b375e71907b07e421a9.pdf?_ga=2.255512769.833172005.1572513273-129004075.1557370518)     
-基于镜头；或许并未考虑序列问题；       
-
-1. [Detection and Localization of Video Copy-Move Forgery in Temporal and Spatial Domain](https://pdfs.semanticscholar.org/26d2/c8c5ccef3867c3d5d85a0e577b018fd7a525.pdf)    
-*2015* [paper](https://pdfs.semanticscholar.org/26d2/c8c5ccef3867c3d5d85a0e577b018fd7a525.pdf)     
+$\bullet \bullet$    
 
 1. [Video Copyright Detection Using High Level Objects in Video Clip](https://pdfs.semanticscholar.org/15f7/239ba1b1789bccffbcbe8168b2383806ed09.pdf?_ga=2.7552891.833172005.1572513273-129004075.1557370518)     
 *2017-12* [paper](https://pdfs.semanticscholar.org/15f7/239ba1b1789bccffbcbe8168b2383806ed09.pdf?_ga=2.7552891.833172005.1572513273-129004075.1557370518)    
@@ -650,6 +681,13 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 
 1. [Autoencoder with recurrent neural networks for video forgery detection](http://cn.arxiv.org/abs/1708.08754)     
 *2017-08-29* [paper](https://arxiv.org/abs/1708.08754)    
+
+1. [TRECVID 2018: Benchmarking Video Activity Detection, Video Captioning and Matching, Video Storytelling Linking and Video Search](https://hal.archives-ouvertes.fr/hal-01919873/document)   
+*2018-11-12* [paper](https://hal.archives-ouvertes.fr/hal-01919873/document)    
+
+
+1. [A Coarse-to-fine Deep Convolutional Neural Network Framework for Frame Duplication Detection and Localization in Forged Videos](http://cn.arxiv.org/abs/1811.10762)    
+*2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
 
 
 1. [Simple Yet Efficient Content Based Video Copy Detection](http://cn.arxiv.org/abs/1804.07019)   
@@ -668,6 +706,8 @@ ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/paper
 1. [We Need No Pixels: Video Manipulation Detection Using Stream Descriptors](https://arxiv.org/abs/1906.08743)     
 ICML 2019 Worksop *2019-06-20* [paper](https://arxiv.org/abs/1906.08743)    
 
+1. Partial-copy detection of non-simulated videos using learning at decision level     
+*2019*   
 
 ## 4.2 签名验证
 `video vreification`     

@@ -71,10 +71,13 @@ DCT + Hash;
 
 ### 3.1.2 [DL](/dl/cnn/2019/05/21/foundation.html)
 
-<span id="PCD_E">
-1.  Partial copy detection in videos: A benchmark and an evaluation of popular methods     
-*2016*     
-深度局部特征+词袋模型；    
+1. [Learning to compare image patches via convolutional neural networks](http://cn.arxiv.org/abs/1504.03641)    
+CVPR 2015 *2015-04-14* [paper](https://arxiv.org/abs/1504.03641)   
+SCNN: 挛生网络；    
+
+1. [good practice in cnn feature transfer](http://cn.arxiv.org/abs/1604.00133)     
+*2016-04-01* [paper](https://arxiv.org/abs/1604.00133)     
+$\bullet \bullet$    
 
 1. Image copy detection based on convolutional neural networks     
 *2016*  
@@ -87,9 +90,6 @@ VGG 提取帧特征；
 1. [Deep Signatures](http://cn.arxiv.org/abs/1905.08494)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08494) | [pytorch](https://github.com/patrick-kidger/Deep-Signatures)       
 
-1. [Learning to compare image patches via convolutional neural networks](http://cn.arxiv.org/abs/1504.03641)    
-CVPR 2015 *2015-04-14* [paper](https://arxiv.org/abs/1504.03641)   
-SCNN: 挛生网络；    
 
 ### 3.1.3 特征编码
 >将局部特征组合成全局图像特征；    
@@ -106,8 +106,6 @@ ECCV 2008 *2008* [paper](https://lear.inrialpes.fr/pubs/2008/JDS08/jegou_hewgc08
 
 1. [Improving bag-of-features for large scale image search](https://hal.inria.fr/inria-00514760/document)     
 *2010* [paper](https://hal.inria.fr/inria-00514760/document)     
-
-1. [Partial copy detection in videos: A benchmark and an evaluation of popular methods](#PCD_E)     
 
 1. Effective and efficient global context verification for image copy detection     
 *2017* OR-GCD 处理视觉词袋的量化误差；     
@@ -465,8 +463,9 @@ http://dl.acm.org.sci-hub.cc/citation.cfm?doid=2809654.2766959
 [paper](https://arxiv.org/abs/1510.07493)  
 
 1. [Exploiting Local Features from Deep Networks for Image Retrieval](http://cn.arxiv.org/abs/1504.05133)  
-[2015] CVPR DeepVision Workshop  
-[paper](https://arxiv.org/abs/1504.05133)  
+*2015-04-20* CVPR Workshop  [paper](https://arxiv.org/abs/1504.05133)    
+$\bullet \bullet$      
+CNN 助力图片检索；   
 
 1. [Visual Search at Pinterest](http://cn.arxiv.org/abs/1505.07647)  
 [2015] in Proceedings of the 21th ACM SIGKDD International Conference on Knowledge and Discovery and Data Mining, 2015  
@@ -787,8 +786,14 @@ ICCV 2019 *2019-04-05* [paper](https://arxiv.org/abs/1904.03208)
 `什么是零样本检索`{:.warning}     
 
 ## 4.6 伪造检测
+1. Copy-move forgery detection based on deep learning     
+*2017*    
+
 1. [Tampering Detection and Localization through Clustering of Camera-Based CNN Features](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w28/papers/Tubaro_Tampering_Detection_and_CVPR_2017_paper.pdf)     
 CVPR 2017 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w28/papers/Tubaro_Tampering_Detection_and_CVPR_2017_paper.pdf)     
+
+1. [Copy-move Forgery Detection based on Convolutional Kernel Network](https://arxiv.org/abs/1707.01221)      
+*2017-07-05* [paper](https://arxiv.org/abs/1707.01221)    
 
 1. [Protecting World Leaders Against Deep Fakes](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Agarwal_Protecting_World_Leaders_Against_Deep_Fakes_CVPRW_2019_paper.pdf)    
 CVPR 2019 workshop *2019-01* [paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Agarwal_Protecting_World_Leaders_Against_Deep_Fakes_CVPRW_2019_paper.pdf)     

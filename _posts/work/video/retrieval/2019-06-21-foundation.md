@@ -241,13 +241,14 @@ $\bullet \bullet$
 1. [Detecting near-duplicate videos by aggregating features from intermediate CNN layers](https://www.researchgate.net/publication/221572367_Detection_and_location_of_near-duplicate_video_sub-clips_by_finding_dense_subgraphs)    
 *2016-08* [paper](https://www.researchgate.net/publication/221572367_Detection_and_location_of_near-duplicate_video_sub-clips_by_finding_dense_subgraphs) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection)        
 $\bullet \bullet$    
+
+1. [Near-duplicate video retrieval by aggregating intermediate cnn layers](https://www.researchgate.net/profile/Giorgos_Kordopatis-Zilos/publication/311990276_Near-Duplicate_Video_Retrieval_by_Aggregating_Intermediate_CNN_Layers/links/59e1d80c458515393d57bc5e/Near-Duplicate-Video-Retrieval-by-Aggregating-Intermediate-CNN-Layers.pdf)      
+*2017* [paper](https://www.researchgate.net/profile/Giorgos_Kordopatis-Zilos/publication/311990276_Near-Duplicate_Video_Retrieval_by_Aggregating_Intermediate_CNN_Layers/links/59e1d80c458515393d57bc5e/Near-Duplicate-Video-Retrieval-by-Aggregating-Intermediate-CNN-Layers.pdf) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)           
+$\bullet \bullet$    
 流程：CNN 提取特征（每层都提）；K-Means 生成码本（最佳值是 1000）；Apache Spark 助力计算；   
 对比了 AlexNet、VGG、GoogleNet 在视频检索中的表现；并且与传统方法做了比较；效果更好；     
 >实验很细致，也给出了一个相对完整的视频检索流程；只是没有考虑剪辑的情况；      
 
-1. [Near-duplicate video retrieval by aggregating intermediate cnn layers](https://www.researchgate.net/profile/Giorgos_Kordopatis-Zilos/publication/311990276_Near-Duplicate_Video_Retrieval_by_Aggregating_Intermediate_CNN_Layers/links/59e1d80c458515393d57bc5e/Near-Duplicate-Video-Retrieval-by-Aggregating-Intermediate-CNN-Layers.pdf)      
-2017** [paper](https://www.researchgate.net/profile/Giorgos_Kordopatis-Zilos/publication/311990276_Near-Duplicate_Video_Retrieval_by_Aggregating_Intermediate_CNN_Layers/links/59e1d80c458515393d57bc5e/Near-Duplicate-Video-Retrieval-by-Aggregating-Intermediate-CNN-Layers.pdf)     
-$\bullet \bullet$    
 
 1. Effective Multiple Feature Hashing for Large-Scale Near-Duplicate Video Retrieval      
 监督学习进行特征 hash；   
@@ -340,9 +341,9 @@ LSH: 改映射函数；
 *2016*     
 改进 sift；LSH：位置敏感 hash，解决高维特征检索慢的问题；        
 
-1. Stochastic Multiview Hashing for Large-Scale Near-Duplicate Video Retrieval    
-*2016-09-15*     
-多视角随机 hash 提升检索精度和速度；     
+1. [Stochastic Multiview Hashing for Large-Scale Near-Duplicate Video Retrieval ](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
+*2016-09-15* [paper](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
+镜头边界检测，汉明距离，map；多视角随机 hash 提升检索精度和速度；     
 
 ### 3.3.5 倒排
 1. [Video Google: a text retrieval approach to object matching in videos](http://www.robots.ox.ac.uk/~vgg/publications/papers/sivic03.pdf)    
@@ -363,7 +364,8 @@ LSH: 改映射函数；
 `temporal alignment` · `local alignment`     
 
 ### 3.4.1 滑窗  
-1. [Compact video description for copy detection with precise temporal alignment](/cv/retrieval/2019/05/22/foundation.html#CVD_PTA)
+1. [Compact video description for copy detection with precise temporal alignment](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10.pdf)     
+ECCV 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10.pdf)    
 分层索引，霍夫投票；     
 
 ### 3.4.2 树形结构
@@ -659,10 +661,6 @@ $\bullet \bullet$
 
 1. [Near Duplicate Video Retrieval using Spatio Temporal Approach with Multifeature Mechanism](http://www.ijirset.com/upload/2016/june/174_Near.pdf)    
 *2016-06* [paper](http://www.ijirset.com/upload/2016/june/174_Near.pdf)    
-
-1. [Stochastic Multiview Hashing for Large-Scale Near- Duplicate Video Retrieval](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
-*2017-01* [paper](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
-镜头边界检测，哈希，汉明距离，map；     
 
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)         
 ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)     

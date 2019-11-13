@@ -118,15 +118,6 @@ CVPR 2007 *2007* [paper](http://www.ee.oulu.fi/research/imag/courses/Vedaldi/200
 1. [Aggregating local descriptors into a compact image representation](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)    
 CVPR 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)   
 
-<span id="CVD_PTA"></span>
-1. [Compact video description for copy detection with precise temporal alignment](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10.pdf)     
-ECCV 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10.pdf)    
-
-
-1. [Near-Duplicate Video Retrieval by Aggregating Intermediate CNN Layers](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1)   
-*2016-08* [paper](https://zenodo.org/record/240645/files/duplicate-video-retrieval.pdf?download=1) | [tensorflow](https://github.com/Chinmay26/Near-Duplicate-Video-Detection) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)       
-CNN，map+准确度+召回率；    
-
 ### 3.1.4 其他
 1. [A New Approach to Image Copy Detection Based on Extended Feature Sets](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)    
 *2007* [paper](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)   

@@ -1614,12 +1614,17 @@ PARALLEL:
     children:
       - title:  上一层
         url:    /index.html
-  - title:
+  - title:      CPU
     children:
-      - title:  cuda
-        url:    /assets/category/work/software/develop/parallel/cuda.html
-      - title:  Vulkan
-        url:    /assets/category/work/software/develop/parallel/vulkan.html
       - title:  OpenMP
         url:    /assets/category/work/software/develop/parallel/openmp.html
-
+  - title:	GPU
+    children:
+      - title:  CUDA
+        url:    /assets/category/work/software/develop/parallel/cuda.html
+      - title:  OpenGL
+        url:    /assets/category/work/software/develop/parallel/opengl.html
+  - title:	终端
+    children:
+      - title:  Vulkan
+        url:    /assets/category/work/software/develop/parallel/vulkan.html

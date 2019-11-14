@@ -244,7 +244,7 @@ $\bullet \bullet$
 
 1. [Near-duplicate video retrieval by aggregating intermediate cnn layers](https://www.researchgate.net/profile/Giorgos_Kordopatis-Zilos/publication/311990276_Near-Duplicate_Video_Retrieval_by_Aggregating_Intermediate_CNN_Layers/links/59e1d80c458515393d57bc5e/Near-Duplicate-Video-Retrieval-by-Aggregating-Intermediate-CNN-Layers.pdf)      
 *2017* [paper](https://www.researchgate.net/profile/Giorgos_Kordopatis-Zilos/publication/311990276_Near-Duplicate_Video_Retrieval_by_Aggregating_Intermediate_CNN_Layers/links/59e1d80c458515393d57bc5e/Near-Duplicate-Video-Retrieval-by-Aggregating-Intermediate-CNN-Layers.pdf) | [caffe](https://github.com/MKLab-ITI/intermediate-cnn-features)           
-$\bullet \bullet$    
+$\bullet \bullet$ NDVR CNN      
 流程：CNN 提取特征（每层都提）；K-Means 生成码本（最佳值是 1000）；Apache Spark 助力计算；   
 对比了 AlexNet、VGG、GoogleNet 在视频检索中的表现；并且与传统方法做了比较；效果更好；     
 >实验很细致，也给出了一个相对完整的视频检索流程；只是没有考虑剪辑的情况；      
@@ -837,7 +837,7 @@ BMVC 2018 *2018* [paper](https://pdfs.semanticscholar.org/8e6d/6c4f5696e5e3430e0
 1. [video-retrieval](https://github.com/topics/video-retrieval)-github    
 1. [爱奇艺视频版权保护技术与维权实践](https://blog.csdn.net/vn9PLgZvnPs1522s82g/article/details/85333786) | [视频回放](https://www.baijiayun.com/web/playback/index?classid=18111593840768&token=kCJkdBjUx0PhKKZLIMQ5hoiYViZO8QEZLKLt7BL9Umj0GUNuUZj_b_JUF7ZGPr3cCqdH1zJ1Si0%20%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%20%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E%EF%BC%9A%E6%9C%AC%E6%96%87%E4%B8%BACSDN%E5%8D%9A%E4%B8%BB%E3%80%8CLiveVideoStack_%E3%80%8D%E7%9A%84%E5%8E%9F%E5%88%9B%E6%96%87%E7%AB%A0%EF%BC%8C%E9%81%B5%E5%BE%AA%20CC%204.0%20BY-SA%20%E7%89%88%E6%9D%83%E5%8D%8F%E8%AE%AE%EF%BC%8C%E8%BD%AC%E8%BD%BD%E8%AF%B7%E9%99%84%E4%B8%8A%E5%8E%9F%E6%96%87%E5%87%BA%E5%A4%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E6%9C%AC%E5%A3%B0%E6%98%8E%E3%80%82%20%E5%8E%9F%E6%96%87%E9%93%BE%E6%8E%A5%EF%BC%9Ahttps://blog.csdn.net/vn9PLgZvnPs1522s82g/article/details/85333786) | [陈赫](http://beijing2018.livevideostack.com/topic/187)     
 从「发布之前」、「分发播放」、「盗版追踪」、「维权处理」四个环节介绍爱奇艺在版权保护方面的相关技术以及具体应用情况；    
-
+1. [awesomeCVpapers](https://github.com/aliensunmin/awesomeCVpapers/blob/master/README.md) ： 特征提取；     
 
 ## B 报告
 1. ICIP 2017 [Near-Duplicate Video Detection Exploiting Noise Residual Traces](https://pdfs.semanticscholar.org/e604/9608e35f9633bb3c2cf50896f2d26d29a9cd.pdf)    

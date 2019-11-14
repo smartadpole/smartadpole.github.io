@@ -251,6 +251,8 @@ $\bullet \bullet$ NDVR CNN
 
 
 1. Effective Multiple Feature Hashing for Large-Scale Near-Duplicate Video Retrieval      
+*2013*     
+MFH      
 监督学习进行特征 hash；   
 
 
@@ -264,6 +266,7 @@ $\bullet \bullet$ NDVR CNN
 *2012* [paper](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
 
 1. [Unsupervised t-Distributed Video Hashing and Its Deep Hashing Extension](https://www.research.manchester.ac.uk/portal/files/58965691/final.pdf)    
+$\bullet \bullet$ t-UDH     
 *2016-12* [paper](https://www.research.manchester.ac.uk/portal/files/58965691/final.pdf)    
 
 1. [Joint Audio-Video Fingerprint Media Retrieval Using Rate-Coverage Optimization](http://cn.arxiv.org/abs/1609.01331)    
@@ -343,6 +346,7 @@ LSH: 改映射函数；
 
 1. [Stochastic Multiview Hashing for Large-Scale Near-Duplicate Video Retrieval ](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
 *2016-09-15* [paper](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
+stochastic hash       
 镜头边界检测，汉明距离，map；多视角随机 hash 提升检索精度和速度；     
 
 ### 3.3.5 倒排
@@ -653,7 +657,7 @@ ICIP 2015 *2015* [paper](http://ijariie.com/AdminUploadPdf/FRAME_LEVEL_MATCHING_
 
 1. [Partial Copy Detection in Videos: A Benchmark and An Evaluation of Popular Methods](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
 *2016-03-01* [paper](http://yugangjiang.info/publication/TBD-VCDB.pdf)   
-$\bullet \bullet$    
+$\bullet \bullet$ TBD    
 公开 VCDB 数据集，有 10 万条视频，9000 对；深度局部特征+词袋模型；    
 
 1. [Near-Duplicate Video Detection Based on an Approximate Similarity Self-Join Strategy](https://hal.inria.fr/hal-01305691/document)    
@@ -664,7 +668,7 @@ $\bullet \bullet$
 
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)         
 ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)     
-$\bullet \bullet$    
+$\bullet \bullet$ DML       
 
 1. [Video Copyright Detection Using High Level Objects in Video Clip](https://pdfs.semanticscholar.org/15f7/239ba1b1789bccffbcbe8168b2383806ed09.pdf?_ga=2.7552891.833172005.1572513273-129004075.1557370518)     
 *2017-12* [paper](https://pdfs.semanticscholar.org/15f7/239ba1b1789bccffbcbe8168b2383806ed09.pdf?_ga=2.7552891.833172005.1572513273-129004075.1557370518)    
@@ -686,6 +690,7 @@ $\bullet \bullet$
 
 1. [A Coarse-to-fine Deep Convolutional Neural Network Framework for Frame Duplication Detection and Localization in Forged Videos](http://cn.arxiv.org/abs/1811.10762)    
 *2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
+coarse2fine cnn    
 
 
 1. [Simple Yet Efficient Content Based Video Copy Detection](http://cn.arxiv.org/abs/1804.07019)   
@@ -699,7 +704,8 @@ $\bullet \bullet$
 *2019-04-08*    
 
 1. [Video tampering localisation using features learned from authentic content](https://link.springer.com/content/pdf/10.1007%2Fs00521-019-04272-z.pdf)    
-*2019* [paper](https://link.springer.com/content/pdf/10.1007%2Fs00521-019-04272-z.pdf)    
+*2019-01-11* [paper](https://link.springer.com/content/pdf/10.1007%2Fs00521-019-04272-z.pdf)    
+tampering localisation      
 
 1. [We Need No Pixels: Video Manipulation Detection Using Stream Descriptors](https://arxiv.org/abs/1906.08743)     
 ICML 2019 Worksop *2019-06-20* [paper](https://arxiv.org/abs/1906.08743)    
@@ -865,5 +871,8 @@ BMVC 2018 *2018* [paper](https://pdfs.semanticscholar.org/8e6d/6c4f5696e5e3430e0
 [code](https://github.com/facebook/ThreatExchange) | [TMK + PDQF](https://github.com/facebook/ThreatExchange/tree/master/hashing/tmk)-相似视频识别 | [PDQ](https://github.com/facebook/ThreatExchange/tree/master/hashing/pdq)-相似图片识别    
 1. [duplicate video search](http://duplicatevideosearch.com/)        
 
-## E 研究员
+## E 比赛
+1. [TREC Video Retrieval Evaluation: TRECVID](https://trecvid.nist.gov/)     
+
+## F 研究员
 1. [OLIVES Research](https://ghassanalregib.info/)、[github](https://github.com/olivesgatech)       

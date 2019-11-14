@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       OpenGL
-    zh:       OpenGL
-    zh-Hans:  OpenGL
-    zh-Hant:  OpenGL
+    en:       Video Encode
+    zh:       视频编码
+    zh-Hans:  视频编码
+    zh-Hant:  视频编码
 sidebar:
-    nav: PARALLEL
+    nav: Video
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "opengl" %}
+        {% if cat[0] == "video_encode" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

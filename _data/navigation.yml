@@ -1540,7 +1540,7 @@ NDVR:
       - title:  研究员
         url:    /video/video_retrieval/2019/11/15/scientist.html
 
-  - title:	竞赛
+  - title:	会议/竞赛
     children:
       - title:  TRECVID
         url:    /competition/video/video_retrieval/2019/11/15/TRECVID.html

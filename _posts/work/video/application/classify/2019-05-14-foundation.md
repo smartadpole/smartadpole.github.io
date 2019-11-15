@@ -407,24 +407,23 @@ ACM Multimedia 2018 *2018-08-22* [paper](https://arxiv.org/abs/1808.07272)
 
 1. [法国INRIA Data Sets & Images 数据集和图像库](http://www.voidcn.com/article/p-pujvjeut-cm.html)     
 
-## B 渔
-- 牛人   
+## B 研究员
 [David Forsyth](http://luthuli.cs.uiuc.edu/~daf/)   
 [Michal Irani](http://www.weizmann.ac.il/math/irani/)   
 [Ming Lin](https://minglin-home.github.io/)-Alibaba
+[管超](http://pancakeawesome.ink/)   
+[张智勐](https://blog.csdn.net/zzmshuai)   
+[Yue Zhao](https://zhaoyue-zephyrus.github.io/)    
 
-- 总结   
+
+## C 参考资料
+1. [视频行为检测&分类方案整理](https://www.jianshu.com/p/583c26bbb675)     
+[paper with code](https://paperswithcode.com/task/action-recognition/latest?page=3)
+[Awesome Action Recognition](https://github.com/jinwchoi/awesome-action-recognition)    
 [MVision](https://github.com/Ewenwan/MVision/blob/master/CNN/Action_Recognition/readme.md)    
 [Christoph Feichtenhofer](https://feichtenhofer.github.io/)   
 [Gurkirt Singh](https://gurkirt.github.io/)   
 
-- 同行   
-[管超](http://pancakeawesome.ink/)   
-[张智勐](https://blog.csdn.net/zzmshuai)   
 
-- 资源   
-[paper with code](https://paperswithcode.com/task/action-recognition/latest?page=3)
-[Awesome Action Recognition](https://github.com/jinwchoi/awesome-action-recognition)    
-
-## C 参考资料
-1. [视频行为检测&分类方案整理](https://www.jianshu.com/p/583c26bbb675)     
+## D 开源项目
+1. [MMAction](https://github.com/open-mmlab/mmaction)-pytorch     

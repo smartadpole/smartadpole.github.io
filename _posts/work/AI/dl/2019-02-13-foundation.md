@@ -109,3 +109,4 @@ tags: 资源
 
 ## C 研究员
 1. [Sebastian Ruder](http://ruder.io/)    
+1. [Yiqun Hu](https://sites.google.com/site/yiqunhu/)     

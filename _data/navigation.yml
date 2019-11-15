@@ -1528,7 +1528,24 @@ NDVR:
       - title:  上一层
         url:    /assets/category/work/video/retrieval.html
 
-  - title:	视频检索
+  - title:	资源
+    children:
+      - title:  文献
+        url:    /video/video_retrieval/2019/06/21/foundation.html
+
+  - title:	行情
+    children:
+      - title:  产品
+        url:    /video/video_retrieval/2019/11/14/company.html
+      - title:  研究员
+        url:    /video/video_retrieval/2019/11/15/scientist.html
+
+  - title:	竞赛
+    children:
+      - title:  TRECVID
+        url:    /competition/video/video_retrieval/2019/11/15/TRECVID.html
+
+  - title:	基本概念
     children:
       - title:  概述
         url:    /video/video_retrieval/2019/07/30/survey.html

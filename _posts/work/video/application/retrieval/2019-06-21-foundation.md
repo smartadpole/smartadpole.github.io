@@ -210,8 +210,6 @@ $\bullet \bullet$
 
 1. [Real-time Large Scale Near-duplicate Web Video Retrieval](#RLDW_LBP_BOW)     
 
-1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](#SEMANTIC_BOW)      
-
 **3.2.3.3 Fisher vector**     
 1. [SHOT AGGREGATING STRATEGY FOR NEAR-DUPLICATE VIDEO RETRIEVAL](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
 *2015* [paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2015/papers/1570097527.pdf)    
@@ -522,7 +520,6 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 *2009-04* [paper](https://609bfb8a-a-62cb3a1a-s-sites.googlegroups.com/site/mengwangsite/Beyond%20Distance%20Measurement%2C%20Constructing%20Neighborhood%20Similarity%20for%20Video%20Annotation.pdf?attachauth=ANoY7cpOe6s5Ln5nEabdOgssXaRBy07ln5N1ej2ADWkPTd_jSNhoEsjcae21mgLCMAR6bfkr5nKCnkbHJ3FtL8PuoQnJa_PEnauMScYJ4A5jNVq3Qgq26izhAitJJC4nyJmlX_ZcOvkBH5uFXqBWCV2dDG3seMVumKAkOQpJqZltGUUmf6jaKXHomyTLvHIxp-zR-ZHlIlD_btYJnqb4AgaGre0bBxEsaaB6EI1qgon9guO5kN_Zs98kh4KBfhZjnNhYsJP9u3QVYJw4Y8FcA3s_mkXkVOCtfzKpHEKjiIawW8KzLYfbwDe7jYcKZqeiXmW9xYCzv7cT&attredirects=0)         
 邻域度量；     
 
-<span id='SEMANTIC_BOW'></span>
 1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)     
 *2009* [paper](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)    
 针对关键帧检索任务（通过文字或图像检索），在单帧的局部特征上用词袋模型，合成帧的全局特征，然后用 EMD 算法计算距离；    

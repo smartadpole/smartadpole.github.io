@@ -23,3 +23,4 @@ tags: 资源
 
 # 附录
 ## A 参考资料
+1. [PyTorch 2D 和 3D 面部对齐库](https://github.com/1adrianb/face-alignment)     

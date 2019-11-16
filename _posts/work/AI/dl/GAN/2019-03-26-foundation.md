@@ -99,11 +99,14 @@ CVPR 2019
 
 
 ## 1.4 经典网络
-
+1. [StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](http://cn.arxiv.org/abs/1711.09020)       
+*2017-11-24* [paper](https://arxiv.org/abs/1711.09020) | [pytorch](https://github.com/yunjey/StarGAN)      
+多领域图像转换     
 
 ## 1.5 模型评估
-1. Xu Q, Huang G, Yuan Y, et al. [An empirical study on evaluation metrics of generative adversarial networks](http://cn.arxiv.org/abs/1806.07755)[J]. arXiv preprint [arXiv:1806.07755](http://cn.arxiv.org/abs/1806.07755), 2018.   
-2018-06   
+1. [An empirical study on evaluation metrics of generative adversarial networks](http://cn.arxiv.org/abs/1806.07755)    
+*2018-06* [paper](https://arxiv.org/abs/1806.07755)   
+
 
 1. Borji A. [Pros and cons of gan evaluation measures](http://cn.arxiv.org/abs/1801.03446)[J]. arXiv preprint [arXiv:1801.03446](http://cn.arxiv.org/abs/1801.03446), 2019.   
 2018-02   
@@ -313,7 +316,7 @@ Yann LeCun's paper
 [Code](https://github.com/carpedm20/DiscoGAN-pytorch)  
 
 1.  [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://junyanz.github.io/CycleGAN/)  
-[Code](https://github.com/junyanz/CycleGAN)  
+[Code](https://github.com/junyanz/CycleGAN) | [pytorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)+pix2pix   
 
 1.  [CoGAN: Coupled Generative Adversarial Networks](http://cn.arxiv.org/abs/1606.07536)  
 [Code](https://github.com/andrewliao11/CoGAN-tensorflow)  
@@ -328,6 +331,7 @@ NIPS 2017
 
 1.  [High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](http://cn.arxiv.org/abs/1711.11585)    
 [Code](https://github.com/NVIDIA/pix2pixHD)  
+掩码转图像；    
 
 1.  [XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings](http://cn.arxiv.org/abs/1711.05139)   
 Reviewed

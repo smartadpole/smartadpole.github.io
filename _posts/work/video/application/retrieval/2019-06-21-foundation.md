@@ -722,6 +722,11 @@ ICML 2019 Worksop *2019-06-20* [paper](https://arxiv.org/abs/1906.08743)
 1. Partial-copy detection of non-simulated videos using learning at decision level     
 *2019*   
 
+1. [SVD: A Large-Scale Short Video Dataset for Near-Duplicate Video Retrieval](http://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_SVD_A_Large-Scale_Short_Video_Dataset_for_Near-Duplicate_Video_Retrieval_ICCV_2019_paper.pdf)     
+ICCV 2019 *2019* 抖音+南大 lambda [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_SVD_A_Large-Scale_Short_Video_Dataset_for_Near-Duplicate_Video_Retrieval_ICCV_2019_paper.pdf)    
+$\bullet \bullet$    
+发布了 SVD 数据集；   
+
 ## 4.2 签名验证
 `video vreification`     
 
@@ -869,6 +874,7 @@ BMVC 2018 *2018* [paper](https://pdfs.semanticscholar.org/8e6d/6c4f5696e5e3430e0
 | [VCDB](http://www.yugangjiang.info/research/VCDB/) |  |  | 8G | 2014 |
 | [FIVR](http://ndd.iti.gr/fivr/) |  | 225,960/100 |  | 2019 |
 | [AVA](https://research.google.com/ava/download.html) |  |  |  |  |
+| [SVD](https://svdbase.github.io/) | 抖音开源 | 500,000 | ICCV 2019 | 2019 |
 |  |  |  |  |  |
 
 

@@ -38,6 +38,12 @@ category: [video, video_retrieval]
 
 研究方向集中在跨模态视频检索；    
 
+## 1.4 [NELVT](http://idm.pku.edu.cn/)    
+北京大学数字视频编解码技术国家工程实验室, [论文集](http://idm.pku.edu.cn/Slist/index/id/478)    
+
+*[数字视频编解码技术国家工程实验室毕业生信息](http://www.jdl.ac.cn/rencai/nelvt_taolitianxia.asp)*     
+
+*北科，北航，北邮都有团队（更像是个人）在做；*     
 
 # 2 国际
 

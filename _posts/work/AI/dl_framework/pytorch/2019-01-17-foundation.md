@@ -11,6 +11,7 @@ categories: [dl_frameworks, pytorch]
 
 <!--more-->   
 
+# 1 扩展库
 1. [Kornia: an Open Source Differentiable Computer Vision Library for PyTorch](http://cn.arxiv.org/abs/1910.02190)    
 *2019-10-05* [paper](https://arxiv.org/abs/1910.02190) | [home](https://arraiyopensource.github.io/) | [github](https://github.com/arraiyopensource/kornia)        
 kornia: 基于 pytorch，针对深度学习领域，进行了功能扩展；    
@@ -34,6 +35,10 @@ seq2seq 工具包
 1. [kaolin](Kaolin: A PyTorch Library for Accelerating 3D Deep Learning Research)     
 [paper](Kaolin: A PyTorch Library for Accelerating 3D Deep Learning Research) | [code](https://github.com/NVIDIAGameWorks/kaolin/)-official
 3D 工具包；   
+
+# 2 C++ 调用
+[LOADING A TORCHSCRIPT MODEL IN C++](https://pytorch.org/tutorials/advanced/cpp_export.html)    
+
 
 -------------------  
 [End](#head)

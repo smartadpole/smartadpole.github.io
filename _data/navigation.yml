@@ -898,7 +898,7 @@ PythonVideoLib:
   - title:  视频处理库
     children:
       - title:  ffmpeg
-        url:    /python/pythonlibrary/2019/02/20/ffmpeg.html
+        url:    /python/library/2019/02/20/ffmpeg.html
       - title:  PyAV
         url:    /python/pythonlibrary/2019/02/20/pyav.html
 

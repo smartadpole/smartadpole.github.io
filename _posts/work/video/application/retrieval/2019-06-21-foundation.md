@@ -676,7 +676,7 @@ $\bullet \bullet$ TBD
 *2016-06* [paper](http://www.ijirset.com/upload/2016/june/174_Near.pdf)    
 
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)         
-ICCV 2017 [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)     
+ICCV 2017 workshop *2017* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)     
 $\bullet \bullet$ DML       
 
 1. [Video Copyright Detection Using High Level Objects in Video Clip](https://pdfs.semanticscholar.org/15f7/239ba1b1789bccffbcbe8168b2383806ed09.pdf?_ga=2.7552891.833172005.1572513273-129004075.1557370518)     

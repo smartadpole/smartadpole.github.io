@@ -262,13 +262,14 @@ $\bullet \bullet$ NDVR CNN
 
 1. Effective Multiple Feature Hashing for Large-Scale Near-Duplicate Video Retrieval      
 *2013*     
-MFH      
+$\bullet \bullet$ MFH      
 监督学习进行特征 hash；   
 
 
 **3.2.4 视频编码**    
 1. [Bit Rate-based H. 264 Video Copy Detection](https://jit.ndhu.edu.tw/article/download/1629/1637)     
 *2018-01* [paper](https://jit.ndhu.edu.tw/article/download/1629/1637)     
+$\bullet \bullet$ h.264    
 无需解码视频，根据编码信息提取特征，可应对裁剪等拷贝操作；     
 
 **3.2.5 其他**    

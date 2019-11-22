@@ -72,6 +72,10 @@ $\bullet \bullet$
 1. [Recent advances in content based video copy detection](http://cn.arxiv.org/abs/1610.09087)    
 *2016-10-28* [paper](https://arxiv.org/abs/1610.09087)   
 
+1. A review on robust video copy detection     
+*2019* [springer](https://link.springer.com/article/10.1007/s13735-018-0159-x)      
+$\bullet \bullet$ VCD Review     
+
 **1.3 视频签名**   
 
 1. [Video Content Identification Using Video Signature: Survey](https://pdfs.semanticscholar.org/772a/ac1375c51bd984ac400c2bc4ccedd5fa0b43.pdf)    
@@ -157,6 +161,7 @@ $\bullet \bullet$
 
 1. [Deep Video Hashing](http://ivg.au.tsinghua.edu.cn/paper/2017_Deep%20video%20hashing.pdf)     
 *2016* [paper](http://ivg.au.tsinghua.edu.cn/paper/2017_Deep%20video%20hashing.pdf)     
+$\bullet \bullet$ Deep Video Hashing    
 
 1. Video Copy Detection Based On Temporal Contextual Hashing    
 *2016*    
@@ -164,6 +169,7 @@ $\bullet \bullet$
 
 1. [Deep Hashing with Category Mask for Fast Video Retrieval](http://cn.arxiv.org/abs/1712.08315)     
 *2017-12-22* 美图 [paper](https://arxiv.org/abs/1712.08315) | [blog](https://juejin.im/post/5b4d5a816fb9a04fcf59c9a5)       
+$\bullet \bullet$ Hash Mask    
 使用网络提取**视频特征**：先用 backbone 网络针对每一帧提取特征，然后将多个特征进行融合，得到固定维度的特征就是视频特征；    
 得到特征后使用阈值进行量化，得到 Hash 码；然后计算 hamming 距离；     
 >
@@ -266,11 +272,15 @@ $\bullet \bullet$ MFH
 监督学习进行特征 hash；   
 
 
-**3.2.4 视频编码**    
+**3.2.4 压缩域**    
+>无需解码视频，根据编码信息提取特征，可应对裁剪等拷贝操作；  
+
 1. [Bit Rate-based H. 264 Video Copy Detection](https://jit.ndhu.edu.tw/article/download/1629/1637)     
 *2018-01* [paper](https://jit.ndhu.edu.tw/article/download/1629/1637)     
-$\bullet \bullet$ h.264    
-无需解码视频，根据编码信息提取特征，可应对裁剪等拷贝操作；     
+$\bullet \bullet$ h.264       
+**流程**：镜头检测（I 帧判断）——压缩域提取特征（P 帧比特率）——比对（$\chi^2$ + 编辑距离）；   
+**结果**：只能与部分算法持平；且压缩域极易受剪辑攻击；     
+>这个方法不可行；关于 I 帧找镜头的方法还不错；    
 
 **3.2.5 其他**    
 1. [Submodular Video Hashing: A Unified Framework Towards Video Pooling and Indexing](http://www.ee.columbia.edu/~zgli/papers/MM12_VideoHashing.pdf)    
@@ -282,9 +292,11 @@ $\bullet \bullet$ t-UDH
 
 1. [Joint Audio-Video Fingerprint Media Retrieval Using Rate-Coverage Optimization](http://cn.arxiv.org/abs/1609.01331)    
 *2016-09-05* [paper](https://arxiv.org/abs/1609.01331)   
+$\bullet \bullet$ Rate Coverage    
 
 1. [Unsupervised Deep Video Hashing via Balanced Code for Large-Scale Video Retrieval](https://eprints.lancs.ac.uk/id/eprint/130708/1/TIP_author_accepted_manuscript.pdf)    
 *2018* [paper](https://eprints.lancs.ac.uk/id/eprint/130708/1/TIP_author_accepted_manuscript.pdf)    
+$\bullet \bullet$ UDVH   
 
 
 ## 3.3  索引
@@ -357,7 +369,7 @@ LSH: 改映射函数；
 
 1. [Stochastic Multiview Hashing for Large-Scale Near-Duplicate Video Retrieval ](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
 *2016-09-15* [paper](https://www.research.manchester.ac.uk/portal/files/46115431/Manuscript_final_with_bios.pdf)    
-stochastic hash       
+$\bullet \bullet$ stochastic hash       
 镜头边界检测，汉明距离，map；多视角随机 hash 提升检索精度和速度；     
 
 **3.3.5 倒排**    
@@ -368,6 +380,7 @@ stochastic hash
 <span id="SDP"></span>
 1. [Scalable Detection of Partial Near-Duplicate Videos by Visual-Temporal Consistency](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/acmmm09-tan.pdf)     
 *2009* [paper](https://lms.comp.nus.edu.sg/sites/default/files/publication-attachments/acmmm09-tan.pdf)     
+$\bullet \bullet$ Network Flow   
 倒排，针对弱几何一致性做了改进；使用了图对齐；     
 
 <span id='RLDW_LBP_BOW'></span>
@@ -397,7 +410,7 @@ ECCV 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10
 
 1. [Effective and Efficient Query Processing for Video Subsequence Identification](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.296.7068&rep=rep1&type=pdf)     
 *2007* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.296.7068&rep=rep1&type=pdf)     
-$\bullet \bullet$   
+$\bullet \bullet$ MSM SMSM   
 
 1. [Scalable Detection of Partial Near-Duplicate Videos by Visual-Temporal Consistency](#SDP)    
 
@@ -409,6 +422,7 @@ $\bullet \bullet$
 
 1. [Identification of video subsequence using bipartite graph matching](https://link.springer.com/content/pdf/10.1007/s13173-011-0036-4.pdf)     
 *2011* [paper](https://link.springer.com/content/pdf/10.1007/s13173-011-0036-4.pdf)    
+$\bullet \bullet$ Graph bipartite
 
 1. A two-step video subsequence identification based on bipartite graph matching
 加了个命中函数；    
@@ -469,6 +483,7 @@ $\bullet \bullet$
 
 1. [Block based video alignment with linear time and space complexity](https://miliadis.github.io/papers/ICIP_video_align.pdf)    
 ICIP *2016-09* [paper](https://miliadis.github.io/papers/ICIP_video_align.pdf)     
+$\bullet \bullet$ DDWT    
 线性时间和空间复杂度；    
 
 1. [Energy based fast event retrieval in video with temporal match kernel](http://home.ustc.edu.cn/~pjh/publications/ICIP2017Energy/paper.pdf)      
@@ -480,6 +495,7 @@ ICIP 2017 *2017-09* [paper](http://home.ustc.edu.cn/~pjh/publications/ICIP2017En
 
 1. [Circulant Temporal Encoding for Video Retrieval and Temporal Alignment](http://cn.arxiv.org/abs/1506.02588)     
 *2015-06-08* [paper](https://arxiv.org/abs/1506.02588)     
+$\bullet \bullet$ Circulant    
 使用复数处理特征，以达到精确匹配；    
 
 1. [Burst-survive Temporal Matching Kernel with Fibonacci Periods](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0002062.pdf)     
@@ -507,6 +523,7 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 1. [Comparison of distance measures for video copy detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.5791&rep=rep1&type=pdf)    
 *2001* IBM [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.5791&rep=rep1&type=pdf)    
+$\bullet \bullet$ IBM    
 比较了几种特征度量的方法；    
 **特征**：直方图（RGB，HSV，梯度）、局部梯度、不变矩、差分；    
 **度量**：Hash（直方图相交，分块），L2（max·min）；     
@@ -523,6 +540,7 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 1. [Visual word proximity and linguistics for semantic video indexing and near-duplicate retrieval](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)     
 *2009* [paper](http://www.ee.columbia.edu/~yjiang/publication/cviu09_yjiang.pdf)    
+$\bullet \bullet$ proximity    
 针对关键帧检索任务（通过文字或图像检索），在单帧的局部特征上用词袋模型，合成帧的全局特征，然后用 EMD 算法计算距离；    
 
 
@@ -535,9 +553,10 @@ ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/
 
 1. [Video copy detection by fast sequence matching](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
 *2009* [paper](http://lbmedia.ece.ucsb.edu/resources/ref/civr09.pdf)     
+$\bullet \bullet$ Fast Sequence    
 先前的相似度计算方法是基于关键帧的，没有考虑时间连续性；编辑距离 ED（最长公共子序列是 ED 的特例）虽然考虑了时序，但是他是针对全局序列的匹配，无法应对剪辑和拼接；文章就此提出了针对局部序列匹配的改进版 ED 算法；    
 采样：固定时间采样（1s）；    
-特征：MSF-color（半全局特征，马尔可夫）；       
+特征：-VSMF-color（半全局特征，马尔可夫）；       
 相似度：一方面，整体框架使用了 [史密斯·沃特曼算法](https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF-%E6%B2%83%E7%89%B9%E6%9B%BC%E7%AE%97%E6%B3%95)，内有 ED 的概念；另一方面，替换操作定义为常量减去两帧之间的距离；     
 $$
 \begin{align}
@@ -560,7 +579,7 @@ $\bullet \bullet$
 
 1. [Multiscale video sequence matching for near-duplicate detection and retrieval](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)    
 *2018-05-04* [paper](http://www.jdl.link/doc/2011/2019110_Multiscale%20video%20sequence%20matching%20for%20near-duplicate%20detection%20and%20retrieval.pdf)    
-$\bullet \bullet$    
+$\bullet \bullet$ MS-VSM    
 多阶段检索；     
 
 
@@ -568,6 +587,7 @@ $\bullet \bullet$
 
 1. [A Time Warping Based Approach for Video Copy Detection](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)     
 *2006* [paper](https://6ed7c0c4-a-62cb3a1a-s-sites.googlegroups.com/site/chihyichiu/material/ICPR_2006.pdf?attachauth=ANoY7cpGVxIAVlysd5XGrdNIXrTk1DWwZ6geM04ej4CG-PEDmpHomXZOGibW1u6GUYFj1cSOM2sx-AE6W2xu6lSE-1NigvSm_V0smhde9tDsikWqEd5i29rdfx1OTzw0VGrMukKQF6Uxp8vTeKrU7Z2ps_QR2HAq4ingB1otjB8v7_el3DIH9F-EPoN8Zx4AOgsOkew2YHW0HY5TMTBFAC1vSg7dRyc62IMO90RKn1cB5Qn5TZ1JYPk%3D&attredirects=0)   
+$\bullet \bullet$ DTW    
 文章认为之前的方法速度太慢，且没有考虑视频间序列变化问题；因此进行了如下改进：   
 **优化速度**：    
 提取关键帧：拉氏变换 + 时序峰值；     
@@ -682,6 +702,7 @@ $\bullet \bullet$ DML
 
 1. [Video Copyright Detection Using High Level Objects in Video Clip](https://pdfs.semanticscholar.org/15f7/239ba1b1789bccffbcbe8168b2383806ed09.pdf?_ga=2.7552891.833172005.1572513273-129004075.1557370518)     
 *2017-12* [paper](https://pdfs.semanticscholar.org/15f7/239ba1b1789bccffbcbe8168b2383806ed09.pdf?_ga=2.7552891.833172005.1572513273-129004075.1557370518)    
+$\bullet \bullet$ objects   
 基于镜头找相似片段；    
 
 1. [A new technique for video copy-move forgery detection](https://pdfs.semanticscholar.org/738d/9c24ad3b14778454f2333622a59f2b52eb21.pdf?_ga=2.197873775.1153843306.1572339852-129004075.1557370518)     
@@ -700,7 +721,7 @@ $\bullet \bullet$ DML
 
 1. [A Coarse-to-fine Deep Convolutional Neural Network Framework for Frame Duplication Detection and Localization in Forged Videos](http://cn.arxiv.org/abs/1811.10762)    
 *2018-11-27* [paper](https://arxiv.org/abs/1811.10762)   
-coarse2fine cnn    
+$\bullet \bullet$ coarse-fine cnn    
 
 
 1. [Simple Yet Efficient Content Based Video Copy Detection](http://cn.arxiv.org/abs/1804.07019)   
@@ -715,17 +736,18 @@ coarse2fine cnn
 
 1. [Video tampering localisation using features learned from authentic content](https://link.springer.com/content/pdf/10.1007%2Fs00521-019-04272-z.pdf)    
 *2019-01-11* [paper](https://link.springer.com/content/pdf/10.1007%2Fs00521-019-04272-z.pdf)    
-tampering localisation      
+$\bullet \bullet$ tampering localisation      
 
 1. [We Need No Pixels: Video Manipulation Detection Using Stream Descriptors](https://arxiv.org/abs/1906.08743)     
 ICML 2019 Worksop *2019-06-20* [paper](https://arxiv.org/abs/1906.08743)    
 
 1. Partial-copy detection of non-simulated videos using learning at decision level     
 *2019*   
+$\bullet \bullet$ decision level   
 
 1. [SVD: A Large-Scale Short Video Dataset for Near-Duplicate Video Retrieval](http://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_SVD_A_Large-Scale_Short_Video_Dataset_for_Near-Duplicate_Video_Retrieval_ICCV_2019_paper.pdf)     
 ICCV 2019 *2019* 抖音+南大 lambda [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_SVD_A_Large-Scale_Short_Video_Dataset_for_Near-Duplicate_Video_Retrieval_ICCV_2019_paper.pdf)    
-$\bullet \bullet$    
+$\bullet \bullet$ SVD    
 发布了 SVD 数据集；   
 
 ## 4.2 签名验证
@@ -755,6 +777,7 @@ CVPR 2019 (Applications to Media Forensics) *2019-05-21* [paper](https://arxiv.o
 
 1. [Content Based Video Retrieval](https://pdfs.semanticscholar.org/c0f5/baaf479ed048d7061e4f7fe36919e314eb2c.pdf?_ga=2.231257823.1153843306.1572339852-129004075.1557370518)     
 *2016-05* [paper](https://pdfs.semanticscholar.org/c0f5/baaf479ed048d7061e4f7fe36919e314eb2c.pdf?_ga=2.231257823.1153843306.1572339852-129004075.1557370518)    
+$\bullet \bullet$ CBVR    
 
 1. [Content-based Video Indexing and Retrieval Using Corr-LDA](http://cn.arxiv.org/abs/1602.08581)    
 *2016-02-27* [paper](https://arxiv.org/abs/1602.08581)    

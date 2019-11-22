@@ -20,10 +20,12 @@ tags: 资源
 
 1. [A Formal Study of Shot Boundary Detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.8255&rep=rep1&type=pdf)    
 *2007* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.8255&rep=rep1&type=pdf)      
+$\bullet \bullet$ study     
 基于图；    
 
 1. [Analysis of Popular Video Shot Boundary Detection Techniques in Uncompressed Domain](https://pdfs.semanticscholar.org/b2e0/44314a7a1089abb5a85bb0456d4e243e72fa.pdf)      
 *2012* [paper](https://pdfs.semanticscholar.org/b2e0/44314a7a1089abb5a85bb0456d4e243e72fa.pdf)     
+
 
 
 1. [A REVIEW ON DIFFERENT METHODS OF VIDEO SHOT BOUNDARY DETECTION ](file:///Users/sunhao/Downloads/2-15-1346827768-6.EEE%20-%20IJEEE%20-%20A%20Review%20%20-%20Revi%20Mishra.pdf)     
@@ -31,6 +33,7 @@ tags: 资源
 
 1. [Analysis and Review of Formal Approaches to Automatic Video Shot Boundary Detection](https://ijarcce.com/wp-content/uploads/2012/03/IJARCCE8G__arun_hattarge__analysis.pdf)     
 *2012* [paper](https://ijarcce.com/wp-content/uploads/2012/03/IJARCCE8G__arun_hattarge__analysis.pdf)     
+$\bullet \bullet$ analysis     
 
 
 1. [A Review on Shot Boundary Detection Harsh Kumar](https://pdfs.semanticscholar.org/e8ba/d0df6df6726cfea71c10227ed32eb60503c8.pdf?_ga=2.67985233.1970495203.1573369005-504939339.1571502740)     
@@ -52,10 +55,9 @@ tags: 资源
 
 1. [Methods and Challenges in Shot Boundary Detection: A Review](https://pdfs.semanticscholar.org/1f88/6b62bce35e7a1605112a54f53ccce3add58b.pdf?_ga=2.141014258.1970495203.1573369005-504939339.1571502740)     
 *2018-03-23* [paper](https://pdfs.semanticscholar.org/1f88/6b62bce35e7a1605112a54f53ccce3add58b.pdf?_ga=2.141014258.1970495203.1573369005-504939339.1571502740)     
+$\bullet \bullet$ challenge    
 
 
-1. 基于深度学习的视频关键帧提取与视频检索        
-*2019* 梁建胜,温贺平 [知网](http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=JZDF201905027&dbcode=CJFD&dbname=DKFXTEMP)    
 
 
 # 2 理论
@@ -79,6 +81,12 @@ PCA;
 1. [Superframes, A Temporal Video Segmentation](http://cn.arxiv.org/abs/1804.06642)     
 *2018-04-18* [paper](https://arxiv.org/abs/1804.06642)       
 基于光流进行运动估计；     
+
+
+1. 基于深度学习的视频关键帧提取与视频检索        
+*2019* 梁建胜,温贺平 [知网](http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=JZDF201905027&dbcode=CJFD&dbname=DKFXTEMP)    
+$\bullet \bullet$ 检索与关键帧     
+实际上是很早的算法了；   
 
 
 # 4 镜头边界检测
@@ -140,6 +148,7 @@ CNN 检测镜头；开放了一个大型数据集；速度快；
 
 1. [TransNet: A deep network for fast detection of common shot transitions](http://cn.arxiv.org/abs/1906.03363)   
 *2019-06-08* [paper](https://arxiv.org/abs/1906.03363) | [tensorflow](https://github.com/soCzech/TransNet)       
+$\bullet \bullet$ TransNet    
 
 
 # 5 应用
@@ -147,6 +156,7 @@ CNN 检测镜头；开放了一个大型数据集；速度快；
 
 1. [Fast and Robust Dynamic Hand Gesture Recognition via Key Frames Extraction and Feature Fusion](http://cn.arxiv.org/abs/1901.04622)   
 *2019-01-15* [paper](https://arxiv.org/abs/1901.04622) | [matlab](https://github.com/Ha0Tang/HandGestureRecognition)-official      
+$\bullet \bullet$ Hand Gesture Fusion     
 基于图像熵和视频聚类提取到视频中的关键帧，一次提高手势识别的准确度；   
 
 ## 5.2 [动作识别](/video/video_classification/2019/05/14/foundation.html)
@@ -168,7 +178,8 @@ CNN 检测镜头；开放了一个大型数据集；速度快；
     - 关键帧能够很容易识别出该 id（判别性）  
 
 1. [A Key Volume Mining Deep Framework for Action Recognition](https://zpascal.net/cvpr2016/Zhu_A_Key_Volume_CVPR_2016_paper.pdf)   
-CVPR 2016 *2016* [paper](https://zpascal.net/cvpr2016/Zhu_A_Key_Volume_CVPR_2016_paper.pdf)   
+CVPR 2016 *2016* [paper](https://zpascal.net/cvpr2016/Zhu_A_Key_Volume_CVPR_2016_paper.pdf)    
+$\bullet \bullet$ key volume     
 motivation：视频中包含大量静止画面，如果把这些帧送入网络，会对网络的训练起到一个反向的作用；   
 做法：将多个帧输入到网络中，只优化对于在目标类中取得最大概率的帧的loss；   
 思考：用分类来提取关键帧，类别分数越高，越有可能成为关键帧；   
@@ -183,6 +194,7 @@ ECCV 2016 *2016-05-26* [paper](https://arxiv.org/abs/1605.08110) | [blog](https:
 
 1. [Unsupervised Video Summarization with Adversarial LSTM Networks](http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_summarization.pdf)     
 CVPR 2017 *2017* [paper](http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_summarization.pdf)    
+$\bullet \bullet$ ALSTM     
 **先验**：关键帧的分布应该与原序列的分布一直（去除冗余信息）；  
 **正规化**：关键帧的个数应该尽可能的少；关键帧的信息尽可能离散；   
 **做法**：    

@@ -77,7 +77,7 @@ SCNN: 挛生网络；
 
 1. [good practice in cnn feature transfer](http://cn.arxiv.org/abs/1604.00133)     
 *2016-04-01* [paper](https://arxiv.org/abs/1604.00133)     
-$\bullet \bullet$    
+$\bullet \bullet$ CNN Practice    
 
 1. Image copy detection based on convolutional neural networks     
 *2016*  
@@ -432,6 +432,7 @@ github: https://github.com/arbabenko/Spoc
 1. [CNN Features off-the-shelf: an Astounding Baseline for Recognition](http://cn.arxiv.org/abs/1403.6382)  
 [2014.3-2014.5] CVPR workshop；融合从图像的不同区域提取到的全链接特征；  
 [paper](https://arxiv.org/abs/1403.6382)  
+$\bullet \bullet$ CNN4Recognition    
 
 1. [Visual Instance Retrieval with Deep Convolutional Networks](http://cn.arxiv.org/abs/1412.6574)  
 [2014.12-2016.5]  

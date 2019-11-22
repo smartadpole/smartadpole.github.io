@@ -35,16 +35,18 @@ tags: 资源
 
 1. [Identification of Common Molecular Subsequences](https://dornsife.usc.edu/assets/sites/516/docs/papers/msw_papers/msw-042.pdf)      
 *1981* [paper](https://dornsife.usc.edu/assets/sites/516/docs/papers/msw_papers/msw-042.pdf)     
-SmithWaterman;    
+$\bullet \bullet$ Waterman    
 
 1. [An Improved Algorithm For Matching Biological Sequences](http://www.genome.ist.i.kyoto-u.ac.jp/~aln_user/archive/JMB82.pdf)      
 *1982* [paper](http://www.genome.ist.i.kyoto-u.ac.jp/~aln_user/archive/JMB82.pdf)     
+$\bullet \bullet$ Waterman    
 
 1. Optimal Sequence Alignment Using Affine Gap Costs     
 *1986*     
 
 1. [Optimal alignments in linear space](https://pdfs.semanticscholar.org/a882/afa232d945a14bb71f79f9ed27adde16c1a6.pdf)     
 *1988* [paper](https://pdfs.semanticscholar.org/a882/afa232d945a14bb71f79f9ed27adde16c1a6.pdf)      
+$\bullet \bullet$ Waterman    
 
 # 5 启发式
 >速度更快；     
@@ -69,6 +71,7 @@ ICCAE 2010 *2014-07-06* [paper](https://arxiv.org/abs/1407.2237)
 
 1. [An Alignment Algorithm for Sequences](http://cn.arxiv.org/abs/1210.8398)     
 *2012-10-31* [paper](https://arxiv.org/abs/1210.8398)    
+$\bullet \bullet$ Sequence Alignment    
 
 
 1. [Ultra-fast Multiple Genome Sequence Matching Using GPU](http://cn.arxiv.org/abs/1303.3692)    
@@ -101,6 +104,7 @@ $\bullet \bullet$
 
 1. [A Comparative Study on String Matching Algorithm of Biological Sequences](http://cn.arxiv.org/abs/1401.7416)     
 *2014-01-29* [paper](https://arxiv.org/abs/1401.7416)     
+$\bullet \bullet$ string match study    
 
 1. [An optimized Parallel Failure-less Aho-Corasick algorithm for DNA sequence matching](http://cn.arxiv.org/abs/1811.10498)    
 ICIAfS 2016 *2018-11-26* [paper](https://arxiv.org/abs/1811.10498)    

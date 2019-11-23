@@ -45,6 +45,13 @@ category: [video, video_retrieval]
 
 *北科，北航，北邮都有团队（更像是个人）在做；*     
 
+## 1.5 [唐胜](http://people.ucas.ac.cn/~shengtang)    
+中科院计算所；    
+
+## 1.6 [高科](http://sourcedb.ict.cas.cn/cn/jssrck/201310/t20131030_3965274.html)   
+中科院计算所；    
+
+
 # 2 国际
 
 

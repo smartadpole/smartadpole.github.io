@@ -14,14 +14,57 @@ tags: 资源
 <!--more-->  
 
 # 1 综述
+1. [A review of content-based image retrieval systems](https://pdfs.semanticscholar.org/39de/c38c15b957e3246dfb692111893efa4be1de.pdf)     
+*2000* [paper](https://pdfs.semanticscholar.org/39de/c38c15b957e3246dfb692111893efa4be1de.pdf)     
+67 页；   
+
+1. [Relevance feedback in image retrieval: A comprehensive review](https://www.fi.muni.cz/~xkohout7/Research/clanky_cizi/relevance_feedback/review2002.pdf)    
+*2003* [paper](https://www.fi.muni.cz/~xkohout7/Research/clanky_cizi/relevance_feedback/review2002.pdf)     
+
+1. [A review of content-based image retrieval systems in medical applications—clinical benefits and future directions](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.7750&rep=rep1&type=pdf)     
+*2004* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.7750&rep=rep1&type=pdf)    
+
+
+1. [A review of text and image retrieval approaches for broadcast news video](https://ccc.inaoep.mx/~villasen/bib/review%20of%20text%20and%20image%20retrieval%20for%20broadcast%20video.pdf)    
+*2007* [paper](https://ccc.inaoep.mx/~villasen/bib/review%20of%20text%20and%20image%20retrieval%20for%20broadcast%20video.pdf)    
+40 页；  
+
+1. [Content-based Image Retrieval: Feature Extraction Techniques and Applications](https://pdfs.semanticscholar.org/7f3a/66ee2b8a2d529dfaaf2544bcc01ef3b47ba7.pdf)    
+*2008* [paper](https://pdfs.semanticscholar.org/7f3a/66ee2b8a2d529dfaaf2544bcc01ef3b47ba7.pdf)    
+
+1. [A review of content-based image retrieval](https://www.researchgate.net/profile/WL_Woo/publication/221093029_A_review_of_content-based_image_retrieval/links/09e4150f1891bad6fb000000.pdf)    
+*2010* [paper](https://www.researchgate.net/profile/WL_Woo/publication/221093029_A_review_of_content-based_image_retrieval/links/09e4150f1891bad6fb000000.pdf)    
+
+
+1. [Review of medical image retrieval systems and future directions](https://www.researchgate.net/profile/Sameer_Antani/publication/221030443_Review_of_medical_image_retrieval_systems_and_future_directions/links/0deec51cdce8b73c0d000000/Review-of-medical-image-retrieval-systems-and-future-directions.pdf)    
+*2011* [paper](https://www.researchgate.net/profile/Sameer_Antani/publication/221030443_Review_of_medical_image_retrieval_systems_and_future_directions/links/0deec51cdce8b73c0d000000/Review-of-medical-image-retrieval-systems-and-future-directions.pdf)    
+
+
+1. [large scale search](https://www.di.ens.fr/willow/events/cvml2013/materials/slides/monday/Mon_2_search_large_2013.pdf)      
+*2013* Microsoft     
+
+1. [A Survey on CBIR using Low Level Feature Combination](https://pdfs.semanticscholar.org/6e6b/838e1468ad5c1fbd3916210dfeeada6f35d8.pdf?_ga=2.60448877.1783236570.1574479650-504939339.1571502740)     
+*2014* [paper](https://pdfs.semanticscholar.org/6e6b/838e1468ad5c1fbd3916210dfeeada6f35d8.pdf?_ga=2.60448877.1783236570.1574479650-504939339.1571502740)     
+
 1. [Hashing for Similarity Search: A Survey](http://cn.arxiv.org/abs/1408.2927)   
 *2014-08-13* [paper](https://arxiv.org/abs/1408.2927)   
 
 1. [A Survey on Learning to Hash](https://arxiv.org/abs/1606.00185)   
 *2016-06-01* [paper](https://arxiv.org/abs/1606.00185)   
 
-1. [large scale search](https://www.di.ens.fr/willow/events/cvml2013/materials/slides/monday/Mon_2_search_large_2013.pdf)      
-*2013* Microsoft     
+
+1. A survey on combine approach of low level features extraction in CBIR    
+
+
+1. [Recent Advance in Content-based Image Retrieval: A Literature Survey](http://cn.arxiv.org/abs/1706.06064)    
+*2017-06-19* [paper](https://arxiv.org/abs/1706.06064)     
+
+1. [Content based Image Retrieval: A Review](https://airccj.org/CSCP/vol4/csit42706.pdf)    
+*2018-04-24* [paper](https://airccj.org/CSCP/vol4/csit42706.pdf)    
+
+1. [A comprehensive survey on content based image retrieval system and its application in medical domain](https://pdfs.semanticscholar.org/feae/ad540cc5e51b00b0b4d33af28d3087b06f3e.pdf)     
+*2018* [paper](https://pdfs.semanticscholar.org/feae/ad540cc5e51b00b0b4d33af28d3087b06f3e.pdf)    
+
 
 1. [Towards Practical Visual Search Engine Within](http://cn.arxiv.org/abs/1806.08896)     
 SIGIR eCom 2018 *2018-06-23* [paper](https://arxiv.org/abs/1806.08896)    
@@ -30,8 +73,8 @@ SIGIR eCom 2018 *2018-06-23* [paper](https://arxiv.org/abs/1806.08896)
 
 # 3 技术
 ## 3.1 特征提取
-### 3.1.1 传统
-#### 3.1.1.1 局部特征
+**3.1.1 传统**
+**3.1.1.1 局部特征**
 >Harris角点、SIFT、PCA-SIFT和SURF等；     
 
 1. [Object recognition from local scale-invariant features](https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)    
@@ -50,8 +93,12 @@ PCA-Sift;
 *2012*    
 svd sift;    
 
+1. [Learning local feature descriptors with triplets and shallow convolutional neural networks](https://pdfs.semanticscholar.org/f840/197140cbb907786749b7d2d92a236e2c8377.pdf?_ga=2.140078195.1783236570.1574479650-504939339.1571502740)     
+BMVC *2016* [paper](https://pdfs.semanticscholar.org/f840/197140cbb907786749b7d2d92a236e2c8377.pdf?_ga=2.140078195.1783236570.1574479650-504939339.1571502740)    
 
-#### 3.1.1.2 全局特征
+
+
+**3.1.1.2 全局特征**
 1. [Ordinal measures for visual correspondence](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)    
 *1996* [paper](http://www1.cs.columbia.edu/CAVE/publications/pdfs/Bhat_TR95.pdf)   
 顺序度量 OM;    
@@ -69,7 +116,7 @@ svd sift;
 DCT + Hash;    
 
 
-### 3.1.2 [DL](/dl/cnn/2019/05/21/foundation.html)
+**3.1.2 [DL](/dl/cnn/2019/05/21/foundation.html)**
 
 1. [Learning to compare image patches via convolutional neural networks](http://cn.arxiv.org/abs/1504.03641)    
 CVPR 2015 *2015-04-14* [paper](https://arxiv.org/abs/1504.03641)   
@@ -78,6 +125,10 @@ SCNN: 挛生网络；
 1. [good practice in cnn feature transfer](http://cn.arxiv.org/abs/1604.00133)     
 *2016-04-01* [paper](https://arxiv.org/abs/1604.00133)     
 $\bullet \bullet$ CNN Practice    
+
+
+1. [Deep Image Retrieval: Learning global representations for image search](http://cn.arxiv.org/abs/1604.01325)  
+ECCV 2016 *2016-04-05* [paper](https://arxiv.org/abs/1604.01325) | [project](http://www.xrce.xerox.com/Research-Development/Computer-Vision/Learning-Visual-Representations/Deep-Image-Retrieval) | [slides](http://www.slideshare.net/xavigiro/deep-image-retrieval-learning-global-representations-for-image-search)  
 
 1. Image copy detection based on convolutional neural networks     
 *2016*  
@@ -91,10 +142,10 @@ VGG 提取帧特征；
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08494) | [pytorch](https://github.com/patrick-kidger/Deep-Signatures)       
 
 
-### 3.1.3 特征编码
+**3.1.3 特征编码**
 >将局部特征组合成全局图像特征；    
 
-#### 3.1.3.1 词袋模型
+**3.1.3.1 词袋模型**
 
 1. [Near-duplicate keyframe retrieval with visual keywords and semantic context](http://vireo.cs.cityu.edu.hk/research/wuxiao/CIVR07.pdf)     
 *2007* [paper](http://vireo.cs.cityu.edu.hk/research/wuxiao/CIVR07.pdf)     
@@ -107,28 +158,32 @@ ECCV 2008 *2008* [paper](https://lear.inrialpes.fr/pubs/2008/JDS08/jegou_hewgc08
 1. [Improving bag-of-features for large scale image search](https://hal.inria.fr/inria-00514760/document)     
 *2010* [paper](https://hal.inria.fr/inria-00514760/document)     
 
+1. [Contextual weighting for vocabulary tree based image retrieval](http://users.ece.northwestern.edu/~mya671/mypapers/ICCV11_Wang_Yang_Cour_Zhu_Yu_Han.pdf)    
+*2011-11-15* [paper](http://users.ece.northwestern.edu/~mya671/mypapers/ICCV11_Wang_Yang_Cour_Zhu_Yu_Han.pdf)    
+
+
 1. Effective and efficient global context verification for image copy detection     
 *2017* OR-GCD 处理视觉词袋的量化误差；     
 
 
-#### 3.1.3.2 Fisher-Vector
+**3.1.3.2 Fisher-Vector**
 1. [Fisher kernels on visual vocabularies for image categorization](http://www.ee.oulu.fi/research/imag/courses/Vedaldi/2006-034.pdf)     
 CVPR 2007 *2007* [paper](http://www.ee.oulu.fi/research/imag/courses/Vedaldi/2006-034.pdf)    
 
 1. [Aggregating local descriptors into a compact image representation](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)    
 CVPR 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/JDSP10/jegou_compactimagerepresentation.pdf)   
 
-### 3.1.4 其他
+**3.1.4 其他**
 1. [A New Approach to Image Copy Detection Based on Extended Feature Sets](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)    
 *2007* [paper](https://www.iis.sinica.edu.tw/papers/song/3769-F.pdf)   
 
 ## 3.2 检索
-### 3.2.1 树形结构
+**3.2.1 树形结构**
 
-### 3.2.2 VA-File
+**3.2.2 VA-File**
 
-### 3.2.3 Hash
-#### 3.2.3.1 传统
+**3.2.3 Hash**
+**3.2.3.1 传统**
 1. [Locality-sensitive hashing scheme based on p-stable distributions](https://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf)      
 *2004* [paper](https://www.cs.princeton.edu/courses/archive/spring05/cos598E/bib/p253-datar.pdf)     
 LSH;     
@@ -148,7 +203,7 @@ LSH 的改进版，速度一样，存储减小了一个数量级；
 
 1. [Locality Sensitive Hashing for Similar Item Search](https://towardsdatascience.com/locality-sensitive-hashing-for-music-search-f2f1940ace23)      
 
-#### 3.2.3.2 DL
+**3.2.3.2 DL**
 
 >用来提升检索速度；`怎么提升的`{:.warning}      
 
@@ -206,6 +261,11 @@ IJCAI 2016 *2015-11-12* [paper](https://arxiv.org/abs/1511.03855) | [code](http:
 1. [Large-Scale Image Retrieval with Attentive Deep Local Features](http://cn.arxiv.org/abs/1612.06321)   
 ICCV 2017 *2016-12-19* Google [paper](https://arxiv.org/abs/1612.06321) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)      
 **DELF**，同时发布了较大的[地标建筑检索数据集](https://www.kaggle.com/google/google-landmarks-dataset#test.csv)([详细说明](/competition/2019/07/25/Google-Landmark-Retrieval-2019.html))；   
+
+1. [Places: A 10 Million Image Database for Scene Recognition](http://places2.csail.mit.edu/PAMI_places.pdf)     
+*2017* [paper](http://places2.csail.mit.edu/PAMI_places.pdf)     
+公布了千万级别的数据集；    
+
 
 1. [Deep Binary Representation for Efficient Image Retrieval](http://medialab.sjtu.edu.cn/publications/2017/ICMEW2017_DeepHash%20for%20Image%20Retrieval_LuSongXieYangZhang.pdf)      
 *2017* 上交 [paper](https://www.hindawi.com/journals/am/2017/8961091/) | [tensorflow](https://github.com/luseiee/DeepBinaryRepre)      
@@ -319,7 +379,7 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 1. [Adversarially Trained Deep Neural Semantic Hashing Scheme for Subjective Search in Fashion Inventory](http://cn.arxiv.org/abs/1907.00382)    
 *2019-06-30* [paper](https://arxiv.org/abs/1907.00382)   
 
-### 3.2.4 倒排
+**3.2.4 倒排**
 
 1. [Hamming embedding and weak geometric consistency for large scale image search](#HamWG)     
 
@@ -328,17 +388,17 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 解决弱几何一致性；    
 
 ## 3.3 距离度量
-### 3.3.1 综述
+**3.3.1 综述**
 1. [Comprehensive Survey on Distance/Similarity Measures between Probability Density Functions](http://users.uom.gr/~kouiruki/sung.pdf)     
 *2007* [paper](http://users.uom.gr/~kouiruki/sung.pdf)     
 比较了各种距离度量方法，并探讨了他们的相似性；    
 
-### 3.3.2 传统方法
+**3.3.2 传统方法**
 1. [Similarity Measures](https://pdfs.semanticscholar.org/8389/62cef6bf99c2b99afb26dc5d6cf82366ef20.pdf?_ga=2.235583169.1153843306.1572339852-129004075.1557370518)     
 *1999* [paper](https://pdfs.semanticscholar.org/8389/62cef6bf99c2b99afb26dc5d6cf82366ef20.pdf?_ga=2.235583169.1153843306.1572339852-129004075.1557370518)    
 
 
-### 3.3.3 深度度量
+**3.3.3 深度度量**
 
 1. [Deep metric learning using Triplet network](http://cn.arxiv.org/abs/1412.6622)  
 [paper](https://arxiv.org/abs/1412.6622)  
@@ -482,21 +542,14 @@ ICCV 2015 [paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/pap
 [2015.12-2016.7]；非参数空间，通道维度；效果提升很大；​  
 [paper](https://arxiv.org/abs/1512.04065)  
 
-1. [Deep Image Retrieval: Learning global representations for image search](http://cn.arxiv.org/abs/1604.01325)  
-[2016] ECCV  
-[paper](https://arxiv.org/abs/1604.01325)  
-project page:  http://www.xrce.xerox.com/Research-Development/Computer-Vision/Learning-Visual-Representations/Deep-Image-Retrieval  
-slides:  http://www.slideshare.net/xavigiro/deep-image-retrieval-learning-global-representations-for-image-search  
 
 1. [Large-Scale Image Retrieval with Attentive Deep Local Features](http://cn.arxiv.org/abs/1612.06321)  
-DELF [2016.12 - 2018.2]；用 Google 数据集测试的；  
-[paper](https://arxiv.org/abs/1612.06321)  
-https://github.com/tensorflow/models/tree/master/research/delf  
+ *2016-12-19*  [paper](https://arxiv.org/abs/1612.06321) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)  
+DELF 用 Google 数据集测试的；    
 
 1. [End-to-end Learning of Deep Visual Representations for Image Retrieval](http://cn.arxiv.org/abs/1610.07940)  
-[2017] IJCV . Extended version of our ECCV2016 paper “Deep Image Retrieval: Learning global representations for image search”  
-[paper](https://arxiv.org/abs/1610.07940)  
-project page:  http://www.xrce.xerox.com/Research-Development/Computer-Vision/Learning-Visual-Representations/Deep-Image-Retrieval  
+IJCV 2017 *2016-10-25* [paper](https://arxiv.org/abs/1610.07940) | [project](http://www.xrce.xerox.com/Research-Development/Computer-Vision/Learning-Visual-Representations/Deep-Image-Retrieval)  
+Extended version of our ECCV2016 paper “Deep Image Retrieval: Learning global representations for image search”      
 
 1. [Bags of Local Convolutional Features for Scalable Instance Search](http://cn.arxiv.org/abs/1604.04653)  
 BoW [2016] ICMR . Best Poster Award at ICMR 2016.  
@@ -711,6 +764,12 @@ CVPR 2016 *2015*  [paper](https://arxiv.org/abs/1511.04164) | [project](http://r
 1. [Object Captioning and Retrieval with Natural Language](http://cn.arxiv.org/abs/1803.06152)  
 *2018* [paper](https://arxiv.org/abs/1803.06152)  
 
+1. [DeepSeek: Content Based Image Search & Retrieval](http://cn.arxiv.org/abs/1801.03406)    
+*2018-01-09* [paper](https://arxiv.org/abs/1801.03406)    
+
+1. [Building Contextual Implicit Links for Image Retrieval](https://pdfs.semanticscholar.org/fb59/da645d79f3d8262bc207697539b244b3555b.pdf?_ga=2.169396065.1783236570.1574479650-504939339.1571502740)     
+*2018* [paper](https://pdfs.semanticscholar.org/fb59/da645d79f3d8262bc207697539b244b3555b.pdf?_ga=2.169396065.1783236570.1574479650-504939339.1571502740)    
+
 
 ###4.2.2 其他
 1. [Cross-domain Image Retrieval with a Dual Attribute-aware Ranking Network](http://cn.arxiv.org/abs/1505.07922)  
@@ -768,6 +827,9 @@ IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)
 
 
 ## 4.4 内容检索
+1. [Comparative Study and Optimization of Feature-Extraction Techniques for Content based Image Retrieval](http://cn.arxiv.org/abs/1208.6335)     
+*2012-08-30* [paper](https://arxiv.org/abs/1208.6335)    
+
 1. [GetNet: Get Target Area for Image Pairing](http://cn.arxiv.org/abs/1910.03152)     
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03152)    
 先检测再检索；    
@@ -789,6 +851,15 @@ CVPR 2017 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2017_workshop
 
 1. [Protecting World Leaders Against Deep Fakes](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Agarwal_Protecting_World_Leaders_Against_Deep_Fakes_CVPRW_2019_paper.pdf)    
 CVPR 2019 workshop *2019-01* [paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/Media%20Forensics/Agarwal_Protecting_World_Leaders_Against_Deep_Fakes_CVPRW_2019_paper.pdf)     
+
+## 4.7 重复性
+1. [Bundling features for large scale partial-duplicate web image search](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/06/CVPR_2009_bundle.pdf)     
+CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/06/CVPR_2009_bundle.pdf)    
+
+1. Efficient Feature Detection and Effective Post-Verification for Large Scale Near-Duplicate Image Search   
+
+1. [Benchmarking unsupervised near-duplicate image detection](https://arxiv.org/abs/1907.02821)     
+*2019-07-03* [paper](https://arxiv.org/abs/1907.02821)     
 
 
 # 5 应用

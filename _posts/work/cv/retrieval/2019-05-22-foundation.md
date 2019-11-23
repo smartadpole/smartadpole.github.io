@@ -14,6 +14,7 @@ tags: 资源
 <!--more-->  
 
 # 1 综述
+**1.1  图片检索**    
 1. [A review of content-based image retrieval systems](https://pdfs.semanticscholar.org/39de/c38c15b957e3246dfb692111893efa4be1de.pdf)     
 *2000* [paper](https://pdfs.semanticscholar.org/39de/c38c15b957e3246dfb692111893efa4be1de.pdf)     
 $\bullet \bullet$    
@@ -46,6 +47,8 @@ $\bullet \bullet$
 *2011* [paper](https://www.researchgate.net/profile/Sameer_Antani/publication/221030443_Review_of_medical_image_retrieval_systems_and_future_directions/links/0deec51cdce8b73c0d000000/Review-of-medical-image-retrieval-systems-and-future-directions.pdf)    
 $\bullet \bullet$    
 
+1. [Comparative Study and Optimization of Feature-Extraction Techniques for Content based Image Retrieval](http://cn.arxiv.org/abs/1208.6335)     
+*2012-08-30* [paper](https://arxiv.org/abs/1208.6335)    
 
 1. [large scale search](https://www.di.ens.fr/willow/events/cvml2013/materials/slides/monday/Mon_2_search_large_2013.pdf)      
 *2013* Microsoft [note](https://www.di.ens.fr/willow/events/cvml2013/materials/slides/monday/Mon_2_search_large_2013.pdf)     
@@ -59,7 +62,7 @@ $\bullet \bullet$
 *2014-08-13* [paper](https://arxiv.org/abs/1408.2927)   
 $\bullet \bullet$    
 
-1. [Describing Colors, Textures and Shapes for Content Based Image Retrieval - A Survey](http://cn.arxiv.org/abs/1502.07041)    
+1. [Describing Colors, Textures and Shapes for Content Based Image Retrieval 1. [A Survey](http://cn.arxiv.org/abs/1502.07041)    
 *2015-02-25* [paper](https://arxiv.org/abs/1502.07041)    
 $\bullet \bullet$    
 传统特征汇总；    
@@ -68,6 +71,8 @@ $\bullet \bullet$
 *2015* [paper](https://pdfs.semanticscholar.org/f827/a37d58081706d348af2b462094ce1e19397e.pdf?_ga=2.166421758.1783236570.1574479650-504939339.1571502740)    
 $\bullet \bullet$    
 
+1. [Content based image retrieval using deep learning process](https://pdfs.semanticscholar.org/ef5f/b1fd2d2114dda62db1664643e8175578cdc0.pdf)    
+*2015* [paper](https://pdfs.semanticscholar.org/ef5f/b1fd2d2114dda62db1664643e8175578cdc0.pdf)    
 
 1. [A Survey on Learning to Hash](https://arxiv.org/abs/1606.00185)   
 *2016-06-01* [paper](https://arxiv.org/abs/1606.00185)   
@@ -93,6 +98,18 @@ $\bullet \bullet$
 1. [Towards Practical Visual Search Engine Within](http://cn.arxiv.org/abs/1806.08896)     
 SIGIR eCom 2018 *2018-06-23* [paper](https://arxiv.org/abs/1806.08896)    
 $\bullet \bullet$    
+
+**1.2 度量**   
+1. [A Survey on Metric Learning for Feature Vectors and
+Structured Data](https://hal.inria.fr/hal-01666935/file/surveyML_arXiv.pdf)     
+*2013* [paper](https://hal.inria.fr/hal-01666935/file/surveyML_arXiv.pdf)     
+$\bullet \bullet$    
+60 页；    
+
+1. [Deep Metric Learning: A Survey](https://pdfs.semanticscholar.org/a715/03ac83cd62519c3e4004dc25c8f98764b184.pdf?_ga=2.139616499.1783236570.1574479650-504939339.1571502740)    
+*2019-08-23* [paper](https://pdfs.semanticscholar.org/a715/03ac83cd62519c3e4004dc25c8f98764b184.pdf?_ga=2.139616499.1783236570.1574479650-504939339.1571502740)    
+$\bullet \bullet$    
+
 
 # 2 理论
 
@@ -165,6 +182,7 @@ VGG 提取帧特征；
 
 1. [Deep Signatures](http://cn.arxiv.org/abs/1905.08494)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08494) | [pytorch](https://github.com/patrick-kidger/Deep-Signatures)       
+$\bullet \bullet$   
 
 
 **3.1.3 特征编码**
@@ -233,9 +251,6 @@ LSH 的改进版，速度一样，存储减小了一个数量级；
 >用来提升检索速度；`怎么提升的`{:.warning}      
 
 
-1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)    
-ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)       
-
 1. [Supervised Hashing for Image Retrieval via Image Representation Learning](https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
 AAAI 2014 *2014* 中山大学·潘炎、颜水成 [paper](https://pdfs.semanticscholar.org/f633/8f23860f9c4808586bbc7e8907d33836147f.pdf)  
 提出基于 CNN 的深度哈希；   
@@ -251,22 +266,26 @@ CVPR 2015 *2015-01-26* [paper](https://arxiv.org/abs/1501.06272)
 
 1. [Deep Learning of Binary Hash Codes for Fast Image Retrieval](http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvprw15.pdf)  
 CVPR Workshop 2015 *2015* [paper](http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvprw15.pdf) | [caffe](https://github.com/kevinlin311tw/caffe-cvprw15) | [pytorch](https://github.com/flyingpot/pytorch_deephash)   
+$\bullet \bullet$   
 
-1. [Supervised Learning of Semantics-Preserving Hashing via Deep Neural Networks for Large-Scale Image Search](http://cn.arxiv.org/abs/1507.00101)  
-SSDH  
+1. [Supervised Learning of Semantics-Preserving Hashing via Deep Neural Networks for Large-Scale Image Search](http://cn.arxiv.org/abs/1507.00101)    
 *2015-07-01* [paper](https://arxiv.org/abs/1507.00101) | [caffe](https://github.com/kevinlin311tw/Caffe-DeepBinaryCode)  
+$\bullet \bullet$ SSDH   
 
 1. [Bit-Scalable Deep Hashing with Regularized Similarity Learning for Image Retrieval and Person Re-identification](http://cn.arxiv.org/abs/1508.04535)  
 *2015-08-19* [paper](https://arxiv.org/abs/1508.04535) | [project](http://vision.sysu.edu.cn/projects/deephashing/) | [caffe](https://github.com/ruixuejianfei/BitScalableDeepHash)     
+$\bullet \bullet$   
 
 1. [Deep Supervised Hashing for Fast Image Retrieval](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Supervised_Hashing_CVPR_2016_paper.pdf)  
 CVPR 2016 *2016* [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Supervised_Hashing_CVPR_2016_paper.pdf) | [caffe](https://github.com/lhmRyan/deep-supervised-hashing-DSH) | [tensorflow](https://github.com/yg33717/DSH_tensorflow)     
+$\bullet \bullet$   
 
 1. [Deep Hashing Network for Efficient Similarity Retrieval](https://pdfs.semanticscholar.org/eb0c/64244dcf238a2cbf479ab2fdc9047fc80bc5.pdf)      
 AAAI 2016 *2016* [paper](https://pdfs.semanticscholar.org/eb0c/64244dcf238a2cbf479ab2fdc9047fc80bc5.pdf)    
 
 1. [Feature Learning based Deep Supervised Hashing with Pairwise Labels](http://cn.arxiv.org/abs/1511.03855)  
 IJCAI 2016 *2015-11-12* [paper](https://arxiv.org/abs/1511.03855) | [code](http://cs.nju.edu.cn/lwj/code/DPSH.zip)-offical | [pytorch](https://github.com/jiangqy/DPSH-pytorch)  
+$\bullet \bullet$   
 
 1. [SSDH: Semi-supervised Deep Hashing for Large Scale Image Retrieval](http://cn.arxiv.org/abs/1607.08477)  
 *2016-07-28* [paper](https://arxiv.org/abs/1607.08477)  
@@ -285,6 +304,7 @@ IJCAI 2016 *2015-11-12* [paper](https://arxiv.org/abs/1511.03855) | [code](http:
 
 1. [Large-Scale Image Retrieval with Attentive Deep Local Features](http://cn.arxiv.org/abs/1612.06321)   
 ICCV 2017 *2016-12-19* Google [paper](https://arxiv.org/abs/1612.06321) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)      
+$\bullet \bullet$   
 **DELF**，同时发布了较大的[地标建筑检索数据集](https://www.kaggle.com/google/google-landmarks-dataset#test.csv)([详细说明](/competition/2019/07/25/Google-Landmark-Retrieval-2019.html))；   
 
 1. [Places: A 10 Million Image Database for Scene Recognition](http://places2.csail.mit.edu/PAMI_places.pdf)     
@@ -294,12 +314,14 @@ ICCV 2017 *2016-12-19* Google [paper](https://arxiv.org/abs/1612.06321) | [tenso
 
 1. [Deep Binary Representation for Efficient Image Retrieval](http://medialab.sjtu.edu.cn/publications/2017/ICMEW2017_DeepHash%20for%20Image%20Retrieval_LuSongXieYangZhang.pdf)      
 *2017* 上交 [paper](https://www.hindawi.com/journals/am/2017/8961091/) | [tensorflow](https://github.com/luseiee/DeepBinaryRepre)      
+$\bullet \bullet$   
 
 1. [Deep Region Hashing for Efficient Large-scale Instance Search from Images](http://cn.arxiv.org/abs/1701.07901)  
 *2017-01-26* [paper](https://arxiv.org/abs/1701.07901)  
 
 1. [HashNet: Deep Learning to Hash by Continuation](http://cn.arxiv.org/abs/1702.00758)  
 ICCV 2017 *2017-02-02* [paper](https://arxiv.org/abs/1702.00758)  | [caffe/pytorch](https://github.com/thuml/HashNet)   
+$\bullet \bullet$   
 
 1. [Unsupervised Triplet Hashing for Fast Image Retrieval](http://cn.arxiv.org/abs/1702.08798)  
 *2017-02-28* [paper](https://arxiv.org/abs/1702.08798)  
@@ -318,6 +340,7 @@ CVPR 2017 *2017-04-04* [paper](https://arxiv.org/abs/1704.00860)
 
 1. [Deep Hashing Network for Unsupervised Domain Adaptation](http://cn.arxiv.org/abs/1706.07522)  
 CVPR 2017 *2017-06-22* [paper](https://arxiv.org/abs/1706.07522)  | [MatConvNet](https://github.com/hemanthdv/da-hash)   
+$\bullet \bullet$   
 
 1. [Deep Binary Reconstruction for Cross-modal Hashing](http://cn.arxiv.org/abs/1708.05127)  
 ACM Multimedia 2017 *2017-08-17* [paper](https://arxiv.org/abs/1708.05127)  
@@ -377,7 +400,8 @@ SIGIR Oral 2017 *2018-04-23* [paper](https://arxiv.org/abs/1804.08275)
 *2018-05-07* [paper](https://arxiv.org/abs/1805.02459)  
 
 1. [Efficient end-to-end learning for quantizable representations](http://cn.arxiv.org/abs/1805.05809)  
-ICML 2018 *2018-05-15* [paper](https://arxiv.org/abs/1805.05809) | [tensorflow](https://github.com/maestrojeong/Deep-Hash-Table-ICML18)  
+ICML 2018 *2018-05-15* [paper](https://arxiv.org/abs/1805.05809) | [tensorflow](https://github.com/maestrojeong/Deep-Hash-Table-ICML18)    
+$\bullet \bullet$   
 
 1. [Unsupervised Deep Image Hashing through Tag Embeddings](http://cn.arxiv.org/abs/1806.05804)  
 *2018-06-15* [paper](https://arxiv.org/abs/1806.05804)  
@@ -413,89 +437,152 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 解决弱几何一致性；    
 
 ## 3.3 距离度量
-**3.3.1 综述**
-1. [Comprehensive Survey on Distance/Similarity Measures between Probability Density Functions](http://users.uom.gr/~kouiruki/sung.pdf)     
-*2007* [paper](http://users.uom.gr/~kouiruki/sung.pdf)     
-比较了各种距离度量方法，并探讨了他们的相似性；    
-
-**3.3.2 传统方法**
-1. [Similarity Measures](https://pdfs.semanticscholar.org/8389/62cef6bf99c2b99afb26dc5d6cf82366ef20.pdf?_ga=2.235583169.1153843306.1572339852-129004075.1557370518)     
-*1999* [paper](https://pdfs.semanticscholar.org/8389/62cef6bf99c2b99afb26dc5d6cf82366ef20.pdf?_ga=2.235583169.1153843306.1572339852-129004075.1557370518)    
+**3.3.1 Pairwise**
+1. [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf)    
+CVPR 2006 *2006* [paper](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf) | [Caffe](https://github.com/wujiyang/Contrastive-Loss) | [tensorflow](https://github.com/ardiya/siamesenetwork-tensorflow) | [Keras](https://github.com/keras-team/keras/blob/master/examples/mnist_siamese.py) | [pytorch1](https://github.com/delijati/pytorch-siamese/blob/master/contrastive.py) | [pytorch2](https://github.com/bnulihaixia/Deep_metric)    
+$\bullet \bullet$   
 
 
-**3.3.3 深度度量**
+1. [From Point to Set: Extend the Learning of Distance Metrics](http://openaccess.thecvf.com/content_iccv_2013/papers/Zhu_From_Point_to_2013_ICCV_paper.pdf)    
+ICCV 2013 *2013* [paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Zhu_From_Point_to_2013_ICCV_paper.pdf)  
 
 1. [Deep metric learning using Triplet network](http://cn.arxiv.org/abs/1412.6622)  
-[paper](https://arxiv.org/abs/1412.6622)  
-[paper](slides: http://tce.technion.ac.il/wp-content/uploads/sites/8/2016/01/Elad-Hofer.pdf)  
-https://github.com/eladhoffer/TripletNet  
+*2014-12-20* [paper](https://arxiv.org/abs/1412.6622) | [torch](https://github.com/eladhoffer/TripletNet)    
+$\bullet \bullet$     
 
-1. [Improved Deep Metric Learning with Multi-class N-pair Loss Objective](http://www.nec-labs.com/uploads/images/Department-Images/MediaAnalytics/papers/nips16_npairmetriclearning.pdf)  
-[2016] NIPS  
-[paper](http://www.nec-labs.com/uploads/images/Department-Images/MediaAnalytics/papers/nips16_npairmetriclearning.pdf)  
+1. [FaceNet: A Unified Embedding for Face Recognition and Clustering](http://cn.arxiv.org/abs/1503.03832)  
+CVPR 2015 *2015-03-12* [paper](https://arxiv.org/abs/1503.03832) | [tensorflow](https://github.com/omoindrot/tensorflow-triplet-loss) | [pytorch](https://github.com/bnulihaixia/Deep_metric)    
+$\bullet \bullet$   
+
 
 1. [Metric Learning with Adaptive Density Discrimination](http://cn.arxiv.org/abs/1511.05939)  
-[2016] ICLR . Facebook AI Research & UC Berkeley  
-[paper](https://arxiv.org/abs/1511.05939)  
-https://github.com/pumpikano/tf-magnet-loss  
-pytorch https://github.com/vithursant/MagnetLoss-PyTorch/  
+ICLR 2016 *2015-11-18* Facebook AI Research & UC Berkeley [paper](https://arxiv.org/abs/1511.05939)  | [tensorflow](https://github.com/pumpikano/tf-magnet-loss) | [pytorch](https://github.com/vithursant/MagnetLoss-PyTorch/)     
+$\bullet \bullet$     
 
-1. [Hard-Aware Deeply Cascaded Embedding](http://cn.arxiv.org/abs/1611.05720)  
-[2017] ICCV  
-[paper](https://arxiv.org/abs/1611.05720)  
-[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Yuan_Hard-Aware_Deeply_Cascaded_ICCV_2017_paper.pdf)  
-https://github.com/PkuRainBow/Hard-Aware-Deeply-Cascaded-Embedding_release  
-https://github.com/PkuRainBow/Hard-Aware-Deeply-Cascaed-Embedding  
+1. [Deep Metric Learning via Lifted Structured Feature Embedding](http://cn.arxiv.org/abs/1511.06452)    
+CVPR 2016 *2015-11-19* | [paper](https://arxiv.org/abs/1511.06452) | [chainer](https://github.com/ronekko/deep_metric_learning) | [Caffe](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) | [pytorch1](https://github.com/zhengxiawu/pytorch_deep_metric_learning) | [pytorch2](https://github.com/bnulihaixia/Deep_metric) | [tensorflow](https://github.com/kridgeway/f-statistic-loss-nips-2018)    
+$\bullet \bullet$   
+LSSS;    
 
-1. [Learnable Structured Clustering Framework for Deep Metric Learning](http://cn.arxiv.org/abs/1612.01213)  
-[paper](https://arxiv.org/abs/1612.01213)  
+1. [Improved Deep Metric Learning with Multi-class N-pair Loss Objective](http://www.nec-labs.com/uploads/images/Department-Images/MediaAnalytics/papers/nips16_npairmetriclearning.pdf)        
+NIPS 2016 *2016*  [paper](http://www.nec-labs.com/uploads/images/Department-Images/MediaAnalytics/papers/nips16_npairmetriclearning.pdf) | [pytorch](https://github.com/ChaofWang/Npair_loss_pytorch) | [chainer](https://github.com/ronekko/deep_metric_learning)    
+$\bullet \bullet$   
+N-pair;   
 
 1. [Deep Metric Learning via Lifted Structured Feature Embedding](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Song_Deep_Metric_Learning_CVPR_2016_paper.pdf)  
-[2016] CVPR  
-project page(code+data): http://cvgl.stanford.edu/projects/lifted_struct/  
-[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Song_Deep_Metric_Learning_CVPR_2016_paper.pdf)  
-[paper](http://cvgl.stanford.edu/papers/song_cvpr16.pdf)  
-https://github.com/rksltnl/Deep-Metric-Learning-CVPR16  
-https://github.com/rksltnl/Caffe-Deep-Metric-Learning-CVPR16  
-dataset ftp://cs.stanford.edu/cs/cvgl/Stanford_Online_Products.zip  
+CVPR 2016 *2016*  [paper](http://cvgl.stanford.edu/papers/song_cvpr16.pdf) | [project](http://cvgl.stanford.edu/projects/lifted_struct/) | [caffe](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) | [caffe](https://github.com/rksltnl/Caffe-Deep-Metric-Learning-CVPR16) | [dataset](ftp://cs.stanford.edu/cs/cvgl/Stanford_Online_Products.zip)   
+$\bullet \bullet$     
+
+1. [Hard-Aware Deeply Cascaded Embedding](http://cn.arxiv.org/abs/1611.05720)  
+ICCV 2017 *2016-11-17* [paper](https://arxiv.org/abs/1611.05720) | [caffe](https://github.com/PkuRainBow/Hard-Aware-Deeply-Cascaded-Embedding_release) | [caffe](https://github.com/PkuRainBow/Hard-Aware-Deeply-Cascaed-Embedding)  
+$\bullet \bullet$     
+
+1. [Learnable Structured Clustering Framework for Deep Metric Learning](http://cn.arxiv.org/abs/1612.01213)  
+*2016-12-05* [paper](https://arxiv.org/abs/1612.01213)  
 
 1. [Cross-modal Deep Metric Learning with Multi-task Regularization](http://cn.arxiv.org/abs/1703.07026)  
-[2017] ICME  
-[paper](https://arxiv.org/abs/1703.07026)  
+ICME 2017 *2017-03-21* [paper](https://arxiv.org/abs/1703.07026)  
 
 1. [Smart Mining for Deep Metric Learning](http://cn.arxiv.org/abs/1704.01285)  
-[paper](https://arxiv.org/abs/1704.01285)  
+*2017-04-05* [paper](https://arxiv.org/abs/1704.01285)  
 
 1. [DarkRank: Accelerating Deep Metric Learning via Cross Sample Similarities Transfer](http://cn.arxiv.org/abs/1707.01220)  
+*2017-07-05* [paper](https://arxiv.org/abs/1707.01220)  
 TuSimple pedestrian re-identification  
-[paper](https://arxiv.org/abs/1707.01220)  
 
 1. [Deep Metric Learning with Angular Loss](http://cn.arxiv.org/abs/1708.01682)  
-[2017] ICCV  
-[paper](https://arxiv.org/abs/1708.01682)  
+ICCV 2017 *2017-08-04* [paper](https://arxiv.org/abs/1708.01682)  
+
+1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)    
+ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)       
 
 1. [Deep Metric Learning with BIER: Boosting Independent Embeddings Robustly](http://cn.arxiv.org/abs/1801.04815)  
-[paper](https://arxiv.org/abs/1801.04815)  
+*2018-01-15* [paper](https://arxiv.org/abs/1801.04815)  
 
 1. [Directional Statistics-based Deep Metric Learning for Image Classification and Retrieval](http://cn.arxiv.org/abs/1802.09662)  
-[paper](https://arxiv.org/abs/1802.09662)  
+*2018-02-27* [paper](https://arxiv.org/abs/1802.09662)  
 
 1. [Generalization in Metric Learning: Should the Embedding Layer be the Embedding Layer?](http://cn.arxiv.org/abs/1803.03310)  
-Georgia TechCars-196, CUB-200-2011 and Stanford Online Product​  
-[paper](https://arxiv.org/abs/1803.03310)  
+*2018-03-08* [paper](https://arxiv.org/abs/1803.03310)  
 
-1. [Deep Metric Learning]()     
-PyTorch: https://github.com/bnulihaixia/Deep_metric  
 
 1. [Attention-based Ensemble for Deep Metric Learning](http://cn.arxiv.org/abs/1804.00382)  
 [paper](https://arxiv.org/abs/1804.00382)  
 
 1. [Online Deep Metric Learning](http://cn.arxiv.org/abs/1805.05510)  
-[paper](https://arxiv.org/abs/1805.05510)  
+*2018-05-15* [paper](https://arxiv.org/abs/1805.05510)  
 
 1. [Deep Randomized Ensembles for Metric Learning](http://cn.arxiv.org/abs/1808.04469)  
-[paper](https://arxiv.org/abs/1808.04469)  
-https://github.com/littleredxh/DREML  
+ECCV 2018 *2018-08-13* [paper](https://arxiv.org/abs/1808.04469) | [pytorch](https://github.com/littleredxh/DREML)   
+$\bullet \bullet$   
+DREML;    
+
+
+1. [Beyond triplet loss: a deep quadruplet network for person re-identification](https://cvip.computing.dundee.ac.uk/papers/Chen_CVPR_2017_paper.pdf)    
+CVPR 2017 *2017* [paper](https://cvip.computing.dundee.ac.uk/papers/Chen_CVPR_2017_paper.pdf)    
+Quadruplet    
+
+1. [Deep Metric Learning via Facility Location](http://cn.arxiv.org/abs/1612.01213)    
+CVPR 2017 *2016-12-05* | [paper](https://arxiv.org/abs/1612.01213) | [tensorflow](https://github.com/CongWeilin/cluster-loss-tensorflow)      
+$\bullet \bullet$   
+
+1. [No Fuss Distance Metric Learning using Proxies](http://openaccess.thecvf.com/content_ICCV_2017/papers/Movshovitz-Attias_No_Fuss_Distance_ICCV_2017_paper.pdf)    
+ICCV 2017 ** [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Movshovitz-Attias_No_Fuss_Distance_ICCV_2017_paper.pdf) | [pytorch1](https://github.com/dichotomies/proxy-nca) | [pytorch2](https://github.com/bnulihaixia/Deep_metric) | [chainer](https://github.com/ronekko/deep_metric_learning)   
+$\bullet \bullet$   
+Proxy NCA   
+
+1. [Deep Metric Learning with Angular Loss](http://cn.arxiv.org/abs/1708.01682)      
+CVPR 2017 *2017-08-04* [paper](https://arxiv.org/abs/1708.01682) | [tensorflow](https://github.com/geonm/tf_angular_loss) | [chainer](https://github.com/ronekko/deep_metric_learning)   
+$\bullet \bullet$   
+Angular    
+
+1. [Deep Metric Learning by Online Soft Mining and Class-Aware Attention](http://cn.arxiv.org/abs/1811.01459)    
+AAAI 2019 *2018-11-04* [paper](https://arxiv.org/abs/1811.01459)
+
+1. [Ranked List Loss for Deep Metric Learning](http://cn.arxiv.org/abs/1903.03238)    
+ CVPR 2019 *2019-03-08* [paper](https://arxiv.org/abs/1903.03238)   
+RLL    
+
+1. [Hardness-Aware Deep Metric Learning](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Hardness-Aware_Deep_Metric_Learning_CVPR_2019_paper.pdf)    
+CVPR 2019 *2019-03-14* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Hardness-Aware_Deep_Metric_Learning_CVPR_2019_paper.pdf) | [tensorflow](https://github.com/wzzheng/HDML)    
+$\bullet \bullet$   
+HDML    
+
+1. [Signal-to-Noise Ratio: A Robust Distance Metric for Deep Metric Learning](http://cn.arxiv.org/abs/1904.02616)    
+CVPR 2019 *2019-04-04* [paper](https://arxiv.org/abs/1904.02616)   
+
+1. [Deep Metric Learning Beyond Binary Supervision](http://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Deep_Metric_Learning_Beyond_Binary_Supervision_CVPR_2019_paper.pdf)     
+CVPR 2019 *2019-04-23* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Deep_Metric_Learning_Beyond_Binary_Supervision_CVPR_2019_paper.pdf)    
+Log-loss    
+
+1. [Deep Metric Learning to Rank](http://openaccess.thecvf.com/content_CVPR_2019/papers/Cakir_Deep_Metric_Learning_to_Rank_CVPR_2019_paper.pdf)    
+CVPR 2019 *2019-05-14* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Cakir_Deep_Metric_Learning_to_Rank_CVPR_2019_paper.pdf) | [pytorch](https://github.com/kunhe/FastAP-metric-learning)       
+FastAP   
+
+1. [Deep Asymmetric Metric Learning via Rich Relationship Mining](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Deep_Asymmetric_Metric_Learning_via_Rich_Relationship_Mining_CVPR_2019_paper.pdf)    
+CVPR 2019 *2019-06-10* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Deep_Asymmetric_Metric_Learning_via_Rich_Relationship_Mining_CVPR_2019_paper.pdf)    
+
+
+1. [SoftTriple Loss: Deep Metric Learning Without Triplet Sampling](http://cn.arxiv.org/abs/1909.05235)     
+ICCV 2019 *2019-09-11* [paper](https://arxiv.org/abs/1909.05235) | [tensorflow](https://github.com/geonm/tf_SoftTriple_loss) | [pytorch](https://github.com/idstcv/SoftTriple)     
+$\bullet \bullet$   
+SoftTriple    
+
+
+**3.3.2 variant**
+
+**3.3.3 Probabilistic**
+
+**3.3.4 Boost-like**
+
+**3.3.5 其他**
+1. [Similarity Measures](https://pdfs.semanticscholar.org/8389/62cef6bf99c2b99afb26dc5d6cf82366ef20.pdf?_ga=2.235583169.1153843306.1572339852-129004075.1557370518)     
+*1999* [paper](https://pdfs.semanticscholar.org/8389/62cef6bf99c2b99afb26dc5d6cf82366ef20.pdf?_ga=2.235583169.1153843306.1572339852-129004075.1557370518)    
+
+
+1. [Comprehensive Survey on Distance/Similarity Measures between Probability Density Functions](http://users.uom.gr/~kouiruki/sung.pdf)     
+*2007* [paper](http://users.uom.gr/~kouiruki/sung.pdf)     
+比较了各种距离度量方法，并探讨了他们的相似性；   
 
 # 4 技术方向
 ## 4.1 检索
@@ -509,10 +596,9 @@ https://github.com/littleredxh/DREML
 [paper](https://arxiv.org/abs/1312.4740)  
 
 1. [Neural Codes for Image Retrieval](http://cn.arxiv.org/abs/1404.1777)  
-[2014] ECCV；研究全连接层在图像检索中的应用；​  
-[paper](https://arxiv.org/abs/1404.1777)  
-project: http://sites.skoltech.ru/compvision/projects/neuralcodes/  
-github: https://github.com/arbabenko/Spoc  
+ECCV 2014 ** [paper](https://arxiv.org/abs/1404.1777) | [project](http://sites.skoltech.ru/compvision/projects/neuralcodes/) | [yael](https://github.com/arbabenko/Spoc)    
+$\bullet \bullet$   
+研究全连接层在图像检索中的应用；​     
 
 1. [CNN Features off-the-shelf: an Astounding Baseline for Recognition](http://cn.arxiv.org/abs/1403.6382)  
 [2014.3-2014.5] CVPR workshop；融合从图像的不同区域提取到的全链接特征；  
@@ -795,7 +881,7 @@ CVPR 2016 *2015*  [paper](https://arxiv.org/abs/1511.04164) | [project](http://r
 1. [Building Contextual Implicit Links for Image Retrieval](https://pdfs.semanticscholar.org/fb59/da645d79f3d8262bc207697539b244b3555b.pdf?_ga=2.169396065.1783236570.1574479650-504939339.1571502740)     
 *2018* [paper](https://pdfs.semanticscholar.org/fb59/da645d79f3d8262bc207697539b244b3555b.pdf?_ga=2.169396065.1783236570.1574479650-504939339.1571502740)    
 
-1. [Scene Graph based Image Retrieval -- A case study on the CLEVR Dataset](http://cn.arxiv.org/abs/1911.00850)    
+1. [Scene Graph based Image Retrieval -1. [A case study on the CLEVR Dataset](http://cn.arxiv.org/abs/1911.00850)    
 *2019-11-03* [paper](https://arxiv.org/abs/1911.00850)    
 
 
@@ -855,8 +941,6 @@ IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)
 
 
 ## 4.4 内容检索
-1. [Comparative Study and Optimization of Feature-Extraction Techniques for Content based Image Retrieval](http://cn.arxiv.org/abs/1208.6335)     
-*2012-08-30* [paper](https://arxiv.org/abs/1208.6335)    
 
 1. [GetNet: Get Target Area for Image Pairing](http://cn.arxiv.org/abs/1910.03152)     
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03152)    
@@ -899,7 +983,7 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 
 
 
--------------------  
+------------------1. [
 [End](#head)
 {:.warning}  
 
@@ -916,6 +1000,9 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 1. [Image Tampering Detection and Localization](https://github.com/yannadani/image_tampering_detection_references)     
 1. [图像检索中的相似度度量：EMD距离](https://blog.csdn.net/index20001/article/details/77162495)      
 1. [阿里研究员华先胜：图像搜索的前世今生](https://www.afenxi.com/17477.html)     
+1. [Survey_of_Deep_Metric_Learning](https://github.com/kdhht2334/Survey_of_Deep_Metric_Learning) 论文汇总；    
 
 ## C 开源项目
-1. [DeepHash](https://github.com/thulab/DeepHash)
+1. [DeepHash](https://github.com/thulab/DeepHash)    
+1. [Easily Extendable Basic Deep Metric Learning Pipeline](https://github.com/kdhht2334/Deep-Metric-Learning-Baselines)    
+1. [Deep Metric Learning](https://github.com/bnulihaixia/Deep_metric)-PyTorch    

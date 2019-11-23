@@ -13,6 +13,7 @@ category: [video, video_library]
 github：<https://github.com/FFmpeg/FFmpeg>   
 [安装教程](/video/video_library/2019/01/25/install.html)    
 
+<!--more-->
 
 # 1 参数
 1. CV_FOURCC   

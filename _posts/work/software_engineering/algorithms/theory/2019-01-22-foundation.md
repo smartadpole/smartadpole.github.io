@@ -46,3 +46,5 @@ SGU 是俄罗斯萨拉托夫国立大学(Saratov State University)用于培养AC
 ### B 推荐资料
 1. LeetCode 相关博客  
 黄锴. LeetBook. <https://hk029.gitbooks.io/leetbook/content/>.  
+1. [algorithm](https://github.com/qiwsir/algorithm)   
+python 实现的算法；    

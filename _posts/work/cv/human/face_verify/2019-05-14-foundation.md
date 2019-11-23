@@ -14,6 +14,14 @@ tags: 资源
 
 # 1 综述  
 
+1. [Survey on Sparse Coded Features for Content Based Face Image Retrieva](http://cn.arxiv.org/abs/1402.4888)    
+*2014-02-20* [paper](https://arxiv.org/abs/1402.4888)    
+稀疏索引；    
+
+1. [Deep Face Image Retrieval: a Comparative Study with Dictionary Learning](http://cn.arxiv.org/abs/1812.05490)    
+*2018-12-13* [paper](https://arxiv.org/abs/1812.05490)    
+
+
 # 2 理论
 
 # 3 其他

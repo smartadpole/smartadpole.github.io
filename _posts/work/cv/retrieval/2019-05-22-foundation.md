@@ -16,41 +16,62 @@ tags: 资源
 # 1 综述
 1. [A review of content-based image retrieval systems](https://pdfs.semanticscholar.org/39de/c38c15b957e3246dfb692111893efa4be1de.pdf)     
 *2000* [paper](https://pdfs.semanticscholar.org/39de/c38c15b957e3246dfb692111893efa4be1de.pdf)     
+$\bullet \bullet$    
 67 页；   
 
 1. [Relevance feedback in image retrieval: A comprehensive review](https://www.fi.muni.cz/~xkohout7/Research/clanky_cizi/relevance_feedback/review2002.pdf)    
 *2003* [paper](https://www.fi.muni.cz/~xkohout7/Research/clanky_cizi/relevance_feedback/review2002.pdf)     
+$\bullet \bullet$    
 
 1. [A review of content-based image retrieval systems in medical applications—clinical benefits and future directions](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.7750&rep=rep1&type=pdf)     
 *2004* [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.463.7750&rep=rep1&type=pdf)    
+$\bullet \bullet$    
 
 
 1. [A review of text and image retrieval approaches for broadcast news video](https://ccc.inaoep.mx/~villasen/bib/review%20of%20text%20and%20image%20retrieval%20for%20broadcast%20video.pdf)    
 *2007* [paper](https://ccc.inaoep.mx/~villasen/bib/review%20of%20text%20and%20image%20retrieval%20for%20broadcast%20video.pdf)    
+$\bullet \bullet$    
 40 页；  
 
 1. [Content-based Image Retrieval: Feature Extraction Techniques and Applications](https://pdfs.semanticscholar.org/7f3a/66ee2b8a2d529dfaaf2544bcc01ef3b47ba7.pdf)    
 *2008* [paper](https://pdfs.semanticscholar.org/7f3a/66ee2b8a2d529dfaaf2544bcc01ef3b47ba7.pdf)    
+$\bullet \bullet$    
 
 1. [A review of content-based image retrieval](https://www.researchgate.net/profile/WL_Woo/publication/221093029_A_review_of_content-based_image_retrieval/links/09e4150f1891bad6fb000000.pdf)    
 *2010* [paper](https://www.researchgate.net/profile/WL_Woo/publication/221093029_A_review_of_content-based_image_retrieval/links/09e4150f1891bad6fb000000.pdf)    
+$\bullet \bullet$    
 
 
 1. [Review of medical image retrieval systems and future directions](https://www.researchgate.net/profile/Sameer_Antani/publication/221030443_Review_of_medical_image_retrieval_systems_and_future_directions/links/0deec51cdce8b73c0d000000/Review-of-medical-image-retrieval-systems-and-future-directions.pdf)    
 *2011* [paper](https://www.researchgate.net/profile/Sameer_Antani/publication/221030443_Review_of_medical_image_retrieval_systems_and_future_directions/links/0deec51cdce8b73c0d000000/Review-of-medical-image-retrieval-systems-and-future-directions.pdf)    
+$\bullet \bullet$    
 
 
 1. [large scale search](https://www.di.ens.fr/willow/events/cvml2013/materials/slides/monday/Mon_2_search_large_2013.pdf)      
-*2013* Microsoft     
+*2013* Microsoft [note](https://www.di.ens.fr/willow/events/cvml2013/materials/slides/monday/Mon_2_search_large_2013.pdf)     
+$\bullet \bullet$         
 
 1. [A Survey on CBIR using Low Level Feature Combination](https://pdfs.semanticscholar.org/6e6b/838e1468ad5c1fbd3916210dfeeada6f35d8.pdf?_ga=2.60448877.1783236570.1574479650-504939339.1571502740)     
 *2014* [paper](https://pdfs.semanticscholar.org/6e6b/838e1468ad5c1fbd3916210dfeeada6f35d8.pdf?_ga=2.60448877.1783236570.1574479650-504939339.1571502740)     
+$\bullet \bullet$    
 
 1. [Hashing for Similarity Search: A Survey](http://cn.arxiv.org/abs/1408.2927)   
 *2014-08-13* [paper](https://arxiv.org/abs/1408.2927)   
+$\bullet \bullet$    
+
+1. [Describing Colors, Textures and Shapes for Content Based Image Retrieval - A Survey](http://cn.arxiv.org/abs/1502.07041)    
+*2015-02-25* [paper](https://arxiv.org/abs/1502.07041)    
+$\bullet \bullet$    
+传统特征汇总；    
+
+1. [Study of Different Techniques for Image Retrieval](https://pdfs.semanticscholar.org/f827/a37d58081706d348af2b462094ce1e19397e.pdf?_ga=2.166421758.1783236570.1574479650-504939339.1571502740)    
+*2015* [paper](https://pdfs.semanticscholar.org/f827/a37d58081706d348af2b462094ce1e19397e.pdf?_ga=2.166421758.1783236570.1574479650-504939339.1571502740)    
+$\bullet \bullet$    
+
 
 1. [A Survey on Learning to Hash](https://arxiv.org/abs/1606.00185)   
 *2016-06-01* [paper](https://arxiv.org/abs/1606.00185)   
+$\bullet \bullet$    
 
 
 1. A survey on combine approach of low level features extraction in CBIR    
@@ -58,16 +79,20 @@ tags: 资源
 
 1. [Recent Advance in Content-based Image Retrieval: A Literature Survey](http://cn.arxiv.org/abs/1706.06064)    
 *2017-06-19* [paper](https://arxiv.org/abs/1706.06064)     
+$\bullet \bullet$    
 
 1. [Content based Image Retrieval: A Review](https://airccj.org/CSCP/vol4/csit42706.pdf)    
 *2018-04-24* [paper](https://airccj.org/CSCP/vol4/csit42706.pdf)    
+$\bullet \bullet$    
 
 1. [A comprehensive survey on content based image retrieval system and its application in medical domain](https://pdfs.semanticscholar.org/feae/ad540cc5e51b00b0b4d33af28d3087b06f3e.pdf)     
 *2018* [paper](https://pdfs.semanticscholar.org/feae/ad540cc5e51b00b0b4d33af28d3087b06f3e.pdf)    
+$\bullet \bullet$    
 
 
 1. [Towards Practical Visual Search Engine Within](http://cn.arxiv.org/abs/1806.08896)     
 SIGIR eCom 2018 *2018-06-23* [paper](https://arxiv.org/abs/1806.08896)    
+$\bullet \bullet$    
 
 # 2 理论
 
@@ -769,6 +794,9 @@ CVPR 2016 *2015*  [paper](https://arxiv.org/abs/1511.04164) | [project](http://r
 
 1. [Building Contextual Implicit Links for Image Retrieval](https://pdfs.semanticscholar.org/fb59/da645d79f3d8262bc207697539b244b3555b.pdf?_ga=2.169396065.1783236570.1574479650-504939339.1571502740)     
 *2018* [paper](https://pdfs.semanticscholar.org/fb59/da645d79f3d8262bc207697539b244b3555b.pdf?_ga=2.169396065.1783236570.1574479650-504939339.1571502740)    
+
+1. [Scene Graph based Image Retrieval -- A case study on the CLEVR Dataset](http://cn.arxiv.org/abs/1911.00850)    
+*2019-11-03* [paper](https://arxiv.org/abs/1911.00850)    
 
 
 ###4.2.2 其他

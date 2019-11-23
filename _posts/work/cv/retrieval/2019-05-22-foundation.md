@@ -568,6 +568,9 @@ ICCV 2019 *2019-09-11* [paper](https://arxiv.org/abs/1909.05235) | [tensorflow](
 $\bullet \bullet$   
 SoftTriple    
 
+1. [Visual Explanation for Deep Metric Learning](https://arxiv.org/abs/1909.12977)    
+*2019-09-27* [paper](https://arxiv.org/abs/1909.12977)    
+
 
 **3.3.2 variant**
 
@@ -1001,6 +1004,7 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 1. [图像检索中的相似度度量：EMD距离](https://blog.csdn.net/index20001/article/details/77162495)      
 1. [阿里研究员华先胜：图像搜索的前世今生](https://www.afenxi.com/17477.html)     
 1. [Survey_of_Deep_Metric_Learning](https://github.com/kdhht2334/Survey_of_Deep_Metric_Learning) 论文汇总；    
+1. [Deep Metric Learning](https://zhuanlan.zhihu.com/p/68200241) 知乎    
 
 ## C 开源项目
 1. [DeepHash](https://github.com/thulab/DeepHash)    

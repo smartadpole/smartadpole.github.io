@@ -440,7 +440,7 @@ ICIP 2019 *2019-05-21* [paper](https://arxiv.org/abs/1905.08501)
 **3.3.1 Pairwise**
 1. [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf)    
 CVPR 2006 *2006* [paper](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf) | [Caffe](https://github.com/wujiyang/Contrastive-Loss) | [tensorflow](https://github.com/ardiya/siamesenetwork-tensorflow) | [Keras](https://github.com/keras-team/keras/blob/master/examples/mnist_siamese.py) | [pytorch1](https://github.com/delijati/pytorch-siamese/blob/master/contrastive.py) | [pytorch2](https://github.com/bnulihaixia/Deep_metric)    
-$\bullet \bullet$   
+$\bullet \bullet$  DrLIM    
 
 
 1. [From Point to Set: Extend the Learning of Distance Metrics](http://openaccess.thecvf.com/content_iccv_2013/papers/Zhu_From_Point_to_2013_ICCV_paper.pdf)    
@@ -448,37 +448,30 @@ ICCV 2013 *2013* [paper](http://openaccess.thecvf.com/content_iccv_2013/papers/Z
 
 1. [Deep metric learning using Triplet network](http://cn.arxiv.org/abs/1412.6622)  
 *2014-12-20* [paper](https://arxiv.org/abs/1412.6622) | [torch](https://github.com/eladhoffer/TripletNet)    
-$\bullet \bullet$     
-
-1. [FaceNet: A Unified Embedding for Face Recognition and Clustering](http://cn.arxiv.org/abs/1503.03832)  
-CVPR 2015 *2015-03-12* [paper](https://arxiv.org/abs/1503.03832) | [tensorflow](https://github.com/omoindrot/tensorflow-triplet-loss) | [pytorch](https://github.com/bnulihaixia/Deep_metric)    
-$\bullet \bullet$   
-
+$\bullet \bullet$ Triplet       
 
 1. [Metric Learning with Adaptive Density Discrimination](http://cn.arxiv.org/abs/1511.05939)  
 ICLR 2016 *2015-11-18* Facebook AI Research & UC Berkeley [paper](https://arxiv.org/abs/1511.05939)  | [tensorflow](https://github.com/pumpikano/tf-magnet-loss) | [pytorch](https://github.com/vithursant/MagnetLoss-PyTorch/)     
-$\bullet \bullet$     
+$\bullet \bullet$ Magnet     
 
 1. [Deep Metric Learning via Lifted Structured Feature Embedding](http://cn.arxiv.org/abs/1511.06452)    
-CVPR 2016 *2015-11-19* | [paper](https://arxiv.org/abs/1511.06452) | [chainer](https://github.com/ronekko/deep_metric_learning) | [Caffe](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) | [pytorch1](https://github.com/zhengxiawu/pytorch_deep_metric_learning) | [pytorch2](https://github.com/bnulihaixia/Deep_metric) | [tensorflow](https://github.com/kridgeway/f-statistic-loss-nips-2018)    
-$\bullet \bullet$   
-LSSS;    
+CVPR 2016 *2015-11-19* | [paper](https://arxiv.org/abs/1511.06452) | [project](http://cvgl.stanford.edu/projects/lifted_struct/) | [chainer](https://github.com/ronekko/deep_metric_learning) | [caffe](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) | [pytorch1](https://github.com/zhengxiawu/pytorch_deep_metric_learning) | [pytorch2](https://github.com/bnulihaixia/Deep_metric) | [tensorflow](https://github.com/kridgeway/f-statistic-loss-nips-2018)  | [dataset](ftp://cs.stanford.edu/cs/cvgl/Stanford_Online_Products.zip) | [blog](https://kobiso.github.io/research/research-n-pair-loss/)       
+$\bullet \bullet$ LSSS     
 
 1. [Improved Deep Metric Learning with Multi-class N-pair Loss Objective](http://www.nec-labs.com/uploads/images/Department-Images/MediaAnalytics/papers/nips16_npairmetriclearning.pdf)        
 NIPS 2016 *2016*  [paper](http://www.nec-labs.com/uploads/images/Department-Images/MediaAnalytics/papers/nips16_npairmetriclearning.pdf) | [pytorch](https://github.com/ChaofWang/Npair_loss_pytorch) | [chainer](https://github.com/ronekko/deep_metric_learning)    
-$\bullet \bullet$   
-N-pair;   
-
-1. [Deep Metric Learning via Lifted Structured Feature Embedding](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Song_Deep_Metric_Learning_CVPR_2016_paper.pdf)  
-CVPR 2016 *2016*  [paper](http://cvgl.stanford.edu/papers/song_cvpr16.pdf) | [project](http://cvgl.stanford.edu/projects/lifted_struct/) | [caffe](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16) | [caffe](https://github.com/rksltnl/Caffe-Deep-Metric-Learning-CVPR16) | [dataset](ftp://cs.stanford.edu/cs/cvgl/Stanford_Online_Products.zip)   
-$\bullet \bullet$     
+$\bullet \bullet$ N-pair    
 
 1. [Hard-Aware Deeply Cascaded Embedding](http://cn.arxiv.org/abs/1611.05720)  
 ICCV 2017 *2016-11-17* [paper](https://arxiv.org/abs/1611.05720) | [caffe](https://github.com/PkuRainBow/Hard-Aware-Deeply-Cascaded-Embedding_release) | [caffe](https://github.com/PkuRainBow/Hard-Aware-Deeply-Cascaed-Embedding)  
-$\bullet \bullet$     
+$\bullet \bullet$ HDC     
 
 1. [Learnable Structured Clustering Framework for Deep Metric Learning](http://cn.arxiv.org/abs/1612.01213)  
 *2016-12-05* [paper](https://arxiv.org/abs/1612.01213)  
+
+1. [Deep Metric Learning via Facility Location](http://cn.arxiv.org/abs/1612.01213)    
+CVPR 2017 *2016-12-05* | [paper](https://arxiv.org/abs/1612.01213) | [tensorflow](https://github.com/CongWeilin/cluster-loss-tensorflow)      
+$\bullet \bullet$ NMI   
 
 1. [Cross-modal Deep Metric Learning with Multi-task Regularization](http://cn.arxiv.org/abs/1703.07026)  
 ICME 2017 *2017-03-21* [paper](https://arxiv.org/abs/1703.07026)  
@@ -486,12 +479,21 @@ ICME 2017 *2017-03-21* [paper](https://arxiv.org/abs/1703.07026)
 1. [Smart Mining for Deep Metric Learning](http://cn.arxiv.org/abs/1704.01285)  
 *2017-04-05* [paper](https://arxiv.org/abs/1704.01285)  
 
+1. [Beyond triplet loss: a deep quadruplet network for person re-identification](https://cvip.computing.dundee.ac.uk/papers/Chen_CVPR_2017_paper.pdf)    
+CVPR 2017 *2017-05-13* [paper](https://cvip.computing.dundee.ac.uk/papers/Chen_CVPR_2017_paper.pdf)    
+Quadruplet    
+
 1. [DarkRank: Accelerating Deep Metric Learning via Cross Sample Similarities Transfer](http://cn.arxiv.org/abs/1707.01220)  
 *2017-07-05* [paper](https://arxiv.org/abs/1707.01220)  
 TuSimple pedestrian re-identification  
 
-1. [Deep Metric Learning with Angular Loss](http://cn.arxiv.org/abs/1708.01682)  
-ICCV 2017 *2017-08-04* [paper](https://arxiv.org/abs/1708.01682)  
+1. [No Fuss Distance Metric Learning using Proxies](http://openaccess.thecvf.com/content_ICCV_2017/papers/Movshovitz-Attias_No_Fuss_Distance_ICCV_2017_paper.pdf)    
+ICCV 2017 *2017-08-03* [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Movshovitz-Attias_No_Fuss_Distance_ICCV_2017_paper.pdf) | [pytorch1](https://github.com/dichotomies/proxy-nca) | [pytorch2](https://github.com/bnulihaixia/Deep_metric) | [chainer](https://github.com/ronekko/deep_metric_learning)   
+$\bullet \bullet$ Proxy NCA   
+
+1. [Deep Metric Learning with Angular Loss](http://cn.arxiv.org/abs/1708.01682)      
+ICCV 2017 *2017-08-04* [paper](https://arxiv.org/abs/1708.01682) | [tensorflow](https://github.com/geonm/tf_angular_loss) | [chainer](https://github.com/ronekko/deep_metric_learning)   
+$\bullet \bullet$ Angular    
 
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)    
 ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)       
@@ -514,27 +516,8 @@ ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_wo
 
 1. [Deep Randomized Ensembles for Metric Learning](http://cn.arxiv.org/abs/1808.04469)  
 ECCV 2018 *2018-08-13* [paper](https://arxiv.org/abs/1808.04469) | [pytorch](https://github.com/littleredxh/DREML)   
-$\bullet \bullet$   
-DREML;    
+$\bullet \bullet$ DREML    
 
-
-1. [Beyond triplet loss: a deep quadruplet network for person re-identification](https://cvip.computing.dundee.ac.uk/papers/Chen_CVPR_2017_paper.pdf)    
-CVPR 2017 *2017* [paper](https://cvip.computing.dundee.ac.uk/papers/Chen_CVPR_2017_paper.pdf)    
-Quadruplet    
-
-1. [Deep Metric Learning via Facility Location](http://cn.arxiv.org/abs/1612.01213)    
-CVPR 2017 *2016-12-05* | [paper](https://arxiv.org/abs/1612.01213) | [tensorflow](https://github.com/CongWeilin/cluster-loss-tensorflow)      
-$\bullet \bullet$   
-
-1. [No Fuss Distance Metric Learning using Proxies](http://openaccess.thecvf.com/content_ICCV_2017/papers/Movshovitz-Attias_No_Fuss_Distance_ICCV_2017_paper.pdf)    
-ICCV 2017 ** [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Movshovitz-Attias_No_Fuss_Distance_ICCV_2017_paper.pdf) | [pytorch1](https://github.com/dichotomies/proxy-nca) | [pytorch2](https://github.com/bnulihaixia/Deep_metric) | [chainer](https://github.com/ronekko/deep_metric_learning)   
-$\bullet \bullet$   
-Proxy NCA   
-
-1. [Deep Metric Learning with Angular Loss](http://cn.arxiv.org/abs/1708.01682)      
-CVPR 2017 *2017-08-04* [paper](https://arxiv.org/abs/1708.01682) | [tensorflow](https://github.com/geonm/tf_angular_loss) | [chainer](https://github.com/ronekko/deep_metric_learning)   
-$\bullet \bullet$   
-Angular    
 
 1. [Deep Metric Learning by Online Soft Mining and Class-Aware Attention](http://cn.arxiv.org/abs/1811.01459)    
 AAAI 2019 *2018-11-04* [paper](https://arxiv.org/abs/1811.01459)
@@ -545,8 +528,7 @@ RLL
 
 1. [Hardness-Aware Deep Metric Learning](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Hardness-Aware_Deep_Metric_Learning_CVPR_2019_paper.pdf)    
 CVPR 2019 *2019-03-14* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Hardness-Aware_Deep_Metric_Learning_CVPR_2019_paper.pdf) | [tensorflow](https://github.com/wzzheng/HDML)    
-$\bullet \bullet$   
-HDML    
+$\bullet \bullet$ HDML    
 
 1. [Signal-to-Noise Ratio: A Robust Distance Metric for Deep Metric Learning](http://cn.arxiv.org/abs/1904.02616)    
 CVPR 2019 *2019-04-04* [paper](https://arxiv.org/abs/1904.02616)   
@@ -565,8 +547,7 @@ CVPR 2019 *2019-06-10* [paper](http://openaccess.thecvf.com/content_CVPR_2019/pa
 
 1. [SoftTriple Loss: Deep Metric Learning Without Triplet Sampling](http://cn.arxiv.org/abs/1909.05235)     
 ICCV 2019 *2019-09-11* [paper](https://arxiv.org/abs/1909.05235) | [tensorflow](https://github.com/geonm/tf_SoftTriple_loss) | [pytorch](https://github.com/idstcv/SoftTriple)     
-$\bullet \bullet$   
-SoftTriple    
+$\bullet \bullet$ SoftTriple    
 
 1. [Visual Explanation for Deep Metric Learning](https://arxiv.org/abs/1909.12977)    
 *2019-09-27* [paper](https://arxiv.org/abs/1909.12977)    

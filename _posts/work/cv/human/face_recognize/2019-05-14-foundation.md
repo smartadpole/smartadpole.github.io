@@ -17,6 +17,12 @@ tags: 资源
 # 2 理论
 
 # 3 通用
+
+1. [FaceNet: A Unified Embedding for Face Recognition and Clustering](http://cn.arxiv.org/abs/1503.03832)  
+CVPR 2015 *2015-03-12* [paper](https://arxiv.org/abs/1503.03832) | [tensorflow](https://github.com/omoindrot/tensorflow-triplet-loss) | [pytorch](https://github.com/bnulihaixia/Deep_metric)    
+$\bullet \bullet$ FaceNet    
+
+
 1. [Does Generative Face Completion Help Face Recognition?](http://cn.arxiv.org/abs/1906.02858)   
 *2019-06-07* [paper](https://arxiv.org/abs/1906.02858)    
 人脸遮挡对于人脸识别的影响；    

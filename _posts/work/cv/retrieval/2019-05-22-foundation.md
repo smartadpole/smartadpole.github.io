@@ -986,8 +986,15 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 1. [阿里研究员华先胜：图像搜索的前世今生](https://www.afenxi.com/17477.html)     
 1. [Survey_of_Deep_Metric_Learning](https://github.com/kdhht2334/Survey_of_Deep_Metric_Learning) 论文汇总；    
 1. [Deep Metric Learning](https://zhuanlan.zhihu.com/p/68200241) 知乎    
+1. [度量学习---综述](https://blog.csdn.net/xys430381_1/article/details/90705421)    
 
 ## C 开源项目
+1. [Faiss](https://github.com/facebookresearch/faiss)     
+1. [SPTAG](https://github.com/microsoft/SPTAG)    
+1. [Milvus](https://milvus.io/zh-cn/)      
+[github](https://github.com/milvus-io/milvus)      
+为海量特征向量的近似最近邻搜索（ANNS）而设计；提供完整的向量数据更新，索引与查询框架；利用 GPU（Nvidia）进行索引加速与查询加速，能大幅提高单机性能；    
+
 1. [DeepHash](https://github.com/thulab/DeepHash)    
 1. [Easily Extendable Basic Deep Metric Learning Pipeline](https://github.com/kdhht2334/Deep-Metric-Learning-Baselines)    
 1. [Deep Metric Learning](https://github.com/bnulihaixia/Deep_metric)-PyTorch    

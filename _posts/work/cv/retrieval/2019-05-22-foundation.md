@@ -539,7 +539,7 @@ Log-loss
 
 1. [Deep Metric Learning to Rank](http://openaccess.thecvf.com/content_CVPR_2019/papers/Cakir_Deep_Metric_Learning_to_Rank_CVPR_2019_paper.pdf)    
 CVPR 2019 *2019-05-14* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Cakir_Deep_Metric_Learning_to_Rank_CVPR_2019_paper.pdf) | [pytorch](https://github.com/kunhe/FastAP-metric-learning)       
-FastAP   
+$\bullet \bullet$ FastAP   
 
 1. [Deep Asymmetric Metric Learning via Rich Relationship Mining](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Deep_Asymmetric_Metric_Learning_via_Rich_Relationship_Mining_CVPR_2019_paper.pdf)    
 CVPR 2019 *2019-06-10* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Deep_Asymmetric_Metric_Learning_via_Rich_Relationship_Mining_CVPR_2019_paper.pdf)    

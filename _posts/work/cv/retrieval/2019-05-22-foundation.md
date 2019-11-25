@@ -990,6 +990,8 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 
 ## C 开源项目
 1. [Faiss](https://github.com/facebookresearch/faiss)     
+[Faiss流程与原理分析](https://www.cnblogs.com/yhzhou/p/10568728.html)      
+
 1. [SPTAG](https://github.com/microsoft/SPTAG)    
 1. [Milvus](https://milvus.io/zh-cn/)      
 [github](https://github.com/milvus-io/milvus)      

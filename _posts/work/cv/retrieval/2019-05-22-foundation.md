@@ -1006,6 +1006,7 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 1. [Wu-Jun LI](http://cs.nju.edu.cn/lwj/):LAMDA 研究室成员    
 
 ## B 参考资料
+### a 论文汇总
 1. [图像检索Image Retrieval知识资料全集](https://cloud.tencent.com/developer/article/1090156) 专知   
 1. [Image Retrieval](https://paperswithcode.com/task/image-retrieval/latest?page=13) paperwithcode    
 1. [图像检索资源/论文列表](https://www.ctolib.com/amp/willard-yuan-awesome-cbir-papers.html)   
@@ -1013,6 +1014,7 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 1. [Image Retrieval](https://handong1587.github.io/deep_learning/2015/10/09/retrieval.html) 韩东    
 1. [Survey_of_Deep_Metric_Learning](https://github.com/kdhht2334/Survey_of_Deep_Metric_Learning) 论文汇总；    
 
+### b 技术总结
 1. zwr1994. Learning to Hash 综述阅读笔记[EB/OL]. <https://blog.csdn.net/zwr1994/article/details/78047703>. 2018-03-16/2019-07-02.    
 1. -. Learning to Hash[EB/OL]. <https://cs.nju.edu.cn/lwj/L2H.html>. -/2019-07-02.      
 1. [CVPR 2018 地标建筑物识别](https://landmarksworkshop.github.io/CVPRW2018/)     
@@ -1021,7 +1023,7 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 1. [阿里研究员华先胜：图像搜索的前世今生](https://www.afenxi.com/17477.html)     
 1. [Deep Metric Learning](https://zhuanlan.zhihu.com/p/68200241) 知乎    
 1. [度量学习---综述](https://blog.csdn.net/xys430381_1/article/details/90705421)    
-
+1. [图像检索：layer选择与fine-tuning性能提升验证](https://yongyuan.name/blog/layer-selection-and-finetune-for-cbir.html)   
 
 ## C 开源项目
 1. [Faiss](https://github.com/facebookresearch/faiss)     

@@ -83,3 +83,4 @@ $$
 1. [关于计算两张图像相似度,用深度学习去做,有什么好的方法与建议](https://www.zhihu.com/question/319373907)      
 1. [Python Numpy计算各类距离](https://blog.csdn.net/qq_19707521/article/details/78479532)    
 1. [余弦距离、欧氏距离和杰卡德相似性度量的对比分析](https://www.cnblogs.com/chaosimple/p/3160839.html)    
+1. [漫谈：机器学习中距离和相似性度量方法](https://www.cnblogs.com/daniel-D/p/3244718.html)     

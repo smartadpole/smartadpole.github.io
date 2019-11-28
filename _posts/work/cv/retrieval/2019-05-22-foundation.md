@@ -99,6 +99,12 @@ $\bullet \bullet$
 SIGIR eCom 2018 *2018-06-23* [paper](https://arxiv.org/abs/1806.08896)    
 $\bullet \bullet$    
 
+1. [A Benchmark on Tricks for Large-scale Image Retrieval](http://cn.arxiv.org/abs/1907.11854)    
+*2019-07-27* [paper](https://arxiv.org/abs/1907.11854)    
+$\bullet \bullet$    
+tricks   
+图像检索的很多技巧；在谷歌地标检索数据集上做的验证；        
+
 **1.2 度量**   
 1. [A Survey on Metric Learning for Feature Vectors and
 Structured Data](https://hal.inria.fr/hal-01666935/file/surveyML_arXiv.pdf)     
@@ -179,6 +185,14 @@ ECCV 2016 *2016-04-05* [paper](https://arxiv.org/abs/1604.01325) | [project](htt
 1. Compact CNN based video representation for efficient video copy detection     
 *2017*    
 VGG 提取帧特征；     
+
+1. [Image similarity using Deep CNN and Curriculum Learning](http://cn.arxiv.org/abs/1709.08761)    
+*2017-09-26* [paper](https://arxiv.org/abs/1709.08761)    
+多尺度网络提取细粒度特征；   
+
+1. [SimNet: Similarity-based network embeddings with mean commute time](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0221172&type=printable)     
+*2019-02-23* [paper](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0221172&type=printable) | [matlab](https://github.com/Moein-Khajehnejad/SimNet)-official     
+
 
 1. [Deep Signatures](http://cn.arxiv.org/abs/1905.08494)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08494) | [pytorch](https://github.com/patrick-kidger/Deep-Signatures)       
@@ -284,7 +298,7 @@ $\bullet \bullet$
 AAAI 2016 *2016* [paper](https://pdfs.semanticscholar.org/eb0c/64244dcf238a2cbf479ab2fdc9047fc80bc5.pdf)    
 
 1. [Feature Learning based Deep Supervised Hashing with Pairwise Labels](http://cn.arxiv.org/abs/1511.03855)  
-IJCAI 2016 *2015-11-12* [paper](https://arxiv.org/abs/1511.03855) | [code](http://cs.nju.edu.cn/lwj/code/DPSH.zip)-offical | [pytorch](https://github.com/jiangqy/DPSH-pytorch)  
+IJCAI 2016 *2015-11-12* [paper](https://arxiv.org/abs/1511.03855) | [code](http://cs.nju.edu.cn/lwj/code/DPSH.zip)-official | [pytorch](https://github.com/jiangqy/DPSH-pytorch)  
 $\bullet \bullet$   
 
 1. [SSDH: Semi-supervised Deep Hashing for Large Scale Image Retrieval](http://cn.arxiv.org/abs/1607.08477)  
@@ -495,6 +509,9 @@ $\bullet \bullet$ Proxy NCA
 ICCV 2017 *2017-08-04* [paper](https://arxiv.org/abs/1708.01682) | [tensorflow](https://github.com/geonm/tf_angular_loss) | [chainer](https://github.com/ronekko/deep_metric_learning)   
 $\bullet \bullet$ Angular    
 
+1. [Learning Non-Metric Visual Similarity for Image Retrieval](http://cn.arxiv.org/abs/1709.01353)     
+*2017-09-05* [paper](https://arxiv.org/abs/1709.01353) | [openreview](https://openreview.net/forum?id=Skvd-myR-) | [matlab](https://github.com/noagarcia/SimNet)            
+
 1. [Near-Duplicate Video Retrieval with Deep Metric Learning](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)    
 ICCV 2017 *2017-10-23* [paper](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w5/Kordopatis-Zilos_Near-Duplicate_Video_Retrieval_ICCV_2017_paper.pdf)       
 
@@ -544,7 +561,6 @@ $\bullet \bullet$ FastAP
 1. [Deep Asymmetric Metric Learning via Rich Relationship Mining](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Deep_Asymmetric_Metric_Learning_via_Rich_Relationship_Mining_CVPR_2019_paper.pdf)    
 CVPR 2019 *2019-06-10* [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Deep_Asymmetric_Metric_Learning_via_Rich_Relationship_Mining_CVPR_2019_paper.pdf)    
 
-
 1. [SoftTriple Loss: Deep Metric Learning Without Triplet Sampling](http://cn.arxiv.org/abs/1909.05235)     
 ICCV 2019 *2019-09-11* [paper](https://arxiv.org/abs/1909.05235) | [tensorflow](https://github.com/geonm/tf_SoftTriple_loss) | [pytorch](https://github.com/idstcv/SoftTriple)     
 $\bullet \bullet$ SoftTriple    
@@ -570,44 +586,48 @@ $\bullet \bullet$ SoftTriple
 
 # 4 技术方向
 ## 4.1 检索
-
 1. [Using Very Deep Autoencoders for Content-Based Image Retrieval](https://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf)  
-[2011] ESANN . Alex Krizhevsky, and Geoffrey E. Hinton  
+*2011*  Alex Krizhevsky, Geoffrey E. Hinton  
 [paper](https://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf)  
-[paper](http://www.cs.toronto.edu/~fritz/absps/esann-deep-final.pdf)  
+$\bullet \bullet$   
+ESANN   
 
 1. [Learning High-level Image Representation for Image Retrieval via Multi-Task DNN using Clickthrough Data](http://cn.arxiv.org/abs/1312.4740)  
-[paper](https://arxiv.org/abs/1312.4740)  
-
-1. [Neural Codes for Image Retrieval](http://cn.arxiv.org/abs/1404.1777)  
-ECCV 2014 ** [paper](https://arxiv.org/abs/1404.1777) | [project](http://sites.skoltech.ru/compvision/projects/neuralcodes/) | [yael](https://github.com/arbabenko/Spoc)    
-$\bullet \bullet$   
-研究全连接层在图像检索中的应用；​     
+*2013-12-17* [paper](https://arxiv.org/abs/1312.4740)  
 
 1. [CNN Features off-the-shelf: an Astounding Baseline for Recognition](http://cn.arxiv.org/abs/1403.6382)  
-[2014.3-2014.5] CVPR workshop；融合从图像的不同区域提取到的全链接特征；  
-[paper](https://arxiv.org/abs/1403.6382)  
+CVPR workshop *2014-03-23* [paper](https://arxiv.org/abs/1403.6382)  
 $\bullet \bullet$ CNN4Recognition    
+融合从图像的不同区域提取到的全链接特征；  
+
+1. [Neural Codes for Image Retrieval](http://cn.arxiv.org/abs/1404.1777)  
+ECCV 2014 *2014-04-07* [paper](https://arxiv.org/abs/1404.1777) | [project](http://sites.skoltech.ru/compvision/projects/neuralcodes/) | [yael](https://github.com/arbabenko/Spoc)    
+$\bullet \bullet$   
+neuralcodes   
+研究全连接层在图像检索中的应用；​     
 
 1. [Visual Instance Retrieval with Deep Convolutional Networks](http://cn.arxiv.org/abs/1412.6574)  
-[2014.12-2016.5]  
-[paper](https://arxiv.org/abs/1412.6574)  
+*2014-12-20* [paper](https://arxiv.org/abs/1412.6574)  
 
 1. [Efficient On-the-fly Category Retrieval using ConvNets and GPUs](http://cn.arxiv.org/abs/1407.4764)  
-[paper](https://arxiv.org/abs/1407.4764)  
+*2014-07-17* [paper](https://arxiv.org/abs/1407.4764)  
 
 1. [A baseline for visual instance retrieval with deep convolutional networks](http://kth.diva-portal.org/smash/get/diva2:808754/FULLTEXT01.pdf)  
-[2015] ICLR；发现卷积层特征比全连接层特征更适合图像检索；​（效果很经验）  
-[paper](http://kth.diva-portal.org/smash/get/diva2:808754/FULLTEXT01.pdf)  
+ICLR 2015 *2015* [paper](http://kth.diva-portal.org/smash/get/diva2:808754/FULLTEXT01.pdf)  
+发现卷积层特征比全连接层特征更适合图像检索；​（效果很经验）    
+$\bullet \bullet$    
 
 1. [Learning visual similarity for product design with convolutional neural networks](http://www.cs.cornell.edu/~kb/publications/SIG15ProductNet.pdf)  
-[2015] SIGGRAPH  
-[paper](http://www.cs.cornell.edu/~kb/publications/SIG15ProductNet.pdf)  
-http://dl.acm.org.sci-hub.cc/citation.cfm?doid=2809654.2766959  
+SIGGRAPH 2015 [paper](http://www.cs.cornell.edu/~kb/publications/SIG15ProductNet.pdf) | [home](http://dl.acm.org.sci-hub.cc/citation.cfm?doid=2809654.2766959)     
+$\bullet \bullet$    
+
+1. [A Practical Guide to CNNs and Fisher Vectors for Image Instance Retrieval](http://cn.arxiv.org/abs/1508.02496)    
+*2015-08-11* [Vijay Chandrasekhar](https://vijaychan.github.io//) [paper](https://arxiv.org/abs/1508.02496)    
 
 1. [Aggregating local deep features for image retrieval](http://cn.arxiv.org/abs/1510.07493)  
-[2015.10] ICCV；对卷积层的特征进行求和，以此简化了描述子；​  
-[paper](https://arxiv.org/abs/1510.07493)  
+ICCV 2015 *2015-10-26* [paper](https://arxiv.org/abs/1510.07493)  
+$\bullet \bullet$    
+对卷积层的特征进行求和，以此简化了描述子；​     
 
 1. [Exploiting Local Features from Deep Networks for Image Retrieval](http://cn.arxiv.org/abs/1504.05133)  
 *2015-04-20* CVPR Workshop  [paper](https://arxiv.org/abs/1504.05133)    
@@ -615,227 +635,235 @@ $\bullet \bullet$
 CNN 助力图片检索；   
 
 1. [Visual Search at Pinterest](http://cn.arxiv.org/abs/1505.07647)  
-[2015] in Proceedings of the 21th ACM SIGKDD International Conference on Knowledge and Discovery and Data Mining, 2015  
-[paper](https://arxiv.org/abs/1505.07647)  
-blog:  https://engineering.pinterest.com/blog/introducing-new-way-visually-search-pinterest  
+SIGKDD 2015 *2015-05-28* [paper](https://arxiv.org/abs/1505.07647) | [home](https://engineering.pinterest.com/blog/introducing-new-way-visually-search-pinterest)    
+$\bullet \bullet$    
 
 1. [Aggregating Deep Convolutional Features for Image Retrieval](http://cn.arxiv.org/abs/1510.07493)  
-[2015] ICCV； Sum pooing  
-[paper](https://arxiv.org/abs/1510.07493)  
+ICCV 2015 *2015-10-26* [paper](https://arxiv.org/abs/1510.07493)  
+$\bullet \bullet$    
+Sum pooing  
 
 1. [Particular object retrieval with integral max-pooling of CNN activations](http://cn.arxiv.org/abs/1511.05879)  
-[2016] ICLR；use max-pooling to aggregate the deep descriptors, R-MAC (regional maximum activation of convolutions)；聚合不同区域的特征；  
-[paper](https://arxiv.org/abs/1511.05879)  
-
-1. [Group Invariant Deep Representations for Image Instance Retrieval](http://cn.arxiv.org/abs/1601.02093)  
-[paper](https://arxiv.org/abs/1601.02093)  
+ICLR 2016 *2015-11-18* [paper](https://arxiv.org/abs/1511.05879)  
+$\bullet \bullet$    
+use max-pooling to aggregate the deep descriptors, R-MAC (regional maximum activation of convolutions)；聚合不同区域的特征；  
 
 1. [Where to Buy It: Matching Street Clothing Photos in Online Shops](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kiapour_Where_to_Buy_ICCV_2015_paper.pdf)  
-ICCV 2015 [paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kiapour_Where_to_Buy_ICCV_2015_paper.pdf) | [project](http://www.tamaraberg.com/street2shop/)      
+ICCV 2015 *2015* [paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kiapour_Where_to_Buy_ICCV_2015_paper.pdf) | [project](http://www.tamaraberg.com/street2shop/)      
+$\bullet \bullet$    
 
 1. [Cross-dimensional Weighting for Aggregated Deep Convolutional Features](http://cn.arxiv.org/abs/1512.04065)  
-[2015.12-2016.7]；非参数空间，通道维度；效果提升很大；​  
-[paper](https://arxiv.org/abs/1512.04065)  
+ECCV 2016 *2015-12-13* [paper](https://arxiv.org/abs/1512.04065)  
+$\bullet \bullet$    
+非参数空间，通道维度；效果提升很大；​  
 
+1. [Group Invariant Deep Representations for Image Instance Retrieval](http://cn.arxiv.org/abs/1601.02093)  
+*2016-01-09* [paper](https://arxiv.org/abs/1601.02093)  
 
 1. [Large-Scale Image Retrieval with Attentive Deep Local Features](http://cn.arxiv.org/abs/1612.06321)  
- *2016-12-19*  [paper](https://arxiv.org/abs/1612.06321) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)  
+*2016-12-19*  [paper](https://arxiv.org/abs/1612.06321) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)      
+$\bullet \bullet$   
+deep local feature
 DELF 用 Google 数据集测试的；    
 
 1. [End-to-end Learning of Deep Visual Representations for Image Retrieval](http://cn.arxiv.org/abs/1610.07940)  
 IJCV 2017 *2016-10-25* [paper](https://arxiv.org/abs/1610.07940) | [project](http://www.xrce.xerox.com/Research-Development/Computer-Vision/Learning-Visual-Representations/Deep-Image-Retrieval)  
+$\bullet \bullet$    
 Extended version of our ECCV2016 paper “Deep Image Retrieval: Learning global representations for image search”      
 
 1. [Bags of Local Convolutional Features for Scalable Instance Search](http://cn.arxiv.org/abs/1604.04653)  
-BoW [2016] ICMR . Best Poster Award at ICMR 2016.  
-[paper](https://arxiv.org/abs/1604.04653)  
-project page: https://imatge-upc.github.io/retrieval-2016-icmr/  
-https://github.com/imatge-upc/retrieval-2016-icmr  
-slides:  http://www.slideshare.net/xavigiro/convolutional-features-for-instance-search  
+ICMR 2016 Best Poster *2016-04-15* [paper](https://arxiv.org/abs/1604.04653) | [project](https://imatge-upc.github.io/retrieval-2016-icmr/  
+https://github.com/imatge-upc/retrieval-2016-icmr) | [slides}(http://www.slideshare.net/xavigiro/convolutional-features-for-instance-search)    
+$\bullet \bullet$    
+BoW   
 
 1. [Faster R-CNN Features for Instance Search](http://cn.arxiv.org/abs/1604.08893)  
 CVPR 2016 DeepVision *2016-04-29* [paper](https://arxiv.org/abs/1604.08893) | [project](http://imatge-upc.github.io/retrieval-2016-deepvision/) | [tensorflow](https://github.com/imatge-upc/retrieval-2016-deepvision) | [解读](/cv/retrieval/paper_reading/2018/10/18/Faster-RCNN-Features-for-Instance-Search-Reading.html)     
-
-1. [Where to Focus: Query Adaptive Matching for Instance Retrieval Using Convolutional Feature Maps](http://cn.arxiv.org/abs/1606.06811)  
-query adaptive matching (QAM), Feature Map Pooling, Overlapped Spatial Pyramid Pooling (OSPP)  
-[paper](https://arxiv.org/abs/1606.06811)  
-
-1. [Adversarial Training For Sketch Retrieval](http://cn.arxiv.org/abs/1607.02748)  
-[paper](https://arxiv.org/abs/1607.02748)  
-
-1. [Learning Compact Binary Descriptors with Unsupervised Deep Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lin_Learning_Compact_Binary_CVPR_2016_paper.pdf)  
-[2016] CVPR . DeepBit  
-[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lin_Learning_Compact_Binary_CVPR_2016_paper.pdf)  
-https://github.com/kevinlin311tw/cvpr16-deepbit  
-
-1. [Fast Training of Triplet-based Deep Binary Embedding Networks](http://cn.arxiv.org/abs/1603.02844)  
-[2016] CVPR  
-[paper](https://arxiv.org/abs/1603.02844)  
-[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhuang_Fast_Training_of_CVPR_2016_paper.pdf)  
-official code: https://bitbucket.org/jingruixiaozhuang/fast-training-of-triplet-based-deep-binary-embedding-networks  
-
-1. [Deep Relative Distance Learning: Tell the Difference Between Similar Vehicles](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Relative_Distance_CVPR_2016_paper.pdf)  
-[2016] CVPR  
-vehicle re-identification, vehicle retrieval. coupled clusters loss  
-[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Relative_Distance_CVPR_2016_paper.pdf)  
-
-1. [DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf)  
-[2016] CVPR . FashionNet  
-project page:  http://personal.ie.cuhk.edu.hk/~lz013/projects/DeepFashion.html  
-[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf)  
+$\bullet \bullet$    
+instance   
 
 1. [CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples](http://cn.arxiv.org/abs/1604.02426)  
-[2016] ECCV  
-[paper](https://arxiv.org/abs/1604.02426)  
-[paper](http://cmp.felk.cvut.cz/~radenfil/publications/Radenovic-ECCV16.pdf)  
-
-1. [project page(paper+code+data):  http://cmp.felk.cvut.cz/~radenfil/projects/siamac.html]()     
-code(Matlab):  http://ptak.felk.cvut.cz/personal/radenfil/siamac/siaMAC_code.tar.gz  
+ECCV 2016 *2016-04-08* [paper](https://arxiv.org/abs/1604.02426) | [project](http://cmp.felk.cvut.cz/~radenfil/projects/siamac.html) [Matlab](https://github.com/filipradenovic/cnnimageretrieval)-official | [pytorch](https://github.com/filipradenovic/cnnimageretrieval-pytorch)-official            
+$\bullet \bullet$   
+siamac   
 
 1. [Embedding based on function approximation for large scale image search](http://cn.arxiv.org/abs/1605.06914)  
-[2016.5-2017.4]  
-[paper](https://arxiv.org/abs/1605.06914)  
+*2016-05-23* [paper](https://arxiv.org/abs/1605.06914)  
 
-1. [PicHunt: Social Media Image Retrieval for Improved Law Enforcement](http://cn.arxiv.org/abs/1608.00905)  
-[paper](https://arxiv.org/abs/1608.00905)  
+1. [Where to Focus: Query Adaptive Matching for Instance Retrieval Using Convolutional Feature Maps](http://cn.arxiv.org/abs/1606.06811)  
+*2016-06-22* [paper](https://arxiv.org/abs/1606.06811)     
+query adaptive matching (QAM), Feature Map Pooling, Overlapped Spatial Pyramid Pooling（OSPP）     
 
-1. [SIFT Meets CNN: A Decade Survey of Instance Retrieval](http://cn.arxiv.org/abs/1608.01807)  
-[paper](https://arxiv.org/abs/1608.01807)  
+1. [Learning Compact Binary Descriptors with Unsupervised Deep Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lin_Learning_Compact_Binary_CVPR_2016_paper.pdf)  
+CVPR 2016 *2016* [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lin_Learning_Compact_Binary_CVPR_2016_paper.pdf) | [caffe](https://github.com/kevinlin311tw/cvpr16-deepbit)  
+$\bullet \bullet$    
+DeepBit   
+
+1. [Fast Training of Triplet-based Deep Binary Embedding Networks](http://cn.arxiv.org/abs/1603.02844)  
+CVPR 2016 *2016* [paper](https://arxiv.org/abs/1603.02844)  
+[theano](https://bitbucket.org/jingruixiaozhuang/fast-training-of-triplet-based-deep-binary-embedding-networks)-official    
+$\bullet \bullet$    
+
+1. [Deep Relative Distance Learning: Tell the Difference Between Similar Vehicles](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Relative_Distance_CVPR_2016_paper.pdf)  
+CVPR 2016 *2016* [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Relative_Distance_CVPR_2016_paper.pdf)  
+$\bullet \bullet$    
+vehicle re-identification, vehicle retrieval. coupled clusters loss   
+
+1. [DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf)  
+CVPR 2016 *2016* [paper](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf) |  [project](http://personal.ie.cuhk.edu.hk/~lz013/projects/DeepFashion.html)     
+$\bullet \bullet$    
+FashionNet    
 
 1. [The Sketchy Database: Learning to Retrieve Badly Drawn Bunnies](http://www.cc.gatech.edu/~hays/tmp/sketchy-database.pdf)  
-[paper](http://www.cc.gatech.edu/~hays/tmp/sketchy-database.pdf)  
-project page:  http://sketchy.eye.gatech.edu/  
-https://github.com/janesjanes/sketchy  
+*2016-07* [paper](http://www.cc.gatech.edu/~hays/tmp/sketchy-database.pdf) | [project](http://sketchy.eye.gatech.edu/) | [caffe](https://github.com/janesjanes/sketchy) | [pytorch](https://github.com/CDOTAD/SketchyDatabase)        
+$\bullet \bullet$   
+sketchy   
+
+1. [Adversarial Training For Sketch Retrieval](http://cn.arxiv.org/abs/1607.02748)  
+*2016-07-10* [paper](https://arxiv.org/abs/1607.02748)  
+
+1. [PicHunt: Social Media Image Retrieval for Improved Law Enforcement](http://cn.arxiv.org/abs/1608.00905)  
+*2016-08-02* [paper](https://arxiv.org/abs/1608.00905)  
+
+1. [SIFT Meets CNN: A Decade Survey of Instance Retrieval](http://cn.arxiv.org/abs/1608.01807)  
+*2016-08-05* [paper](https://arxiv.org/abs/1608.01807)  
 
 1. [What Is the Best Practice for CNNs Applied to Visual Instance Retrieval?](http://cn.arxiv.org/abs/1611.01640)  
-[paper](https://arxiv.org/abs/1611.01640)  
+ICLR 2017 *2016-11-05* [paper](https://arxiv.org/abs/1611.01640)  
+$\bullet \bullet$    
 
 1. [Image Retrieval with Deep Local Features and Attention-based Keypoints](http://cn.arxiv.org/abs/1612.05478)  
-[paper](https://arxiv.org/abs/1612.05478)  
+*2016-12-16* [paper](https://arxiv.org/abs/1612.05478)  
 
 1. [Internet-Based Image Retrieval Using End-to-End Trained Deep Distributions](http://cn.arxiv.org/abs/1612.07697)  
-[paper](https://arxiv.org/abs/1612.07697)  
+*2016-12-22* [paper](https://arxiv.org/abs/1612.07697)  
 
 1. [Compression of Deep Neural Networks for Image Instance Retrieval](http://cn.arxiv.org/abs/1701.04923)  
-[2017] DCC  
-[paper](https://arxiv.org/abs/1701.04923)  
+DCC 2017 *2017-01-18* [paper](https://arxiv.org/abs/1701.04923)  
 
 1. [Effective Multi-Query Expansions: Collaborative Deep Networks for Robust Landmark Retrieval](http://cn.arxiv.org/abs/1701.05003)  
-[paper](https://arxiv.org/abs/1701.05003)  
+*2017-01-18* [paper](https://arxiv.org/abs/1701.05003)  
 
 1. [Siamese Network of Deep Fisher-Vector Descriptors for Image Retrieval](http://cn.arxiv.org/abs/1702.00338)  
-[paper](https://arxiv.org/abs/1702.00338)  
+*2017-02-01* [paper](https://arxiv.org/abs/1702.00338)  
 
 1. [Deep Geometric Retrieval](http://cn.arxiv.org/abs/1702.06383)  
-[paper](https://arxiv.org/abs/1702.06383)  
+*2017-02-21* [paper](https://arxiv.org/abs/1702.06383)  
 
 1. [Context Aware Query Image Representation for Particular Object Retrieval](http://cn.arxiv.org/abs/1703.01226)  
-[paper](https://arxiv.org/abs/1703.01226)  
+SCIA 2017 extention *2017-03-03* [paper](https://arxiv.org/abs/1703.01226)  
+$\bullet \bullet$    
 
 1. [AMC: Attention guided Multi-modal Correlation Learning for Image Search](http://cn.arxiv.org/abs/1704.00763)  
-[2017] CVPR  
-[paper](https://arxiv.org/abs/1704.00763)  
-https://github.com/kanchen-usc/amc_att  
-
+CVPR 2017 *2017-04-03* [paper](https://arxiv.org/abs/1704.00763) | [sklearn](https://github.com/kanchen-usc/amc_att)       
+$\bullet \bullet$   
+AMC   
 
 1. [Deep image representations using caption generators](http://cn.arxiv.org/abs/1705.09142)   
-ICME 2017 [paper](https://arxiv.org/abs/1705.09142)     
+ICME 2017 *2017-05-25* [paper](https://arxiv.org/abs/1705.09142)     
+$\bullet \bullet$    
 
 1. [Visual Search at eBay](http://cn.arxiv.org/abs/1706.03154)  
-[2017] 23rd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD),  
-[paper](https://arxiv.org/abs/1706.03154)  
+SIGKDD 2017 *2017-06-10* [paper](https://arxiv.org/abs/1706.03154)  
+$\bullet \bullet$    
 
 1. [Sampling Matters in Deep Embedding Learning](http://cn.arxiv.org/abs/1706.07567)  
-UT Austin & A9/Amazon；distance weighted sampling  
-[paper](https://arxiv.org/abs/1706.07567)  
+*2017-06-23* UT Austin & A9/Amazon [paper](https://arxiv.org/abs/1706.07567)    
+$\bullet \bullet$    
+distance weighted sampling  
 
 1. [One-Shot Fine-Grained Instance Retrieval](http://cn.arxiv.org/abs/1707.00811)  
-[2017] ACM MM  
-[paper](https://arxiv.org/abs/1707.00811)  
+MM 2017 *2017-07-04* [paper](https://arxiv.org/abs/1707.00811)  
 
 1. [Selective Deep Convolutional Features for Image Retrieval](http://cn.arxiv.org/abs/1707.00809)  
-[2017] ACM MM  
-[paper](https://arxiv.org/abs/1707.00809)  
+MM 2017 *2017-07-04* [paper](https://arxiv.org/abs/1707.00809)  
 
 1. [Class-Weighted Convolutional Features for Visual Instance Search](http://cn.arxiv.org/abs/1707.02581)  
-[2017] BMVC . Universitat Politecnica de Catalunya Barcelona & CSIRO  
-[paper](https://arxiv.org/abs/1707.02581)  
-project page: http://imatge-upc.github.io/retrieval-2017-cam/  
-https://github.com/imatge-upc/retrieval-2017-cam  
+BMVC 2017 *2017-07-09* [paper](https://arxiv.org/abs/1707.02581) | [project](http://imatge-upc.github.io/retrieval-2017-cam/) | [theano](https://github.com/imatge-upc/retrieval-2017-cam)      
+$\bullet \bullet$   
+CAMs    
 
 1. [Learning a Repression Network for Precise Vehicle Search](http://cn.arxiv.org/abs/1708.02386)  
-[paper](https://arxiv.org/abs/1708.02386)  
+*2017-08-08* [paper](https://arxiv.org/abs/1708.02386)  
 
 1. [SUBIC: A supervised, structured binary code for image search](http://cn.arxiv.org/abs/1708.02932)  
-[2017] ICCV (Spotlight). Technicolor & INRIA Rennes & Amazon  
-[paper](https://arxiv.org/abs/1708.02932)  
+ICCV 2017 *2017-08-09* [paper](https://arxiv.org/abs/1708.02932)  
+$\bullet \bullet$    
 
 1. [Pruning Convolutional Neural Networks for Image Instance Retrieval](http://cn.arxiv.org/abs/1707.05455)  
-[paper](https://arxiv.org/abs/1707.05455)  
+*2017-07-18* [paper](https://arxiv.org/abs/1707.05455)  
 
 1. [Image2song: Song Retrieval via Bridging Image Content and Lyric Words](http://cn.arxiv.org/abs/1708.05851)  
-[2017] ICCV . Chinese Academy of Sciences & Northwestern Polytechnical University  
-[paper](https://arxiv.org/abs/1708.05851)  
+ICCV 2017 *2017-08-19* [paper](https://arxiv.org/abs/1708.05851)  
+$\bullet \bullet$    
+
+1. [Deep Shape Matching](http://cn.arxiv.org/abs/1709.03409)    
+ECCV 2018 *2017-09-11* [paper](https://arxiv.org/abs/1709.03409) | [matlab](https://github.com/filipradenovic/cnnimageretrieval)-official           
+$\bullet \bullet$   
+shape   
 
 1. [Region-Based Image Retrieval Revisited](http://cn.arxiv.org/abs/1709.09106)  
-[2017] ACM Multimedia (Oral)  
-[paper](https://arxiv.org/abs/1709.09106)  
+ACM Multimedia 2017 (Oral) *2017-09-26* [paper](https://arxiv.org/abs/1709.09106)  
+$\bullet \bullet$    
+
+1. [Fine-tuning CNN Image Retrieval with No Human Annotation](http://cn.arxiv.org/abs/1711.02512)     
+TPAMI 2018 *2017-11-03* [paper](https://arxiv.org/abs/1711.02512) | [pytorch](https://github.com/filipradenovic/cnnimageretrieval-pytorch)-official | [matlab](https://github.com/filipradenovic/cnnimageretrieval)-official          
+$\bullet \bullet$   
 
 1. [Beyond Part Models: Person Retrieval with Refined Part Pooling](http://cn.arxiv.org/abs/1711.09349)  
-[paper](https://arxiv.org/abs/1711.09349)  
+*2017-11-26* [paper](https://arxiv.org/abs/1711.09349)  
 
 1. [Query-Adaptive R-CNN for Open-Vocabulary Object Detection and Retrieval](http://cn.arxiv.org/abs/1711.09509)  
-[paper](https://arxiv.org/abs/1711.09509)  
+*2017-11-27* [paper](https://arxiv.org/abs/1711.09509)  
 
 1. [Saliency Weighted Convolutional Features for Instance Search](http://cn.arxiv.org/abs/1711.10795)  
-Dublin City University & Universitat Politecnica de Catalunya；local convolutional features (BLCF), human visual attention models (saliency)​  
-project page:  https://imatge-upc.github.io/salbow/  
-[paper](https://arxiv.org/abs/1711.10795)  
-[paper](https://arxiv.org/abs/1711.10795)  
+*2017-11-29* [paper](https://arxiv.org/abs/1711.10795) | [project](https://imatge-upc.github.io/salbow/)   
+$\bullet \bullet$   
+local convolutional features (BLCF), human visual attention models (saliency)    
 
 1. [DeepStyle: Multimodal Search Engine for Fashion and Interior Design](http://cn.arxiv.org/abs/1801.03002)  
-[paper](https://arxiv.org/abs/1801.03002)  
+*2018-01-08* [paper](https://arxiv.org/abs/1801.03002)  
 
 1. [From Selective Deep Convolutional Features to Compact Binary Representations for Image Retrieval](http://cn.arxiv.org/abs/1802.02899)  
-[paper](https://arxiv.org/abs/1802.02899)  
+*2018-02-07* [paper](https://arxiv.org/abs/1802.02899)  
 
 1. [Web-Scale Responsive Visual Search at Bing](http://cn.arxiv.org/abs/1802.04914)  
-Microsoft  
-[paper](https://arxiv.org/abs/1802.04914)  
+*2018-02-14* Microsoft  [paper](https://arxiv.org/abs/1802.04914)  
 
 1. [Approximate Query Matching for Image Retrieval](http://cn.arxiv.org/abs/1803.05401)  
-[paper](https://arxiv.org/abs/1803.05401)  
+*2018-03-14* [paper](https://arxiv.org/abs/1803.05401)  
 
 1. [Triplet-Center Loss for Multi-View 3D Object Retrieval](http://cn.arxiv.org/abs/1803.06189)  
-[2018] CVPR  
-[paper](https://arxiv.org/abs/1803.06189)  
-
-1. [Collaborative Multi-modal deep learning for the personalized product retrieval in Facebook Marketplace](http://cn.arxiv.org/abs/1805.12312)  
-Facebook  
-[paper](https://arxiv.org/abs/1805.12312)  
-
-1. [DeepFirearm: Learning Discriminative Feature Representation for Fine-grained Firearm Retrieval](http://cn.arxiv.org/abs/1806.02984)  
-[2018] ICPR  
-[paper](https://arxiv.org/abs/1806.02984)  
-https://github.com/jdhao/deep_firearm  
-
-1. [Instance Search via Instance Level Segmentation and Feature Representation](http://cn.arxiv.org/abs/1806.03576)  
-[paper](https://arxiv.org/abs/1806.03576)  
+CVPR 2018 *2018-03-16* [paper](https://arxiv.org/abs/1803.06189)  
+$\bullet \bullet$    
 
 1. [Deep Feature Aggregation with Heat Diffusion for Image Retrieval](http://cn.arxiv.org/abs/1805.08587)  
-[paper](https://arxiv.org/abs/1805.08587)  
-https://github.com/pangsm0415/HeW  
-
-1. [Single Shot Scene Text Retrieval](http://cn.arxiv.org/abs/1808.09044)  
-[2018] ECCV  
-[paper](https://arxiv.org/abs/1808.09044)  
+*2018-05-22* [paper](https://arxiv.org/abs/1805.08587) | [matlab](https://github.com/pangsm0415/HeW)  
+$\bullet \bullet$    
 
 1. [Deep Feature Aggregation and Image Re-ranking with Heat Diffusion for Image Retrieval](http://cn.arxiv.org/abs/1805.08587)  
-[2018.5-2018.10]  
-[paper](https://arxiv.org/abs/1805.08587)  
+*2018-05-22* [paper](https://arxiv.org/abs/1805.08587)  
+
+1. [Collaborative Multi-modal deep learning for the personalized product retrieval in Facebook Marketplace](http://cn.arxiv.org/abs/1805.12312)  
+*2018-05-31* Facebook [paper](https://arxiv.org/abs/1805.12312)  
+$\bullet \bullet$    
+
+1. [DeepFirearm: Learning Discriminative Feature Representation for Fine-grained Firearm Retrieval](http://cn.arxiv.org/abs/1806.02984)  
+ICPR 2018 *2018-06-08* [paper](https://arxiv.org/abs/1806.02984) | [pytorch](https://github.com/jdhao/deep_firearm)-official      
+$\bullet \bullet$    
+DeepFirearm     
+
+1. [Instance Search via Instance Level Segmentation and Feature Representation](http://cn.arxiv.org/abs/1806.03576)  
+*2018-06-10* [paper](https://arxiv.org/abs/1806.03576)  
+
+1. [Single Shot Scene Text Retrieval](http://cn.arxiv.org/abs/1808.09044)  
+ECCV 2018 *2018-08-27* [paper](https://arxiv.org/abs/1808.09044)  
+$\bullet \bullet$    
 
 1. [Detect-to-Retrieve: Efficient Regional Aggregation for Image Search](http://cn.arxiv.org/abs/1812.01584)   
 CVPR 2019 *2018-12-04* Google [paper](https://arxiv.org/abs/1812.01584) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)       
+$\bullet \bullet$    
+detect   
 基于检测的检索；    
 
 1. [ACTNET: end-to-end learning of feature activations and aggregation for effective instance image retrieval](http://cn.arxiv.org/abs/1907.05794)   
@@ -869,7 +897,7 @@ CVPR 2016 *2015*  [paper](https://arxiv.org/abs/1511.04164) | [project](http://r
 *2019-11-03* [paper](https://arxiv.org/abs/1911.00850)    
 
 
-###4.2.2 其他
+### 4.2.2 其他
 1. [Cross-domain Image Retrieval with a Dual Attribute-aware Ranking Network](http://cn.arxiv.org/abs/1505.07922)  
 DARN [2015] ICCV；​cross-entropy loss, triplet loss；  
 [paper](https://arxiv.org/abs/1505.07922)  
@@ -967,7 +995,7 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 
 
 
-------------------1. [
+-----------------
 [End](#head)
 {:.warning}  
 
@@ -978,15 +1006,22 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 1. [Wu-Jun LI](http://cs.nju.edu.cn/lwj/):LAMDA 研究室成员    
 
 ## B 参考资料
+1. [图像检索Image Retrieval知识资料全集](https://cloud.tencent.com/developer/article/1090156) 专知   
+1. [Image Retrieval](https://paperswithcode.com/task/image-retrieval/latest?page=13) paperwithcode    
+1. [图像检索资源/论文列表](https://www.ctolib.com/amp/willard-yuan-awesome-cbir-papers.html)   
+1. [Reading-Paper](https://github.com/chullhwan-song/Reading-Paper)   
+1. [Image Retrieval](https://handong1587.github.io/deep_learning/2015/10/09/retrieval.html) 韩东    
+1. [Survey_of_Deep_Metric_Learning](https://github.com/kdhht2334/Survey_of_Deep_Metric_Learning) 论文汇总；    
+
 1. zwr1994. Learning to Hash 综述阅读笔记[EB/OL]. <https://blog.csdn.net/zwr1994/article/details/78047703>. 2018-03-16/2019-07-02.    
 1. -. Learning to Hash[EB/OL]. <https://cs.nju.edu.cn/lwj/L2H.html>. -/2019-07-02.      
 1. [CVPR 2018 地标建筑物识别](https://landmarksworkshop.github.io/CVPRW2018/)     
 1. [Image Tampering Detection and Localization](https://github.com/yannadani/image_tampering_detection_references)     
 1. [图像检索中的相似度度量：EMD距离](https://blog.csdn.net/index20001/article/details/77162495)      
 1. [阿里研究员华先胜：图像搜索的前世今生](https://www.afenxi.com/17477.html)     
-1. [Survey_of_Deep_Metric_Learning](https://github.com/kdhht2334/Survey_of_Deep_Metric_Learning) 论文汇总；    
 1. [Deep Metric Learning](https://zhuanlan.zhihu.com/p/68200241) 知乎    
 1. [度量学习---综述](https://blog.csdn.net/xys430381_1/article/details/90705421)    
+
 
 ## C 开源项目
 1. [Faiss](https://github.com/facebookresearch/faiss)     

@@ -1007,6 +1007,7 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 1. [Reading-Paper](https://github.com/chullhwan-song/Reading-Paper)   
 1. [Image Retrieval](https://handong1587.github.io/deep_learning/2015/10/09/retrieval.html) 韩东    
 1. [Survey_of_Deep_Metric_Learning](https://github.com/kdhht2334/Survey_of_Deep_Metric_Learning) 论文汇总；    
+1. [Computer-Vision-Leaderboard](https://github.com/kobiso/Computer-Vision-Leaderboard)    
 
 ### b 技术总结
 1. zwr1994. Learning to Hash 综述阅读笔记[EB/OL]. <https://blog.csdn.net/zwr1994/article/details/78047703>. 2018-03-16/2019-07-02.    

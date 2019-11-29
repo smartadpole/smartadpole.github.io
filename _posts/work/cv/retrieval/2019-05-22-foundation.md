@@ -101,8 +101,7 @@ $\bullet \bullet$
 
 1. [A Benchmark on Tricks for Large-scale Image Retrieval](http://cn.arxiv.org/abs/1907.11854)    
 *2019-07-27* [paper](https://arxiv.org/abs/1907.11854)    
-$\bullet \bullet$    
-tricks   
+$\bullet \bullet$ tricks    
 图像检索的很多技巧；在谷歌地标检索数据集上做的验证；        
 
 **1.2 度量**   
@@ -673,7 +672,7 @@ Extended version of our ECCV2016 paper “Deep Image Retrieval: Learning global 
 
 1. [Bags of Local Convolutional Features for Scalable Instance Search](http://cn.arxiv.org/abs/1604.04653)  
 ICMR 2016 Best Poster *2016-04-15* [paper](https://arxiv.org/abs/1604.04653) | [project](https://imatge-upc.github.io/retrieval-2016-icmr/  
-https://github.com/imatge-upc/retrieval-2016-icmr) | [slides}(http://www.slideshare.net/xavigiro/convolutional-features-for-instance-search)    
+https://github.com/imatge-upc/retrieval-2016-icmr) | [slides](http://www.slideshare.net/xavigiro/convolutional-features-for-instance-search)    
 $\bullet \bullet$    
 BoW   
 
@@ -700,8 +699,7 @@ $\bullet \bullet$
 DeepBit   
 
 1. [Fast Training of Triplet-based Deep Binary Embedding Networks](http://cn.arxiv.org/abs/1603.02844)  
-CVPR 2016 *2016* [paper](https://arxiv.org/abs/1603.02844)  
-[theano](https://bitbucket.org/jingruixiaozhuang/fast-training-of-triplet-based-deep-binary-embedding-networks)-official    
+CVPR 2016 *2016* [paper](https://arxiv.org/abs/1603.02844)  | [theano](https://bitbucket.org/jingruixiaozhuang/fast-training-of-triplet-based-deep-binary-embedding-networks)-official    
 $\bullet \bullet$    
 
 1. [Deep Relative Distance Learning: Tell the Difference Between Similar Vehicles](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_Deep_Relative_Distance_CVPR_2016_paper.pdf)  
@@ -780,15 +778,14 @@ MM 2017 *2017-07-04* [paper](https://arxiv.org/abs/1707.00809)
 
 1. [Class-Weighted Convolutional Features for Visual Instance Search](http://cn.arxiv.org/abs/1707.02581)  
 BMVC 2017 *2017-07-09* [paper](https://arxiv.org/abs/1707.02581) | [project](http://imatge-upc.github.io/retrieval-2017-cam/) | [theano](https://github.com/imatge-upc/retrieval-2017-cam)      
-$\bullet \bullet$   
-CAMs    
+$\bullet \bullet$ CAMs    
 
 1. [Learning a Repression Network for Precise Vehicle Search](http://cn.arxiv.org/abs/1708.02386)  
 *2017-08-08* [paper](https://arxiv.org/abs/1708.02386)  
 
 1. [SUBIC: A supervised, structured binary code for image search](http://cn.arxiv.org/abs/1708.02932)  
 ICCV 2017 *2017-08-09* [paper](https://arxiv.org/abs/1708.02932)  
-$\bullet \bullet$    
+$\bullet \bullet$ SBC     
 
 1. [Pruning Convolutional Neural Networks for Image Instance Retrieval](http://cn.arxiv.org/abs/1707.05455)  
 *2017-07-18* [paper](https://arxiv.org/abs/1707.05455)  
@@ -799,16 +796,16 @@ $\bullet \bullet$
 
 1. [Deep Shape Matching](http://cn.arxiv.org/abs/1709.03409)    
 ECCV 2018 *2017-09-11* [paper](https://arxiv.org/abs/1709.03409) | [matlab](https://github.com/filipradenovic/cnnimageretrieval)-official           
-$\bullet \bullet$   
-shape   
+$\bullet \bullet$ shape   
 
 1. [Region-Based Image Retrieval Revisited](http://cn.arxiv.org/abs/1709.09106)  
 ACM Multimedia 2017 (Oral) *2017-09-26* [paper](https://arxiv.org/abs/1709.09106)  
-$\bullet \bullet$    
+$\bullet \bullet$ RBIR Revisited    
 
 1. [Fine-tuning CNN Image Retrieval with No Human Annotation](http://cn.arxiv.org/abs/1711.02512)     
 TPAMI 2018 *2017-11-03* [paper](https://arxiv.org/abs/1711.02512) | [pytorch](https://github.com/filipradenovic/cnnimageretrieval-pytorch)-official | [matlab](https://github.com/filipradenovic/cnnimageretrieval)-official          
-$\bullet \bullet$   
+$\bullet \bullet$ GeM   
+
 
 1. [Beyond Part Models: Person Retrieval with Refined Part Pooling](http://cn.arxiv.org/abs/1711.09349)  
 *2017-11-26* [paper](https://arxiv.org/abs/1711.09349)  
@@ -839,10 +836,7 @@ $\bullet \bullet$
 
 1. [Deep Feature Aggregation with Heat Diffusion for Image Retrieval](http://cn.arxiv.org/abs/1805.08587)  
 *2018-05-22* [paper](https://arxiv.org/abs/1805.08587) | [matlab](https://github.com/pangsm0415/HeW)  
-$\bullet \bullet$    
-
-1. [Deep Feature Aggregation and Image Re-ranking with Heat Diffusion for Image Retrieval](http://cn.arxiv.org/abs/1805.08587)  
-*2018-05-22* [paper](https://arxiv.org/abs/1805.08587)  
+$\bullet \bullet$ Heat Diffusion    
 
 1. [Collaborative Multi-modal deep learning for the personalized product retrieval in Facebook Marketplace](http://cn.arxiv.org/abs/1805.12312)  
 *2018-05-31* Facebook [paper](https://arxiv.org/abs/1805.12312)  

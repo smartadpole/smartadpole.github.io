@@ -125,6 +125,8 @@ docs-en:
         url:    /assets/category/work/tool/office.html
       - title:  QT
         url:    /assets/category/work/tool/qt.html
+      - title:  Clang
+        url:    /assets/category/work/tool/clang.html
       - title:  微信小程序
         url:    /assets/category/work/tool/weixin.html
       - title:  Git

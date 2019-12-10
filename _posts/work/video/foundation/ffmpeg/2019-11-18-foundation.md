@@ -33,6 +33,8 @@ CV_FOURCC('F', 'L', 'V', '1') = FLV1 codec
 
 若编码器代号为 -1，则运行时会弹出一个编码器选择框；   
 
+# 2 常用命令
+
 
 -------------------  
 [End](#head)
@@ -47,6 +49,8 @@ CV_FOURCC('F', 'L', 'V', '1') = FLV1 codec
 1. [c++ 解码音频和视频并处理两个流 – ffmpeg,sdl,opencv](https://codeday.me/bug/20180902/242403.html)    
 1. [利用ffmpeg和opencv进行视频的解码播放](https://blog.csdn.net/JasonDing1354/article/details/41212425)    
 1. [ffmpeg解码视频文件并播放](https://blog.csdn.net/a499957739/article/details/82625493)    
+
+1. [FFmpeg：视频转码、剪切、合并、播放速调整](https://fzheng.me/2016/01/08/ffmpeg/)    
 
 
 ### 参考文献

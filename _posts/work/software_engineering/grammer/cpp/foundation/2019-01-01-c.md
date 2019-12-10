@@ -7,3 +7,17 @@ aside:
   toc: true
 category: [c++, cpp_foundation]
 ---
+<span id='head'></span>
+
+<!--more-->
+
+
+
+
+-------------------  
+[End](#head)
+{:.warning}  
+
+
+# 附录
+## A 参考资料

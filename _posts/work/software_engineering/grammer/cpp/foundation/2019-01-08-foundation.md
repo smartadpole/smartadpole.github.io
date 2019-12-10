@@ -8,6 +8,12 @@ aside:
 tags: 资源
 category: [c++, cpp_foundation]
 ---
+<span id='head'></span>
+
+<!--more-->
+
+
+
 
 
 ## 一、 介绍

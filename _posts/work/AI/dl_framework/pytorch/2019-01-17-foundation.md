@@ -36,6 +36,10 @@ seq2seq 工具包
 [paper](Kaolin: A PyTorch Library for Accelerating 3D Deep Learning Research) | [code](https://github.com/NVIDIAGameWorks/kaolin/)-official
 3D 工具包；   
 
+## 1.1 工具
+1. [torch-toolbox](https://github.com/PistonY/torch-toolbox)    
+
+
 # 2 项目
 1. [torchsample](https://github.com/ncullen93/torchsample)    
 入门项目；    
@@ -45,6 +49,9 @@ seq2seq 工具包
 
 # 3 C++ 调用
 [LOADING A TORCHSCRIPT MODEL IN C++](https://pytorch.org/tutorials/advanced/cpp_export.html)    
+
+# 4 模型
+1. [ModelZoo.pytorch](https://github.com/PistonY/ModelZoo.pytorch)    
 
 
 -------------------  

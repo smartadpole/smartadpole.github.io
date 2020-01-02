@@ -197,8 +197,11 @@ NIPS 2016 workshop
 
 
 # 3 CV
-## 3.1 高质量图像生成
+## 3.1 高质量生成
 
+### 3.1.1 [人脸编辑](/cv/human/facial_attribute_editing/2019/10/09/foundation.html)
+### 3.1.2 [季节变换](/cv/nature/season_translation/2020/01/02/foundation.html)
+### 3.1.3 其他
 1.  [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06434)      
 ICLR *2015-11-19* [Theano](https://github.com/Newmu/dcgan_code) · [Keras](https://github.com/jacobgil/keras-dcgan) · [Pytorch](https://github.com/pytorch/examples/tree/master/dcgan) · [Pytorch-MNIST/CelebA](https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN) · [Tensorflow](https://github.com/carpedm20/DCGAN-tensorflow) · [Torch](https://github.com/soumith/dcgan.torch)     
 **DCGAN**：将卷积网络引入 GAN 中，且使用了 BN，证明了池化在 GAN 中不能使用；提供了许多有趣的生成结果；     
@@ -244,7 +247,7 @@ ICLR 2019
 *2019-05-18* [paper](https://arxiv.org/abs/1905.08622) | [OpenReview](https://openreview.net/forum?id=S1eX-nA5KX)      
 
 
-## 3.8 物体检测
+## 3.2 检测
 
 1.  [Perceptual generative adversarial networks for small object detection](http://cn.arxiv.org/abs/1706.05274v2)  
 CVPR 2017  
@@ -253,7 +256,7 @@ CVPR 2017
 [Code](https://github.com/xiaolonw/adversarial-frcnn)  
 CVPR 2017
 
-## 3.11 提高分类和识别任务
+## 3.3 分类&识别
 
 1. [Generative OpenMax for Multi-Class Open Set Classification](http://cn.arxiv.org/abs/1707.07418)   
 BMVC 2017   
@@ -269,25 +272,28 @@ ICCV2017
 1. [Learning from Simulated and Unsupervised Images through Adversarial Training](http://cn.arxiv.org/abs/1611.07828)  
 [Code](https://github.com/carpedm20/simulated-unsupervised-tensorflow)（Apple paper, CVPR 2017 Best Paper）
 
-## 3.12 数据增强
+## 3.4 数据增强
 1. [LiDAR Sensor modeling and Data augmentation with GANs for Autonomous driving](http://cv.arxiv.org/abs/1905.07290)   
 ICML Workshop on AI for Autonomous Driving 2019 *2019-05-17* [paper](https://arxiv.org/abs/1905.07290)   
 
-## 3.13 显著性检测
+## 3.5 显著性检测
+`Saliency Prediction`    
 
 1. [SalGAN: Visual Saliency Prediction with Generative Adversarial Networks](http://cn.arxiv.org/abs/1701.01081)  
 *2017-01-04* [paper](https://arxiv.org/abs/1701.01081) | [theano](https://github.com/imatge-upc/saliency-salgan-2017)   
 
-## 3.14 检索
+## 3.6 检索
 1. [IRGAN: A Minimax Game for Unifying Generative and Discriminative Information Retrieval Models](http://cn.arxiv.org/abs/1705.10513)     
 *2017-05-30* [paper](https://arxiv.org/abs/1705.10513)    
 IRGAN:     
 
 
-## 3.15 医疗
+## 3.7 异常检测
+`Anomaly Detection`    
 
 1.  [Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery](http://cn.arxiv.org/abs/1703.05921)   
-
+IPMI 2017 *2017-03-17* [paper](https://arxiv.org/abs/1703.05921)    
+医疗；    
 
 # 4 视频
 ## 4.1 视频生成

@@ -66,11 +66,19 @@ ACM MM2018 oral *2018-05-19* [paper](https://arxiv.org/abs/1805.07509) | [tensor
 1.  [GANimation: Anatomically-aware Facial Animation from a Single Image](http://cn.arxiv.org/abs/1807.09251)  
 ECCV 2018 oral *2018-07-24* [paper](https://arxiv.org/abs/1807.09251) | [project](http://www.albertpumarola.com/research/GANimation/index.html) | [pytorch](https://github.com/albertpumarola/GANimation)-official   
 
+1. [STGAN: A Unified Selective Transfer Network for Arbitrary Image Attribute Editing](http://cn.arxiv.org/abs/1904.09709)    
+CVPR 2019 *2019-04-22* [paper](https://arxiv.org/abs/1904.09709) | [tensorflow](https://github.com/csmliu/STGAN)-official     
+$\bullet \bullet$  <span id="STGAN">STGAN</span>    
+
+
 1. [Mask-Guided Portrait Editing with Conditional GANs](http://cn.arxiv.org/abs/1905.10346)   
 CVPR 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10346)    
 mask + 条件 GAN：肖像局部编辑    
 
-
+1. [MulGAN: Facial Attribute Editing by Exemplar](http://cn.arxiv.org/abs/1912.12396)  
+ *2019-12-28* [paper](https://arxiv.org/abs/1912.12396)     
+$\bullet \bullet$     
+ 可同时对多属性进行编辑，且提高了生成质量；    
 
 -------------------  
 [End](#head)

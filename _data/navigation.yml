@@ -1417,6 +1417,11 @@ NATURE:
       - title:  盐体
         url:    /assets/category/work/CV/nature/salt_bodies.html
 
+  - title:	艺术
+    children:
+      - title:  季节变换
+        url:    /assets/category/work/CV/nature/season_translation.html
+
 
 Linux:
   - title:

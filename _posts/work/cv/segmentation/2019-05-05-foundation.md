@@ -71,6 +71,12 @@ SegSort: 大津阈值的思路；跨图像训练；
 ### 1.9.1 [车辆](/cv/vehicle/vehicle_segmentation/2019/10/10/foundation.html)
 ### 1.9.2 交通标志   
 
+## 1.10 高光谱
+`hyperspectral image`    
+1. [Statistical Loss and Analysis for Deep Learning in Hyperspectral Image Classification](http://cn.arxiv.org/abs/1912.12385)  
+ *2019-12-28* [paper](https://arxiv.org/abs/1912.12385)     
+ 针对高光谱图像分割设计了新的统计 loss；     
+
 # 2 序列
 1. [RVOS: End-to-End Recurrent Network for Video Object Segmentation](http://cn.arxiv.org/abs/1903.05612)   
 CVPR 2019 (camera ready) *2019-03-13* [paper](https://arxiv.org/abs/1903.05612) | [project](https://imatge-upc.github.io/rvos/) | [pytorch](https://github.com/imatge-upc/rvos)-official   

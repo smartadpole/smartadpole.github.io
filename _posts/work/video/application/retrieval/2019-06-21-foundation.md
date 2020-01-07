@@ -167,6 +167,11 @@ $\bullet \bullet$ Deep Video Hashing
 *2016*    
 时序二进制 hash；   
 
+1. [Unsupervised Deep Video Hashing with Balanced Rotation](https://pdfs.semanticscholar.org/6b6e/2c2ff6fcc5837523940c69cf2e9e94bc0503.pdf)     
+IJCAI 2017 *2017* [paper](https://pdfs.semanticscholar.org/6b6e/2c2ff6fcc5837523940c69cf2e9e94bc0503.pdf)    
+$\bullet \bullet$     
+无监督特征提取；   
+
 1. [Deep Hashing with Category Mask for Fast Video Retrieval](http://cn.arxiv.org/abs/1712.08315)     
 *2017-12-22* 美图 [paper](https://arxiv.org/abs/1712.08315) | [blog](https://juejin.im/post/5b4d5a816fb9a04fcf59c9a5)       
 $\bullet \bullet$ Hash Mask    
@@ -500,6 +505,10 @@ $\bullet \bullet$ Circulant
 
 1. [Burst-survive Temporal Matching Kernel with Fibonacci Periods](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0002062.pdf)     
 ICASSP 2019 *2019* [paper](http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0002062.pdf) | [python](https://github.com/fyang93/BURST)          
+
+1. [Neighborhood Preserving Hashing for Scalable Video Retrieval](http://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Neighborhood_Preserving_Hashing_for_Scalable_Video_Retrieval_ICCV_2019_paper.pdf)    
+ICCV 2019 *2019* 清华深研院 [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Neighborhood_Preserving_Hashing_for_Scalable_Video_Retrieval_ICCV_2019_paper.pdf)    
+
 
 
 ## 3.5 相似度度量

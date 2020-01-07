@@ -19,7 +19,7 @@ tags: 资源
 # 2 理论
 
 # 3 其他
-1. [STGAN: A Unified Selective Transfer Network for Arbitrary Image Attribute Editing](/cv/human/facial_attribute_editing/2019/10/09/foundation.html/#STGAN)       
+1. [STGAN: A Unified Selective Transfer Network for Arbitrary Image Attribute Editing](/cv/human/facial_attribute_editing/2019/10/09/foundation.html#STGAN)       
 
 -------------------  
 [End](#head)   

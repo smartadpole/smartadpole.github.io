@@ -9,7 +9,7 @@ category: [blog]
 ---
 
 
-## 报错
+## 1 报错
 1. Jekyll serve 启动失败  
 
 <!--more-->
@@ -29,6 +29,15 @@ FATAL: Listen error: unable to monitor directories for changes.
 Visit https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers for info on how to fix this.
 ```
 **解决**：  `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`   
+`WARN: Unresolved specs during Gem::Specification.reset:`   
+**解决**：  `bundle exec jekyll serve`     
+`Incremental build: disabled. Enable with --incremental`     
+**解决**：  `bundle exec jekyll serve --incremental`      
+
+1. 构建速度慢   
+**解决**：  `nohup bundle exec jekyll serve --drafts --incremental &`      
+*需要把 nohup.out 文件加入到 _config.yml 的 exclude 列表才能避免死循环 exclude: ["nohup.out"]*        
+
 
 writing…… :ghost:
 

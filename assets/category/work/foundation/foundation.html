@@ -1,0 +1,22 @@
+---
+layout: articles
+titles:
+    en:       Foundation
+    zh:       基础
+    zh-Hans:  基础
+    zh-Hant:  基础
+sidebar:
+    nav: Work_Foundation
+---
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "work_foundation" %}
+        {% for post in cat[1] %}
+        <li>{{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        </li>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

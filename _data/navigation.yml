@@ -1,5 +1,29 @@
 header:
   - titles:
+      en:       software
+      zh:       软件
+      zh-Hans:  软件
+      zh-Hant:  软件
+    url:        /assets/category/work/software/software.html
+  - titles:
+      en:       AI
+      zh:       AI
+      zh-Hans:  AI
+      zh-Hant:  AI
+    url:        /assets/category/work/AI/AI.html
+  - titles:
+      en:       Foundation
+      zh:       基础
+      zh-Hans:  基础
+      zh-Hant:  基础
+    url:        /assets/category/work/foundation/foundation.html
+  - titles:
+      en:       Tools
+      zh:       工具
+      zh-Hans:  工具
+      zh-Hant:  工具
+    url:        /assets/category/work/tool/tool.html
+  - titles:
       en:       Life
       zh:       生活
       zh-Hans:  生活
@@ -8,7 +32,7 @@ header:
   - titles:
       en:       Category
       zh:       分类
-      zh-Hans:  分类
+      zh-Hans:  分类Software
       zh-Hant:  分類
     url:        /category.html
   - titles:
@@ -31,7 +55,31 @@ Life:
         url:    /assets/category/life/reding/recommend.html
 
 docs-en:
-  - title:      软件·语法
+
+
+TOOL:
+  - title:      工具
+    children:
+      - title:  工程
+        url:    /assets/category/work/tool/work.html
+      - title:  博客
+        url:    /assets/category/work/tool/blog.html
+      - title:  Office
+        url:    /assets/category/work/tool/office.html
+      - title:  QT
+        url:    /assets/category/work/tool/qt.html
+      - title:  Clang
+        url:    /assets/category/work/tool/clang.html
+      - title:  微信小程序
+        url:    /assets/category/work/tool/weixin.html
+      - title:  Git
+        url:    /assets/category/work/tool/git.html
+      - title:  Python
+        url:    /assets/category/work/tool/python.html
+
+
+Software:
+  - title:      语法
     children:
       - title:  编程基础
         url:    /assets/category/work/software/grammer/foundation.html
@@ -42,12 +90,12 @@ docs-en:
       - title:  常用操作
         url:    /assets/category/work/software/grammer/skill.html
 
-  - title:      软件·算法
+  - title:      算法
     children:
       - title:  数据结构与算法
         url:    /assets/category/work/software/algorithms/algorithms.html
 
-  - title:      软件·开发方法
+  - title:      开发方法
     children:
       - title:  软件工程导论
         url:    /assets/category/work/software/develop/se_introduction.html
@@ -69,6 +117,7 @@ docs-en:
         url:    /assets/category/work/software/develop/software_debug.html
 
 
+AI:
   - title:      图像处理
     children:
       - title:  理论
@@ -115,27 +164,11 @@ docs-en:
       - title:  顶会
         url:    /assets/category/work/study/meeting.html
 
-  - title:      工具
-    children:
-      - title:  工程
-        url:    /assets/category/work/tool/work.html
-      - title:  博客
-        url:    /assets/category/work/tool/blog.html
-      - title:  Office
-        url:    /assets/category/work/tool/office.html
-      - title:  QT
-        url:    /assets/category/work/tool/qt.html
-      - title:  Clang
-        url:    /assets/category/work/tool/clang.html
-      - title:  微信小程序
-        url:    /assets/category/work/tool/weixin.html
-      - title:  Git
-        url:    /assets/category/work/tool/git.html
-      - title:  Python
-        url:    /assets/category/work/tool/python.html
-
+Work_Foundation:
   - title:      基础
     children:
+      - title:  Linux
+        url:    /assets/category/work/foundation/linux.html
       - title:  English
         url:    /assets/category/work/foundation/english.html
       - title:  微积分
@@ -146,8 +179,6 @@ docs-en:
         url:    /assets/category/work/foundation/probability.html
       - title:  矩阵论
         url:    /assets/category/work/foundation/matrix_theory.html
-      - title:  Linux
-        url:    /assets/category/work/foundation/linux.html
 
 C++:
   - title:

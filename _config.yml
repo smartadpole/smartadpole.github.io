@@ -187,7 +187,7 @@ exclude:
 #   - vendor/ruby/
   - readme.md
   - LICENSE
-#  - nohup.out
+  - nohup.out
 
 defaults:
   - scope:

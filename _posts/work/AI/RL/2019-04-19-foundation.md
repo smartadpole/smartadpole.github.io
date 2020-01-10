@@ -5,7 +5,7 @@ date:   2019-04-19 18:038:40 +0800
 key: RL-foundation-20190419
 aside:
   toc: true
-category: [RL]
+category: [AI, RL]
 sidebar:
   nav: RL
 tags: 资源

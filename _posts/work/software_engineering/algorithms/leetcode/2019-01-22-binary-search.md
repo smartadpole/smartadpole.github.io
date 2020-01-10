@@ -5,26 +5,26 @@ date:   2019-01-22 8:37:40 +0800
 key: binary-search-leetcode-20190122
 aside:
   toc: true
-category: [algorithms, search, leetcode]
+category: [software, algorithms, search, leetcode]
 ---
 
 >要求：待搜索序列有序；  
 
-[二分查找解读](/algorithms/algsearch/2019/01/21/binary-search.html)  
+[二分查找解读](/ai/algorithms/algsearch/2019/01/21/binary-search.html)  
 
 
 ## 一、 找位置
 这类题目一般是说找到一个数它应该在数组中的位置，就是完整的套用框架；变化点就在返回 left 还是 right，判断时 = 是在哪一个哨兵上起作用；    
 ### 1. [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 ID 35：在有序数组中找值，如果不存在则返回该值本应所处的位置；
-就是[二分查找](/algorithms/algsearch/2019/01/21/binary-search.html)中「查找第一个等于或者大于 key 的元素」
+就是[二分查找](/ai/algorithms/algsearch/2019/01/21/binary-search.html)中「查找第一个等于或者大于 key 的元素」
 
 ### 2. [First Bad Version](https://leetcode.com/problems/first-bad-version/)
 ID 278：上一题「Search Insert Position」的另一种描述；
 
 ### 3. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 ID 34：找到一个升序数组中指定数的左右边界；时间复杂度为 O(log n)；        
-就是[二分查找](/algorithms/algsearch/2019/01/21/binary-search.html)中「查找第一个与 key 相等的元素」及「 查找最后一个与 key 相等的元素」的结合；注意最终的边界判断；
+就是[二分查找](/ai/algorithms/algsearch/2019/01/21/binary-search.html)中「查找第一个与 key 相等的元素」及「 查找最后一个与 key 相等的元素」的结合；注意最终的边界判断；
 
 
 ## 二、 有序移位数组·查找

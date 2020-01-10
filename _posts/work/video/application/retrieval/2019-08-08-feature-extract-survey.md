@@ -7,10 +7,10 @@ aside:
   toc: true
 sidebar:
   nav: NDVR
-category: [video, video_retrieval]
+category: [AI, video, video_retrieval]
 ---
 <span id='head'></span>  
->实际工程中常使用抽帧及[关键帧检测](/video/key_frame/2019/08/08/survey.html)；在抽帧结果上再提取视频或者帧特征；   
+>实际工程中常使用抽帧及[关键帧检测](/ai/video/key_frame/2019/08/08/survey.html)；在抽帧结果上再提取视频或者帧特征；   
 
 <!--more-->  
 

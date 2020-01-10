@@ -5,7 +5,7 @@ date:   2019-07-02 18:44:40 +0800
 key: military-machine-reading-20190702
 aside:
   toc: true
-category: [Competition]
+category: [AI, AI, Competition]
 ---
 <span id='head'></span>
 >竞赛主页：<https://www.kesci.com/home/competition/5d142d8cbb14e6002c04e14a/content>   

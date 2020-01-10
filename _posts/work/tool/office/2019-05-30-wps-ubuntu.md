@@ -5,7 +5,7 @@ date:   2019-05-30 09:08:40 +0800
 key: ubunt-wps-20190530
 aside:
   toc: true
-category: [office]
+category: [tool, office]
 ---
 <!--more-->   
 

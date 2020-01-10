@@ -5,7 +5,7 @@ date:   2019-07-02 18:00:40 +0800
 key: capsnet-foundation-20190702
 aside:
   toc: true
-category: [DL, capsnet]
+category: [AI, DL, capsnet]
 tags: 资源
 ---
 <span id='head'></span>  

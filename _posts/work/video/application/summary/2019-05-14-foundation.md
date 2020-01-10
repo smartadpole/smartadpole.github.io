@@ -5,14 +5,14 @@ date:   2019-05-14 10:06:40 +0800
 key: video-summary-foundation-20190514
 aside:
   toc: true
-category: [video, video_summary]
+category: [AI, video, video_summary]
 tags: 资源
 ---
 <span id='head'></span>
 `shot detection` · `video summary` · `video synopsis` · `video key clip extraction` · `video summarization` · `key frame Detection`   
 
 >又称视频浓缩，是对视频内容的一个简单概括；       
-相关资源：[视频摘要概述](/video/video_summary/2019/06/10/survey.html)、[关键帧提取概述](/video/key_frame/2019/08/08/survey.html)、[关键帧提取资源汇总](/video/key_frame/2019/06/12/foundation.html)     
+相关资源：[视频摘要概述](/ai/video/video_summary/2019/06/10/survey.html)、[关键帧提取概述](/ai/video/key_frame/2019/08/08/survey.html)、[关键帧提取资源汇总](/ai/video/key_frame/2019/06/12/foundation.html)     
 
 
 <!--more-->
@@ -63,10 +63,10 @@ BMVC 2018 *2018-07-17* [Paper](https://arxiv.org/abs/1807.06677)
 *2019-06-06* [paper](https://arxiv.org/abs/1906.02792)    
 
 
-## 2.3 [静态摘要](/video/key_frame/2019/06/12/foundation.html)
+## 2.3 [静态摘要](/ai/video/key_frame/2019/06/12/foundation.html)
 
 # 3 扩展技术
-## 3.1 [关键帧](/video/key_frame/2019/06/12/foundation.html#53-视频摘要)    
+## 3.1 [关键帧](/ai/video/key_frame/2019/06/12/foundation.html#53-视频摘要)    
 
 
 

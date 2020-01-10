@@ -5,7 +5,7 @@ date:   2019-10-16 10:26:40 +0800
 key: earthquake-foundation-20191016
 aside:
   toc: true
-category: [CV, nature, earthquake]
+category: [AI, CV, nature, earthquake]
 tags: 资源
 ---
 <span id='head'></span>  

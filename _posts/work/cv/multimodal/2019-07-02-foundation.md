@@ -5,7 +5,7 @@ date:   2019-07-02 18:06:40 +0800
 key: multimodal-foundation-20190702
 aside:
   toc: true
-category: [CV, multimodal]
+category: [AI, CV, multimodal]
 tags: 资源
 ---
 <span id='head'></span>

@@ -5,7 +5,7 @@ date:   2019-06-12 18:06:40 +0800
 key: video-localization-foundation-20190612
 aside:
   toc: true
-category: [video, video_localization]
+category: [AI, video, video_localization]
 tags: 资源
 ---
 <span id='head'></span>

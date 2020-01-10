@@ -5,11 +5,11 @@ date:   2019-10-09 17:07:40 +0800
 key: facial-attribute-editing-foundation-20191009
 aside:
   toc: true
-category: [CV, human, facial_attribute_editing]
+category: [AI, CV, human, facial_attribute_editing]
 tags: 资源
 ---
 <span id='head'></span>  
->[通用图像编辑资源](/cv/image_generation/2019/03/29/image-generation.html#6-图像编辑)     
+>[通用图像编辑资源](/ai/cv/image_generation/2019/03/29/image-generation.html#6-图像编辑)     
 
 
 <!--more-->

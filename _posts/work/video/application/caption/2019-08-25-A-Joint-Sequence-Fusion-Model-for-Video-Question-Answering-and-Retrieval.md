@@ -5,7 +5,7 @@ date:   2019-08-25 17:00:40 +0800
 key: SeqFusion-VQA-20190825
 aside:
   toc: true
-category: [video, video_caption, paper_reading]
+category: [AI, video, video_caption, paper_reading]
 ---
 <span id='head'></span>   
 

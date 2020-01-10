@@ -5,7 +5,7 @@ date:   2019-07-22 14:28:40 +0800
 key: color-enhancement-foundation-20190722
 aside:
   toc: true
-category: [CV, image_enhancement]
+category: [AI, CV, image_enhancement]
 tags: 资源
 ---
 <span id='head'></span>  

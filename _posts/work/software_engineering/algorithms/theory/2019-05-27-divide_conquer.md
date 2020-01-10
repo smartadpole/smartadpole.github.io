@@ -5,7 +5,7 @@ date:   2019-05-27 16:07:40 +0800
 key: divide-conquer-20190527
 aside:
   toc: true
-category: [algorithms, divide_conquer]
+category: [software, algorithms, divide_conquer]
 ---
 <span id='head'></span>
 >主要思想是解决小问题比解决大问题容易；于是将问题分解成若干子问题，然后用同样的方法求解子问题；最后将子问题的解合并，就得到问题的解；  
@@ -53,7 +53,7 @@ master methods
 
 
 # 3 实践
-[LeetCode](/algorithms/divide_conquer/leetcode/2019/05/27/divide_conquer.html)
+[LeetCode](/ai/algorithms/divide_conquer/leetcode/2019/05/27/divide_conquer.html)
 
 
 -------------------  

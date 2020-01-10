@@ -5,7 +5,7 @@ date:   2019-07-17 15:21:40 +0800
 key: steganography-foundation-20190717
 aside:
   toc: true
-category: [CV, info_security, digital_watermarking]
+category: [AI, CV, info_security, digital_watermarking]
 tags: 资源
 ---
 <span id='head'></span>
@@ -32,7 +32,7 @@ $\bullet \bullet$
 *2014-07-17* [paper](https://arxiv.org/abs/1407.4735)    
 $\bullet \bullet$ **入门**   
 关于传统水印算法的总数，总共 4 页，真是短小精悍；看完会对水印有个整体认识的，非常推荐作为水印入门读物；     
->可惜了我花了两天时间要死要活地折腾出一个[Survey](/cv/info_security/digital_watermarking/2019/07/17/survey.html)，要是早看到这篇，分分钟搞定，看来还是综述文章最容易入门；     
+>可惜了我花了两天时间要死要活地折腾出一个[Survey](/ai/cv/info_security/digital_watermarking/2019/07/17/survey.html)，要是早看到这篇，分分钟搞定，看来还是综述文章最容易入门；     
 
 1. [Analysis of Visible and Invisible Image Watermarking – A Review](https://pdfs.semanticscholar.org/49cd/4d69855f4cc89e46385a2f3e803262100c56.pdf)   
 *2016-08* [paper](https://pdfs.semanticscholar.org/49cd/4d69855f4cc89e46385a2f3e803262100c56.pdf)   

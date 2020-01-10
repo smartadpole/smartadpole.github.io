@@ -5,7 +5,7 @@ date:   2019-05-17 17:06:40 +0800
 key: lambda-expression-20190517
 aside:
   toc: true
-category: [c++, modern]
+category: [software, c++, modern]
 ---
 
 <!--more-->

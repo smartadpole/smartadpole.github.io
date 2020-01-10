@@ -5,7 +5,7 @@ date:   2019-04-28 11:08:40 +0800
 key: DL-normal-20190428
 aside:
   toc: true
-category: [DL, foundation]
+category: [AI, DL, foundation]
 ---
 >[Batch Normalization](https://arxiv.org/abs/1502.03167)，[Layer Normalizaiton](https://arxiv.org/abs/1607.06450)，[Instance Normalization](https://arxiv.org/abs/1607.08022)，[Group Normalization](
 https://arxiv.org/abs/1803.08494)，[Switchable Normalization](https://arxiv.org/abs/1806.10779)    

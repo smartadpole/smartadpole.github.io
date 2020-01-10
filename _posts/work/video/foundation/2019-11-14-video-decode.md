@@ -5,7 +5,7 @@ date:   2019-11-14 11:08:40 +0800
 key: video-decode-20191114
 aside:
   toc: true
-category: [video, video_decode]
+category: [AI, video, video_decode]
 ---
 <span id='head'></span>  
 >从视频中解出图像；    

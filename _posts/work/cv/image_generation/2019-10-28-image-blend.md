@@ -5,7 +5,7 @@ date:   2019-10-28 14:06:40 +0800
 key: image-blend-foundation-20191028
 aside:
   toc: true
-category: [CV, image_generation]
+category: [AI, CV, image_generation]
 tags: 资源
 ---
 <span id='head'></span>  

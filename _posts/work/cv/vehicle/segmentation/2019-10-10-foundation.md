@@ -5,12 +5,12 @@ date:   2019-10-10 17:20:40 +0800
 key: vehicle-segment-foundation-20191010
 aside:
   toc: true
-category: [CV, vehicle, vehicle_segmentation]
+category: [AI, CV, vehicle, vehicle_segmentation]
 tags: 资源
 ---
 <span id='head'></span>
 >交通场景中分割出车辆；    
-[通用物体分割资源](/cv/segmentation/2019/05/05/foundation.html)     
+[通用物体分割资源](/ai/cv/segmentation/2019/05/05/foundation.html)     
 
 <!--more-->
 

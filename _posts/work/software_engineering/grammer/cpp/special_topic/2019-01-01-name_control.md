@@ -5,5 +5,5 @@ date:   2019-01-01 8:06:40 +0800
 key: name-control-20190101
 aside:
   toc: true
-category: [c++, advanced]
+category: [software, c++, advanced]
 ---

@@ -5,7 +5,7 @@ date:   2019-07-23 10:00:40 +0800
 key: SteganoGAN-reading-20190723
 aside:
   toc: true
-category: [CV, info_security, digital_watermarking, paper_reading]
+category: [AI, CV, info_security, digital_watermarking, paper_reading]
 ---
 <span id='head'></span>
 

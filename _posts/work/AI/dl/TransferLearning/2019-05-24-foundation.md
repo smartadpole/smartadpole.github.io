@@ -5,7 +5,7 @@ date:   2019-05-24 10:00:40 +0800
 key: transfer-learning-foundation-20190524
 aside:
   toc: true
-category: [DL, transfer_learning]
+category: [AI, DL, transfer_learning]
 tags: 资源
 ---
 <span id='head'></span>  

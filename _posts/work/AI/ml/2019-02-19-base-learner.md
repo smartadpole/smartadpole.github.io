@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: ML_Ensemble
-category: [ML, ensemble_learning]
+category: [AI, ML, ensemble_learning]
 ---
 
 ## 一、 基分类器

@@ -5,7 +5,7 @@ date:   2019-10-20 00:07:40 +0800
 key: max-flow-20191020
 aside:
   toc: true
-category: [algorithms, graph]
+category: [software, algorithms, graph]
 ---
 <span id='head'></span>
 

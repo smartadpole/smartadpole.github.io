@@ -5,7 +5,7 @@ date:   2019-10-16 10:18:40 +0800
 key: typhoon-foundation-20191016
 aside:
   toc: true
-category: [CV, nature, typhoon]
+category: [AI, CV, nature, typhoon]
 tags: 资源
 ---
 <span id='head'></span>  

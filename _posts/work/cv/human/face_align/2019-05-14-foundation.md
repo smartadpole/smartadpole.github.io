@@ -5,7 +5,7 @@ date:   2019-05-14 14:06:40 +0800
 key: face-align-foundation-20190514
 aside:
   toc: true
-category: [CV, human, face_align]
+category: [AI, CV, human, face_align]
 tags: 资源
 ---
 <span id='head'></span>  

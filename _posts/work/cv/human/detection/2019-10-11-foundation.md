@@ -5,12 +5,12 @@ date:   2019-10-11 11:06:40 +0800
 key: human-detection-foundation-20191011
 aside:
   toc: true
-category: [CV, human, human_detection]
+category: [AI, CV, human, human_detection]
 tags: 资源
 ---
 <span id='head'></span>  
 >检测行人和人体各部位；       
-[通用目标检测资源](/cv/detection/2019/05/10/foundation.html)      
+[通用目标检测资源](/ai/cv/detection/2019/05/10/foundation.html)      
 
 <!--more-->
 

@@ -5,7 +5,7 @@ date:   2019-11-14 10:06:40 +0800
 key: cuda-foundation-20191114
 aside:
   toc: true
-category: [parallel, cuda]
+category: [software, parallel, cuda]
 ---
 <span id='head'></span>
 

@@ -5,7 +5,7 @@ date:   2019-07-13 17:06:40 +0800
 key: VAR-NASNet-20190713
 aside:
   toc: true
-category: [video, video_classification, paper_reading]
+category: [AI, video, video_classification, paper_reading]
 ---
 <span id='head'></span>   
 **视频动作识别**:在工业和学术界都是热点，因为这对于行为分析和情感计算等应用的基础；虽然目前该领域的数据集和神经网络都有着很大进步，但是这需要耗费大量的时间和专家；     

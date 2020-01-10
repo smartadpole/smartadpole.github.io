@@ -5,7 +5,7 @@ date:   2019-08-28 15:18:40 +0800
 key: OpenCV-Mat-Op-20190828
 aside:
   toc: true
-category: [opencv, opencv_core]
+category: [AI, opencv, opencv_core]
 ---
 <span id='head'></span>  
 

@@ -6,7 +6,7 @@ key: alg-foundation-20190122
 aside:
   toc: true
 tags: 资源
-category: [algorithms]
+category: [software, algorithms]
 ---
 
 

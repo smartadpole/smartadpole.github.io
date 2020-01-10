@@ -5,7 +5,7 @@ date:   2019-05-23 12:00:40 +0800
 key: meta-learning-foundation-20190523
 aside:
   toc: true
-category: [DL, meta_learning]
+category: [AI, DL, meta_learning]
 tags: 资源
 ---
 <span id='head'></span>  

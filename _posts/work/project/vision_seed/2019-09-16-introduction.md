@@ -5,10 +5,10 @@ date:   2019-09-16 14:06:40 +0800
 key: vision-seed-introduction-20190916
 aside:
   toc: true
-category: [project, vision_seed]
+category: [AI, project, vision_seed]
 ---
 <span id='head'></span>  
->腾讯优图推出的人脸识别的模块，基于 [ncnn](/dl_frameworks/ncnn/worktool/2019/01/30/foundation.html) 库，串口输出，有红外活体，提供 1:N 识别能力，还有数据可视化和人脸库管理功能；      
+>腾讯优图推出的人脸识别的模块，基于 [ncnn](/ai/dl_frameworks/ncnn/worktool/2019/01/30/foundation.html) 库，串口输出，有红外活体，提供 1:N 识别能力，还有数据可视化和人脸库管理功能；      
 主页: <https://visionseed.youtu.qq.com/#/home>      
 
 

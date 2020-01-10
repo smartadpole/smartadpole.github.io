@@ -5,11 +5,11 @@ date:   2019-10-16 10:16:40 +0800
 key: fire-foundation-20191016
 aside:
   toc: true
-category: [CV, nature, fire_disaster]
+category: [AI, CV, nature, fire_disaster]
 tags: 资源
 ---
 <span id='head'></span>  
->[通用物体分割资源](/cv/segmentation/2019/05/05/foundation.html)   
+>[通用物体分割资源](/ai/cv/segmentation/2019/05/05/foundation.html)   
 
 <!--more-->
 

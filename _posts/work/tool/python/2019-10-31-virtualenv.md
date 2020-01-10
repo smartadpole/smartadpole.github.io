@@ -5,7 +5,7 @@ date:   2019-10-31 14:18:40 +0800
 key: virtualenv-20191031
 aside:
   toc: true
-category: [python_tool]
+category: [tool, python_tool]
 ---
 <span id='head'></span>  
 <!--more-->

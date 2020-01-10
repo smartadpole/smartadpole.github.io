@@ -5,7 +5,7 @@ date:   2019-05-20 17:28:40 +0800
 key: traffic-semantic-foundation-20190520
 aside:
   toc: true
-category: [CV, traffic, traffic_analysis]
+category: [AI, CV, traffic, traffic_analysis]
 tags: 资源
 ---
 

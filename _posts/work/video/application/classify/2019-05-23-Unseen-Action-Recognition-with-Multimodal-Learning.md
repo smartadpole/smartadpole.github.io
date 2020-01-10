@@ -5,7 +5,7 @@ date:   2019-05-23 17:06:40 +0800
 key: Unseen-AR-Multimodal-20190523
 aside:
   toc: true
-category: [video, video_classification, paper_reading]
+category: [AI, video, video_classification, paper_reading]
 ---
 <span id='head'></span>   
 

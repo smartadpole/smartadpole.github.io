@@ -5,7 +5,7 @@ date:   2019-05-23 16:08:40 +0800
 key: semi-supervised-foundation-20190523
 aside:
   toc: true
-category: [DL, semi_supervised]
+category: [AI, DL, semi_supervised]
 tags: 资源
 ---
 <span id='head'></span>

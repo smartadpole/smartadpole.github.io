@@ -5,7 +5,7 @@ date:   2019-05-20 17:18:40 +0800
 key: traffic-event-foundation-20190520
 aside:
   toc: true
-category: [CV, traffic, traffic_event_analysis]
+category: [AI, CV, traffic, traffic_event_analysis]
 tags: 资源
 ---
 <span id='head'></span>
@@ -27,7 +27,7 @@ tags: 资源
 
 # 7 隧道烟雾
 
-# 8 [行人](/cv/human/human_detection/2019/10/11/foundation.html)
+# 8 [行人](/ai/cv/human/human_detection/2019/10/11/foundation.html)
 
 # 9 抛撒物
 

@@ -5,7 +5,7 @@ date:   2019-01-23 18:37:40 +0800
 key: disjoint-set-20190123
 aside:
   toc: true
-category: [algorithms, disjoint_set]
+category: [software, algorithms, disjoint_set]
 ---
 
 >又叫 Disjoint Set，Union-Find ALgorithm；  

@@ -5,7 +5,7 @@ date:   2019-03-04 18:06:40 +0800
 key: EGC-Intelligence-20190304
 aside:
   toc: true
-category: [Competition]
+category: [AI, AI, Competition]
 ---
 
 >心电图疾病诊断；    

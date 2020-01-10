@@ -2,16 +2,16 @@
 layout: articles
 titles:
     en:       Foundation
-    zh:       基础
-    zh-Hans:  基础
-    zh-Hant:  基础
+    zh:       基础知识
+    zh-Hans:  基础知识
+    zh-Hant:  基础知识
 sidebar:
-    nav: Work_Foundation
+    nav: School
 ---
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "work_foundation" %}
+        {% if cat[0] == "school" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

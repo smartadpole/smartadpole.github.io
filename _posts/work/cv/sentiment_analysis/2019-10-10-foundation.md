@@ -5,7 +5,7 @@ date:   2019-10-10 15:30:40 +0800
 key: sentiment-analysis-foundation-20191010
 aside:
   toc: true
-category: [CV, cv_sentiment_analysis]
+category: [AI, CV, cv_sentiment_analysis]
 tags: 资源
 ---
 <span id='head'></span>

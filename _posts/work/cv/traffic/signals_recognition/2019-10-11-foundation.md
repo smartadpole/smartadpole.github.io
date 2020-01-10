@@ -5,7 +5,7 @@ date:   2019-10-11 10:20:40 +0800
 key: signals-recognition-foundation-20191011
 aside:
   toc: true
-category: [CV, traffic, traffic_signals_recognition]
+category: [AI, CV, traffic, traffic_signals_recognition]
 tags: 资源
 ---
 <span id='head'></span>

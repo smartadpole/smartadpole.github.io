@@ -5,12 +5,12 @@ date:   2019-10-10 18:20:40 +0800
 key: vehicle-reid-foundation-20191010
 aside:
   toc: true
-category: [CV, vehicle, vehicle_reid]
+category: [AI, CV, vehicle, vehicle_reid]
 tags: 资源
 ---
 <span id='head'></span>
 >找到不同交通场景中的同一个车辆；    
-[图片检索资源](/cv/retrieval/2019/05/22/foundation.html)、[车辆分割资源](/cv/vehicle/vehicle_segmentation/2019/10/10/foundation.html)、[车辆检测资源](/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)        
+[图片检索资源](/ai/cv/retrieval/2019/05/22/foundation.html)、[车辆分割资源](/ai/cv/vehicle/vehicle_segmentation/2019/10/10/foundation.html)、[车辆检测资源](/ai/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)        
 
 <!--more-->
 

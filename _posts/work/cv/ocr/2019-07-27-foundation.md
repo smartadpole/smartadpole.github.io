@@ -5,12 +5,12 @@ date:   2019-07-27 14:21:40 +0800
 key: ocr-foundation-20190727
 aside:
   toc: true
-category: [CV, ocr]
+category: [AI, CV, ocr]
 tags: 资源
 ---
 <span id='head'></span>
 >光学字符识别；感觉在 2017 年爆炸了；       
-相关资源：[目标检测资源](/cv/detection/2019/05/10/foundation.html)     
+相关资源：[目标检测资源](/ai/cv/detection/2019/05/10/foundation.html)     
 
 <!--more-->
 

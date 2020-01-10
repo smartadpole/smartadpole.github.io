@@ -5,13 +5,13 @@ date:   2019-11-18 17:03:40 +0800
 key: ffmpeg-foundation-20191118
 aside:
   toc: true
-category: [video, video_library]
+category: [AI, video, video_library]
 ---
 <span id='head'></span>  
 > 功能：跨平台的音视频处理库；  
 官网 <https://www.ffmpeg.org/>   
 github：<https://github.com/FFmpeg/FFmpeg>   
-[安装教程](/video/video_library/2019/01/25/install.html)    
+[安装教程](/ai/video/video_library/2019/01/25/install.html)    
 
 <!--more-->
 

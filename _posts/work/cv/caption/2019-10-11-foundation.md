@@ -5,11 +5,11 @@ date:   2019-10-11 15:40:40 +0800
 key: image-caption-foundation-20191011
 aside:
   toc: true
-category: [CV, image_caption]
+category: [AI, CV, image_caption]
 tags: 资源
 ---
 <span id='head'></span>  
->相关资料：[视频描述资源汇总](/video/video_caption/2019/08/23/foundation.html)     
+>相关资料：[视频描述资源汇总](/ai/video/video_caption/2019/08/23/foundation.html)     
 
 <!--more-->
 # 1 综述

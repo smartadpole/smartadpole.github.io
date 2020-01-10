@@ -5,7 +5,7 @@ date:   2019-10-08 10:00:40 +0800
 key: synthtext-20191008
 aside:
   toc: true
-category: [CV, ocr]
+category: [AI, CV, ocr]
 ---
 <span id='head'></span>
 >**Synthetic Data for Text Localisation in Natural Images** (CVPR 2016-04-22)   

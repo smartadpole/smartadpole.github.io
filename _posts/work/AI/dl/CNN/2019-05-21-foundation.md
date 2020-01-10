@@ -5,7 +5,7 @@ date:   2019-05-21 14:18:40 +0800
 key: cnn-foundation-20190521
 aside:
   toc: true
-category: [DL, CNN]
+category: [AI, DL, CNN]
 tags: 资源
 ---
 <span id='head'></span>  

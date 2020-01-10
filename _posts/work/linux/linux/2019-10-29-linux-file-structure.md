@@ -5,7 +5,7 @@ date:   2019-10-29 16:06:40 +0800
 key: file-structure-20191029
 aside:
   toc: true
-category: [linux, linux_foundation]
+category: [school, linux, linux_foundation]
 ---
 <span id="head"></span>
 

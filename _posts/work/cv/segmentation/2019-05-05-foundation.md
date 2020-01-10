@@ -5,7 +5,7 @@ date:   2019-05-05 18:06:40 +0800
 key: image-segmentation-foundation-20190505
 aside:
   toc: true
-category: [CV, segmentation]
+category: [AI, CV, segmentation]
 tags: 资源
 ---
 <span id='head'></span>
@@ -56,19 +56,19 @@ SegSort: 大津阈值的思路；跨图像训练；
 1.  [Semantic Segmentation using Adversarial Networks](http://cn.arxiv.org/abs/1611.08408)  
 *2016-11-25* [paper](https://arxiv.org/abs/1611.08408)     
 
-## 1.6 [生物医疗](/cv/medical/2019/05/23/foundation.html#13-分割)
+## 1.6 [生物医疗](/ai/cv/medical/2019/05/23/foundation.html#13-分割)
 
 
 ## 1.7 自然
-### 1.7.1 [盐体分割](/cv/nature/salt_bodies/2019/10/16/foundation.html#3-分割)
-### 1.7.2 [天空分割](/cv/nature/sky/2019/10/16/foundation.html#4-天空分割)
-### 1.7.3 [火灾区域分割](/cv/nature/fire_disaster/2019/10/16/foundation.html#3-火灾区域分割)
+### 1.7.1 [盐体分割](/ai/cv/nature/salt_bodies/2019/10/16/foundation.html#3-分割)
+### 1.7.2 [天空分割](/ai/cv/nature/sky/2019/10/16/foundation.html#4-天空分割)
+### 1.7.3 [火灾区域分割](/ai/cv/nature/fire_disaster/2019/10/16/foundation.html#3-火灾区域分割)
 
 
-## 1.8 [人](/cv/human/human_segmentation/2019/05/14/foundation.html)
+## 1.8 [人](/ai/cv/human/human_segmentation/2019/05/14/foundation.html)
 
 ## 1.9 交通
-### 1.9.1 [车辆](/cv/vehicle/vehicle_segmentation/2019/10/10/foundation.html)
+### 1.9.1 [车辆](/ai/cv/vehicle/vehicle_segmentation/2019/10/10/foundation.html)
 ### 1.9.2 交通标志   
 
 ## 1.10 高光谱

@@ -5,11 +5,11 @@ date:   2019-10-16 10:29:40 +0800
 key: sky-foundation-20191016
 aside:
   toc: true
-category: [CV, nature, sky]
+category: [AI, CV, nature, sky]
 tags: 资源
 ---
 <span id='head'></span>  
->[通用物体分割资源](/cv/segmentation/2019/05/05/foundation.html)   
+>[通用物体分割资源](/ai/cv/segmentation/2019/05/05/foundation.html)   
 
 <!--more-->
 

@@ -5,7 +5,7 @@ date:   2019-07-13 01:06:40 +0800
 key: video-inpaint-foundation-20190713
 aside:
   toc: true
-category: [video, video_inpaint]
+category: [AI, video, video_inpaint]
 tags: 资源
 ---
 <span id='head'></span>

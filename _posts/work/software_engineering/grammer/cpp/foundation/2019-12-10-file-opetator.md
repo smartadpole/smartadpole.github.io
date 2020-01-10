@@ -5,7 +5,7 @@ date:   2019-12-10 18:16:40 +0800
 key: fileoperator-20191210
 aside:
   toc: true
-category: [c++, cpp_foundation]
+category: [software, c++, cpp_foundation]
 ---
 <span id='head'></span>
 

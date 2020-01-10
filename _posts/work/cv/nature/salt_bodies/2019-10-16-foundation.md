@@ -5,11 +5,11 @@ date:   2019-10-16 10:36:40 +0800
 key: salt-bodies-foundation-20191016
 aside:
   toc: true
-category: [CV, nature, salt_bodies]
+category: [AI, CV, nature, salt_bodies]
 tags: 资源
 ---
 <span id='head'></span>  
->[通用物体分割资源](/cv/segmentation/2019/05/05/foundation.html)   
+>[通用物体分割资源](/ai/cv/segmentation/2019/05/05/foundation.html)   
 
 <!--more-->
 

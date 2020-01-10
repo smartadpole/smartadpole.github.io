@@ -5,7 +5,7 @@ date:   2019-04-25 15:08:40 +0800
 key: visual-affordance-foundation-20190425
 aside:
   toc: true
-category: [CV, affordance]
+category: [AI, CV, affordance]
 tags: 资源
 ---
 <span id='head'></span>  

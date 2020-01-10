@@ -5,13 +5,13 @@ date:   2019-07-09 09:30:40 +0800
 key: Weakly-3DGAN-practice-20190709
 aside:
   toc: true
-category: [CV, 3D, reconstruction, paper_practice]
+category: [AI, CV, 3D, reconstruction, paper_practice]
 ---
 >    
 
 <span id='head'></span>   
 
-[论文解读](/cv/3d/reconstruction/paper_reading/2019/07/03/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-reading.html)     
+[论文解读](/ai/cv/3d/reconstruction/paper_reading/2019/07/03/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-reading.html)     
 
 # 1 难题
 ## 1.1 RayTrace Pooling layer    

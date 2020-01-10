@@ -5,7 +5,7 @@ date:   2019-04-09 16:48:40 +0800
 key: evaluation-of-generation-20190409
 aside:
   toc: true
-category: [DL, GAN]
+category: [AI, DL, GAN]
 sidebar:
   nav: GAN
 ---

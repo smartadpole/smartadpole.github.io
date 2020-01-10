@@ -5,7 +5,7 @@ date:   2019-05-20 18:08:40 +0800
 key: dl-foundation-20190520
 aside:
   toc: true
-category: [DL, foundation]
+category: [AI, DL, foundation]
 tags: 资源
 ---
 <span id='head'></span>  

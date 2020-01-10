@@ -5,7 +5,7 @@ date:   2019-03-13 18:17:40 +0800
 key: matrix-mix-20190313
 aside:
   toc: true
-category: [skill, python]
+category: [software, skill, python]
 ---
 
 

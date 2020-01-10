@@ -5,7 +5,7 @@ date:   2019-03-26 11:08:40 +0800
 key: gan-foundation-20190326
 aside:
   toc: true
-category: [DL, GAN]
+category: [AI, DL, GAN]
 sidebar:
   nav: GAN
 tags: 资源
@@ -199,8 +199,8 @@ NIPS 2016 workshop
 # 3 CV
 ## 3.1 高质量生成
 
-### 3.1.1 [人脸编辑](/cv/human/facial_attribute_editing/2019/10/09/foundation.html)
-### 3.1.2 [季节变换](/cv/nature/season_translation/2020/01/02/foundation.html)
+### 3.1.1 [人脸编辑](/ai/cv/human/facial_attribute_editing/2019/10/09/foundation.html)
+### 3.1.2 [季节变换](/ai/cv/nature/season_translation/2020/01/02/foundation.html)
 ### 3.1.3 其他
 1.  [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06434)      
 ICLR *2015-11-19* [Theano](https://github.com/Newmu/dcgan_code) · [Keras](https://github.com/jacobgil/keras-dcgan) · [Pytorch](https://github.com/pytorch/examples/tree/master/dcgan) · [Pytorch-MNIST/CelebA](https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN) · [Tensorflow](https://github.com/carpedm20/DCGAN-tensorflow) · [Torch](https://github.com/soumith/dcgan.torch)     

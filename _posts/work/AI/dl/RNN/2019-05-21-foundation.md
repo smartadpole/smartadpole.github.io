@@ -5,7 +5,7 @@ date:   2019-05-21 14:38:40 +0800
 key: rnn-foundation-20190521
 aside:
   toc: true
-category: [DL, RNN]
+category: [AI, DL, RNN]
 tags: 资源
 ---
 >

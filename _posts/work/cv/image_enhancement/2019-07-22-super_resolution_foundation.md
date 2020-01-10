@@ -5,7 +5,7 @@ date:   2019-05-23 14:28:40 +0800
 key: super-resolution-foundation-20190523
 aside:
   toc: true
-category: [CV, image_enhancement]
+category: [AI, CV, image_enhancement]
 tags: 资源
 ---
 <span id='head'></span>  
@@ -179,7 +179,7 @@ Raw 图像的真实场景超分辨率，模拟真实成像过程生成训练数�
 ICCV 2019 workshop *2019-03-15* [paper](https://arxiv.org/abs/1903.06332)    
 
 # 9 应用
-## 9.1 [视频](/video/video_super_resolution/2019/05/14/foundation.html)    
+## 9.1 [视频](/ai/video/video_super_resolution/2019/05/14/foundation.html)    
 
 ## 9.2 3D
 1. [3D Appearance Super-Resolution With Deep Learning](http://cn.arxiv.org/abs/1906.00925)   

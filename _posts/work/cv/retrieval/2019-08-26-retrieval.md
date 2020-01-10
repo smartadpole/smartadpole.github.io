@@ -5,7 +5,7 @@ date:   2019-08-26 15:06:40 +0800
 key: retrieval4image-20190826
 aside:
   toc: true
-category: [CV, retrieval]
+category: [AI, CV, retrieval]
 sidebar:
   nav: ImageRetrieval
 ---

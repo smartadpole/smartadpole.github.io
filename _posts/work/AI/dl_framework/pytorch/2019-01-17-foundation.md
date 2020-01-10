@@ -5,7 +5,7 @@ date:   2019-01-17 14:00:40 +0800
 key: pytorch-foundation-20190117
 aside:
   toc: true
-categories: [dl_frameworks, pytorch]
+category: [AI, dl_frameworks, pytorch]
 ---
 <span id='head'></span>  
 

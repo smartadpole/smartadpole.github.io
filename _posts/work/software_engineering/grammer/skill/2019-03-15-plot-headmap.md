@@ -5,7 +5,7 @@ date:   2019-03-15 14:17:40 +0800
 key: plot-heatmap-20190315
 aside:
   toc: true
-category: [skill, python]
+category: [software, skill, python]
 ---
 
 

@@ -5,7 +5,7 @@ date:   2019-05-14 14:06:40 +0800
 key: crowd-count-foundation-20190514
 aside:
   toc: true
-category: [CV, human, crowd_counting]
+category: [AI, CV, human, crowd_counting]
 tags: 资源
 ---
 <span id="head"></span>

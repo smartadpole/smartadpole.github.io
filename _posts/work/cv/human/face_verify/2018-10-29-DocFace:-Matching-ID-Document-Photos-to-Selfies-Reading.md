@@ -6,7 +6,7 @@ key: docFace-20181029
 aside:
   toc: true
 tags: 孪生网络 图像检索
-categories: [CV, face_verification, TransferLearning, paper_reading]
+category: [AI, AI, CV, face_verification, TransferLearning, paper_reading]
 ---
 <span id='head'></span>  
 

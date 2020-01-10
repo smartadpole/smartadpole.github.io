@@ -5,11 +5,11 @@ date:   2019-05-22 14:06:40 +0800
 key: video-detection-foundation-20190522
 aside:
   toc: true
-category: [video, video_detection]
+category: [AI, video, video_detection]
 tags: 资源
 ---
 <span id='head'></span>     
->相关资源：[目标检测资源](/cv/detection/2019/05/10/foundation.html)     
+>相关资源：[目标检测资源](/ai/cv/detection/2019/05/10/foundation.html)     
 
 
 

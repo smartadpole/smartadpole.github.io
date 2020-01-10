@@ -5,13 +5,13 @@ date:   2019-02-15 10:08:40 +0800
 key: paper-manage-20190215
 aside:
   toc: true
-category: [worktool]
+category: [tool, worktool]
 ---
 
 <img src="/assets/images/tools/work/paper_manage.jpeg" height="500">    
 
 ## 一、 制作 RSS 源
-有很多方法，此处仅介绍 [feed43](/blog/2019/02/13/subscribe.html)  
+有很多方法，此处仅介绍 [feed43](/ai/blog/2019/02/13/subscribe.html)  
 
 ## 二、 订阅 RSS
 **1. 常用 RSS 服务**：[Inoreader](https://www.inoreader.com)，[feedly](https://feedly.com)  

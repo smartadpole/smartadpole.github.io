@@ -5,7 +5,7 @@ date:   2019-03-11 14:14:40 +0800
 key: LiverCancer-DCIC-Data-20190311
 aside:
   toc: true
-category: [Competition]
+category: [AI, AI, Competition]
 sidebar:
   nav: LiverCancer
 ---

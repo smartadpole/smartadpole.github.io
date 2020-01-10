@@ -5,7 +5,7 @@ date:   2019-07-16 13:34:40 +0800
 key: rtc-2019-20190716
 aside:
   toc: true
-category: [Competition]
+category: [AI, AI, Competition]
 ---
 <span id='head'></span>
 >竞赛主页：<https://challenge.rtcdeveloper.com/ai-in-rtc/>    

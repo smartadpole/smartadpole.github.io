@@ -5,7 +5,7 @@ date:   2019-04-03 14:06:40 +0800
 key: veiw-synthesis-foundation-20190403
 aside:
   toc: true
-category: [CV, 3D, view_synthesis]
+category: [AI, CV, 3D, view_synthesis]
 tags: 资源
 ---
 <span id="head"></span>   

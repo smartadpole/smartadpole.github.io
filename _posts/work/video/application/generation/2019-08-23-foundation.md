@@ -5,7 +5,7 @@ date:   2019-08-23 15:16:40 +0800
 key: video-generation-foundation-20190823
 aside:
   toc: true
-category: [video, video_generation]
+category: [AI, video, video_generation]
 tags: 资源
 ---
 <span id='head'></span>

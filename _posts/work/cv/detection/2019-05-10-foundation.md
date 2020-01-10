@@ -5,7 +5,7 @@ date:   2019-05-10 15:00:40 +0800
 key: ObjectDetection-foundation-20190510
 aside:
   toc: true
-category: [CV, detection]
+category: [AI, CV, detection]
 tags: 资源
 ---
 <span id='head'></span>
@@ -75,7 +75,7 @@ ECCV 2018 *2018.7* [Paper](https://arxiv.org/abs/1807.11590)
 *2019-01* 香港中文大学-商汤联合实验室&Amazon Rekognition&南洋理工大学 [Paper](https://arxiv.org/abs/1901.03278) | [mmdetection](https://github.com/open-mmlab/mmdetection)   
 **Guided Anchoring**:​融合Anchor与关键点   
 
-## 4.3 [训练](/dl/foundation/2019/05/20/foundation.html#312-检测)
+## 4.3 [训练](/ai/dl/foundation/2019/05/20/foundation.html#312-检测)
 
 ## 4.4 单阶段
 ### 4.4.1 SSD 扩展
@@ -367,17 +367,17 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 针对类别不均衡和联合标注问题做了处理；竞赛的 3、4 名；      
 
 # 6 应用场景
-## 6.1 [人](/cv/human/human_detection/2019/10/11/foundation.html)
+## 6.1 [人](/ai/cv/human/human_detection/2019/10/11/foundation.html)
 
-## 6.2 [文本](/cv/ocr/2019/07/27/foundation.html#4-文本检测)
+## 6.2 [文本](/ai/cv/ocr/2019/07/27/foundation.html#4-文本检测)
 
 ## 6.3 交通
-### 6.3.1 [车道线](/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
+### 6.3.1 [车道线](/ai/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
 ### 6.3.2 交通标志
 [keras](https://github.com/kuhung/SSD_keras)    
-### 6.3.3 [车辆](/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
+### 6.3.3 [车辆](/ai/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
 ### 6.3.4 船体
-### 6.3.5 [安全带](/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)
+### 6.3.5 [安全带](/ai/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)
 
 *类别待整理*   
 
@@ -389,14 +389,14 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 ## 6.5 医疗
 ### 6.5.1 肺结节
 
-## 6.6 [视频](/video/video_detection/2019/05/22/foundation.html)
+## 6.6 [视频](/ai/video/video_detection/2019/05/22/foundation.html)
 
 ## 6.7 航拍
 1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
 
 ## 6.8 自然
-### 6.8.1 [云层](/cv/nature/sky/2019/10/16/foundation.html#31-检测)    
+### 6.8.1 [云层](/ai/cv/nature/sky/2019/10/16/foundation.html#31-检测)    
 ### 6.8.2 动物
 1. [Animal Detection in Man-made Environments](http://cn.arxiv.org/abs/1910.11443)    
 *2019-10-24* [paper](https://arxiv.org/abs/1910.11443)  | [supplementary](http://webdocs.cs.ualberta.ca/~vis/asingh1/docs/animal_detection_supp.pdf)   

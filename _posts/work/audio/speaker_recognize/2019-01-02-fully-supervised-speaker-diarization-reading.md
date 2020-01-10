@@ -5,7 +5,7 @@ date:   2019-01-02 10:06:40 +0800
 key: fully-supervise-sd-reading-20190102
 aside:
   toc: true
-category: [Audio, VoiceprintAnalysis, PaperReading]
+category: [AI, Audio, VoiceprintAnalysis, PaperReading]
 ---
 
 只要开始发言，每个说话者都会建立一个属于他的 RNN（递归神经网络） 模型，然后在过程中，不断更新相应的 RNN 状态；  
@@ -17,7 +17,7 @@ category: [Audio, VoiceprintAnalysis, PaperReading]
 
 
 ## 一、一句话总结  
-**第一句**：论文提出了[无限交替循环神经网络(UIS-RNN)](#UIS_RNN)，解决了以往[人声分割](/Audio/VoiceprintAnalysis/2018-12-29-speaker-diarization.html)算法无法进行监督训练的问题；         
+**第一句**：论文提出了[无限交替循环神经网络(UIS-RNN)](#UIS_RNN)，解决了以往[人声分割](/ai/Audio/VoiceprintAnalysis/2018-12-29-speaker-diarization.html)算法无法进行监督训练的问题；         
 **第二句**：[EER](#EER) 在 NIST SRE 2000 CALLHOME 上达到了 7.6%，比先前的基于聚类的方法（8.8%）和深度网络嵌入方法（9.9%）好；     
 
 ## 二、Q&A  

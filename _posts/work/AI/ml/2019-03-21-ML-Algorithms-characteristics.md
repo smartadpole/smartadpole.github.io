@@ -5,7 +5,7 @@ date:   2019-03-21 15:00:40 +0800
 key: ML-Alg-characteristics-20190321
 aside:
   toc: true
-category: [ML]
+category: [AI, ML]
 ---
 
 

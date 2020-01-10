@@ -5,11 +5,11 @@ date:   2019-08-14 18:21:40 +0800
 key: audio-retrieval-foundation-20190814
 aside:
   toc: true
-category: [audio, audio_retrieval]
+category: [AI, audio, audio_retrieval]
 tags: 资源
 ---
 <span id='head'></span>  
->相关资料：[视频检索资源](/video/video_retrieval/2019/06/21/foundation.html) · [图像检索资源](/cv/retrieval/2019/05/22/foundation.html)      
+>相关资料：[视频检索资源](/ai/video/video_retrieval/2019/06/21/foundation.html) · [图像检索资源](/ai/cv/retrieval/2019/05/22/foundation.html)      
 
 
 

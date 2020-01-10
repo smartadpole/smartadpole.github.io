@@ -5,7 +5,7 @@ date:   2019-09-01 18:35:40 +0800
 key: quadratic-form-20190901
 aside:
   toc: true
-category: [linear_algebra, la_quadratic_form]
+category: [school, linear_algebra, la_quadratic_form]
 ---
 <span id='head'></span>
 

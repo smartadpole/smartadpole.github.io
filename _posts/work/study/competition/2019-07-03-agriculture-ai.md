@@ -5,7 +5,7 @@ date:   2019-07-03 15:34:40 +0800
 key: agriculture-ai-20190703
 aside:
   toc: true
-category: [Competition, agriculture]
+category: [AI, AI, Competition, agriculture]
 ---
 <span id='head'></span>
 >竞赛主页：<https://tianchi.aliyun.com/competition/entrance/231717/introduction>   

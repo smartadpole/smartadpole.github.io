@@ -5,7 +5,7 @@ date:   2018-12-20 19:06:40 +0800
 key: programing-review-20181217
 aside:
   toc: true
-category: [g_foundation]
+category: [software, g_foundation]
 ---
 参考：AI 研习社——自动驾驶视角下的工程代码基础
 

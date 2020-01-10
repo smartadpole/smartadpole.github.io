@@ -5,7 +5,7 @@ date:   2019-07-03 16:56:40 +0800
 key: Weakly-3DGAN-read-20190703
 aside:
   toc: true
-category: [CV, 3D, reconstruction, paper_reading]
+category: [AI, CV, 3D, reconstruction, paper_reading]
 ---
 <span id='head'></span>   
 
@@ -18,7 +18,7 @@ category: [CV, 3D, reconstruction, paper_reading]
 
 `文章好难读哦`{:.info}   
 
-[实践指南](/cv/3d/reconstruction/paper_practice/2019/07/09/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-practice.html)    
+[实践指南](/ai/cv/3d/reconstruction/paper_practice/2019/07/09/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-practice.html)    
 
 本篇论文骨骼清奇，核心用的 GAN 网络，但是通篇都不用 GAN 相关的术语，而且还解释了文章思路与 GAN 不同，问题是解释又很牵强：    
 

@@ -5,7 +5,7 @@ date:   2019-10-22 14:18:40 +0800
 key: git-foundation-20191022
 aside:
   toc: true
-category: [git]
+category: [tool, git]
 ---
 <span id='head'></span>  
 <!--more-->

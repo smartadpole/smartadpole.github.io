@@ -5,12 +5,12 @@ date:   2019-06-12 18:16:40 +0800
 key: keyframe-foundation-20190612
 aside:
   toc: true
-category: [video, key_frame]
+category: [AI, video, key_frame]
 tags: 资源
 ---
 <span id='head'></span>
 >诸多视频分析技术都是以关键帧提取作为基础，在此就做一个汇总；    
-相关资源：[关键帧提取概述](/video/key_frame/2019/08/08/survey.html)    
+相关资源：[关键帧提取概述](/ai/video/key_frame/2019/08/08/survey.html)    
 
 <!--more-->
 `key frame extraction` · `bag of keyframes` · `key frame detection`    
@@ -152,14 +152,14 @@ $\bullet \bullet$ TransNet
 
 
 # 5 应用
-## 5.1  [手势识别](/video/video_classification/2019/05/14/foundation.html#91-手势识别)
+## 5.1  [手势识别](/ai/video/video_classification/2019/05/14/foundation.html#91-手势识别)
 
 1. [Fast and Robust Dynamic Hand Gesture Recognition via Key Frames Extraction and Feature Fusion](http://cn.arxiv.org/abs/1901.04622)   
 *2019-01-15* [paper](https://arxiv.org/abs/1901.04622) | [matlab](https://github.com/Ha0Tang/HandGestureRecognition)-official      
 $\bullet \bullet$ Hand Gesture Fusion     
 基于图像熵和视频聚类提取到视频中的关键帧，一次提高手势识别的准确度；   
 
-## 5.2 [动作识别](/video/video_classification/2019/05/14/foundation.html)
+## 5.2 [动作识别](/ai/video/video_classification/2019/05/14/foundation.html)
 
 1. [Deep Keyframe Detection in Human Action Videos](http://cn.arxiv.org/abs/1804.10021)   
 *2018-04-26* [paper](https://arxiv.org/abs/1804.10021)   
@@ -186,7 +186,7 @@ motivation：视频中包含大量静止画面，如果把这些帧送入网络�
 问题：测试时输入的帧也有可能不含有动作信息，为什么还要将各个帧的得分平均？是不是也可以考虑像训练集那样只考虑关键帧的预测结果；   
 
 
-## 5.3 [视频摘要](/video/video_summary/2019/05/14/foundation.html)
+## 5.3 [视频摘要](/ai/video/video_summary/2019/05/14/foundation.html)
 
 1. [Video Summarization with LongShort-term Memory](http://cn.arxiv.org/abs/1605.08110)    
 ECCV 2016 *2016-05-26* [paper](https://arxiv.org/abs/1605.08110) | [blog](https://blog.csdn.net/nana13628679472/article/details/82826592) | [theano](https://github.com/kezhang-cs/Video-Summarization-with-LSTM)              

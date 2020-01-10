@@ -5,7 +5,7 @@ date:   2019-09-16 14:16:40 +0800
 key: video-dna-introduction-20190916
 aside:
   toc: true
-category: [project, video_dna]
+category: [AI, project, video_dna]
 ---
 <span id='head'></span>  
 >阿里云[视频 DNA](https://ai.aliyun.com/vi/dna)    

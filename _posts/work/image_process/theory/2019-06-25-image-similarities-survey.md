@@ -5,7 +5,7 @@ date:   2019-06-25 18:06:40 +0800
 key: image-similarities-survey-20190625
 aside:
   toc: true
-category: [image_process]
+category: [AI, image_process]
 sidebar:
   nav: ImageRetrieval
 ---

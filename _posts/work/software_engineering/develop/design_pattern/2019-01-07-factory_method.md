@@ -5,7 +5,7 @@ date:   2019-01-07 8:06:40 +0800
 key: factory-method-20190107
 aside:
   toc: true
-category: [software, design_pattern]
+category: [software, software, design_pattern]
 ---
 
 ## 一、 UML 图

@@ -8,10 +8,10 @@ aside:
 tags: 研究员
 sidebar:
   nav: NDVR
-category: [video, video_retrieval]
+category: [AI, video, video_retrieval]
 ---
 <span id='head'></span>  
->[视频业务相关企业](/video/video_retrieval/2019/11/14/company.html)     
+>[视频业务相关企业](/ai/video/video_retrieval/2019/11/14/company.html)     
 
 
 <!--more-->

@@ -5,7 +5,7 @@ date:   2019-05-21 09:08:40 +0800
 key: deep-compression-foundation-20190521
 aside:
   toc: true
-category: [DL, compression]
+category: [AI, DL, compression]
 tags: 资源
 ---
 <span id='head'></span>  

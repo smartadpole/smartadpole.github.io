@@ -5,7 +5,7 @@ date:   2019-07-15 16:08:40 +0800
 key: anomaly-detect-foundation-20190715
 aside:
   toc: true
-category: [data_mining, anomaly_detect]
+category: [AI, data_mining, anomaly_detect]
 tags: 资源
 ---
 <span id='head'></span>  

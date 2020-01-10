@@ -5,7 +5,7 @@ date:   2019-01-28 10:07:40 +0800
 key: data-persistence-20190128
 aside:
   toc: true
-category: [python, pystl]
+category: [software, python, pystl]
 ---
 <span id='head'></span>  
 
@@ -15,15 +15,15 @@ Python 3.5.6 官方文档：<https://docs.python.org/3.5/library/persistence.htm
 ## 一、 数据存储和解析简介
 **1. 序列化**  
 serializing，将数据转换为一种可传输或可存储的格式；  
-这些功能集成在 [pickle](/python/pythonstl/2019/01/28/pickle.html) 和 [marshal](/python/pythonstl/2019/01/28/marshal.html) 中；其中，pickle 更为常用，因为他可以和存储序列化数据的库（如 shelve）集成；而对于 web 的应用，json 更为常用，因为他可以和 web 服务存储工具很好的集成在一块；    
+这些功能集成在 [pickle](/ai/python/pythonstl/2019/01/28/pickle.html) 和 [marshal](/ai/python/pythonstl/2019/01/28/marshal.html) 中；其中，pickle 更为常用，因为他可以和存储序列化数据的库（如 shelve）集成；而对于 web 的应用，json 更为常用，因为他可以和 web 服务存储工具很好的集成在一块；    
 **2. 存储数据**  
 - **不需要索引**的情况下，直接存储即可；  
-- 需要使用**键值索引**的，常用 [DBM](/python/pythonstl/2019/01/28/dbm.html) 来处理；
-  - 最简单的 DBM 变形就是 [shelve](/python/pythonstl/2019/01/28/shelve.html) ；
+- 需要使用**键值索引**的，常用 [DBM](/ai/python/pythonstl/2019/01/28/dbm.html) 来处理；
+  - 最简单的 DBM 变形就是 [shelve](/ai/python/pythonstl/2019/01/28/shelve.html) ；
   单独使用 DBM 的缺点：其键和值必须是字符串，且在数据库中访问值时不会自动重新创建对象；    
   shelve 的缺点：无法指定使用那种 DBM 格式；    
   - web 应用中会使用 json 和 DBM 组合；  
-- 处理**比键值更复杂**的数据库 [sqlite3](/python/pythonstl/2019/01/28/sqlite3.html)  
+- 处理**比键值更复杂**的数据库 [sqlite3](/ai/python/pythonstl/2019/01/28/sqlite3.html)  
 所有的访问都在同一个进程中，所以不存在网络通信延迟； sqlite3 很紧凑，所以很适合桌面应用或 web 应用中；  
 
 **3. 解析数据**    

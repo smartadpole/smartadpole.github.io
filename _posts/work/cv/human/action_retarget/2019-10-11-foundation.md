@@ -5,7 +5,7 @@ date:   2019-10-11 15:08:40 +0800
 key: action-retarget-foundation-20191011
 aside:
   toc: true
-category: [CV, human, action_retarget]
+category: [AI, CV, human, action_retarget]
 tags: 资源
 ---
 <span id='head'></span>  

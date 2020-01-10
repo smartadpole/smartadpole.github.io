@@ -5,7 +5,7 @@ date:   2019-07-23 10:06:40 +0800
 key: SteganoGAN-practice-20190723
 aside:
   toc: true
-category: [CV, info_security, digital_watermarking, paper_practice]
+category: [AI, CV, info_security, digital_watermarking, paper_practice]
 ---
 <span id='head'></span>
 

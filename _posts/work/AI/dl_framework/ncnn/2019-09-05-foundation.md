@@ -5,7 +5,7 @@ date:   2019-01-30 15:00:40 +0800
 key: ncnn-foundation-20190130
 aside:
   toc: true
-categories: [dl_frameworks, ncnn]
+category: [AI, dl_frameworks, ncnn]
 ---
 <span id='head'></span>  
 >腾讯 2017 年 7 月 开源的面向移动端的深度学习框架    

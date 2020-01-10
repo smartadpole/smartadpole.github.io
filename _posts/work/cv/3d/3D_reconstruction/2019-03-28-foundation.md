@@ -5,7 +5,7 @@ date:   2019-03-28 10:06:40 +0800
 key: 3D-reconstruction-foundation-20190328
 aside:
   toc: true
-category: [CV, 3D, reconstruction]
+category: [AI, CV, 3D, reconstruction]
 tags: 资源
 ---
 <span id="head"></span>   
@@ -43,7 +43,7 @@ NIPS 2016 *2016-10-24* [paper](https://arxiv.org/abs/1610.07584) | [project](htt
 CVPR 2017 *2017* [paper](https://zpascal.net/cvpr2017/Park_Transformation-Grounded_Image_Generation_CVPR_2017_paper.pdf) | [project](http://www.cs.unc.edu/%7Eeunbyung/tvsn/) | [torch](https://github.com/silverbottlep/tvsn)-official    
 
 1. [Weakly supervised 3D Reconstruction with Adversarial Constraint](http://cn.arxiv.org/abs/1705.10904)   
-*2017-05-31* [Paper](https://arxiv.org/abs/1705.10904) | [theano](https://github.com/jgwak/McRecon) | [解读](/cv/3d/reconstruction/paper_reading/2019/07/03/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-reading.html)    
+*2017-05-31* [Paper](https://arxiv.org/abs/1705.10904) | [theano](https://github.com/jgwak/McRecon) | [解读](/ai/cv/3d/reconstruction/paper_reading/2019/07/03/Weakly-supervised-3D-Reconstruction-with-Adversarial-Constraint-reading.html)    
 
 
 1. [3D Shape Induction from 2D Views of Multiple Objects](http://cn.arxiv.org/abs/1612.05872)   
@@ -55,7 +55,7 @@ NIPS 2018, VON, 谷歌 [Paper](https://arxiv.org/abs/1812.02725) | [Pytorch](htt
 *`单视角` · `GAN + AE` · `WGAN-GP`*    
 **单张图像生成三维图像**：启发自经典的图形学，我们将三维图像生成分为形状、视角和纹理三个部分，并使用 GAN 进行学习；网络先学习到三维形状，然后转为 2.5D（即轮廓和深度图），再对深度图施加纹理，以生成逼真的图像；   
 文章使用独立的网络完成上述各操作，包括 $GAN_{shape}$（**WGAN-GP**），$GAN_{texture}$（**PatchGAN** + **LS-GAN** + **AE-ResNet**），$Estimate_{texture}$（AE-ResNet），$Estimate_{2.5D}$（AE-ResNet）；      
-**$GAN_{shape}$**：2D 输入用的 Pix3D 数据集，3D 输入用的 ShapeNet 数据集；（均使用了椅子和车分类）；使用 [FID](/dl/gan/2019/03/26/GAN-survey.html#45-fid) 评估 GAN 的效果；    
+**$GAN_{shape}$**：2D 输入用的 Pix3D 数据集，3D 输入用的 ShapeNet 数据集；（均使用了椅子和车分类）；使用 [FID](/ai/dl/gan/2019/03/26/GAN-survey.html#45-fid) 评估 GAN 的效果；    
 >最终效果是挺好，只是从理论上看速度就够慢的；不过开源了这么多代码，也是挺实用；    
 
 1. [GAL: Geometric Adversarial Loss for Single-View 3D-Object Reconstruction](https://xjqi.github.io/GAL.pdf)   

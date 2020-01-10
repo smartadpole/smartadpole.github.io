@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: Unsupervised
-category: [ML, unsupervised]
+category: [AI, ML, unsupervised]
 ---
 
 >层次聚类算法和划分式聚类算往往只能发现凸形的聚类簇；为了弥补这一缺陷，发现各种任意形状的聚类簇，提出了基于密度的聚类算法；而 Density-based Spatial Clustering of Applications with Noise（**DBSCAN**）就是其中一种简单的实现；它是 1996 年由 M. Ester, H. Kriegel, J. Sander 及 X. Xu 提出的[聚类算法]()    

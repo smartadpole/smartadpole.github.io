@@ -5,7 +5,7 @@ date:   2019-06-17 14:18:40 +0800
 key: weixin-foundation-20190617
 aside:
   toc: true
-category: [weixin]
+category: [tool, weixin]
 tags: 资源
 ---
 <span id='head'></span>  

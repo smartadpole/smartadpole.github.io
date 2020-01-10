@@ -5,7 +5,7 @@ date:   2019-09-16 18:00:40 +0800
 key: nnef-foundation-20190916
 aside:
   toc: true
-categories: [dl_frameworks, nnef]
+category: [AI, dl_frameworks, nnef]
 ---
 <span id='head'></span>  
 >2017-12-19 Facebook、微软联合推出​的一个开放标准，旨在不同框架之间完成互操作；着力于结果模型的转化；     

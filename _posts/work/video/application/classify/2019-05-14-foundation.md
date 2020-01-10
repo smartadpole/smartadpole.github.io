@@ -5,7 +5,7 @@ date:   2019-05-14 11:06:40 +0800
 key: video-classify-foundation-20190514
 aside:
   toc: true
-category: [video, video_classification]
+category: [AI, video, video_classification]
 tags: 资源
 ---
 <span id='head'></span>
@@ -55,7 +55,7 @@ ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)
 # 3 经典
 
 1. [StNet: Local and Global Spatial-Temporal Modeling for Action Recognition](http://cn.arxiv.org/abs/1811.01549)    
-AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [pytorch](https://github.com/BigLazyPig/Pytorch-StNet-Full-Implement)-full | [paddlepaddle](https://github.com/PaddlePaddle/models/tree/971509fab5baebca2bfb6fdb32d9b6199197a82a/PaddleCV/video/models/stnet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502) | [解读](/video/video_classification/paper_reading/2019/05/23/StNet-Local-and-Global-Spatial-Temporal-Modeling-for-Action-Recognition.html)    
+AAAI 2019 *2018-11-05* 百度 MIT [paper](https://arxiv.org/abs/1811.01549) | [pytorch](https://github.com/hyperfraise/Pytorch-StNet) | [pytorch](https://github.com/BigLazyPig/Pytorch-StNet-Full-Implement)-full | [paddlepaddle](https://github.com/PaddlePaddle/models/tree/971509fab5baebca2bfb6fdb32d9b6199197a82a/PaddleCV/video/models/stnet) | [机器之心](https://zhuanlan.zhihu.com/p/55901502) | [解读](/ai/video/video_classification/paper_reading/2019/05/23/StNet-Local-and-Global-Spatial-Temporal-Modeling-for-Action-Recognition.html)    
 
 1. [Tiny Video Networks](http://cn.arxiv.org/abs/1910.06961)     
 *2019-10-15* [paper](https://arxiv.org/abs/1910.06961)     
@@ -216,7 +216,7 @@ ICCV 2017 oral 中科院深圳先进·院乔宇
 2017 google cloud & YouTube-8M 挑战赛第四名作品；   
 
 ## 5.7 图网络
->[图卷积网络资源](/dl/gcn/2019/10/16/foundation.html)     
+>[图卷积网络资源](/ai/dl/gcn/2019/10/16/foundation.html)     
 
 1. [Graph-based Spatial-temporal Feature Learning for Neuromorphic Vision Sensing](http://cn.arxiv.org/abs/1910.03579)     
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03579)      
@@ -229,12 +229,12 @@ ICCV 2017 oral 中科院深圳先进·院乔宇
 # 6 扩展技术
 ## 6.1 注意力
 1. [Action Recognition using Visual Attention](http://cn.arxiv.org/abs/1511.04119)   
-*2015-11-12* [paper](https://arxiv.org/abs/1511.04119) | [theano](https://github.com/kracwarlock/action-recognition-visual-attention) | [张智勐SDU](https://blog.csdn.net/zzmshuai/article/details/86063410) | [解读](/video/video_classification/paper_reading/2019/05/19/Action-recognition-using-visual-attention.html)    
+*2015-11-12* [paper](https://arxiv.org/abs/1511.04119) | [theano](https://github.com/kracwarlock/action-recognition-visual-attention) | [张智勐SDU](https://blog.csdn.net/zzmshuai/article/details/86063410) | [解读](/ai/video/video_classification/paper_reading/2019/05/19/Action-recognition-using-visual-attention.html)    
 
 1. [Attentional Pooling for Action Recognition](#attention_pooling)   
 
 1. [Where and When to Look? Spatio-temporal Attention for Action Recognition in Videos](http://cn.arxiv.org/abs/1810.04511)   
-ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511) | [解读](/video/video_classification/paper_reading/2019/05/19/where-and-when-to-look-spatio-temporal-attention-for-action-recognition-in-videos.html)   
+ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511) | [解读](/ai/video/video_classification/paper_reading/2019/05/19/where-and-when-to-look-spatio-temporal-attention-for-action-recognition-in-videos.html)   
 
 1. [Semantic Adversarial Network with Multi-scale Pyramid Attention for Video Classification](http://cn.arxiv.org/abs/1902.02155)   
 *2019-03-06* [paper](https://arxiv.org/abs/1902.02155)   
@@ -244,13 +244,13 @@ ICLR 2019 *2018-10-01* [paper](https://arxiv.org/abs/1810.04511) | [解读](/vid
 CVPR 2019 *2018-12-06* DeepMind [paper](https://arxiv.org/abs/1812.02707)   
 
 1. [Marginalized Average Attentional Network for Weakly-Supervised Learning](https://openreview.net/pdf?id=HkljioCcFQ)   
-ICML 2019 *2019-03-05* [paper](https://openreview.net/pdf?id=HkljioCcFQ) | [pytorch](https://github.com/yyuanad/MAAN) | [openreview](https://openreview.net/forum?id=HkljioCcFQ) | [解读](/video/video_classification/paper_reading/2019/05/23/Marginalized-Average-Attentional-Network-for-Weakly-Supervised-Learning.html)              
+ICML 2019 *2019-03-05* [paper](https://openreview.net/pdf?id=HkljioCcFQ) | [pytorch](https://github.com/yyuanad/MAAN) | [openreview](https://openreview.net/forum?id=HkljioCcFQ) | [解读](/ai/video/video_classification/paper_reading/2019/05/23/Marginalized-Average-Attentional-Network-for-Weakly-Supervised-Learning.html)              
 
 ## 6.2 符号图
 1. [Neural Message Passing on Hybrid Spatio-Temporal Visual and Symbolic Graphs for Video Understanding](http://cn.arxiv.org/abs/1905.07385)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07385)      
 
-## 6.3 [关键帧](/video/key_frame/2019/06/12/foundation.html#52-动作识别)     
+## 6.3 [关键帧](/ai/video/key_frame/2019/06/12/foundation.html#52-动作识别)     
 
 
 # 7 改进方向
@@ -313,7 +313,7 @@ CVPR 2019 *2019-05-22* [paper](https://arxiv.org/abs/1905.09265) | [pytorch](htt
 
 ## 7.3 多模态
 1. [Unseen Action Recognition with Multimodal Learning](http://cn.arxiv.org/abs/1806.08251)   
-*2018-06-21* [paper](https://arxiv.org/abs/1806.08251) | [pytorch](https://github.com/piergiaj/mlb-youtube) | [解读](/video/video_classification/paper_reading/2019/05/23/Unseen-Action-Recognition-with-Multimodal-Learning.html)         
+*2018-06-21* [paper](https://arxiv.org/abs/1806.08251) | [pytorch](https://github.com/piergiaj/mlb-youtube) | [解读](/ai/video/video_classification/paper_reading/2019/05/23/Unseen-Action-Recognition-with-Multimodal-Learning.html)         
 
 1. [EPIC-Fusion: Audio-Visual Temporal Binding for Egocentric Action Recognition](http://cn.arxiv.org/abs/1908.08498)    
 ICCV 2019 *2019-08-22* [paper](https://arxiv.org/abs/1908.08498)     
@@ -325,7 +325,7 @@ ICCV 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06693)
 
 ## 7.4 AutoML
 1. [Video Action Recognition Via Neural Architecture Searching](http://cn.arxiv.org/abs/1907.04632)   
-ICIP 2019 *2019-07-10* [paper](https://arxiv.org/abs/1907.04632) | [解读](/video/video_classification/paper_reading/2019/07/13/Video-Action-Recognition-Via-Neural-Architecture-Searching.html)    
+ICIP 2019 *2019-07-10* [paper](https://arxiv.org/abs/1907.04632) | [解读](/ai/video/video_classification/paper_reading/2019/07/13/Video-Action-Recognition-Via-Neural-Architecture-Searching.html)    
 
 
 # 8 数据类型
@@ -340,7 +340,7 @@ CVPR 2017 *2017-03-09* [paper](https://arxiv.org/abs/1703.03329) | [caffe](https
 
 # 9 应用
 ## 9.1 手势识别
-### 9.1.1 [关键帧](/video/key_frame/2019/06/12/foundation.html#51--手势识别)
+### 9.1.1 [关键帧](/ai/video/key_frame/2019/06/12/foundation.html#51--手势识别)
 
 
 # 10 数据集

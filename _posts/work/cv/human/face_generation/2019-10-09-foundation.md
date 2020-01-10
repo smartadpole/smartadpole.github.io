@@ -5,11 +5,11 @@ date:   2019-10-09 17:09:40 +0800
 key: face-generation-foundation-20191009
 aside:
   toc: true
-category: [CV, human, face_generation]
+category: [AI, CV, human, face_generation]
 tags: 资源
 ---
 <span id='head'></span>  
->[通用图像生成资源](/cv/image_generation/2019/03/29/image-generation.html)     
+>[通用图像生成资源](/ai/cv/image_generation/2019/03/29/image-generation.html)     
 
 
 <!--more-->

@@ -5,7 +5,7 @@ date:   2019-03-29 10:06:40 +0800
 key: point-cloud-foundation-20190329
 aside:
   toc: true
-category: [CV, 3D, point_cloud]
+category: [AI, CV, 3D, point_cloud]
 tags: 资源
 ---
 

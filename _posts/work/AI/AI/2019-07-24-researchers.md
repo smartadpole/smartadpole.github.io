@@ -6,6 +6,7 @@ key: ai-researchers-20190724
 aside:
   toc: true
 tags: 资源
+category: [AI, AI_]
 ---
 <span id='head'></span>  
 

@@ -5,7 +5,7 @@ date:   2019-07-25 10:34:40 +0800
 key: Landmark-Retrieval-20190725
 aside:
   toc: true
-category: [Competition]
+category: [AI, AI, Competition]
 ---
 <span id='head'></span>
 >Google Landmark Retrieval 2019: <https://www.kaggle.com/c/landmark-retrieval-2019>    
@@ -16,7 +16,7 @@ category: [Competition]
 
 
 ## 一、 介绍
-[相关论文](/cv/retrival/2019/05/22/foundation.html)       
+[相关论文](/ai/cv/retrival/2019/05/22/foundation.html)       
 
 ## 二、 数据
 70万数据，10万建筑物；其中测试集与标志性建筑物识别相同；      
@@ -40,7 +40,7 @@ $Q$ 是 待查询的建筑物数量（index 数据集）；$q$ 是查询图像�
 
 ## 四、 思路    
 官方推荐参考其在 ICCV 2017 上的文章 [DELF](https://arxiv.org/abs/1612.06321)；    
-[相关论文](/cv/retrival/2019/05/22/foundation.html)    
+[相关论文](/ai/cv/retrival/2019/05/22/foundation.html)    
 
 ## 五、 榜单
 最佳 0.37；    

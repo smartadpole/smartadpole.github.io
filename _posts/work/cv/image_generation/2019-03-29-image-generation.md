@@ -5,7 +5,7 @@ date:   2019-03-29 11:06:40 +0800
 key: image-generation-foundation-20190329
 aside:
   toc: true
-category: [CV, image_generation]
+category: [AI, CV, image_generation]
 tags: 资源
 ---
 <span id='head'></span>  
@@ -65,7 +65,7 @@ ECCV 2018 *2018-04-20* [paper](https://arxiv.org/abs/1804.07723) | [pytorch](htt
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09010)    
 
 ## 3.1 应用
-### 3.1.1 [人脸](/cv/human/facial_inpaint/2019/05/14/foundation.html)
+### 3.1.1 [人脸](/ai/cv/human/facial_inpaint/2019/05/14/foundation.html)
 
 # 4 图像补全
 >比图像修复更进一步，能从一个图像片段“推断”出外延的部分，补全成整个画面；是斯坦福大学 CS230 课程中 Mark Sabini 的期末作品；     
@@ -94,7 +94,7 @@ VisDA-2019 *2019-10-08* [paper](https://arxiv.org/abs/1910.03548) | [pytorch](ht
 # 6 图像编辑
 >替换掉图像中的某些物件或部位；    
 
-## 6.1 [人脸编辑](/cv/human/facial_attribute_editing/2019/10/09/foundation.html)
+## 6.1 [人脸编辑](/ai/cv/human/facial_attribute_editing/2019/10/09/foundation.html)
 
 ## 6.2 去遮挡
 `跟图像修复有啥区别`{:.warning}   
@@ -113,7 +113,7 @@ VisDA-2019 *2019-10-08* [paper](https://arxiv.org/abs/1910.03548) | [pytorch](ht
 ## 7.3 3D
 
 ## 7.4 应用
-### 7.4.1 [人脸](/cv/human/face_generation/2019/10/09/foundation.html)
+### 7.4.1 [人脸](/ai/cv/human/face_generation/2019/10/09/foundation.html)
 ### 7.4.2 场景生成
 
 ### 7.4.3 纹理生成

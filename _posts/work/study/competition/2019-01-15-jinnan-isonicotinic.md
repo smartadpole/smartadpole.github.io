@@ -5,7 +5,7 @@ date:   2019-01-13 8:06:40 +0800
 key: jinnan-isonicotinic-20190113
 aside:
   toc: true
-category: [Competition]
+category: [AI, AI, Competition]
 ---
 
 >**津南数字制造算法挑战赛**，着眼于智能制造；  

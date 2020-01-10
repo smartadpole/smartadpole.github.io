@@ -5,12 +5,12 @@ date:   2019-07-12 15:20:40 +0800
 key: vehicle-recognition-foundation-20190712
 aside:
   toc: true
-category: [CV, vehicle, vehicle_recognition]
+category: [AI, CV, vehicle, vehicle_recognition]
 tags: 资源
 ---
 <span id='head'></span>
 >车辆相关属性识别；    
-[物体分类资源](/cv/classification/2019/05/15/foundation.html)
+[物体分类资源](/ai/cv/classification/2019/05/15/foundation.html)
 
 <!--more-->
 

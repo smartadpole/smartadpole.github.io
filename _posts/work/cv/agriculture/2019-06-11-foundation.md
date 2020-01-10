@@ -5,7 +5,7 @@ date:   2019-06-11 18:00:40 +0800
 key: agriculture-foundation-20190611
 aside:
   toc: true
-category: [CV, agriculture]
+category: [AI, CV, agriculture]
 tags: 资源
 ---
 <span id='head'></span>  

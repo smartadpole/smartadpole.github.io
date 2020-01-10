@@ -5,7 +5,7 @@ date:   2019-10-09 17:06:40 +0800
 key: fitting-room-foundation-20191009
 aside:
   toc: true
-category: [CV, human, fitting_room]
+category: [AI, CV, human, fitting_room]
 tags: 资源
 ---
 <span id='head'></span>  

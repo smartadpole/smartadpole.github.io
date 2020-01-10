@@ -5,7 +5,7 @@ date:   2019-05-14 14:06:40 +0800
 key: pose-estimate-foundation-20190514
 aside:
   toc: true
-category: [CV, human, pose_estimation]
+category: [AI, CV, human, pose_estimation]
 tags: 资源
 ---
 <span id='head'></span>
@@ -13,7 +13,7 @@ tags: 资源
 
 >又叫动作识别，给定一幅图像或一段视频，人体姿态识别就是去恢复其中人体关节点位置的过程；     
 当然，后来也发展出，根据已有的姿态序列，预测下一个姿态；       
-[视频动作识别资源](/video/video_classification/2019/05/14/foundation.html)     
+[视频动作识别资源](/ai/video/video_classification/2019/05/14/foundation.html)     
 
 <!--more-->
 

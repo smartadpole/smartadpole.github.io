@@ -5,7 +5,7 @@ date:   2019-05-21 08:08:40 +0800
 key: auto-ml-foundation-20190521
 aside:
   toc: true
-category: [DL, automl]
+category: [AI, DL, automl]
 tags: 资源
 ---
 <span id='head'></span>  

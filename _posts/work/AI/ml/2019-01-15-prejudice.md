@@ -5,7 +5,7 @@ date:   2019-01-15 16:03:40 +0800
 key: ml-prejudice-20190115
 aside:
   toc: true
-category: [ML]
+category: [AI, ML]
 ---
 
 ## 一、 常见误区

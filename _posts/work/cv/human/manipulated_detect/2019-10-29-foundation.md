@@ -5,7 +5,7 @@ date:   2019-10-29 17:09:40 +0800
 key: facial-manipulated-detect-20191029
 aside:
   toc: true
-category: [CV, human, manipulated_detect]
+category: [AI, CV, human, manipulated_detect]
 tags: 资源
 ---
 <span id='head'></span>  

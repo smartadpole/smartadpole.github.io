@@ -5,7 +5,7 @@ date:   2019-04-23 16:08:40 +0800
 key: autoencoder-foundation-20190423
 aside:
   toc: true
-category: [DL, autoencoder]
+category: [AI, DL, autoencoder]
 tags: 资源
 ---
 <span id='head'></span>  
@@ -48,7 +48,7 @@ ICML: 2018 workshop *2018-07-12* [Paper](https://arxiv.org/abs/1807.04689)
 1. [Unsupervised Linear and Nonlinear Channel Equalization and Decoding using Variational Autoencoders](http://cn.arxiv.org/abs/1905.08795)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08795)   
 
-## 1.3 [三维重建](/cv/3dreconstruction/2019/03/28/foundation.html#22-自编码)   
+## 1.3 [三维重建](/ai/cv/3dreconstruction/2019/03/28/foundation.html#22-自编码)   
 
 ## 1.4 3D VAE
 1. [Generative and Discriminative Voxel Modeling with Convolutional Neural Networks](http://cn.arxiv.org/abs/1608.04236)    
@@ -81,13 +81,13 @@ AAE：对抗自编码网络
 
 ## 1.6 应用
 ### 1.6.1 人脸生成
-[3D 人脸生成](/cv/imagegeneration/2019/03/29/foundation.html#121-3d-人脸生成)   
+[3D 人脸生成](/ai/cv/imagegeneration/2019/03/29/foundation.html#121-3d-人脸生成)   
 
 ### 1.6.2 水下摄影图像增强
-[水下摄影图像增强](/cv/image_enhancement/2019/05/23/foundation.html#241-自编码)   
+[水下摄影图像增强](/ai/cv/image_enhancement/2019/05/23/foundation.html#241-自编码)   
 
 ### 1.6.3 数据增强
-[数据增强](/cv/data_augementation/2019/05/20/foundation.html#14-autoencoder)    
+[数据增强](/ai/cv/data_augementation/2019/05/20/foundation.html#14-autoencoder)    
 
 ### 1.6.4 其他
 1. [Authoring image decompositions with generative models](http://cn.arxiv.org/abs/1612.01479)    

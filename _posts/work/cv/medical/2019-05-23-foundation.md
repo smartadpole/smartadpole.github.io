@@ -5,11 +5,11 @@ date:   2019-05-23 11:18:40 +0800
 key: medical-foundation-20190523
 aside:
   toc: true
-category: [CV, medical]
+category: [AI, CV, medical]
 tags: 资源
 ---
 <span id='head'></span>  
->[通用物体分割资源](/cv/segmentation/2019/05/05/foundation.html)   
+>[通用物体分割资源](/ai/cv/segmentation/2019/05/05/foundation.html)   
 
 <!--more-->
 
@@ -85,7 +85,7 @@ GAN 分割腹部器官——肝、胰和脾；
 
 
 # 5 关键点
->[人体关键点检测](/cv/human/body_landmark/2019/05/14/foundation.html)    
+>[人体关键点检测](/ai/cv/human/body_landmark/2019/05/14/foundation.html)    
 
 ## 5.1 老年痴呆
 1. [Limitations and Biases in Facial Landmark Detection -- An Empirical Study on Older Adults with Dementia](http://cn.arxiv.org/abs/1905.07446)   

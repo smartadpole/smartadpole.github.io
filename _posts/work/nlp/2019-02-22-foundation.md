@@ -6,7 +6,7 @@ key: nlp-foundation-20190222
 aside:
   toc: true
 tags: 资源
-category: [NLP]
+category: [AI, AI, NLP]
 ---
 
 

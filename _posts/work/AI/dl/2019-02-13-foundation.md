@@ -5,7 +5,7 @@ date:   2019-02-13 14:08:40 +0800
 key: dl-foundation-20190213
 aside:
   toc: true
-category: [DL]
+category: [AI, DL]
 tags: 资源
 ---
 
@@ -41,7 +41,7 @@ tags: 资源
 # 附录
 ## A 福利
 <span id="rss">**1. RSS 订阅**</span>  
-[RSS 使用教程](/worktool/2019/02/15/paper-manage.html)  
+[RSS 使用教程](/tool/worktool/2019/02/15/paper-manage.html)  
 
 | 网站 | 官方订阅源 | DIY 订阅源 |
 | ---  | --- | --- |

@@ -6,7 +6,7 @@ key: audio-requirement-20181229
 aside:
   toc: true
 tags: 需求
-category: [audio, voiceprint_analysis]
+category: [AI, audio, voiceprint_analysis]
 ---
 <span id='head'></span>  
 >

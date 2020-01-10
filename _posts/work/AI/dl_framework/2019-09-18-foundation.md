@@ -5,7 +5,7 @@ date:   2019-09-18 14:10:40 +0800
 key: dl-framework-foundation-20190918
 aside:
   toc: true
-categories: [dl_frameworks]
+category: [AI, dl_frameworks]
 ---
 <span id='head'></span>  
 

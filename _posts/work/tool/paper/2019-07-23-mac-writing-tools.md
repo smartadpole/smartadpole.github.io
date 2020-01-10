@@ -5,7 +5,7 @@ date:   2019-07-23 09:08:40 +0800
 key: mac-writing-tool-20190723
 aside:
   toc: true
-category: [worktool]
+category: [tool, worktool]
 ---
 <span id='head'></span>  
 

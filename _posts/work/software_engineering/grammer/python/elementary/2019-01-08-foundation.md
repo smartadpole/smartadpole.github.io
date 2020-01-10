@@ -6,7 +6,7 @@ key: python-foundation-20190108
 aside:
   toc: true
 tags: 资源
-category: [python]
+category: [software, python]
 ---
 
 ## 一、 介绍

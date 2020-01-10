@@ -6,6 +6,7 @@ key: ml-foundation-20190124
 aside:
   toc: true
 tags: 资源
+category: [AI]
 ---
 
 

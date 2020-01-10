@@ -5,11 +5,11 @@ date:   2019-05-15 18:00:40 +0800
 key: object-classify-foundation-20190515
 aside:
   toc: true
-category: [CV, classification]
+category: [AI, CV, classification]
 tags: 资源
 ---
 <span id='head'></span>  
->[CNN](/dl/cnn/2019/05/21/foundation.html)     
+>[CNN](/ai/dl/cnn/2019/05/21/foundation.html)     
 
 
 <!--more-->  
@@ -46,7 +46,7 @@ CVPR 2019 *2019-02-26* [paper](https://arxiv.org/abs/1902.09720)
 
 
 # 6 应用
-## 6.1 [OCR](/cv/ocr/2019/07/27/foundation.html#3-字符识别)
+## 6.1 [OCR](/ai/cv/ocr/2019/07/27/foundation.html#3-字符识别)
 
 ## 6.2 金融
 `股票预测`    
@@ -56,7 +56,7 @@ ICACDS 2019 *2019-05-18* [paper](https://arxiv.org/abs/1905.07581)
 
 
 ## 6.3 交通
-### 6.3.1 [车辆识别](/cv/vehicle/vehicle_recognition/2019/07/12/foundation.html)
+### 6.3.1 [车辆识别](/ai/cv/vehicle/vehicle_recognition/2019/07/12/foundation.html)
 
 ## 6.4 自然
 ### 6.4.1 叶片分类
@@ -117,14 +117,14 @@ CVPR 2009 *2009-12* [ppt](http://www.cs.bilkent.edu.tr/~cansin/projects/cs554-vi
 CVPR 2019 *2019-07-12* [paper](https://arxiv.org/abs/1907.05552)   
 
 ## 6.9 人
-### 6.9.1 [人脸识别](/cv/human/face_recognization/2019/05/14/foundation.html)
-### 6.9.2 [步态识别](/cv/human/gait_recognition/2019/05/21/foundation.html)
+### 6.9.1 [人脸识别](/ai/cv/human/face_recognization/2019/05/14/foundation.html)
+### 6.9.2 [步态识别](/ai/cv/human/gait_recognition/2019/05/21/foundation.html)
 ### 6.9.3 指纹识别
 1. [A Novel Approach for Partial Fingerprint Identification to Mitigate MasterPrint Generation](http://cn.arxiv.org/abs/1911.03052)      
 *2019-11-08* [paper](https://arxiv.org/abs/1911.03052)     
 
 
-# 7 [训练](/dl/foundation/2019/05/20/foundation.html#311-分类)
+# 7 [训练](/ai/dl/foundation/2019/05/20/foundation.html#311-分类)
 
 # 8 数据集
 1. [Places : A 10 milLion image database for scene recognition](http://places2.csail.mit.edu/PAMI_places.pdf)     

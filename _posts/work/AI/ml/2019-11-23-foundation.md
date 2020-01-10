@@ -5,7 +5,7 @@ date:   2019-11-23 22:41:40 +0800
 key: ml-foundation-20191123
 aside:
   toc: true
-category: [ML]
+category: [AI, ML]
 tags: 资源
 ---
 <span id='head'></span>  

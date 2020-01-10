@@ -5,11 +5,11 @@ date:   2019-07-15 17:00:40 +0800
 key: adversarial-attack-foundation-20190715
 aside:
   toc: true
-category: [CV, adversarial_attack]
+category: [AI, CV, adversarial_attack]
 tags: 资源
 ---
 <span id='head'></span>  
->相关资源：[对抗攻击概述](/cv/adversarial_attack/2019/09/03/survey.html)       
+>相关资源：[对抗攻击概述](/ai/cv/adversarial_attack/2019/09/03/survey.html)       
 
 <!--more-->
 # 1 综述

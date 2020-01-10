@@ -5,7 +5,7 @@ date:   2019-03-21 10:08:40 +0800
 key: conv-20190321
 aside:
   toc: true
-category: [DL, foundation]
+category: [AI, DL, foundation]
 ---
 
 >「卷积」通常是「参数共享卷积」的简称；且该卷积与数学中的卷积操作不是一个概念；  

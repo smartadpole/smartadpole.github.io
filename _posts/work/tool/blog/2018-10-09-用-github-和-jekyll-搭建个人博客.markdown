@@ -5,7 +5,7 @@ date:   2018-10-09 14:44:40 +0800
 key: gitjek20181009
 aside:
   toc: true
-category: [blog]
+category: [tool, blog]
 ---
 
 

@@ -5,7 +5,7 @@ date:   2019-01-04 10:51:40 +0800
 key: voice-activity-detector-20190104
 aside:
   toc: true
-category: [Audio, VoiceprintAnalysis]
+category: [AI, Audio, VoiceprintAnalysis]
 ---
 
 >又叫语音活性检测（voice-activity-detector，**VAD**，speech activity detection，speech detection）；  

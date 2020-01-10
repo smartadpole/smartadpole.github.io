@@ -5,7 +5,7 @@ date:   2018-12-29 8:16:40 +0800
 key: speaker-diarization-20181229
 aside:
   toc: true
-category: [Audio, VoiceprintAnalysis]
+category: [AI, Audio, VoiceprintAnalysis]
 ---
 
 >又叫人声分离/割（speaker diarization）；  

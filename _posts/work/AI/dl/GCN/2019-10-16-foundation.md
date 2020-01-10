@@ -5,7 +5,7 @@ date:   2019-10-16 14:18:40 +0800
 key: gcn-foundation-20191016
 aside:
   toc: true
-category: [DL, GCN]
+category: [AI, DL, GCN]
 tags: 资源
 ---
 <span id='head'></span>  
@@ -30,7 +30,7 @@ ICCV 2019 oral *2019-04-07* [paper](https://arxiv.org/abs/1904.03751)
 # 4 图卷积
 
 # 5 应用
-## 5.1 [动作识别](/video/video_classification/2019/05/14/foundation.html#57-图网络) 
+## 5.1 [动作识别](/ai/video/video_classification/2019/05/14/foundation.html#57-图网络) 
 
 -------------------  
 [End](#head)

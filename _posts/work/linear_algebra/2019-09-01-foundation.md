@@ -5,7 +5,7 @@ date:   2019-09-01 18:30:40 +0800
 key: LinearAlgebra-foundation-20190901
 aside:
   toc: true
-category: [linear_algebra]
+category: [school, linear_algebra]
 ---
 <span id='head'></span>
 

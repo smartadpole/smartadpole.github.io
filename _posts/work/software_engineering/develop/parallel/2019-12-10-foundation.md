@@ -5,7 +5,7 @@ date:   2019-12-10 18:27:40 +0800
 key: parallel-foundation-20191210
 aside:
   toc: true
-category: [parallel]
+category: [software, parallel]
 ---
 <span id='head'></span>
 

@@ -5,12 +5,12 @@ date:   2019-05-27 16:30:40 +0800
 key: divide-conquer-leetcode-20190527
 aside:
   toc: true
-category: [algorithms, divide_conquer, leetcode]
+category: [software, algorithms, divide_conquer, leetcode]
 ---
 
 >
 
-[分治算法解读](/algorithms/divide_conquer/2019/05/27/divide_conquer.html)    
+[分治算法解读](/ai/algorithms/divide_conquer/2019/05/27/divide_conquer.html)    
 
 # 1 Easy
 ## 1.1 Majority Element

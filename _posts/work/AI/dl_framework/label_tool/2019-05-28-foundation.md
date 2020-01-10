@@ -5,7 +5,7 @@ date:   2019-05-28 15:00:40 +0800
 key: label-tool-foundation-20190528
 aside:
   toc: true
-categories: [dl_frameworks, label_tool]
+category: [AI, dl_frameworks, label_tool]
 ---
 <span id='head'></span>  
 

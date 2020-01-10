@@ -5,7 +5,7 @@ date:   2019-05-14 15:06:40 +0800
 key: video-super-resolution-foundation-20190514
 aside:
   toc: true
-category: [video, video_super_resolution]
+category: [AI, video, video_super_resolution]
 tags: 资源
 ---
 

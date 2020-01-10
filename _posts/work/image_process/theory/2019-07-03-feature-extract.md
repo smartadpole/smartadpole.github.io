@@ -5,7 +5,7 @@ date:   2019-07-03 10:06:40 +0800
 key: feature-extract-survey-20190703
 aside:
   toc: true
-category: [image_process]
+category: [AI, image_process]
 sidebar:
   nav: ImageRetrieval
 ---

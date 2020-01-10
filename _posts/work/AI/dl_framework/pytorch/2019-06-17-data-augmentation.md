@@ -5,7 +5,7 @@ date:   2019-06-17 16:00:40 +0800
 key: pytorch-data-augmentation-20190617
 aside:
   toc: true
-categories: [dl_frameworks, pytorch]
+category: [AI, dl_frameworks, pytorch]
 ---
 <span id='head'></span>  
 

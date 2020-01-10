@@ -6,13 +6,13 @@ titles:
     zh-Hans:  人工智能
     zh-Hant:  人工智能
 sidebar:
-    nav: docs-en
+    nav: AI
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "AI" %}
+        {% if cat[0] == "AI_" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

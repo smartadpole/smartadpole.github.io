@@ -5,7 +5,7 @@ date:   2019-10-11 10:21:40 +0800
 key: intention-analysis-foundation-20191011
 aside:
   toc: true
-category: [CV, traffic, traffic_intention_analysis]
+category: [AI, CV, traffic, traffic_intention_analysis]
 tags: 资源
 ---
 <span id='head'></span>

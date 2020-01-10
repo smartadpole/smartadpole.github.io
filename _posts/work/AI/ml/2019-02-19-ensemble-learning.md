@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: ML_Ensemble
-category: [ML, ensemble_learning]
+category: [AI, ML, ensemble_learning]
 ---
 
 >集成学习是一大类模型融合策略的统称；对于弱分类器往往效果显著；    

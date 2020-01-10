@@ -5,7 +5,7 @@ date:   2019-12-10 12:08:40 +0800
 key: clang-foundation-20191210
 aside:
   toc: true
-category: [clang]
+category: [tool, clang]
 ---
 <span id='head'></span>
 >官网： <https://clang.llvm.org/>    

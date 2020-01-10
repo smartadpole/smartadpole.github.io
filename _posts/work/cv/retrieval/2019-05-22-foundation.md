@@ -5,11 +5,11 @@ date:   2019-05-22 11:06:40 +0800
 key: retrieval-foundation-20190522
 aside:
   toc: true
-category: [CV, retrieval]
+category: [AI, CV, retrieval]
 tags: 资源
 ---
 <span id='head'></span>  
->相关资料：[图片检索概述](/cv/retrieval/2019/08/20/survey.html)、[视频检索资源](/video/video_retrieval/2019/06/21/foundation.html) · [音频检索资源](/audio/audio_retrieval/2019/08/14/foundation.html)      
+>相关资料：[图片检索概述](/ai/cv/retrieval/2019/08/20/survey.html)、[视频检索资源](/ai/video/video_retrieval/2019/06/21/foundation.html) · [音频检索资源](/ai/audio/audio_retrieval/2019/08/14/foundation.html)      
 
 <!--more-->  
 
@@ -163,7 +163,7 @@ BMVC *2016* [paper](https://pdfs.semanticscholar.org/f840/197140cbb907786749b7d2
 DCT + Hash;    
 
 
-**3.1.2 [DL](/dl/cnn/2019/05/21/foundation.html)**
+**3.1.2 [DL](/ai/dl/cnn/2019/05/21/foundation.html)**
 
 1. [Learning to compare image patches via convolutional neural networks](http://cn.arxiv.org/abs/1504.03641)    
 CVPR 2015 *2015-04-14* [paper](https://arxiv.org/abs/1504.03641)   
@@ -318,7 +318,7 @@ $\bullet \bullet$
 1. [Large-Scale Image Retrieval with Attentive Deep Local Features](http://cn.arxiv.org/abs/1612.06321)   
 ICCV 2017 *2016-12-19* Google [paper](https://arxiv.org/abs/1612.06321) | [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)      
 $\bullet \bullet$   
-**DELF**，同时发布了较大的[地标建筑检索数据集](https://www.kaggle.com/google/google-landmarks-dataset#test.csv)([详细说明](/competition/2019/07/25/Google-Landmark-Retrieval-2019.html))；   
+**DELF**，同时发布了较大的[地标建筑检索数据集](https://www.kaggle.com/google/google-landmarks-dataset#test.csv)([详细说明](/ai/competition/2019/07/25/Google-Landmark-Retrieval-2019.html))；   
 
 1. [Places: A 10 Million Image Database for Scene Recognition](http://places2.csail.mit.edu/PAMI_places.pdf)     
 *2017* [paper](http://places2.csail.mit.edu/PAMI_places.pdf)     
@@ -677,7 +677,7 @@ $\bullet \bullet$
 BoW   
 
 1. [Faster R-CNN Features for Instance Search](http://cn.arxiv.org/abs/1604.08893)  
-CVPR 2016 DeepVision *2016-04-29* [paper](https://arxiv.org/abs/1604.08893) | [project](http://imatge-upc.github.io/retrieval-2016-deepvision/) | [tensorflow](https://github.com/imatge-upc/retrieval-2016-deepvision) | [解读](/cv/retrieval/paper_reading/2018/10/18/Faster-RCNN-Features-for-Instance-Search-Reading.html)     
+CVPR 2016 DeepVision *2016-04-29* [paper](https://arxiv.org/abs/1604.08893) | [project](http://imatge-upc.github.io/retrieval-2016-deepvision/) | [tensorflow](https://github.com/imatge-upc/retrieval-2016-deepvision) | [解读](/ai/cv/retrieval/paper_reading/2018/10/18/Faster-RCNN-Features-for-Instance-Search-Reading.html)     
 $\bullet \bullet$    
 instance   
 
@@ -941,9 +941,9 @@ IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)
 
 ## 4.3 重识别
 
-### 4.3.1 [行人](/cv/human/human_reid/2019/05/14/foundation.html)
+### 4.3.1 [行人](/ai/cv/human/human_reid/2019/05/14/foundation.html)
 
-### 4.3.2 [车辆](/cv/vehicle/vehicle_reid/2019/10/10/foundation.html)
+### 4.3.2 [车辆](/ai/cv/vehicle/vehicle_reid/2019/10/10/foundation.html)
 
 
 ## 4.4 内容检索

@@ -5,7 +5,7 @@ date:   2019-09-26 17:07:40 +0800
 key: job-analysis-20190926
 aside:
   toc: true
-category: [python, spider]
+category: [software, python, spider]
 ---
 <span id='head'></span>  
 <!--more-->

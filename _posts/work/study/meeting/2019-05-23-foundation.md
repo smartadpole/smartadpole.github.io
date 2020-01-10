@@ -5,7 +5,7 @@ date:   2019-05-23 10:06:40 +0800
 key: cv-meeting-foundation-20190523
 aside:
   toc: true
-category: [meeting]
+category: [AI, AI, meeting]
 tags: 资源
 ---
 <span id='head'></span>  

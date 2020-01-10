@@ -5,7 +5,7 @@ date:   2019-04-09 15:48:40 +0800
 key: generating-model-foundation-20190409
 aside:
   toc: true
-category: [DL, GAN]
+category: [AI, DL, GAN]
 sidebar:
   nav: GAN
 ---

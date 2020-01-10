@@ -5,7 +5,7 @@ date:   2019-10-10 09:09:40 +0800
 key: defect-inspection-foundation-20191010
 aside:
   toc: true
-category: [CV, industry, defect_inspection]
+category: [AI, CV, industry, defect_inspection]
 tags: 资源
 ---
 <span id='head'></span>  

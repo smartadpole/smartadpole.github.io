@@ -5,11 +5,11 @@ date:   2019-08-23 17:16:40 +0800
 key: video-caption-foundation-20190823
 aside:
   toc: true
-category: [video, video_caption]
+category: [AI, video, video_caption]
 tags: 资源
 ---
 <span id='head'></span>
->相关资料：[图片描述资源汇总](/cv/vqa/2019/06/12/foundation.html)     
+>相关资料：[图片描述资源汇总](/ai/cv/vqa/2019/06/12/foundation.html)     
 
 <!--more-->
 `video caption`    
@@ -49,7 +49,7 @@ AAAI 2019 *2018-04-13* [paper](https://arxiv.org/abs/1804.05113)
 视频片段检索；   
 
 1. [Dual Encoding for Zero-Example Video Retrieval](http://cn.arxiv.org/abs/1809.06181)    
-CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](https://github.com/danieljf24/dual_encoding)-offical | [解读](/video/video_retrieval/paper_reading/2019/06/23/Dual-Encoding-for-Zero-Example-Video-Retrieval-reading.html)    
+CVPR 2019 *2018-09-17* [paper](https://arxiv.org/abs/1809.06181) | [pytorch](https://github.com/danieljf24/dual_encoding)-offical | [解读](/ai/video/video_retrieval/paper_reading/2019/06/23/Dual-Encoding-for-Zero-Example-Video-Retrieval-reading.html)    
 
 1.[Deep Semantic Multimodal Hashing Network for Scalable Multimedia Retrieval](http://cn.arxiv.org/abs/1901.02662)     
 *2019-01-09* [paper](https://arxiv.org/abs/1901.02662)    

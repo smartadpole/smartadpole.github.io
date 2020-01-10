@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: NDVR
-category: [video, video_retrieval]
+category: [AI, video, video_retrieval]
 ---
 <span id='head'></span>  
 

@@ -5,7 +5,7 @@ date:   2019-06-23 12:06:40 +0800
 key: Dual-Encoding-ZVR-20190623
 aside:
   toc: true
-category: [video, video_retrieval, paper_reading]
+category: [AI, video, video_retrieval, paper_reading]
 ---
 <span id='head'></span>   
 

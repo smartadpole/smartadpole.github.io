@@ -5,7 +5,7 @@ date:   2019-05-14 14:06:40 +0800
 key: apparent-analysis-foundation-20190514
 aside:
   toc: true
-category: [CV, human, apparent_analysis]
+category: [AI, CV, human, apparent_analysis]
 tags: 资源
 ---
 <span id='head'></span>  

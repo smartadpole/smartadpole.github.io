@@ -5,7 +5,7 @@ date:   2019-05-14 14:06:40 +0800
 key: lip-reading-foundation-20190514
 aside:
   toc: true
-category: [CV, human, lip_reading]
+category: [AI, CV, human, lip_reading]
 tags: 资源
 ---
 <span id='head'></span>  

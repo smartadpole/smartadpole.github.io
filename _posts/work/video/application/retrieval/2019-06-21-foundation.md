@@ -5,14 +5,14 @@ date:   2019-06-21 18:06:40 +0800
 key: video-retrieval-foundation-20190621
 aside:
   toc: true
-category: [video, video_retrieval]
+category: [AI, video, video_retrieval]
 tags: 资源
 sidebar:
   nav: NDVR
 ---
 <span id='head'></span>
 >**相似视频检索**: 相似指的是通过修改原视频的到新的视频；      
-相关资料：[检索概述](/video/video_retrieval/2019/07/30/survey.html) · [图像检索资源](/cv/retrieval/2019/05/22/foundation.html) · [音频检索资源](/audio/audio_retrieval/2019/08/14/foundation.html)    
+相关资料：[检索概述](/ai/video/video_retrieval/2019/07/30/survey.html) · [图像检索资源](/ai/cv/retrieval/2019/05/22/foundation.html) · [音频检索资源](/ai/audio/audio_retrieval/2019/08/14/foundation.html)    
 
 <!--more-->
 `video fingerprinting` · `video DNA` · `video signature` · `video hash` · `video content-based watermarking`;      
@@ -130,7 +130,7 @@ $\bullet \bullet$
 # 2 理论
 
 # 3 技术点
-## 3.1 [关键帧提取](/video/key_frame/2019/06/12/foundation.html)
+## 3.1 [关键帧提取](/ai/video/key_frame/2019/06/12/foundation.html)
 `keyframe extract` · `shot boundary detection`;      
 
 ## 3.2 特征提取
@@ -140,7 +140,7 @@ $\bullet \bullet$
 
 `feature extract` · `video fingerprinting` · `video DNA` · `video signature` · `video hash` · `video content-based watermarking`;          
 
-**3.2.1 [帧特征](/cv/retrieval/2019/05/22/foundation.html#31-特征提取)**     
+**3.2.1 [帧特征](/ai/cv/retrieval/2019/05/22/foundation.html#31-特征提取)**     
 
 **3.2.2 视频特征**     
 1. [Robust video signature based on ordinal measure](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.8192&rep=rep1&type=pdf)     
@@ -410,7 +410,7 @@ ECCV 2010 *2010* [paper](https://lear.inrialpes.fr/pubs/2010/DJSP10/douze_eccv10
 *2006* [paper](https://people.eng.unimelb.edu.au/jzobel/fulltext/acmtois06.pdf)    
 
 **3.4.4 图对齐**     
->[最大流](/algorithms/graph/2019/10/20/maximum-flow.html)      
+>[最大流](/ai/algorithms/graph/2019/10/20/maximum-flow.html)      
 
 
 1. [Effective and Efficient Query Processing for Video Subsequence Identification](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.296.7068&rep=rep1&type=pdf)     
@@ -512,7 +512,7 @@ ICCV 2019 *2019* 清华深研院 [paper](http://openaccess.thecvf.com/content_IC
 
 
 ## 3.5 相似度度量
->[序列相似度度量](/data_mining/sequence_alignment/2019/11/05/foundation.html)、[字符串匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html)
+>[序列相似度度量](/data_mining/sequence_alignment/2019/11/05/foundation.html)、[字符串匹配](/ai/algorithms/string/2019/10/29/pattern-match-foundation.html)
 
 `sequence matching` · `similarity measure`    
 `longest common sub-sequence`     
@@ -846,7 +846,7 @@ UCH： 为了解决跨模态散列问题，使用 GAN 将特征提取和哈希�
 
 
 ### 4.5.2 图片
-#### 4.5.2.1 [行人重识别](/cv/human/human_reid/2019/05/14/foundation.html#352-视频)    
+#### 4.5.2.1 [行人重识别](/ai/cv/human/human_reid/2019/05/14/foundation.html#352-视频)    
 #### 4.5.2.2 商品检索
 1. [Video2Shop: Exactly Matching Clothes in Videos to Online Shopping Images](http://cn.arxiv.org/abs/1804.05287)  
 CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs/1804.05287)     
@@ -856,7 +856,7 @@ CVPR 2017 *2018-04-14* 西南交大、阿里巴巴 [paper](https://arxiv.org/abs
 BMVC 2018 *2018* [paper](https://pdfs.semanticscholar.org/8e6d/6c4f5696e5e3430e0862e9defc66034e1133.pdf?_ga=2.164909311.1970495203.1573369005-504939339.1571502740)     
 
 
-### 4.5.3 [文本](/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
+### 4.5.3 [文本](/ai/video/video_caption/2019/08/23/foundation.html#4-零样本检索)
 
 #### 4.5.3.1 广告植入
 >根据输入的关键词，给出视频中与之呼应的情景片段；    

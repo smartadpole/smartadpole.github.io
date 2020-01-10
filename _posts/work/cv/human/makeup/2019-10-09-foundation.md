@@ -5,7 +5,7 @@ date:   2019-10-09 17:08:40 +0800
 key: makeup-foundation-20191009
 aside:
   toc: true
-category: [CV, human, makeup]
+category: [AI, CV, human, makeup]
 tags: 资源
 ---
 <span id='head'></span>  

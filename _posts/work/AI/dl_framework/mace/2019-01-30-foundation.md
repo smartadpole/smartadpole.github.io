@@ -5,7 +5,7 @@ date:   2019-01-30 15:00:40 +0800
 key: mace-foundation-20190130
 aside:
   toc: true
-categories: [dl_frameworks, mace]
+category: [AI, dl_frameworks, mace]
 ---
 <span id='head'></span>  
 > mace 是 2018年4月小米开源的移动端深度学习框架；  

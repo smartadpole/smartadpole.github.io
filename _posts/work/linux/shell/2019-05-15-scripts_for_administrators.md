@@ -5,7 +5,7 @@ date:   2019-05-15 13:16:40 +0800
 key: scripts4administrato-20190515
 aside:
   toc: true
-category: [linux, Shell]
+category: [school, linux, Shell]
 sidebar:
   nav: Shell
 ---

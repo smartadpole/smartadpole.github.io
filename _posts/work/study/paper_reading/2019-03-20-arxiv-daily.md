@@ -6,7 +6,7 @@ key: arXiv-20190320
 aside:
   toc: true
 tags: arXiv
-categories: [paper_reading]
+category: [AI, paper_reading]
 ---
 
 ><https://arxiv.org/list/cs/new>  

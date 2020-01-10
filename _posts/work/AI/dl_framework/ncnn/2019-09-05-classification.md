@@ -5,13 +5,13 @@ date:   2019-09-05 10:00:40 +0800
 key: ncnn-foundation-20190905
 aside:
   toc: true
-categories: [dl_frameworks, ncnn]
+category: [AI, dl_frameworks, ncnn]
 ---
 <span id='head'></span>  
 
 <!--more-->   
 
-# 0 [环境准备](/dl_frameworks/ncnn/worktool/2019/01/30/foundation.html#1-安装)       
+# 0 [环境准备](/ai/dl_frameworks/ncnn/worktool/2019/01/30/foundation.html#1-安装)       
 
 # 1 caffe 模型
 ## 1.1 准备模型

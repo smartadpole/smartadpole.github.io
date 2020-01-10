@@ -5,7 +5,7 @@ date:   2019-10-29 10:07:40 +0800
 key: pattern-match-20191029
 aside:
   toc: true
-category: [algorithms, string]
+category: [software, algorithms, string]
 ---
 <span id='head'></span>
 >字符串匹配，可范化为序列匹配；   

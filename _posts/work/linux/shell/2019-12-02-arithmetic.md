@@ -5,7 +5,7 @@ date:   2019-12-02 18:16:40 +0800
 key: shell-arithmetic-20191202
 aside:
   toc: true
-category: [linux, Shell]
+category: [school, linux, Shell]
 sidebar:
   nav: Shell
 ---

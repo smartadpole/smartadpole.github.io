@@ -5,7 +5,7 @@ date:   2019-11-11 18:21:40 +0800
 key: audio-classify-foundation-20191111
 aside:
   toc: true
-category: [audio, voiceprint_analysis]
+category: [AI, audio, voiceprint_analysis]
 tags: 资源
 ---
 <span id='head'></span>  

@@ -5,7 +5,7 @@ date:   2019-05-21 10:08:40 +0800
 key: gait-recognition-foundation-20190521
 aside:
   toc: true
-category: [CV, human, gait_recognition]
+category: [AI, CV, human, gait_recognition]
 tags: 资源
 ---
 <span id='head'></span>  

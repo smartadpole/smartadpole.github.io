@@ -5,12 +5,12 @@ date:   2019-11-05 15:08:40 +0800
 key: sequence-alignment-foundation-20191105
 aside:
   toc: true
-category: [data_mining, sequence_alignment]
+category: [AI, data_mining, sequence_alignment]
 tags: 资源
 ---
 <span id='head'></span>  
 >计算两个序列的相似度，可找到两者公共的部分，可带容错；   
-[字符串匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html)
+[字符串匹配](/software/algorithms/string/2019/10/29/pattern-match-foundation.html)
 
 <!--more-->
 
@@ -25,11 +25,11 @@ tags: 资源
 
 # 3 全局
 
-## 3.1 [串模式匹配](/algorithms/string/2019/10/29/pattern-match-foundation.html#11-模式匹配)
+## 3.1 [串模式匹配](/software/algorithms/string/2019/10/29/pattern-match-foundation.html#11-模式匹配)
 
 # 4 局部
 
-## 4.1 [最长公共子序列](/algorithms/string/2019/10/29/pattern-match-foundation.html#12-最长公共子序列)
+## 4.1 [最长公共子序列](/software/algorithms/string/2019/10/29/pattern-match-foundation.html#12-最长公共子序列)
 
 ## 4.2 沃特曼
 
@@ -123,7 +123,7 @@ KDD 2019 oral *2019-03-24* [paper](https://arxiv.org/abs/1905.13131)
 
 ## 7.3 股票预测
 
-## 7.4 [视频序列匹配](/video/video_retrieval/2019/06/21/foundation.html#35-相似度度量)     
+## 7.4 [视频序列匹配](/ai/video/video_retrieval/2019/06/21/foundation.html#35-相似度度量)     
 
 ## 7.5 手势识别
 

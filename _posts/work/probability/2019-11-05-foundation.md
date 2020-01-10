@@ -5,7 +5,7 @@ date:   2019-11-05 11:00:40 +0800
 key: probability-foundation-20191105
 aside:
   toc: true
-category: [probability]
+category: [school, probability]
 ---
 <span id='head'></span>
 

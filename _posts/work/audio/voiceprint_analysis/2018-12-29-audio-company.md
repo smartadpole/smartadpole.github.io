@@ -6,7 +6,7 @@ key: audio-company-review-20181229
 aside:
   toc: true
 tags: 公司
-category: [audio, voiceprint_analysis]
+category: [AI, audio, voiceprint_analysis]
 ---
 <span id='head'></span>  
 >

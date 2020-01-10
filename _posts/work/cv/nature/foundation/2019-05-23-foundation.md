@@ -5,11 +5,11 @@ date:   2019-05-23 14:18:40 +0800
 key: nature-foundation-20190523
 aside:
   toc: true
-category: [CV, nature, nature_foundation]
+category: [AI, CV, nature, nature_foundation]
 tags: 资源
 ---
 <span id='head'></span>  
->[通用物体分割资源](/cv/segmentation/2019/05/05/foundation.html)   
+>[通用物体分割资源](/ai/cv/segmentation/2019/05/05/foundation.html)   
 
 <!--more-->
 

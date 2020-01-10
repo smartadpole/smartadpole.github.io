@@ -5,7 +5,7 @@ date:   2019-07-02 11:06:40 +0800
 key: image-tracking-foundation-20190702
 aside:
   toc: true
-category: [CV, tracking]
+category: [AI, CV, tracking]
 tags: 资源
 ---
 <span id='head'></span>

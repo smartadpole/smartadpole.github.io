@@ -7,9 +7,9 @@ header:
     url:        /assets/category/work/software/software.html
   - titles:
       en:       AI
-      zh:       AI
-      zh-Hans:  AI
-      zh-Hant:  AI
+      zh:       人工智能
+      zh-Hans:  人工智能
+      zh-Hant:  人工智能
     url:        /assets/category/work/AI/AI.html
   - titles:
       en:       Foundation
@@ -87,6 +87,8 @@ Software:
         url:    /assets/category/work/software/grammer/cpp.html
       - title:  python
         url:    /assets/category/work/software/grammer/python.html
+      - title:  swift
+        url:    /assets/category/work/software/grammer/swift.html
       - title:  常用操作
         url:    /assets/category/work/software/grammer/skill.html
 
@@ -115,6 +117,12 @@ Software:
         url:    /assets/category/work/software/develop/software_test.html
       - title:  软件调试
         url:    /assets/category/work/software/develop/software_debug.html
+
+
+  - title:      平台
+    children:
+      - title:  iOS
+        url:    /assets/category/work/software/platform/ios.html
 
 
 AI:
@@ -164,7 +172,7 @@ AI:
       - title:  顶会
         url:    /assets/category/work/study/meeting.html
 
-Work_Foundation:
+School:
   - title:      基础
     children:
       - title:  Linux
@@ -184,7 +192,7 @@ C++:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
   - title:
     children:
       - title:  基础知识
@@ -205,7 +213,7 @@ Python:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
   - title:
     children:
       - title:  入门
@@ -222,7 +230,7 @@ DL:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
   - title:
     children:
@@ -269,7 +277,7 @@ CV:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
   - title:      通用任务
     children:
       - title:  基础知识
@@ -356,7 +364,7 @@ Video:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
   - title:	基础
     children:
@@ -395,7 +403,7 @@ AUDIO:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
   - title:
     children:
@@ -411,7 +419,7 @@ NLP:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
 
 
@@ -419,7 +427,7 @@ DLFramework:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
   - title:      训练框架
     children:
       - title:  Caffe
@@ -484,14 +492,14 @@ ImageProcess:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
 
 DataStructure:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
 
   - title:      数据结构
     children:
@@ -578,7 +586,7 @@ DM:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
 
   - title:
@@ -592,8 +600,7 @@ ML:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
-
+        url:    /assets/category/work/AI/AI.html
 
   - title:
     children:
@@ -649,7 +656,7 @@ RL:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
   - title:
     children:
@@ -829,38 +836,38 @@ Algorithms:
   - title:      数据结构与算法
     children:
       - title:  入门
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  基本算法
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  排序
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  查找
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  分治
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  回溯
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  递归
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  搜索
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  哈希
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  贪心
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
       - title:  组合数学
-        url:    /index.html
-      - title:  书论
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
+      - title:  数论
+        url:    /assets/category/work/software/software.html
       - title:  计算方法
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
 
 
 English:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/foundation/foundation.html
 
   - title:
     children:
@@ -873,7 +880,7 @@ LinearAlgebra:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/foundation/foundation.html
 
   - title:	线性代数
     children:
@@ -894,19 +901,19 @@ Calculus:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/foundation/foundation.html
 
 Probability:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/foundation/foundation.html
 
 MatrixTheory:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/foundation/foundation.html
 
 
 PythonAudioLib:
@@ -1033,19 +1040,19 @@ ML_DecisionTree:
   - title:  决策树
     children:
       - title:  Hunt
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  ID3
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  Gini Index
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  信息增益
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  分类误差
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  C4.5
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  CART
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
 
 ML_Ensemble:
   - title:
@@ -1061,15 +1068,15 @@ ML_Ensemble:
       - title:  二、Bagging
         url:    https://zh.wikipedia.org/wiki/Bagging%E7%AE%97%E6%B3%95
       - title:  Random Forests
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  三、Boosting
         url:    https://zh.wikipedia.org/wiki/%E6%8F%90%E5%8D%87%E6%96%B9%E6%B3%95
       - title:  AdaBoost
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  GBDT
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  XGBoost
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
 
 
 
@@ -1077,9 +1084,9 @@ ML_classification:
   - title:  分类
     children:
       - title:  分类任务及其评价
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  较大熵模型（Softmax）
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  感知机算法
         url:    https://zh.wikipedia.org/wiki/%E6%84%9F%E7%9F%A5%E5%99%A8
       - title:  支持向量机/SVM
@@ -1087,11 +1094,11 @@ ML_classification:
       - title:  相关向量机/RVM
         url:    https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%85%B3%E5%90%91%E9%87%8F%E6%9C%BA
       - title:  kNN
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  kd-tree
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  quad-tree
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
 
 ML_regression:
   - title:  回归
@@ -1099,15 +1106,15 @@ ML_regression:
       - title:  线性回归
         url:    https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8
       - title:  多元回归
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  多项式回归
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  非线性回归
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  多重共线性
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  岭回归与LASSO
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  逻辑回归
         url:    https://zh.wikipedia.org/wiki/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92
       - title:  朴素贝叶斯
@@ -1115,7 +1122,7 @@ ML_regression:
       - title:  神经网络
         url:    https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C
       - title:  过拟合与正则化
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
 
 ML_structure:
   - title:  结构预测
@@ -1133,13 +1140,13 @@ ML_anomaly_detection:
   - title:  异常检测
     children:
       - title:  kNN
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  kd-tree
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  quad-tree
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  局部离群因子
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
 
 ML_cnn:
   - title:  神经网络
@@ -1155,9 +1162,9 @@ ML_RL:
       - title:  Q学习
         url:    https://zh.wikipedia.org/wiki/Q%E5%AD%A6%E4%B9%A0
       - title:  SARSA
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  时间差分学习
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  深度强化学习
         url:    https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0
 
@@ -1165,13 +1172,13 @@ ML_foundation:
   - title:  理论
     children:
       - title:  偏差/方差困境
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  计算学习理论
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  经验风险最小化
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  PAC学习
-        url:    /index.html
+        url:    /assets/category/work/AI/ml.html
       - title:  统计学习
         url:    https://zh.wikipedia.org/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%90%86%E8%AE%BA
       - title:  VC理论
@@ -1457,7 +1464,7 @@ Linux:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/foundation/foundation.html
   - title:
     children:
       - title:  Linux
@@ -1618,7 +1625,7 @@ OpenCV:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
   - title:	API
     children:
@@ -1656,7 +1663,7 @@ PROJECT:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/AI/AI.html
 
   - title:	图像
     children:
@@ -1674,7 +1681,7 @@ PARALLEL:
   - title:
     children:
       - title:  上一层
-        url:    /index.html
+        url:    /assets/category/work/software/software.html
   - title:      CPU
     children:
       - title:  OpenMP

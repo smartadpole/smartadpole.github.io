@@ -5,7 +5,7 @@ date:   2019-09-25 18:00:40 +0800
 key: mobilenet-ssd-caffe-practice-20190925
 aside:
   toc: true
-category: [CV, detection, paper_practice]
+category: [AI, CV, detection, paper_practice]
 ---
 <span id='head'></span>
 >参考源码: <https://github.com/chuanqi305/MobileNet-SSD>     

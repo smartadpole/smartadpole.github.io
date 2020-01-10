@@ -5,7 +5,7 @@ date:   2019-05-19 13:06:40 +0800
 key: action-recognition-sugin-visual-attention-20190519
 aside:
   toc: true
-category: [video, video_classification, paper_reading]
+category: [AI, video, video_classification, paper_reading]
 ---
 
 >ICLR 2016

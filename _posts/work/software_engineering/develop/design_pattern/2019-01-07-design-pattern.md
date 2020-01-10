@@ -6,7 +6,7 @@ key: design-pattern-foundation-20190107
 aside:
   toc: true
 tags: 资源
-category: [software, design_pattern]
+category: [software, software, design_pattern]
 ---
 
 ## 一、 学习目标

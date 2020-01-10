@@ -5,11 +5,11 @@ date:   2019-05-14 14:06:40 +0800
 key: human-ReID-foundation-20190514
 aside:
   toc: true
-category: [CV, human, human_reid]
+category: [AI, CV, human, human_reid]
 tags: 资源
 ---
 <span id='head'></span>  
->[重识别资源汇总](/cv/retrieval/2019/05/22/foundation.html#43-重识别)    
+>[重识别资源汇总](/ai/cv/retrieval/2019/05/22/foundation.html#43-重识别)    
 
 <!--more-->
 
@@ -151,8 +151,8 @@ AAAI 2017 *2017-02-04* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/
 *2018-01-19* [paper](http://vipl.ict.ac.cn/uploadfile/upload/2018011916541843.pdf)    
 
 # 7 相关技术
-## 7.1 [人脸验证](/cv/human/face_verification/2019/05/14/foundation.html)    
-## 7.2 [步态识别](/cv/human/gait_recognition/2019/05/21/foundation.html)
+## 7.1 [人脸验证](/ai/cv/human/face_verification/2019/05/14/foundation.html)    
+## 7.2 [步态识别](/ai/cv/human/gait_recognition/2019/05/21/foundation.html)
 ## 7.3 腕部重识别
 1. [A Study on Wrist Identification for Forensic Investigation](http://cn.arxiv.org/abs/1910.03213)     
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03213)     

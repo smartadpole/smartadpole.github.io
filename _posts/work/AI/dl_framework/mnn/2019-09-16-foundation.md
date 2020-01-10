@@ -5,7 +5,7 @@ date:   2019-09-16 17:00:40 +0800
 key: mnn-foundation-20190916
 aside:
   toc: true
-categories: [dl_frameworks, mnn]
+category: [AI, dl_frameworks, mnn]
 ---
 <span id='head'></span>  
 >阿里开源的移动端 DL 推理框架；     

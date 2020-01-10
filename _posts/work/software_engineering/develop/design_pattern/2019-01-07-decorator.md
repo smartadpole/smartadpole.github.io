@@ -5,7 +5,7 @@ date:   2019-01-07 8:06:40 +0800
 key: decorator-20190107
 aside:
   toc: true
-category: [software, design_pattern]
+category: [software, software, design_pattern]
 ---
 
 背景：不必改变原类文件和使用继承的情况下，动态的扩展一个对象的的功能。

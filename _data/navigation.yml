@@ -32,7 +32,7 @@ header:
   - titles:
       en:       Category
       zh:       分类
-      zh-Hans:  分类Software
+      zh-Hans:  分类
       zh-Hant:  分類
     url:        /category.html
   - titles:

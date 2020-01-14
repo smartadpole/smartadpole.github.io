@@ -15,7 +15,6 @@ tags: 资源
 `video caption`    
 `Video-Text Retrieval` · `Text-to-Clip Retrieval` · `Zero-Example Video Retrieval`      
 
-
 # 1 综述
 1. [Trends in Integration of Vision and Language Research: A Survey of Tasks, Datasets, and Methods](http://cn.arxiv.org/abs/1907.09358)    
 *2019-07-22* [paper](https://arxiv.org/abs/1907.09358)    

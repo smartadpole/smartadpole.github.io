@@ -183,11 +183,11 @@ exclude:
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
-#   - vendor/gems/
+#   - vendor/gems/ 
 #   - vendor/ruby/
   - readme.md
   - LICENSE
-# - nohup.out
+  - nohup.out
 
 defaults:
   - scope:

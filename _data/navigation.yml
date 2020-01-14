@@ -1582,30 +1582,32 @@ NDVR:
   - title:	资源
     children:
       - title:  文献
-        url:    /video/video_retrieval/2019/06/21/foundation.html
+        url:    /ai/video/video_retrieval/2019/06/21/foundation.html
 
   - title:	行情
     children:
-      - title:  产品
-        url:    /video/video_retrieval/2019/11/14/company.html
       - title:  研究员
-        url:    /video/video_retrieval/2019/11/15/scientist.html
+        url:    /ai/video/video_retrieval/2019/11/15/scientist.html
+      - title:  产品
+        url:    /ai/video/video_retrieval/2019/11/14/company.html
+      - title:  市场
+        url:    /ai/video/video_retrieval/2020/01/14/market-analysis.html
 
   - title:	会议/竞赛
     children:
       - title:  TRECVID
-        url:    /competition/video/video_retrieval/2019/11/15/TRECVID.html
+        url:    /ai/competition/video/video_retrieval/2019/11/15/TRECVID.html
 
   - title:	基本概念
     children:
       - title:  概述
-        url:    /video/video_retrieval/2019/07/30/survey.html
+        url:    /ai/video/video_retrieval/2019/07/30/survey.html
       - title:  关键帧提取
-        url:    /video/key_frame/2019/08/08/survey.html
+        url:    /ai/video/key_frame/2019/08/08/survey.html
       - title:  特征提取
-        url:    /video/video_retrieval/2019/08/08/feature-extract-survey.html
+        url:    /ai/video/video_retrieval/2019/08/08/feature-extract-survey.html
       - title:  相似度度量
-        url:    /video/video_retrieval/2019/08/08/similarity-measures-survey.html
+        url:    /ai/video/video_retrieval/2019/08/08/similarity-measures-survey.html
 
 
 

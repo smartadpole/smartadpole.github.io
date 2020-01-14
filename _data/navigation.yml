@@ -90,11 +90,6 @@ Software:
       - title:  常用操作
         url:    /assets/category/work/software/grammer/skill.html
 
-  - title:      算法
-    children:
-      - title:  数据结构与算法
-        url:    /assets/category/work/software/algorithms/algorithms.html
-
   - title:      开发方法
     children:
       - title:  软件工程导论
@@ -116,11 +111,25 @@ Software:
       - title:  软件调试
         url:    /assets/category/work/software/develop/software_debug.html
 
+  - title:      算法
+    children:
+      - title:  数据结构与算法
+        url:    /assets/category/work/software/algorithms/algorithms.html
 
-  - title:      平台
+  - title:      UI
+    children:
+      - title:  基础
+        url:    /assets/category/work/software/ui/foundation.html
+      - title:  sketch
+        url:    /assets/category/work/software/ui/sketch.html
+
+  - title:      应用程序
     children:
       - title:  iOS
-        url:    /assets/category/work/software/platform/ios.html
+        url:    /assets/category/work/software/application/ios.html
+      - title:  QT
+        url:    /assets/category/work/software/application/qt.html
+
 
 
 AI:

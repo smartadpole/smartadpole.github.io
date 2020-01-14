@@ -1,4 +1,4 @@
-list=(index.md archive.html categories.html tags.html)
+list=(index.html archive.html category.html)
 
 # for loop
 length=${#list[*]}

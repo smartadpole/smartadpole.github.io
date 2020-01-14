@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Q Toolkits
-    zh:       QT
-    zh-Hans:  QT
-    zh-Hant:  QT
+    en:       UI Foundation
+    zh:       UI 基础
+    zh-Hans:  UI 基础
+    zh-Hant:  UI 基础
 sidebar:
-    nav: TOOL
+    nav: Software
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "qt_tool" %}
+        {% if cat[0] == "ui_foundation" %}
         {% for post in cat[1] %}
         <li>{{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

@@ -29,58 +29,30 @@ git log --graph --decorate --oneline --simplify-by-decoration --all
 `--oneline` 一行显示；     
 `--simplify-by-decoration` 只显示被branch或tag引用的commit；     
 `--all` 表示显示所有的 branch，这里也可以选择，比如我指向显示分支 ABC 的关系，则将 --all 替换为 branchA branchB branchC；    
+*记不住的就打`--`，然后 `Tab`，一个一个试就好了；*    
 
 ## 3.3 重置
 
-恢复某个commit的指定文件到暂存区和工作区
-```shell
-git checkout [commit] [file]
-```
+| 功能 | 命令 |
+| --- | --- |
+| 恢复某个commit的指定文件到暂存区和工作区 | `git checkout [commit] [file]` |
+| （从暂存区）清空没有提交的工作区文件 | `git checkout head .`<br>. 可以换成文件或目录 |
+| 重置暂存区的指定文件，与上一次commit保持一致，但工作区不变 | `git reset [file]` |   
+| 重置暂存区与工作区，与上一次commit保持一致   | `git reset --hard` |
+| 重置当前分支的指针为指定commit，同时重置暂存区，但工作区不变 | `git reset [commit id]` |  
+| 重置当前分支的HEAD为指定commit，同时重置暂存区和工作区，与指定commit一致     |`git reset --hard [commit id]` |
+| 重置当前HEAD为指定commit，但保持暂存区和工作区不变 |`git reset --keep [commit id]` |
+| 新建一个commit，用来撤销指定commit；<br>后者的所有变化都将被前者抵消，并且应用到当前分支 |`git revert [commit id]` |  
+| 暂时将未提交的变化移除/移入   | `git stash [pop]`  |
 
-（从暂存区）清空没有提交的工作区文件        
-```shell
-git checkout head . # . 可以换成文件或目录
-```
 
-重置暂存区的指定文件，与上一次commit保持一致，但工作区不变   
-```shell
-git reset [file]
-```
+# 4 新建分支
 
-重置暂存区与工作区，与上一次commit保持一致   
-```shell
-git reset --hard
-```
+| 功能 | 命令 |
+| --- | --- |
+| 从 commit id 新建 |  `git checkout [commit id] -b branch_name` |   
 
-重置当前分支的指针为指定commit，同时重置暂存区，但工作区不变   
-```shell
-git reset [commit]
-```
-
-重置当前分支的HEAD为指定commit，同时重置暂存区和工作区，与指定commit一致    
-```shell
-git reset --hard [commit]
-```
-
-重置当前HEAD为指定commit，但保持暂存区和工作区不变    
-```shell
-git reset --keep [commit]
-```
-
-新建一个commit，用来撤销指定commit  
-后者的所有变化都将被前者抵消，并且应用到当前分支    
-
-```shell
-git revert [commit]
-```
-
-暂时将未提交的变化移除，稍后再移入   
-```shell
-git stash
-git stash pop
-```
-
-# 4 协作
+# 5 协作
 
 -------------------  
 [End](#head)

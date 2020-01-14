@@ -6,8 +6,6 @@ key: ios-foundation-20200112
 aside:
   toc: true
 category: [software, ios]
-sidebar:
-  nav: Software
 tags: 资源
 ---
 <span id='head'></span>  

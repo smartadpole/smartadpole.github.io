@@ -1487,19 +1487,19 @@ LinuxFoundation:
   - title:      Linux 命令
     children:
       - title:  基本 shell 命令
-        url:    /linux/linuxcommand/2019/05/15/shell_basics.html
+        url:    /school/linux/linux_foundation/2019/05/15/shell_basics.html
       - title:  进阶 shell 命令
-        url:    /linux/linuxcommand/2019/05/15/shell_advanced.html
+        url:    /school/linux/linux_foundation/2019/05/15/shell_advanced.html
       - title:  Linux 环境变量
-        url:    /linux/linuxcommand/2019/05/15/environment_variables.html
+        url:    /school/linux/linux_foundation/2019/05/15/environment_variables.html
       - title:  文件权限
-        url:    /linux/linuxcommand/2019/05/15/file_permissions.html
+        url:    /school/linux/linux_foundation/2019/05/15/file_permissions.html
       - title:  管理文件
-        url:    /linux/linuxcommand/2019/05/15/file_system.html
+        url:    /school/linux/linux_foundation/2019/05/15/file_system.html
       - title:  软件安装
-        url:    /linux/linuxcommand/2019/05/15/install_software.html
+        url:    /school/linux/linux_foundation/2019/05/15/install_software.html
       - title:  编辑器
-        url:    /linux/linuxcommand/2019/05/15/editors.html
+        url:    /school/linux/linux_foundation/2019/05/15/editors.html
 
 INDUSTRY:
   - title:
@@ -1520,37 +1520,37 @@ Shell:
   - title:      编程基础
     children:
       - title:  脚本基础
-        url:    /linux/shell/2019/05/15/basic_script.html
+        url:    /school/linux/shell/2019/05/15/basic_script.html
       - title:  结构化命令
-        url:    /linux/shell/2019/05/15/structured_commands.html
+        url:    /school/linux/shell/2019/05/15/structured_commands.html
       - title:  用户输入
-        url:    /linux/shell/2019/05/15/user_input.html
+        url:    /school/linux/shell/2019/05/15/user_input.html
       - title:  数据输出
-        url:    /linux/shell/2019/05/15/presenting_data.html
+        url:    /school/linux/shell/2019/05/15/presenting_data.html
       - title:  控制脚本
-        url:    /linux/shell/2019/05/15/script_control.html
+        url:    /school/linux/shell/2019/05/15/script_control.html
   - title:      高级编程
     children:
       - title:  函数
-        url:    /linux/shell/2019/05/15/functions.html
+        url:    /school/linux/shell/2019/05/15/functions.html
       - title:  桌面
-        url:    /linux/shell/2019/05/15/desktops.html
+        url:    /school/linux/shell/2019/05/15/desktops.html
       - title:  sed & gawk
-        url:    /linux/shell/2019/05/15/sed&gawk.html
+        url:    /school/linux/shell/2019/05/15/sed&gawk.html
       - title:  正则
-        url:    /linux/shell/2019/05/15/regular_expressions.html
+        url:    /school/linux/shell/2019/05/15/regular_expressions.html
       - title:  选修
-        url:    /linux/shell/2019/05/15/alternative_shells.html
+        url:    /school/linux/shell/2019/05/15/alternative_shells.html
   - title:      专题
     children:
       - title:  数据库
-        url:    /linux/shell/2019/05/15/database.html
+        url:    /school/linux/shell/2019/05/15/database.html
       - title:  web
-        url:    /linux/shell/2019/05/15/web.html
+        url:    /school/linux/shell/2019/05/15/web.html
       - title:  E-mail
         url:    /linux/shell/2019/05/15/email.html
       - title:  系统维护
-        url:    /linux/shell/2019/05/15/scripts_for_administrators.html
+        url:    /school/linux/shell/2019/05/15/scripts_for_administrators.html
 
 Resume:
   - title:

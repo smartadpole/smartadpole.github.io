@@ -7,3 +7,16 @@ aside:
   toc: true
 category: [software, c++, advanced]
 ---
+<span id="head"></span>
+<!--more-->
+
+
+
+
+-------------------  
+[End](#head)
+{:.warning}  
+
+
+# 附录
+## A 参考资料

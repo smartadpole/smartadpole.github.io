@@ -10,6 +10,7 @@ sidebar:
   nav: LinuxFoundation
 ---
 <span id="head"></span>
+>会用基本挂载命令；    
 
 <!--more-->
 

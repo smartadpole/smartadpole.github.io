@@ -1674,17 +1674,38 @@ PROJECT:
       - title:  上一层
         url:    /assets/category/work/AI/AI.html
 
-  - title:	图像
+  - title:	农业
     children:
-      - title:  Vision Seed
-        url:    /assets/category/work/project/vision_seed.html
+      - title:  智能生产
+        url:    /assets/category/work/project/agriculture/intelligent_production.html
+      - title:  市场推广
+        url:    /assets/category/work/project/agriculture/marketing.html
 
-  - title:	视频
+  - title:	工业
     children:
-      - title:  Video DNA
-        url:    /assets/category/work/project/video_dna.html
+      - title:  智能仓储
+        url:    /assets/category/work/project/industry/intelligent_storage.html
+      - title:  最优排产
+        url:    /assets/category/work/project/industry/optimal_schedule.html
+      - title:  订单匹配
+        url:    /assets/category/work/project/industry/order_match.html
 
-  - title:	语音
+  - title:	教育
+    children:
+      - title:  智慧教育
+        url:    /assets/category/work/project/education/intelligent_education.html
+
+  - title:	医疗
+    children:
+      - title:  智慧医疗
+        url:    /assets/category/work/project/medical/intelligent_medical.html
+
+  - title:	互联网
+    children:
+      - title:  人脸识别
+        url:    /assets/category/work/project/internet/face_recognize.html
+      - title:  视频检索
+        url:    /assets/category/work/project/internet/video_retrieval.html
 
 PARALLEL:
   - title:

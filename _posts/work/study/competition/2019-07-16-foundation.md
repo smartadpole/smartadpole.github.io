@@ -16,7 +16,7 @@ category: [AI, AI, Competition]
 [天池大数据竞赛](https://tianchi.aliyun.com/competition/gameList/activeList)     
 [讯飞开放平台](http://challenge.xfyun.cn/2019/)     
 [DC 竞赛](https://www.pkbigdata.com/static_page/cmpList.html)    
-
+[Kesci](https://www.kesci.com/home/competition)      
 
 
 -------------------  
@@ -24,4 +24,6 @@ category: [AI, AI, Competition]
 {:.warning}  
 
 
-## 附录
+# 附录
+## A 参考资料
+1. 梦寐mayshine. 人工智能比赛汇总[EB/OL]. <https://zhuanlan.zhihu.com/p/49805436>. 2018-11-14/2020-01-21.    

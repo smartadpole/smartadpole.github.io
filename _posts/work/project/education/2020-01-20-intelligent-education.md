@@ -23,3 +23,4 @@ category: [AI, project, intelligent_education_pro]
 # 附录
 ## A 参考资料
 1. 阿里天池. 第二届海南大数据创新应用大赛—应用赛3：教育就业赛道[EB/OL]. <https://tianchi.aliyun.com/competition/entrance/231773/information>. 2019/2020-01-20.    
+1. 讯飞开放平台. 智慧教育赛道[EB/OL]. <http://challenge.xfyun.cn/2019/gamedetail?type=detail/smartEdu>. 2019-05-21/2020-01-21.     

@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 深度学习基础"
+title:  "「DL」 深度学习资料汇总"
 date:   2019-02-13 14:08:40 +0800
 key: dl-foundation-20190213
 aside:

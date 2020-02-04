@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「ML」 强化学习资源汇总"
+title:  "「ML」 强化学习资料汇总"
 date:   2019-04-19 18:038:40 +0800
 key: RL-foundation-20190419
 aside:

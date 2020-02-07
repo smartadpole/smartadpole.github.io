@@ -29,8 +29,8 @@ $\bullet \bullet$
 *2017* [paper](https://arxiv.org/abs/1710.04837)     
 $\bullet \bullet$     
 
-1. [A Survey of Zero-Shot Learning: Settings, Methods, and Applications](https://dl.acm.org/citation.cfm?doid=3306498.3293318)     
-TIST 2019 *2019* [paper](https://dl.acm.org/citation.cfm?doid=3306498.3293318) | [blog](https://www.zhuanzhi.ai/document/d65595558528ee55018fddcad2911da9)       
+1. [A Survey of Zero-Shot Learning: Settings, Methods, and Applications](http://www.ntulily.org/wp-content/uploads/journal/A_Survey_of_Zero-Shot_Learning_Settings_Methods_and_Applications_accepted.pdf)     
+TIST 2019 *2019* [paper](http://www.ntulily.org/wp-content/uploads/journal/A_Survey_of_Zero-Shot_Learning_Settings_Methods_and_Applications_accepted.pdf) | [blog](https://www.zhuanzhi.ai/document/d65595558528ee55018fddcad2911da9)       
 $\bullet \bullet$     
 
 # 2 理论
@@ -117,7 +117,7 @@ ECCV 2014 *2014* [paper](https://www.eecs.qmul.ac.uk/~txiang/publications/Fu_et_
 TMV-BLP       
 
 1. [Zero-Shot Learning via Visual Abstraction](https://computing.ece.vt.edu/~santol/projects/zsl_via_visual_abstraction/eccv2014_zsl_via_visual_abstraction.pdf)  
-ECCV 2014 *2014* [paper](https://computing.ece.vt.edu/~santol/projects/zsl_via_visual_abstraction/eccv2014_zsl_via_visual_abstraction.pdf)  | [matlab](https://github.com/StanislawAntol/zsl_via_visual_abstraction) | [project]](https://computing.ece.vt.edu/~santol/projects/zsl_via_visual_abstraction/)    
+ECCV 2014 *2014* [paper](https://computing.ece.vt.edu/~santol/projects/zsl_via_visual_abstraction/eccv2014_zsl_via_visual_abstraction.pdf)  | [matlab](https://github.com/StanislawAntol/zsl_via_visual_abstraction) | [project](https://computing.ece.vt.edu/~santol/projects/zsl_via_visual_abstraction/)    
 
 1. [Zero-Shot Recognition with Unreliable Attributes](https://papers.nips.cc/paper/5290-zero-shot-recognition-with-unreliable-attributes.pdf)     
 NIPS 2014 *2014* [paper](https://papers.nips.cc/paper/5290-zero-shot-recognition-with-unreliable-attributes.pdf)     
@@ -130,7 +130,7 @@ $\bullet \bullet$ - SJE-II
 CVPR 2015 *2015* [paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Fu_Zero-Shot_Object_Recognition_2015_CVPR_paper.pdf)    
 
 1. [Zero-Shot Learning via Semantic Similarity Embedding](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhang_Zero-Shot_Learning_via_ICCV_2015_paper.pdf)  
-ICCV 2015 *2015* [paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhang_Zero-Shot_Learning_via_ICCV_2015_paper.pdf)  | [code](https://zimingzhang.wordpress.com/source-code/)
+ICCV 2015 *2015* [paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhang_Zero-Shot_Learning_via_ICCV_2015_paper.pdf)  | [code](https://zimingzhang.wordpress.com/source-code/)     
 $\bullet \bullet$ - SSE       
 
 1. [Semi-Supervised Zero-Shot Classification with Label Representation Learning](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Li_Semi-Supervised_Zero-Shot_Classification_ICCV_2015_paper.pdf)  
@@ -234,7 +234,7 @@ CVPR 2017 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/X
 $\bullet \bullet$ - GUB    
 
 1. [Attributes2Classname: A Discriminative Model for Attribute-Based Unsupervised Zero-Shot Learning](http://openaccess.thecvf.com/content_ICCV_2017/papers/Demirel_Attributes2Classname_A_Discriminative_ICCV_2017_paper.pdf)  
-ICCV 2017 *2017* [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Demirel_Attributes2Classname_A_Discriminative_ICCV_2017_paper.pdf) | [tensorflow](https://github.com/berkandemirel/attributes2classname)
+ICCV 2017 *2017* [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Demirel_Attributes2Classname_A_Discriminative_ICCV_2017_paper.pdf) | [tensorflow](https://github.com/berkandemirel/attributes2classname)    
 $\bullet \bullet$ - A2C     
 
 1. [Predicting Visual Exemplars of Unseen Classes for Zero-Shot Learning](http://openaccess.thecvf.com/content_ICCV_2017/papers/Changpinyo_Predicting_Visual_Exemplars_ICCV_2017_paper.pdf)  
@@ -246,7 +246,7 @@ ICCV 2017 *2017* [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/J
 LDL    
 
 1. [Zero-Shot Recognition via Direct Classifier Learning with Transferred Samples and Pseudo Labels](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14160/14281)  
-AAAI 2017 *2017* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14160/14281)
+AAAI 2017 *2017* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14160/14281)    
 DCL     
 
 1. [Zero-Shot Learning via Category-Specific Visual-Semantic Mapping and Label Refinement](https://ieeexplore.ieee.org/document/8476580)        
@@ -258,35 +258,35 @@ SIGDIAL 2018 *2018* [paper](https://arxiv.org/abs/1805.04803)  | [pytorch](https
 $\bullet \bullet$ - ZSGD       
 
 1. [Adversarial Zero-shot Learning With Semantic Augmentation](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16805/15965)  
-AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16805/15965)
+AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16805/15965)    
 GANZrl    
 
 1. [Joint Dictionaries for Zero-Shot Learning](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16404/16723)  
-AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16404/16723)
+AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16404/16723)    
 JDZsL     
 
 1. [Zero-Shot Learning via Class-Conditioned Deep Generative Models](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16087/16709)  
-AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16087/16709)
+AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16087/16709)    
 VZSL     
 
 1. [Zero-Shot Learning With Attribute Selection](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16350/16272)  
-AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16350/16272)
+AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16350/16272)   
 AS     
 
 1. [Deep Semantic Structural Constraints for Zero-Shot Learning](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16309/16294)  
-AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16309/16294)
+AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16309/16294)    
 DSSC     
 
 1. [Towards Affordable Semantic Searching: Zero-Shot Retrieval via Dominant Attributes](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16626/16314)  
-AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16626/16314)
+AAAI 2018 *2018* [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16626/16314)    
 ZsRDA      
 
 1. [Zero-shot learning-A comprehensive evaluation of the good, the bad and the ugly](http://cn.arxiv.org/abs/1707.00600)  
-TPAMI 2018 *2017-07-03* [paper](https://arxiv.org/abs/1707.00600) | [project](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly/)  
+TPAMI 2018 *2017-07-03* [paper](https://arxiv.org/abs/1707.00600) | [project](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly/)     
 C-GUB    
 
 1. [Transductive Unbiased Embedding for Zero-Shot Learning](http://cn.arxiv.org/abs/1803.11320)   
-CVPR 2018 *2018-03-30* 阿里 [paper](https://arxiv.org/abs/1803.11320) | [blog](http://www.sohu.com/a/232858182_473283)     
+CVPR 2018 *2018-03-30* 阿里 [paper](https://arxiv.org/abs/1803.11320) | [blog](http://www.sohu.com/a/232858182_473283)      
 TUE     
 
 1. [Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs](http://cn.arxiv.org/abs/1803.08035)  
@@ -338,7 +338,7 @@ ECCV 2018 *2018* [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/R
 $\bullet \bullet$ - MC-ZSL     
 
 1. [Generalized Zero-Shot Learning with Deep Calibration Network](http://papers.nips.cc/paper/7471-generalized-zero-shot-learning-with-deep-calibration-network.pdf)      
-NIPS 2018 *2018* [paper](http://papers.nips.cc/paper/7471-generalized-zero-shot-learning-with-deep-calibration-network.pdf)
+NIPS 2018 *2018* [paper](http://papers.nips.cc/paper/7471-generalized-zero-shot-learning-with-deep-calibration-network.pdf)   
 DCN     
 
 1. [Stacked Semantics-Guided Attention Model for Fine-Grained Zero-Shot Learning](http://papers.nips.cc/paper/7839-stacked-semantics-guided-attention-model-for-fine-grained-zero-shot-learning.pdf)    

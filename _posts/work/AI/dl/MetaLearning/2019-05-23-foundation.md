@@ -30,7 +30,7 @@ $\bullet \bullet$
 $\bullet \bullet$     
 
 1. [A Survey of Zero-Shot Learning: Settings, Methods, and Applications](https://dl.acm.org/citation.cfm?doid=3306498.3293318)     
-TIST 2019 *2019* [paper](https://dl.acm.org/citation.cfm?doid=3306498.3293318)    
+TIST 2019 *2019* [paper](https://dl.acm.org/citation.cfm?doid=3306498.3293318) | [blog](https://www.zhuanzhi.ai/document/d65595558528ee55018fddcad2911da9)       
 $\bullet \bullet$     
 
 # 2 理论
@@ -286,7 +286,7 @@ TPAMI 2018 *2017-07-03* [paper](https://arxiv.org/abs/1707.00600) | [project](ht
 C-GUB    
 
 1. [Transductive Unbiased Embedding for Zero-Shot Learning](http://cn.arxiv.org/abs/1803.11320)   
-CVPR 2018 *2018-03-30* 阿里 [paper](https://arxiv.org/abs/1803.11320)     
+CVPR 2018 *2018-03-30* 阿里 [paper](https://arxiv.org/abs/1803.11320) | [blog](http://www.sohu.com/a/232858182_473283)     
 TUE     
 
 1. [Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs](http://cn.arxiv.org/abs/1803.08035)  
@@ -317,8 +317,8 @@ GZSL-SE
 CVPR 2018 *2018* [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xian_Feature_Generating_Networks_CVPR_2018_paper.pdf) | [code](http://datasets.d2.mpi-inf.mpg.de/xian/cvpr18xian.zip) |   [project](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/zero-shot-learning/feature-generating-networks-for-zero-shot-learning/)  
 $\bullet \bullet$ - FGN     
 
-1. [Discriminative Learning of Latent Features for Zero-Shot Recognition](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Discriminative_Learning_of_CVPR_2018_paper.pdf)  
-CVPR 2018 *2018* [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Discriminative_Learning_of_CVPR_2018_paper.pdf)
+1. [Discriminative Learning of Latent Features for Zero-Shot Recognition](http://cn.arxiv.org/abs/1803.06731)   
+CVPR 2018 *2018-03-18* [paper](https://arxiv.org/abs/1803.06731) | [blog](http://baijiahao.baidu.com/s?id=1596522553301644906&wfr=spider&for=pc)   
 LDF    
 
 1. [Webly Supervised Learning Meets Zero-shot Learning: A Hybrid Approach for Fine-grained Classification](http://openaccess.thecvf.com/content_cvpr_2018/papers/Niu_Webly_Supervised_Learning_CVPR_2018_paper.pdf)  
@@ -445,9 +445,6 @@ NIPS 2019 *2019* [paper](http://papers.nips.cc/paper/8300-zero-shot-learning-via
 NIPS 2019 *2019* [paper](http://papers.nips.cc/paper/9632-semantic-guided-multi-attention-localization-for-zero-shot-learning.pdf)    
 SGMA
 
-1. [Discriminative Learning of Latent Features for Zero-Shot Recognition](http://cn.arxiv.org/abs/1803.06731)   
-*2019-06-25* [paper](https://arxiv.org/abs/1803.06731)   
-
 1. [Visual Space Optimization for Zero-shot Learning](http://cn.arxiv.org/abs/1907.00330)   
 *2019-06-30* [paper](https://arxiv.org/abs/1907.00330)     
 >设计了一个新的 loss；   
@@ -512,7 +509,39 @@ ICML 2019 *2018-05-31* [paper](https://arxiv.org/abs/1805.12375) | [openreview](
 | [Flowers](http://www.robots.ox.ac.uk/~vgg/data/flowers/) |  |  |  | 102 |
 | [SUN](http://cs.brown.edu/~gmpatter/sunattributes.html) |   |   | Scene Attributes | 717 |
 
-## C 参考资料
+## C 比赛
+1. AI Challenger 2018    
+[解决方案](https://github.com/foamliu/Zero-Shot-Learning)    
+
+## D 研究员
+1. Donald M. Palatucci
+1. 保罗·维奥拉     
+[linked in](https://www.linkedin.com/in/violapaul/)
+Amazon Air科学副总裁，前MIT教授，计算机视觉研究员，ICCV Helmholtz Prize 得主     
+
+1. 奥里奥尔·温亚尔斯     
+[O. Vinyals](http://www1.icsi.berkeley.edu/~vinyals/) [google research](https://research.google/people/OriolVinyals/)   
+Oriol Vinyals是 DeepMind 的研究科学家，主要研究深度学习，博士毕业于加州大学伯克利分校     
+
+1. 罗布弗格斯    
+
+1. 李飞飞     
+[profiles](https://profiles.stanford.edu/fei-fei-li/) [wikipedia](https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%A3%9B%E9%A3%9B)    
+斯坦福大学计算机科学系教授，斯坦福视觉实验室负责人，斯坦福大学人工智能实验室（SAIL）前负责人。专业领域是计算机视觉和认知神经科学。2016年11月李飞飞加入谷歌，担任谷歌云AI/ML首席科学家。2018年9月，返回斯坦福任教，现为谷歌云AI/ML顾问。10月20日斯坦福大学「以人为中心的AI计划」开启，李飞飞担任联合负责人。11月20日李飞飞不再担任SAIL负责人，Christopher Manning 接任该职位    
+
+1. 杜米特鲁·艾尔罕     
+[profiles](http://www.dumitru.ca/)    
+谷歌大脑研究员，目前研究重点是可扩展高质量检测、快速单次检测、图像字幕生成、视觉问答和图像理解的结构化输出     
+
+1. 理查德·索切     
+[profiles](https://www.socher.org/)
+Richard Socher（理查德·索赫尔）是Salesforce的首席科学家。 在此之前，他是斯坦福大学计算机科学系的兼职教授，也是2016年被 Salesforce 收购的 MetaMind 的创始人兼首席执行官/首席技术官。研究兴趣：CV、NLP、DL；   
+
+1. 吴恩达    
+[profiles](https://www.andrewng.org/)
+斯坦福大学教授，人工智能著名学者，机器学习教育者。2011年，吴恩达在谷歌创建了谷歌大脑项目，以通过分布式集群计算机开发超大规模的人工神经网络。2014年5月16日，吴恩达加入百度，负责“百度大脑”计划，并担任百度公司首席科学家。2017年3月20日，吴恩达宣布从百度辞职。2017年12月，吴恩达宣布成立人工智能公司Landing.ai，并担任公司的首席执行官。2018年1月，吴恩达成立了投资机构AI Fund；   
+
+## E 参考资料
 
 1. https://medium.com/@alitech_2017/from-zero-to-hero-shaking-up-the-field-of-zero-shot-learning-c43208f71332     
 1. https://www.analyticsindiamag.com/what-is-zero-shot-learning/    

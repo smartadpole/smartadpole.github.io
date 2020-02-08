@@ -142,18 +142,18 @@ AI:
 
   - title:      人工智能
     children:
-      - title:  深度学习工具
-        url:    /assets/category/work/AI/dl_framework.html
-      - title:  深度学习
-        url:    /assets/category/work/AI/dl.html
+      - title:  人工智能
+        url:    /assets/category/work/AI/AI_.html
       - title:  数据挖掘
         url:    /assets/category/work/AI/data_mining.html
       - title:  机器学习
         url:    /assets/category/work/AI/ml.html
       - title:  强化学习
         url:    /assets/category/work/AI/reinforcement_learning.html
-      - title:  人工智能
-        url:    /assets/category/work/AI/AI_.html
+      - title:  深度学习
+        url:    /assets/category/work/AI/dl.html
+      - title:  深度学习工具
+        url:    /assets/category/work/AI/dl_framework.html
 
   - title:      应用
     children:
@@ -1441,7 +1441,7 @@ NATURE:
       - title:  上一层
         url:    /assets/category/work/CV/cv.html
 
-  - title:	
+  - title:
     children:
       - title:  基础
         url:    /assets/category/work/CV/nature/foundation.html
@@ -1507,7 +1507,7 @@ INDUSTRY:
       - title:  上一层
         url:    /assets/category/work/CV/cv.html
 
-  - title:	
+  - title:
     children:
       - title:  工业检测
         url:    /assets/category/work/CV/industry/defect_inspection.html
@@ -1662,7 +1662,7 @@ OpenCV:
         url:    /assets/category/work/image_process/opencv/ml.html
       - title:  cuda
         url:    /assets/category/work/image_process/opencv/cuda.html
-  - title:	
+  - title:
     children:
       - title:  专题
         url:    /assets/category/work/image_process/opencv/special_topic.html

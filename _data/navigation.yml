@@ -7,9 +7,9 @@ header:
     url:        /assets/category/work/software/software.html
   - titles:
       en:       AI
-      zh:       人工智能
-      zh-Hans:  人工智能
-      zh-Hant:  人工智能
+      zh:       AI
+      zh-Hans:  AI
+      zh-Hant:  AI
     url:        /assets/category/work/AI/AI.html
   - titles:
       en:       Foundation
@@ -29,18 +29,6 @@ header:
       zh-Hans:  生活
       zh-Hant:  生活
     url:        /assets/category/life/life.html
-  - titles:
-      en:       Category
-      zh:       分类
-      zh-Hans:  分类
-      zh-Hant:  分類
-    url:        /category.html
-  - titles:
-      en:       Archive
-      zh:       归档
-      zh-Hans:  归档
-      zh-Hant:  歸檔
-    url:        /archive.html
   - titles:
       en:       About
       zh:       关于

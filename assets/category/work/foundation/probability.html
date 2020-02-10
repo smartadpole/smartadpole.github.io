@@ -13,9 +13,9 @@ sidebar:
     {% for cat in site.categories %}
         {% if cat[0] == "probability" %}
         {% for post in cat[1] %}
-        <li>{{post.date | date:"%d/%m/%Y"}}
+        {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
-        </li>
+        <br>
         {% endfor %}
         {% endif %}
     {% endfor %}

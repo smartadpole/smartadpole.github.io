@@ -418,6 +418,7 @@ CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)
 
 # 附录
 ## A 参考资料
+1. [Deep Learning-Based Real-Time Multiple-Object Detection and Tracking from Aerial Imagery via a Flying Robot with GPU-Based Embedded Devices](https://europepmc.org/article/PMC/6695703)    
 
 ## B 资源
 ### a 论文

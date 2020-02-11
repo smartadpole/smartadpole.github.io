@@ -18,6 +18,10 @@ tags: 资源
 $\bullet \bullet$   
 主要讲了 CNN 前向和反向传播，包括卷积层和池化的反向传播的推导的讲解；        
 
+1. [A review of modularization techniques in artificial neural networks](https://arxiv.org/abs/1904.12770)     
+*2019-04-29* [paper](https://arxiv.org/abs/1904.12770)     
+
+
 1. [What does it mean to understand a neural network?](http://cn.arxiv.org/abs/1907.06374)     
 *2019-07-15* DeepMind, 宾夕法尼亚 [paper](https://arxiv.org/abs/1907.06374)    
 
@@ -110,6 +114,12 @@ MobileNetV3:
 反思注意力带来的计算冗余问题；    
 
 ## 3.5 其他
+<span id="MCDNN">  </span>      
+1. [Multi-column Deep Neural Networks for Image Classification](http://cn.arxiv.org/abs/1202.2745)      
+CVPR 2012 *2012-02-13* [paper](https://arxiv.org/abs/1202.2745) | [blog](https://blog.csdn.net/Zhaohui1995_Yang/article/details/51407067) | [bagging](https://www.cnblogs.com/maybe2030/p/4652492.html) | [blog](https://blog.csdn.net/liangjunsheng0426/article/details/53997352) | [blog](https://blog.csdn.net/u010529217/article/details/38701703)     
+数据集：MNIST，NIST SD 19，CASIA（中国字），GTSRB（路标），CIFAR 10（natural color images），NORB（stereo images of 3D models）     
+IJCNN 2012 第一名，准确率 99.46% 优于人类识别率；多个 DNNs 结合到一个MCDNN（MLP+DNN）；初评时，作者使用了一组 trained on provided features的多层感知器（MLP）和一个 DNN trained on raw pixel intensities；本篇论文描述的是现场总决赛阶段使用的方法，MCDNN；         
+
 1.[Invertible Residual Networks](https://arxiv.org/abs/1811.00995)   
 ICML 2019 *2018-11-02* [paper](https://arxiv.org/abs/1811.00995)  
 

@@ -57,6 +57,7 @@ ICACDS 2019 *2019-05-18* [paper](https://arxiv.org/abs/1905.07581)
 
 ## 6.3 交通
 ### 6.3.1 [车辆识别](/ai/cv/vehicle/vehicle_recognition/2019/07/12/foundation.html)
+### 6.3.2 [交通信号识别](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)
 
 ## 6.4 自然
 ### 6.4.1 叶片分类

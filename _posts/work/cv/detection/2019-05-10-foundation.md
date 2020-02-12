@@ -26,6 +26,10 @@ IJCV 2018 *2018-09-06* [paper](https://arxiv.org/abs/1809.02165)
 *2019-07-11* [paper](https://arxiv.org/abs/1907.09408)    
 
 # 2 理论
+
+1. [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf)      
+*2006-12-13* [paper](https://www.biostat.wisc.edu/~page/rocpr.pdf)    
+
 1. [Deep Neural Networks for Object Detection](https://papers.nips.cc/paper/5207-deep-neural-networks-for-object-detection.pdf)    
 google [paper](https://papers.nips.cc/paper/5207-deep-neural-networks-for-object-detection.pdf)    
 目标检测中的神经网络；    
@@ -419,6 +423,8 @@ CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)
 # 附录
 ## A 参考资料
 1. [Deep Learning-Based Real-Time Multiple-Object Detection and Tracking from Aerial Imagery via a Flying Robot with GPU-Based Embedded Devices](https://europepmc.org/article/PMC/6695703)    
+1. [CVPR 2017、2018 - 目标检测文章](https://blog.csdn.net/qq_35451572/article/details/80758263)    
+1. [object detection](https://www.hidoop.com/object-detection/)    
 
 ## B 资源
 ### a 论文

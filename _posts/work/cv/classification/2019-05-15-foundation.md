@@ -18,7 +18,6 @@ tags: 资源
 
 
 # 2 理论
-
 1. [Optimizing Shallow Networks for Binary Classification](http://cn.arxiv.org/abs/1905.10161)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10161)   
 

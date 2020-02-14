@@ -130,7 +130,7 @@ $\bullet \bullet$
 1. [Traffic Sign and Pedestrian Detection and Handling](https://towardsdatascience.com/deeppicar-part-6-963334b2abe0)     
 *2019-05-03* [web](https://towardsdatascience.com/deeppicar-part-6-963334b2abe0)     
 
-1.[Adaptation of a Deep Learning Algorithm for Traffic Sign Detection](https://pdfs.semanticscholar.org/0f98/a5f1dfe74dfd4f9e6f167f6f44df40e83361.pdf?_ga=2.87592472.1245482539.1581322589-504939339.1571502740)     
+1. [Adaptation of a Deep Learning Algorithm for Traffic Sign Detection](https://pdfs.semanticscholar.org/0f98/a5f1dfe74dfd4f9e6f167f6f44df40e83361.pdf?_ga=2.87592472.1245482539.1581322589-504939339.1571502740)     
 *2019-07-29* [paper](https://pdfs.semanticscholar.org/0f98/a5f1dfe74dfd4f9e6f167f6f44df40e83361.pdf?_ga=2.87592472.1245482539.1581322589-504939339.1571502740)    
 $\bullet \bullet$    
 
@@ -162,7 +162,7 @@ $\bullet \bullet$
 | [tsinghua](#tsinghua) | 2016 | 中国 | 标志 |  | 100K | 108 |  | ✓ |  |  |
 | [TLR](#TLR) | 2010 | 巴黎 | 信号 |  | 10000 |  |  | ✓ |  |  |
 | [VIVA](#VIVA) | 2015 |  | 信号灯 | 6 |  |  |  |  |  |  |
-| [Bosch](#Bosch) | 2017 |  | 信号灯 |  | 5093<br>8334 |  |  |  |  |  |
+| [Bosch](#Bosch) | 2017 |  | 信号灯 |  | 5093<br>8334 | 19 |  |  |  |  |
 | [LISA-UCSD](#UCSD) |  | 美国 |  | 47 |  6610 | 7.7 | ✓ | ✓ |  |  |
 | [BelgiumTS](#BelgiumTS) | 2010 | 比利时 | 标志 | 62 |  |  | ✓ |  |  | 质量好 |
 | [CCTSDB](#CCTSDB) | 2017 | 中国 | 标志 | 3 | 15734 | 8 |  | ✓ |  |  |

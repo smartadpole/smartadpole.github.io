@@ -9,7 +9,7 @@ category: [AI, CV, traffic, traffic_signals_recognition]
 tags: 资源
 ---
 <span id='head'>
-> [通用物体分类](/ai/cv/classification/2019/05/15/foundation.html)，[通用目标检测](/ai/cv/detection/2019/05/10/foundation.html)    
+> [通用物体分类资源](/ai/cv/classification/2019/05/15/foundation.html)，[通用目标检测资源](/ai/cv/detection/2019/05/10/foundation.html)，[自动驾驶资源](/ai/cv/traffic/auto_drive/2020/02/14/foundation.html)    
 
 <!--more-->
 
@@ -171,7 +171,7 @@ $\bullet \bullet$
 
 <span id="GTSRB">  </span>        
 [German Traffic Sign Recognition Benchmark (GTSRB)](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news)      
-[训练集](http://benchmark.ini.rub.de/Dataset/GTSRB_Final_Training_Images.zip)，[测试集](http://benchmark.ini.rub.de/Dataset/GTSRB_Final_Test_Images.zip)     
+[训练集](http://benchmark.ini.rub.de/Dataset/GTSRB_Final_Training_Images.zip)，[测试集](http://benchmark.ini.rub.de/Dataset/GTSRB_Final_Test_Images.zip) | [聚数力](http://dataju.cn/Dataju/publishing/payContentPublishingDescription/796)     
 图片：1360x1024，交通标志：15x15 -> 250x250，80% 小于50x50，图像格式PPM；   
 交通信号标志的识别，2011 年 IJCNN 竞赛；该数据集图像全部采集于真实生活场景，由车载摄像头获取10个小时的视频资料，然后利用软件进行提取标注等工作，每张图像由 90% 的主体交通标志和 10% 的背景构成；库中的图像被现实世界的因素所影响，例如角度变化、照明条件（饱和度、地对比度）、运动模糊、遮挡、耀眼杨过、颜色褪色、涂鸦、贴纸等；数据集用于解决交通路标的识别问题，着重于单张图像多分类问题；      
 官方还提供了辅助数据集合，这些数据提供了图像的3类基本特征：     

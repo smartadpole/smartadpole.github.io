@@ -50,7 +50,7 @@ ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)
 
 # 2 理论
 1. [On the Integration of Optical Flow and Action Recognition](http://cn.arxiv.org/abs/1712.08416)   
-*2017-12-22* [paper](https://arxiv.org/abs/1712.08416) | [陈泰红](https://zhuanlan.zhihu.com/p/32663227)       
+CVPR 2018 *2017-12-22* [paper](https://arxiv.org/abs/1712.08416) | [blog](https://zhuanlan.zhihu.com/p/32663227) | [blog](https://zhuanlan.zhihu.com/p/32443212)       
 探讨了双流法中为什么光流有用；   
 - 作者认为two-streams 的光流不是表示运动信息，而是表示外观不变性；   
 - 用行为识别分类误差来训练（fine tune）光流比起用EPE误差来能获得更好的行为识别效果；   

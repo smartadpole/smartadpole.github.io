@@ -273,12 +273,17 @@ CV:
     children:
       - title:  上一层
         url:    /assets/category/work/AI/AI.html
-  - title:      通用任务
+  - title:      
     children:
       - title:  基础知识
         url:    /assets/category/work/CV/foundation.html
       - title:  数据增强
         url:    /assets/category/work/CV/data_augementation.html
+      - title:  对抗攻击
+        url:    /assets/category/work/CV/adversarial_attack.html
+
+  - title:      环境理解
+    children:
       - title:  分类
         url:    /assets/category/work/CV/image_classify.html
       - title:  检测
@@ -289,17 +294,50 @@ CV:
         url:    /assets/category/work/CV/tracking.html
       - title:  检索
         url:    /assets/category/work/CV/retrieval.html
-      - title:  图像增强
-        url:    /assets/category/work/CV/image_enhancement.html
-      - title:  图像生成
-        url:    /assets/category/work/CV/image_generation.html
-      - title:  多模态融合
-        url:    /assets/category/work/CV/multimodal.html
-      - title:  对抗攻击
-        url:    /assets/category/work/CV/adversarial_attack.html
       - title:  视觉可供性
         url:    /assets/category/work/CV/affordance.html
 
+  - title:      成像
+    children:
+      - title:  图像生成
+        url:    /assets/category/work/CV/image_generation.html
+      - title:  图像增强
+        url:    /assets/category/work/CV/image_enhancement.html
+
+  - title:      2.5D 
+    children:
+      - title:  光流估计
+        url:    /assets/category/work/CV/2.5D/optical_flow_estimation.html
+      - title:  深度估计
+        url:    /assets/category/work/CV/2.5D/depth_prediction.html
+
+  - title:      3D
+    children:
+      - title:  视角转换
+        url:    /assets/category/work/CV/3D/view_synthesis.html
+      - title:  三维重建
+        url:    /assets/category/work/CV/3D/3D_reconstruction.html
+      - title:  点云处理
+        url:    /assets/category/work/CV/3D/point_cloud.html
+      - title:  姿态估计
+        url:    /assets/category/work/CV/3D/pose_estimation.html
+      - title:  关键点检测
+        url:    /assets/category/work/CV/3D/key_point.html
+      - title:  标定
+        url:    /assets/category/work/CV/3D/calibration.html
+      - title:  视觉里程
+        url:    /assets/category/work/CV/3D/visual_odometry.html
+      - title:  SLAM
+        url:    /assets/category/work/CV/3D/SLAM.html
+
+  - title:      跨模态
+    children:
+      - title:  图片描述
+        url:    /assets/category/work/CV/caption.html
+      - title:  视觉问答
+        url:    /assets/category/work/CV/vaq.html
+      - title:  多模态融合
+        url:    /assets/category/work/CV/multimodal.html
 
   - title:      专题
     children:
@@ -326,28 +364,6 @@ CV:
         url:    /assets/category/work/CV/nature.html
       - title:  安全
         url:    /assets/category/work/CV/info_security.html
-
-  - title:      NLP
-    children:
-      - title:  图片描述
-        url:    /assets/category/work/CV/caption.html
-      - title:  视觉问答
-        url:    /assets/category/work/CV/vaq.html
-
-  - title:      3D
-    children:
-      - title:  视角转换
-        url:    /assets/category/work/CV/3D/view_synthesis.html
-      - title:  三维重建
-        url:    /assets/category/work/CV/3D/3D_reconstruction.html
-      - title:  点云处理
-        url:    /assets/category/work/CV/3D/point_cloud.html
-      - title:  姿态估计
-        url:    /assets/category/work/CV/3D/pose_estimation.html
-      - title:  关键点检测
-        url:    /assets/category/work/CV/3D/key_point.html
-      - title:  深度估计
-        url:    /assets/category/work/CV/3D/depth_prediction.html
 
   - title:      行情
     children:

@@ -23,15 +23,15 @@ $\bullet \bullet$
 
 1. [Zero Shot Learning with Semantic Output Codes](https://pdfs.semanticscholar.org/0f69/11bc1e6abee8bbf9dd3f8d54d40466429da7.pdf?_ga=2.4060537.835547854.1580895914-504939339.1571502740)     
 NIPS 2009 *2009* [paper](https://pdfs.semanticscholar.org/0f69/11bc1e6abee8bbf9dd3f8d54d40466429da7.pdf?_ga=2.4060537.835547854.1580895914-504939339.1571502740)    
-$\bullet \bullet$     
+$\bullet \bullet$ 2009 Survey        
 
 1. [Recent Advances in Zero-shot Recognition](http://cn.arxiv.org/abs/1710.04837)      
 *2017* [paper](https://arxiv.org/abs/1710.04837)     
-$\bullet \bullet$     
+$\bullet \bullet$ 2017 Survey     
 
 1. [A Survey of Zero-Shot Learning: Settings, Methods, and Applications](http://www.ntulily.org/wp-content/uploads/journal/A_Survey_of_Zero-Shot_Learning_Settings_Methods_and_Applications_accepted.pdf)     
 TIST 2019 *2019* [paper](http://www.ntulily.org/wp-content/uploads/journal/A_Survey_of_Zero-Shot_Learning_Settings_Methods_and_Applications_accepted.pdf) | [blog](https://www.zhuanzhi.ai/document/d65595558528ee55018fddcad2911da9)       
-$\bullet \bullet$     
+$\bullet \bullet$ 2019 Survey        
 
 # 2 理论
 1. [Learning from one example through shared densities on transforms](https://people.cs.umass.edu/~elm/papers/Miller_congealing.pdf)           
@@ -319,6 +319,7 @@ $\bullet \bullet$ - FGN
 
 1. [Discriminative Learning of Latent Features for Zero-Shot Recognition](http://cn.arxiv.org/abs/1803.06731)   
 CVPR 2018 *2018-03-18* [paper](https://arxiv.org/abs/1803.06731) | [blog](http://baijiahao.baidu.com/s?id=1596522553301644906&wfr=spider&for=pc)   
+$\bullet \bullet$ latent feature        
 LDF    
 
 1. [Webly Supervised Learning Meets Zero-shot Learning: A Hybrid Approach for Fine-grained Classification](http://openaccess.thecvf.com/content_cvpr_2018/papers/Niu_Webly_Supervised_Learning_CVPR_2018_paper.pdf)  

@@ -30,6 +30,11 @@ $\bullet \bullet$
 
 
 # 2 理论
+1. [Learning Functions: When Is Deep Better Than Shallow](http://cn.arxiv.org/abs/1603.00988)    
+*2016-03-03* [paper](https://arxiv.org/abs/1603.00988)    
+
+1. [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039)     
+*2017-03-27* [paper](https://arxiv.org/abs/1703.09039) | [home](http://eyeriss.mit.edu/tutorial.html)        
 
 
 # 3 二维
@@ -131,6 +136,21 @@ ICML 2019 *2018-11-02* [paper](https://arxiv.org/abs/1811.00995)
 1. [A review on deep learning techniques for 3D sensed data classification](http://cn.arxiv.org/abs/1907.04444)    
 *2019-07-09* [paper](https://arxiv.org/abs/1907.04444)    
 
+# 5 四元组
+1. [Quaternion Recurrent Neural Networks](http://cn.arxiv.org/abs/1806.04418)    
+*2018-06-12* [paper](https://arxiv.org/abs/1806.04418)    
+
+1. [Quaternion Convolutional Neural Networks for End-to-End Automatic Speech Recognition](http://cn.arxiv.org/abs/1806.07789)    
+*2018-06-20* [paper](https://arxiv.org/abs/1806.07789)    
+
+1. [Quaternion Convolutional Neural Networks](http://cn.arxiv.org/abs/1903.00658)    
+ECCV 2018 *2018-08* [paper](https://arxiv.org/abs/1903.00658) | [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xuanyu_Zhu_Quaternion_Convolutional_Neural_ECCV_2018_paper.pdf)-eccv | [机构](https://infiniaml.com/2018/09/10/infinia-ml-research-accepted-nips-2018/) | [blog](https://www.jianshu.com/p/7fd2e31d86e8)     
+$\bullet \bullet$ QCNN    
+针对 CNN 中通道处理太简单（相加）而存在的多个弊端，本文借鉴机器人学中的四元数来表示彩色图像，并给除了前向和反向传播推导；与 CNN 做了对比实验，在彩色图像去噪和分类任务上表现都更好；   
+
+1. A survey of quaternion neural networks    
+*2019-08-06*     
+$\bullet \bullet$    
 
 -------------------  
 [End](#head)

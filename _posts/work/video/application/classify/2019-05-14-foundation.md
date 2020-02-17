@@ -45,6 +45,9 @@ ICLR 2016 *2015-11-19* [paper](https://arxiv.org/abs/1511.06432)
 1. [A Survey of Video Based Action Recognition in Sports](https://pdfs.semanticscholar.org/2bb7/6926af1af556e3fd1c32c6dd557826b8ee2a.pdf?_ga=2.53757928.1506702602.1557989902-129004075.1557370518)   
 *2018-09* [paper](https://pdfs.semanticscholar.org/2bb7/6926af1af556e3fd1c32c6dd557826b8ee2a.pdf?_ga=2.53757928.1506702602.1557989902-129004075.1557370518)    
 
+1. A study on deep learning spatiotemporal models and feature extraction techniques for video understanding       
+*2020-01-24*    
+
 # 2 理论
 1. [On the Integration of Optical Flow and Action Recognition](http://cn.arxiv.org/abs/1712.08416)   
 *2017-12-22* [paper](https://arxiv.org/abs/1712.08416) | [陈泰红](https://zhuanlan.zhihu.com/p/32663227)       

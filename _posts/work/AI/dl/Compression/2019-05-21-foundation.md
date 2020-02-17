@@ -91,3 +91,4 @@ NIPS 2019 *2019-10-10* [paper](https://arxiv.org/abs/1910.04641)
 # 附录
 ## A 参考资料
 1. EwenWanW. 神经网络压缩 剪枝 量化 嵌入式计算优化NCNN[EB/OL]. <https://blog.csdn.net/xiaoxiaowenqiang/article/details/80946522>. 2018-07-06/2019-09-18.     
+1. 清水汪汪. 网络压缩论文整理(network compression)[EB/OL]. <https://www.cnblogs.com/zhonghuasong/p/7822572.html>. 2017-11-12/2019-02-17.    

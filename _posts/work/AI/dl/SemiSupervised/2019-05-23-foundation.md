@@ -16,6 +16,9 @@ tags: 资源
 1. [Data-Efficient Image Recognition with Contrastive Predictive Coding](http://cn.arxiv.org/abs/1905.09272)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09272)   
 
+1. [A Simple Framework for Contrastive Learning of Visual Representations](http://cn.arxiv.org/abs/2002.05709)    
+*2020-02-13* [paper](https://arxiv.org/abs/2002.05709) | [blog](https://m.thepaper.cn/newsDetail_forward_6019161)    
+
 
 -------------------  
 [End](#head)

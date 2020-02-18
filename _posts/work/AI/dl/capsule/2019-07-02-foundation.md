@@ -18,10 +18,12 @@ NIPS 2017 *2017-10-26* Hinton [paper](https://arxiv.org/abs/1710.09829) | [tenso
 # 2 综述  
 
 # 3 理论
+1. [Stacked Capsule Autoencoders](http://cn.arxiv.org/abs/1906.06818)     
+NIPS 2019 *2019-06-17* Hinton [paper](https://arxiv.org/abs/1906.06818) | [tensorflow](https://github.com/google-research/google-research/tree/master/stacked_capsule_autoencoders)-official       
 
 # 4 其他
-1. [Avoiding Implementation Pitfalls of "Matrix Capsules with EM Routing" by Hinton et al](https://arxiv.org/abs/1907.00652)   
-*2019-07-01* [paper](https://arxiv.org/abs/1907.00652) | [tensorflow](https://github.com/IBM/matrix-capsules-with-em-routing)    
+1. [Avoiding Implementation Pitfalls of "Matrix Capsules with EM Routing" by Hinton et al](http://cn.arxiv.org/abs/1907.00652)   
+*2019-07-01* [paper](https://arxiv.org/abs/1907.00652) | [tensorflow](https://github.com/IBM/matrix-capsules-with-em-routing)-official       
 
 -------------------  
 [End](#head)

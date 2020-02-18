@@ -1,10 +1,10 @@
 ---
 layout: articles
 titles:
-    en:       Image Enhancement
-    zh:       图像增强
-    zh-Hans:  图像增强
-    zh-Hant:  图像增强
+    en:       Image Inpaint
+    zh:       图像修复
+    zh-Hans:  图像修复
+    zh-Hant:  图像修复
 sidebar:
     nav: CV
 ---
@@ -12,7 +12,7 @@ sidebar:
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "image_enhancement" %}
+        {% if cat[0] == "image_inpaint" %}
         {% for post in cat[1] %}
         {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

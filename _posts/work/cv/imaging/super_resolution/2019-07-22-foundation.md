@@ -5,7 +5,7 @@ date:   2019-05-23 14:28:40 +0800
 key: super-resolution-foundation-20190523
 aside:
   toc: true
-category: [AI, CV, image_enhancement]
+category: [AI, CV, super_resolution]
 tags: 资源
 ---
 <span id='head'></span>  

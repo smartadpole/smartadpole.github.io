@@ -14,9 +14,7 @@ tags: 资源
 
 # 1 综述
 
-# 2 理论
-
-# 3 融合
+# 2 融合
 1. [Deep Image Blending](http://cn.arxiv.org/abs/1910.11495)    
 *2019-10-25* [paper](https://arxiv.org/abs/1910.11495)    
 合成时考虑纹理合成；    
@@ -28,5 +26,3 @@ tags: 资源
 
 # 附录
 ## A 参考资料
-[1]. dragonlong. Trending in 3D Vision[EB/OL]. <https://github.com/dragonlong/Trending-in-3D-Vision>. -/2019-03-28.    
-[2]. timzhang641. 3D-Machine-Learning[EB/OL]. <https://github.com/timzhang642/3D-Machine-Learning>. -/2019-03-28.    

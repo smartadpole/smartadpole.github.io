@@ -5,7 +5,7 @@ date:   2019-10-09 10:28:40 +0800
 key: image-sharp-foundation-201901009
 aside:
   toc: true
-category: [AI, CV, image_enhancement]
+category: [AI, CV, image_deblur]
 tags: 资源
 ---
 <span id='head'></span>  

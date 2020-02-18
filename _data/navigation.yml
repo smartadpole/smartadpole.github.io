@@ -299,10 +299,22 @@ CV:
 
   - title:      成像
     children:
-      - title:  图像生成
+      - title:  修复
+        url:    /assets/category/work/CV/image_inpaint.html
+      - title:  补全
+        url:    /assets/category/work/CV/image_outpaint.html
+      - title:  编辑
+        url:    /assets/category/work/CV/image_edit.html
+      - title:  生成
         url:    /assets/category/work/CV/image_generation.html
-      - title:  图像增强
-        url:    /assets/category/work/CV/image_enhancement.html
+      - title:  风格迁移
+        url:    /assets/category/work/CV/style_transfer.html
+      - title:  去模糊
+        url:    /assets/category/work/CV/image_deblur.html
+      - title:  颜色增强
+        url:    /assets/category/work/CV/color_enhancement.html
+      - title:  超分辨率
+        url:    /assets/category/work/CV/super_resolution.html
 
   - title:      2.5D 
     children:

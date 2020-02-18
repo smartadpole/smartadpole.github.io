@@ -102,17 +102,22 @@ CVPR 2019
 1. [StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](http://cn.arxiv.org/abs/1711.09020)       
 *2017-11-24* [paper](https://arxiv.org/abs/1711.09020) | [pytorch](https://github.com/yunjey/StarGAN)      
 多领域图像转换     
+<span id="DCGAN"> </span>
+1.  [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06434)      
+ICLR 2015 *2015-11-19* [Theano](https://github.com/Newmu/dcgan_code) | [Keras](https://github.com/jacobgil/keras-dcgan) | [Pytorch](https://github.com/pytorch/examples/tree/master/dcgan) | [Pytorch-MNIST/CelebA](https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN) | [Tensorflow](https://github.com/carpedm20/DCGAN-tensorflow) | [Torch](https://github.com/soumith/dcgan.torch)     
+DCGAN    
+将卷积网络引入 GAN 中，且使用了 BN，证明了池化在 GAN 中不能使用；提供了许多有趣的生成结果；     
 
 ## 1.5 模型评估
 1. [An empirical study on evaluation metrics of generative adversarial networks](http://cn.arxiv.org/abs/1806.07755)    
 *2018-06* [paper](https://arxiv.org/abs/1806.07755)   
 
 
-1. Borji A. [Pros and cons of gan evaluation measures](http://cn.arxiv.org/abs/1801.03446)[J]. arXiv preprint [arXiv:1801.03446](http://cn.arxiv.org/abs/1801.03446), 2019.   
-2018-02   
+1. [Pros and cons of gan evaluation measures](http://cn.arxiv.org/abs/1801.03446)    
+*2018-02* [paper](https://arxiv.org/abs/1801.03446)       
 
-1. Shmelkov K, Schmid C, Alahari K. [How good is my GAN?](http://cn.arxiv.org/abs/1807.09499)[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 213-229.   
-2018-07   
+1. [How good is my GAN?](http://cn.arxiv.org/abs/1807.09499)     
+ECCV 2018 *2018-07* [paper](https://arxiv.org/abs/1807.09499)   
 
 # 2 技术应用
 
@@ -202,10 +207,6 @@ NIPS 2016 workshop
 ### 3.1.1 [人脸编辑](/ai/cv/human/facial_attribute_editing/2019/10/09/foundation.html)
 ### 3.1.2 [季节变换](/ai/cv/nature/season_translation/2020/01/02/foundation.html)
 ### 3.1.3 其他
-1.  [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://cn.arxiv.org/abs/1511.06434)      
-ICLR *2015-11-19* [Theano](https://github.com/Newmu/dcgan_code) · [Keras](https://github.com/jacobgil/keras-dcgan) · [Pytorch](https://github.com/pytorch/examples/tree/master/dcgan) · [Pytorch-MNIST/CelebA](https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN) · [Tensorflow](https://github.com/carpedm20/DCGAN-tensorflow) · [Torch](https://github.com/soumith/dcgan.torch)     
-**DCGAN**：将卷积网络引入 GAN 中，且使用了 BN，证明了池化在 GAN 中不能使用；提供了许多有趣的生成结果；     
-
 1.  [Generative Adversarial Text to Image Synthesis](http://cn.arxiv.org/abs/1605.05396)  
 [Code](https://github.com/reedscot/icml2016)  [Code](https://github.com/paarthneekhara/text-to-image)   
 
@@ -314,15 +315,16 @@ Yann LeCun's paper
 1.  [UNSUPERVISED CROSS-DOMAIN IMAGE GENERATION](http://cn.arxiv.org/abs/1611.02200)  
 [Code](https://github.com/yunjey/domain-transfer-network)  
 
-1.  [Image-to-image translation using conditional adversarial nets](http://cn.arxiv.org/pdf/1611.07004v1.pdf)  
+1. [Image-to-image translation using conditional adversarial nets](http://cn.arxiv.org/pdf/1611.07004v1.pdf)  
 [Code](https://github.com/phillipi/pix2pix)   
 [Code](https://github.com/yenchenlin/pix2pix-tensorflow)  
 
-1.  [Learning to Discover Cross-Domain Relations with Generative Adversarial Networks](http://cn.arxiv.org/abs/1703.05192)  
+1. [Learning to Discover Cross-Domain Relations with Generative Adversarial Networks](http://cn.arxiv.org/abs/1703.05192)  
 [Code](https://github.com/carpedm20/DiscoGAN-pytorch)  
-
-1.  [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://junyanz.github.io/CycleGAN/)  
-[Code](https://github.com/junyanz/CycleGAN) | [pytorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)+pix2pix   
+<span id="CycleGAN"> </span>
+1. [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](http://cn.arxiv.org/abs/1703.10593)  
+ICCV 2017 *2017-03-30* [paper](https://arxiv.org/abs/1703.10593) | [torch](https://github.com/junyanz/CycleGAN)-official | [pytorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)-official | [project](https://junyanz.github.io/CycleGAN/) | [blog](https://blog.csdn.net/hhy_csdn/article/details/82913776)           
+CycleGAN    
 
 1.  [CoGAN: Coupled Generative Adversarial Networks](http://cn.arxiv.org/abs/1606.07536)  
 [Code](https://github.com/andrewliao11/CoGAN-tensorflow)  

@@ -451,6 +451,7 @@ https://mp.weixin.qq.com/s/LGj_2Zw6XA_EfZb8Rvv7bg)
 | 名称 | 类型 | 数量(训练/验证/测试) | 说明 | 发布日期 |
 | --- | --- | --- | --- | --- |
 | [COCO](http://cocodataset.org/) | 通用目标检测 |  | 微软 |  |
+| [object365](https://zhuanlan.zhihu.com/p/106830098) |  |  |  |  |
 | []() |  |  |  |  |
 
 1. [COCO数据集提取自己需要的类转VOC](http://www.manongjc.com/article/28607.html)      

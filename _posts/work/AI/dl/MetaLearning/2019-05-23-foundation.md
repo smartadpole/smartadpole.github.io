@@ -74,7 +74,7 @@ CVPR 2018 *2017-11-16* [paper](https://arxiv.org/abs/1711.06025) | [pytorch](htt
 ICLR 2019 [paper](https://openreview.net/pdf?id=ByGOuo0cYm) | [openreview](https://openreview.net/forum?id=ByGOuo0cYm)   
 
 1. [Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning](http://cn.arxiv.org/abs/1805.10002)   
-*2018-05-25* [paper](https://arxiv.org/abs/1805.10002) | [tensorflow](https://github.com/csyanbin/TPN)-official | [pytorch](https://github.com/csyanbin/TPN-pytorch)-official | [openreview](https://openreview.net/forum?id=SyVuRiC5K7)          
+ICLR 2019 *2018-05-25* [paper](https://arxiv.org/abs/1805.10002) | [tensorflow](https://github.com/csyanbin/TPN)-official | [pytorch](https://github.com/csyanbin/TPN-pytorch)-official | [openreview](https://openreview.net/forum?id=SyVuRiC5K7) | [blog](https://zhuanlan.zhihu.com/p/55111343)            
 
 1. [Adaptive Posterior Learning: few-shot learning with a surprise-based memory module](http://cn.arxiv.org/abs/1902.02527)    
 ICLR 2019 *2019-02-07* [paper](https://arxiv.org/abs/1902.02527) | [openreview](https://openreview.net/forum?id=ByeSdsC9Km) [pytorch](https://github.com/cogentlabs/apl)      
@@ -498,6 +498,7 @@ ICML 2019 *2018-05-31* [paper](https://arxiv.org/abs/1805.12375) | [openreview](
 1. [paper-with-code/元学习](https://paperswithcode.com/task/meta-learning/codeless?page=9)    
 1. [paper-with-code/少样本学习](https://paperswithcode.com/task/few-shot-image-classification)    
 1. [awesome-zero-shot-learning](https://github.com/chichilicious/awesome-zero-shot-learning#Papers)    
+1. [从 CVPR 2019 一览小样本学习研究进展](https://zhuanlan.zhihu.com/p/75263636)     
 
 ## B 数据集
 
@@ -544,6 +545,8 @@ Richard Socher（理查德·索赫尔）是Salesforce的首席科学家。 在�
 
 ## E 参考资料
 
-1. https://medium.com/@alitech_2017/from-zero-to-hero-shaking-up-the-field-of-zero-shot-learning-c43208f71332     
-1. https://www.analyticsindiamag.com/what-is-zero-shot-learning/    
-1. https://medium.com/@cetinsamet/zero-shot-learning-53080995d45f     
+1. [From Zero to Hero: Shaking Up the Field of Zero-shot Learning
+](https://medium.com/@alitech_2017/from-zero-to-hero-shaking-up-the-field-of-zero-shot-learning-c43208f71332)     
+1. [WHAT IS ZERO-SHOT LEARNING?](https://www.analyticsindiamag.com/what-is-zero-shot-learning/)    
+1. [Zero-Shot Learning](https://medium.com/@cetinsamet/zero-shot-learning-53080995d45f)     
+1. [【NLP笔记】Few-shot learning 少样本学习](https://zhuanlan.zhihu.com/p/66552960)   

@@ -18,6 +18,9 @@ tags: 资源
 # 1 综述
 
 # 2 图像修复
+1. [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](/ai/dl/gan/2019/03/26/foundation.html#DCGAN)    
+ICLR 2015 *2015-11-19*    
+
 1.  [Semantic Image Inpainting with Perceptual and Contextual Losses](http://cn.arxiv.org/abs/1607.07539)  
 [Code](https://github.com/bamos/dcgan-completion.tensorflow)  
 CVPR 2017  

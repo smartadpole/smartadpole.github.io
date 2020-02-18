@@ -9,6 +9,9 @@ category: [AI, CV, super_resolution]
 tags: 资源
 ---
 <span id='head'></span>  
+>扩大图像的分辨率，获得清晰画质；在医疗和卫星成像上有着重要应用；     
+
+`super resolution`    
 
 <!--more-->
 2019 年 超分辨率顶会论文数量真的是爆炸了；
@@ -59,6 +62,12 @@ $\bullet \bullet$
 # 2 理论
 
 # 3 基础研究
+1. [Learning a Deep Convolutional Network for Image Super-Resolution](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf)    
+*2014* [paper](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf) | [project](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) | [blog](https://zhuanlan.zhihu.com/p/27149743) |      
+
+1. [Image Super-Resolution Using Deep Convolutional Networks](https://arxiv.org/abs/1501.00092)    
+*2014-12-31* [paper](https://arxiv.org/abs/1501.00092) | [project](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) | [blog](https://blog.csdn.net/wl1710582732/article/details/78895557) | [blog](https://www.jianshu.com/p/dfe85a3c2096),[tensorflow](https://github.com/wwq-online/SRCNN-REPRODUCTION)            
+
 1. [To learn image super-resolution, use a GAN to learn how to do image degradation first](http://cn.arxiv.org/abs/1807.11458)   
 ECCV 2018 *2018-07-30* [paper](https://arxiv.org/abs/1807.11458)   
 人工生成的低分辨率图像，和真实自然存在的图像并不相同；本文就对生成真实低分辩率图像做了相关研究；   

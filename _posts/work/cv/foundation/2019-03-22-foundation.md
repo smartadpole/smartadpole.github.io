@@ -34,13 +34,6 @@ category: [AI, CV, cv_foundation]
 目标在哪里；   
 - **检测**（detection）   
 图像中有哪些目标，位置在哪；   
-    - 通用目标检测     
-    - 行人检测  
-    - 人脸检测   
-    - 文本检测   
-    - 车辆检测  
-    - 视频目标检测   
-    - 球类检测   
 - **识别**（recognization）  
 - **分割**（Segmentation）    
     - **语义分割**（semantic segmentation）    
@@ -69,9 +62,6 @@ category: [AI, CV, cv_foundation]
 转换图像的风格；    
 - **着色**（Colourisation）  
 单色图像转换成彩色图像；   
-- **图像恢复**（image restoration）   
-    - 面部修复（facial inpaint）   
-- **图像合成**   
 
 
 
@@ -165,17 +155,16 @@ category: [AI, CV, cv_foundation]
 最近指通过观察场景，来预测即将要出现的动作；    
 
 
-# 2 渔
-[NIPS](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)     
-
-
 -------------------  
  End
 {:.warning}  
 
 
-## 附录
-### A 参考资料
+# 附录
+## A 资源
+1. [NIPS](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)     
+
+## B 参考资料
 [1]. 机器之心. 计算机视觉这一年：分割、超分辨率、风格迁移、着色和动作识别[EB/OL]. <https://www.jiqizhixin.com/articles/2017-12-03>. 2017-12-04/2019-03-22.   
 [2]. 用户1332428. 计算机视觉处理三大任务：分类、定位和检测[EB/OL]. <https://cloud.tencent.com/developer/article/1054871>. 2018-03-08/2019-03-22.    
 [3].  用户1332428. 计算机视觉任务：图像梯度和图像完成[EB/OL]. <https://cloud.tencent.com/developer/article/1054873>. 2018-03-08/2019-03-22.    

@@ -19,8 +19,9 @@ tags: 资源
 # 3 理论
 
 # 4 其他
-1. [CalibNet: Geometrically Supervised Extrinsic Calibration using 3D Spatial Transformer Networks](https://arxiv.org/abs/1803.08181)    
-IRSO 2018 *2018-03-22* [paper](https://arxiv.org/abs/1803.08181) | [tensorflow](https://github.com/epiception/CalibNet)-official | [project](https://epiception.github.io/CalibNet/) | [blog](http://www.sohu.com/a/276226075_715754) | [blog](https://www.jianshu.com/p/b598ad0fff7e) | [blog](https://journals.sagepub.com/doi/pdf/10.1177/0278364917734298)     
+1. [CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction](https://arxiv.org/abs/1704.03489)    
+CVPR 2017 *2017-04-11* [paper](https://arxiv.org/abs/1704.03489) | [blog](https://zhuanlan.zhihu.com/p/35062953) | [blog](https://blog.csdn.net/Kevin_cc98/article/details/78985633)      
+
 
 -------------------  
 [End](#head)

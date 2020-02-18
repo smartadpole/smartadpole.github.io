@@ -21,6 +21,7 @@ category: [AI, CV, traffic, auto_drive]
 1. 无人驾驶仿真平台    
 - [TORCS](https://sourceforge.net/projects/torcs/): The Open Racing Car Simulator    
 一个赛车游戏，可以将游戏记录导出作为数据集；          
+1. [最新无人驾驶研究成果大总结](https://zhuanlan.zhihu.com/p/87666744)   
 
 ## B 数据集
 

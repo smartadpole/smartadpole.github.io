@@ -325,7 +325,7 @@ CV:
         url:    /assets/category/work/CV/3D/key_point.html
       - title:  标定
         url:    /assets/category/work/CV/3D/calibration.html
-      - title:  视觉里程
+      - title:  视觉里程计
         url:    /assets/category/work/CV/3D/visual_odometry.html
       - title:  SLAM
         url:    /assets/category/work/CV/3D/SLAM.html
@@ -1282,49 +1282,49 @@ GAN:
   - title:  预备
     children:
       - title:  基础
-        url:    /dl/gan/2019/04/09/base.html
+        url:    /ai/dl/gan/2019/04/09/base.html
       - title:  生成模型
-        url:    /dl/gan/2019/04/09/generating.html
+        url:    /ai/dl/gan/2019/04/09/generating.html
       - title:  资源汇总
-        url:    /dl/gan/2019/03/26/foundation.html
+        url:    /ai/dl/gan/2019/03/26/foundation.html
   - title:  理论
     children:
       - title:  GAN
-        url:    /dl/gan/2019/03/26/survey.html
+        url:    /ai/dl/gan/2019/03/26/survey.html
       - title:  数学原理
-        url:    /dl/gan/2019/04/10/math.html
+        url:    /ai/dl/gan/2019/04/10/math.html
       - title:  对抗
-        url:    /dl/gan/2019/04/09/adversarial-examples.html
+        url:    /ai/dl/gan/2019/04/09/adversarial-examples.html
       - title:  挑战
-        url:    /dl/gan/2019/04/09/challenges.html
+        url:    /ai/dl/gan/2019/04/09/challenges.html
       - title:  模型评估
-        url:    /dl/gan/2019/04/09/evaluation.html
+        url:    /ai/dl/gan/2019/04/09/evaluation.html
       - title:  应用
-        url:    /dl/gan/2019/04/09/application.html
+        url:    /ai/dl/gan/2019/04/09/application.html
       - title:  展望
-        url:    /dl/gan/2019/04/09/further.html
+        url:    /ai/dl/gan/2019/04/09/further.html
   - title:  实践
     children:
       - title:  生成手写数字
-        url:    /dl/gan/2019/04/09/generating-handwritten-digitals.html
+        url:    /ai/dl/gan/2019/04/09/generating-handwritten-digitals.html
       - title:  训练技巧
-        url:    /dl/gan/2019/04/09/tricks.html
+        url:    /ai/dl/gan/2019/04/09/tricks.html
   - title:  典型网络
     children:
       - title:  DCGAN
-        url:    /dl/gan/2019/04/09/DCGAN.html
+        url:    /ai/dl/gan/2019/04/09/DCGAN.html
       - title:  Conditional GAN
-        url:    /dl/gan/2019/04/09/Conditional-GAN.html
+        url:    /ai/dl/gan/2019/04/09/Conditional-GAN.html
       - title:  CycleGAN
-        url:    /dl/gan/2019/04/09/CycleGAN.html
+        url:    /ai/dl/gan/2019/04/09/CycleGAN.html
       - title:  WGAN
-        url:    /dl/gan/2019/04/09/WGAN.html
+        url:    /ai/dl/gan/2019/04/09/WGAN.html
   - title:  总结
     children:
       - title:  疑问
-        url:    /dl/gan/2019/04/10/issue.html
+        url:    /ai/dl/gan/2019/04/10/issue.html
       - title:  模型
-        url:    /dl/gan/2019/04/10/net.html
+        url:    /ai/dl/gan/2019/04/10/net.html
 
 Human:
   - title:

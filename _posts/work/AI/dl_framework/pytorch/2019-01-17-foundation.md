@@ -38,7 +38,7 @@ seq2seq 工具包
 
 ## 1.1 工具
 1. [torch-toolbox](https://github.com/PistonY/torch-toolbox)    
-
+1. [torch_trt](https://github.com/jinfagang/torch_trt)   
 
 # 2 项目
 1. [torchsample](https://github.com/ncullen93/torchsample)    

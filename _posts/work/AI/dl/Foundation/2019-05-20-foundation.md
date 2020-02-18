@@ -50,7 +50,11 @@ $\bullet \bullet$
 1. [DiCENet: Dimension-wise Convolutions for Efficient Networks](http://cn.arxiv.org/abs/1906.03516)    
 *2019-06-08* [paper](https://arxiv.org/abs/1906.03516) | [pytorch](https://github.com/sacmehta/EdgeNets)       
 
-### 2.1.5 其他
+### 2.1.5 形变卷积
+1. [Deformable Convolutional Networks](/ai/cv/detection/2019/05/10/foundation.html#3deformable)    
+ICCV 2017 oral *2017-03-17*    
+
+### 2.1.6 其他
 1. [VarGNet: Variable Group Convolutional Neural Network for Efficient Embedded Computing](http://cn.arxiv.org/abs/1907.05653)   
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05653)    
 在深度可分离卷积之上做了改进，使其在嵌入式设备上更易优化；    

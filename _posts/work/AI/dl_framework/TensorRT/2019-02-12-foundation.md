@@ -52,6 +52,8 @@ sudo apt-get install tensorrt
 ## 2.1 caffe
 1. [模型转换](#caffe_convert)     
 1. [调用](#caffe_demo)    
+## 2.2 pyTorch
+1. [torch_trt](https://github.com/jinfagang/torch_trt)   
 
 -------------------  
 [End](#head)

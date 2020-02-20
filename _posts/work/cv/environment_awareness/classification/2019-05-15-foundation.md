@@ -43,38 +43,39 @@ ICCV 2019 *2019-08-21* [paper](https://arxiv.org/abs/1908.08142)
 CVPR 2019 *2019-02-26* [paper](https://arxiv.org/abs/1902.09720)    
 降低多标签任务的标注成本；     
 
+# 6 细粒度
+1. [Birdsnap: Large-scale Fine-grained Visual Categorization of Birds](/ai/cv/nature/biological/2020/02/20/foundation.html#Birdsnap)     
+CVPR 2014 *2014    
 
-# 6 应用
-## 6.1 [OCR](/ai/cv/ocr/2019/07/27/foundation.html#3-字符识别)
 
-## 6.2 金融
+# 7 应用
+## 7.1 [OCR](/ai/cv/ocr/2019/07/27/foundation.html#3-字符识别)
+
+## 7.2 金融
 `股票预测`    
 
 1. [Convolutional Feature Extraction and Neural Arithmetic Logic Units for Stock Prediction](http://cn.arxiv.org/abs/1905.07581)   
 ICACDS 2019 *2019-05-18* [paper](https://arxiv.org/abs/1905.07581)   
 
 
-## 6.3 交通
-### 6.3.1 [车辆识别](/ai/cv/vehicle/vehicle_recognition/2019/07/12/foundation.html)
-### 6.3.2 [交通信号识别](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)
+## 7.3 交通
+#### 7.3.1 [车辆识别](/ai/cv/vehicle/vehicle_recognition/2019/07/12/foundation.html)
+#### 7.3.2 [交通信号识别](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)
 
-## 6.4 自然
-### 6.4.1 叶片分类
-1. [A 1d convolutional network for leaf and time series classification](http://cn.arxiv.org/abs/1907.00069)   
-*2019-06-28* [paper](https://arxiv.org/abs/1907.00069) | [Tensorflow](https://github.com/dykuang/Leaf_Project)-offical     
-1 维卷积在轮廓分类问题中的使用；    
+## 7.4 自然
+#### 7.4.1 [生物识别](/ai/cv/nature/biological/2020/02/20/foundation.html)
 
-## 6.5 农业
+## 7.5 农业
 
-## 6.6 智能家居
-### 6.6.1 家居机器人
+## 7.6 智能家居
+#### 7.6.1 家居机器人
 `烹饪状态识别`   
 
 1. [VGG Fine-tuning for Cooking State Recognition](http://cn.arxiv.org/abs/1905.08606)   
 *2019-05-13* [paper](https://arxiv.org/abs/1905.08606)   
 
-## 6.7 医学
-### 6.7.1 皮肤病
+## 7.7 医学
+#### 7.7.1 皮肤病
 
 1. [TopoResNet: A hybrid deep learning architecture and its application to skin lesion classification](https://arxiv.org/abs/1905.08607)   
 *2019-05-13* [paper](https://arxiv.org/abs/1905.08607)   
@@ -87,26 +88,26 @@ ISIC 2019 *2019-10-09* [paper](https://arxiv.org/abs/1910.03910) | [ISIC 2019](h
 对输入图像的分辨率做了处理；似乎还用了模型集成；
 
 
-### 6.7.2 肾小球病变
+#### 7.7.2 肾小球病变
 1. [Classification of glomerular hypercellularity using convolutional features and support vector machine](http://cn.arxiv.org/abs/1907.00028)   
 *2019-06-28* [paper](https://arxiv.org/abs/1907.00028)    
 >为啥要用深度特征+SVM 啊，直接用全连接+softmax 不好吗；   
 
-### 6.7.3 青光眼
+#### 7.7.3 青光眼
 1. [REFUGE Challenge: A Unified Framework for Evaluating Automated Methods for Glaucoma Assessment from Fundus Photographs](http://cn.arxiv.org/abs/1910.03667)       
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03667)    
 
-### 6.7.4 罕见疾病诊断
+#### 7.7.4 罕见疾病诊断
 1. [Difficulty-aware Meta-Learning for Rare Disease Diagnosis](http://cn.arxiv.org/abs/1907.00354)   
 *2019-06-30* [paper](https://arxiv.org/abs/1907.00354)    
 零样本学习解决罕见疾病诊断；   
 
-### 6.8.5 肿瘤存活率
+#### 7.8.5 肿瘤存活率
 1. [Semi-Supervised Variational Autoencoder for Survival Prediction](http://cn.arxiv.org/abs/1910.04488)    
 *2019-10-10* [paper](https://arxiv.org/abs/1910.04488)     
 弱监督分类，根据脑肿瘤分割结果预测其存活率；   
 
-## 6.8 建筑
+## 7.8 建筑
 1. [Tour the World: Building a Web-Scale Landmark Recognition Engine](http://www.cs.bilkent.edu.tr/~cansin/projects/cs554-vision/landmark-recognition/landmark-recognition-presentation.pdf)   
 CVPR 2009 *2009-12* [ppt](http://www.cs.bilkent.edu.tr/~cansin/projects/cs554-vision/landmark-recognition/landmark-recognition-presentation.pdf)   
 
@@ -116,17 +117,17 @@ CVPR 2009 *2009-12* [ppt](http://www.cs.bilkent.edu.tr/~cansin/projects/cs554-vi
 1. [Tiny-Inception-ResNet-v2: Using Deep Learning for Eliminating Bonded Labors of Brick Kilns in South Asia](http://cn.arxiv.org/abs/1907.05552)   
 CVPR 2019 *2019-07-12* [paper](https://arxiv.org/abs/1907.05552)   
 
-## 6.9 人
-### 6.9.1 [人脸识别](/ai/cv/human/face_recognization/2019/05/14/foundation.html)
-### 6.9.2 [步态识别](/ai/cv/human/gait_recognition/2019/05/21/foundation.html)
-### 6.9.3 指纹识别
+## 7.9 人
+#### 7.9.1 [人脸识别](/ai/cv/human/face_recognization/2019/05/14/foundation.html)
+#### 7.9.2 [步态识别](/ai/cv/human/gait_recognition/2019/05/21/foundation.html)
+#### 7.9.3 指纹识别
 1. [A Novel Approach for Partial Fingerprint Identification to Mitigate MasterPrint Generation](http://cn.arxiv.org/abs/1911.03052)      
 *2019-11-08* [paper](https://arxiv.org/abs/1911.03052)     
 
 
-# 7 [训练](/ai/dl/foundation/2019/05/20/foundation.html#311-分类)
+# 8 [训练](/ai/dl/foundation/2019/05/20/foundation.html#311-分类)
 
-# 8 数据集
+# 9 数据集
 1. [Places : A 10 milLion image database for scene recognition](http://places2.csail.mit.edu/PAMI_places.pdf)     
 *2017* [paper](http://places2.csail.mit.edu/PAMI_places.pdf)    
 

@@ -1484,6 +1484,8 @@ NATURE:
         url:    /assets/category/work/CV/nature/sky.html
       - title:  盐体
         url:    /assets/category/work/CV/nature/salt_bodies.html
+      - title:  生物识别
+        url:    /assets/category/work/CV/nature/biological.html
 
   - title:	艺术
     children:

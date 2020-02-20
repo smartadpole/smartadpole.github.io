@@ -112,5 +112,9 @@ ECCV 2018 [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_
 
 
 # 附录
-## A 参考资料
+## A 数据集
+
+1. [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/)    
+
+## B 参考资料
 [1]. tangzhenyu. SemanticSegmentation_DL[EB/OL]. <https://github.com/tangzhenyu/SemanticSegmentation_DL>. -/2019-05-05.   

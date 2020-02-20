@@ -16,15 +16,19 @@ tags: 资源
 # 1 综述
 1. [Deep Learning in Neural Networks: An Overview](http://cn.arxiv.org/abs/1404.7828)     
 *2014-04-30* [paper](https://arxiv.org/abs/1404.7828)    
+$\bullet \bullet$  
 
 1. [Deep Learning](https://pdfs.semanticscholar.org/425f/c05d848f0318289f496f7b5e8cad26b123f6.pdf)   
 *2015* Hinton [PPT](https://pdfs.semanticscholar.org/425f/c05d848f0318289f496f7b5e8cad26b123f6.pdf)    
+$\bullet \bullet$   
 
 1. [Review of Deep Learning](http://cn.arxiv.org/abs/1804.01653)   
 *2018-04-05* [paper](https://arxiv.org/abs/1804.01653)   
+$\bullet \bullet$  
 
 1. [Democratisation of Usable Machine Learning in Computer Vision](http://cn.arxiv.org/abs/1902.06804)    
 *2019-02-18* [paper](https://arxiv.org/abs/1902.06804)     
+$\bullet \bullet$  
 
 1. [A Selective Overview of Deep Learning](http://cn.arxiv.org/abs/1904.05526)       
 *2019-04-10* [paper](https://arxiv.org/abs/1904.05526)    
@@ -35,26 +39,26 @@ $\bullet \bullet$
 # 2 基础
 
 ## 2.1 卷积
-### 2.1.1 标准卷积
+#### 2.1.1 标准卷积
 1. [A guide to convolution arithmetic for deep learning](http://cn.arxiv.org/abs/1603.07285)    
 *2016-03-23* [paper](https://arxiv.org/abs/1603.07285)    
 
 
-### 2.1.2 反卷积
+#### 2.1.2 反卷积
 
-### 2.1.3 深度可分离卷积
+#### 2.1.3 深度可分离卷积
 1. [Network Decoupling: From Regular to Depthwise Separable Convolutions](http://cn.arxiv.org/abs/1808.05517)   
 *2018-08-16* [paper](https://arxiv.org/abs/1808.05517)   
 
-### 2.1.4 维度卷积
+#### 2.1.4 维度卷积
 1. [DiCENet: Dimension-wise Convolutions for Efficient Networks](http://cn.arxiv.org/abs/1906.03516)    
 *2019-06-08* [paper](https://arxiv.org/abs/1906.03516) | [pytorch](https://github.com/sacmehta/EdgeNets)       
 
-### 2.1.5 形变卷积
+#### 2.1.5 形变卷积
 1. [Deformable Convolutional Networks](/ai/cv/detection/2019/05/10/foundation.html#3deformable)    
 ICCV 2017 oral *2017-03-17*    
 
-### 2.1.6 其他
+#### 2.1.6 其他
 1. [VarGNet: Variable Group Convolutional Neural Network for Efficient Embedded Computing](http://cn.arxiv.org/abs/1907.05653)   
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05653)    
 在深度可分离卷积之上做了改进，使其在嵌入式设备上更易优化；    
@@ -68,7 +72,7 @@ IJCAI 2017 *2017* [paper](https://www.ijcai.org/proceedings/2017/0486.pdf)
 *2019-05-14* [paper](https://arxiv.org/abs/1905.08618)   
 
 ## 2.3 神经网络
-### 2.3.1 神经网络
+#### 2.3.1 神经网络
 1. [Mean Field Limit of the Learning Dynamics of Multilayer Neural Networks](http://cn.arxiv.org/abs/1902.02880)   
 *2019-02-07* [paper](https://arxiv.org/abs/1902.02880)   
 
@@ -78,7 +82,7 @@ IJCAI 2017 *2017* [paper](https://www.ijcai.org/proceedings/2017/0486.pdf)
 1. [What Can ResNet Learn Efficiently, Going Beyond Kernels?](http://cn.arxiv.org/abs/1905.10337)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10337)   
 
-### 2.3.2 反向传播
+#### 2.3.2 反向传播
 1. [Learning Internal Representations by Error Propagation](http://concepts.psych.wisc.edu/papers/711/RumelhartBackprop.pdf)   
 *1985-09-05* Hinton [paper](http://concepts.psych.wisc.edu/papers/711/RumelhartBackprop.pdf)   
 
@@ -94,18 +98,29 @@ IJCAI 2017 *2017* [paper](https://www.ijcai.org/proceedings/2017/0486.pdf)
 
 
 # 3 实践
-## 3.1 训练
-### 3.1.1 分类
+
+## 3.1 初始化
+1. [How to start training: The effect of initialization and architecture](http://cn.arxiv.org/abs/1803.01719)    
+NIPS 2018 *2018-03-05* [paper](https://arxiv.org/abs/1803.01719)   
+
+## 3.2 训练
+#### 3.2.1 分类
 
 1. [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](http://cn.arxiv.org/abs/1510.03820)    
 *2015-10-13* [paper](https://arxiv.org/abs/1510.03820)    
 $\bullet \bullet \bullet \bullet \bullet$   
 
+<span id="large_batch"> </span>
+1. [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](http://cn.arxiv.org/abs/1706.02677)    
+*2017-06-08* [paper](https://arxiv.org/abs/1706.02677)    
+$\bullet \bullet$ - large batch    
+证明了大批次收敛困难，但是效果好；大批次的时候 SGD 和 moment 不好用；    
+
 
 1. [Accelerated Training for Massive Classification via Dynamic Class Selection](http://cn.arxiv.org/abs/1801.01687)   
 *2018-01-05* [paper](https://arxiv.org/abs/1801.01687)   
 
-### 3.1.2 检测
+#### 3.2.2 检测
 
 1. [Bag of Freebies for Training Object Detection Neural Networks](http://cn.arxiv.org/abs/1902.04103)  
 *2019-02-11* [paper](https://arxiv.org/abs/1902.04103)      
@@ -116,7 +131,7 @@ GluonCV 检测调参技巧​；
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07202)   
 教师网络处理噪声图像；   
 
-### 3.1.3 其他
+#### 3.2.3 其他
 
 1. [Large Scale Distributed Deep Networks](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
 NIPS 2012 *2012* [paper](https://www.cs.toronto.edu/~ranzato/publications/DistBeliefNIPS2012_withAppendix.pdf)   
@@ -134,7 +149,25 @@ $\bullet \bullet$
 
 1. [深度学习参数怎么调优，这12个trick告诉你](https://zhuanlan.zhihu.com/p/52189739)    
 
-## 3.2 过拟合
+## 3.3 梯度爆炸
+1. [On the difficulty of training Recurrent Neural Networks](http://cn.arxiv.org/abs/1211.5063)  
+*2012-11-21* [paper](https://arxiv.org/abs/1211.5063)   
+
+1. [Which Neural Net Architectures Give Rise To Exploding and Vanishing Gradients?](http://cn.arxiv.org/abs/1801.03744)   
+NIPS 2018 *2018-01-11* [paper](https://arxiv.org/abs/1801.03744)     
+
+1. [Products of Many Large Random Matrices and Gradients in Deep Neural Networks](http://cn.arxiv.org/abs/1812.05994)   
+*2018-12-14* [paper](https://arxiv.org/abs/1812.05994)   
+RELU 梯度问题测量；    
+
+## 3.4 梯度消失
+1. [On the difficulty of training Recurrent Neural Networks](http://cn.arxiv.org/abs/1211.5063)    
+*2012-11-21* [paper](https://arxiv.org/abs/1211.5063)    
+
+1. [Which Neural Net Architectures Give Rise To Exploding and Vanishing Gradients?](http://cn.arxiv.org/abs/1801.03744)     
+NIPS 2018 *2018-01-11* [paper](https://arxiv.org/abs/1801.03744)    
+
+## 3.5 过拟合
 1. [One-Step or Two-Step Optimization and the Overfitting Phenomenon: A Case Study on Time Series Classification](http://cn.arxiv.org/abs/1407.4364)   
 *2014-07-16* [paper](https://arxiv.org/abs/1407.4364)   
 
@@ -160,9 +193,9 @@ $\bullet \bullet$
 1. [The advantages of multiple classes for reducing overfitting from test set reuse](http://cn.arxiv.org/abs/1905.10360)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10360)   
 
-## 3.3 欠拟合
+## 3.6 欠拟合
 
-## 3.4 模型检验
+## 3.7 模型检验
 >验证模型相关性，并检验过拟合和欠拟合；    
 
 1. [Perturbed Model Validation: A New Framework to Validate Model Relevance](https://arxiv.org/abs/1905.10201)     
@@ -170,33 +203,9 @@ $\bullet \bullet$
 扰动模型验证；   
 
 
-## 3.5 梯度爆炸
-1. [On the difficulty of training Recurrent Neural Networks](http://cn.arxiv.org/abs/1211.5063)  
-*2012-11-21* [paper](https://arxiv.org/abs/1211.5063)   
-
-1. [Which Neural Net Architectures Give Rise To Exploding and Vanishing Gradients?](http://cn.arxiv.org/abs/1801.03744)   
-NIPS 2018 *2018-01-11* [paper](https://arxiv.org/abs/1801.03744)     
-
-1. [Products of Many Large Random Matrices and Gradients in Deep Neural Networks](http://cn.arxiv.org/abs/1812.05994)   
-*2018-12-14* [paper](https://arxiv.org/abs/1812.05994)   
-RELU 梯度问题测量；    
-
-## 3.6 梯度消失
-1. [On the difficulty of training Recurrent Neural Networks](http://cn.arxiv.org/abs/1211.5063)    
-*2012-11-21* [paper](https://arxiv.org/abs/1211.5063)    
-
-1. [Which Neural Net Architectures Give Rise To Exploding and Vanishing Gradients?](http://cn.arxiv.org/abs/1801.03744)     
-NIPS 2018 *2018-01-11* [paper](https://arxiv.org/abs/1801.03744)    
-
-
-## 3.7 初始化
-1. [How to start training: The effect of initialization and architecture](http://cn.arxiv.org/abs/1803.01719)    
-NIPS 2018 *2018-03-05* [paper](https://arxiv.org/abs/1803.01719)   
-
-
 # 4 进阶
 ## 4.1 优化器
-### 4.1.1 综述
+#### 4.1.1 综述
 1. [An overview of gradient descent optimization algorithms](http://cn.arxiv.org/abs/1609.04747)   
 *2016-09-15* [paper](https://arxiv.org/abs/1609.04747) | [bolg](http://ruder.io/optimizing-gradient-descent/index.html)       
 博客的 paper 版；主要绍了 Batch gradient descent，Stochastic gradient descent，Mini-batch gradient descent 等方法；简洁明了的介绍了 Momentum，Nesterov accelerated gradient，Adagrad，Adadelta，RMSprop，Adam，AdaMax，Nadam 等；    
@@ -204,7 +213,7 @@ NIPS 2018 *2018-03-05* [paper](https://arxiv.org/abs/1803.01719)
 1. [A Survey of Optimization Methods from a Machine Learning Perspective](http://cn.arxiv.org/abs/1906.06821)   
 *2019-06-17* [paper](https://arxiv.org/abs/1906.06821)    
 
-### 4.1.2 经典
+#### 4.1.2 经典
 1. [Two problems with backpropagation and other steepest-descent learning procedures for networks](http://incompleteideas.net/papers/sutton-86.pdf)   
 *1986* [paper](http://incompleteideas.net/papers/sutton-86.pdf)   
 指出SGD搜索的效率十分低下的缺陷；    
@@ -243,7 +252,7 @@ ICLR 2014 *2014-12-22* [paper](https://arxiv.org/abs/1412.6980)
 *2018-05-21* [paper](https://arxiv.org/abs/1805.08095) | [openreview](https://openreview.net/forum?id=Sygx4305KQ)     
 直接替换当前使用的深度学习求解器的快速二阶方法；   
 
-### 4.1.2 其他
+#### 4.1.2 其他
 
 1. [No More Pesky Learning Rates](http://cn.arxiv.org/abs/1206.1106)   
 *2012-06-06* [paper](https://arxiv.org/abs/1206.1106)   
@@ -262,12 +271,17 @@ SGD 收敛慢，但是准确度比较高；
 ICLR 2019 *2019-02-26* [paper](https://arxiv.org/abs/1902.09843) | [pytorch](https://github.com/Luolc/AdaBound)-offical | [openreview](https://openreview.net/forum?id=Bkg3g2R9FX)      
 
 
-### 4.1.3 SGD
+#### 4.1.3 SGD
 1. [Deep learning with Elastic Averaging SGD](http://cn.arxiv.org/abs/1412.6651)   
 NIPS 2015 *2014-12-20* [paper](https://arxiv.org/abs/1412.6651)   
 
+1. [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](#large_batch)     
+*2017-06-08*   
+证明了大批次下 SGD 不稳定；   
+
 1. [The Impact of Neural Network Overparameterization on Gradient Confusion and Stochastic Gradient Descent](https://arxiv.org/abs/1904.06963)   
 *2019-04-15* [paper](https://arxiv.org/abs/1904.06963)   
+$\bullet \bullet$ - Gradient Confusion    
 SGD 对于模型收敛的影响，及相应网络结构的探索；   
 
 1. [Time-Smoothed Gradients for Online Forecasting](http://cn.arxiv.org/abs/1905.08850)   
@@ -302,6 +316,10 @@ ICLR 2019 *2019-01-27* [paper](https://arxiv.org/abs/1901.09321) | [openreview](
 1. [On the Learning Dynamics of Two-layer Nonlinear Convolutional Neural Networks](http://cn.arxiv.org/abs/1905.10157)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10157)   
 
+## 4.4 分布式
+1. A Quick Survey on Large Scale Distributed Deep Learning Systems    
+*2018*    
+深度学习分布式问题汇总；   
 
 -------------------  
 [End](#head)

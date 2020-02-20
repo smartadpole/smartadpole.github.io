@@ -34,6 +34,10 @@ $\bullet \bullet$
 # 3 理论
 
 # 4 其他
+1. [Learning deep representations by mutual information estimation and maximization](http://cn.arxiv.org/abs/1808.06670)    
+ICLR 2019 *2018-08-20* [paper](https://arxiv.org/abs/1808.06670) | [pytorch](https://github.com/rdevon/DIM)     
+DIM    
+特殊的特征结构进行映射；   
 
 -------------------  
 [End](#head)
@@ -43,6 +47,7 @@ $\bullet \bullet$
 ## A 数据集
 
 ## B 资源
+1. [paper with code](https://paperswithcode.com/task/representation-learning)    
 
 ## C 参考资料
 1. [表征学习](https://www.zhihu.com/question/37162929)   

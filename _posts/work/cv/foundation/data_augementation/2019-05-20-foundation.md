@@ -25,6 +25,10 @@ tags: 资源
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09027)    
 
 ## 1.5 其他
+1. [Some improvements on deep convolutional neural network based image classification](http://cn.arxiv.org/abs/1312.5402)    
+*2013-12-19* [paper](https://arxiv.org/abs/1312.5402) | [torch](https://github.com/facebookarchive/fb.resnet.torch) | [blog](http://zhangliliang.github.io/2014/07/30/paper-note-imporovements-on-dnn-classification/) | [openreview](https://openreview.net/forum?id=uuFh8Ny0WPw0B) | [paper with code](https://paperswithcode.com/paper/some-improvements-on-deep-convolutional) | [blog](https://blog.csdn.net/zhaoyin214/article/details/99714432)     
+颜色抖动   
+
 1. [Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/abs/1708.04552)    
 *2017-08-15* [paper](https://arxiv.org/abs/1708.04552) | [pytorch](https://github.com/uoguelph-mlrg/Cutout)-official        
 

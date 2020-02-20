@@ -242,29 +242,36 @@ DL:
       - title:  自编码器
         url:    /assets/category/work/AI/dl/autoencoder.html
 
-  - title:   深度生成模型
+  - title:   
     children:
       - title:  玻尔兹曼机
         url:    /assets/category/work/AI/dl/boltzmann_machine.html
       - title:  生成对抗网络
         url:    /assets/category/work/AI/dl/gan.html
-
-  - title:
-    children:
-      - title:  自动设计神经网络
+      - title:  AutoML
         url:    /assets/category/work/AI/dl/automl.html
       - title:  胶囊网络
         url:    /assets/category/work/AI/dl/capsule.html
+
+  - title:
+    children:
       - title:  模型压缩
         url:    /assets/category/work/AI/dl/compression.html
       - title:  元学习
         url:    /assets/category/work/AI/dl/meta_learning.html
       - title:  迁移学习
         url:    /assets/category/work/AI/dl/transfer_learning.html
-      - title:  半监督学习
-        url:    /assets/category/work/AI/dl/semi_supervised.html
+
+  - title:
+    children:
       - title:  无监督学习
         url:    /assets/category/work/AI/dl/unsupervised.html
+      - title:  半监督学习
+        url:    /assets/category/work/AI/dl/semi_supervised.html
+      - title:  弱监督学习
+        url:    /assets/category/work/AI/dl/weakly_supervised.html
+      - title:  多示例学习
+        url:    /assets/category/work/AI/dl/multi_instance.html
       - title:  联邦学习
         url:    /assets/category/work/AI/dl/federated_learning.html
 

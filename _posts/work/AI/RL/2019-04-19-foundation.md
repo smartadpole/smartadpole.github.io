@@ -11,7 +11,9 @@ sidebar:
 tags: 资源
 ---
 <span id='head'></span>  
->强化学习相关资源；   
+>智能算法在没有人为指导的情况下，通过不断的试错来提升任务性能的过程；        
+
+`reinforcement learning`   
 
 <!--more-->
 

@@ -9,6 +9,9 @@ category: [AI, DL, unsupervised]
 tags: 资源
 ---
 <span id='head'></span>
+>训练数据不包含标注信息的情况下完成目标任务；    
+
+`unsupervised learning`
 
 <!--more-->
 

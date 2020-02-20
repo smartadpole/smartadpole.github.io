@@ -261,6 +261,8 @@ DL:
         url:    /assets/category/work/AI/dl/meta_learning.html
       - title:  迁移学习
         url:    /assets/category/work/AI/dl/transfer_learning.html
+      - title:  表示学习
+        url:    /assets/category/work/AI/dl/representation.html
 
   - title:
     children:

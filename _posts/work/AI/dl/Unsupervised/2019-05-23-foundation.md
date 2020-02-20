@@ -10,6 +10,7 @@ tags: 资源
 ---
 <span id='head'></span>
 >训练数据不包含标注信息的情况下完成目标任务；    
+[表示学习资源](/ai/dl/representation/2020/02/20/foundation.html)    
 
 `unsupervised learning`
 

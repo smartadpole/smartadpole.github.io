@@ -15,7 +15,7 @@ category: [AI, AI_]
 
 大牛     
 推荐关注这些大牛的最新动向；  
-Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richard Socher, Tomas Mikolov, Oriol Vinyals, Percy Liang, Jason Weston, Hang Li, Tie-Yan Liu, Mu Li；  
+[Geoffrey Hinton](https://www.cs.toronto.edu/~hinton/index.html), Yann LeCun, Yoshua Bengio, Andrej Karpathy, andrew Y ng, Richard Socher, Tomas Mikolov, Oriol Vinyals, Percy Liang, Jason Weston, Hang Li, Tie-Yan Liu, Mu Li；  
 *排名部分先后*    
 
 # 1 美国布朗大学

@@ -23,11 +23,11 @@ $\bullet \bullet$ - review
 
 1. [Deep Learning for Generic Object Detection: A Survey](http://cn.arxiv.org/abs/1809.02165)    
 IJCV 2018 *2018-09-06* [paper](https://arxiv.org/abs/1809.02165)    
-$\bullet \bullet$ - generic     
+$\bullet \bullet$ generic     
 
 1. [Object Detection in 20 Years: A Survey](http://cn.arxiv.org/abs/1905.05055)    
 *2019-03-13* [paper](https://arxiv.org/abs/1905.05055)    
-$\bullet \bullet$ - 20 years     
+$\bullet \bullet$ 20 years     
 
 1. [A Survey of Deep Learning-based Object Detection](http://cn.arxiv.org/abs/1907.09408)   
 *2019-07-11* [paper](https://arxiv.org/abs/1907.09408)    

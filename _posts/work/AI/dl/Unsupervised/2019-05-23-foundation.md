@@ -81,7 +81,7 @@ ICCV 2015 *2015-05-19* [paper](https://arxiv.org/abs/1505.05192) | [caffe](https
 
 1. [Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination](http://cn.arxiv.org/abs/1805.01978)    
 CVPR 2018 *2018-05-05* [paper](https://arxiv.org/abs/1805.01978) | [pytorch](https://github.com/zhirongw/lemniscate.pytorch)-official | [pytorch](https://github.com/HobbitLong/CMC) | [blog](https://zhuanlan.zhihu.com/p/37097100) | [blog](https://zhuanlan.zhihu.com/p/91347205)     
-$\bullet \bullet$ - InsDis    
+$\bullet \bullet$ InsDis    
 
 # 5 其他
 1. [Deep Clustering for Unsupervised Learning of Visual Features](http://cn.arxiv.org/abs/1807.05520)   

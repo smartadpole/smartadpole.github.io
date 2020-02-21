@@ -16,23 +16,23 @@ tags: 资源
 # 1 综述
 1. [Deep Learning in Neural Networks: An Overview](http://cn.arxiv.org/abs/1404.7828)     
 *2014-04-30* [paper](https://arxiv.org/abs/1404.7828)    
-$\bullet \bullet$  
+$\bullet \bullet$ overview   
 
 1. [Deep Learning](https://pdfs.semanticscholar.org/425f/c05d848f0318289f496f7b5e8cad26b123f6.pdf)   
 *2015* Hinton [PPT](https://pdfs.semanticscholar.org/425f/c05d848f0318289f496f7b5e8cad26b123f6.pdf)    
-$\bullet \bullet$   
+$\bullet \bullet$ - DL     
 
 1. [Review of Deep Learning](http://cn.arxiv.org/abs/1804.01653)   
 *2018-04-05* [paper](https://arxiv.org/abs/1804.01653)   
-$\bullet \bullet$  
+$\bullet \bullet$ - review   
 
 1. [Democratisation of Usable Machine Learning in Computer Vision](http://cn.arxiv.org/abs/1902.06804)    
 *2019-02-18* [paper](https://arxiv.org/abs/1902.06804)     
-$\bullet \bullet$  
+$\bullet \bullet$ - usable
 
 1. [A Selective Overview of Deep Learning](http://cn.arxiv.org/abs/1904.05526)       
 *2019-04-10* [paper](https://arxiv.org/abs/1904.05526)    
-$\bullet \bullet$    
+$\bullet \bullet$ - selective      
 文章回答了与经典方法相比，深度学习有哪些新特征，理论基础是什么？   
 从统计的角度介绍了常见的神经网络模型（例如卷积神经网络，递归神经网络，生成对抗网络）和训练技术（例如随机梯度下降，辍学，批量归一化）；并针对深度和参数化进行了解释；   
 

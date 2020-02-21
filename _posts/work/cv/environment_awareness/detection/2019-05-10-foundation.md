@@ -18,16 +18,20 @@ tags: 资源
 # 1 综述
 1. [Object Detection with Deep Learning: A Review](http://cn.arxiv.org/abs/1807.05511)  
 *2018-07-15* [paper](https://arxiv.org/abs/1807.05511)     
+$\bullet \bullet$ - review     
 可看成改版版本的Image Pyramid；​分析了小尺度与预训练模型尺度之间的关系, 提出了Scale Normalization for Image Pyramids (SNIP)：在训练中，每次只回传那些大小在一个预先指定范围内的proposal的gradient，而忽略掉过大或者过小的proposal；在测试中，建立大小不同的Image Pyramid，在每张图上都运行这样一个detector，同样只保留那些大小在指定范围之内的输出结果，最终在一起NMS；这样就可以保证网络总是在同样scale的物体上训练，也就是标题中Scale Normalized的意思；​    
 
 1. [Deep Learning for Generic Object Detection: A Survey](http://cn.arxiv.org/abs/1809.02165)    
 IJCV 2018 *2018-09-06* [paper](https://arxiv.org/abs/1809.02165)    
+$\bullet \bullet$ - generic     
 
 1. [Object Detection in 20 Years: A Survey](http://cn.arxiv.org/abs/1905.05055)    
 *2019-03-13* [paper](https://arxiv.org/abs/1905.05055)    
+$\bullet \bullet$ - 20 years     
 
 1. [A Survey of Deep Learning-based Object Detection](http://cn.arxiv.org/abs/1907.09408)   
 *2019-07-11* [paper](https://arxiv.org/abs/1907.09408)    
+$\bullet \bullet$ survey     
 
 # 2 理论
 

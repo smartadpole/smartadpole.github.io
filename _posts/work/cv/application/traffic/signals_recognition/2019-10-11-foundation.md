@@ -16,20 +16,20 @@ tags: 资源
 # 1 综述
 1. [Vision-Based Traffic Sign Detection and Analysis for Intelligent Driver Assistance Systems: Perspectives and Survey](http://cvrr.ucsd.edu/publications/2012/Mogelmose_ITS2012.pdf)     
 *2012-12-04* [paper](http://cvrr.ucsd.edu/publications/2012/Mogelmose_ITS2012.pdf)    
-$\bullet \bullet$     
+$\bullet \bullet$ survey     
 
 1. [Ongoing Work on Traffic Lights: Detection and Evaluation](http://cvrr.ucsd.edu/publications/2015/PhilipsenJensenTrivediMogelmose_AVSS2015.pdf)      
 *2015* [paper](http://cvrr.ucsd.edu/publications/2015/PhilipsenJensenTrivediMogelmose_AVSS2015.pdf)    
-$\bullet \bullet$    
+$\bullet \bullet$ Ongoing     
 
 1. [Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf)      
 *2015-12-17* [paper](http://cvrr.ucsd.edu/publications/2016/trafficSignalsITSTrans2016.pdf)    
-$\bullet \bullet$    
-VIVA 数据集      
+$\bullet \bullet$ look at     
+VIVA 数据集       
 
 1. [Evaluating State-of-the-art Object Detector on Challenging Traffic Light Data](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf)     
 CVPR 2017 *2017-06-27* [paper](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf)     
-$\bullet \bullet$    
+$\bullet \bullet$ SOTA    
 
 1. A deep learning approach to traffic lights: Detection, tracking, and classification     
 *2017-07-24*   

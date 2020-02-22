@@ -58,7 +58,6 @@ $\bullet \bullet$ - AMDIM
 *2019-11-13* [paper](https://arxiv.org/abs/1911.05722) | [blog](https://www.zhihu.com/question/355779873) | [blog](https://blog.csdn.net/Nin7a/article/details/103311103) | [blog](https://lixiuyu.cc/2019/12/25/MoCo/) | [pytorch](https://github.com/HobbitLong/CMC)   
 $\bullet \bullet$ - MoCo        
 对数据做了混洗，用了 ResNet × n，耗费存储；   
-
 <span id="SimCLR"> </span>
 1. [A Simple Framework for Contrastive Learning of Visual Representations](http://cn.arxiv.org/abs/2002.05709)    
 AAAI 2020 *2020-02-13* [paper](https://arxiv.org/abs/2002.05709) | [blog](https://m.thepaper.cn/newsDetail_forward_6019161)    

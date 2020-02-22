@@ -19,19 +19,19 @@ tags: 资源
 1. [Learning to Detect Unseen Object Class by Between-Class Attribute Transfer](https://pdfs.semanticscholar.org/0890/89c2051bb4a786dfd79276f5c7a2c3672244.pdf)           
 CVPR 2009 *2009* [paper](https://pdfs.semanticscholar.org/0890/89c2051bb4a786dfd79276f5c7a2c3672244.pdf)           
 最早提出零样本学习；    
-$\bullet \bullet$     
+$\bullet \bullet$ detect        
 
 1. [Zero Shot Learning with Semantic Output Codes](https://pdfs.semanticscholar.org/0f69/11bc1e6abee8bbf9dd3f8d54d40466429da7.pdf?_ga=2.4060537.835547854.1580895914-504939339.1571502740)     
 NIPS 2009 *2009* [paper](https://pdfs.semanticscholar.org/0f69/11bc1e6abee8bbf9dd3f8d54d40466429da7.pdf?_ga=2.4060537.835547854.1580895914-504939339.1571502740)    
-$\bullet \bullet$ 2009 Survey        
+$\bullet \bullet$ Output        
 
 1. [Recent Advances in Zero-shot Recognition](http://cn.arxiv.org/abs/1710.04837)      
 *2017* [paper](https://arxiv.org/abs/1710.04837)     
-$\bullet \bullet$ 2017 Survey     
+$\bullet \bullet$ advance     
 
 1. [A Survey of Zero-Shot Learning: Settings, Methods, and Applications](http://www.ntulily.org/wp-content/uploads/journal/A_Survey_of_Zero-Shot_Learning_Settings_Methods_and_Applications_accepted.pdf)     
 TIST 2019 *2019* [paper](http://www.ntulily.org/wp-content/uploads/journal/A_Survey_of_Zero-Shot_Learning_Settings_Methods_and_Applications_accepted.pdf) | [blog](https://www.zhuanzhi.ai/document/d65595558528ee55018fddcad2911da9)       
-$\bullet \bullet$ 2019 Survey        
+$\bullet \bullet$ Survey        
 
 # 2 理论
 1. [Learning from one example through shared densities on transforms](https://people.cs.umass.edu/~elm/papers/Miller_congealing.pdf)           

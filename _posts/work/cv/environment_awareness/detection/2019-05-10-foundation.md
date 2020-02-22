@@ -18,7 +18,7 @@ tags: 资源
 # 1 综述
 1. [Object Detection with Deep Learning: A Review](http://cn.arxiv.org/abs/1807.05511)  
 *2018-07-15* [paper](https://arxiv.org/abs/1807.05511)     
-$\bullet \bullet$ - review     
+$\bullet \bullet$ review     
 可看成改版版本的Image Pyramid；​分析了小尺度与预训练模型尺度之间的关系, 提出了Scale Normalization for Image Pyramids (SNIP)：在训练中，每次只回传那些大小在一个预先指定范围内的proposal的gradient，而忽略掉过大或者过小的proposal；在测试中，建立大小不同的Image Pyramid，在每张图上都运行这样一个detector，同样只保留那些大小在指定范围之内的输出结果，最终在一起NMS；这样就可以保证网络总是在同样scale的物体上训练，也就是标题中Scale Normalized的意思；​    
 
 1. [Deep Learning for Generic Object Detection: A Survey](http://cn.arxiv.org/abs/1809.02165)    
@@ -370,8 +370,7 @@ P-GAN
 
 ## 5.3 交通
 ### 5.3.1 [车道线](/ai/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
-### 5.3.2 交通标志
-[keras](https://github.com/kuhung/SSD_keras)    
+### 5.3.2 [交通标志](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)    
 ### 5.3.3 [车辆](/ai/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
 ### 5.3.4 船体
 ### 5.3.5 [安全带](/ai/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)

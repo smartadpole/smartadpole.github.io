@@ -82,24 +82,29 @@ $\bullet \bullet$
 
 1. [Real time visual traffic lights recognition based on Spot Light Detection and adaptive traffic lights templates](http://sci-hub.tw/10.1109/IVS.2009.5164304)     
 *2009-07-14* [paper](http://sci-hub.tw/10.1109/IVS.2009.5164304)     
+$\bullet \bullet$    
 TLR 数据集，自适应模板匹配，交通信号灯识别，对光照和运动模糊不敏感；       
 
 1. [Traffic light recognition using image processing compared to learning processes](http://sci-hub.tw/10.1109/IROS.2009.5353941)     
 *2009-11* [paper](http://sci-hub.tw/10.1109/IROS.2009.5353941)     
+$\bullet \bullet$    
 TLR 数据集，自适应模板匹配，交通信号灯识别，使用了 Adaboost 开发系统；       
 
 1. [Traffic Lights Detection in Adverse Conditions Using Color, Symmetry and Spatiotemporal Information](http://www.wcl.ece.upatras.gr/sites/default/files/TRAFFIC%20LIGHTS%20DETECTION%20-%20213VISAPP%202012.pdf)     
 *2012-08-12* [paper](http://www.wcl.ece.upatras.gr/sites/default/files/TRAFFIC%20LIGHTS%20DETECTION%20-%20213VISAPP%202012.pdf)     
+$\bullet \bullet$    
 TLR 数据集，交通信号灯检测，使用色彩预处理模块，以加强对红色和绿色区域的辨别能力，并处理了“起霜效应”；使用径向变换提升繁华能力；最后使用时空持久性验证最小化误报；可处理雨中，夜间和城市道路等多种情况；    
 
 1. [Traffic Light Detection: A Learning Algorithm and Evaluations on Challenging Dataset](http://cvrr.ucsd.edu/publications/2015/PhilipsenJensenMogelmoseMoeslundTrivedi_ITSC2015.pdf)     
 *2015-08-13* [paper](http://cvrr.ucsd.edu/publications/2015/PhilipsenJensenMogelmoseMoeslundTrivedi_ITSC2015.pdf)    
+$\bullet \bullet$    
 
 1. Learning Based Traffic Light Detection: Evaluation on Challenging Dataset          
 VIVA 数据集     
 
 1. [Traffic-Sign Detection and Classification in the Wild](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhu_Traffic-Sign_Detection_and_CVPR_2016_paper.pdf)     
 CVPR 2016 *2016* [paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhu_Traffic-Sign_Detection_and_CVPR_2016_paper.pdf) | [blog](https://segmentfault.com/a/1190000009438113)      
+$\bullet \bullet$    
 tsinghua 数据集   
 
 1. DeepTLR: A Single Deep Convolutional Network for Detection and Classification of Traffic Lights    
@@ -112,9 +117,11 @@ $\bullet \bullet$
 
 1. [Evaluating State-of-the-art Object Detector on Challenging Traffic Light Data](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf)      
 CVPR 2017 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Jensen_Evaluating_State-Of-The-Art_Object_CVPR_2017_paper.pdf)    
+$\bullet \bullet$    
 
 1. [A Real-Time Chinese Traffic Sign Detection Algorithm Based on Modified YOLOv2](https://www.mdpi.com/1999-4893/10/4/127/pdf)     
 *2017-11-16* [paper](https://www.mdpi.com/1999-4893/10/4/127/pdf)     
+$\bullet \bullet$    
 发布了 CCTSDB 数据集     
 
 1. [Detecting Traffic Lights by Single Shot Detection](http://cn.arxiv.org/abs/1805.02523)        
@@ -123,14 +130,16 @@ $\bullet \bullet$
 
 1. [Towards Real-Time Traffic Sign Recognition via YOLO on a Mobile GPU](https://iopscience.iop.org/article/10.1088/1742-6596/1096/1/012086/pdf)     
 *2018-09* [paper](https://iopscience.iop.org/article/10.1088/1742-6596/1096/1/012086/pdf)    
+$\bullet \bullet$    
 
 1. [A YOLO Based Approach for Traffic Sign Detection](https://vikram-mm.github.io/yolo_report.pdf)     
 *2018-04-02* [paper](https://vikram-mm.github.io/yolo_report.pdf)     
+$\bullet \bullet$    
 
 1. [Traffic Sign and Pedestrian Detection and Handling](https://towardsdatascience.com/deeppicar-part-6-963334b2abe0)     
 *2019-05-03* [web](https://towardsdatascience.com/deeppicar-part-6-963334b2abe0)     
 
-1.[Adaptation of a Deep Learning Algorithm for Traffic Sign Detection](https://pdfs.semanticscholar.org/0f98/a5f1dfe74dfd4f9e6f167f6f44df40e83361.pdf?_ga=2.87592472.1245482539.1581322589-504939339.1571502740)     
+1. [Adaptation of a Deep Learning Algorithm for Traffic Sign Detection](https://pdfs.semanticscholar.org/0f98/a5f1dfe74dfd4f9e6f167f6f44df40e83361.pdf?_ga=2.87592472.1245482539.1581322589-504939339.1571502740)     
 *2019-07-29* [paper](https://pdfs.semanticscholar.org/0f98/a5f1dfe74dfd4f9e6f167f6f44df40e83361.pdf?_ga=2.87592472.1245482539.1581322589-504939339.1571502740)    
 $\bullet \bullet$    
 
@@ -140,6 +149,7 @@ $\bullet \bullet$
 
 1. [Improved Traffic Sign Detection and Recognition Algorithm for Intelligent Vehicles](https://www.mdpi.com/1424-8220/19/18/4021/pdf)     
 *2019-09-18* [paper](https://www.mdpi.com/1424-8220/19/18/4021/pdf)      
+$\bullet \bullet$    
 
 1. [Traffic Sign Classification with Keras and Deep Learning](https://www.pyimagesearch.com/2019/11/04/traffic-sign-classification-with-keras-and-deep-learning/)     
 *2019-11-04* [web](https://www.pyimagesearch.com/2019/11/04/traffic-sign-classification-with-keras-and-deep-learning/)    

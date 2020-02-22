@@ -1,12 +1,12 @@
 ---
 layout: article
-title:  "「NLP」 NLP 资源汇总"
-date:   2019-02-22 14:50:40 +0800
-key: nlp-foundation-20190222
+title:  "「NLP」 机器翻译资源汇总"
+date:   2020-02-21 23:00:40 +0800
+key: machine_translation-foundation
 aside:
   toc: true
 tags: 资源
-category: [AI, NLP]
+category: [AI, NLP, machine_translation]
 ---
 <span id='head'> </span>
 
@@ -14,14 +14,17 @@ category: [AI, NLP]
 
 
 # 1 综述
-1. [A Study on Neural Network Language Modeling](http://cn.arxiv.org/abs/1708.07252)   
-*2017-08-24* [paper](https://arxiv.org/abs/1708.07252)    
+1. [A Survey on Document-level Machine Translation: Methods and Evaluation](http://cn.arxiv.org/abs/1912.08494)   
+*2019-12-18* [paper](https://arxiv.org/abs/1912.08494)    
 
-1. [A Survey on Neural Network Language Models](http://cn.arxiv.org/abs/1906.03591)    
-*2019-06-09* [paper](https://arxiv.org/abs/1906.03591)    
+1. [A Comprehensive Survey of Multilingual Neural Machine Translation](http://cn.arxiv.org/abs/2001.01115)    
+*2020-01-04* [paper](https://arxiv.org/abs/2001.01115)    
 
+1. [A Survey of Deep Learning Techniques for Neural Machine Translation](http://cn.arxiv.org/abs/2002.07526)    
+*2020-02-18* [paper](https://arxiv.org/abs/2002.07526)    
 
 # 2 理论
+
 
 
 -------------------  

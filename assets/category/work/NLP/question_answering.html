@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Digital Watermarking
-    zh:       数字指纹
-    zh-Hans:  数字指纹
-    zh-Hant:  数字指纹
+    en:       Question Answering
+    zh:       问答系统
+    zh-Hans:  问答系统
+    zh-Hant:  问答系统
 sidebar:
-    nav: InfoSecurity
+    nav: NLP
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "digital_watermarking" %}
+        {% if cat[0] == "question_answering" %}
         {% for post in cat[1] %}
         {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

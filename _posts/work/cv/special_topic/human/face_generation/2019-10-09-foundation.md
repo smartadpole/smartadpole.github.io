@@ -15,6 +15,10 @@ tags: 资源
 <!--more-->
 
 # 1 综述  
+1. [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](http://cn.arxiv.org/abs/2001.00179)    
+*2020-01-01* [paper](https://arxiv.org/abs/2001.00179)    
+人脸生成及生成人脸的检测；    
+
 # 2 理论
 # 3 2D
 # 4 3D

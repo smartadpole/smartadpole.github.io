@@ -17,6 +17,10 @@ tags: 资源
 1. [Medical Image Analysis using Convolutional Neural Networks: A Review](http://cn.arxiv.org/abs/1709.02250)   
 *2017-09-04* [paper](https://arxiv.org/abs/1709.02250)   
 
+1. [Deep neural network models for computational histopathology: A survey](http://cn.arxiv.org/abs/1912.12378)   
+*2019-12-28* [paper](https://arxiv.org/abs/1912.12378)    
+病理学——癌症图像分析；    
+
 # 2 理论
 
 # 3 识别

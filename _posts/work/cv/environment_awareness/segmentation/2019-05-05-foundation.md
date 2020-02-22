@@ -14,6 +14,8 @@ tags: 资源
 
 # 1 二维
 ## 1.1 综述
+1. [A Survey on Deep Learning-based Architectures for Semantic Segmentation on 2D images](http://cn.arxiv.org/abs/1912.10230)    
+*2019-12-21* [paper](https://arxiv.org/abs/1912.10230)    
 
 ## 1.2 理论
 

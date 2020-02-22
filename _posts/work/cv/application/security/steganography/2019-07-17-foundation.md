@@ -5,7 +5,7 @@ date:   2019-07-17 15:21:40 +0800
 key: steganography-foundation-20190717
 aside:
   toc: true
-category: [AI, CV, info_security, digital_watermarking]
+category: [AI, CV, security, digital_watermarking]
 tags: 资源
 ---
 <span id='head'></span>

@@ -104,6 +104,10 @@ $\bullet \bullet$
 $\bullet \bullet$ tricks    
 图像检索的很多技巧；在谷歌地标检索数据集上做的验证；        
 
+1. [Deep Graph Similarity Learning: A Survey](http://cn.arxiv.org/abs/1912.11615)    
+*2019-12-25* [paper](https://arxiv.org/abs/1912.11615)    
+$\bullet \bullet$ graph   
+
 **1.2 度量**   
 1. [A Survey on Metric Learning for Feature Vectors and
 Structured Data](https://hal.inria.fr/hal-01666935/file/surveyML_arXiv.pdf)     

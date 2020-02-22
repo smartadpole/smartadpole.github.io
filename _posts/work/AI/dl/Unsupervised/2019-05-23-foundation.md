@@ -17,6 +17,8 @@ tags: 资源
 <!--more-->
 
 # 1 综述
+1. [A survey on Semi-, Self- and Unsupervised Techniques in Image Classification](/ai/cv/classification/2019/05/15/foundation.html#unsupervised)    
+*2020-02-20*    
 
 # 2 理论
 

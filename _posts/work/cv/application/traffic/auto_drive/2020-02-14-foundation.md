@@ -11,6 +11,10 @@ category: [AI, CV, traffic, auto_drive]
 
 <!--more-->
 
+# 1 综述
+1. [A Survey of Deep Learning Applications to Autonomous Vehicle Control](http://cn.arxiv.org/abs/1912.10773)    
+*2019-12-23* [paper](https://arxiv.org/abs/1912.10773)    
+车辆控制；    
 
 -------------------  
 [End](#head)

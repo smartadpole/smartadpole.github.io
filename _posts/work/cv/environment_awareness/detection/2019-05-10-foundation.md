@@ -33,6 +33,9 @@ $\bullet \bullet$ 20 years
 *2019-07-11* [paper](https://arxiv.org/abs/1907.09408)    
 $\bullet \bullet$ survey     
 
+1. [Deep Domain Adaptive Object Detection: a Survey](http://cn.arxiv.org/abs/2002.06797)    
+ICIP 2020 *2020-02-17* [paper](https://arxiv.org/abs/2002.06797)    
+
 # 2 理论
 
 1. [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf)      

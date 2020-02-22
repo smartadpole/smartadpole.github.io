@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Digital Fingerprinting
-    zh:       数字指纹
-    zh-Hans:  数字指纹
-    zh-Hant:  数字指纹
+    en:       Computer Security
+    zh:       计算机安全
+    zh-Hans:  计算机安全
+    zh-Hant:  计算机安全
 sidebar:
-    nav: InfoSecurity
+    nav: NLP
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "digatal_fingerprinting" %}
+        {% if cat[0] == "computer_security" %}
         {% for post in cat[1] %}
         {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

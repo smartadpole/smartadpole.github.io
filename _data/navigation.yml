@@ -242,7 +242,7 @@ DL:
       - title:  自编码器
         url:    /assets/category/work/AI/dl/autoencoder.html
 
-  - title:   
+  - title:
     children:
       - title:  玻尔兹曼机
         url:    /assets/category/work/AI/dl/boltzmann_machine.html
@@ -282,7 +282,7 @@ CV:
     children:
       - title:  上一层
         url:    /assets/category/work/AI/AI.html
-  - title:      
+  - title:
     children:
       - title:  基础知识
         url:    /assets/category/work/CV/foundation.html
@@ -325,7 +325,7 @@ CV:
       - title:  超分辨率
         url:    /assets/category/work/CV/super_resolution.html
 
-  - title:      2.5D 
+  - title:      2.5D
     children:
       - title:  光流估计
         url:    /assets/category/work/CV/2.5D/optical_flow_estimation.html
@@ -384,7 +384,7 @@ CV:
       - title:  自然
         url:    /assets/category/work/CV/nature.html
       - title:  安全
-        url:    /assets/category/work/CV/info_security.html
+        url:    /assets/category/work/CV/security.html
 
   - title:      行情
     children:
@@ -453,6 +453,14 @@ NLP:
       - title:  上一层
         url:    /assets/category/work/AI/AI.html
 
+  - title:
+    children:
+      - title:  机器翻译
+        url:    /assets/category/work/NLP/machine_translation.html
+      - title:  问答系统
+        url:    /assets/category/work/NLP/question_answering.html
+      - title:  计算机安全
+        url:    /assets/category/work/NLP/computer_security.html
 
 
 DLFramework:
@@ -1589,7 +1597,7 @@ Resume:
       - title:  项目演示
         url:    /2019/04/18/demo.html
 
-InfoSecurity:
+Security:
   - title:
     children:
       - title:  上一层
@@ -1598,7 +1606,9 @@ InfoSecurity:
   - title:
     children:
       - title:  数字水印
-        url:    /assets/category/work/CV/info_security/digital_watermarking.html
+        url:    /assets/category/work/CV/security/digital_watermarking.html
+      - title:  安检
+        url:    /assets/category/work/CV/security/security_screen.html
 
 NDVR:
   - title:

@@ -17,6 +17,9 @@ tags: 资源
 1. [A Survey on Deep Learning-based Architectures for Semantic Segmentation on 2D images](http://cn.arxiv.org/abs/1912.10230)    
 *2019-12-21* [paper](https://arxiv.org/abs/1912.10230)    
 
+1. [Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey](http://cn.arxiv.org/abs/2001.04074)    
+*2020-01-13* [paper](https://arxiv.org/abs/2001.04074)    
+
 ## 1.2 理论
 
 1. [Learning Fully Dense Neural Networks for Image Semantic Segmentation](http://cn.arxiv.org/abs/1905.08929)   

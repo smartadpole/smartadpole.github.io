@@ -124,48 +124,58 @@ AI:
   - title:      图像处理
     children:
       - title:  理论
-        url:    /assets/category/work/image_process/image_process.html
+        url:    /assets/category/work/AI/theory/image_process/image_process.html
       - title:  opencv
-        url:    /assets/category/work/image_process/opencv.html
+        url:    /assets/category/work/AI/theory/image_process/opencv.html
 
   - title:      人工智能
     children:
       - title:  人工智能
-        url:    /assets/category/work/AI/AI_.html
+        url:    /assets/category/work/AI/theory/AI_.html
       - title:  数据挖掘
-        url:    /assets/category/work/AI/data_mining.html
+        url:    /assets/category/work/AI/theory/data_mining.html
       - title:  机器学习
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  强化学习
-        url:    /assets/category/work/AI/reinforcement_learning.html
+        url:    /assets/category/work/AI/theory/reinforcement_learning.html
       - title:  深度学习
-        url:    /assets/category/work/AI/dl.html
+        url:    /assets/category/work/AI/theory/dl.html
       - title:  深度学习工具
-        url:    /assets/category/work/AI/dl_framework.html
+        url:    /assets/category/work/AI/theory/dl_framework.html
+
+  - title:      技术方向
+    children:
+      - title:  计算机视觉
+        url:    /assets/category/work/AI/technology/CV/cv.html
+      - title:  自然语言处理
+        url:    /assets/category/work/AI/technology/NLP/NLP.html
+      - title:  语音识别
+        url:    /assets/category/work/AI/technology/audio/audio.html
+      - title:  视频分析
+        url:    /assets/category/work/AI/technology/video/video.html
 
   - title:      应用
     children:
-      - title:  计算机视觉
-        url:    /assets/category/work/CV/cv.html
-      - title:  自然语言处理
-        url:    /assets/category/work/NLP/NLP.html
-      - title:  语音识别
-        url:    /assets/category/work/audio/audio.html
-      - title:  视频分析
-        url:    /assets/category/work/video/video.html
+      - title:  社会公益
+        url:    /assets/category/work/AI/application/social_good/social_good.html
+      - title:  金融
+        url:    /assets/category/work/AI/application/financial/financial.html
+
+  - title:
+    children:
       - title:  商业案例
-        url:    /assets/category/work/project/project.html
+        url:    /assets/category/work/AI/project/project.html
 
   - title:      行进
     children:
       - title:  论文阅读
-        url:    /assets/category/work/study/paper_reading.html
+        url:    /assets/category/work/AI/study/paper_reading.html
       - title:  论文实践
-        url:    /assets/category/work/study/paper_practice.html
+        url:    /assets/category/work/AI/study/paper_practice.html
       - title:  竞赛
-        url:    /assets/category/work/study/competition.html
+        url:    /assets/category/work/AI/study/competition.html
       - title:  顶会
-        url:    /assets/category/work/study/meeting.html
+        url:    /assets/category/work/AI/study/meeting.html
 
 School:
   - title:      基础
@@ -230,52 +240,52 @@ DL:
   - title:
     children:
       - title:  基础
-        url:    /assets/category/work/AI/dl/foundation.html
+        url:    /assets/category/work/AI/theory/dl/foundation.html
       - title:  前向神经网络
-        url:    /assets/category/work/AI/dl/forward_net.html
+        url:    /assets/category/work/AI/theory/dl/forward_net.html
       - title:  卷积神经网络
-        url:    /assets/category/work/AI/dl/cnn.html
+        url:    /assets/category/work/AI/theory/dl/cnn.html
       - title:  图卷积网络
-        url:    /assets/category/work/AI/dl/gcn.html
+        url:    /assets/category/work/AI/theory/dl/gcn.html
       - title:  循环神经网络
-        url:    /assets/category/work/AI/dl/rnn.html
+        url:    /assets/category/work/AI/theory/dl/rnn.html
       - title:  自编码器
-        url:    /assets/category/work/AI/dl/autoencoder.html
+        url:    /assets/category/work/AI/theory/dl/autoencoder.html
 
   - title:
     children:
       - title:  玻尔兹曼机
-        url:    /assets/category/work/AI/dl/boltzmann_machine.html
+        url:    /assets/category/work/AI/theory/dl/boltzmann_machine.html
       - title:  生成对抗网络
-        url:    /assets/category/work/AI/dl/gan.html
+        url:    /assets/category/work/AI/theory/dl/gan.html
       - title:  AutoML
-        url:    /assets/category/work/AI/dl/automl.html
+        url:    /assets/category/work/AI/theory/dl/automl.html
       - title:  胶囊网络
-        url:    /assets/category/work/AI/dl/capsule.html
+        url:    /assets/category/work/AI/theory/dl/capsule.html
 
   - title:
     children:
       - title:  模型压缩
-        url:    /assets/category/work/AI/dl/compression.html
+        url:    /assets/category/work/AI/theory/dl/compression.html
       - title:  元学习
-        url:    /assets/category/work/AI/dl/meta_learning.html
+        url:    /assets/category/work/AI/theory/dl/meta_learning.html
       - title:  迁移学习
-        url:    /assets/category/work/AI/dl/transfer_learning.html
+        url:    /assets/category/work/AI/theory/dl/transfer_learning.html
       - title:  表示学习
-        url:    /assets/category/work/AI/dl/representation.html
+        url:    /assets/category/work/AI/theory/dl/representation.html
 
   - title:
     children:
       - title:  无监督学习
-        url:    /assets/category/work/AI/dl/unsupervised.html
+        url:    /assets/category/work/AI/theory/dl/unsupervised.html
       - title:  半监督学习
-        url:    /assets/category/work/AI/dl/semi_supervised.html
+        url:    /assets/category/work/AI/theory/dl/semi_supervised.html
       - title:  弱监督学习
-        url:    /assets/category/work/AI/dl/weakly_supervised.html
+        url:    /assets/category/work/AI/theory/dl/weakly_supervised.html
       - title:  多示例学习
-        url:    /assets/category/work/AI/dl/multi_instance.html
+        url:    /assets/category/work/AI/theory/dl/multi_instance.html
       - title:  联邦学习
-        url:    /assets/category/work/AI/dl/federated_learning.html
+        url:    /assets/category/work/AI/theory/dl/federated_learning.html
 
 CV:
   - title:
@@ -285,111 +295,111 @@ CV:
   - title:
     children:
       - title:  基础知识
-        url:    /assets/category/work/CV/foundation.html
+        url:    /assets/category/work/AI/technology/CV/foundation.html
       - title:  数据增强
-        url:    /assets/category/work/CV/data_augementation.html
+        url:    /assets/category/work/AI/technology/CV/data_augementation.html
       - title:  对抗攻击
-        url:    /assets/category/work/CV/adversarial_attack.html
+        url:    /assets/category/work/AI/technology/CV/adversarial_attack.html
 
   - title:      环境理解
     children:
       - title:  分类
-        url:    /assets/category/work/CV/image_classify.html
+        url:    /assets/category/work/AI/technology/CV/image_classify.html
       - title:  检测
-        url:    /assets/category/work/CV/detect.html
+        url:    /assets/category/work/AI/technology/CV/detect.html
       - title:  分割
-        url:    /assets/category/work/CV/segment.html
+        url:    /assets/category/work/AI/technology/CV/segment.html
       - title:  跟踪
-        url:    /assets/category/work/CV/tracking.html
+        url:    /assets/category/work/AI/technology/CV/tracking.html
       - title:  检索
-        url:    /assets/category/work/CV/retrieval.html
+        url:    /assets/category/work/AI/technology/CV/retrieval.html
       - title:  视觉可供性
-        url:    /assets/category/work/CV/affordance.html
+        url:    /assets/category/work/AI/technology/CV/affordance.html
 
   - title:      成像
     children:
       - title:  修复
-        url:    /assets/category/work/CV/image_inpaint.html
+        url:    /assets/category/work/AI/technology/CV/image_inpaint.html
       - title:  补全
-        url:    /assets/category/work/CV/image_outpaint.html
+        url:    /assets/category/work/AI/technology/CV/image_outpaint.html
       - title:  编辑
-        url:    /assets/category/work/CV/image_edit.html
+        url:    /assets/category/work/AI/technology/CV/image_edit.html
       - title:  生成
-        url:    /assets/category/work/CV/image_generation.html
+        url:    /assets/category/work/AI/technology/CV/image_generation.html
       - title:  风格迁移
-        url:    /assets/category/work/CV/style_transfer.html
+        url:    /assets/category/work/AI/technology/CV/style_transfer.html
       - title:  去模糊
-        url:    /assets/category/work/CV/image_deblur.html
+        url:    /assets/category/work/AI/technology/CV/image_deblur.html
       - title:  颜色增强
-        url:    /assets/category/work/CV/color_enhancement.html
+        url:    /assets/category/work/AI/technology/CV/color_enhancement.html
       - title:  超分辨率
-        url:    /assets/category/work/CV/super_resolution.html
+        url:    /assets/category/work/AI/technology/CV/super_resolution.html
 
   - title:      2.5D
     children:
       - title:  光流估计
-        url:    /assets/category/work/CV/2.5D/optical_flow_estimation.html
+        url:    /assets/category/work/AI/technology/CV/2.5D/optical_flow_estimation.html
       - title:  深度估计
-        url:    /assets/category/work/CV/2.5D/depth_prediction.html
+        url:    /assets/category/work/AI/technology/CV/2.5D/depth_prediction.html
 
   - title:      3D
     children:
       - title:  视角转换
-        url:    /assets/category/work/CV/3D/view_synthesis.html
+        url:    /assets/category/work/AI/technology/CV/3D/view_synthesis.html
       - title:  三维重建
-        url:    /assets/category/work/CV/3D/3D_reconstruction.html
+        url:    /assets/category/work/AI/technology/CV/3D/3D_reconstruction.html
       - title:  点云处理
-        url:    /assets/category/work/CV/3D/point_cloud.html
+        url:    /assets/category/work/AI/technology/CV/3D/point_cloud.html
       - title:  姿态估计
-        url:    /assets/category/work/CV/3D/pose_estimation.html
+        url:    /assets/category/work/AI/technology/CV/3D/pose_estimation.html
       - title:  关键点检测
-        url:    /assets/category/work/CV/3D/key_point.html
+        url:    /assets/category/work/AI/technology/CV/3D/key_point.html
       - title:  标定
-        url:    /assets/category/work/CV/3D/calibration.html
+        url:    /assets/category/work/AI/technology/CV/3D/calibration.html
       - title:  视觉里程计
-        url:    /assets/category/work/CV/3D/visual_odometry.html
+        url:    /assets/category/work/AI/technology/CV/3D/visual_odometry.html
       - title:  SLAM
-        url:    /assets/category/work/CV/3D/SLAM.html
+        url:    /assets/category/work/AI/technology/CV/3D/SLAM.html
 
   - title:      跨模态
     children:
       - title:  图片描述
-        url:    /assets/category/work/CV/caption.html
+        url:    /assets/category/work/AI/technology/CV/caption.html
       - title:  视觉问答
-        url:    /assets/category/work/CV/vaq.html
+        url:    /assets/category/work/AI/technology/CV/vaq.html
       - title:  多模态融合
-        url:    /assets/category/work/CV/multimodal.html
+        url:    /assets/category/work/AI/technology/CV/multimodal.html
 
   - title:      专题
     children:
       - title:  人
-        url:    /assets/category/work/CV/human.html
+        url:    /assets/category/work/AI/technology/CV/human.html
       - title:  车
-        url:    /assets/category/work/CV/vehicle.html
+        url:    /assets/category/work/AI/technology/CV/vehicle.html
       - title:  OCR
-        url:    /assets/category/work/CV/ocr.html
+        url:    /assets/category/work/AI/technology/CV/ocr.html
       - title:  情感
-        url:    /assets/category/work/CV/sentiment_analysis.html
+        url:    /assets/category/work/AI/technology/CV/sentiment_analysis.html
 
   - title:      应用
     children:
       - title:  交通
-        url:    /assets/category/work/CV/traffic.html
+        url:    /assets/category/work/AI/technology/CV/traffic.html
       - title:  医疗
-        url:    /assets/category/work/CV/medical.html
+        url:    /assets/category/work/AI/technology/CV/medical.html
       - title:  农业
-        url:    /assets/category/work/CV/agriculture.html
+        url:    /assets/category/work/AI/technology/CV/agriculture.html
       - title:  工业
-        url:    /assets/category/work/CV/industry.html
+        url:    /assets/category/work/AI/technology/CV/industry.html
       - title:  自然
-        url:    /assets/category/work/CV/nature.html
+        url:    /assets/category/work/AI/technology/CV/nature.html
       - title:  安全
-        url:    /assets/category/work/CV/security.html
+        url:    /assets/category/work/AI/technology/CV/security.html
 
   - title:      行情
     children:
       - title:  公司
-        url:    /assets/category/work/CV/3D/company.html
+        url:    /assets/category/work/AI/technology/CV/3D/company.html
 
 
 Video:
@@ -401,34 +411,34 @@ Video:
   - title:	基础
     children:
       - title:  工具
-        url:    /assets/category/work/video/library.html
+        url:    /assets/category/work/AI/technology/video/library.html
       - title:  编码
-        url:    /assets/category/work/video/encode.html
+        url:    /assets/category/work/AI/technology/video/encode.html
       - title:  解码
-        url:    /assets/category/work/video/decode.html
+        url:    /assets/category/work/AI/technology/video/decode.html
 
   - title:	应用
     children:
       - title:  关键帧
-        url:    /assets/category/work/video/key_frame.html
+        url:    /assets/category/work/AI/technology/video/key_frame.html
       - title:  视频摘要
-        url:    /assets/category/work/video/summary.html
+        url:    /assets/category/work/AI/technology/video/summary.html
       - title:  视频分类
-        url:    /assets/category/work/video/classify.html
+        url:    /assets/category/work/AI/technology/video/classify.html
       - title:  目标检测
-        url:    /assets/category/work/video/detection.html
+        url:    /assets/category/work/AI/technology/video/detection.html
       - title:  视频超分辨率
-        url:    /assets/category/work/video/super_resolution.html
+        url:    /assets/category/work/AI/technology/video/super_resolution.html
       - title:  视频检索
-        url:    /assets/category/work/video/retrieval.html
+        url:    /assets/category/work/AI/technology/video/retrieval.html
       - title:  视频修复
-        url:    /assets/category/work/video/inpaint.html
+        url:    /assets/category/work/AI/technology/video/inpaint.html
       - title:  动作定位
-        url:    /assets/category/work/video/localization.html
+        url:    /assets/category/work/AI/technology/video/localization.html
       - title:  视频生成
-        url:    /assets/category/work/video/video_generation.html
+        url:    /assets/category/work/AI/technology/video/video_generation.html
       - title:  视频描述
-        url:    /assets/category/work/video/video_caption.html
+        url:    /assets/category/work/AI/technology/video/video_caption.html
 
 
 AUDIO:
@@ -440,11 +450,11 @@ AUDIO:
   - title:
     children:
       - title:  声纹识别
-        url:    /assets/category/work/audio/voiceprint_analysis.html
+        url:    /assets/category/work/AI/technology/audio/voiceprint_analysis.html
       - title:  语音识别
-        url:    /assets/category/work/audio/audio_analysis.html
+        url:    /assets/category/work/AI/technology/audio/audio_analysis.html
       - title:  检索
-        url:    /assets/category/work/audio/audio_retrieval.html
+        url:    /assets/category/work/AI/technology/audio/audio_retrieval.html
 
 
 NLP:
@@ -456,11 +466,13 @@ NLP:
   - title:
     children:
       - title:  机器翻译
-        url:    /assets/category/work/NLP/machine_translation.html
+        url:    /assets/category/work/AI/technology/NLP/machine_translation.html
       - title:  问答系统
-        url:    /assets/category/work/NLP/question_answering.html
+        url:    /assets/category/work/AI/technology/NLP/question_answering.html
+      - title:  阅读理解
+        url:    /assets/category/work/AI/technology/NLP/reading_comprehension.html
       - title:  计算机安全
-        url:    /assets/category/work/NLP/computer_security.html
+        url:    /assets/category/work/AI/technology/NLP/computer_security.html
 
 
 DLFramework:
@@ -471,61 +483,61 @@ DLFramework:
   - title:      训练框架
     children:
       - title:  Caffe
-        url:    /assets/category/work/AI/dl_framework/caffe.html
+        url:    /assets/category/work/AI/theory/dl_framework/caffe.html
       - title:  MxNet
-        url:    /assets/category/work/AI/dl_framework/mxnet.html
+        url:    /assets/category/work/AI/theory/dl_framework/mxnet.html
       - title:  Pytorch
-        url:    /assets/category/work/AI/dl_framework/pytorch.html
+        url:    /assets/category/work/AI/theory/dl_framework/pytorch.html
       - title:  Tensoflow
-        url:    /assets/category/work/AI/dl_framework/tensorflow.html
+        url:    /assets/category/work/AI/theory/dl_framework/tensorflow.html
 
 
   - title:      服务端推理
     children:
       - title:  TensorRT
-        url:    /assets/category/work/AI/dl_framework/tensorrt.html
+        url:    /assets/category/work/AI/theory/dl_framework/tensorrt.html
       - title:  ZQCNN
-        url:    /assets/category/work/AI/dl_framework/zqcnn.html
+        url:    /assets/category/work/AI/theory/dl_framework/zqcnn.html
 
   - title:      移动端推理
     children:
       - title:  mace
-        url:    /assets/category/work/AI/dl_framework/mace.html
+        url:    /assets/category/work/AI/theory/dl_framework/mace.html
       - title:  ncnn
-        url:    /assets/category/work/AI/dl_framework/ncnn.html
+        url:    /assets/category/work/AI/theory/dl_framework/ncnn.html
       - title:  PPL
-        url:    /assets/category/work/AI/dl_framework/ppl.html
+        url:    /assets/category/work/AI/theory/dl_framework/ppl.html
       - title:  MNN
-        url:    /assets/category/work/AI/dl_framework/mnn.html
+        url:    /assets/category/work/AI/theory/dl_framework/mnn.html
       - title:  TEngine
-        url:    /assets/category/work/AI/dl_framework/tengine.html
+        url:    /assets/category/work/AI/theory/dl_framework/tengine.html
       - title:  TensorFlow Lite
-        url:    /assets/category/work/AI/dl_framework/tf_lite.html
+        url:    /assets/category/work/AI/theory/dl_framework/tf_lite.html
       - title:  Core ML
-        url:    /assets/category/work/AI/dl_framework/core_ml.html
+        url:    /assets/category/work/AI/theory/dl_framework/core_ml.html
       - title:  CaffePresso
-        url:    /assets/category/work/AI/dl_framework/caffepresso.html
+        url:    /assets/category/work/AI/theory/dl_framework/caffepresso.html
       - title:  Paddle-Lite
-        url:    /assets/category/work/AI/dl_framework/paddle_lite.html
+        url:    /assets/category/work/AI/theory/dl_framework/paddle_lite.html
 
   - title:      模型压缩
     children:
       - title:  BNN
-        url:    /assets/category/work/AI/dl_framework/bnn.html
+        url:    /assets/category/work/AI/theory/dl_framework/bnn.html
 
   - title:      模型表示
     children:
       - title:  ONNX
-        url:    /assets/category/work/AI/dl_framework/onnx.html
+        url:    /assets/category/work/AI/theory/dl_framework/onnx.html
       - title:  TVM & NNVM
-        url:    /assets/category/work/AI/dl_framework/tvm.html
+        url:    /assets/category/work/AI/theory/dl_framework/tvm.html
       - title:  NNEF
-        url:    /assets/category/work/AI/dl_framework/nnef.html
+        url:    /assets/category/work/AI/theory/dl_framework/nnef.html
 
   - title:      辅助工具
     children:
       - title:  标注工具
-        url:    /assets/category/work/AI/dl_framework/label_tool.html
+        url:    /assets/category/work/AI/theory/dl_framework/label_tool.html
 
 
 ImageProcess:
@@ -632,9 +644,9 @@ DM:
   - title:
     children:
       - title:  异常检测
-        url:    /assets/category/work/AI/data_mining/anomaly_detect.html
+        url:    /assets/category/work/AI/theory/data_mining/anomaly_detect.html
       - title:  序列对齐
-        url:    /assets/category/work/AI/data_mining/sequence_alignment.html
+        url:    /assets/category/work/AI/theory/data_mining/sequence_alignment.html
 
 ML:
   - title:
@@ -645,51 +657,51 @@ ML:
   - title:
     children:
       - title:  特征工程
-        url:    /assets/category/work/AI/ml/feature_engineering.html
+        url:    /assets/category/work/AI/theory/ml/feature_engineering.html
       - title:  模型评估
-        url:    /assets/category/work/AI/ml/model_evaluation.html
+        url:    /assets/category/work/AI/theory/ml/model_evaluation.html
       - title:  降维
-        url:    /assets/category/work/AI/ml/dimension_reduction.html
+        url:    /assets/category/work/AI/theory/ml/dimension_reduction.html
 
   - title:
     children:
       - title:  分类
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  回归
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  决策树
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  概率图
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  贝叶斯学习
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
 
 
   - title:
     children:
       - title:  集成学习
-        url:    /assets/category/work/AI/ml/ensemble_learning.html
+        url:    /assets/category/work/AI/theory/ml/ensemble_learning.html
       - title:  采样
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  结构预测
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  进化学习
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  规则学习
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  核方法
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  推荐系统
-        url:    /assets/category/work/AI/ml/classify.html
+        url:    /assets/category/work/AI/theory/ml/classify.html
       - title:  神经网络
-        url:    /assets/category/work/AI/dl.html
+        url:    /assets/category/work/AI/theory/dl.html
 
   - title:
     children:
       - title:  无监督学习
-        url:    /assets/category/work/AI/ml/unsupervised.html
+        url:    /assets/category/work/AI/theory/ml/unsupervised.html
       - title:  弱监督学习
-        url:    /assets/category/work/AI/ml/unsupervised.html
+        url:    /assets/category/work/AI/theory/ml/unsupervised.html
 
 
 RL:
@@ -1034,7 +1046,7 @@ Unsupervised:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/AI/ml/unsupervised.html
+        url:    /assets/category/work/AI/theory/ml/unsupervised.html
   - title:  原型/划分聚类
     children:
       - title:  k-means
@@ -1080,25 +1092,25 @@ ML_DecisionTree:
   - title:  决策树
     children:
       - title:  Hunt
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  ID3
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  Gini Index
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  信息增益
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  分类误差
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  C4.5
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  CART
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
 
 ML_Ensemble:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
   - title:
     children:
       - title:  集成学习入门
@@ -1108,15 +1120,15 @@ ML_Ensemble:
       - title:  二、Bagging
         url:    https://zh.wikipedia.org/wiki/Bagging%E7%AE%97%E6%B3%95
       - title:  Random Forests
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  三、Boosting
         url:    https://zh.wikipedia.org/wiki/%E6%8F%90%E5%8D%87%E6%96%B9%E6%B3%95
       - title:  AdaBoost
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  GBDT
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  XGBoost
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
 
 
 
@@ -1124,9 +1136,9 @@ ML_classification:
   - title:  分类
     children:
       - title:  分类任务及其评价
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  较大熵模型（Softmax）
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  感知机算法
         url:    https://zh.wikipedia.org/wiki/%E6%84%9F%E7%9F%A5%E5%99%A8
       - title:  支持向量机/SVM
@@ -1134,11 +1146,11 @@ ML_classification:
       - title:  相关向量机/RVM
         url:    https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%85%B3%E5%90%91%E9%87%8F%E6%9C%BA
       - title:  kNN
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  kd-tree
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  quad-tree
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
 
 ML_regression:
   - title:  回归
@@ -1146,15 +1158,15 @@ ML_regression:
       - title:  线性回归
         url:    https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8
       - title:  多元回归
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  多项式回归
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  非线性回归
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  多重共线性
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  岭回归与LASSO
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  逻辑回归
         url:    https://zh.wikipedia.org/wiki/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92
       - title:  朴素贝叶斯
@@ -1162,7 +1174,7 @@ ML_regression:
       - title:  神经网络
         url:    https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C
       - title:  过拟合与正则化
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
 
 ML_structure:
   - title:  结构预测
@@ -1180,13 +1192,13 @@ ML_anomaly_detection:
   - title:  异常检测
     children:
       - title:  kNN
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  kd-tree
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  quad-tree
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  局部离群因子
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
 
 ML_cnn:
   - title:  神经网络
@@ -1202,9 +1214,9 @@ ML_RL:
       - title:  Q学习
         url:    https://zh.wikipedia.org/wiki/Q%E5%AD%A6%E4%B9%A0
       - title:  SARSA
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  时间差分学习
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  深度强化学习
         url:    https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0
 
@@ -1212,13 +1224,13 @@ ML_foundation:
   - title:  理论
     children:
       - title:  偏差/方差困境
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  计算学习理论
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  经验风险最小化
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  PAC学习
-        url:    /assets/category/work/AI/ml.html
+        url:    /assets/category/work/AI/theory/ml.html
       - title:  统计学习
         url:    https://zh.wikipedia.org/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%90%86%E8%AE%BA
       - title:  VC理论
@@ -1228,7 +1240,7 @@ NLP_CMU2019:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/NLP/NLP.html
+        url:    /assets/category/work/AI/technology/NLP/NLP.html
   - title:  CMU Neural Nets for NLP 2019
     children:
       - title:  L1:Class Introduction
@@ -1307,7 +1319,7 @@ GAN:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/AI/dl/gan.html
+        url:    /assets/category/work/AI/theory/dl/gan.html
   - title:  预备
     children:
       - title:  基础
@@ -1359,148 +1371,148 @@ Human:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV/cv.html
+        url:    /assets/category/work/AI/technology/CV/cv.html
 
   - title:	静态
     children:
       - title:  人体检测
-        url:    /assets/category/work/CV/human/detect.html
+        url:    /assets/category/work/AI/technology/CV/human/detect.html
       - title:  人体分割
-        url:    /assets/category/work/CV/human/segmentation.html
+        url:    /assets/category/work/AI/technology/CV/human/segmentation.html
       - title:  人脸识别
-        url:    /assets/category/work/CV/human/face_recognize.html
+        url:    /assets/category/work/AI/technology/CV/human/face_recognize.html
       - title:  人脸对齐
-        url:    /assets/category/work/CV/human/face_align.html
+        url:    /assets/category/work/AI/technology/CV/human/face_align.html
       - title:  人体关键点
-        url:    /assets/category/work/CV/human/body_landmark.html
+        url:    /assets/category/work/AI/technology/CV/human/body_landmark.html
       - title:  表观分析
-        url:    /assets/category/work/CV/human/apparent_analysis.html
+        url:    /assets/category/work/AI/technology/CV/human/apparent_analysis.html
       - title:  人群计数
-        url:    /assets/category/work/CV/human/crowd_count.html
+        url:    /assets/category/work/AI/technology/CV/human/crowd_count.html
 
   - title:	动态
     children:
       - title:  手势识别
-        url:    /assets/category/work/CV/human/gesture_recognition.html
+        url:    /assets/category/work/AI/technology/CV/human/gesture_recognition.html
       - title:  唇语识别
-        url:    /assets/category/work/CV/human/lip_reading.html
+        url:    /assets/category/work/AI/technology/CV/human/lip_reading.html
       - title:  视线追踪
-        url:    /assets/category/work/CV/human/eye_gaze_tracking.html
+        url:    /assets/category/work/AI/technology/CV/human/eye_gaze_tracking.html
       - title:  姿态估计
-        url:    /assets/category/work/CV/human/pose_estimation.html
+        url:    /assets/category/work/AI/technology/CV/human/pose_estimation.html
       - title:  活性检测
-        url:    /assets/category/work/CV/human/activity_recognize.html
+        url:    /assets/category/work/AI/technology/CV/human/activity_recognize.html
       - title:  篡改检测
-        url:    /assets/category/work/CV/human/manipulated_detect.html
+        url:    /assets/category/work/AI/technology/CV/human/manipulated_detect.html
 
   - title:	重识别
     children:
       - title:  步态识别
-        url:    /assets/category/work/CV/human/gait_recognition.html
+        url:    /assets/category/work/AI/technology/CV/human/gait_recognition.html
       - title:  人脸验证
-        url:    /assets/category/work/CV/human/face_verify.html
+        url:    /assets/category/work/AI/technology/CV/human/face_verify.html
       - title:  行人重识别
-        url:    /assets/category/work/CV/human/reid.html
+        url:    /assets/category/work/AI/technology/CV/human/reid.html
 
   - title:	生成
     children:
       - title:  人脸生成
-        url:    /assets/category/work/CV/human/face_generation.html
+        url:    /assets/category/work/AI/technology/CV/human/face_generation.html
       - title:  人脸修复
-        url:    /assets/category/work/CV/human/facial_inpaint.html
+        url:    /assets/category/work/AI/technology/CV/human/facial_inpaint.html
       - title:  人脸编辑
-        url:    /assets/category/work/CV/human/facial_attribute_editing.html
+        url:    /assets/category/work/AI/technology/CV/human/facial_attribute_editing.html
       - title:  美容美发
-        url:    /assets/category/work/CV/human/makeup.html
+        url:    /assets/category/work/AI/technology/CV/human/makeup.html
       - title:  虚拟试衣间
-        url:    /assets/category/work/CV/human/fitting_room.html
+        url:    /assets/category/work/AI/technology/CV/human/fitting_room.html
       - title:  动作迁移
-        url:    /assets/category/work/CV/human/action_retarget.html
+        url:    /assets/category/work/AI/technology/CV/human/action_retarget.html
 
 
 VEHICLE:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV/cv.html
+        url:    /assets/category/work/AI/technology/CV/cv.html
   - title:
     children:
       - title:  车辆检测
-        url:    /assets/category/work/CV/vehicle/detection.html
+        url:    /assets/category/work/AI/technology/CV/vehicle/detection.html
       - title:  车辆分割
-        url:    /assets/category/work/CV/vehicle/segmentation.html
+        url:    /assets/category/work/AI/technology/CV/vehicle/segmentation.html
       - title:  车辆识别
-        url:    /assets/category/work/CV/vehicle/recognition.html
+        url:    /assets/category/work/AI/technology/CV/vehicle/recognition.html
       - title:  车辆重识别
-        url:    /assets/category/work/CV/vehicle/reid.html
+        url:    /assets/category/work/AI/technology/CV/vehicle/reid.html
 
 Traffic:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV/cv.html
+        url:    /assets/category/work/AI/technology/CV/cv.html
   - title:	交通监管
     children:
       - title:  车辆识别
-        url:    /assets/category/work/CV/traffic/vehicle_recognition.html
+        url:    /assets/category/work/AI/technology/CV/traffic/vehicle_recognition.html
       - title:  车辆重识别
-        url:    /assets/category/work/CV/traffic/vehicle_reid.html
+        url:    /assets/category/work/AI/technology/CV/traffic/vehicle_reid.html
       - title:  路况分析
-        url:    /assets/category/work/CV/traffic/event_analysis.html
+        url:    /assets/category/work/AI/technology/CV/traffic/event_analysis.html
       - title:  交通信息检测
-        url:    /assets/category/work/CV/traffic/analysis.html
+        url:    /assets/category/work/AI/technology/CV/traffic/analysis.html
 
   - title:	辅助驾驶
     children:
       - title:  驾驶员分析
-        url:    /assets/category/work/CV/traffic/driver_analysis.html
+        url:    /assets/category/work/AI/technology/CV/traffic/driver_analysis.html
 
   - title:	自动驾驶
     children:
       - title:  车辆检测
-        url:    /assets/category/work/CV/traffic/vehicle_detection.html
+        url:    /assets/category/work/AI/technology/CV/traffic/vehicle_detection.html
       - title:  车辆分割
-        url:    /assets/category/work/CV/traffic/vehicle_segmentation.html
+        url:    /assets/category/work/AI/technology/CV/traffic/vehicle_segmentation.html
       - title:  交通信号识别
-        url:    /assets/category/work/CV/traffic/signals_recognition.html
+        url:    /assets/category/work/AI/technology/CV/traffic/signals_recognition.html
       - title:  交通意图分析
-        url:    /assets/category/work/CV/traffic/intention_analysis.html
+        url:    /assets/category/work/AI/technology/CV/traffic/intention_analysis.html
       - title:  自动驾驶
-        url:    /assets/category/work/CV/traffic/auto_drive.html
+        url:    /assets/category/work/AI/technology/CV/traffic/auto_drive.html
 
 NATURE:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV/cv.html
+        url:    /assets/category/work/AI/technology/CV/cv.html
 
   - title:
     children:
       - title:  基础
-        url:    /assets/category/work/CV/nature/foundation.html
+        url:    /assets/category/work/AI/technology/CV/nature/foundation.html
 
   - title:	自然灾害
     children:
       - title:  火灾
-        url:    /assets/category/work/CV/nature/fire.html
+        url:    /assets/category/work/AI/technology/CV/nature/fire.html
       - title:  台风
-        url:    /assets/category/work/CV/nature/typhoon.html
+        url:    /assets/category/work/AI/technology/CV/nature/typhoon.html
       - title:  地震
-        url:    /assets/category/work/CV/nature/earthquake.html
+        url:    /assets/category/work/AI/technology/CV/nature/earthquake.html
 
   - title:	自然
     children:
       - title:  天空
-        url:    /assets/category/work/CV/nature/sky.html
+        url:    /assets/category/work/AI/technology/CV/nature/sky.html
       - title:  盐体
-        url:    /assets/category/work/CV/nature/salt_bodies.html
+        url:    /assets/category/work/AI/technology/CV/nature/salt_bodies.html
       - title:  生物识别
-        url:    /assets/category/work/CV/nature/biological.html
+        url:    /assets/category/work/AI/technology/CV/nature/biological.html
 
   - title:	艺术
     children:
       - title:  季节变换
-        url:    /assets/category/work/CV/nature/season_translation.html
+        url:    /assets/category/work/AI/technology/CV/nature/season_translation.html
 
 Linux:
   - title:
@@ -1540,12 +1552,12 @@ INDUSTRY:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV/cv.html
+        url:    /assets/category/work/AI/technology/CV/cv.html
 
   - title:
     children:
       - title:  工业检测
-        url:    /assets/category/work/CV/industry/defect_inspection.html
+        url:    /assets/category/work/AI/technology/CV/industry/defect_inspection.html
 
 Shell:
   - title:
@@ -1601,20 +1613,20 @@ Security:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV/cv.html
+        url:    /assets/category/work/AI/technology/CV/cv.html
 
   - title:
     children:
       - title:  数字水印
-        url:    /assets/category/work/CV/security/digital_watermarking.html
+        url:    /assets/category/work/AI/technology/CV/security/digital_watermarking.html
       - title:  安检
-        url:    /assets/category/work/CV/security/security_screen.html
+        url:    /assets/category/work/AI/technology/CV/security/security_screen.html
 
 NDVR:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/video/retrieval.html
+        url:    /assets/category/work/AI/technology/video/retrieval.html
 
   - title:	资源
     children:
@@ -1652,7 +1664,7 @@ ImageRetrieval:
   - title:
     children:
       - title:  上一层
-        url:    /assets/category/work/CV/retrieval.html
+        url:    /assets/category/work/AI/technology/CV/retrieval.html
 
   - title:	图像检索
     children:
@@ -1676,33 +1688,33 @@ OpenCV:
   - title:	API
     children:
       - title:  introduction
-        url:    /assets/category/work/image_process/opencv/introduction.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/introduction.html
       - title:  HighGUI
-        url:    /assets/category/work/image_process/opencv/highgui.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/highgui.html
       - title:  core
-        url:    /assets/category/work/image_process/opencv/core.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/core.html
       - title:  imgproc
-        url:    /assets/category/work/image_process/opencv/imgproc.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/imgproc.html
       - title:  imgcodec
-        url:    /assets/category/work/image_process/opencv/imgcodec.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/imgcodec.html
       - title:  videoio
-        url:    /assets/category/work/image_process/opencv/videoio.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/videoio.html
       - title:  feature2d
-        url:    /assets/category/work/image_process/opencv/feature2d.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/feature2d.html
       - title:  video
-        url:    /assets/category/work/image_process/opencv/video.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/video.html
       - title:  objdetect
-        url:    /assets/category/work/image_process/opencv/objdetect.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/objdetect.html
       - title:  dnn
-        url:    /assets/category/work/image_process/opencv/dnn.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/dnn.html
       - title:  ml
-        url:    /assets/category/work/image_process/opencv/ml.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/ml.html
       - title:  cuda
-        url:    /assets/category/work/image_process/opencv/cuda.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/cuda.html
   - title:
     children:
       - title:  专题
-        url:    /assets/category/work/image_process/opencv/special_topic.html
+        url:    /assets/category/work/AI/theory/image_process/opencv/special_topic.html
 
 
 PROJECT:
@@ -1714,35 +1726,35 @@ PROJECT:
   - title:	农业
     children:
       - title:  智能生产
-        url:    /assets/category/work/project/agriculture/intelligent_production.html
+        url:    /assets/category/work/AI/project/agriculture/intelligent_production.html
       - title:  市场推广
-        url:    /assets/category/work/project/agriculture/marketing.html
+        url:    /assets/category/work/AI/project/agriculture/marketing.html
 
   - title:	工业
     children:
       - title:  智能仓储
-        url:    /assets/category/work/project/industry/intelligent_storage.html
+        url:    /assets/category/work/AI/project/industry/intelligent_storage.html
       - title:  最优排产
-        url:    /assets/category/work/project/industry/optimal_schedule.html
+        url:    /assets/category/work/AI/project/industry/optimal_schedule.html
       - title:  订单匹配
-        url:    /assets/category/work/project/industry/order_match.html
+        url:    /assets/category/work/AI/project/industry/order_match.html
 
   - title:	教育
     children:
       - title:  智慧教育
-        url:    /assets/category/work/project/education/intelligent_education.html
+        url:    /assets/category/work/AI/project/education/intelligent_education.html
 
   - title:	医疗
     children:
       - title:  智慧医疗
-        url:    /assets/category/work/project/medical/intelligent_medical.html
+        url:    /assets/category/work/AI/project/medical/intelligent_medical.html
 
   - title:	互联网
     children:
       - title:  人脸识别
-        url:    /assets/category/work/project/internet/face_recognize.html
+        url:    /assets/category/work/AI/project/internet/face_recognize.html
       - title:  视频检索
-        url:    /assets/category/work/project/internet/video_retrieval.html
+        url:    /assets/category/work/AI/project/internet/video_retrieval.html
 
 PARALLEL:
   - title:

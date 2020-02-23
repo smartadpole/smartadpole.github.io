@@ -23,6 +23,9 @@ tags: 资源
 1. [A Survey of Deep Reinforcement Learning in Video Games](http://cn.arxiv.org/abs/1912.10944)    
 *2019-12-23* [paper](https://arxiv.org/abs/1912.10944)    
 
+1. [A Survey of Reinforcement Learning Techniques: Strategies, Recent Development, and Future Directions](http://cn.arxiv.org/abs/2001.06921)    
+*2020-01-19* [paper](https://arxiv.org/abs/2001.06921)    
+
 # 2 理论
 1. [Revisiting the Softmax Bellman Operator: New Benefits and New Perspective](http://cn.arxiv.org/abs/1812.00456)   
 ICML 2019 *2018-12-02* [paper](https://arxiv.org/abs/1812.00456)   

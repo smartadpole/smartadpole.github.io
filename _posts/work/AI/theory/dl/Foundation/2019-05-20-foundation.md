@@ -40,6 +40,8 @@ $\bullet \bullet$ selective
 *2019-12-20* [paper](https://arxiv.org/abs/1912.09789)    
 $\bullet \bullet$ Distributed      
 分布式；    
+1. [The Deep Learning Compiler: A Comprehensive Survey](https://arxiv.org/abs/2002.03794)    
+*2020-02-06* [paper](https://arxiv.org/abs/2002.03794)    
 
 # 2 基础
 

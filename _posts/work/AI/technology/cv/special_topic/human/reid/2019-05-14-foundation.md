@@ -20,6 +20,9 @@ tags: 资源
 一篇不错的综述
 [Paper](https://arxiv.org/abs/1610.02984)    
 
+1. [Deep Learning for Person Re-identification: A Survey and Outlook](http://cn.arxiv.org/abs/2001.04193)    
+*2020-01-13* [paper](https://arxiv.org/abs/2001.04193)    
+
 # 2 理论
 
 # 3 基于图像

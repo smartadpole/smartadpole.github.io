@@ -17,14 +17,14 @@ tags: 资源
 # 1 综述
 1. [Image Classification with Deep Learning in the Presence of Noisy Labels: A Survey](http://cn.arxiv.org/abs/1912.05170)    
 *2019-12-11* [paper](https://arxiv.org/abs/1912.05170)    
-$\bullet \bullet$ - noisy    
+$\bullet \bullet$ noisy    
 
 1. [Deep Learning for Free-Hand Sketch: A Survey](https://arxiv.org/abs/2001.02600)    
 *2020-01-08* [paper](https://arxiv.org/abs/2001.02600)    
 <span id="unsupervised"> </span>
 1. [A survey on Semi-, Self- and Unsupervised Techniques in Image Classification](http://cn.arxiv.org/abs/2002.08721)    
 *2020-02-20* [paper](https://arxiv.org/abs/2002.08721)    
-$\bullet \bullet$ - unsupervised       
+$\bullet \bullet$ unsupervised       
 
 
 

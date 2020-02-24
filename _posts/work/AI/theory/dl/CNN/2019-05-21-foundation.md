@@ -48,7 +48,7 @@ ICLR 2015 oral *2014-09-04* [paper](https://arxiv.org/abs/1409.1556) | [tensorfl
 VGG:    
 
 1. [Going deeper with convolutions](http://cn.arxiv.org/abs/1409.4842)     
-CVPR 2015 *2014-09-17* [paper]https://arxiv.org/abs/1409.4842     
+CVPR 2015 *2014-09-17* [paper](https://arxiv.org/abs/1409.4842)     
 GoogLeNet;     
 
 1. [Deep residual learning for image recognition](http://cn.arxiv.org/abs/1512.03385)     

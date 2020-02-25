@@ -150,6 +150,11 @@ CVPR 2019 *2019-07-12* [paper](https://arxiv.org/abs/1907.05552)
 
 
 # 附录
-## A 参考资料
+## A 资源
+1. [classification_models](https://github.com/qubvel/classification_models)   
+keras model   
+1. [imagenet in 18 minutes](https://github.com/cybertronai/imagenet18_old)   
+
+## B 参考资料
 1. [CVPR 2018 地标建筑物识别](https://landmarksworkshop.github.io/CVPRW2018/)     
 1. [图像验证码和大规模图像识别技术](https://www.infoq.cn/article/CAPTCHA-image-recognition/?itm_source=infoq&itm_campaign=user_page&itm_medium=link)     

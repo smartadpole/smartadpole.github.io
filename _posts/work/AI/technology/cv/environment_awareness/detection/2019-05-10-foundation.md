@@ -428,6 +428,7 @@ CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)
 - [opencv 跟踪检测](https://github.com/Smorodov/Multitarget-tracker)   
 - [yolo 小目标检测](https://github.com/avanetten/yolt)    
 [mmdetection](https://github.com/open-mmlab/mmdetection)    
+[a-PyTorch-Tutorial-to-Object-Detection](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection#training)     
 
 ### c 总结
 [物体检测论文阅读路线图](https://mp.weixin.qq.com/s/X2ReSIU9Qq1OA3bywCNNig)，[hoya012](https://github.com/hoya012/deep_learning_object_detection)，[ECCV2018 目标检测](http://bbs.cvmart.net/topics/194/eccv2018-mu-biao-jian-ce-object-detection-suan-fa-zong-lan-bu-fen-han-dai-ma?from=groupmessage)    

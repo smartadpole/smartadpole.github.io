@@ -200,6 +200,10 @@ $\bullet \bullet$
 1. [The advantages of multiple classes for reducing overfitting from test set reuse](http://cn.arxiv.org/abs/1905.10360)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10360)   
 
+1. [Exploiting the Full Capacity of Deep Neural Networks while Avoiding Overfitting by Targeted Sparsity Regularization](https://arxiv.org/abs/2002.09237)     
+*2020-02-21* [paper](https://arxiv.org/abs/2002.09237)     
+稀疏正则避免过拟合，效果比 dropout 和 batchnorm 效果好；   
+
 ## 3.6 欠拟合
 
 ## 3.7 模型检验

@@ -30,8 +30,23 @@ $\bullet \bullet$
 
 
 # 2 理论
+1. [The Power of Depth for Feedforward Neural Networks}()   
+COLT 2016   
+证明了存在 3 层的网络，是无法被 2 层网络逼近的；   
+
+1. [Benefits of depth in neural networks]()    
+COLT 2016   
+深度网络需要很少的节点就能构造出复杂网络，扁平网络则需要更多节点；  
+
+1. [Depth-Width Tradeoffs in Approximating Natural Functions with Neural Networks]()   
+ICML 2017   
+对于球状空间，深度可以很好拟合，而扁平网络做不到；   
+
 1. [Learning Functions: When Is Deep Better Than Shallow](http://cn.arxiv.org/abs/1603.00988)    
 *2016-03-03* [paper](https://arxiv.org/abs/1603.00988)    
+
+1. [When and Why Are Deep Networks Better than Shallow Ones]()    
+AAAI 2017     
 
 1. [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039)     
 *2017-03-27* [paper](https://arxiv.org/abs/1703.09039) | [home](http://eyeriss.mit.edu/tutorial.html)        

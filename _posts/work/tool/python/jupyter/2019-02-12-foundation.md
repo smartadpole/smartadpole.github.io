@@ -5,10 +5,9 @@ date:   2019-02-12 10:00:40 +0800
 key: jupyter-abc-20190212
 aside:
   toc: true
-sidebar:
-  nav: Jupyter
-category: [tool, worktool]
+category: [tool, python_tool]
 ---
+<!--more-->
 
 ## 一、 启动
 
@@ -37,3 +36,11 @@ python -m ipykernel install --user --name $name1 --display-name "$name2"
 **2. 指定端口**  
 默认 web 地址是 `http://localhost:8888`，再启动，则端口号持续增 1；    
 指定端口 `jupyter notebook --port=$port $directory`  
+
+-------------------  
+ End
+{:.warning}  
+
+
+
+## 附录

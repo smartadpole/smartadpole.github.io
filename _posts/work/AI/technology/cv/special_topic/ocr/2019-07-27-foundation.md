@@ -392,7 +392,7 @@ SSD 做的检测，然后自适应与之分割，最后进行识别；
 | [SVHN](http://ufldl.stanford.edu/housenumbers/)<br>2011 | 数字 | 自然场景 | $\checkmark$ |  |  | $\checkmark$ |  |  |  |  33,402<br>（73,257） | 13,068<br>（26,032） |  |
 | [COCO-Text](https://vision.cornell.edu/se3/coco-text-2/)<br>2016 | 英文<br>字符？ | 打印<br>手写<br>水平 |  | $\checkmark$ |  |  | $\checkmark$ | $\checkmark$ |  | 43,686 | 20,000 |  |
 | [SynthText](http://www.robots.ox.ac.uk/~vgg/data/scenetext/)<br>[2016](https://hyper.ai/datasets/4917) | 英文 | 自然场景 | $\checkmark$ | $\checkmark$ | $\checkmark$ |  |  |  | 80万<br>（800万） |  |  | 40 |
-| []() |  |  |  |  |  |  |  |  |  |  |  |  |
+| [Chars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/) |  |  |  |  |  |  |  |  |  |  |  |  |
 | []() |  |  |  |  |  |  |  |  |  |  |  |  |
 
 1. [文字检测与识别资料整理（数据库，代码，博客）【持续更新】](https://www.cnblogs.com/lillylin/p/6893500.html)    

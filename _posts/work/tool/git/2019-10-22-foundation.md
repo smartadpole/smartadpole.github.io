@@ -8,7 +8,21 @@ aside:
 category: [tool, git]
 ---
 <span id='head'></span>  
+>[官网](https://git-scm.com/)    
+
 <!--more-->
+
+# 0 为什么用 Git
+- 通过分支协同工作   
+拥有合并、变基和回退等完整的开发链整合工具；   
+- 可以离线开发和多点开发   
+每个人都有权限去维护自己的版本，多点开发时无需设置中央服务器，很方便；   
+- 高性能   
+版本切换迅速   
+- 开源社区强大   
+工具生态系统、托管平台、出版物、服务等非常丰富；    
+
+
 # 1 准备环境
 
 # 2 第一个 Git 项目
@@ -59,5 +73,13 @@ git log --graph --decorate --oneline --simplify-by-decoration --all
 {:.warning}  
 
 # 附录
-## A 参考资料
+## A 参考书籍
+1. René Preißel. Bjørn Stachmann. 著 凌杰. 姜楠 译. Git 学习指南[M]. 北京:人民邮电出版社, 2016.    
+
+## B 推荐资料
+1. 猴子都能懂的Git入门. <https://backlog.com/git-tutorial/cn/intro/intro1_1.html>.   
+1. 官方文档[中文版]. <https://gitee.com/progit/>.    
+1. 在线学习文档. <https://try.github.io/>.    
+
+## C 参考资料
 1. [彻底搞懂 Git-Rebase](http://jartto.wang/2018/12/11/git-rebase/)    

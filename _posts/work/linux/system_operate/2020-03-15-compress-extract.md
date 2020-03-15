@@ -1,19 +1,17 @@
 ---
 layout: article
-title:  "「Linux」 文件权限"
-date:   2019-05-15 13:06:40 +0800
-key: file-permission-20190515
+title:  "「Linux」 打包和压缩"
+date:   2020-03-15 22:07:40 +0800
+key: linux-compress-extract
 aside:
   toc: true
-category: [school, linux, linux_foundation]
+category: [school, linux]
 sidebar:
-  nav: LinuxFoundation
+  nav: Linux
 ---
 <span id="head"></span>
 
 <!--more-->
-
-
 
 
 -------------------  

@@ -1,11 +1,11 @@
 ---
 layout: article
-title:  "「Linux」 bash shell 基础命令"
+title:  "「Linux」 环境变量"
 date:   2019-05-15 13:06:40 +0800
-key: bash-shell-basics-20190515
+key: environment-variables-20190515
 aside:
   toc: true
-category: [school, linux, linux_foundation]
+category: [school, linux]
 sidebar:
   nav: LinuxFoundation
 ---

@@ -1,0 +1,374 @@
+Configuration file: /media/hao/WORK/BLOG/smartadpole.github.io/_config.yml
+            Source: /media/hao/WORK/BLOG/smartadpole.github.io
+       Destination: /media/hao/WORK/BLOG/smartadpole.github.io/_site
+ Incremental build: enabled
+      Generating... 
+                    done in 73.959 seconds.
+ Auto-regeneration: enabled for '/media/hao/WORK/BLOG/smartadpole.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+Configuration file: /media/hao/WORK/BLOG/smartadpole.github.io/_config.yml
+            Source: /media/hao/WORK/BLOG/smartadpole.github.io
+       Destination: /media/hao/WORK/BLOG/smartadpole.github.io/_site
+ Incremental build: enabled
+      Generating... 
+                    done in 4.436 seconds.
+ Auto-regeneration: enabled for '/media/hao/WORK/BLOG/smartadpole.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2020-03-11 23:52:27
+                    _posts/work/AI/technology/cv/special_topic/ocr/2019-07-27-foundation.md
+                    ...done in 4.469145926 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-12 23:45:27
+                    _posts/work/tool/git/2019-10-22-foundation.md
+                    ...done in 5.543397842 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-12 23:47:56
+                    _posts/work/AI/technology/cv/application/traffic/signals_recognition/2019-10-11-foundation.md
+                    ...done in 4.272766302 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-12 23:48:26
+                    _posts/work/AI/technology/cv/application/traffic/signals_recognition/2019-10-11-foundation.md
+                    ...done in 4.154978231 seconds.
+                    
+Configuration file: /media/hao/WORK/BLOG/smartadpole.github.io/_config.yml
+            Source: /media/hao/WORK/BLOG/smartadpole.github.io
+       Destination: /media/hao/WORK/BLOG/smartadpole.github.io/_site
+ Incremental build: enabled
+      Generating... 
+                    done in 32.171 seconds.
+ Auto-regeneration: enabled for '/media/hao/WORK/BLOG/smartadpole.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2020-03-15 22:31:53
+                    _posts/work/linux/linux/2019-10-29-linux-file-structure (copy).md
+                    ...done in 3.22442686 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 22:32:38
+                    _posts/work/linux/linux/2020-03-15-foundation.md
+                    _posts/work/linux/linux/2019-10-29-linux-file-structure (copy).md
+                    ...done in 3.314677438 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 22:33:39
+                    _posts/work/linux/linux/2020-03-15-foundation.md
+                    ...done in 3.288329189 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 22:34:42
+                    assets/images/linux/基础知识.png
+                    ...done in 3.248488721 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 22:35:24
+                    assets/images/linux/survey.png
+                    assets/images/linux/基础知识.png
+                    ...done in 3.273147222 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 22:39:47
+                    _posts/work/linux/linux/2020-03-15-foundation.md
+                    ...done in 3.369286702 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 22:44:30
+                    _posts/work/linux/linux/2020-03-15-foundation.md
+                    ...done in 3.278546276 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 22:48:48
+                    assets/images/linux/survey.png
+                    ...done in 3.292848449 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 22:48:51
+                    assets/images/linux/survey.png
+                    ...done in 3.25419504 seconds.
+                    
+      Regenerating: 18 file(s) changed at 2020-03-15 23:08:09
+                    _posts/work/linux/2019-05-15-editors.md
+                    _posts/work/linux/2019-05-15-environment_variables.md
+                    _posts/work/linux/2019-05-15-file_permissions.md
+                    _posts/work/linux/2019-05-15-file_system.md
+                    _posts/work/linux/2019-05-15-install_software.md
+                    _posts/work/linux/2019-05-15-shell_advanced.md
+                    _posts/work/linux/2019-05-15-shell_basics.md
+                    _posts/work/linux/2019-10-29-linux-file-structure.md
+                    _posts/work/linux/2020-03-15-foundation.md
+                    _posts/work/linux/linux/2019-05-15-editors.md
+                    _posts/work/linux/linux/2019-05-15-environment_variables.md
+                    _posts/work/linux/linux/2019-05-15-file_permissions.md
+                    _posts/work/linux/linux/2019-05-15-file_system.md
+                    _posts/work/linux/linux/2019-05-15-install_software.md
+                    _posts/work/linux/linux/2019-05-15-shell_advanced.md
+                    _posts/work/linux/linux/2019-05-15-shell_basics.md
+                    _posts/work/linux/linux/2019-10-29-linux-file-structure.md
+                    _posts/work/linux/linux/2020-03-15-foundation.md
+                    ...done in 3.718450208 seconds.
+                    
+      Regenerating: 8 file(s) changed at 2020-03-15 23:08:13
+                    _posts/work/linux/linux/2019-05-15-editors.md
+                    _posts/work/linux/linux/2019-05-15-environment_variables.md
+                    _posts/work/linux/linux/2019-05-15-file_permissions.md
+                    _posts/work/linux/linux/2019-05-15-file_system.md
+                    _posts/work/linux/linux/2019-05-15-install_software.md
+                    _posts/work/linux/linux/2019-05-15-shell_advanced.md
+                    _posts/work/linux/linux/2019-05-15-shell_basics.md
+                    _posts/work/linux/linux/2019-10-29-linux-file-structure.md
+                    ...done in 3.328852677 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:09:41
+                    _posts/work/linux/system_operate/2020-03-15-foundation.md
+                    ...done in 3.280978744 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:09:58
+                    _posts/work/linux/system_operate/2020-03-15-foundation (copy).md
+                    ...done in 3.321858394 seconds.
+                    
+      Regenerating: 5 file(s) changed at 2020-03-15 23:10:02
+                    _posts/work/linux/system_operate/2020-03-15-foundation (another copy).md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (3rd copy).md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (4th copy).md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (5th copy).md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (6th copy).md
+                    ...done in 3.501447044 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:10:26
+                    _posts/work/linux/system_operate/2020-03-15-user.md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (copy).md
+                    ...done in 3.584794123 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:11:10
+                    _posts/work/linux/system_operate/2020-03-15-authority.md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (another copy).md
+                    ...done in 3.373610315 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:11:21
+                    _posts/work/linux/system_operate/2020-03-15-vim.md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (6th copy).md
+                    ...done in 3.429015666 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:12:01
+                    _posts/work/linux/system_operate/2020-03-15-text-view.md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (5th copy).md
+                    ...done in 3.444932849 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:13:08
+                    _posts/work/linux/system_operate/2020-03-15-compression-extract.md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (4th copy).md
+                    ...done in 3.397100399 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:13:29
+                    _posts/work/linux/system_operate/2020-03-15-compress-extract.md
+                    _posts/work/linux/system_operate/2020-03-15-compression-extract.md
+                    ...done in 3.37360011 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:13:55
+                    _posts/work/linux/system_operate/2020-03-15-file-dir-manage.md
+                    _posts/work/linux/system_operate/2020-03-15-foundation (3rd copy).md
+                    ...done in 3.434133744 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:14:19
+                    _posts/work/linux/system_operate/2020-03-15-terminate.md
+                    _posts/work/linux/system_operate/2020-03-15-foundation.md
+                    ...done in 3.45489049 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:14:51
+                    _posts/work/linux/system_operate/2020-03-15-terminal.md
+                    _posts/work/linux/system_operate/2020-03-15-terminate.md
+                    ...done in 3.351726587 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:16:11
+                    _posts/work/linux/2020-03-15-foundation.md
+                    ...done in 3.559627054 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:16:15
+                    _posts/work/linux/2019-10-29-linux-file-structure.md
+                    ...done in 3.384489125 seconds.
+                    
+      Regenerating: 6 file(s) changed at 2020-03-15 23:16:18
+                    _posts/work/linux/2019-05-15-shell_basics.md
+                    _posts/work/linux/2019-05-15-shell_advanced.md
+                    _posts/work/linux/2019-05-15-install_software.md
+                    _posts/work/linux/2019-05-15-file_system.md
+                    _posts/work/linux/2019-05-15-file_permissions.md
+                    _posts/work/linux/2019-05-15-environment_variables.md
+                    ...done in 3.748617893 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:16:22
+                    _posts/work/linux/2019-05-15-editors.md
+                    ...done in 3.375153379 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:16:44
+                    _posts/work/linux/system_operate/2020-03-15-authority.md
+                    ...done in 3.362380347 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:17:13
+                    _posts/work/linux/system_operate/2020-03-15-compress-extract.md
+                    ...done in 3.441801389 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:17:17
+                    _posts/work/linux/system_operate/2020-03-15-compress-extract.md
+                    ...done in 3.345849626 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:17:24
+                    _posts/work/linux/system_operate/2020-03-15-authority.md
+                    ...done in 3.43956879 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:18:00
+                    _posts/work/linux/system_operate/2020-03-15-file-dir-manage.md
+                    ...done in 3.337894695 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:18:28
+                    _posts/work/linux/system_operate/2020-03-15-terminal.md
+                    ...done in 3.406203491 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:18:50
+                    _posts/work/linux/system_operate/2020-03-15-text-view.md
+                    ...done in 3.392268773 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:19:35
+                    _posts/work/linux/system_operate/2020-03-15-user.md
+                    ...done in 3.340876541 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:20:01
+                    _posts/work/linux/system_operate/2020-03-15-vim.md
+                    ...done in 3.470610388 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:20:16
+                    _posts/work/linux/system_operate/2020-03-15-text-edit.md
+                    _posts/work/linux/system_operate/2020-03-15-vim.md
+                    ...done in 3.379981733 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2020-03-15 23:21:49
+                    _posts/work/linux/system_operate/2019-05-15-editors.md
+                    _posts/work/linux/system_operate/2019-05-15-file_permissions.md
+                    _posts/work/linux/2019-05-15-editors.md
+                    _posts/work/linux/2019-05-15-file_permissions.md
+                    ...done in 3.365309708 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:22:15
+                    _posts/work/linux/system_operate/2019-05-15-editors.md
+                    ...done in 3.44494735 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:22:40
+                    _posts/work/linux/system_operate/2019-05-15-file_permissions.md
+                    ...done in 3.360755508 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:22:49
+                    _posts/work/linux/system_operate/2020-03-15-authority.md
+                    _posts/work/linux/system_operate/2020-03-15-text-edit.md
+                    ...done in 3.296740853 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:23:54
+                    _data/navigation.yml
+                    ...done in 3.36660688 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:23:58
+                    _data/navigation.yml
+                    ...done in 3.41987105 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-03-15 23:26:53
+                    _posts/work/linux/system_operate/2019-05-15-file-permissions.md
+                    _posts/work/linux/system_operate/2019-05-15-file_permissions.md
+                    ...done in 3.428092517 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:27:39
+                    _data/navigation.yml
+                    ...done in 3.332621069 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:27:42
+                    _data/navigation.yml
+                    ...done in 3.364785043 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:27:50
+                    _data/navigation.yml
+                    ...done in 3.386380129 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:27:54
+                    _data/navigation.yml
+                    ...done in 3.326785029 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:28:38
+                    _posts/work/linux/system_operate/2020-03-15-compress-extract.md
+                    ...done in 3.484471611 seconds.
+                    
+      Regenerating: 6 file(s) changed at 2020-03-15 23:28:41
+                    _posts/work/linux/system_operate/2020-03-15-user.md
+                    _posts/work/linux/system_operate/2020-03-15-text-view.md
+                    _posts/work/linux/system_operate/2020-03-15-terminal.md
+                    _posts/work/linux/system_operate/2020-03-15-file-dir-manage.md
+                    _posts/work/linux/system_operate/2019-05-15-file-permissions.md
+                    _posts/work/linux/system_operate/2019-05-15-editors.md
+                    ...done in 3.561756142 seconds.
+                    
+[2020-03-15 23:29:02] ERROR `/school/linux/2020/03/15/file-dir-manage.html.html' not found.
+      Regenerating: 1 file(s) changed at 2020-03-15 23:29:32
+                    _data/navigation.yml
+                    ...done in 3.332749024 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:29:35
+                    _data/navigation.yml
+[2020-03-15 23:29:39] ERROR `/school/linux/2020/03/15/editors.html' not found.
+                    ...done in 3.457089331 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:30:09
+                    _data/navigation.yml
+                    ...done in 3.25084204 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:30:12
+                    _data/navigation.yml
+                    ...done in 3.33134199 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:30:18
+                    _data/navigation.yml
+                    ...done in 3.402690813 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:30:21
+                    _data/navigation.yml
+[2020-03-15 23:30:22] ERROR `/school/linux/2019/05/15/user.html' not found.
+                    ...done in 3.298087149 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:30:35
+                    _data/navigation.yml
+                    ...done in 3.340786528 seconds.
+                    
+[2020-03-15 23:30:43] ERROR `/school/linux/2020/03/15/editors.html' not found.
+[2020-03-15 23:30:56] ERROR `/school/linux/2019/05/15/file-permission.html' not found.
+[2020-03-15 23:31:00] ERROR `/school/linux/2019/05/15/file-permission.html' not found.
+[2020-03-15 23:31:03] ERROR `/school/linux/2019/05/15/user.html' not found.
+      Regenerating: 1 file(s) changed at 2020-03-15 23:31:28
+                    _data/navigation.yml
+[2020-03-15 23:31:31] ERROR `/school/linux/2019/05/15/user.html' not found.
+                    ...done in 3.485220954 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:31:32
+                    _data/navigation.yml
+                    ...done in 3.26473966 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:31:41
+                    _data/navigation.yml
+                    ...done in 3.344298457 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:31:44
+                    _data/navigation.yml
+                    ...done in 3.323513558 seconds.
+                    
+[2020-03-15 23:31:53] ERROR `/school/linux/2019/05/15/file-permission.html' not found.
+[2020-03-15 23:31:57] ERROR `/school/linux/2019/05/15/file-permission.html' not found.
+[2020-03-15 23:32:01] ERROR `/school/linux/2019/05/15/file-permission.html' not found.
+[2020-03-15 23:32:03] ERROR `/school/linux/2019/05/15/file-permission.html' not found.
+      Regenerating: 1 file(s) changed at 2020-03-15 23:32:24
+                    _data/navigation.yml
+                    ...done in 3.27455423 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:32:27
+                    _data/navigation.yml
+                    ...done in 3.399128374 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:32:31
+                    _data/navigation.yml
+                    ...done in 3.265558148 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:32:47
+                    _data/navigation.yml
+                    ...done in 3.333335588 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-03-15 23:32:51
+                    _data/navigation.yml
+                    ...done in 3.348999346 seconds.
+                    

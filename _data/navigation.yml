@@ -1519,12 +1519,23 @@ Linux:
     children:
       - title:  上一层
         url:    /assets/category/work/foundation/foundation.html
-  - title:
+  - title:	系统操作
     children:
-      - title:  Linux
-        url:    /assets/category/work/foundation/linux/foundation.html
-      - title:  shell
-        url:    /assets/category/work/foundation/linux/shell.html
+      - title:  使用终端
+        url:    /school/linux/2020/03/15/terminal.html
+      - title:  文件&目录操作
+        url:    /school/linux/2020/03/15/file-dir-manage.html
+      - title:  文本查看
+        url:    /school/linux/2020/03/15/text-view.html
+      - title:  编辑器
+        url:    /school/linux/2019/05/15/editors.html
+      - title:  打包和压缩
+        url:    /school/linux/2020/03/15/compress-extract.html
+      - title:  权限管理
+        url:    /school/linux/2019/05/15/file-permissions.html
+      - title:  用户管理
+        url:    /school/linux/2020/03/15/user.html
+
 
 LinuxFoundation:
   - title:

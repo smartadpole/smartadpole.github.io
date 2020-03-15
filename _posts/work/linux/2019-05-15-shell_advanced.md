@@ -5,7 +5,7 @@ date:   2019-05-15 13:06:40 +0800
 key: bahs-shell-advanced-20190515
 aside:
   toc: true
-category: [school, linux, linux_foundation]
+category: [school, linux]
 sidebar:
   nav: LinuxFoundation
 ---

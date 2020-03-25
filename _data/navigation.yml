@@ -1500,13 +1500,18 @@ NATURE:
       - title:  地震
         url:    /assets/category/work/AI/technology/CV/nature/earthquake.html
 
-  - title:	自然
+  - title:	海洋
+    children:
+      - title:  水下摄影
+        url:    /assets/category/work/AI/technology/CV/nature/underwater_image.html
+
+  - title:	自然·识别
     children:
       - title:  天空
         url:    /assets/category/work/AI/technology/CV/nature/sky.html
       - title:  盐体
         url:    /assets/category/work/AI/technology/CV/nature/salt_bodies.html
-      - title:  生物识别
+      - title:  生物
         url:    /assets/category/work/AI/technology/CV/nature/biological.html
 
   - title:	艺术

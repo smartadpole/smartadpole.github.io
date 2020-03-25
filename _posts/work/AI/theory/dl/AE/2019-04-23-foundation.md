@@ -16,12 +16,10 @@ tags: 资源
 **AE**：   
 **VAE**：    
 
-# 1 Paper
-
-## 1.1 综述
+# 1 综述
 
 
-## 1.2 理论
+# 2 理论
 1. [Auto-Encoding Variational Bayes](http://cn.arxiv.org/abs/1312.6114)   
 ICLR 2014 *2013-12-20* [Paper](https://arxiv.org/abs/1312.6114)   
 **VAE**：   
@@ -48,9 +46,9 @@ ICML: 2018 workshop *2018-07-12* [Paper](https://arxiv.org/abs/1807.04689)
 1. [Unsupervised Linear and Nonlinear Channel Equalization and Decoding using Variational Autoencoders](http://cn.arxiv.org/abs/1905.08795)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08795)   
 
-## 1.3 [三维重建](/ai/cv/3dreconstruction/2019/03/28/foundation.html#22-自编码)   
+# 3 [三维重建](/ai/cv/3dreconstruction/2019/03/28/foundation.html#22-自编码)   
 
-## 1.4 3D VAE
+# 4 3D VAE
 1. [Generative and Discriminative Voxel Modeling with Convolutional Neural Networks](http://cn.arxiv.org/abs/1608.04236)    
 *2016-08-16* [Paper](https://arxiv.org/abs/1608.04236) | [Theano](https://github.com/ajbrock/Generative-and-Discriminative-Voxel-Modeling)      
 基于体素的 3D VAE 分类网络；   
@@ -75,21 +73,21 @@ AAE：对抗自编码网络
 >思路有点新，看看原理解释；   
 
 
-## 1.5 对抗自编码
+# 5 对抗自编码
 1. [Finding Rats in Cats: Detecting Stealthy Attacks using Group Anomaly Detection](https://arxiv.org/abs/1905.07273)   
 *2019-05-16* [paper](https://arxiv.org/abs/1905.07273)   
 
-## 1.6 应用
-### 1.6.1 人脸生成
+# 6 应用
+## 6.1 人脸生成
 [3D 人脸生成](/ai/cv/imagegeneration/2019/03/29/foundation.html#121-3d-人脸生成)   
 
-### 1.6.2 水下摄影图像增强
+## 6.2 水下摄影图像增强
 [水下摄影图像增强](/ai/cv/image_enhancement/2019/05/23/foundation.html#241-自编码)   
 
-### 1.6.3 数据增强
+## 6.3 数据增强
 [数据增强](/ai/cv/data_augementation/2019/05/20/foundation.html#14-autoencoder)    
 
-### 1.6.4 其他
+## 6.4 其他
 1. [Authoring image decompositions with generative models](http://cn.arxiv.org/abs/1612.01479)    
 *2016-12-05* [Paper](https://arxiv.org/abs/1612.01479)   
 $\bullet  \bullet$   `网络结构`{:.warning}    
@@ -119,7 +117,7 @@ $\bullet  \bullet$   `VAE结构`{:.warning} `体素转卷积的特点`{:.warning
 使用 VAE 进行大脑老化分析；    
 >课题很有意思；    
 
-### 1.6.5 音频转图片
+## 6.5 音频转图片
 1. [Synthesizing Images from Spatio-Temporal Representations using Spike-based Backpropagation](http://cn.arxiv.org/abs/1906.08861)   
 *2019-05-24* [paper](https://arxiv.org/abs/1906.08861)    
 

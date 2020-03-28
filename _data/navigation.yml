@@ -1540,47 +1540,7 @@ Linux:
         url:    /school/linux/2019/05/15/file-permissions.html
       - title:  用户管理
         url:    /school/linux/2020/03/15/user.html
-
-
-LinuxFoundation:
-  - title:
-    children:
-      - title:  上一层
-        url:    /assets/category/work/foundation/linux.html
-  - title:      Linux 命令
-    children:
-      - title:  基本 shell 命令
-        url:    /school/linux/linux_foundation/2019/05/15/shell_basics.html
-      - title:  进阶 shell 命令
-        url:    /school/linux/linux_foundation/2019/05/15/shell_advanced.html
-      - title:  Linux 环境变量
-        url:    /school/linux/linux_foundation/2019/05/15/environment_variables.html
-      - title:  文件权限
-        url:    /school/linux/linux_foundation/2019/05/15/file_permissions.html
-      - title:  管理文件
-        url:    /school/linux/linux_foundation/2019/05/15/file_system.html
-      - title:  软件安装
-        url:    /school/linux/linux_foundation/2019/05/15/install_software.html
-      - title:  编辑器
-        url:    /school/linux/linux_foundation/2019/05/15/editors.html
-
-INDUSTRY:
-  - title:
-    children:
-      - title:  上一层
-        url:    /assets/category/work/AI/technology/CV/cv.html
-
-  - title:
-    children:
-      - title:  工业检测
-        url:    /assets/category/work/AI/technology/CV/industry/defect_inspection.html
-
-Shell:
-  - title:
-    children:
-      - title:  上一层
-        url:    /assets/category/work/foundation/linux.html
-  - title:      编程基础
+  - title:      Shell 编程基础
     children:
       - title:  脚本基础
         url:    /school/linux/shell/2019/05/15/basic_script.html
@@ -1592,7 +1552,7 @@ Shell:
         url:    /school/linux/shell/2019/05/15/presenting_data.html
       - title:  控制脚本
         url:    /school/linux/shell/2019/05/15/script_control.html
-  - title:      高级编程
+  - title:      Shell 高级编程
     children:
       - title:  函数
         url:    /school/linux/shell/2019/05/15/functions.html
@@ -1611,9 +1571,40 @@ Shell:
       - title:  web
         url:    /school/linux/shell/2019/05/15/web.html
       - title:  E-mail
-        url:    /linux/shell/2019/05/15/email.html
+        url:    /school/linux/shell/2019/05/15/email.html
       - title:  系统维护
         url:    /school/linux/shell/2019/05/15/scripts_for_administrators.html
+
+
+LinuxFoundation:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/foundation/linux.html
+  - title:      Linux 命令
+    children:
+      - title:  基本 shell 命令
+        url:    /school/linux/linux_foundation/2019/05/15/shell_basics.html
+      - title:  进阶 shell 命令
+        url:    /school/linux/linux_foundation/2019/05/15/shell_advanced.html
+      - title:  Linux 环境变量
+        url:    /school/linux/linux_foundation/2019/05/15/environment_variables.html
+      - title:  管理文件
+        url:    /school/linux/linux_foundation/2019/05/15/file_system.html
+      - title:  软件安装
+        url:    /school/linux/linux_foundation/2019/05/15/install_software.html
+
+INDUSTRY:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/AI/technology/CV/cv.html
+
+  - title:
+    children:
+      - title:  工业检测
+        url:    /assets/category/work/AI/technology/CV/industry/defect_inspection.html
+
 
 Resume:
   - title:

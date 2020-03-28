@@ -7,7 +7,7 @@ aside:
   toc: true
 category: [school, linux, Shell]
 sidebar:
-  nav: Shell
+  nav: Linux
 ---
 <span id="head"></span>
 <!--more-->

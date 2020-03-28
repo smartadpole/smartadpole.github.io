@@ -17,6 +17,7 @@ category: [AI, AI, Competition]
 [讯飞开放平台](http://challenge.xfyun.cn/2019/)     
 [DC 竞赛](https://www.pkbigdata.com/static_page/cmpList.html)    
 [Kesci](https://www.kesci.com/home/competition)      
+[DataFountain](https://www.datafountain.cn/)    
 
 
 -------------------  

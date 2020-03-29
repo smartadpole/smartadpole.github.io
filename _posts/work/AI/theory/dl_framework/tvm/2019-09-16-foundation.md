@@ -5,7 +5,7 @@ date:   2019-09-16 17:50:40 +0800
 key: tvm-foundation-20190916
 aside:
   toc: true
-category: [AI, dl_frameworks, tvm, worktool]
+category: [AI, dl_frameworks, tvm]
 ---
 <span id='head'></span>  
 >2016-10-13 陈天奇开源的移动端 DL 推理框架，已与 NNVM 合并；     

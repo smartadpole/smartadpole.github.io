@@ -30,6 +30,8 @@ github: <https://github.com/dmlc/tvm>
 
 # 附录
 ## A 参考资料
+1. [hello TVM](https://xmfbit.github.io/2019/06/29/tvm-helloworld/)    
+比较新    
 1. [如何利用 TVM 优化深度学习GPU op？教你用几十行Python代码实现2-3倍提升](https://www.leiphone.com/news/201708/hufBpEUiAaiiwT81.html)    
 1. [度学习编译中间件之NNVM(五)TVM论文阅读](https://blog.csdn.net/sanallen/article/details/79402174)    
 1. [如何评价陈天奇团队新开源的TVM？](https://www.zhihu.com/question/64091792)    

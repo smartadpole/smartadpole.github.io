@@ -36,3 +36,9 @@ pip install cffi opencv-python decorator Pillow
 1. [Insightface c++](https://zhuanlan.zhihu.com/p/55996985)     
 1. [官网](https://docs.tvm.ai/install/from_source.html#build-the-shared-library)     
 1. [YOLO C++](https://blog.csdn.net/weixin_43953703/article/details/94889958#_TVMYOLODarkNet_37)     
+1. [TVM:手机[gpu|cpu]上运行Tensorflow模型](https://blog.csdn.net/zhaowd2001/article/details/89607252#TVM_C_22)    
+gpu 模型部署；   
+1. [masahi/tvm_deploy_gpu_sample](https://gist.github.com/masahi/d6ad36890d087f866de185f19aac3814)    
+gpu 模型部署；   
+1. [深度学习高性能异构框架TVM核心原理解释系列（1）-手把手教你用TVM做Inference加速](http://whitelok.github.io/2019/06/25/tvm-tutorials-lesson-1/)   
+1. [TVM 初体验 - DarkNet 性能测试](https://zhuanlan.zhihu.com/p/91876198)    

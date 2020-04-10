@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「论文解读」 Object Detection with Deep Learning: A Review"
+title:  "「论文阅读」 Object Detection with Deep Learning: A Review"
 date:   2020-04-09 16:06:40 +0800
 key: Object-Review
 aside:

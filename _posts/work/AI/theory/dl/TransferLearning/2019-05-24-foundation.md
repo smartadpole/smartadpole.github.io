@@ -42,3 +42,9 @@ cvpr 2019 *2018-12-06* [paper](https://arxiv.org/abs/1812.02391)
 -------------------  
 [End](#head)
 {:.warning}  
+
+
+# 附录
+## A 资源
+1. [领域自适应相关论文、代码分享](https://posts.careerengine.us/p/5daa927d71b30950e1250b06)    
+1. [awsome-domain-adaptation](https://github.com/zhaoxin94/awesome-domain-adaptation)-zhaoxin94     

@@ -22,15 +22,15 @@ $\bullet \bullet$ review
 可看成改版版本的Image Pyramid；​分析了小尺度与预训练模型尺度之间的关系, 提出了Scale Normalization for Image Pyramids (SNIP)：在训练中，每次只回传那些大小在一个预先指定范围内的proposal的gradient，而忽略掉过大或者过小的proposal；在测试中，建立大小不同的Image Pyramid，在每张图上都运行这样一个detector，同样只保留那些大小在指定范围之内的输出结果，最终在一起NMS；这样就可以保证网络总是在同样scale的物体上训练，也就是标题中Scale Normalized的意思；​    
 
 1. [Deep Learning for Generic Object Detection: A Survey](http://cn.arxiv.org/abs/1809.02165)    
-IJCV 2018 *2018-09-06* [paper](https://arxiv.org/abs/1809.02165)    
+IJCV 2018 *2018-09-06* [paper](https://arxiv.org/abs/1809.02165) | [blog](https://www.cnblogs.com/shine-lee/p/10376324.html)-shine-lee | [blog](https://www.jianshu.com/p/9f31a8207440)-Junr_0926 | [blog](http://www.deepsmart.ai/655.html)-wyj2046           
 $\bullet \bullet$ generic     
 
 1. [Object Detection in 20 Years: A Survey](http://cn.arxiv.org/abs/1905.05055)    
-*2019-03-13* [paper](https://arxiv.org/abs/1905.05055)    
+*2019-03-13* [paper](https://arxiv.org/abs/1905.05055) | [blog](http://element-ui.cn/news/show-24039.aspx) | [blog](https://www.cnblogs.com/carsonzhu/p/10915489.html)-小金乌会发光－Z&M | [blog](https://blog.csdn.net/weixin_42662134/article/details/90479543)-Shida | [blog](https://www.cnblogs.com/zhaojunjie/p/10886099.html)-好好学习，天天向上 | [blog](https://www.yanxishe.com/postDetail/14275)-Albertchen | [blog](https://www.jianshu.com/p/f60a2d729238)-oneoverzero | [blog](https://blog.csdn.net/lyxleft/article/details/92396529)-奔跑的Yancy | [blog](https://zhuanlan.zhihu.com/p/76494575)-HYY CS      
 $\bullet \bullet$ 20 years     
 
 1. [A Survey of Deep Learning-based Object Detection](http://cn.arxiv.org/abs/1907.09408)   
-*2019-07-11* [paper](https://arxiv.org/abs/1907.09408)    
+*2019-07-11* [paper](https://arxiv.org/abs/1907.09408) | [blog](https://blog.csdn.net/weixin_36670529/article/details/101037588)-于小勇 | [blog](https://zhuanlan.zhihu.com/p/80751176)-Merria28       
 $\bullet \bullet$ survey     
 
 1. [Deep Domain Adaptive Object Detection: a Survey](http://cn.arxiv.org/abs/2002.06797)    
@@ -367,33 +367,11 @@ P-GAN
 
 ## 4.5 [训练](/ai/dl/foundation/2019/05/20/foundation.html#312-检测)
 # 5 应用
-## 5.1 [人](/ai/cv/human/human_detection/2019/10/11/foundation.html)
+[人](/ai/cv/human/human_detection/2019/10/11/foundation.html)、[文本](/ai/cv/ocr/2019/07/27/foundation.html#4-文本检测) 、交通（[车道线](/ai/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)、[交通标志](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)、[车辆](/ai/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)、船体、[安全带](/ai/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)）、商品（Logo、商品）、医疗（肺结节）、[视频](/ai/video/video_detection/2019/05/22/foundation.html) 、航拍、自然（[云层](/ai/cv/nature/sky/2019/10/16/foundation.html#31-检测)）、动物    
 
-## 5.2 [文本](/ai/cv/ocr/2019/07/27/foundation.html#4-文本检测)
-
-## 5.3 交通
-### 5.3.1 [车道线](/ai/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)
-### 5.3.2 [交通标志](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)    
-### 5.3.3 [车辆](/ai/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)
-### 5.3.4 船体
-### 5.3.5 [安全带](/ai/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)
-## 5.4 商品
-### 5.4.1 Logo
-
-### 5.4.2 商品
-
-## 5.5 医疗
-### 5.5.1 肺结节
-
-## 5.6 [视频](/ai/video/video_detection/2019/05/22/foundation.html)
-
-## 5.7 航拍
 1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
-CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)   
-
-## 5.8 自然
-### 5.8.1 [云层](/ai/cv/nature/sky/2019/10/16/foundation.html#31-检测)    
-### 5.8.2 动物
+CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)      
+航拍    
 1. [Animal Detection in Man-made Environments](http://cn.arxiv.org/abs/1910.11443)    
 *2019-10-24* [paper](https://arxiv.org/abs/1910.11443)  | [supplementary](http://webdocs.cs.ualberta.ca/~vis/asingh1/docs/animal_detection_supp.pdf)   
 居民区动物检测；文章分析了自然场景动物检测无法适用于居住场景；最终使用合成数据集解决了该问题；demo 中有较多标注工具；    
@@ -436,7 +414,7 @@ CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)
 https://mp.weixin.qq.com/s/LGj_2Zw6XA_EfZb8Rvv7bg)    
 [目标检测研究综述+LocNet](https://zhuanlan.zhihu.com/p/33058849)   
 [anchor 机制](https://mp.weixin.qq.com/s/oW4vUx7fXRhMRKh7QSQ5TA)，[yolo2 中的trick](https://mp.weixin.qq.com/s/us0VbQgu8YLNCAU5i_5QuA)   
-[NMS](https://mp.weixin.qq.com/s/HeOOHyeeJvAuJr3iNm18Ow)   
+[NMS](https://mp.weixin.qq.com/s/HeOOHyeeJvAuJr3iNm18Ow)     
 
 ## C 数据集
 

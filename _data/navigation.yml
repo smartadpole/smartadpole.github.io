@@ -1524,6 +1524,10 @@ Linux:
     children:
       - title:  上一层
         url:    /assets/category/work/foundation/foundation.html
+  - title:
+    children:
+      - title:  基础
+        url:    /school/linux/2020/04/11/interview.html
   - title:	系统操作
     children:
       - title:  使用终端

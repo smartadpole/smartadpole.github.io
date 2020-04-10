@@ -1,22 +1,23 @@
 ---
 layout: article
-title:  "「C++」 入门"
-date:   2019-04-11 06:39:40 +0800
-key: cpp-question
+title:  "「ML」 机器学习问答"
+date:   2019-04-10 01:20:40 +0800
+key: ml-question
 aside:
   toc: true
-category: [software, c++]
+tags: 资源
+category: [AI, ML]
 sidebar:
   nav: INTERVIEW
 ---
 <span id='head'></span>  
 
 
+<!--more-->
+
 -------------------  
 [End](#head)
 {:.warning}  
 
-
-
 # 附录
-## A 参考资料
+## A 资源

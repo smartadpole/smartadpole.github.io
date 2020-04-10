@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "「DL」 深度学习问答"
-date:   2019-04-11 01:20:40 +0800
+date:   2019-04-10 01:20:40 +0800
 key: dl-question
 aside:
   toc: true

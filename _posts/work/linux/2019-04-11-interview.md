@@ -1,13 +1,13 @@
 ---
 layout: article
 title:  "「Linux」 入门"
-date:   2020-04-11 01:18:40 +0800
-key: linux-abc
+date:   2019-04-11 01:18:40 +0800
+key: linux-question
 aside:
   toc: true
 category: [school, Linux]
 sidebar:
-  nav: Linux
+  nav: INTERVIEW
 ---
 <span id="head"></span>
 

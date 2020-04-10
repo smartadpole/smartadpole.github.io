@@ -1792,20 +1792,20 @@ INTERVIEW:
   - title:	   工具
     children:
       - title:  linux
-        url:    /school/linux/2019/04/10/interview.html
+        url:    /school/linux/2019/04/11/interview.html
   - title:      编码
     children:
       - title:  C++
-        url:    /software/c++/2019/04/10/interview.html
+        url:    /software/c++/2019/04/11/interview.html
       - title:  python
-        url:    /software/python/2019/04/10/interview.html
+        url:    /software/python/2019/04/11/interview.html
   - title:	   AI
     children:
       - title:  CV
-        url:    /ai/image_process/2019/04/10/interview.html
+        url:    /ai/image_process/2019/04/11/interview.html
       - title:  DL
-        url:    /ai/dl/2019/04/10/interview.html
+        url:    /ai/dl/2019/04/11/interview.html
       - title:  ML
-        url:    /ai/ml/2019/04/10/interview.html
+        url:    /ai/ml/2019/04/11/interview.html
       - title:  AI
         url:    /ai/ai_/2019/01/25/issue.html

@@ -49,6 +49,7 @@ RCNN pipline（结构）:
 
 
 # 5 Point   
+*详细内容参见论文*    
 
 | 技术点 | 分析 | 代表作 |
 | --- | --- | --- |
@@ -96,12 +97,12 @@ RCNN pipline（结构）:
 | YOLOv3 | 小目标 | 多标签分类（独立的分类器）适应重迭标签<br>在三种尺度特征图上做预测<br>特征提取用 Darknet-53 |
 | Retinanet | 样本不均衡 | 提出了 focal loss<br>ResNeXt-101-FPN |
 | SSD | 精度 | 使用多尺度特征进行预测<br>数据扩充 |
-| DSSD | 精度 | ackbone：ResNet-101<br>加入了 FPN |
+| DSSD | 精度 | backbone：ResNet-101<br>加入了 FPN |
 | RefineDet | 小目标 | 检测分两步走 |
 | M2Det | 多尺度目标 | MLFPN |
 
 `为什么会选用不同的指标`{:.warning}     
-`YOLO 和 SSD 两个分支的区别是什么`{:.warning}    
+`YOLO 和 SSD 两个系列的区别是什么`{:.warning}    
 
 ## 6.3 other
 
@@ -112,10 +113,6 @@ RCNN pipline（结构）:
 | NAS-FPN | 精度 | 自动搜索出的 FPN 结构 |
 
 # 7 Dataset
-通用目标检测：PASCAL VOC、MS COCO、ImageNet-loc；     
-人脸检测      
-行人检测：Caltech     
-
 ## 7.1 General
 
 | 数据集 | 介绍 | 图片数 | 类别数 | 物体数 | 度量 |

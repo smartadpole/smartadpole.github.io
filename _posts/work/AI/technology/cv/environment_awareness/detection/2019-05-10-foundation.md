@@ -30,7 +30,7 @@ $\bullet \bullet$ generic
 $\bullet \bullet$ 20 years     
 
 1. [A Survey of Deep Learning-based Object Detection](http://cn.arxiv.org/abs/1907.09408)   
-*2019-07-11* [paper](https://arxiv.org/abs/1907.09408) | [blog](https://blog.csdn.net/weixin_36670529/article/details/101037588)-于小勇 | [blog](https://zhuanlan.zhihu.com/p/80751176)-Merria28       
+*2019-07-11* [paper](https://arxiv.org/abs/1907.09408) | [blog](https://zhuanlan.zhihu.com/p/80751176)-Merria28       
 $\bullet \bullet$ survey     
 
 1. [Deep Domain Adaptive Object Detection: a Survey](http://cn.arxiv.org/abs/2002.06797)    

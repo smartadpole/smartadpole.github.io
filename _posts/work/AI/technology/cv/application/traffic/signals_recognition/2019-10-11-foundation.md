@@ -102,10 +102,11 @@ $\bullet \bullet$
 1. Learning Based Traffic Light Detection: Evaluation on Challenging Dataset          
 VIVA 数据集     
 
+<span id="tsinghua_paper"> </span>
 1. [Traffic-Sign Detection and Classification in the Wild](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhu_Traffic-Sign_Detection_and_CVPR_2016_paper.pdf)     
 CVPR 2016 *2016* [paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhu_Traffic-Sign_Detection_and_CVPR_2016_paper.pdf) | [blog](https://segmentfault.com/a/1190000009438113)      
 $\bullet \bullet$    
-tsinghua 数据集   
+[tsinghua 数据集](#tsinghua)   
 
 1. DeepTLR: A Single Deep Convolutional Network for Detection and Classification of Traffic Lights    
 *2016-06*      
@@ -204,7 +205,7 @@ $\bullet \bullet$
 
 <span id="tsinghua"> </span>        
 [Traffic-Sign Detection and Classification in the Wild](http://cg.cs.tsinghua.edu.cn/traffic-sign/)      
-[data](http://cg.cs.tsinghua.edu.cn/traffic-sign/data_model_code/data.zip)，[tutorial](http://cg.cs.tsinghua.edu.cn/traffic-sign/tutorial.html)        
+[data](http://cg.cs.tsinghua.edu.cn/traffic-sign/data_model_code/data.zip)，[tutorial](http://cg.cs.tsinghua.edu.cn/traffic-sign/tutorial.html)，[paper](#tsinghua_paper)        
 图像：2048x2048     
 清华和腾讯合作创建的一个大型交通标志的 benchmark，有超过 100k 的图像数据集，其中 30k 张包含交通标志；覆盖了中国的5个城市，包括市中心和郊区，包含了照明度和天气变换的差异；源码及模型都是公开的；但是用的人很少……    
 

@@ -30,8 +30,9 @@ $\bullet \bullet$ generic
 $\bullet \bullet$ 20 years     
 
 1. [A Survey of Deep Learning-based Object Detection](http://cn.arxiv.org/abs/1907.09408)   
-*2019-07-11* [paper](https://arxiv.org/abs/1907.09408) | [blog](https://zhuanlan.zhihu.com/p/80751176)-Merria28       
+*2019-07-11* [paper](https://arxiv.org/abs/1907.09408) | [阅读](/ai/cv/detection/paper_reading/2020/04/11/A-Survey-of-Deep-Learning-based-Object-Detection.html) | [blog](https://zhuanlan.zhihu.com/p/80751176)-Merria28       
 $\bullet \bullet$ survey     
+文章汇总最新的基于深度学习的目标检测方法、数据集，但不介绍基础知识及深入讨论；   
 
 1. [Deep Domain Adaptive Object Detection: a Survey](http://cn.arxiv.org/abs/2002.06797)    
 ICIP 2020 *2020-02-17* [paper](https://arxiv.org/abs/2002.06797)    

@@ -136,9 +136,13 @@ CVPR 2019 *2019-07-12* [paper](https://arxiv.org/abs/1907.05552)
 *2019-11-08* [paper](https://arxiv.org/abs/1911.03052)     
 
 
-# 8 [训练](/ai/dl/foundation/2019/05/20/foundation.html#311-分类)
+# 9 卡通人脸
+1. [iCartoonFace: A Benchmark of Cartoon Person Recognition](http://cn.arxiv.org/abs/1907.13394)     
+*2019-07-31* [paper](https://arxiv.org/abs/1907.13394)    
 
-# 9 数据集
+# 10 [训练](/ai/dl/foundation/2019/05/20/foundation.html#311-分类)
+
+# 11 数据集
 1. [Places : A 10 milLion image database for scene recognition](http://places2.csail.mit.edu/PAMI_places.pdf)     
 *2017* [paper](http://places2.csail.mit.edu/PAMI_places.pdf)    
 

@@ -295,3 +295,4 @@ tensorflow 检测交通信号灯；
 1. <https://cvpr.yonsei.ac.krintranet>   
 1. [机器学习高质量数据集大集合](https://www.jianshu.com/p/9ec20174adb9)   
 1. [红绿灯 交通标志数据集](https://blog.csdn.net/weixin_42419002/article/details/100605115)   
+1. [自动驾驶系统中的交通信号检测和识别](https://zhuanlan.zhihu.com/p/61153328)    

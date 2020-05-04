@@ -15,9 +15,25 @@ sidebar:
 
 <!--more-->
 
-**1 列举常见的一些范数及其应用场景，如 L0，L1，L2，L∞，Frobenius 范数**
+**1 列举常见的范数及其应用**
 {:.warning}
-p39-p40 ；还有 p230-p236 有 regularization 的应用
+>《深度学习》2.5 范数，7.1、7.2 正则化      
+
+*范数，norm：$L^p$ 范数就是元素绝对值的 $p$ 次方的和开 $p$ 次根号；用于衡量向量的大小，直观上来看是衡量从原点到 $x$ 的距离；*    
+$${ \left \| x \right \| }_p = \left(\sum_i|x_i|^p \right)^{1/p}  \qquad （p \in R,\quad p \geq 1）$$     
+
+常见范数：    
+
+| 范数 | 解释 | 说明 | 作用 |
+| --- | --- | --- | --- |
+| $L_0$| 非 0 元素个数；| 但因数学意义不对（不满足尺度缩放）故常用 $L_1$ 来代替；  |  |
+| $L_1$| 绝对值之和；| 通常用来衡量 0 值和非 0 值的差异；| 让权重变得稀疏（更多0）`推导`{:.warning}  |
+| $L_2$| 欧式距离；| 原点附近增长缓慢；导数与所有元素相关，而平方 $L_2$ 导数只与当前元素相关；|  感知具有较高方差的输入`推导`{:.warning} |
+| $L_{\infty}$| 最大范数，最大的绝对值；| |   |
+| $L_F$| 矩阵的 Frobenius 范数，相当与向量的二范数；| |   |
+
+应用：正则化：减小过拟合；通常正则项加在损失函数上，来对权重施加限制；     
+*正则化会用少量偏差的增加换取方差的减少；正则通常只加在权重上；*
 
 **2 简单介绍一下贝叶斯概率与频率派概率，以及在统计中对于真实参数的假设。**
 {:.warning}
@@ -27,7 +43,18 @@ p55
 
 **4 简单介绍一下 sigmoid，relu，softplus，tanh，RBF 及其应用场景**
 {:.warning}
-sigmoid 和 softplus 在 p67 页；全部的在 p193-p197
+>《深度学习》 sigmoid 和 softplus 在 3.10 常用函数及其性质；6.3 隐藏单元（激活函数）
+
+| 函数 | 公式 | 特点 | 应用 |
+| --- | --- | --- | --- |
+| sigmoid | $\frac{1}{1 + \exp(-x)}$  | 值域在 (0, 1)；<br>绝对值较大时函数进入饱和状态，即对微小的输入变化不敏感； | |
+| ReLu | $\max (0, x)$  |  |  |
+| softplus |  $\log {(1 + \exp (x))}$ |  |  |
+| tanh |   |  |  |
+| RBF |   |  |  |
+
+`函数求导及换算关系`{:.warning}
+
 
 **5 Jacobian，Hessian 矩阵及其在深度学习中的重要性**
 {:.warning}
@@ -264,4 +291,11 @@ p230-p268；包括：Parameter Norm Penalties(参数范数惩罚); Dataset Augme
 
 # 附录
 ## A 资源
-1 [那些深度学习《面试》你可能需要知道的](https://zhuanlan.zhihu.com/p/29936999)    
+1. [那些深度学习《面试》你可能需要知道的](https://zhuanlan.zhihu.com/p/29965072)    
+1. [机器学习及大数据相关面试的职责和面试问题](https://zhuanlan.zhihu.com/p/27151345)    
+1. [如何准备机器学习工程师的面试](https://zhuanlan.zhihu.com/p/29969587)    
+1. [推荐算法相关的文档整理](https://zhuanlan.zhihu.com/p/29969721)    
+1. [机器学习和深度学习习题集（上）](https://zhuanlan.zhihu.com/p/86154440)    
+1. [深度学习 500 问](https://zhuanlan.zhihu.com/p/71979604)    
+1. [深度学习专项课程精炼图笔记](https://zhuanlan.zhihu.com/p/91178285)    
+1. [笔记——深度学习](https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.md)    

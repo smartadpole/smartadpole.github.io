@@ -174,7 +174,7 @@ $\bullet \bullet$
 | [TLR](#TLR) | 2010 | 巴黎 | 信号 |  | 10000 |  |  | ✓ |  |  |
 | [VIVA](#VIVA) | 2015 |  | 信号灯 | 6 |  |  |  |  |  |  |
 | [Bosch](#Bosch) | 2017 | 德国 | 信号灯 |  | 5093<br>8334 | 30 |  |  |  |  |
-| [LISA-UCSD](#UCSD) |  | 美国 |  | 47 |  6610 | 7.7 | ✓ | ✓ |  |  |
+| [LISA-UCSD](#UCSD) |  | 美国 | 信号灯 | 47 |  6610 | 7.7 | ✓ | ✓ |  |  |
 | [BelgiumTS](#BelgiumTS) | 2010 | 比利时 | 标志 | 62 |  |  | ✓ |  |  | 质量好 |
 | [CCTSDB](#CCTSDB) | 2017 | 中国 | 标志 | 3 | 15734 | 8 |  | ✓ |  |  |
 | [Lara](#Lara) |  | 巴黎 | 信号灯 |  |  |  |  |  |  |  |
@@ -237,7 +237,7 @@ $\bullet \bullet$
 <span id="UCSD"> </span>        
 [LISA(UCSD) Traffic Sign Dataset](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html)      
 [LISA traffic lights-kagge](https://www.kaggle.com/mbornoe/lisa-traffic-light-dataset)、[download](http://cvrr.ucsd.edu/LISA/Datasets/signDatabasePublicFramesOnly.zip), [home](http://cvrr.ucsd.edu/LISA/index.html)    
-6610 张图像（彩色、灰度图像），包含 7855 信号；    
+6610 张图像（彩色、灰度图像），包含 7855 信号；每张图只标注出一个信号灯，其他信号灯并不标注，造成数据不干净；        
 图像：640x480 -> 1024x522，交通信号标志：6x6 -> 167x168   
 标注信息：标志类别、位置、大小、是否被遮挡、是否在路边     
 *[合并 kitti、Lisa](https://blog.csdn.net/xiji321/article/details/70171511), [LISA-on-SSD-mobilenet](https://github.com/cooliscool/LISA-on-SSD-mobilenet)-tensorflow, [TrafficLightsDetection](https://blog.csdn.net/baobei0112/article/details/80190555)-caffe         
@@ -269,6 +269,7 @@ $\bullet \bullet$
 <span id="WPI"> </span>        
 [WPI](http://computing.wpi.edu/dataset.html)      
 交通灯、行人和车道检测的数据集；    
+交通灯：六类，绿色左转，绿色右转，绿色执行，绿色圆形，红色圆形，红色左转；    
 
 
 

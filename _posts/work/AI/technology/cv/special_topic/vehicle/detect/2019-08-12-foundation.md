@@ -9,8 +9,7 @@ category: [AI, CV, vehicle, vehicle_detect]
 tags: 资源
 ---
 <span id='head'></span>
->检测车辆；    
-[通用目标检测资源](/ai/cv/detection/2019/05/10/foundation.html)     
+>[通用目标检测资源](/ai/cv/detection/2019/05/10/foundation.html)，[自动驾驶资源](/ai/cv/traffic/auto_drive/2020/02/14/foundation.html)    
 
 <!--more-->
 
@@ -26,3 +25,11 @@ tags: 资源
 -------------------  
 [End](#head)
 {:.warning}  
+
+# 附录
+## A 数据集
+
+[LISA 车辆测试视频](http://cvrr.ucsd.edu/LISA/vehicledetection.html)    
+
+## B 参考资料
+1. [vehicle image database](http://www.gti.ssr.upm.es/data/Vehicle_database.html)    

@@ -5,7 +5,7 @@ date:   2019-04-11 08:20:40 +0800
 key: ml-question
 aside:
   toc: true
-tags: 资源
+tags: Q&A
 category: [AI, ML]
 sidebar:
   nav: INTERVIEW

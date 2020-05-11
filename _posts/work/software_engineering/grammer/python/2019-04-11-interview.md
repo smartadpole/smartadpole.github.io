@@ -8,6 +8,7 @@ aside:
 category: [software, python]
 sidebar:
   nav: INTERVIEW
+tags: Q&A
 ---
 <span id='head'></span>  
 

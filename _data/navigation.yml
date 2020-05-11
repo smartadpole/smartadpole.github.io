@@ -35,6 +35,12 @@ header:
       zh-Hans:  关于
       zh-Hant:  關於
     url:        /2019/04/18/resume.html
+  - titles:
+      en:       Archive
+      zh:       存档
+      zh-Hans:  存档
+      zh-Hant:  存档
+    url:        /archive.html
 
 Life:
   - title:      读书
@@ -1809,3 +1815,7 @@ INTERVIEW:
         url:    /ai/ml/2019/04/11/interview.html
       - title:  AI
         url:    /ai/ai_/2019/01/25/issue.html
+  - title:
+    children:
+      - title:  GAN
+        url:    /ai/dl/gan/2019/04/10/issue.html

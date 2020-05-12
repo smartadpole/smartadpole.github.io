@@ -12,6 +12,25 @@ tags: Q&A
 ---
 <span id='head'></span>  
 
+
+| 编程基础 |  |  |  |
+| --- | --- | --- | --- |
+|  |  |  |  |
+
+| C++ |  |  |  |
+| --- | --- | --- | --- |
+| [static](#static) | [对象内存分布](#object_memory) | [struct-class](#struct_class) | [虚函数](#virtual_func) |
+| [深浅拷贝](#copy) | [菱形继承](#diamond) | [const](#const) |  |
+
+| 面向对象 |  |  |  |
+| --- | --- | --- | --- |
+| [三大特性和七大原则](#oop37) |  |  |  |
+
+| STL |  |  |  |
+| --- | --- | --- | --- |
+| [list](#list) | [vector](#vector) | [智能指针](#shared_ptr) | [map-set](#map_set) |
+
+
 # 1 计算机基础
 
 # 2 编程基础
@@ -20,41 +39,55 @@ tags: Q&A
 # 3 C
 
 # 4 C++
-<span id="static">**static 关键字**</span>    
+<span id="static"> </span>    
+
+**static 关键字**    
 {:.warning}  
 **修饰变量**：只初始化一次；生命周期是整个程序的运行时期；全局静态变量只在本文件内可见`局部变量本身不就有作用域吗`{:.warning}`内存分配在哪`{:.warning}；    
 **修饰函数**：只在当前文件可见；    
 **修饰成员变量**：变量作为类的一部分（而不是对象的）；内存分配在数据区，而不是栈`两者有什么区别`{:.warning}；初始化只能在类外做，且只初始化一次；     
 **修饰成员函数**：属于类所有（也就没有 this 指针），因此不能直接调用类的非静态成员，同样不能够被限定为 const，也不能声明为虚函数`为什么`{:.warning}；      
 
-<span id="object_memory">**对象内存分布**</span>    
+<span id="object_memory"> </span>    
+
+**对象内存分布**    
 {:.warning}  
 [详见此处](https://www.jianshu.com/p/9fb37bb3094f)     
 虚表在前 > 基类非静态成员 > 派生类非静态成员    
 
 
-<span id="struct_class">**struct 和 class 区别**</span>    
+<span id="struct_class"> </span>   
+
+**struct 和 class 区别**    
 {:.warning}    
 C 语言中，struct 是一种数据类型，只能定义数据成员，不能定义函数；    
 C++ 中 struct 除了默认的继承和访问权限与 class 不同外，其他相同（class 默认是 private，struct 是 public）；    
 
 
-<span id="virtual_func">**虚函数实现原理**</span>    
+<span id="virtual_func">   </span>   
+
+**虚函数实现原理**    
 {:.warning}  
 [虚函数实现详见](https://blog.csdn.net/jiangnanyouzi/article/details/3720807)
 - 使用虚表实现，子类虚表中使用自己的函数重写了父类的虚函数；    
 
-<span id="copy">**深浅拷贝**</span>    
+<span id="copy"> </span>    
+
+**深浅拷贝**    
 {:.warning}  
 - 所谓浅拷贝就是值拷贝，一般的默认拷贝构造函数都是浅拷贝；    
 - 涉及到堆内存拷贝的是深拷贝，可通过自定义拷贝构造函数实现；    
 
-<span id="diamond">**菱形继承**</span>    
+<span id="diamond"> </span>      
+
+**菱形继承**      
 {:.warning}  
 使用虚继承解决      
 [详见](https://blog.csdn.net/tounaobun/article/details/8443228)
 
-<span id="const">**const**</span>    
+<span id="const"> </span>   
+
+**const**   
 {:.warning}  
 只读，const 离谁近意味着谁就不能被修改了；    
 作用：[const 详解](https://blog.csdn.net/Eric_Jo/article/details/4138548)    
@@ -70,7 +103,9 @@ C++ 中 struct 除了默认的继承和访问权限与 class 不同外，其他�
 
 # 5 面向对象
 
-<span id="oop37">**面向对象三大特性和七大原则**</span>    
+<span id="oop37"> </span>    
+
+**面向对象三大特性和七大原则**    
 {:.warning}  
 **开闭原则**：对扩展开放的，对修改封闭; (在不修改原程序的前提下去扩展功能）    
 **单一职责原则**：类的职责要单一；    
@@ -81,12 +116,16 @@ C++ 中 struct 除了默认的继承和访问权限与 class 不同外，其他�
 **迪米特法则**：对象间引用越少越好，即不必直接通信的类之间用第三者进行交互；`什么情况下用`{:.warning}     
 
 # 6 STL
-<span id="list">**list**</span>    
+<span id="list"> </span>    
+
+**list**    
 {:.warning}  
 STL list 环状双向链表；插入删除是常数时间；    
 基本操作：push_front、push_back、pop_front、pop_back、insert（该位置之后的元素依次后移）；    
 
-<span id="vector">**vector**</span>    
+<span id="vector"> </span>    
+
+**vector**    
 {:.warning}  
 vector 是一种顺序表（一段连续线性空间），插入时，如果超出当前容量，则容量会扩充至两倍；    
 操作复杂度：随机访问、尾插、尾删 O(1)，插入或者移除元素 O(n)；
@@ -102,7 +141,9 @@ push_back、pop_back、erase、insert、clear、[begin()，end())；
 引发动态扩容后、从容器删除元素；    
 
 
-<span id="shared_ptr">**智能指针**</span>    
+<span id="shared_ptr"> </span>    
+
+**智能指针**    
 {:.warning}  
 注意:    
 - **多个智能指针**：不要让多个 shared_ptr（unique_ptr）同时获取原生指针；（因为智能指针析构时会导致多次释放该内存）；类似的，尽量不要把 this 指针交给智能指针管理，这样如果生成的对象又被智能指针管理，就会引发两次析构；    
@@ -111,7 +152,7 @@ push_back、pop_back、erase、insert、clear、[begin()，end())；
 比如用 `malloc` 时，可以将自定义删除器 `[](int* p) {free(p);}` 传递给 shared_ptr；    
 - **尽量不要使用 `get()`**：根据开闭原则，既然指针交给了智能指针来管理，就不应该再被外界所获取；`get()` 接口最初是为了使得智能指针也能够适配原生指针使用的相关函数而设计，所以尽量不用，更要禁止使用 `get()` 返回的原生指针再去初始化其他智能指针或者释放；     
 - **尽量使用 make_shared**，不要把原生指针暴露出来；    
-- share_prt 线程不安全；    
+- shared_ptr 线程不安全；    
 - 避免循环引用，循环引用会导致引用计数器无法清零，造成无法释放；`什么意思`{:.warning}     
 
 定义方式:    
@@ -125,7 +166,9 @@ push_back、pop_back、erase、insert、clear、[begin()，end())；
 [实现](#shared_pt_cpp)    
 
 
-<span id="map_set">**map 和 set**</span>    
+<span id="map_set"> </span>     
+
+**map 和 set**    
 {:.warning}  
 都是关联式容器，底层实现都是红黑树，map 和 set 提供的各种操作，都是间接调用红黑树的操作；   
 区别：     
@@ -145,7 +188,9 @@ push_back、pop_back、erase、insert、clear、[begin()，end())；
 
 # 附录
 ## A 代码示例
-<span id="shared_pt_cpp">**1. shared_ptr 实现**</span>  
+<span id="shared_pt_cpp"> </span>   
+
+**1. shared_ptr 实现**  
 ```cpp
 #include <map>
 

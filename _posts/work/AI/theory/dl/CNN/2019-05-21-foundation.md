@@ -66,6 +66,11 @@ VGG:
 CVPR 2015 *2014-09-17* [paper](https://arxiv.org/abs/1409.4842)     
 GoogLeNet;     
 
+1. [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://cn.arxiv.org/abs/1502.03167)     
+*2015-02-11* [paper](https://arxiv.org/abs/1502.03167) | [blog](https://zhuanlan.zhihu.com/p/50444499)-Michael | [blog](http://old-101.cvmart.net/community/article/detail/368)-极市          
+提出了批量归一化，被大量使用；   
+InceptionV2    
+
 1. [Deep residual learning for image recognition](http://cn.arxiv.org/abs/1512.03385)     
 CVPR 2016 *2015-12-10* [paper](https://arxiv.org/abs/1512.03385)     
 ResNet;    

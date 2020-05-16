@@ -175,6 +175,9 @@ RELU 梯度问题测量；
 NIPS 2018 *2018-01-11* [paper](https://arxiv.org/abs/1801.03744)    
 
 ## 3.5 过拟合
+1. [Dropout:A Simple Way to Prevent Neural Networks from Overfitting](http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)     
+*2014* [paper](http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf) | [blog]（https://zhuanlan.zhihu.com/p/38200980       
+
 1. [One-Step or Two-Step Optimization and the Overfitting Phenomenon: A Case Study on Time Series Classification](http://cn.arxiv.org/abs/1407.4364)   
 *2014-07-16* [paper](https://arxiv.org/abs/1407.4364)   
 

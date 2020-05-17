@@ -394,8 +394,12 @@ SSD 做的检测，然后自适应与之分割，最后进行识别；
 | [SynthText](http://www.robots.ox.ac.uk/~vgg/data/scenetext/)<br>[2016](https://hyper.ai/datasets/4917) | 英文 | 自然场景 | $\checkmark$ | $\checkmark$ | $\checkmark$ |  |  |  | 80万<br>（800万） |  |  | 40 |
 | [Chars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/) |  |  |  |  |  |  |  |  |  |  |  |  |
 | []() |  |  |  |  |  |  |  |  |  |  |  |  |
+| []() |  |  |  |  |  |  |  |  |  |  |  |  |
 
 1. [文字检测与识别资料整理（数据库，代码，博客）【持续更新】](https://www.cnblogs.com/lillylin/p/6893500.html)    
+
+1. [PubTabNet](https://developer.ibm.com/exchanges/data/all/pubtabnet/)    
+表格识别；   [github](https://github.com/ibm-aur-nlp/PubTabNet) [比赛](https://evalai.cloudcv.org/web/challenges/challenge-page/608/overview)         
 
 ## E 报告
 1. [OCR and Text Spotting](http://llcao.net/cu-deeplearning15/pdf/8OCR.pdf)    

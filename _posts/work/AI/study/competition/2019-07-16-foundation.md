@@ -12,7 +12,7 @@ category: [AI, AI, Competition]
 
 <!--more-->
 
-# 1 常用竞赛网站
+# 1 竞赛网站
 
 |  网站 | 说明 |
 | --- | --- |
@@ -37,6 +37,29 @@ category: [AI, AI, Competition]
 | [Numer AI](https://numer.ai/homepage/)    | 对冲基金数据挖掘大赛，目前首页上只有这一个数据挖掘比赛，也被成为世界上最难的比赛；非常难，但奖金也异常的丰厚；    |
 | [signate](https://signate.jp/competitions)    ||
 | [biendata](https://biendata.com/)    | 更新速度快，类型多，奖金并不丰厚，难易程度不同；    |
+
+# 2 近期竞赛
+
+## 2.1 2020 年
+
+| 初赛 | 名称 | 说明 |
+| --- | --- | --- |
+| 05-06 | [淘宝直播·商品识别](https://tianchi.aliyun.com/competition/entrance/231772/introduction?spm=5176.12281949.1003.12.493e2448VZDApS) | 从多个商品中识别出当前正在讲解的商品  |
+| 06-01 | [SIGIR: FinIR](https://biendata.com/competition/finir/) | 金属价格预测 |
+| 06-01 | [GigaVision](https://biendata.com/competition/gigavision/) | 行人、车辆检测；多目标行人跟踪 |
+| 06-06 | [CVPR 2020 :Large-scale Product Recognition](https://tianchi.aliyun.com/competition/entrance/231780/introduction?spm=5176.12281949.1003.10.493e2448VZDApS) | 细粒度商品识别 |
+| 06-11 | [KDD 2020: Debiasing](https://tianchi.aliyun.com/competition/entrance/231785/introduction?spm=5176.12281949.1003.6.493e2448VZDApS)] | 消除电商推荐中的马修效应 |
+| 06-11 | [KDD 2020: Multimodalities Recall](https://tianchi.aliyun.com/competition/entrance/231786/introduction?spm=5176.12281949.1003.5.493e2448VZDApS) | 跨模态检索 |
+| 06-24 | [街景字符编码识别](https://tianchi.aliyun.com/competition/entrance/531795/introduction?spm=5176.12281949.1003.1.493e2448VZDApS) | 入门赛：字符识别 |
+| 06-30 | [The 3rd AI Edge Contest](https://signate.jp/competitions/256) | 车辆检测 |
+| 07-24 | [IJCAI-PRICAI 2020 :3D Object Reconstruction](https://tianchi.aliyun.com/competition/entrance/231788/introduction?spm=5176.12281949.1003.9.493e2448VZDApS) | 2D 转 3D |
+| 07-24 | [IJCAI-PRICAI 2020 :Image-based 3D Shape Retrieval](https://tianchi.aliyun.com/competition/entrance/231789/introduction?spm=5176.12281949.1003.8.493e2448VZDApS) | 3D 物体检索 |
+| 07-24 | [IJCAI-PRICAI 2020 :Instance Segmentation](https://tianchi.aliyun.com/competition/entrance/231787/introduction?spm=5176.12281949.1003.7.493e2448VZDApS) | 3D 物体分割 |
+| 09-30 | [传染病的传播趋势预测](https://aistudio.baidu.com/aistudio/competition/detail/36) |  |
+| 10-01 | [Table recognition](https://evalai.cloudcv.org/web/challenges/challenge-page/608/overview) | 表格识别 |
+| 12-01 | [ImageNet图像分类对抗攻击](https://tianchi.aliyun.com/competition/entrance/231761/introduction?spm=5176.12281949.1003.15.493e2448VZDApS) | 长期赛 |
+|  |  |  |
+
 
 -------------------  
 [End](#head)

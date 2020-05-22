@@ -48,7 +48,7 @@ category: [AI, AI, Competition]
 | 06-01 | [SIGIR: FinIR](https://biendata.com/competition/finir/) | 金属价格预测 |
 | 06-01 | [GigaVision](https://biendata.com/competition/gigavision/) | 行人、车辆检测；多目标行人跟踪 |
 | 06-06 | [CVPR 2020 :Large-scale Product Recognition](https://tianchi.aliyun.com/competition/entrance/231780/introduction?spm=5176.12281949.1003.10.493e2448VZDApS) | 细粒度商品识别 |
-| 06-11 | [KDD 2020: Debiasing](https://tianchi.aliyun.com/competition/entrance/231785/introduction?spm=5176.12281949.1003.6.493e2448VZDApS)] | 消除电商推荐中的马修效应 |
+| 06-11 | [KDD 2020: Debiasing](https://tianchi.aliyun.com/competition/entrance/231785/introduction?spm=5176.12281949.1003.6.493e2448VZDApS) | 消除电商推荐中的马修效应 |
 | 06-11 | [KDD 2020: Multimodalities Recall](https://tianchi.aliyun.com/competition/entrance/231786/introduction?spm=5176.12281949.1003.5.493e2448VZDApS) | 跨模态检索 |
 | 06-24 | [街景字符编码识别](https://tianchi.aliyun.com/competition/entrance/531795/introduction?spm=5176.12281949.1003.1.493e2448VZDApS) | 入门赛：字符识别 |
 | 06-30 | [The 3rd AI Edge Contest](https://signate.jp/competitions/256) | 车辆检测 |

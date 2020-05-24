@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "「Python」 numpy"
+title:  "「Python」 Matplotlib"
 date:   2019-01-25 17:03:40 +0800
-key: numpy-20190125
+key: matplotlib-20190125
 aside:
   toc: true
 category: [software, python, library]

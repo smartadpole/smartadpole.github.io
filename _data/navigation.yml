@@ -1572,6 +1572,8 @@ Linux:
         url:    /school/linux/shell/2019/05/15/basic_script.html
       - title:  结构化命令
         url:    /school/linux/shell/2019/05/15/structured_commands.html
+      - title:  字符串
+        url:    /school/linux/shell/2019/07/22/string.html
       - title:  用户输入
         url:    /school/linux/shell/2019/05/15/user_input.html
       - title:  数据输出

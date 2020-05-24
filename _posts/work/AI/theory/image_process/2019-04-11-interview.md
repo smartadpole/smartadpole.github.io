@@ -18,12 +18,69 @@ sidebar:
 
 |  |  |  |  |
 | --- | --- | --- | --- |
+| [读写](#io) | [算数运算](#math) | [边界填充](#padding) | [轮廓检测](#contours) |
 | [形态学](#morphology) | [仿射变换](#affine) |  |  |
 | [噪声](#noise) |  |  |  |
 | [HOG](#hog) |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
-|  |  |  |  |
+
+
+<span id="io">    </span>  
+
+**读写**
+{:.warning}
+```python
+imread()
+# LOAD_IMAGE_UNCHANGED （<0）读取透明通道 LOAD_IMAGE_GRAYSCALE （=0）灰度  LOAD_IMAGE_COLOR （>0）RGB
+# 0代表透明，255代表不透明
+```
+
+
+<span id="math">    </span>  
+
+**算数运算**
+{:.warning}
+```python
+cv2.add(a, b)   # 逐像素相加，会改变颜色
+cv2.addWeighted(a, 0.7, b, 0.3, 0)  # 按比例相加，有透明效果
+# numpy 的 +，溢出后取余
+```
+```python
+bitwise_and、bitwise_or、bitwise_not、bitwise_xor
+```
+提取 mask + 位运算（置0） + add 可以实现 ROI 复制
+
+<span id="padding">    </span>  
+
+**边界填充**
+{:.warning}
+```python
+cv2.copyMakeBorder()
+# borderMode： BORDER_REPLICATE 重复边界像素   BORDER_CONSTANT 填充固定值，默认 0  BORDER_ISOLATED  有效区域
+#              BORDER_REFLECT  反射  BORDER_REFLECT101 / BORDER_DEFAULT  对称
+
+```
+
+
+<span id="contours">    </span>  
+
+**轮廓检测**
+{:.warning}
+```python
+contours, hierarchy = cv2.findContours(binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+cv2.drawContours()
+# 每个轮廓 contours[i] 对应 4 个 hierarchy 元素 hierarchy[i][j]，分别表示后前外内轮廓的索引编号，默认为负数；
+# 等级关系： RETR_LIST 不要、RETR_TREE 树形、RETR_CCOMP 内外、RETR_EXTERNAL 外
+# 轮廓近似
+#   CHAIN_APPROX_NONE 所有、CHAIN_APPROX_SIMPLE 横纵对角线只留终点
+#   CHAIN_APPROX_TC89_L1，CV_CHAIN_APPROX_TC89_KCOS 使用 teh-Chinl chain 近似算法？
+(x_center, y_center), (w, h), rotate = cv2.minAreaRect(contours[0])    # 最小外接巨型
+box = np.int0(cv2.boxPoints(rect))          #通过box会出矩形框
+x_tf, y_tf, w, h = cv2.boundingRect(c)      # 外接矩形
+```
+
+ROI 提取：轮廓提取到 ROI——绘制 ROI（白色）——与原图取交集   
 
 
 <span id="morphology">    </span>  
@@ -34,6 +91,8 @@ sidebar:
 Mat kernel(5,5,CV_8U,cv::Scalar(1));
 Mat kernel = getStructuringElement(MORPH_RECT, (5, 5))
 morphologyEx(); //  MORPH_OPEN、MORPH_CLOSE、MORPH_GRADIENT、MORPH_TOPHAT、MORPH_BLACKHAT
+erode()   // 腐蚀
+dilate()  // 膨胀
 ```
 
 膨胀：扩大    
@@ -41,7 +100,13 @@ morphologyEx(); //  MORPH_OPEN、MORPH_CLOSE、MORPH_GRADIENT、MORPH_TOPHAT、M
 开：断开     
 闭：连接     
 
+应用：    
+- 消除噪声；    
+- 断开独立的图像元素，连接相邻的元素；    
+- 寻找图像中的明显的极大值区域或极小值区域；    
+
 *同一幅图像连续使用开操作或者闭操作是没有任何意义的，操作结果都和第一次的相同*     
+*操作的像素是黑色*    
 
 
 <span id="noise">    </span>  
@@ -78,7 +143,7 @@ findhomography()  perspectiveTransform()                  # 透视变换·稀疏
 
 **HOG算法原理描述**
 {:.warning}
-**梯度直方图（Histogram of Oriented Gradient, HOG）**特征：先将原图划分成多个区域，然后球每个区域的梯度，再求直方图，构成图像的特征；。在深度学习取得成功之前；是传统图像中用来进行物体检测的特征描述子，在 DL 之前，常结合 SVM 分类器用来做目标检测；在行人检测中获得了较大的成功；    
+**梯度直方图（Histogram of Oriented Gradient, HOG）**特征：先将原图划分成多个区域，然后球每个区域的梯度，再求直方图，构成图像的特征；在深度学习取得成功之前；是传统图像中用来进行物体检测的特征描述子，在 DL 之前，常结合 SVM 分类器用来做目标检测；在行人检测中获得了较大的成功；    
 
 **原理**：HOG 认为物体的局部形状可以被边缘的分布所描述；因此对原图等分，然后求子区域的梯度直方图，最终把所有区域的直方图连接在一起；为了提升对照射/阴影的不变性，可以对大的区域取梯度均值，用来给内部的子区域做归一化；     
 **优势**：与其他描述子相比，HOG拥有几何和光学转化不变性（除非物体方向改变）；因此HOG描述子尤其适合人的检测；    

@@ -24,6 +24,12 @@ header:
       zh-Hant:  工具
     url:        /assets/category/work/tool/tool.html
   - titles:
+      en:       Career
+      zh:       职业
+      zh-Hans:  职业
+      zh-Hant:  职业
+    url:        /assets/category/work/career/career.html
+  - titles:
       en:       Life
       zh:       生活
       zh-Hans:  生活
@@ -48,7 +54,6 @@ Life:
       - title:  推荐
         url:    /assets/category/life/reding/recommend.html
 
-
 TOOL:
   - title:      工具
     children:
@@ -68,6 +73,16 @@ TOOL:
         url:    /assets/category/work/tool/git.html
       - title:  Python
         url:    /assets/category/work/tool/python.html
+
+CAREER:
+  - title:
+    children:
+      - title:  面试
+        url:    /assets/category/work/career/interview.html
+      - title:  管理
+        url:    /assets/category/work/career/manage.html
+      - title:  职业规划
+        url:    /assets/category/work/career/plan.html
 
 
 Software:

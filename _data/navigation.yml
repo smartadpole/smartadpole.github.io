@@ -1807,14 +1807,16 @@ INTERVIEW:
         url:    /software/python/2019/04/11/interview.html
   - title:	   AI
     children:
-      - title:  CV
-        url:    /ai/image_process/2019/04/11/interview.html
       - title:  DL
         url:    /ai/dl/2019/04/11/interview.html
       - title:  ML
         url:    /ai/ml/2019/04/11/interview.html
       - title:  AI
         url:    /ai/ai_/2019/01/25/issue.html
+      - title:  CV
+        url:    /ai/image_process/2019/04/11/interview.html
+      - title:  NLP
+        url:    /ai/nlp/2019/04/11/interview.html
   - title:
     children:
       - title:  GAN

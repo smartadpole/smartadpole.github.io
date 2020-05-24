@@ -22,6 +22,24 @@ sidebar:
 |  |  |  |  |
 |  |  |  |  |
 
+
+<span id="morphology">    </span>  
+
+**形态学**
+{:.warning}
+```c++
+cv::Mat kernel(5,5,CV_8U,cv::Scalar(1));
+morphologyEx(); //  MORPH_OPEN、MORPH_CLOSE、MORPH_GRADIENT、MORPH_TOPHAT、MORPH_BLACKHAT
+```
+
+膨胀：扩大    
+腐蚀：消除     
+开：断开     
+闭：连接     
+
+*同一幅图像连续使用开操作或者闭操作是没有任何意义的，操作结果都和第一次的相同*     
+
+
 <span id="hog">    </span>  
 
 **HOG算法原理描述**

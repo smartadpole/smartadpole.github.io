@@ -45,6 +45,7 @@ imread()
 cv2.add(a, b)   # 逐像素相加，会改变颜色
 cv2.addWeighted(a, 0.7, b, 0.3, 0)  # 按比例相加，有透明效果
 # numpy 的 +，溢出后取余
+cv2.seamlessClone(src, dst, np.zeros_like(src), center, cv2.NORMAL_CLONE)  # 边界处透明的覆盖操作
 ```
 ```python
 bitwise_and、bitwise_or、bitwise_not、bitwise_xor

@@ -146,8 +146,6 @@ AI:
         url:    /assets/category/work/AI/theory/reinforcement_learning.html
       - title:  深度学习
         url:    /assets/category/work/AI/theory/dl.html
-      - title:  深度学习工具
-        url:    /assets/category/work/AI/theory/dl_framework.html
 
   - title:      技术方向
     children:
@@ -159,6 +157,13 @@ AI:
         url:    /assets/category/work/AI/technology/audio/audio.html
       - title:  视频分析
         url:    /assets/category/work/AI/technology/video/video.html
+
+  - title:      工程
+    children:
+    - title:  深度学习工具
+      url:    /assets/category/work/AI/tool/dl_framework.html
+    - title:  嵌入式设备
+      url:    /assets/category/work/AI/tool/device.html
 
   - title:      应用
     children:
@@ -236,6 +241,17 @@ Python:
       - title:  爬虫
         url:    /assets/category/work/software/grammer/python/spider.html
 
+DEVICE:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/AI/AI.html
+  - title:      工程
+    children:
+    - title:  NANO
+      url:    /assets/category/work/AI/tool/device/nano.html
+    - title:  TX2
+      url:    /assets/category/work/AI/tool/device/tx2.html
 
 DL:
   - title:

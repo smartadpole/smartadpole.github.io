@@ -512,7 +512,7 @@ ICCV 2019 *2019* 清华深研院 [paper](http://openaccess.thecvf.com/content_IC
 
 
 ## 3.5 相似度度量
->[序列相似度度量](/data_mining/sequence_alignment/2019/11/05/foundation.html)、[字符串匹配](/ai/algorithms/string/2019/10/29/pattern-match-foundation.html)
+>[序列相似度度量](/ai/data_mining/sequence_alignment/2019/11/05/foundation.html)、[字符串匹配](/software/algorithms/string/2019/10/29/pattern-match-foundation.html)
 
 `sequence matching` · `similarity measure`    
 `longest common sub-sequence`     

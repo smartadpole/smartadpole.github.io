@@ -45,6 +45,7 @@ tags: 资源
 `Marc Peter Deisenroth, et al. Mathematics for Machine Learning[M]. -. 2020.` [home](https://mml-book.github.io/) [pdf](https://mml-book.github.io/book/mml-book.pdf)    
 
 # 2 资料
+1. [100-Days-of-ML-Code-Chinese-Version](https://github.com/Avik-Jain/100-Days-of-ML-Code-Chinese-Version)    
 
 # 3 研究员
 1. [jony0917](https://blog.csdn.net/gaofeipaopaotang)    

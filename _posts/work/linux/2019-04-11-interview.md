@@ -101,6 +101,16 @@ rm rm -r rmdir
 {:.warning}
 wc 命令 - c 统计字节数 - l 统计行数 - w 统计字数。
 
+**词频统计**
+{:.warning}  
+文本行第一列进行计数：`cat test.txt | cut -d ' ' -f1 | sort | uniq -c | sort -k 1`     
+
+**查找多种指定类型文件**
+{:.warning}
+`find . -name "a.html"  -name "b.txt"` 或 `find . -regex '.*\.txt\|.*\.doc\|.*\.mp3'  `    
+*剔除就在 `-name` 前加上 `！`*    
+
+
 **Grep 命令有什么用？如何忽略大小写？如何查找不含该串的行**
 {:.warning}
 是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹 配的行打印出来。

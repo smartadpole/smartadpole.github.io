@@ -44,12 +44,15 @@ category: [AI, AI, Competition]
 
 | 初赛 | 名称 | 说明 |
 | --- | --- | --- |
-| 05-06 | [淘宝直播·商品识别](https://tianchi.aliyun.com/competition/entrance/231772/introduction?spm=5176.12281949.1003.12.493e2448VZDApS) | 从多个商品中识别出当前正在讲解的商品  |
+| 05-06 | [淘宝直播·商品识别](https://tianchi.aliyun.com/competition/entrance/231772/introduction?spm=5176.12281949.1003.12.493e2448VZDApS) | 直播商品的识别  |
 | 06-01 | [SIGIR: FinIR](https://biendata.com/competition/finir/) | 金属价格预测 |
 | 06-01 | [GigaVision](https://biendata.com/competition/gigavision/) | 行人、车辆检测；多目标行人跟踪 |
 | 06-06 | [CVPR 2020 :Large-scale Product Recognition](https://tianchi.aliyun.com/competition/entrance/231780/introduction?spm=5176.12281949.1003.10.493e2448VZDApS) | 细粒度商品识别 |
+| 06-07 | [iQIYI iCartoonFace](http://challenge.ai.iqiyi.com/detail?raceId=5def71b4e9fcf68aef76a75e) | 卡通人物检测和检索 |
 | 06-11 | [KDD 2020: Debiasing](https://tianchi.aliyun.com/competition/entrance/231785/introduction?spm=5176.12281949.1003.6.493e2448VZDApS) | 消除电商推荐中的马修效应 |
 | 06-11 | [KDD 2020: Multimodalities Recall](https://tianchi.aliyun.com/competition/entrance/231786/introduction?spm=5176.12281949.1003.5.493e2448VZDApS) | 跨模态检索 |
+| 06-12 | [多维度内容识别](https://god.yanxishe.com/62?from=article) | 多标签内容识别 |
+| 06-21 | [验证码识别](https://god.yanxishe.com/66) |  |
 | 06-24 | [街景字符编码识别](https://tianchi.aliyun.com/competition/entrance/531795/introduction?spm=5176.12281949.1003.1.493e2448VZDApS) | 入门赛：字符识别 |
 | 06-30 | [The 3rd AI Edge Contest](https://signate.jp/competitions/256) | 车辆检测 |
 | 07-24 | [IJCAI-PRICAI 2020 :3D Object Reconstruction](https://tianchi.aliyun.com/competition/entrance/231788/introduction?spm=5176.12281949.1003.9.493e2448VZDApS) | 2D 转 3D |

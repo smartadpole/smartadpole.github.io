@@ -1564,7 +1564,7 @@ Linux:
   - title:
     children:
       - title:  基础
-        url:    /school/linux/2020/04/11/interview.html
+        url:    /school/linux/2020/03/15/foundation.html
   - title:	系统操作
     children:
       - title:  使用终端

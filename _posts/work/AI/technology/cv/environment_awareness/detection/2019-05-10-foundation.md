@@ -9,8 +9,10 @@ category: [AI, CV, detection]
 tags: 资源
 ---
 <span id='head'></span>
+[目标检测概述](/ai/cv/detection/2020/06/04/survey.html)     
+
 <center class="half">
-  <img src="/assets/images/cv/detection/overview.jpg" /><br>图1：目标检测发现路线&emsp;
+  <img src="/assets/images/cv/detection/overview.png" /><br>图1：目标检测发现路线&emsp;
 </center>
 
 <!--more-->  
@@ -56,19 +58,15 @@ CVPR 2019 *2019-02-25* [paper](https://arxiv.org/abs/1902.09630)
 # 3 检测框架
 
 ## 3.1 单阶段
-1. [SSD: Single Shot MultiBox Detector](http://cn.arxiv.org/abs/1512.02325)    
-ECCV 2016 Oral *2015-12-08* ​[Paper](https://arxiv.org/abs/1512.02325) | [caffe](https://github.com/weiliu89/caffe/tree/ssd)-official | [Caffe](https://github.com/chuanqi305/MobileNet-SSD) | [mxnet](https://github.com/zhreshold/mxnet-ssd) | [mxnet](https://github.com/zhreshold/mxnet-ssd.cpp)-cpp | [Keras](https://github.com/rykov8/ssd_keras) | [Keras](https://github.com/pierluigiferrari/ssd_keras) | [Tensorflow](https://github.com/balancap/SSD-Tensorflow) | [Pytorch](https://github.com/amdegroot/ssd.pytorch) | [pytorch-more](https://github.com/qfgaohao/pytorch-ssd) | [TensorRT3](https://github.com/chenzhi1992/TensorRT-SSD) | [TensorRT4](https://github.com/Ghustwb/MobileNet-SSD-TensorRT) | [ncnn](https://github.com/arlose/ncnn-mobilenet-ssd) | [caffe](https://github.com/FreeApe/VGG-or-MobileNet-SSD) | [caffe](https://github.com/canteen-man/MobileNet-SSD-Focal-loss)          
-多特征图；  
-
 1. [You Only Look Once: Unified, Real-Time Object Detection](http://cn.arxiv.org/abs/1506.02640)   
 *2015-06-08* [paper](https://arxiv.org/abs/1506.02640) | [home](https://pjreddie.com/darknet/yolo/)  
 YOLO    
 anchor free?    
 
-1. [R-FCN: Object Detection via Region-based Fully Convolutional Networks](http://cn.arxiv.org/abs/1605.06409)    
-NIPS 2016 *2016-05-20* 代季锋 [paper](https://arxiv.org/abs/1605.06409) | [caffe](https://github.com/daijifeng001/r-fcn)-official | [mxnet](https://github.com/msracver/Deformable-ConvNets)-official       
-RFCN    
-对预测特征图引入位置敏感分数图增强特征位置信息，提高检测精度​   
+1. [SSD: Single Shot MultiBox Detector](http://cn.arxiv.org/abs/1512.02325)    
+ECCV 2016 Oral *2015-12-08* ​[Paper](https://arxiv.org/abs/1512.02325) | [caffe](https://github.com/weiliu89/caffe/tree/ssd)-official | [Caffe](https://github.com/chuanqi305/MobileNet-SSD) | [mxnet](https://github.com/zhreshold/mxnet-ssd) | [mxnet](https://github.com/zhreshold/mxnet-ssd.cpp)-cpp | [Keras](https://github.com/rykov8/ssd_keras) | [Keras](https://github.com/pierluigiferrari/ssd_keras) | [Tensorflow](https://github.com/balancap/SSD-Tensorflow) | [Pytorch](https://github.com/amdegroot/ssd.pytorch) | [pytorch-more](https://github.com/qfgaohao/pytorch-ssd) | [TensorRT3](https://github.com/chenzhi1992/TensorRT-SSD) | [TensorRT4](https://github.com/Ghustwb/MobileNet-SSD-TensorRT) | [ncnn](https://github.com/arlose/ncnn-mobilenet-ssd) | [caffe](https://github.com/FreeApe/VGG-or-MobileNet-SSD) | [caffe](https://github.com/canteen-man/MobileNet-SSD-Focal-loss)          
+多特征图；  
+
 
 1. [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144)   
 CVPR 2017 *2016-12-09* [paper](https://arxiv.org/abs/1612.03144)  
@@ -147,6 +145,15 @@ RCNN
 1. [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](http://cn.arxiv.org/abs/1505.01497)   
 *2015-06* [Paper](https://arxiv.org/abs/1505.01497) | [pytorch](https://ai.yanxishe.com/page/TextTranslation/1304?from=groupmessage)   
 提出了锚框（Anchor）这一划时代的思想；    
+
+1. [HyperNet: Towards Accurate Region Proposal Generation and Joint Object Detection](http://cn.arxiv.org/abs/1604.00600)     
+*2016-04-03* [paper](https://arxiv.org/abs/1604.00600)     
+
+
+1. [R-FCN: Object Detection via Region-based Fully Convolutional Networks](http://cn.arxiv.org/abs/1605.06409)    
+NIPS 2016 *2016-05-20* 代季锋 [paper](https://arxiv.org/abs/1605.06409) | [caffe](https://github.com/daijifeng001/r-fcn)-official | [mxnet](https://github.com/msracver/Deformable-ConvNets)-official       
+RFCN    
+对预测特征图引入位置敏感分数图增强特征位置信息，提高检测精度​   
 
 1. [Mask R-CNN](http://cn.arxiv.org/abs/1703.06870)   
 CVPR 2017 *2017-03-20* cvpr 2017 [paper](https://arxiv.org/abs/1703.06870) | [keras](https://github.com/matterport/Mask_RCNN) | [detectron](https://github.com/facebookresearch/Detectron)-official | [mxnet](https://github.com/TuSimple/mx-maskrcnn)    

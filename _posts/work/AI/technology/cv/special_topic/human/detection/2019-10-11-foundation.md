@@ -34,3 +34,6 @@ tags: 资源
 ## A 数据集
 1. [GigaVision](http://www.panda-dataset.com/)      
 [下载及说明](http://www.panda-dataset.com/Download.html)     
+
+1. [widerface](http://wider-challenge.org/2019.html)     
+[download](http://shuoyang1213.me/WIDERFACE/) | [kaggle](https://www.kaggle.com/mksaad/wider-face-a-face-detection-benchmark)  | [WiderFace-Evaluation](https://github.com/wondervictor/WiderFace-Evaluation)  

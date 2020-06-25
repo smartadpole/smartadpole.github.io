@@ -9,7 +9,7 @@ category: [AI, CV, nature, season_translation]
 tags: 资源
 ---
 <span id='head'></span>  
->[对抗生成网络资源](/ai/dl/gan/2019/03/26/foundation.html)   
+>[对抗生成网络资源](/ai/dl/gan/2019/03/26/foundation.html)、[风格迁移](/ai/cv/style_transfer/2020/02/18/foundation.html)   
 
 <!--more-->
 

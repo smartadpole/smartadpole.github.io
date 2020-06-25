@@ -52,6 +52,12 @@ ICIP 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10089) | [pytorch](htt
 ICCV 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06962) | [project](https://jyhjinghwang.github.io/projects/segsort.html) | [tensorflow](https://github.com/jyhjinghwang/SegSort)-official    
 SegSort: 大津阈值的思路；跨图像训练；    
 
+1. [Video Panoptic Segmentation](http://cn.arxiv.org/abs/2006.11339)  
+CVPR 2020 oral *2020-06-19* [paper](https://arxiv.org/abs/2006.11339) | [PyTorch](https://github.com/mcahny/vps)     
+名字取的很迷，哪里体现了全景了；      
+主要是针对视频类数据，对图像做分割；论文一大亮点是融合了多任务（跟踪、检测、分割）   
+数据集：VIPER、Cityscapes-VPS（都是自动驾驶领域的）
+VPSNet    
 
 ### 1.5.2 GAN
 

@@ -40,6 +40,16 @@ ECCV 2018 *2018-07-26* [Paper](https://arxiv.org/abs/1807.10267) | [Tensorflow](
 1. [Content-Consistent Generation of Realistic Eyes with Style](http://cn.arxiv.org/abs/1911.03346)      
 ICCV Workshop 2019 *2019-11-08* [paper](https://arxiv.org/abs/1911.03346)     
 
+# 7 数字木偶
+`Digital Puppetry`    
+>
+可以被控制的动漫任务；
+
+1. [Real-time Pupil Tracking from Monocular Video for Digital Puppetry](http://cn.arxiv.org/abs/2006.11341)  
+ *2020-06-19* [paper](https://arxiv.org/abs/2006.11341)  
+ 提出了移动端网络：检测人脸，尤其是可以跟踪瞳孔，用于卡通人物生成；帧率超过 50 fps；       
+ 为什么要强调是单目呢？    
+
 -------------------  
 [End](#head)
 {:.warning}  

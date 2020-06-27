@@ -18,23 +18,24 @@ tags: 资源
 
 # 2 理论
 
-# 3 数据生成
+# 3 缺陷检测
 
-1. [Defective samples simulation through Neural Style Transfer for automatic surface defect segment](http://cn.arxiv.org/abs/1910.03334)     
-*2019-10-08* [paper](https://arxiv.org/abs/1910.03334)     
-GAN 生成缺陷样本；   
+# 4 应用
+## 4.1 布匹
 
-# 4 缺陷检测
+## 4.2 印刷品
 
-# 5 应用
-## 5.1 布匹
+## 4.3 金属
 
-## 5.2 印刷品
+## 4.4 轨道
+1. [Improving Train Track Safety using Drones, Computer Vision and Machine Learning](http://cn.arxiv.org/abs/2006.11379)  
+ *2020-06-04* [paper](https://arxiv.org/abs/2006.11379)     
+无人机拍摄完成轨道外观缺陷识别；   
 
-## 5.3 金属
+# 5 数据集
+## 5.1 [数据生成](/ai/cv/data_augementation/2019/05/20/foundation.html#51-分割)
 
-
-
+## 5.2 其他
 
 -------------------  
 [End](#head)

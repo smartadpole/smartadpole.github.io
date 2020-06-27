@@ -571,6 +571,9 @@ $\bullet \bullet$ SoftTriple
 1. [Visual Explanation for Deep Metric Learning](https://arxiv.org/abs/1909.12977)    
 *2019-09-27* [paper](https://arxiv.org/abs/1909.12977)    
 
+1. [Learning Tversky Similarity](http://cn.arxiv.org/abs/2006.11372)  
+ *2020-05-27* [paper](https://arxiv.org/abs/2006.11372)     
+ 基于 Tversky 做度量；   
 
 **3.3.2 variant**
 
@@ -957,9 +960,14 @@ IJCAI *2019-07-01* [paper](https://arxiv.org/abs/1907.00612)
 先检测再检索；    
 
 ## 4.5 零样本检索
+<span id='SEM_PCYC'> </span>
 1. [Semantic-Aware Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval](http://cn.arxiv.org/abs/1904.03208)     
 ICCV 2019 *2019-04-05* [paper](https://arxiv.org/abs/1904.03208)    
 `什么是零样本检索`{:.warning}     
+
+1. [Semantically Tied Paired Cycle Consistency for Any-Shot Sketch-based Image Retrieval](http://cn.arxiv.org/abs/2006.11397)  
+IJCV 2020 *2020-06-20* [paper](https://arxiv.org/abs/2006.11397)     
+复杂的 GAN 实现草图检索图片；    
 
 ## 4.6 伪造检测
 1. Copy-move forgery detection based on deep learning     
@@ -990,8 +998,14 @@ CVPR 2009 *2018-01-04* [paper](https://www.microsoft.com/en-us/research/wp-conte
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03455)    
 地标检索助力人口贩卖；    
 
+## 5.2 草图检索
+1. [Semantically Tied Paired Cycle Consistency for Any-Shot Sketch-based Image Retrieval](#SEM_PCYC)    
+ICCV 2019 *2019-04-05*
 
-
+## 5.3 图片推荐
+1. [Salienteye: Maximizing Engagement While Maintaining Artistic Style on Instagram Using Deep Neural Networks](http://cn.arxiv.org/abs/2006.11403)  
+Conference 2020 *2020-06-13* [paper](https://arxiv.org/abs/2006.11403)    
+基于目标检测的图片检索，用于作品推荐；    
 
 -----------------
 [End](#head)

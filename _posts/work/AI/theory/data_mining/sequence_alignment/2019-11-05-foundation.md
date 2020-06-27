@@ -154,3 +154,4 @@ M.S Waterman; T.F Smith; and W.A Beyer. Some biological sequence metrics. Advanc
 1. wikipedia. FASTA[EB/OL]. <https://en.wikipedia.org/wiki/FASTA>. -/2019-11-05.     
 1. wikipedia. BLAST[EB/OL]. <https://en.wikipedia.org/wiki/BLAST_(biotechnology)>. -/2019-11-05.     
 1. Paul Reiners. 动态编程和基因序列比对[EB/OL]. <https://www.ibm.com/developerworks/cn/java/j-seqalign/index.html>. 2008-04-17/2019-11-05.   
+1. [相似性和距离度量](https://leovan.me/cn/2019/01/similarity-and-distance-measurement/)     

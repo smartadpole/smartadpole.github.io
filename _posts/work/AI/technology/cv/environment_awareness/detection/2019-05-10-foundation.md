@@ -191,11 +191,16 @@ https://blog.csdn.net/zhangjunhit/article/details/78900298
 [2015.1 - 2015.7] 提出Scale-aware Pixel-wise Object Proposal（SPOP）网络，可以生成具有高召回率和平均最佳重叠（ABO）的proposals，即使对于小目标也是如此；另外，引入了一个类似分段的像素定位网络来密集预测每个像素的对象坐标，并开发了一种尺度感知对象定位策略，该策略将来自大尺寸和小尺寸网络的预测与加权机制相结合，以提高各种对象尺寸的坐标预测精度​
 https://arxiv.org/abs/1601.04798
 
-##3.4 无类别
+## 3.4 无类别
 1. [Learning Objectness from Sonar Images for Class-Independent Object Detection](http://cn.arxiv.org/abs/1907.00734)   
 *2019-07-01* [paper](https://arxiv.org/abs/1907.00734)    
 
-## 3.5 其他
+## 3.5 基于显著性
+1. [Location, location, location: Satellite image-based real-estate appraisal](http://cn.arxiv.org/abs/2006.11406)  
+ *2020-06-04* [paper](https://arxiv.org/abs/2006.11406)     
+卫星图像购房价格关系评估；   
+
+## 3.6 其他
 <span id="deformable"> </span>
 1. [Deformable Convolutional Networks](http://cn.arxiv.org/abs/1703.06211)  
 ICCV 2017 oral *2017-03-17* 代季锋 [paper]( https://arxiv.org/abs/1703.06211) | [mxnet](https://github.com/msracver/Deformable-ConvNets) | [blog](https://www.jianshu.com/p/206e7b0cb433)     
@@ -413,10 +418,10 @@ CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)
 1. [object detection](https://www.hidoop.com/object-detection/)    
 
 ## B 资源
-### a 论文
+#### a 论文
 [amusi](https://github.com/amusi/awesome-object-detection)，[韩东](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)，[deep learning object detection](https://github.com/hoya012/deep_learning_object_detection)       
 
-### b 代码
+#### b 代码
 - 数据增强   
 [Paperspace](https://github.com/Paperspace/DataAugmentationForObjectDetection/blob/master/data_aug/data_aug.py)，[maozezhong](https://github.com/maozezhong/CV_ToolBox/blob/master/DataAugForObjectDetection/DataAugmentForObejctDetection.py)    
 - [opencv 跟踪检测](https://github.com/Smorodov/Multitarget-tracker)   
@@ -424,7 +429,7 @@ CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)
 [mmdetection](https://github.com/open-mmlab/mmdetection)    
 [a-PyTorch-Tutorial-to-Object-Detection](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection#training)     
 
-### c 总结
+#### c 总结
 [物体检测论文阅读路线图](https://mp.weixin.qq.com/s/X2ReSIU9Qq1OA3bywCNNig)，[hoya012](https://github.com/hoya012/deep_learning_object_detection)，[ECCV2018 目标检测](http://bbs.cvmart.net/topics/194/eccv2018-mu-biao-jian-ce-object-detection-suan-fa-zong-lan-bu-fen-han-dai-ma?from=groupmessage)    
 美图：[一](https://mp.weixin.qq.com/s/oMs4MEQRwIZfGZa-HmzC_w)，[二](https://mp.weixin.qq.com/s/Uu_4DUqDzkZgEMJ7KenMcg)，[三](https://mp.weixin.qq.com/s/XlVGuoUlQwimTWXEE6gPBQ
 https://mp.weixin.qq.com/s/LGj_2Zw6XA_EfZb8Rvv7bg)    

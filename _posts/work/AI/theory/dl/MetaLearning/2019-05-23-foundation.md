@@ -79,7 +79,9 @@ ICLR 2019 *2018-05-25* [paper](https://arxiv.org/abs/1805.10002) | [tensorflow](
 1. [Adaptive Posterior Learning: few-shot learning with a surprise-based memory module](http://cn.arxiv.org/abs/1902.02527)    
 ICLR 2019 *2019-02-07* [paper](https://arxiv.org/abs/1902.02527) | [openreview](https://openreview.net/forum?id=ByeSdsC9Km) [pytorch](https://github.com/cogentlabs/apl)      
 
-
+1. [A Transductive Multi-Head Model for Cross-Domain Few-Shot Learning](http://cn.arxiv.org/abs/2006.11384)  
+ *2020-06-08* [paper](https://arxiv.org/abs/2006.11384)     
+ 
 # 4 单样本学习
 ## 4.1 基于度量的
 1. [Matching Networks for One Shot Learning](http://cn.arxiv.org/abs/1606.04080)   

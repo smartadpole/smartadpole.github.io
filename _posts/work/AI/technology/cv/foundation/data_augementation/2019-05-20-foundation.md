@@ -13,18 +13,23 @@ tags: 资源
 
 <!--more-->
 
-# 1 Paper
-## 1.1 综述
+# 1 综述
 
-## 1.2 理论
+# 2 理论
 
-## 1.3 [GAN](/ai/dl/gan/2019/03/26/foundation.html#312-数据增强)
+# 3 [GAN](/ai/dl/gan/2019/03/26/foundation.html#312-数据增强)
 
-## 1.4 AutoEncoder
+# 4 AutoEncoder
 1. [Learning to Confuse: Generating Training Time Adversarial Data with Auto-Encoder](http://cn.arxiv.org/abs/1905.09027)    
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09027)    
 
-## 1.5 其他
+# 5 应用
+## 5.1 分割
+1. [Defective samples simulation through Neural Style Transfer for automatic surface defect segment](http://cn.arxiv.org/abs/1910.03334)     
+*2019-10-08* [paper](https://arxiv.org/abs/1910.03334)     
+GAN 生成缺陷样本；   
+
+# 6 其他
 1. [Some improvements on deep convolutional neural network based image classification](http://cn.arxiv.org/abs/1312.5402)    
 *2013-12-19* [paper](https://arxiv.org/abs/1312.5402) | [torch](https://github.com/facebookarchive/fb.resnet.torch) | [blog](http://zhangliliang.github.io/2014/07/30/paper-note-imporovements-on-dnn-classification/) | [openreview](https://openreview.net/forum?id=uuFh8Ny0WPw0B) | [paper with code](https://paperswithcode.com/paper/some-improvements-on-deep-convolutional) | [blog](https://blog.csdn.net/zhaoyin214/article/details/99714432)     
 颜色抖动   

@@ -24,6 +24,13 @@ CVPR 2014 *2014* [paper](http://thomasberg.org/papers/birdsnap-cvpr14.pdf) | [au
 细粒度鸟类识别；   
 
 ## 1.2 猫
+
+## 1.3 大黄蜂
+1. [Bombus Species Image Classification](http://cn.arxiv.org/abs/2006.11374)  
+ *2020-06-09* [paper](https://arxiv.org/abs/2006.11374)     
+VGG 比 ResNet 效果好；最终准确度不高，认为是数据集不够引起的——29个类别，5000张图；    
+>或许应该关注细粒度分类了；   
+
 # 2 植物识别
 ## 2.1 叶片
 1. [A 1d convolutional network for leaf and time series classification](http://cn.arxiv.org/abs/1907.00069)   

@@ -19,6 +19,9 @@ tags: 资源
 
 # 1 综述  
 # 2 理论
+1. [Unifying Few- and Zero-Shot Egocentric Action Recognition](http://cn.arxiv.org/abs/2006.11393)  
+CVPR 2020 *2020-05-27* [paper](https://arxiv.org/abs/2006.11393)     
+开集动作识别——少样本；   
 
 # 3 识别
 ## 3.1 头部

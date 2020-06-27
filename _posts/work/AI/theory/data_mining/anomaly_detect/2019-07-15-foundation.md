@@ -31,6 +31,7 @@ tags: 资源
 
 ## 4.4 文本错误
 
+## 4.5 [视觉异常](/ai/dl/unsupervised/2019/05/23/foundation.html#51-视觉异常检测)
 
 -------------------  
 [End](#head)

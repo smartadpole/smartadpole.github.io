@@ -84,7 +84,15 @@ ICCV 2015 *2015-05-19* [paper](https://arxiv.org/abs/1505.05192) | [caffe](https
 CVPR 2018 *2018-05-05* [paper](https://arxiv.org/abs/1805.01978) | [pytorch](https://github.com/zhirongw/lemniscate.pytorch)-official | [pytorch](https://github.com/HobbitLong/CMC) | [blog](https://zhuanlan.zhihu.com/p/37097100) | [blog](https://zhuanlan.zhihu.com/p/91347205)     
 $\bullet \bullet$ InsDis    
 
-# 5 其他
+# 5 应用
+## 5.1 视觉异常检测
+>[异常检测](/ai/data_mining/anomaly_detect/2019/07/15/foundation.html)   
+
+1. [Manifolds for Unsupervised Visual Anomaly Detection](http://cn.arxiv.org/abs/2006.11364)  
+*2020-06-19* [paper](https://arxiv.org/abs/2006.11364) | [crack 分割数据集]（https://github.com/khanhha/crack_segmentation）     
+无监督 VAE 从医疗图像中识别出癌症图片；    
+
+# 6 其他
 1. [Deep Clustering for Unsupervised Learning of Visual Features](http://cn.arxiv.org/abs/1807.05520)   
 ECCV 2018 *2018-07-15* [paper](https://arxiv.org/abs/1807.05520) | [解读](/ai/cv/unsupervised/paper_reading/2019/03/04/Deep-Clustering-for-Unsupervised-Learning-of-Visual-Features.html)    
 

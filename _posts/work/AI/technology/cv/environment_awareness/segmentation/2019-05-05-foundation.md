@@ -12,15 +12,14 @@ tags: 资源
 
 <!--more-->  
 
-# 1 二维
-## 1.1 综述
+# 1 综述
 1. [A Survey on Deep Learning-based Architectures for Semantic Segmentation on 2D images](http://cn.arxiv.org/abs/1912.10230)    
 *2019-12-21* [paper](https://arxiv.org/abs/1912.10230)    
 
 1. [Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey](http://cn.arxiv.org/abs/2001.04074)    
 *2020-01-13* [paper](https://arxiv.org/abs/2001.04074)    
 
-## 1.2 理论
+# 2 理论
 
 1. [Learning Fully Dense Neural Networks for Image Semantic Segmentation](http://cn.arxiv.org/abs/1905.08929)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.08929)   
@@ -37,14 +36,14 @@ CVPR 2019 (Autonomous Driving) *2019-05-22* [paper](https://arxiv.org/abs/1905.0
 1. [WPU-Net:Boundary learning by using weighted propagation in convolution network](https://arxiv.org/abs/1905.09226)   
 *2019-05-22* [paper](https://arxiv.org/abs/1905.09226)   
 
-## 1.3 经典
+# 3 传统方法
 
-## 1.4 轮廓提取
+# 4 轮廓提取
 1. [Semantic Contours from Inverse Detectors](http://home.bharathh.info/pubs/pdfs/BharathICCV2011.pdf)   
 ICCV 2011 *2011* [paper](http://home.bharathh.info/pubs/pdfs/BharathICCV2011.pdf)     
 
-## 1.5 分割
-### 1.5.1 CNN
+# 5 神经网络
+## 5.1 CNN
 1. [ACNet: Attention Based Network to Exploit Complementary Features for RGBD Semantic Segmentation](https://arxiv.org/abs/1905.10089)   
 ICIP 2019 *2019-05-24* [paper](https://arxiv.org/abs/1905.10089) | [pytorch](https://github.com/anheidelonghu/ACNet)    
 
@@ -59,7 +58,7 @@ CVPR 2020 oral *2020-06-19* [paper](https://arxiv.org/abs/2006.11339) | [PyTorch
 数据集：VIPER、Cityscapes-VPS（都是自动驾驶领域的）
 VPSNet    
 
-### 1.5.2 GAN
+## 5.2 GAN
 
 1.  [Adversarial Deep Structural Networks for Mammographic Mass Segmentation](http://cn.arxiv.org/abs/1611.05970)   
 *2016-11-18* [paper](https://arxiv.org/abs/1611.05970) | [matlab](https://github.com/wentaozhu/adversarial-deep-structural-networks)-official      
@@ -67,49 +66,50 @@ VPSNet
 1.  [Semantic Segmentation using Adversarial Networks](http://cn.arxiv.org/abs/1611.08408)  
 *2016-11-25* [paper](https://arxiv.org/abs/1611.08408)     
 
-## 1.6 [生物医疗](/ai/cv/medical/2019/05/23/foundation.html#13-分割)
+# 6 [生物医疗](/ai/cv/medical/2019/05/23/foundation.html#13-分割)
 
 
-## 1.7 自然
-### 1.7.1 [盐体分割](/ai/cv/nature/salt_bodies/2019/10/16/foundation.html#3-分割)
-### 1.7.2 [天空分割](/ai/cv/nature/sky/2019/10/16/foundation.html#4-天空分割)
-### 1.7.3 [火灾区域分割](/ai/cv/nature/fire_disaster/2019/10/16/foundation.html#3-火灾区域分割)
+# 7 应用
+## 7.1 自然
+[盐体分割](/ai/cv/nature/salt_bodies/2019/10/16/foundation.html#3-分割)、[天空分割](/ai/cv/nature/sky/2019/10/16/foundation.html#4-天空分割)、[火灾区域分割](/ai/cv/nature/fire_disaster/2019/10/16/foundation.html#3-火灾区域分割)
 
+## 7.2 [人体](/ai/cv/human/human_segmentation/2019/05/14/foundation.html)
 
-## 1.8 [人](/ai/cv/human/human_segmentation/2019/05/14/foundation.html)
+## 7.3 交通
+[车辆](/ai/cv/vehicle/vehicle_segmentation/2019/10/10/foundation.html)、交通标志   
 
-## 1.9 交通
-### 1.9.1 [车辆](/ai/cv/vehicle/vehicle_segmentation/2019/10/10/foundation.html)
-### 1.9.2 交通标志   
-
-## 1.10 高光谱
+## 7.4 高光谱
 `hyperspectral image`    
 1. [Statistical Loss and Analysis for Deep Learning in Hyperspectral Image Classification](http://cn.arxiv.org/abs/1912.12385)  
  *2019-12-28* [paper](https://arxiv.org/abs/1912.12385)     
  针对高光谱图像分割设计了新的统计 loss；     
 
-# 2 序列
+## 7.5 服饰
+1. [Segmentation task for fashion and apparel](http://cn.arxiv.org/abs/2006.11375)  
+ *2020-06-14* [paper](https://arxiv.org/abs/2006.11375)     
+ 
+# 8 基于视频
 1. [RVOS: End-to-End Recurrent Network for Video Object Segmentation](http://cn.arxiv.org/abs/1903.05612)   
 CVPR 2019 (camera ready) *2019-03-13* [paper](https://arxiv.org/abs/1903.05612) | [project](https://imatge-upc.github.io/rvos/) | [pytorch](https://github.com/imatge-upc/rvos)-official   
 
 1. [OVSNet : Towards One-Pass Real-Time Video Object Segmentation](http://cn.arxiv.org/abs/1905.10064)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10064)   
 
-# 3 三维
-## 3.1 基于点云
+# 9 三维
+## 9.1 基于点云
 1. [RIU-Net: Embarrassingly simple semantic segmentation of 3D LiDAR point cloud](https://arxiv.org/abs/1905.08748)   
 *2019-05-21* [paper](https://arxiv.org/abs/1905.08748)   
 
-## 3.2 基于体素
+## 9.2 基于体素
 1. [Learning to Reconstruct High-quality 3D Shapes with Cascaded Fully Convolutional Networks](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_Cao_Learning_to_Reconstruct_ECCV_2018_paper.pdf)    
 ECCV 2018 [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_Cao_Learning_to_Reconstruct_ECCV_2018_paper.pdf)   
 3D FCN  
 
-## 3.3 深度图
+## 9.3 深度图
 1. [RFBNet: Deep Multimodal Networks with Residual Fusion Blocks for RGB-D Semantic Segmentation](http://cn.arxiv.org/abs/1907.00135)   
 *2019-06-29* [paper](https://arxiv.org/abs/1907.00135)   
 
-# 4 全景分割
+# 10 全景分割
 1. [Fast Panoptic Segmentation Network](http://cn.arxiv.org/abs/1910.03892)    
 *2019-10-09* [paper](https://arxiv.org/abs/1910.03892)    
 

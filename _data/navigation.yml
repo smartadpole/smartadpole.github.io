@@ -436,7 +436,7 @@ CV:
   - title:      行情
     children:
       - title:  公司
-        url:    /assets/category/work/AI/technology/CV/3D/company.html
+        url:    /assets/category/work/AI/technology/CV/company.html
 
 
 Video:
@@ -1670,7 +1670,9 @@ Security:
       - title:  数字水印
         url:    /assets/category/work/AI/technology/CV/security/digital_watermarking.html
       - title:  安检
-        url:    /assets/category/work/AI/technology/CV/security/security_screen.html
+        url:    /assets/category/work/AI/technology/CV/security/security_screening.html
+      - title:  验证码
+        url:    /assets/category/work/AI/technology/CV/security/captcha.html
 
 NDVR:
   - title:

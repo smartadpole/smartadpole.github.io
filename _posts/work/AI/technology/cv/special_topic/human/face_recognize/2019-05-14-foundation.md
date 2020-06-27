@@ -13,7 +13,13 @@ tags: 资源
 <!--more-->
 
 # 1 综述  
+1. [Deep Learning Based Single Sample Per Person Face Recognition: A Survey](http://cn.arxiv.org/abs/2006.11395)  
+ *2020-06-09* [paper](https://arxiv.org/abs/2006.11395)     
 
+ 1. [A survey of face recognition techniques under occlusion](http://cn.arxiv.org/abs/2006.11366)  
+  *2020-06-19* [paper](https://arxiv.org/abs/2006.11366)     
+ 鲁棒的特征提取，遮挡感知，遮挡恢复   
+ 
 # 2 理论
 
 # 3 通用
@@ -23,13 +29,11 @@ CVPR 2015 *2015-03-12* [paper](https://arxiv.org/abs/1503.03832) | [tensorflow](
 $\bullet \bullet$ FaceNet    
 
 
-1. [Does Generative Face Completion Help Face Recognition?](http://cn.arxiv.org/abs/1906.02858)   
-*2019-06-07* [paper](https://arxiv.org/abs/1906.02858)    
-人脸遮挡对于人脸识别的影响；    
 
 1. [Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization](http://cn.arxiv.org/abs/1910.04562)     
 ICCV 2019 *2019-10-10* [paper](https://arxiv.org/abs/1910.04562)    
 半监督学习；    
+
 
 # 4 性别
 1. [Bias-Resilient Neural Network](http://cn.arxiv.org/abs/1910.03676)    
@@ -59,6 +63,11 @@ ICIP 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00193)
 
 *人脸预测该单列成目录*    
 
+# 7 难点
+## 7.1 遮挡
+1. [Does Generative Face Completion Help Face Recognition?](http://cn.arxiv.org/abs/1906.02858)   
+*2019-06-07* [paper](https://arxiv.org/abs/1906.02858)    
+人脸遮挡对于人脸识别的影响；    
 
 
 -------------------  

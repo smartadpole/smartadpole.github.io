@@ -132,6 +132,9 @@ MobileNetV3:
 *2019-06-30*  [paper](https://arxiv.org/abs/1907.00348)    
 设计了新的 loss 来指导网络学习更多的相关特征，以应对未见过的数据；    
 
+1. [Sparsifying and Down-scaling Networks to Increase Robustness to Distortions](http://cn.arxiv.org/abs/2006.11389)  
+ *2020-06-08* [paper](https://arxiv.org/abs/2006.11389)     
+ 抗噪声，提出了 STNet，用于修改网络的 block 提升噪声鲁棒；  
 
 ## 3.4 注意力
 1. [ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks](http://cn.arxiv.org/abs/1910.03151)    

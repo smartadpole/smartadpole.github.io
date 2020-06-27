@@ -5,7 +5,7 @@ date:   2020-02-22 23:00:40 +0800
 key: scurity-screen-foundation
 aside:
   toc: true
-category: [AI, CV, security,  security_screen]
+category: [AI, CV, security,  security_screening]
 tags: 资源
 ---
 <span id='head'></span>

@@ -42,26 +42,39 @@ category: [AI, AI, Competition]
 
 ## 2.1 2020 年
 
-| 初赛 | 名称 | 说明 |
-| --- | --- | --- |
-| 05-06 | [淘宝直播·商品识别](https://tianchi.aliyun.com/competition/entrance/231772/introduction?spm=5176.12281949.1003.12.493e2448VZDApS) | 直播商品的识别  |
-| 06-01 | [SIGIR: FinIR](https://biendata.com/competition/finir/) | 金属价格预测 |
-| 06-01 | [GigaVision](https://biendata.com/competition/gigavision/) | 行人、车辆检测；多目标行人跟踪 |
-| 06-06 | [CVPR 2020 :Large-scale Product Recognition](https://tianchi.aliyun.com/competition/entrance/231780/introduction?spm=5176.12281949.1003.10.493e2448VZDApS) | 细粒度商品识别 |
-| 06-07 | [iQIYI iCartoonFace](http://challenge.ai.iqiyi.com/detail?raceId=5def71b4e9fcf68aef76a75e) | 卡通人物检测和检索 |
-| 06-11 | [KDD 2020: Debiasing](https://tianchi.aliyun.com/competition/entrance/231785/introduction?spm=5176.12281949.1003.6.493e2448VZDApS) | 消除电商推荐中的马修效应 |
-| 06-11 | [KDD 2020: Multimodalities Recall](https://tianchi.aliyun.com/competition/entrance/231786/introduction?spm=5176.12281949.1003.5.493e2448VZDApS) | 跨模态检索 |
-| 06-12 | [多维度内容识别](https://god.yanxishe.com/62?from=article) | 多标签内容识别 |
-| 06-21 | [验证码识别](https://god.yanxishe.com/66) |  |
-| 06-24 | [街景字符编码识别](https://tianchi.aliyun.com/competition/entrance/531795/introduction?spm=5176.12281949.1003.1.493e2448VZDApS) | 入门赛：字符识别 |
-| 06-30 | [The 3rd AI Edge Contest](https://signate.jp/competitions/256) | 车辆检测 |
-| 07-24 | [IJCAI-PRICAI 2020 :3D Object Reconstruction](https://tianchi.aliyun.com/competition/entrance/231788/introduction?spm=5176.12281949.1003.9.493e2448VZDApS) | 2D 转 3D |
-| 07-24 | [IJCAI-PRICAI 2020 :Image-based 3D Shape Retrieval](https://tianchi.aliyun.com/competition/entrance/231789/introduction?spm=5176.12281949.1003.8.493e2448VZDApS) | 3D 物体检索 |
-| 07-24 | [IJCAI-PRICAI 2020 :Instance Segmentation](https://tianchi.aliyun.com/competition/entrance/231787/introduction?spm=5176.12281949.1003.7.493e2448VZDApS) | 3D 物体分割 |
-| 09-30 | [传染病的传播趋势预测](https://aistudio.baidu.com/aistudio/competition/detail/36) |  |
-| 10-01 | [Table recognition](https://evalai.cloudcv.org/web/challenges/challenge-page/608/overview) | 表格识别 |
-| 12-01 | [ImageNet图像分类对抗攻击](https://tianchi.aliyun.com/competition/entrance/231761/introduction?spm=5176.12281949.1003.15.493e2448VZDApS) | 长期赛 |
-|  |  |  |
+| 初赛 | 复赛 | 名称 | 说明 |
+| --- | --- | --- | --- |
+| 05-06 |  | [淘宝直播·商品识别](https://tianchi.aliyun.com/competition/entrance/231772/introduction?spm=5176.12281949.1003.12.493e2448VZDApS) | 直播商品的识别  |
+| 06-01 |  | [SIGIR: FinIR](https://biendata.com/competition/finir/) | 金属价格预测 |
+| 06-01 |  | [GigaVision](https://biendata.com/competition/gigavision/) | 行人、车辆检测；多目标行人跟踪 |
+| 06-06 |  | [CVPR 2020 :Large-scale Product Recognition](https://tianchi.aliyun.com/competition/entrance/231780/introduction?spm=5176.12281949.1003.10.493e2448VZDApS) | 细粒度商品识别 |
+| 06-07 |  | [iQIYI iCartoonFace](http://challenge.ai.iqiyi.com/detail?raceId=5def71b4e9fcf68aef76a75e) | 卡通人物检测和检索 |
+| 06-11 |  | [KDD 2020: Debiasing](https://tianchi.aliyun.com/competition/entrance/231785/introduction?spm=5176.12281949.1003.6.493e2448VZDApS) | 消除电商推荐中的马修效应 |
+| 06-11 |  | [KDD 2020: Multimodalities Recall](https://tianchi.aliyun.com/competition/entrance/231786/introduction?spm=5176.12281949.1003.5.493e2448VZDApS) | 跨模态检索 |
+| 06-12 | 07-04 | [多维度内容识别](https://god.yanxishe.com/62?from=article) | 多标签内容识别 |
+| 06-21 |  | [验证码识别](https://god.yanxishe.com/66) |  |
+| 06-24 |  | [街景字符编码识别](https://tianchi.aliyun.com/competition/entrance/531795/introduction?spm=5176.12281949.1003.1.493e2448VZDApS) | 入门赛：字符识别 |
+| 06-30 |  | [The 3rd AI Edge Contest](https://signate.jp/competitions/256) | 车辆检测 |
+| 07-11 |  | [验证码中文识别](https://god.yanxishe.com/71) | OCR |
+| 07-23 |  | [商品标签分类](https://god.yanxishe.com/74) | 多分类 |
+| 07-24 |  | [IJCAI-PRICAI 2020 :3D Object Reconstruction](https://tianchi.aliyun.com/competition/entrance/231788/introduction?spm=5176.12281949.1003.9.493e2448VZDApS) | 2D 转 3D |
+| 07-24 |  | [IJCAI-PRICAI 2020 :Image-based 3D Shape Retrieval](https://tianchi.aliyun.com/competition/entrance/231789/introduction?spm=5176.12281949.1003.8.493e2448VZDApS) | 3D 物体检索 |
+| 07-24 |  | [IJCAI-PRICAI 2020 :Instance Segmentation](https://tianchi.aliyun.com/competition/entrance/231787/introduction?spm=5176.12281949.1003.7.493e2448VZDApS) | 3D 物体分割 |
+| 08-20 |  | 讯飞-[语种识别](http://challenge.xfyun.cn/topic/info?type=multilingual) | 短语音语种分类<br>高混淆度语种分类 |
+| 08-20 |  | 讯飞-[X光安检图像识别](http://challenge.xfyun.cn/topic/info?type=Xray) |  |
+| 08-20 |  | 讯飞-[视频广告场景识别](http://challenge.xfyun.cn/topic/info?type=Ad) | 视频结构化 |
+| 08-20 |  | 讯飞-[多模态情感分析与识别](http://challenge.xfyun.cn/topic/info?type=emotion) | 脑电、心电、面部视频识别情绪 |
+| 08-20 |  | 讯飞-[婴儿啼哭声识别](http://challenge.xfyun.cn/topic/info?type=baby-crying) |  |
+| 08-20 |  | 讯飞-[脑PET疾病预测](http://challenge.xfyun.cn/topic/info?type=PET) | 阿尔茨海默症 |
+| 08-20 |  | 讯飞-[多语种文本挖掘](http://challenge.xfyun.cn/topic/info?type=text-mining) | 机器翻译——文本挖掘 |
+| 08-20 |  | 讯飞-[自然场景文字检测](http://challenge.xfyun.cn/topic/info?type=text-detect) | 中英文 |
+| 08-20 |  | 讯飞-[温室温度预测](http://challenge.xfyun.cn/topic/info?type=temperature) |  |
+| 08-20 |  | 讯飞-[农业问答](http://challenge.xfyun.cn/topic/info?type=agriculture) | 问答系统 |
+| 08-20 |  | 讯飞-[事件抽取](http://challenge.xfyun.cn/topic/info?type=hotspot) | 文本结构化 |
+| 09-30 |  | [传染病的传播趋势预测](https://aistudio.baidu.com/aistudio/competition/detail/36) |  |
+| 10-01 |  | [Table recognition](https://evalai.cloudcv.org/web/challenges/challenge-page/608/overview) | 表格识别 |
+| 12-01 |  | [ImageNet图像分类对抗攻击](https://tianchi.aliyun.com/competition/entrance/231761/introduction?spm=5176.12281949.1003.15.493e2448VZDApS) | 长期赛 |
+|  |  |  |  |
 
 
 -------------------  

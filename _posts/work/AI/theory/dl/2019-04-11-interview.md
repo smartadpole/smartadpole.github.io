@@ -824,6 +824,7 @@ TensorFlow Lite、MACE（小米）、ncnn（腾讯）；
 1. [深度学习 500 问](https://zhuanlan.zhihu.com/p/71979604)    
 1. [深度学习专项课程精炼图笔记](https://zhuanlan.zhihu.com/p/91178285)    
 1. [笔记——深度学习](https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.md)    
+1. [算法理论基础知识应知应会](https://github.com/sladesha/Reflection_Summary)    
 
 ## B 示例
 <span id="receptive"> </span>

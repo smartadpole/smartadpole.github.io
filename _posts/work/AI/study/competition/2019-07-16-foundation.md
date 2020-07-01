@@ -55,7 +55,9 @@ category: [AI, AI, Competition]
 | 06-21 |  | [验证码识别](https://god.yanxishe.com/66) |  |
 | 06-24 |  | [街景字符编码识别](https://tianchi.aliyun.com/competition/entrance/531795/introduction?spm=5176.12281949.1003.1.493e2448VZDApS) | 入门赛：字符识别 |
 | 06-30 |  | [The 3rd AI Edge Contest](https://signate.jp/competitions/256) | 车辆检测 |
+| 06-30 |  | [高速低功耗视觉理解](http://hislopvision.aitestunion.com/) | 多端低功耗 |
 | 07-11 |  | [验证码中文识别](https://god.yanxishe.com/71) | OCR |
+| 07-15 |  | [VisDrone2020 无人机视觉](http://aiskyeye.com/) | ECCV 2020 workshop(人检测、跟踪，计数) |
 | 07-23 |  | [商品标签分类](https://god.yanxishe.com/74) | 多分类 |
 | 07-24 |  | [IJCAI-PRICAI 2020 :3D Object Reconstruction](https://tianchi.aliyun.com/competition/entrance/231788/introduction?spm=5176.12281949.1003.9.493e2448VZDApS) | 2D 转 3D |
 | 07-24 |  | [IJCAI-PRICAI 2020 :Image-based 3D Shape Retrieval](https://tianchi.aliyun.com/competition/entrance/231789/introduction?spm=5176.12281949.1003.8.493e2448VZDApS) | 3D 物体检索 |
@@ -85,3 +87,4 @@ category: [AI, AI, Competition]
 # 附录
 ## A 参考资料
 1. 梦寐mayshine. 人工智能比赛汇总[EB/OL]. <https://zhuanlan.zhihu.com/p/49805436>. 2018-11-14/2020-01-21.    
+1. [PRCV 2019 算法大赛](https://chuansongme.com/n/3036362352034)     

@@ -30,3 +30,5 @@ ACMMM 2018 [paper](https://dl.acm.org/citation.cfm?id=3240618)
 
 # 附录
 ## A 参考资料
+1. [深度学习AI美颜系列](https://blog.csdn.net/trent1985/category_7651523.html)    
+1. [SF图像滤镜/美颜/美妆算法详解与实战](https://blog.csdn.net/trent1985/category_9276974.html)    

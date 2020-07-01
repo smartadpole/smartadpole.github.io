@@ -161,6 +161,7 @@ AVSS 2019 *2019-07-02* [paper](https://arxiv.org/abs/1907.01193)
 ## A 参考资料
 1. gjy3035. Awesome Crowd Counting. <https://github.com/gjy3035/Awesome-Crowd-Counting>. /2019-07-16.    
 1. paper with code. Crowd Counting. <https://paperswithcode.com/task/crowd-counting/codeless>. -/2019-07-16.   
+1. [人群计数（Crowd Counting）研究综述](https://mp.weixin.qq.com/s/osG6LuulHApi_kZV2L1VqA)    
 
 ## B 性能比对
 

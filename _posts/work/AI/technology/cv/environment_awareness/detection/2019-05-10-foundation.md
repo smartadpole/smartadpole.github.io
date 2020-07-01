@@ -261,6 +261,10 @@ https://mp.weixin.qq.com/s/oxStDMh90jB7_EY4vqja2w
 CFENet [2018.6 - 2018.10]
 https://arxiv.org/abs/1805.09790
 
+1. [RepMet: Representative-based metric learning for classification and one-shot object detection](http://cn.arxiv.org/abs/1806.04728)    
+CVPR 2019 *2018-06-12* [paper](https://arxiv.org/abs/1806.04728)    
+零样本检测；    
+
 1. [Acquisition of Localization Confidence for Accurate Object Detection]()  
 Iou-Net [2018.7.30] ECCV 用来学习来预测每个检测到的边界框与匹配的ground truth 之间的IoU
 https://arxiv.org/abs/1807.11590
@@ -388,7 +392,7 @@ P-GAN
 
 ## 4.5 [训练](/ai/dl/foundation/2019/05/20/foundation.html#322-检测)
 # 5 应用
-[人](/ai/cv/human/human_detection/2019/10/11/foundation.html)、[文本](/ai/cv/ocr/2019/07/27/foundation.html#4-文本检测) 、交通（[车道线](/ai/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)、[交通标志](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)、[车辆](/ai/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)、船体、[安全带](/ai/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)）、商品（Logo、商品）、医疗（肺结节）、[视频](/ai/video/video_detection/2019/05/22/foundation.html) 、航拍、自然（[云层](/ai/cv/nature/sky/2019/10/16/foundation.html#31-检测)）、动物    
+[人](/ai/cv/human/human_detection/2019/10/11/foundation.html)、[文本](/ai/cv/ocr/2019/07/27/foundation.html#4-文本检测) 、交通（[车道线](/ai/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)、[交通标志](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)、[车辆](/ai/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)、船体、[安全带](/ai/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)）、商品（Logo、商品）、医疗（肺结节）、[视频](/ai/video/video_detection/2019/05/22/foundation.html) 、航拍、自然（[云层](/ai/cv/nature/sky/2019/10/16/foundation.html#31-检测)）、动物、[水下目标检测](/ai/cv/nature/underwater_image/2020/03/25/foudnation.html#4-目标检测)    
 
 1. [DOTA: A Large-scale Dataset for Object Detection in Aerial Images](https://arxiv.org/abs/1711.10398)   
 CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)      

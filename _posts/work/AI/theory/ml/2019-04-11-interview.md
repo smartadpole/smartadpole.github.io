@@ -91,3 +91,4 @@ boosting：通过降低偏差来提升模型的拟合能力程度，是串行的
 
 # 附录
 ## A 资源
+1. [机器学习100天](https://github.com/Avik-Jain/100-Days-of-ML-Code-Chinese-Version)    

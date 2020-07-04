@@ -87,7 +87,7 @@ VPSNet
 ## 7.5 服饰
 1. [Segmentation task for fashion and apparel](http://cn.arxiv.org/abs/2006.11375)  
  *2020-06-14* [paper](https://arxiv.org/abs/2006.11375)     
- 
+
 # 8 基于视频
 1. [RVOS: End-to-End Recurrent Network for Video Object Segmentation](http://cn.arxiv.org/abs/1903.05612)   
 CVPR 2019 (camera ready) *2019-03-13* [paper](https://arxiv.org/abs/1903.05612) | [project](https://imatge-upc.github.io/rvos/) | [pytorch](https://github.com/imatge-upc/rvos)-official   
@@ -128,4 +128,6 @@ ECCV 2018 [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yan-Pei_
 1. [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/)    
 
 ## B 参考资料
-[1]. tangzhenyu. SemanticSegmentation_DL[EB/OL]. <https://github.com/tangzhenyu/SemanticSegmentation_DL>. -/2019-05-05.   
+1. tangzhenyu. SemanticSegmentation_DL[EB/OL]. <https://github.com/tangzhenyu/SemanticSegmentation_DL>. -/2019-05-05.   
+1. [阿里巴巴文娱算法挑战赛 - 基于深度学习技术的视频分割](https://tianchi.aliyun.com/course/video?spm=5176.12586971.1001.13.7a5d39e1nDzHrV&liveId=41175)    
+1. [阿里巴巴文娱算法挑战赛 - 高精度视频人物分割赛道赛题详解](https://tianchi.aliyun.com/course/video?spm=5176.12586971.1001.43.7a5d39e1nDzHrV&liveId=41171)     

@@ -734,10 +734,10 @@ p408-p411
 
 神经网络训练是使用反向传播改变网络的参数，以降低误差；过程使用了链式求导法则，将梯度逐层累积反向传播；    
 
-| 问题 | 描述 | 成因 | 方案 |
-|:--------:|--------|--------| --- |
-| 梯度消失 | 梯度趋近于 0 | 激活函数变化平缓 | 微调、`BN`、`Relu`、`LSTM`/`GRU`、`ResNet``待验证`{:.warning} |
-| 梯度爆炸 | 梯度趋近于无穷大<br>伪梯度爆炸 |  | 微调、`BN`、梯度截断、平滑的激活函数<br>调小学习率、增大批次、warmup |
+| 问题 | 描述 | 成因 | 现象 | 方案 |
+|:--------:|--------|--------| --- | --- |
+| 梯度消失 | 梯度趋近于 0 | 激活函数变化平缓 |  | 微调、`BN`、`Relu`、<br>`LSTM`/`GRU`、`ResNet``待验证`{:.warning} |
+| 梯度爆炸 | 梯度累积过大，导致权重溢出<br>伪梯度爆炸 | 梯度大于 1 时，<br>累积后成倍增长； | 模型不收敛<br>loss 激增/Nan<br>权重激增/Nan<br>每层梯度大于 1 | 换层数少的网络、微调、`BN`、梯度截断、Relu 代替 Sigmoid 和 Tanh、调小学习率、增大批次、warmup、RNN中用较小的时间步长、用 LSTM 代替 RNN、权重正则化 |
 
 表面原因：
 - 激活函数影响：导数的梯度大于小于1都不太好，因为受链式求导影响，这种变化会被放大；所以选用 Relu 系激活函数，让导数更稳；    
@@ -825,6 +825,8 @@ TensorFlow Lite、MACE（小米）、ncnn（腾讯）；
 1. [深度学习专项课程精炼图笔记](https://zhuanlan.zhihu.com/p/91178285)    
 1. [笔记——深度学习](https://github.com/amusi/Deep-Learning-Interview-Book/blob/master/docs/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.md)    
 1. [算法理论基础知识应知应会](https://github.com/sladesha/Reflection_Summary)    
+1. [浅谈神经网络中的梯度爆炸问题](https://zhuanlan.zhihu.com/p/32154263)    
+
 
 ## B 示例
 <span id="receptive"> </span>

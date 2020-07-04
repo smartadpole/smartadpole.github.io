@@ -57,11 +57,15 @@ category: [AI, AI, Competition]
 | 06-30 |  | [The 3rd AI Edge Contest](https://signate.jp/competitions/256) | 车辆检测 |
 | 06-30 |  | [高速低功耗视觉理解](http://hislopvision.aitestunion.com/) | 多端低功耗 |
 | 07-11 |  | [验证码中文识别](https://god.yanxishe.com/71) | OCR |
-| 07-15 |  | [VisDrone2020 无人机视觉](http://aiskyeye.com/) | ECCV 2020 workshop(人检测、跟踪，计数) |
+| 07-15 |  | [VisDrone2020 无人机视觉](http://aiskyeye.com/) | ECCV 2020(人检测、跟踪，计数) |
+| 07-20 |  | [视频时序事件检测](https://tianchi.aliyun.com/competition/entrance/531798/introduction?spm=5176.12281949.1003.4.17d22448xuz7P2) |  |
+| 07-20 |  | [高精度视频人物分割](https://tianchi.aliyun.com/competition/entrance/531797/introduction?spm=5176.12281949.1003.5.17d22448xuz7P2) |  |
 | 07-23 |  | [商品标签分类](https://god.yanxishe.com/74) | 多分类 |
 | 07-24 |  | [IJCAI-PRICAI 2020 :3D Object Reconstruction](https://tianchi.aliyun.com/competition/entrance/231788/introduction?spm=5176.12281949.1003.9.493e2448VZDApS) | 2D 转 3D |
 | 07-24 |  | [IJCAI-PRICAI 2020 :Image-based 3D Shape Retrieval](https://tianchi.aliyun.com/competition/entrance/231789/introduction?spm=5176.12281949.1003.8.493e2448VZDApS) | 3D 物体检索 |
 | 07-24 |  | [IJCAI-PRICAI 2020 :Instance Segmentation](https://tianchi.aliyun.com/competition/entrance/231787/introduction?spm=5176.12281949.1003.7.493e2448VZDApS) | 3D 物体分割 |
+| 07-28 |  | [交通标识检测与场景匹配](https://aistudio.baidu.com/aistudio/competition/detail/39) |  |
+| 07-29 |  | [脊柱疾病智能诊断](https://tianchi.aliyun.com/competition/entrance/531796/introduction) |  |
 | 08-20 |  | 讯飞-[语种识别](http://challenge.xfyun.cn/topic/info?type=multilingual) | 短语音语种分类<br>高混淆度语种分类 |
 | 08-20 |  | 讯飞-[X光安检图像识别](http://challenge.xfyun.cn/topic/info?type=Xray) |  |
 | 08-20 |  | 讯飞-[视频广告场景识别](http://challenge.xfyun.cn/topic/info?type=Ad) | 视频结构化 |
@@ -73,6 +77,7 @@ category: [AI, AI, Competition]
 | 08-20 |  | 讯飞-[温室温度预测](http://challenge.xfyun.cn/topic/info?type=temperature) |  |
 | 08-20 |  | 讯飞-[农业问答](http://challenge.xfyun.cn/topic/info?type=agriculture) | 问答系统 |
 | 08-20 |  | 讯飞-[事件抽取](http://challenge.xfyun.cn/topic/info?type=hotspot) | 文本结构化 |
+| 09-03 |  | [通用目标检测的对抗攻击](https://tianchi.aliyun.com/competition/entrance/531806/information) |  |
 | 09-30 |  | [传染病的传播趋势预测](https://aistudio.baidu.com/aistudio/competition/detail/36) |  |
 | 10-01 |  | [Table recognition](https://evalai.cloudcv.org/web/challenges/challenge-page/608/overview) | 表格识别 |
 | 12-01 |  | [ImageNet图像分类对抗攻击](https://tianchi.aliyun.com/competition/entrance/231761/introduction?spm=5176.12281949.1003.15.493e2448VZDApS) | 长期赛 |
@@ -88,3 +93,10 @@ category: [AI, AI, Competition]
 ## A 参考资料
 1. 梦寐mayshine. 人工智能比赛汇总[EB/OL]. <https://zhuanlan.zhihu.com/p/49805436>. 2018-11-14/2020-01-21.    
 1. [PRCV 2019 算法大赛](https://chuansongme.com/n/3036362352034)     
+1. [CVPR 2020 算法竞赛大盘点](https://bbs.cvmart.net/topics/1439)     
+1. [CVPR 2020 算法竞赛大盘点](https://www.jiqizhixin.com/articles/2020-02-07)    
+
+## B 答辩
+1. [“数字人体”视觉挑战赛—决赛答辩_上午场](https://tianchi.aliyun.com/course/video?spm=5176.12586971.1001.31.7a5d39e1nDzHrV&liveId=41174)     
+1. [MEDIA AI阿里巴巴文娱算法挑战赛 - 基于深度学习技术的视频分割](https://tianchi.aliyun.com/course/video?spm=5176.12586971.1001.13.7a5d39e1nDzHrV&liveId=41175)   
+1. [2020年全国水下机器人（湛江）大赛 - 水下目标检测算法赛](https://zhuanlan.zhihu.com/p/129842491)    

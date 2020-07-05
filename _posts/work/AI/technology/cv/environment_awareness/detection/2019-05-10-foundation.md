@@ -89,6 +89,11 @@ RSSD
 ICCV 2017 *2017-08-03* [paper](https://arxiv.org/abs/1708.01241) | [caffe](https://github.com/szq0214/DSOD)-official | [pytorch](https://github.com/Ellinier/DSOD-Pytorch-Implementation)  | [pytorch](https://github.com/qqadssp/DSOD-Pytorch) | [pytorch](https://github.com/uoip/SSD-variants) | [pytorch](https://github.com/chenyuntc/dsod.pytorch) | [mxnet](https://github.com/eureka7mt/mxnet-dsod) | [mxnet](https://github.com/leocvml/DSOD-gluon-mxnet) | [tensorflow](https://github.com/Windaway/DSOD-Tensorflow)     
 DSOD   
 
+<span id="refinenet">  </span>    
+1. [Single-Shot Refinement Neural Network for Object Detection](http://cn.arxiv.org/abs/1711.06897)  
+cvpr 2018 *2017-11-18* [paper](https://arxiv.org/abs/1711.06897) | [caffe](https://github.com/sfzhang15/RefineDet)        
+RefineDet: 融合了 Faster RCNN 的两阶段和 FPN 特征融合的策略，检测用的 SSD，提高对小目标的检测效果；     
+
 1. [Receptive Field Block Net for Accurate and Fast Object Detection](http://cn.arxiv.org/abs/1711.07767)     
 ECCV 2018 *2017-11-21* [paper](https://arxiv.org/abs/1711.07767) | [pytorch](https://github.com/ruinmessi/RFBNet)-official   
 改进 SSD ，多个感受野融合；    
@@ -165,11 +170,6 @@ CVPR 2017 *2017-03-20* cvpr 2017 [paper](https://arxiv.org/abs/1703.06870) | [ke
 1. [A-Fast-RCNN: Hard Positive Generation via Adversary for Object Detection](http://cn.arxiv.org/abs/1704.03414)  
 CVPR 2017 *2017-04-11* [paper](https://arxiv.org/abs/1704.03414) | [caffe](https://github.com/xiaolonw/adversarial-frcnn)      
 提出学习一个可以生成遮挡和变形样本的对抗网络，对抗器的目标是生成让目标检测器难以进行分类的样本；在我们的框架中，原始检测器和对抗器都是以联合的方式学习的​
-
-<span id="refinenet">  </span>    
-1. [Single-Shot Refinement Neural Network for Object Detection](http://cn.arxiv.org/abs/1711.06897)  
-cvpr 2018 *2017-11-18* [paper](https://arxiv.org/abs/1711.06897) | [caffe](https://github.com/sfzhang15/RefineDet)        
-RefineDet: 融合了 Faster RCNN 的两阶段和 FPN 特征融合的策略，检测用的 SSD，提高对小目标的检测效果；     
 
 1. [Cascade R-CNN: Delving into High Quality Object Detection](http://cn.arxiv.org/abs/1712.00726)  
 CVPR 2018 *2017-12-03* [paper](https://arxiv.org/abs/1712.00726) | [caffe](https://github.com/zhaoweicai/cascade-rcnn)   

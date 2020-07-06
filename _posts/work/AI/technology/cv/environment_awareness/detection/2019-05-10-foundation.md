@@ -132,6 +132,10 @@ AAAI 2018 *2018-04-27* [paper](http://www.skicyyu.org/Paper/RFCN_plus_plus.pdf)
 1. [You Only Look Twice: Rapid Multi-Scale Object Detection In Satellite Imagery](http://cn.arxiv.org/abs/1805.09512)  
 *2018-05-24* [paper](https://arxiv.org/abs/1805.09512)   
 
+1. [M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network](http://cn.arxiv.org/abs/1811.04533)    
+AAAI 2019 *2018-11-12* [paper](https://arxiv.org/abs/1811.04533) | [pytorch](https://github.com/qijiezhao/M2Det)-official    
+
+
 1. [xYOLO: A Model For Real-Time Object Detection In Humanoid Soccer On Low-End Hardware](https://arxiv.org/abs/1910.03159)    
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03159)     
 TinyYOLO 上再做改进，速度更快；同时公布了一个足球数据集；       

@@ -37,3 +37,6 @@ tags: 资源
 
 1. [widerface](http://wider-challenge.org/2019.html)     
 [download](http://shuoyang1213.me/WIDERFACE/) | [kaggle](https://www.kaggle.com/mksaad/wider-face-a-face-detection-benchmark)  | [WiderFace-Evaluation](https://github.com/wondervictor/WiderFace-Evaluation)  
+
+## B 参考资料
+1. [能检测COCO并鉴黄的SexyYolo](https://zhuanlan.zhihu.com/p/106586069)     

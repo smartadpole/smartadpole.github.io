@@ -25,3 +25,4 @@ tags: 资源
 
 # 附录
 ## A 参考资料
+1. [科技巨头扎堆打造的“AI搭配师”，能否拯救疫情下的服装业？](/ai/cv/human/fitting_room/2019/10/09/foundation.html)    

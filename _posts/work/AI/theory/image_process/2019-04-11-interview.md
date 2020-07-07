@@ -19,7 +19,7 @@ sidebar:
 |  |  |  |  |
 | --- | --- | --- | --- |
 | [读写](#io) | [算数运算](#math) | [边界填充](#padding) | [轮廓检测](#contours) |
-| [形态学](#morphology) | [仿射变换](#affine) |  |  |
+| [形态学](#morphology) | [仿射变换](#affine) | [插值运算](#interpolation) |  |
 | [噪声](#noise) |  |  |  |
 | [HOG](#hog) |  |  |  |
 |  |  |  |  |
@@ -139,6 +139,31 @@ findhomography()  perspectiveTransform()                  # 透视变换·稀疏
 
 [python 实现](#affine_python)、
 
+<span id="interpolation">    </span>  
+
+**插值运算**
+{:.warning}
+```python
+pyrUp
+pyrDown
+resize
+```
+一维插值    
+
+| 方法 | 说明 | 特点 |
+| --- | --- | --- |
+| 最近邻 | 坐标四舍五入 |  |
+| 线性 | 相邻两个点加权求和，权重为相邻点与当前点x方向的距离  | 快 |
+| 区域  | - | 下采样效果好 |
+| 三次样条 | - | 上采样效果还，慢 |
+
+二维插值    
+
+| 方法 | 说明 | 特点 |
+| --- | --- | --- |
+| 二维最近邻 | 两个方向坐标四舍五入 | 马赛克重 |
+| 双线性 | 相邻4个点加权求和，权重为相邻点与当前点在x，y方向的距离  |  |
+| 双三次样条 | - |  |
 
 <span id="hog">    </span>  
 

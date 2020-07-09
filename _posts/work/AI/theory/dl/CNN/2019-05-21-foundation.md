@@ -9,6 +9,8 @@ category: [AI, DL, CNN]
 tags: 资源
 ---
 <span id='head'></span>  
+>[卷积网络概述](/ai/dl/cnn/2020/07/10/survey.html)      
+
 <!--more-->
 
 # 1 综述
@@ -17,6 +19,10 @@ tags: 资源
 *2006-11-22* [Paper](http://cogprints.org/5869/1/cnn_tutorial.pdf) | [亦轩Dhc](https://www.cnblogs.com/daihengchen/p/5646526.html)   
 $\bullet \bullet$   
 主要讲了 CNN 前向和反向传播，包括卷积层和池化的反向传播的推导的讲解；        
+
+1. [A Selective Overview of Deep Learning](http://cn.arxiv.org/abs/1904.05526)    
+*2019-04-10* [paper](https://arxiv.org/abs/1904.05526)    
+
 
 1. [A review of modularization techniques in artificial neural networks](https://arxiv.org/abs/1904.12770)     
 *2019-04-29* [paper](https://arxiv.org/abs/1904.12770)     
@@ -30,23 +36,31 @@ $\bullet \bullet$
 
 
 # 2 理论
-1. [The Power of Depth for Feedforward Neural Networks}()   
-COLT 2016   
+## 2.1 深与浅
+1. [The Power of Depth for Feedforward Neural Networks](http://cn.arxiv.org/abs/1512.03965)   
+COLT 2016 *2015-12-12* [paper](https://arxiv.org/abs/1512.03965)     
 证明了存在 3 层的网络，是无法被 2 层网络逼近的；   
 
-1. [Benefits of depth in neural networks]()    
-COLT 2016   
+1. [Benefits of depth in neural networks](http://cn.arxiv.org/abs/1602.04485)    
+COLT 2016 *2016-02-14* [paper](https://arxiv.org/abs/1602.04485)    
 深度网络需要很少的节点就能构造出复杂网络，扁平网络则需要更多节点；  
 
-1. [Depth-Width Tradeoffs in Approximating Natural Functions with Neural Networks]()   
-ICML 2017   
+1. [Learning Functions:  When Is Deep Better ThanShallow](http://cn.arxiv.org/abs/1603.00988)    
+*2016-03-03* [paper](https://arxiv.org/abs/1603.00988)    
+
+1. [Deep vs. shallow networks : An approximation theory perspective](http://cn.arxiv.org/abs/1608.03287)    
+*2016-08-10* [paper](https://arxiv.org/abs/1608.03287)    
+
+
+1. [Depth-Width Tradeoffs in Approximating Natural Functions with Neural Networks](http://cn.arxiv.org/abs/1610.09887)   
+ICML 2017 *2016-10-31* [paper](https://arxiv.org/abs/1610.09887) | [openreview](https://openreview.net/forum?id=BJe55gBtvH)     
 对于球状空间，深度可以很好拟合，而扁平网络做不到；   
 
 1. [Learning Functions: When Is Deep Better Than Shallow](http://cn.arxiv.org/abs/1603.00988)    
 *2016-03-03* [paper](https://arxiv.org/abs/1603.00988)    
 
-1. [When and Why Are Deep Networks Better than Shallow Ones]()    
-AAAI 2017     
+1. [When and Why Are Deep Networks Better than Shallow Ones](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14849/14414)       
+AAAI 2017 *2017* [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14849/14414)      
 
 1. [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039)     
 *2017-03-27* [paper](https://arxiv.org/abs/1703.09039) | [home](http://eyeriss.mit.edu/tutorial.html)        

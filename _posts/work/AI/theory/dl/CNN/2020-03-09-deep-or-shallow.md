@@ -9,6 +9,8 @@ category: [AI, DL, CNN]
 tags: 资源
 ---
 <span id='head'></span>  
+>[论文汇总](/ai/dl/cnn/2019/05/21/foundation.html#21-深与浅)     
+
 <!--more-->
 
 

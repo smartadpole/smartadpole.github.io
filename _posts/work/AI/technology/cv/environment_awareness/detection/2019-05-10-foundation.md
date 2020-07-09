@@ -91,8 +91,8 @@ DSOD
 
 <span id="refinenet">  </span>    
 1. [Single-Shot Refinement Neural Network for Object Detection](http://cn.arxiv.org/abs/1711.06897)  
-cvpr 2018 *2017-11-18* [paper](https://arxiv.org/abs/1711.06897) | [caffe](https://github.com/sfzhang15/RefineDet)        
-RefineDet: 融合了 Faster RCNN 的两阶段和 FPN 特征融合的策略，检测用的 SSD，提高对小目标的检测效果；     
+CVPR 2018 *2017-11-18* [paper](https://arxiv.org/abs/1711.06897) | [caffe](https://github.com/sfzhang15/RefineDet)        
+RefineDet: 融合了 Faster RCNN 的 RPN 和 FPN 特征融合的策略，检测用的 SSD，提高对小目标的检测效果；     
 
 1. [Receptive Field Block Net for Accurate and Fast Object Detection](http://cn.arxiv.org/abs/1711.07767)     
 ECCV 2018 *2017-11-21* [paper](https://arxiv.org/abs/1711.07767) | [pytorch](https://github.com/ruinmessi/RFBNet)-official   
@@ -175,6 +175,10 @@ CVPR 2017 *2017-03-20* cvpr 2017 [paper](https://arxiv.org/abs/1703.06870) | [ke
 CVPR 2017 *2017-04-11* [paper](https://arxiv.org/abs/1704.03414) | [caffe](https://github.com/xiaolonw/adversarial-frcnn)      
 提出学习一个可以生成遮挡和变形样本的对抗网络，对抗器的目标是生成让目标检测器难以进行分类的样本；在我们的框架中，原始检测器和对抗器都是以联合的方式学习的​
 
+1. [RON-Reverse Connection with Objectness Prior Networks for Object Detection](http://cn.arxiv.org/abs/1707.01691)     
+CVPR 2017 *2017-07-06* [paper](https://arxiv.org/abs/1707.01691) | [tensorflow](https://github.com/taokong/RON) | [tensorflow](https://github.com/HiKapok/RON_Tensorflow)      
+热度图；    
+
 1. [Cascade R-CNN: Delving into High Quality Object Detection](http://cn.arxiv.org/abs/1712.00726)  
 CVPR 2018 *2017-12-03* [paper](https://arxiv.org/abs/1712.00726) | [caffe](https://github.com/zhaoweicai/cascade-rcnn)   
 基于two-stage detector；Cascade R-CNN是R-CNN的multi-stage延伸，由一系列随着IOU临界值增加而训练的检测器构成，从而对close false positives更具有选择性；R-CNN阶段的cascade是按顺序训练的，使用一个阶段的输出来训练下一阶段；类似于boostrapping methods，不同点是Cascade R-CNN的重采样过程并不旨在mine hard negatives，而是通过调整bounding boxes，每个阶段的目的都是为了找到一组好的false positive来训练下一阶段​
@@ -216,11 +220,6 @@ CVPR 2019 *2019-04-09* [paper](https://arxiv.org/abs/1904.04402) | [project](htt
 另外，这个改进是对基础网络做的，应该放在分类中，而不是局限在检测任务里；     
 
 
-1. [Relation Networks for Object Detection]()  
-[2017.11 - 2018.1] cvpr2018, 这篇文章的出发点在于目前大部分的目标检测（object detection）算法都是独立地检测图像中的object，但显然如果模型能学到object之间的关系显然对于检测效果提升会有帮助，因此这篇文章希望在检测过程中可以通过利用图像中object之间的相互关系或者叫图像内容（context）来优化检测效果，这种关系既包括相对位置关系也包括图像特征关系​
-https://arxiv.org/abs/1711.11575
-https://github.com/msracver/Relation-Networks-for-Object-Detection
-
 1. [Receptive Field Block Net for Accurate and Fast Object Detection]()  
 RBF [2017.11 - 2018.7]
 https://arxiv.org/abs/1711.07767
@@ -251,15 +250,6 @@ https://arxiv.org/abs/1808.04974v1
 [2018.4] cvpr, 提出了一种新颖的多尺度位置感知核表示（MLKP），将判别性高阶统计量结合到object proposals的表示中以进行有效的对象检测；MLKP基于多项式核近似，可以有效生成低维高阶表示，其固有的位置保持性和敏感性也保证了可以灵活地用于目标检测​
 https://arxiv.org/abs/1804.00428
 caffe https://github.com/Hwang64/MLKP
-
-1. [Pelee: A Real-Time Object Detection System on Mobile Devices]()  
-Pelee [2018.4 - 2019.1] NIPS； ​轻量、高效的目标检测网络；
-
-1. [DetNet: A Backbone network for Object Detection]()  
-DetNet [2018.4] ECCV； ​检测和分类不同，较多的下采样降低了检测性能，本文对此设计了新的检测骨干网络 DetNet；​
-https://arxiv.org/abs/1804.06215
-https://mp.weixin.qq.com/s/oxStDMh90jB7_EY4vqja2w
-
 
 1. [CFENet: An Accurate and Efficient Single-Shot Object Detector for Autonomous Driving]()  
 CFENet [2018.6 - 2018.10]
@@ -353,12 +343,14 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 FasterRCNN 中有对其效果进行分析；   
 
 1. [Soft-NMS -- Improving Object Detection With One Line of Code](http://cn.arxiv.org/abs/1704.04503)    
-*2017.4* [Paper](https://arxiv.org/abs/1704.04503)   
+ICCV 2017 *2017-04-14* [Paper](https://arxiv.org/abs/1704.04503) | [code](https://github.com/bharatsingh430/soft-nms)-official   
+对遮挡情况提升较多；   
+
 1. [Softer-NMS: Rethinking Bounding Box Regression for Accurate Object Detection](http://cn.arxiv.org/abs/1809.08545)    
-*2018.9* [Paper](https://arxiv.org/abs/1809.08545)   
+CVPR 2019 *2018-09-23* [Paper](https://arxiv.org/abs/1809.08545) | [code](https://github.com/yihui-he/KL-Loss)-official   
 
 1. [Acquisition of Localization Conﬁdence for Accurate Object Detection](http://cn.arxiv.org/abs/1807.11590)   
-ECCV 2018 *2018.7* [Paper](https://arxiv.org/abs/1807.11590)   
+ECCV 2018 *2018-07-30* [Paper](https://arxiv.org/abs/1807.11590)   
 **NMS Network**：设计了 IoU-Net 用来估计 proposal 与其对应 ground-truth 框的 IoU 值，提出了新的边框回归算法以及 NMS 的改进算法；[解读](https://zhuanlan.zhihu.com/p/43590558)   
 
 ## 4.2 Anchors
@@ -394,7 +386,38 @@ P-GAN
 ​ECCV 2018 *2017-05-15* 香港中文，商汤 [paper](https://arxiv.org/abs/1805.02152)    
 检测，知识蒸馏，架构混合；​   
 
-## 4.5 [训练](/ai/dl/foundation/2019/05/20/foundation.html#322-检测)
+## 4.5 遮挡
+1. [RRC: Accurate Single Stage Detector Using Recurrent Rolling Convolution](http://cn.arxiv.org/abs/1704.05776)   
+CVPR 2017 *2017-04-19* [paper](https://arxiv.org/abs/1704.05776) | [caffe](https://github.com/xiaohaoChen/rrc_detection)        
+
+## 4.6 物体间关联
+1. [Relation Networks for Object Detection](http://cn.arxiv.org/abs/1711.11575)  
+CVPR 2018 *2017-11-30* [paper](https://arxiv.org/abs/1711.11575) | [mxnet](https://github.com/msracver/Relation-Networks-for-Object-Detection)-official   
+在检测过程中可以通过利用图像中 object 之间的相互关系或者叫图像内容（context）来优化检测效果，这种关系既包括相对位置关系也包括图像特征关系​；   
+
+## 4.7 backbone
+
+1. [DetNet: A Backbone network for Object Detection](http://cn.arxiv.org/abs/1804.06215)  
+ECCV 2018 *2018-04-17* [paper](https://arxiv.org/abs/1804.06215)  | [pytorch](https://github.com/guoruoqian/DetNet_pytorch)     
+分析了分类网络用于检测的弊端；较多的下采样降低了检测性能，本文对此设计了新的检测骨干网络 DetNet；​    
+DetNet    
+
+
+## 4.8  速度
+
+1. [Pelee: A Real-Time Object Detection System on Mobile Devices](http://cn.arxiv.org/abs/1804.06882)  
+NIPS 2018 [paper](https://arxiv.org/abs/1804.06882) | [caffe](https://github.com/Robert-JunWang/Pelee)     
+适合移动端的检测网络：​轻量、高效的目标检测网络；    
+
+
+## 4.9 [训练](/ai/dl/foundation/2019/05/20/foundation.html#322-检测)
+
+## 4.10 其他
+1. [MegDet: A Large Mini-Batch Object Detector](http://cn.arxiv.org/abs/1711.07240)     
+CVPR 2018 *2017-11-20* [paper](https://arxiv.org/abs/1711.07240)    
+mini batch 引发的问题；warmup，GPU BN；     
+
+
 # 5 应用
 [人](/ai/cv/human/human_detection/2019/10/11/foundation.html)、[文本](/ai/cv/ocr/2019/07/27/foundation.html#4-文本检测) 、交通（[车道线](/ai/cv/traffic/traffic_semantic_analysis/2019/05/20/foundation.html)、[交通标志](/ai/cv/traffic/traffic_signals_recognition/2019/10/11/foundation.html)、[车辆](/ai/cv/vehicle/vehicle_detect/2019/08/12/foundation.html)、船体、[安全带](/ai/cv/traffic/driver_analysis/2019/10/10/foundation.html#5-安全带识别)）、商品（Logo、商品）、医疗（肺结节）、[视频](/ai/video/video_detection/2019/05/22/foundation.html) 、航拍、自然（[云层](/ai/cv/nature/sky/2019/10/16/foundation.html#31-检测)）、动物、[水下目标检测](/ai/cv/nature/underwater_image/2020/03/25/foudnation.html#4-目标检测)    
 

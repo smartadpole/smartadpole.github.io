@@ -87,6 +87,7 @@ RSSD
 
 1. [DSOD: learning deeply supervised object detectors from scratch](http://cn.arxiv.org/abs/1708.01241)  
 ICCV 2017 *2017-08-03* [paper](https://arxiv.org/abs/1708.01241) | [caffe](https://github.com/szq0214/DSOD)-official | [pytorch](https://github.com/Ellinier/DSOD-Pytorch-Implementation)  | [pytorch](https://github.com/qqadssp/DSOD-Pytorch) | [pytorch](https://github.com/uoip/SSD-variants) | [pytorch](https://github.com/chenyuntc/dsod.pytorch) | [mxnet](https://github.com/eureka7mt/mxnet-dsod) | [mxnet](https://github.com/leocvml/DSOD-gluon-mxnet) | [tensorflow](https://github.com/Windaway/DSOD-Tensorflow)     
+从零开始训练检测模型：网络设计和训练策略；性能提升，速度略慢     
 DSOD   
 
 <span id="refinenet">  </span>    

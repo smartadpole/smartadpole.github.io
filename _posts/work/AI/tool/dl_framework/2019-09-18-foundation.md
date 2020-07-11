@@ -17,6 +17,8 @@ category: [AI, dl_frameworks]
 
 # 附录
 ## A 参考资料
+1. [Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)     
+工程化部署资料；    
 1. 李景峰. 深度学习轻量级推理及加速[EB/OL]. <https://zhuanlan.zhihu.com/p/51569443>. 2018-12-04/2019-09-18.      
 1. 神奇博士. 深度学习框架的来龙去脉——史上最全面最新的深度学习框架对比分析[EB/OL]. <https://zhuanlan.zhihu.com/p/59086302>. 2019-03-13/2019-09-18.          
 1. Antkillerfarm Hacking. Tensor2Tensor, NN中间语言, MXNet. <https://antkillerfarm.github.io/ai/2018/09/20/tensor2tensor.html>. 2018-09-20/2019-09-18.     

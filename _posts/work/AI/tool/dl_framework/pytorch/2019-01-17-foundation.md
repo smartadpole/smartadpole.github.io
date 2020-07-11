@@ -63,3 +63,4 @@ seq2seq 工具包
 ## A 参考资料
 1. [PyTorch项目代码与资源列表](https://zhuanlan.zhihu.com/p/28475866)    
 1. [诺亚方舟实验室开源项目](https://zhuanlan.zhihu.com/p/82258281)      
+1. [pytorch模型部署在生产环境](https://zhuanlan.zhihu.com/p/66483806)    

@@ -89,6 +89,20 @@ InceptionV2
 CVPR 2016 *2015-12-10* [paper](https://arxiv.org/abs/1512.03385)     
 ResNet;    
 
+1. [Densely Connected Convolutional Networks](http://cn.arxiv.org/abs/1608.06993)    
+CVPR 2017 *2016-08-25* [paper](https://arxiv.org/abs/1608.06993)    
+DenseNet
+
+1. [Deep Pyramidal Residual Networks](http://cn.arxiv.org/abs/1610.02915)    
+CVPR 2017 *2016-10-10* [paper](https://arxiv.org/abs/1610.02915)    
+解决残差设计中遇到通道升维时效果不好的问题；    
+PyramidNet    
+
+1. [Dual Path Networks](http://cn.arxiv.org/abs/1707.01629)    
+*2017-07-06* [paper](https://arxiv.org/abs/1707.01629) | [mxnet](https://github.com/cypw/DPNs)-official    
+DualPathNet   
+
+
 1. [Squeeze-and-Excitation Networks](http://cn.arxiv.org/abs/1709.01507)   
 *2017-09-05* [Paper](https://arxiv.org/abs/1709.01507)   
 SENet   

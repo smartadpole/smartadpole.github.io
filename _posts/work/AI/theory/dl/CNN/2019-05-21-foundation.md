@@ -129,8 +129,12 @@ CVPR 2017 *2017-07-04* Face++ [paper](https://arxiv.org/abs/1707.01083)
 ShuffleNet     
 
 1. [Interleaved Group Convolutions for Deep Neural Networks](http://cn.arxiv.org/abs/1707.02725)     
-ICCV 2017 *2017-07-10* 微软 [paper](https://arxiv.org/abs/1707.02725)    
+ICCV 2017 *2017-07-10* 微软 [paper](https://arxiv.org/abs/1707.02725) | [mxnet](https://github.com/hellozting/InterleavedGroupConvolutions)      
 IGCV     
+
+1. [CondenseNet: An Efficient DenseNet using Learned Group Convolutions](http://cn.arxiv.org/abs/1711.09224)     
+*2017-11-25* [paper](https://arxiv.org/abs/1711.09224) | [pytorch](https://github.com/ShichenLiu/CondenseNet)    
+CondenseNet    
 
 1. [MobileNetV2: Inverted Residuals and Linear Bottlenecks](http://cn.arxiv.org/abs/1801.04381)     
 *2018-01-13* [paper](https://arxiv.org/abs/1801.04381) | [mxnet](https://github.com/liangfu/mxnet-mobilenet-v2) | [caffe](https://github.com/shicai/MobileNet-Caffe)    

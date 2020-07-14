@@ -52,3 +52,6 @@ Trajectorylet-Net；
 ## A 参考资料
 1. 程程. VALSE2017系列之三：人体姿态识别领域年度进展报告[EB/OL]. <https://zhuanlan.zhihu.com/p/27293180>. 2017-06-07/2019-05-14.   
 1. lyl-Deepleraing. 深度学习的人体动作识别算法[EB/OL]. <https://zhuanlan.zhihu.com/p/46599638>. 2018-10-12/2019-05-14.   
+1. [人体姿态识别研究综述](https://blog.csdn.net/qq_38522972/article/details/82953477)    
+1. [姿态识别综述](https://zhuanlan.zhihu.com/p/71565880)    
+1. [姿态估计与行为识别（行为检测、行为分类）的区别](https://blog.csdn.net/qq_28301007/article/details/103096381)   

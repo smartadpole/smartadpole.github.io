@@ -44,6 +44,7 @@ sidebar:
 | --- | --- | --- | --- |
 | [梯度消失/爆炸](#gradient_abnormal) | [调参流程](#train_param) | [过拟合](#overfit_adverse) | [欠拟合](#underfitting) |
 | [fine-tuning](#fine_tuning) | [dropout](#dropout) | [提升泛化能力](#generalization) |  |
+| [模型加速](#compress) |  |  |  |
 
 
 # 1 基础
@@ -814,6 +815,38 @@ TensorFlow Lite、MACE（小米）、ncnn（腾讯）；
 {:.warning}
 - 防止模型过拟合；    
 - 模型融合方法；     
+
+
+<span id="compress">    </span>  
+
+**模型加速**
+{:.warning}
+
+>网络结构改进
+
+| 技术 | 说明 | 代表 |
+| --- | --- | --- |
+| 深度可分离卷积/组卷积 | 降低计算量 | mobilenet，Xception；shufflenet，ResNeXt，IGC |
+| 分解卷积 | 1×k 和 k×1 代替 k×k | Inception3，ERFNet |
+| bottleneck | 复杂操作前对卷积降维，最后可以再升维 | SqueezeNet |
+| NAS | 自动衡量速度和精度 |  |
+
+>知识蒸馏    
+
+>模型压缩
+
+| 技术 | 说明 | 代表 |
+| --- | --- | --- |
+| 剪枝 | 按比例滤除权重接近0的部分（mask，微调，重新导出） |  |
+| 核稀疏化 | 训练时用正则项加以诱导，以便使用剪枝 |  |
+| 量化 | 部分权重二值化（降低存储，加法代替乘法） |  |
+|  | 二值网络 | 小规模数据尚可 |
+|  | 同或网络 | 位计数+同或近似卷积；<br>比二值网络好点，ImageNet比常规网络低10%；生产环境一般 |
+|  | 三值权重 | 单阈值变双阈值 |
+|  | 整形、单精度量化 |  |
+| 低秩分解 | SVD、CP、Tucker、Tensor Train、Block Term | 很少用，小卷积的使用让矩阵分解的方法很难实现网络加速和压缩 |
+
+[模型压缩总览](https://www.jianshu.com/p/e73851f32c9f)   
 
 -------------------  
 [End](#head)

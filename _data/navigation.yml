@@ -1821,7 +1821,9 @@ PARALLEL:
         url:    /assets/category/work/software/develop/parallel/cuda.html
       - title:  OpenCL
         url:    /assets/category/work/software/develop/parallel/opencl.html
-  - title:	终端
+      - title:  OpenGL
+        url:    /assets/category/work/software/develop/parallel/opengl.html
+  - title:	嵌入式
     children:
       - title:  Vulkan
         url:    /assets/category/work/software/develop/parallel/vulkan.html

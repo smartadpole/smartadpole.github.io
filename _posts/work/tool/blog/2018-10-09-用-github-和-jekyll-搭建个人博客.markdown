@@ -9,7 +9,17 @@ category: [tool, blog]
 ---
 
 
-## 1 报错
+# 1 安装
+```
+apt install ruby ruby-dev
+gem install bundler jekyll
+# cd 工程目录
+bundle exec jekyll serve
+bundle install
+```
+
+
+# 2 报错
 1. Jekyll serve 启动失败  
 
 <!--more-->

@@ -1,14 +1,13 @@
 ---
 layout: article
-title:  "「OpenGL」 入门"
-date:   2020-09-21 17:07:40 +0800
-key: opengl
+title:  "「GLSL」 输出负数"
+date:   2020-09-22 10:39:40 +0800
+key: glsl-negative
 aside:
   toc: true
 category: [software, parallel, opengl]
 ---
 <span id='head'></span>
-
 
 <!--more-->
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「PARALLEL」 OpenGL 与 GLSL 版本对应关系"
+title:  "「OpenGL」 OpenGL 与 GLSL 版本对应关系"
 date:   2020-09-21 17:17:40 +0800
 key: opengl-glsl-version
 aside:

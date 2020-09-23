@@ -11,6 +11,13 @@ category: [software, parallel, opengl]
 
 <!--more-->
 
+# ES 2.0
+经过符号运算结果就不对了   
+负数也无法传出来；    
+
+# ES 3.0
+正常输出    
+
 -------------------  
 [End](#head)
 {:.warning}  

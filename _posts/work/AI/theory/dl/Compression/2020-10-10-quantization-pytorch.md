@@ -33,6 +33,8 @@ category: [AI, DL, compression]
 ## A 参考资料
 1. AI科技大本营. 你的模型加速了吗？这里有5个方法供你参考[EB/OL]. <https://mp.weixin.qq.com/s?__biz=MzI0ODcxODk5OA==&mid=2247511633&idx=2&sn=a5ab187c03dfeab4e64c85fc562d7c0d&chksm=e99e9da8dee914be3d713c41d5dedb7fcdc9982c8b027b5e9b84e31789913c5b2dd880210ead&mpshare=1&scene=1&srcid=&sharer_sharetime=1576934236399&sharer_shareid=1d0dbdb37c6b95413d1d4fe7d61ed8f1&exportkey=A%2B3SqYGse83qyFva%2BYSy3Ng%3D&pass_ticket=winxjBrzw0kHErbSri5yXS88yBx1a%2BAL9KKTG6Zt1MMS%2FeI2hpx%2BmeaLsrahnlOS#rd>. 2019-12-21/2020-10-10.    
 概述    
+1. jefferyzhang. 一线工程师带你学习深度学习模型量化理论+实践[EB/OL]. <https://t.rock-chips.com/forum.php?mod=viewthread&action=printable&tid=1226>. 2020-01-01/2020-10-10.    
+概述   
 1. GiantPandaCV. Pytorch实现卷积神经网络训练量化（QAT）[EB/OL]. <https://www.liangzl.com/get-article-detail-198695.html>. 2020-07-29/2020-10-10.    
 对一篇论文的实现做了简述；     
 1. 机器之心. 性能不打折，内存占用减少90%，Facebook提出极致模型压缩方法Quant-Noise[EB/OL]. <https://cloud.tencent.com/developer/article/1623418>. 2020-05-04/2020-10-10.     

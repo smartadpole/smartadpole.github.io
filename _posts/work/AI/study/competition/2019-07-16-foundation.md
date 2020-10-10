@@ -100,3 +100,5 @@ category: [AI, AI, Competition]
 1. [“数字人体”视觉挑战赛—决赛答辩_上午场](https://tianchi.aliyun.com/course/video?spm=5176.12586971.1001.31.7a5d39e1nDzHrV&liveId=41174)     
 1. [MEDIA AI阿里巴巴文娱算法挑战赛 - 基于深度学习技术的视频分割](https://tianchi.aliyun.com/course/video?spm=5176.12586971.1001.13.7a5d39e1nDzHrV&liveId=41175)   
 1. [2020年全国水下机器人（湛江）大赛 - 水下目标检测算法赛](https://zhuanlan.zhihu.com/p/129842491)    
+
+1. [布匹瑕疵检测季军方案](https://github.com/zhengye1995/Tianchi-2019-Guangdong-Intelligent-identification-of-cloth-defects-rank5)    

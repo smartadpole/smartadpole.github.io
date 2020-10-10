@@ -52,6 +52,9 @@ NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04576)
 1. [Weight Normalization based Quantization for Deep Neural Network Compression](http://cn.arxiv.org/abs/1907.00593)   
 *2019-07-01* [paper](https://arxiv.org/abs/1907.00593)   
 
+1. [StatAssist & GradBoost: A Study on Optimal INT8 Quantization-aware Training from Scratch](http://cn.arxiv.org/abs/2006.09679)    
+*2020-06-17* [paper](https://arxiv.org/abs/2006.09679) | [pytorch](https://github.com/clovaai/StatAssist-GradBoost)-official        
+
 # 7 知识蒸馏
 1. [Dream Distillation: A Data-Independent Model Compression Framework](http://cn.arxiv.org/abs/1905.07072)   
 ICML 2019 workshop *2019-05-17* [paper](https://arxiv.org/abs/1905.07072)   

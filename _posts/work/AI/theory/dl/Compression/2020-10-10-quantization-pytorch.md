@@ -14,7 +14,18 @@ category: [AI, DL, compression]
 
 <!--more-->
 
-# 1 工具
+# 1 量化
+1. 训练后动态量化    
+`torch.quantization.quantize_dynamic()`    
+
+1. 训练后静态量化    
+准备模型：通过添加QuantStub和DeQuantStub模块，指定在何处显式量化激活和量化数量；    
+`torch.quantization.convert` 用于模型转换；包括权重量化，计算比例和偏差，关键算子替换为量化版本；     
+
+1. 量化感知训练    
+用 FP32 计算，但是会将值取整，模拟量化过程，进行训练微调；
+
+# 2 工具
 
 | 工具 | 说明 | 资源 |
 | --- | --- | --- |
@@ -43,6 +54,11 @@ category: [AI, DL, compression]
 1. osc_n3mzii7x. 量化感知训练的数值稳定性[EB/OL]. <https://my.oschina.net/u/4261335/blog/4463306>. 2020-08-02/2020-10-10.    
 1. jermmyxu. 神经网络量化入门--量化感知训练[EB/OL]. <https://www.cnblogs.com/jermmyhsu/p/13285488.html>. 2020-07-11/2020-10-10.     
 分析了量化——反量化——训练的过程；     
+1. 心态已炸_沉迷学习. Pytorch 1.3.0 量化介绍[EB/OL]. <https://blog.csdn.net/zym19941119/article/details/102523719>. 2019-10-12/2020-10-12.    
+1. 爱上一只柠檬的pig_head. 深度学习模型量化（低精度推理）大总结[EB/OL]. <https://blog.csdn.net/zlgahu/article/details/104662203?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param>. 2020-03-04/2020-10-12.   
+详细解说了量化    
+1. [pytorch doc](https://www.geek-book.com/src/docs/pytorch/pytorch/pytorch.org/docs/stable/quantization.html)-中文，[pytorch doc](https://pytorch.org/tutorials/intermediate/dynamic_quantization_bert_tutorial.html)-英文   
+
 
 ## B 工程
 1. Ironteen. YOLOv3-quantization-model-v1.0[BE/OL]. <https://github.com/Ironteen/YOLOv3-quantization-model-v1.0>. -/2020-10-10.      

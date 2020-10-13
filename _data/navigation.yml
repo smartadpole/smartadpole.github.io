@@ -1512,6 +1512,8 @@ Traffic:
         url:    /assets/category/work/AI/technology/CV/traffic/signals_recognition.html
       - title:  交通意图分析
         url:    /assets/category/work/AI/technology/CV/traffic/intention_analysis.html
+      - title:  可行驶区域检测
+        url:    /assets/category/work/AI/technology/CV/traffic/curb_detection.html
       - title:  自动驾驶
         url:    /assets/category/work/AI/technology/CV/traffic/auto_drive.html
 

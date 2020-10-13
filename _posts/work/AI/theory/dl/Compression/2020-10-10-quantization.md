@@ -31,5 +31,7 @@ category: [AI, DL, compression]
 ## A 参考资料
 1. lartpang. Some Tricks of PyTorch[EB/OL]. <https://github.com/lartpang/PyTorchTricks>. -/2020-10-10.     
 1. 有三AI. 当前模型量化有哪些可用的开源工具？[EB/OL]. <https://cloud.tencent.com/developer/article/1559658>. 2019-12-18/2020-10-10.    
+1. 商汤科技SenseTime. 模型量化了解一下？[EB/OL]. <https://zhuanlan.zhihu.com/p/132561405>. 2020-04-17/2020-10-13.    
+内容很丰富，有很多指导性观点；    
 
 1. [pytorch MobileNet-v2-pruning](https://github.com/wlguan/MobileNet-v2-pruning)    

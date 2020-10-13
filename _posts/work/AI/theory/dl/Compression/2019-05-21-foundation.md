@@ -18,6 +18,8 @@ tags: 资源
 1. [Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149)   
 ICLR 2016 oral *2015-10-01* [paper](https://arxiv.org/abs/1510.00149)    
 
+1. [Neural Network Quantization Introduction](https://jackwish.net/2019/neural-network-quantization-introduction.html)    
+*2019-05-01* [中文](https://jackwish.net/2019/neural-network-quantization-introduction-chn.html)     
 
 # 2 理论
 1. [Doctor of Crosswise: Reducing Over-parametrization in Neural Networks](http://cn.arxiv.org/abs/1905.10324)   
@@ -65,6 +67,13 @@ NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04576)
 1. [Training Binary Neural Networks through Learning with Noisy Supervision](http://cn.arxiv.org/abs/2010.04871)  
 ICML 2020 *2020-10-10* [paper](https://arxiv.org/abs/2010.04871)     
 
+## 6.4 其他
+
+1. [And the Bit Goes Down: Revisiting the Quantization of Neural Networks](http://cn.arxiv.org/abs/1907.05686)   
+*2019-07-12* [paper](https://arxiv.org/abs/1907.05686)    
+对 resnet 系列网络进行了压缩；    
+
+
 # 7 知识蒸馏
 1. [Dream Distillation: A Data-Independent Model Compression Framework](http://cn.arxiv.org/abs/1905.07072)   
 ICML 2019 workshop *2019-05-17* [paper](https://arxiv.org/abs/1905.07072)   
@@ -91,10 +100,6 @@ NIPS 2019 *2019-10-10* [paper](https://arxiv.org/abs/1910.04641)
 
 1. [Deep Model Compression via Filter Auto-sampling](http://cn.arxiv.org/abs/1907.05642)   
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05642)    
-
-1. [And the Bit Goes Down: Revisiting the Quantization of Neural Networks](http://cn.arxiv.org/abs/1907.05686)   
-*2019-07-12* [paper](https://arxiv.org/abs/1907.05686)    
-对 resnet 系列网络进行了压缩；    
 
 
 -------------------  

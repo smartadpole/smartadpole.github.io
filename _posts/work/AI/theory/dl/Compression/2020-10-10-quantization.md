@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DL」 模型量化"
+title:  "「DL」 模型量化概述"
 date:   2020-10-10 14:08:40 +0800
 key: quantization
 aside:

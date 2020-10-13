@@ -58,6 +58,10 @@ CVPR 2020 oral *2020-06-19* [paper](https://arxiv.org/abs/2006.11339) | [PyTorch
 数据集：VIPER、Cityscapes-VPS（都是自动驾驶领域的）
 VPSNet    
 
+1. [Deep Active Learning for Joint Classification & Segmentation with Weak Annotator](http://cn.arxiv.org/abs/2010.04889)  
+ *2020-10-10* [paper](https://arxiv.org/abs/2010.04889)     
+ 分割分类多人物；    
+
 ## 5.2 GAN
 
 1.  [Adversarial Deep Structural Networks for Mammographic Mass Segmentation](http://cn.arxiv.org/abs/1611.05970)   

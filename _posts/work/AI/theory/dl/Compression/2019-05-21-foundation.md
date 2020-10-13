@@ -37,6 +37,10 @@ CVPR 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00274)
 *2019-01-29* [paper](https://arxiv.org/abs/1907.00262)   
 修剪 resnet50，而不影响可解释性；    
 
+1. [Accelerate Your CNN from Three Dimensions: A Comprehensive Pruning Framework](http://cn.arxiv.org/abs/2010.04879)  
+*2020-10-10* [paper](https://arxiv.org/abs/2010.04879)     
+多维度（宽、高、输入大小）剪枝；   
+
 # 5 低秩分解
 1. [Learning Low-Rank Approximation for CNNs](http://cn.arxiv.org/abs/1905.10145)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10145)   
@@ -46,14 +50,20 @@ NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04576)
 认为离线低秩分解误差太大，于是将其集成到训练过程；    
 
 # 6 权值量化
+## 6.1 INT
 1. [Integer Discrete Flows and Lossless Compression](http://cn.arxiv.org/abs/1905.07376)   
 *2019-05-17* [paper](https://arxiv.org/abs/1905.07376)   
 
 1. [Weight Normalization based Quantization for Deep Neural Network Compression](http://cn.arxiv.org/abs/1907.00593)   
 *2019-07-01* [paper](https://arxiv.org/abs/1907.00593)   
 
+## 6.2 INT8
 1. [StatAssist & GradBoost: A Study on Optimal INT8 Quantization-aware Training from Scratch](http://cn.arxiv.org/abs/2006.09679)    
 *2020-06-17* [paper](https://arxiv.org/abs/2006.09679) | [pytorch](https://github.com/clovaai/StatAssist-GradBoost)-official        
+
+## 6.3 Binary
+1. [Training Binary Neural Networks through Learning with Noisy Supervision](http://cn.arxiv.org/abs/2010.04871)  
+ICML 2020 *2020-10-10* [paper](https://arxiv.org/abs/2010.04871)     
 
 # 7 知识蒸馏
 1. [Dream Distillation: A Data-Independent Model Compression Framework](http://cn.arxiv.org/abs/1905.07072)   

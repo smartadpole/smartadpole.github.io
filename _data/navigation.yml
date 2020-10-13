@@ -350,6 +350,8 @@ CV:
         url:    /assets/category/work/AI/technology/CV/retrieval.html
       - title:  视觉可供性
         url:    /assets/category/work/AI/technology/CV/affordance.html
+      - title:  显著性检测
+        url:    /assets/category/work/AI/technology/CV/salient.html
 
   - title:      成像
     children:

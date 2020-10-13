@@ -9,14 +9,18 @@ category: [AI, DL, compression]
 tags: 资源
 ---
 <span id='head'></span>  
-
+>[模型量化概述](/ai/dl/compression/2020/10/10/quantization.html)
 
 <!--more-->
 
 
 # 1 综述
-1. [Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149)   
+1. [Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding](http://cn.arxiv.org/abs/1510.00149)   
 ICLR 2016 oral *2015-10-01* [paper](https://arxiv.org/abs/1510.00149)    
+
+1. [A Survey on Methods and Theories of Quantized Neural Networks](http://cn.arxiv.org/abs/1808.04752)    
+*2018-08-13* [paper](https://arxiv.org/abs/1808.04752)     
+
 
 1. [Neural Network Quantization Introduction](https://jackwish.net/2019/neural-network-quantization-introduction.html)    
 *2019-05-01* [中文](https://jackwish.net/2019/neural-network-quantization-introduction-chn.html)     
@@ -67,7 +71,14 @@ NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04576)
 1. [Training Binary Neural Networks through Learning with Noisy Supervision](http://cn.arxiv.org/abs/2010.04871)  
 ICML 2020 *2020-10-10* [paper](https://arxiv.org/abs/2010.04871)     
 
-## 6.4 其他
+## 6.4 量化感知
+1. [Low-bit quantization and quantization-awaretraining for small-footprint keyword spotting](https://assets.amazon.science/7e/94/b850e377478fada03a82751f5535/low-bit-quantization-and-quantization-aware-training-for-small-footprint-keyword-spotting.pdf)     
+*2018* [paper](https://assets.amazon.science/7e/94/b850e377478fada03a82751f5535/low-bit-quantization-and-quantization-aware-training-for-small-footprint-keyword-spotting.pdf)    
+
+## 6.5 其他
+1. [Quantized Convolutional Neural Networks for Mobile Devices](http://cn.arxiv.org/abs/1512.06473)    
+*2015-12-21* [paper](https://arxiv.org/abs/1512.06473) | [caffe](https://github.com/jiaxiang-wu/quantized-cnn)  | [blog](https://zhuanlan.zhihu.com/p/58349521)    
+兼顾速度和大小；         
 
 1. [And the Bit Goes Down: Revisiting the Quantization of Neural Networks](http://cn.arxiv.org/abs/1907.05686)   
 *2019-07-12* [paper](https://arxiv.org/abs/1907.05686)    

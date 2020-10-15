@@ -24,7 +24,14 @@ category: [AI, DL, compression]
 | 缩放因子 | $x_{s}$ | $y_{s}$ | $z_{s}$ |    
 | 零点 | $x_{zp}$ | $y_{zp}$ | $z_{zp}$ |   
 
-
+$$
+\begin{align}
+x_{f} &= x_{s} \times (x_{q} - x_{zp}) \\
+x_{s} &= \frac{x_{f}^{max} - x_{f}^{min}}{x_{q}^{max} - x_{q}^{min}} \\
+x_{zp} &= x_{q}^{max} - x_{f}^{max} \div x_{s} \\
+x_{q} &= x_{f} \div x_{s} + x_{zp}
+\end{align}
+$$
 
 乘法    
 

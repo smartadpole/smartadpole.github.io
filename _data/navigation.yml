@@ -267,6 +267,8 @@ DEVICE:
       url:    /assets/category/work/AI/tool/device/nano.html
     - title:  TX2
       url:    /assets/category/work/AI/tool/device/tx2.html
+    - title:  瑞芯微
+      url:    /assets/category/work/AI/tool/device/rockchip.html
 
 DL:
   - title:

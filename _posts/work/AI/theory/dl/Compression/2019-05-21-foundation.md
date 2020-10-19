@@ -18,6 +18,10 @@ tags: 资源
 1. [Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding](http://cn.arxiv.org/abs/1510.00149)   
 ICLR 2016 oral *2015-10-01* [paper](https://arxiv.org/abs/1510.00149)    
 
+1. [Speeding-up convolutional neural networks: A survey](https://journals.pan.pl/Content/109869/PDF/05_799-810_00925_Bpast.No.66-6_31.12.18_K2.pdf?handler=pdf)     
+*2018-06* [paper](https://journals.pan.pl/Content/109869/PDF/05_799-810_00925_Bpast.No.66-6_31.12.18_K2.pdf?handler=pdf)     
+
+
 1. [A Survey on Methods and Theories of Quantized Neural Networks](http://cn.arxiv.org/abs/1808.04752)    
 *2018-08-13* [paper](https://arxiv.org/abs/1808.04752)     
 
@@ -33,7 +37,7 @@ ICLR 2016 oral *2015-10-01* [paper](https://arxiv.org/abs/1510.00149)
 CVPR 2019 *2019-06-29* [paper](https://arxiv.org/abs/1907.00274)   
 
 # 3 剪枝
-1. [FeTa: A DCA Pruning Algorithm with Generalization Error Guarantees](https://arxiv.org/abs/1803.04239)   
+1. [FeTa: A DCA Pruning Algorithm with Generalization Error Guarantees](http://cn.arxiv.org/abs/1803.04239)   
 *2018-03-12* [paper](https://arxiv.org/abs/1803.04239)   
 
 1. [Revisiting hard thresholding for DNN pruning](http://cn.arxiv.org/abs/1905.08793)   

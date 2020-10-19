@@ -1087,29 +1087,29 @@ Unsupervised:
   - title:  原型/划分聚类
     children:
       - title:  k-means
-        url:    /ml/unsupervised/2019/01/24/k-means.html
+        url:    /ai/ml/unsupervised/2019/01/24/k-means.html
       - title:  学习向量量化
-        url:    /ml/unsupervised/2019/01/24/k-means.html
+        url:    /ai/ml/unsupervised/2019/01/24/k-means.html
       - title:  高斯混合聚类
-        url:    /ml/unsupervised/2019/01/24/k-means.html
+        url:    /ai/ml/unsupervised/2019/01/24/k-means.html
   - title:  密度聚类
     children:
       - title:  DBSCAN
-        url:    /ml/unsupervised/2019/02/28/density-based-clustering.html
+        url:    /ai/ml/unsupervised/2019/02/28/density-based-clustering.html
       - title:  HDBSCAN
-        url:    /ml/unsupervised/2019/02/28/density-based-clustering.html
+        url:    /ai/ml/unsupervised/2019/02/28/density-based-clustering.html
       - title:  OPTICS
-        url:    /ml/unsupervised/2019/02/28/density-based-clustering.html
+        url:    /ai/ml/unsupervised/2019/02/28/density-based-clustering.html
   - title:  层次聚类
     children:
       - title:  AGNES
-        url:    /ml/unsupervised/2019/01/24/k-means.html
+        url:    /ai/ml/unsupervised/2019/01/24/k-means.html
       - title:  BIRCH
-        url:    /ml/unsupervised/2019/01/24/k-means.html
+        url:    /ai/ml/unsupervised/2019/01/24/k-means.html
   - title:  网格聚类
     children:
       - title:  STING
-        url:    /ml/unsupervised/2019/01/24/k-means.html
+        url:    /ai/ml/unsupervised/2019/01/24/k-means.html
 
 
 Jupyter:

@@ -39,6 +39,11 @@ glReadPixel error 1282: GL_INVALID_OPERATION
 
 # 附录
 ## A 参考资料
+1. realxie. OpenGL的内存模型[EB/OL]. <https://zhuanlan.zhihu.com/p/104245178>. 2020-01-29/2020-10-19.    
+1. sddxccj. 如何高效的将数据从GPU拷贝到CPU[EB/OL]. <https://blog.csdn.net/sddxccj/article/details/107324060>. 2020-07-13/2020-10-19.    
+1. opengl-tutorial. 渲染到纹理[EB/OL]. <http://www.opengl-tutorial.org/cn/intermediate-tutorials/tutorial-14-render-to-texture/>. -/2020-10-19.    
+1. 学习记录园 . glPixelStorei 详解 包括像素传输[EB/OL]. <https://www.cnblogs.com/dongguolei/p/11982230.html>. 2019-12-04/2020-10-19.    
+
 
 ## B 代码
 <span id="download">**1. GPU 数据载示例**</span>   

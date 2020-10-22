@@ -1571,6 +1571,8 @@ Linux:
         url:    /school/linux/2020/03/15/foundation.html
       - title:  软件安装
         url:    /school/linux/2020/10/22/software.html
+      - title:  adb
+        url:    /school/linux/2020/10/22/adb.html
   - title:	系统操作
     children:
       - title:  使用终端

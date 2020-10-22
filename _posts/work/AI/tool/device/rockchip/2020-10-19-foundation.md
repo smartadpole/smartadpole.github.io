@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "「DEVICE」 瑞芯微芯片入门"
+title:  "「DEVICE」 瑞芯微芯片介绍"
 date:   2020-10-19 18:00:40 +0800
 key: rk-foundation
 aside:

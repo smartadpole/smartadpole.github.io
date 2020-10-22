@@ -6,6 +6,8 @@ key: linux-foundation
 aside:
   toc: true
 category: [school, linux]
+sidebar:
+  nav: Linux
 ---
 <span id="head"></span>
 

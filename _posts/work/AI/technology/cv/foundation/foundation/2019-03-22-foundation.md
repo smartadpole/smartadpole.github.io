@@ -7,6 +7,9 @@ aside:
   toc: true
 category: [AI, CV, cv_foundation]
 ---
+<span id='head'></span>
+
+<!--more-->
 
 # 1. 常见视觉任务
 ## 1.1 二维图像
@@ -156,8 +159,9 @@ category: [AI, CV, cv_foundation]
 
 
 -------------------  
- End
+[End](#head)
 {:.warning}  
+
 
 
 # 附录

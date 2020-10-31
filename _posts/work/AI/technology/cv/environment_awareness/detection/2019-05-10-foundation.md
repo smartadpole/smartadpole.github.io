@@ -89,7 +89,6 @@ RSSD
 ICCV 2017 *2017-08-03* [paper](https://arxiv.org/abs/1708.01241) | [caffe](https://github.com/szq0214/DSOD)-official | [pytorch](https://github.com/Ellinier/DSOD-Pytorch-Implementation)  | [pytorch](https://github.com/qqadssp/DSOD-Pytorch) | [pytorch](https://github.com/uoip/SSD-variants) | [pytorch](https://github.com/chenyuntc/dsod.pytorch) | [mxnet](https://github.com/eureka7mt/mxnet-dsod) | [mxnet](https://github.com/leocvml/DSOD-gluon-mxnet) | [tensorflow](https://github.com/Windaway/DSOD-Tensorflow)     
 从零开始训练检测模型：网络设计和训练策略；性能提升，速度略慢     
 DSOD   
-
 <span id="refinenet">  </span>    
 1. [Single-Shot Refinement Neural Network for Object Detection](http://cn.arxiv.org/abs/1711.06897)  
 CVPR 2018 *2017-11-18* [paper](https://arxiv.org/abs/1711.06897) | [caffe](https://github.com/sfzhang15/RefineDet)        
@@ -120,7 +119,7 @@ cvpr 2018 *2017* [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Z
 STDN: 提高对多尺度的适应性（尤其是小目标）；backbone 使用的是 DenseNet ，检测用的 SSD；引入scale-transfer layer，实现了在几乎不增加参数量和计算量的前提下生成大尺寸的 feature map（其他常见的算法基本上都是采用 deconvolution 或 upsample）；      
 
 1. [YOLOv3: An Incremental Improvement](http://cn.arxiv.org/abs/1804.02767)  
-*2018-04-08* [paper](https://arxiv.org/abs/1804.02767) | [home](https://pjreddie.com/darknet/yolo/) | [darknet](https://github.com/pascal1129/yolo_person_detect)-行人 | [darknet](https://github.com/AlexeyAB/darknet) | [tensorflow2](https://github.com/jinfagang/yolov3_tf2)       
+*2018-04-08* [paper](https://arxiv.org/abs/1804.02767) | [home](https://pjreddie.com/darknet/yolo/) | [darknet](https://github.com/pascal1129/yolo_person_detect)-行人 | [darknet](https://github.com/AlexeyAB/darknet) | [tensorflow2](https://github.com/jinfagang/yolov3_tf2) | [复现代码合集](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247494775&idx=2&sn=3ef584edf28b1cad6383933aad081bbb&chksm=f9a19ef8ced617eeb6aa68df649709de7117cc6a64576c8537a6e7a35d16eb1b8cb3ba1e88d4&scene=21#wechat_redirect) | [pytorch](https://github.com/ultralytics/yolov3)-app       
 YOLO V3     
 
 1. [R-FCN++: Towards Accurate Region-Based Fully Convolutional Networks for Object Detection](http://www.skicyyu.org/Paper/RFCN_plus_plus.pdf)  
@@ -142,7 +141,10 @@ AAAI 2019 *2018-11-12* [paper](https://arxiv.org/abs/1811.04533) | [pytorch](htt
 TinyYOLO 上再做改进，速度更快；同时公布了一个足球数据集；       
 
 1. [YOLOv4: Optimal Speed and Accuracy of Object Detection](http://cn.arxiv.org/abs/2004.10934)     
-*2020-04-23* [paper](https://arxiv.org/abs/2004.10934) | [darknet](https://github.com/AlexeyAB/darknet)      
+*2020-04-23* [paper](https://arxiv.org/abs/2004.10934) | [darknet](https://github.com/AlexeyAB/darknet) | [pytorch](https://github.com/ultralytics/yolov3)-app | [如何训练YOLOV4与YOLOV5](https://chtseng.wordpress.com/2020/06/27/%E5%A6%82%E4%BD%95%E8%A8%93%E7%B7%B4yolov4%E8%88%87yolov5/)       
+
+1. YOLOv5      
+*2020-06-10* [pytorch](https://github.com/ultralytics/yolov5) | [一些讨论](https://www.jiqizhixin.com/articles/2020-07-10-6)      
 
 
 ## 3.2 两阶段

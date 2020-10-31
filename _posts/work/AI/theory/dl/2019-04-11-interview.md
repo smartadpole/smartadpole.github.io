@@ -178,7 +178,7 @@ channel：$out =$ 卷积核(池化核)数量 *通常 池化不会改变通道数
 2. 反卷积：  $out = (in - 1) × strid - 2 × padding + kernel$     
 3. 池化： $out = (input - kernel) / {strid} + 1 \quad$   *（向上取整）*    
 
-*卷积层一般填充像素，填充量为 $(kernel-1)/2$ 且步长为 1 时，特征图大小保持不变，池化层一般不填充像素注意；*         
+*卷积层一般填充像素，填充量为 $(kernel-1)/2$ 且步长为 1 时，特征图大小保持不变，池化层一般不填充像素；*         
 
 
 <span id="receptive">    </span>    

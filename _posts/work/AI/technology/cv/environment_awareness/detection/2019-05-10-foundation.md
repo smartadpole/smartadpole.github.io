@@ -198,13 +198,14 @@ CVPR 2018 *2017-12-03* [paper](https://arxiv.org/abs/1712.00726) | [caffe](https
 无 pdf 介绍了一种生成anchor proposals的改进建议，并对Faster R-CNN进行修改，利用较高分辨率的小目标的feature maps​
 https://blog.csdn.net/zhangjunhit/article/details/78900298
 
-1. [Scale-aware Pixel-wise Object Proposal Networks]()  
+1. [Scale-aware Pixel-wise Object Proposal Networks](http://cn.arxiv.org/abs/1601.04798)      
+*2016-01-19* [paper](https://arxiv.org/abs/1601.04798)     
 [2015.1 - 2015.7] 提出Scale-aware Pixel-wise Object Proposal（SPOP）网络，可以生成具有高召回率和平均最佳重叠（ABO）的proposals，即使对于小目标也是如此；另外，引入了一个类似分段的像素定位网络来密集预测每个像素的对象坐标，并开发了一种尺度感知对象定位策略，该策略将来自大尺寸和小尺寸网络的预测与加权机制相结合，以提高各种对象尺寸的坐标预测精度​
 https://arxiv.org/abs/1601.04798
 
 ## 3.4 无类别
 1. [Learning Objectness from Sonar Images for Class-Independent Object Detection](http://cn.arxiv.org/abs/1907.00734)   
-*2019-07-01* [paper](https://arxiv.org/abs/1907.00734)    
+*2019-07-01* [paper](https://arxiv.org/abs/1907.00734) | [github](https://github.com/mvaldenegro/marine-debris-fls-datasets)      
 
 ## 3.5 基于显著性
 1. [Location, location, location: Satellite image-based real-estate appraisal](http://cn.arxiv.org/abs/2006.11406)  

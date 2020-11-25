@@ -135,7 +135,6 @@ URPC2018 challenge <http://2018.cnurpc.org/>
 - [awesome-object-detection](https://github.com/amusi/awesome-object-detection)  
 - [Object Detection in 20 Years: A Survey](https://arxiv.org/abs/1905.05055)   
 - [Deep Learning for Generic Object Detection: A Survey](https://link.springer.com/article/10.1007/s11263-019-01247-4)    
--  [Bag of Freebies for Training Object Detection Neural Networks](https://arxiv.org/abs/1902.04103)    
 - [AnchorFreeDetectionList](https://github.com/VCBE123/AnchorFreeDetection)、[物体检测的轮回: anchor-based 与 anchor-free](https://zhuanlan.zhihu.com/p/62372897)
 
 1. 训练框架   

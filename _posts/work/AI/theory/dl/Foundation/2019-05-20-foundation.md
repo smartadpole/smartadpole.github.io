@@ -131,6 +131,7 @@ $\bullet \bullet$ - large batch
 
 1. [Bag of Freebies for Training Object Detection Neural Networks](http://cn.arxiv.org/abs/1902.04103)  
 *2019-02-11* [paper](https://arxiv.org/abs/1902.04103)      
+$\bullet \bullet$ - freebies        
 GluonCV 检测调参技巧​；    
 
 

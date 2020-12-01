@@ -42,3 +42,4 @@ tags: 资源
 ## B 资源
 
 ## C 参考资料
+1. [多标签学习的新趋势](https://zhuanlan.zhihu.com/p/266749365)     

@@ -463,6 +463,9 @@ CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)
 - [yolo 小目标检测](https://github.com/avanetten/yolt)    
 [mmdetection](https://github.com/open-mmlab/mmdetection)    
 [a-PyTorch-Tutorial-to-Object-Detection](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection#training)     
+- [nanodet](https://github.com/RangiLyu/nanodet)    
+轻量级 anchor free 的检测网络，比 YOLO4-tiny 更快，模型更小；    
+arm 端 50m，cpu*4 200ms；1080 gpu 20ms；     
 
 #### c 总结
 [物体检测论文阅读路线图](https://mp.weixin.qq.com/s/X2ReSIU9Qq1OA3bywCNNig)，[hoya012](https://github.com/hoya012/deep_learning_object_detection)，[ECCV2018 目标检测](http://bbs.cvmart.net/topics/194/eccv2018-mu-biao-jian-ce-object-detection-suan-fa-zong-lan-bu-fen-han-dai-ma?from=groupmessage)    

@@ -30,7 +30,8 @@ category: [AI, NLP]
 
 # 附录
 ## A 推荐书籍
-
+1. Zhiyuan Liu 著. [Representation Learning for Natural Language Processing](https://link.springer.com/content/pdf/10.1007%2F978-981-15-5573-2.pdf)[M]. -. 2020.     
+2、3 章讲词和语义；4 章讲文本分类；7 章是知识图谱；     
 
 ## B 推荐资料
 1. [CMU Neural Nets for NLP 2018](http://www.phontron.com/class/nn4nlp2018/schedule.html)  

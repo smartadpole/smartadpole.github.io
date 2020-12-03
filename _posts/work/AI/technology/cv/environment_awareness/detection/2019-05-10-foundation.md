@@ -454,7 +454,8 @@ CoRL 2019 *2019-10-15* [paper](https://arxiv.org/abs/1910.06528)
 
 ## B 资源
 #### a 论文
-[amusi](https://github.com/amusi/awesome-object-detection)，[韩东](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)，[deep learning object detection](https://github.com/hoya012/deep_learning_object_detection)       
+- [amusi](https://github.com/amusi/awesome-object-detection)，[韩东](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)，[deep learning object detection](https://github.com/hoya012/deep_learning_object_detection)       
+- [hoya012](https://github.com/hoya012/deep_learning_object_detection)     
 
 #### b 代码
 - 数据增强   

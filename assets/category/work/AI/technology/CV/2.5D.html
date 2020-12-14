@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Point Cloud
-    zh:       点云
-    zh-Hans:  点云
-    zh-Hant:  点云
+    en:       2.5D
+    zh:       2.5D
+    zh-Hans:  2.5D
+    zh-Hant:  2.5D
 sidebar:
-    nav: 3D
+    nav: 2.5D
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "point_cloud" %}
+        {% if cat[0] == "2.5D" %}
         {% for post in cat[1] %}
         {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

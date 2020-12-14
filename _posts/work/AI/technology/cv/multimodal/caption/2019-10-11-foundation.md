@@ -5,7 +5,7 @@ date:   2019-10-11 15:40:40 +0800
 key: image-caption-foundation-20191011
 aside:
   toc: true
-category: [AI, CV, image_caption]
+category: [AI, CV, multimodal, image_caption]
 tags: 资源
 ---
 <span id='head'></span>  

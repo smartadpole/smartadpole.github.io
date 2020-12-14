@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Point Cloud
-    zh:       点云
-    zh-Hans:  点云
-    zh-Hant:  点云
+    en:       Multimodal Fusion
+    zh:       多模态融合
+    zh-Hans:  多模态融合
+    zh-Hant:  多模态融合
 sidebar:
-    nav: 3D
+    nav: multimodal
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "point_cloud" %}
+        {% if cat[0] == "multimodal_fusion" %}
         {% for post in cat[1] %}
         {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>

@@ -5,7 +5,7 @@ date:   2019-06-12 16:00:40 +0800
 key: vqa-foundation-20190612
 aside:
   toc: true
-category: [AI, CV, VQA]
+category: [AI, CV, multimodal, VQA]
 tags: 资源
 ---
 <span id='head'></span>  

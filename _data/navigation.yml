@@ -374,39 +374,13 @@ CV:
       - title:  超分辨率
         url:    /assets/category/work/AI/technology/CV/super_resolution.html
 
-  - title:      2.5D
+  - title:      扩展
     children:
-      - title:  光流估计
-        url:    /assets/category/work/AI/technology/CV/2.5D/optical_flow_estimation.html
-      - title:  深度估计
-        url:    /assets/category/work/AI/technology/CV/2.5D/depth_prediction.html
-
-  - title:      3D
-    children:
-      - title:  视角转换
-        url:    /assets/category/work/AI/technology/CV/3D/view_synthesis.html
-      - title:  三维重建
-        url:    /assets/category/work/AI/technology/CV/3D/3D_reconstruction.html
-      - title:  点云处理
-        url:    /assets/category/work/AI/technology/CV/3D/point_cloud.html
-      - title:  姿态估计
-        url:    /assets/category/work/AI/technology/CV/3D/pose_estimation.html
-      - title:  关键点检测
-        url:    /assets/category/work/AI/technology/CV/3D/key_point.html
-      - title:  标定
-        url:    /assets/category/work/AI/technology/CV/3D/calibration.html
-      - title:  视觉里程计
-        url:    /assets/category/work/AI/technology/CV/3D/visual_odometry.html
-      - title:  SLAM
-        url:    /assets/category/work/AI/technology/CV/3D/SLAM.html
-
-  - title:      跨模态
-    children:
-      - title:  图片描述
-        url:    /assets/category/work/AI/technology/CV/caption.html
-      - title:  视觉问答
-        url:    /assets/category/work/AI/technology/CV/vaq.html
-      - title:  多模态融合
+      - title:  2.5D
+        url:    /assets/category/work/AI/technology/CV/2.5D.html
+      - title:  3D
+        url:    /assets/category/work/AI/technology/CV/3D.html
+      - title:  跨模态
         url:    /assets/category/work/AI/technology/CV/multimodal.html
 
   - title:      专题
@@ -1866,3 +1840,57 @@ INTERVIEW:
     children:
       - title:  GAN
         url:    /ai/dl/gan/2019/04/10/issue.html
+
+2.5D:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/AI/technology/CV/cv.html
+  - title:      2.5D
+    children:
+      - title:  光流估计
+        url:    /assets/category/work/AI/technology/CV/2.5D/optical_flow_estimation.html
+      - title:  深度估计
+        url:    /assets/category/work/AI/technology/CV/2.5D/depth_prediction.html
+
+3D:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/AI/technology/CV/cv.html
+  - title:      3D
+    children:
+      - title:  视角转换
+        url:    /assets/category/work/AI/technology/CV/3D/view_synthesis.html
+      - title:  三维重建
+        url:    /assets/category/work/AI/technology/CV/3D/3D_reconstruction.html
+      - title:  姿态估计
+        url:    /assets/category/work/AI/technology/CV/3D/pose_estimation.html
+      - title:  关键点检测
+        url:    /assets/category/work/AI/technology/CV/3D/key_point.html
+      - title:  标定
+        url:    /assets/category/work/AI/technology/CV/3D/calibration.html
+      - title:  视觉里程计
+        url:    /assets/category/work/AI/technology/CV/3D/visual_odometry.html
+      - title:  SLAM
+        url:    /assets/category/work/AI/technology/CV/3D/SLAM.html
+  - title:      点云
+    children:
+      - title:  基础
+        url:    /assets/category/work/AI/technology/CV/3D/point_cloud/foundation.html
+      - title:  配准
+        url:    /assets/category/work/AI/technology/CV/3D/point_cloud/registration.html
+
+multimodal:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/AI/technology/CV/cv.html
+  - title:      跨模态
+    children:
+      - title:  图片描述
+        url:    /assets/category/work/AI/technology/CV/caption.html
+      - title:  视觉问答
+        url:    /assets/category/work/AI/technology/CV/vaq.html
+      - title:  多模态融合
+        url:    /assets/category/work/AI/technology/CV/multimodal.html

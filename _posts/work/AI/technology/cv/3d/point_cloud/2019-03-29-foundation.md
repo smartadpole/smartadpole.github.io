@@ -8,8 +8,10 @@ aside:
 category: [AI, CV, 3D, point_cloud]
 tags: 资源
 ---
+<span id='head'></span>  
 
 >**点云**：point cloud，是三维点的集合，只需记录物体所在的点的坐标；没有规律性的排列，因此无法套用卷积神经网络；高分辨率下，比较节省内存与运算量，也比较适合表示高分辨率的三维物体；  
+[点云处理概述](/ai/cv/3d/point_cloud/2020/12/14/review.html)    
 
 <!--more-->  
 
@@ -34,9 +36,8 @@ CVPR 2018 [Paper](https://arxiv.org/abs/1801.06761) | [Tensorflow](https://githu
 
 
 
-
 -------------------  
- End
+[End](#head)
 {:.warning}  
 
 

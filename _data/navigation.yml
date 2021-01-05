@@ -141,14 +141,7 @@ Software:
 
 
 AI:
-  - title:      图像处理
-    children:
-      - title:  理论
-        url:    /assets/category/work/AI/theory/image_process/image_process.html
-      - title:  opencv
-        url:    /assets/category/work/AI/theory/image_process/opencv.html
-
-  - title:      人工智能
+  - title:      技术理论
     children:
       - title:  人工智能
         url:    /assets/category/work/AI/theory/AI_.html
@@ -156,12 +149,12 @@ AI:
         url:    /assets/category/work/AI/theory/data_mining.html
       - title:  机器学习
         url:    /assets/category/work/AI/theory/ml.html
-      - title:  强化学习
-        url:    /assets/category/work/AI/theory/reinforcement_learning.html
       - title:  深度学习
         url:    /assets/category/work/AI/theory/dl.html
+      - title:  强化学习
+        url:    /assets/category/work/AI/theory/reinforcement_learning.html
 
-  - title:      技术方向
+  - title:      技术实践
     children:
       - title:  计算机视觉
         url:    /assets/category/work/AI/technology/CV/cv.html
@@ -171,30 +164,34 @@ AI:
         url:    /assets/category/work/AI/technology/audio/audio.html
       - title:  视频分析
         url:    /assets/category/work/AI/technology/video/video.html
-      - title:  自动驾驶
-        url:    /assets/category/work/AI/auto_drive/autodrive.html
 
-  - title:      工程
+  - title:
     children:
     - title:  深度学习工具
       url:    /assets/category/work/AI/tool/dl_framework.html
     - title:  嵌入式设备
       url:    /assets/category/work/AI/tool/device.html
 
-  - title:      应用
+  - title:      行业
     children:
       - title:  社会公益
-        url:    /assets/category/work/AI/application/social_good/social_good.html
+        url:    /assets/category/work/AI/industry/social_good/social_good.html
       - title:  金融
-        url:    /assets/category/work/AI/application/financial/financial.html
+        url:    /assets/category/work/AI/industry/financial/financial.html
+      - title:  自动驾驶
+        url:    /assets/category/work/AI/industry/autodrive/autodrive.html
 
   - title:
     children:
       - title:  商业案例
         url:    /assets/category/work/AI/project/project.html
 
-  - title:      行进
+  - title:      基础
     children:
+      - title:  数字图像处理
+        url:    /assets/category/work/AI/theory/image_process/image_process.html
+      - title:  opencv
+        url:    /assets/category/work/AI/theory/image_process/opencv.html
       - title:  论文阅读
         url:    /assets/category/work/AI/study/paper_reading.html
       - title:  论文实践
@@ -1469,21 +1466,21 @@ AutoDrive:
   - title:	基础
     children:
       - title:  硬件
-        url:    /assets/category/work/AI/auto_drive/hardware.html
+        url:    /assets/category/work/AI/industry/autodrive/hardware.html
       - title:  传感器标定
-        url:    /assets/category/work/AI/auto_drive/calibration.html
+        url:    /assets/category/work/AI/industry/autodrive/calibration.html
 
   - title:	环境感知
     children:
       - title:  动态目标检测与跟踪
-        url:    /assets/category/work/AI/auto_drive/dynamic_object.html
+        url:    /assets/category/work/AI/industry/autodrive/dynamic_object.html
       - title:  静态目标检测
-        url:    /assets/category/work/AI/auto_drive/static_object.html
+        url:    /assets/category/work/AI/industry/autodrive/static_object.html
 
   - title:	定位导航与建图
     children:
       - title:  SLAM
-        url:    /assets/category/work/AI/auto_drive/slam.html
+        url:    /assets/category/work/AI/industry/autodrive/slam.html
 
 Traffic:
   - title:

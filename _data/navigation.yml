@@ -140,7 +140,6 @@ Software:
         url:    /assets/category/work/software/application/qt.html
 
 
-
 AI:
   - title:      图像处理
     children:
@@ -172,6 +171,8 @@ AI:
         url:    /assets/category/work/AI/technology/audio/audio.html
       - title:  视频分析
         url:    /assets/category/work/AI/technology/video/video.html
+      - title:  自动驾驶
+        url:    /assets/category/work/AI/auto_drive/autodrive.html
 
   - title:      工程
     children:
@@ -1459,11 +1460,37 @@ VEHICLE:
       - title:  车辆重识别
         url:    /assets/category/work/AI/technology/CV/vehicle/reid.html
 
+AutoDrive:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/AI/AI.html
+
+  - title:	基础
+    children:
+      - title:  硬件
+        url:    /assets/category/work/AI/auto_drive/hardware.html
+      - title:  传感器标定
+        url:    /assets/category/work/AI/auto_drive/calibration.html
+
+  - title:	环境感知
+    children:
+      - title:  动态目标检测与跟踪
+        url:    /assets/category/work/AI/auto_drive/dynamic_object.html
+      - title:  静态目标检测
+        url:    /assets/category/work/AI/auto_drive/static_object.html
+
+  - title:	定位导航与建图
+    children:
+      - title:  SLAM
+        url:    /assets/category/work/AI/auto_drive/slam.html
+
 Traffic:
   - title:
     children:
       - title:  上一层
         url:    /assets/category/work/AI/technology/CV/cv.html
+
   - title:	交通监管
     children:
       - title:  车辆识别

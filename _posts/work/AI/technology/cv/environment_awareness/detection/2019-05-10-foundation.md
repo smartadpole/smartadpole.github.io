@@ -135,10 +135,21 @@ AAAI 2018 *2018-04-27* [paper](http://www.skicyyu.org/Paper/RFCN_plus_plus.pdf)
 1. [M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network](http://cn.arxiv.org/abs/1811.04533)    
 AAAI 2019 *2018-11-12* [paper](https://arxiv.org/abs/1811.04533) | [pytorch](https://github.com/qijiezhao/M2Det)-official    
 
+1. [ThunderNet: Towards Real-time Generic Object Detection](http://cn.arxiv.org/abs/1903.11752)    
+*2019-03-28* [paper](https://arxiv.org/abs/1903.11752)  | [paper with code](https://paperswithcode.com/paper/thundernet-towards-real-time-generic-object) | [pytorch](https://github.com/ouyanghuiyu/Thundernet_Pytorch) | [pytorch](https://github.com/saswat0/Thundernet-Object-Detection)
+ARM 端首个实时，接近 25fps；    
+
+1. [Libra R-CNN: Towards Balanced Learning for Object Detection](http://cn.arxiv.org/abs/1904.02701)   
+CVPR 2019 *2019-04-04* [paper](https://arxiv.org/abs/1904.02701) | [paper with code](https://paperswithcode.com/paper/libra-r-cnn-towards-balanced-learning-for#code) | [mmdetection](A Simple Pooling-Based Design for Real-Time Salient Object Detection)
+
 
 1. [xYOLO: A Model For Real-Time Object Detection In Humanoid Soccer On Low-End Hardware](https://arxiv.org/abs/1910.03159)    
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03159)     
 TinyYOLO 上再做改进，速度更快；同时公布了一个足球数据集；       
+
+1. [EfficientDet: Scalable and Efficient Object Detection](http://cn.arxiv.org/abs/1911.09070)     
+CVPR 2020 *2019-11-20* [paper](https://arxiv.org/abs/1911.09070) | [tensorflow](https://github.com/google/automl/tree/master/efficientdet)-official | [pytorch](https://github.com/CVUsers/Smart-Retail-By-Efficientdet)-新零售 | [paper with code](https://paperswithcode.com/paper/efficientdet-scalable-and-efficient-object) | [pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) | [pytorch](https://github.com/toandaominh1997/EfficientDet.Pytorch) | [pytorch tvm](https://github.com/murdockhou/Yet-Another-EfficientDet-Pytorch-Convert-ONNX-TVM) | [pytorch tracker](https://github.com/fgabel/EfficientDet-DeepSORT-Tracker)        
+
 
 1. [YOLOv4: Optimal Speed and Accuracy of Object Detection](http://cn.arxiv.org/abs/2004.10934)     
 *2020-04-23* [paper](https://arxiv.org/abs/2004.10934) | [darknet](https://github.com/AlexeyAB/darknet) | [pytorch](https://github.com/ultralytics/yolov3)-app | [如何训练YOLOV4与YOLOV5](https://chtseng.wordpress.com/2020/06/27/%E5%A6%82%E4%BD%95%E8%A8%93%E7%B7%B4yolov4%E8%88%87yolov5/)       
@@ -185,6 +196,10 @@ CVPR 2017 *2017-07-06* [paper](https://arxiv.org/abs/1707.01691) | [tensorflow](
 1. [Cascade R-CNN: Delving into High Quality Object Detection](http://cn.arxiv.org/abs/1712.00726)  
 CVPR 2018 *2017-12-03* [paper](https://arxiv.org/abs/1712.00726) | [caffe](https://github.com/zhaoweicai/cascade-rcnn)   
 基于two-stage detector；Cascade R-CNN是R-CNN的multi-stage延伸，由一系列随着IOU临界值增加而训练的检测器构成，从而对close false positives更具有选择性；R-CNN阶段的cascade是按顺序训练的，使用一个阶段的输出来训练下一阶段；类似于boostrapping methods，不同点是Cascade R-CNN的重采样过程并不旨在mine hard negatives，而是通过调整bounding boxes，每个阶段的目的都是为了找到一组好的false positive来训练下一阶段​
+
+1. [Path Aggregation Network for Instance Segmentation](http:cn.//arxiv.org/abs/1803.01534)    
+CVPR 2018 *2018-03-05* [paper](https://arxiv.org/abs/1803.01534) | [Detection](https://github.com/ShuLiu1993/PANet)-official | [paper with code](https://paperswithcode.com/paper/path-aggregation-network-for-instance) | [keras](https://github.com/YuefeiZ/PANet)        
+MaskRCNN 的扩展，处理了 FPN 和自适应 ROI；    
 
 1. [Domain Adaptive Faster R-CNN for Object Detection in the Wild](http://cn.arxiv.org/abs/1803.03243)  
 *2018-03-08* [paper](https://arxiv.org/abs/1803.03243)   
@@ -389,6 +404,15 @@ P-GAN
 1. [Quantization Mimic: Towards Very Tiny CNN for Object Detection](http://cn.arxiv.org/abs/1805.02152)  
 ​ECCV 2018 *2017-05-15* 香港中文，商汤 [paper](https://arxiv.org/abs/1805.02152)    
 检测，知识蒸馏，架构混合；​   
+
+1. [NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection](http://cn.arxiv.org/abs/1904.07392)    
+CVPR 2019 *2019-04-16* [paper](https://arxiv.org/abs/1904.07392) | [tensorflow](https://github.com/tensorflow/tpu/tree/master/models/official/detection)     
+
+
+1. [Deep High-Resolution Representation Learning for Visual Recognition](http://cn.arxiv.org/abs/1908.07919)    
+*2019-08-20* [paper](https://arxiv.org/abs/1908.07919) | [pytorch](https://github.com/HRNet)-official | [paper with code](https://paperswithcode.com/paper/190807919)      
+HRNet    
+
 
 ## 4.5 遮挡
 1. [RRC: Accurate Single Stage Detector Using Recurrent Rolling Convolution](http://cn.arxiv.org/abs/1704.05776)   

@@ -7,8 +7,11 @@ aside:
   toc: true
 category: [tool, blog]
 ---
-
+<span id='head'></span>
 ><http://feed43.com/>  
+
+<!--more-->
+
 
 Feed43 DIY RSS 源非常简单；    
 
@@ -67,6 +70,9 @@ Edit URL: <http://feed43.com/feed.html?name=2738718687802442> 用于修改 RSS �
   在 RSS 源的编辑页面底端，「preview」之后，出现三个按钮  
   <img src="/assets/images/tools/work/feed43_rename.png">  
 
+-------------------  
+[End](#head)
+{:.warning}  
 
 ## 附录
 ### A 推荐资料

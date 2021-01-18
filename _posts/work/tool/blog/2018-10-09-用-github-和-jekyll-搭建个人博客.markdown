@@ -7,6 +7,9 @@ aside:
   toc: true
 category: [tool, blog]
 ---
+<span id='head'></span>
+
+<!--more-->
 
 
 # 1 安装
@@ -53,9 +56,8 @@ writing…… :ghost:
 
 
 
-
 -------------------  
- End
+[End](#head)
 {:.warning}  
 
 

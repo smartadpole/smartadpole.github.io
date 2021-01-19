@@ -479,6 +479,12 @@ CVPR 2018 *2017-11-30* [paper](https://arxiv.org/abs/1711.11575) | [mxnet](https
 在检测过程中可以通过利用图像中 object 之间的相互关系或者叫图像内容（context）来优化检测效果，这种关系既包括相对位置关系也包括图像特征关系​；   
 
 
+#### 4.3.2 损失函数
+1. [Generalized Intersection over Union: A Metric and A Loss for Bounding Box Regression](https://arxiv.org/abs/1902.09630)     
+*2019-02-25* CVPR 2019 [paper](https://arxiv.org/abs/1902.09630)    
+GIoU 做 loss；好像没啥提升，1%；     
+
+
 [训练](/ai/dl/foundation/2019/05/20/foundation.html#322-检测)
 
 > 其他   

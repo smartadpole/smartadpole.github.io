@@ -142,6 +142,10 @@ ARM 端首个实时，接近 25fps；
 1. [Libra R-CNN: Towards Balanced Learning for Object Detection](http://cn.arxiv.org/abs/1904.02701)   
 CVPR 2019 *2019-04-04* [paper](https://arxiv.org/abs/1904.02701) | [paper with code](https://paperswithcode.com/paper/libra-r-cnn-towards-balanced-learning-for#code) | [mmdetection](A Simple Pooling-Based Design for Real-Time Salient Object Detection)
 
+1. [FCOS: Fully Convolutional One-Stage Object Detection](http://cn.arxiv.org/abs/1904.01355)    
+*2019-04-02* [paper](https://arxiv.org/abs/1904.01355) | [pytorch](https://github.com/tianzhi0549/FCOS/)-official     
+FCOS    
+有无 anchor?    
 
 1. [xYOLO: A Model For Real-Time Object Detection In Humanoid Soccer On Low-End Hardware](https://arxiv.org/abs/1910.03159)    
 *2019-10-08* [paper](https://arxiv.org/abs/1910.03159)     
@@ -156,6 +160,11 @@ CVPR 2020 *2019-11-20* [paper](https://arxiv.org/abs/1911.09070) | [tensorflow](
 
 1. YOLOv5      
 *2020-06-10* [pytorch](https://github.com/ultralytics/yolov5) | [一些讨论](https://www.jiqizhixin.com/articles/2020-07-10-6)      
+
+1. [OneNet: Towards End-to-End One-Stage Object Detection](http://cn.arxiv.org/abs/2012.05780)    
+*2020-12-10* [paper](https://arxiv.org/abs/2012.05780) | [pytorch](https://github.com/PeizeSun/OneNet)-official       
+重新定义了 框与真值的绑定策略；     
+OneNet    
 
 
 ## 3.2 两阶段
@@ -207,6 +216,11 @@ MaskRCNN 的扩展，处理了 FPN 和自适应 ROI；
 1. [Light-Weight RetinaNet for Object Detection](http://cn.arxiv.org/abs/1905.10011)   
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10011)   
 
+1. [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](http://cn.arxiv.org/abs/2011.12450)    
+*2020-11-25* [paper](https://arxiv.org/abs/2011.12450) | [pytorch](https://github.com/PeizeSun/SparseR-CNN)      
+让 anchor 稀疏；    
+
+
 ## 3.3 Anchor free
 
 1. [A closer look: Small object detection in faster R-CNN]()   
@@ -216,18 +230,42 @@ https://blog.csdn.net/zhangjunhit/article/details/78900298
 1. [Scale-aware Pixel-wise Object Proposal Networks](http://cn.arxiv.org/abs/1601.04798)      
 *2016-01-19* [paper](https://arxiv.org/abs/1601.04798)     
 [2015.1 - 2015.7] 提出Scale-aware Pixel-wise Object Proposal（SPOP）网络，可以生成具有高召回率和平均最佳重叠（ABO）的proposals，即使对于小目标也是如此；另外，引入了一个类似分段的像素定位网络来密集预测每个像素的对象坐标，并开发了一种尺度感知对象定位策略，该策略将来自大尺寸和小尺寸网络的预测与加权机制相结合，以提高各种对象尺寸的坐标预测精度​
-https://arxiv.org/abs/1601.04798
 
-## 3.4 无类别
+1. [End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544)   
+*2020-12-07* [paper](https://arxiv.org/abs/2012.03544) | [pytorch](https://github.com/Megvii-BaseDetection/DeFCN)-official       
+端到端，无需人工设计 anchor 和 nms；     
+
+## 3.4 Transformer
+1. [End-to-End Object Detection with Transformers](http://cn.arxiv.org/abs/2005.12872)     
+*2020-05-26*  facebook [paper](https://arxiv.org/abs/2005.12872) | [pytorch](https://github.com/facebookresearch/detr) | [blog](https://zhuanlan.zhihu.com/p/48508221)      
+DETR    
+
+1. [Deformable DETR: Deformable Transformers for End-to-End Object Detection](http://cn.arxiv.org/abs/2010.04159)    
+*2020-10-08* 商汤 [paper](https://arxiv.org/abs/2010.04159)    
+形变卷积提速，提升小物体精度；     
+
+1. [DETR for Pedestrian Detection](http://cn.arxiv.org/abs/2012.06785)    
+*2020-12-12* [paper](https://arxiv.org/abs/2012.06785)    
+改进了 transformer 应对遮挡问题的缺陷；   
+
+1. [Toward Transformer-Based Object Detection](http://cn.arxiv.org/abs/2012.09958)    
+*2020-12-17* [paper](https://arxiv.org/abs/2012.09958)    
+
+
+> 无类别    
+
 1. [Learning Objectness from Sonar Images for Class-Independent Object Detection](http://cn.arxiv.org/abs/1907.00734)   
 *2019-07-01* [paper](https://arxiv.org/abs/1907.00734) | [github](https://github.com/mvaldenegro/marine-debris-fls-datasets)      
+没有类别信息的情况下，检测物体；通过输出大量候选框的方式进行物体检出；     
 
-## 3.5 基于显著性
+> 基于显著性    
+
 1. [Location, location, location: Satellite image-based real-estate appraisal](http://cn.arxiv.org/abs/2006.11406)  
  *2020-06-04* [paper](https://arxiv.org/abs/2006.11406)     
 卫星图像购房价格关系评估；   
 
-## 3.6 其他
+> 其他    
+
 <span id="deformable"> </span>
 1. [Deformable Convolutional Networks](http://cn.arxiv.org/abs/1703.06211)  
 ICCV 2017 oral *2017-03-17* 代季锋 [paper]( https://arxiv.org/abs/1703.06211) | [mxnet](https://github.com/msracver/Deformable-ConvNets) | [blog](https://www.jianshu.com/p/206e7b0cb433)     
@@ -357,7 +395,25 @@ https://mp.weixin.qq.com/s/4T90Lac_1GX2uy8xtWb1Ng
 
 
 # 4 技术点
-## 4.1 NMS
+
+## 4.1 基本配置
+#### 4.1.1 backbone
+
+1. [DetNet: A Backbone network for Object Detection](http://cn.arxiv.org/abs/1804.06215)  
+ECCV 2018 *2018-04-17* [paper](https://arxiv.org/abs/1804.06215)  | [pytorch](https://github.com/guoruoqian/DetNet_pytorch)     
+分析了分类网络用于检测的弊端；较多的下采样降低了检测性能，本文对此设计了新的检测骨干网络 DetNet；​    
+DetNet    
+
+#### 4.1.2 Anchors
+1. [MetaAnchor: Learning to Detect Objects with Customized Anchors](http://cn.arxiv.org/pdf/1807.00980v2)   
+​NIPS 2018 *2018-07* 旷视科技 & 复旦大学 [Paper](https://arxiv.org/abs/1807.00980)   
+动态 anchor；    
+
+1. [Region Proposal by Guided Anchoring](http://cn.arxiv.org/abs/1901.03278)   
+*2019-01* 香港中文大学-商汤联合实验室&Amazon Rekognition&南洋理工大学 [Paper](https://arxiv.org/abs/1901.03278) | [mmdetection](https://github.com/open-mmlab/mmdetection)   
+**Guided Anchoring**:​融合Anchor与关键点   
+
+#### 4.1.3 NMS
 1. NMS   
 FasterRCNN 中有对其效果进行分析；   
 
@@ -372,16 +428,8 @@ CVPR 2019 *2018-09-23* [Paper](https://arxiv.org/abs/1809.08545) | [code](https:
 ECCV 2018 *2018-07-30* [Paper](https://arxiv.org/abs/1807.11590)   
 **NMS Network**：设计了 IoU-Net 用来估计 proposal 与其对应 ground-truth 框的 IoU 值，提出了新的边框回归算法以及 NMS 的改进算法；[解读](https://zhuanlan.zhihu.com/p/43590558)   
 
-## 4.2 Anchors
-1. [MetaAnchor: Learning to Detect Objects with Customized Anchors](http://cn.arxiv.org/pdf/1807.00980v2)   
-​NIPS 2018 *2018-07* 旷视科技 & 复旦大学 [Paper](https://arxiv.org/abs/1807.00980)   
-动态 anchor；    
-
-1. [Region Proposal by Guided Anchoring](http://cn.arxiv.org/abs/1901.03278)   
-*2019-01* 香港中文大学-商汤联合实验室&Amazon Rekognition&南洋理工大学 [Paper](https://arxiv.org/abs/1901.03278) | [mmdetection](https://github.com/open-mmlab/mmdetection)   
-**Guided Anchoring**:​融合Anchor与关键点   
-
-## 4.3 类别不均衡
+## 4.2 难点
+#### 4.2.1 类别不均衡
 1. [Team PFDet's Methods for Open Images Challenge 2019](http://cn.arxiv.org/abs/1910.11534)    
 *2019-10-25* [paper](https://arxiv.org/abs/1910.11534)    
 针对类别不均衡和联合标注问题做了处理；竞赛的 3、4 名；      
@@ -391,7 +439,7 @@ ECCV 2018 *2018-07-30* [Paper](https://arxiv.org/abs/1807.11590)
 RetinaNet    
 
 
-## 4.4 小目标
+#### 4.2.3 小目标
 
 1. [Detecting Small Signs from Large Images](http://cn.arxiv.org/abs/1705.08574)  
 *2017-06-26* [paper](https://arxiv.org/abs/1705.08574)     
@@ -413,34 +461,28 @@ CVPR 2019 *2019-04-16* [paper](https://arxiv.org/abs/1904.07392) | [tensorflow](
 *2019-08-20* [paper](https://arxiv.org/abs/1908.07919) | [pytorch](https://github.com/HRNet)-official | [paper with code](https://paperswithcode.com/paper/190807919)      
 HRNet    
 
-
-## 4.5 遮挡
-1. [RRC: Accurate Single Stage Detector Using Recurrent Rolling Convolution](http://cn.arxiv.org/abs/1704.05776)   
-CVPR 2017 *2017-04-19* [paper](https://arxiv.org/abs/1704.05776) | [caffe](https://github.com/xiaohaoChen/rrc_detection)        
-
-## 4.6 物体间关联
-1. [Relation Networks for Object Detection](http://cn.arxiv.org/abs/1711.11575)  
-CVPR 2018 *2017-11-30* [paper](https://arxiv.org/abs/1711.11575) | [mxnet](https://github.com/msracver/Relation-Networks-for-Object-Detection)-official   
-在检测过程中可以通过利用图像中 object 之间的相互关系或者叫图像内容（context）来优化检测效果，这种关系既包括相对位置关系也包括图像特征关系​；   
-
-## 4.7 backbone
-
-1. [DetNet: A Backbone network for Object Detection](http://cn.arxiv.org/abs/1804.06215)  
-ECCV 2018 *2018-04-17* [paper](https://arxiv.org/abs/1804.06215)  | [pytorch](https://github.com/guoruoqian/DetNet_pytorch)     
-分析了分类网络用于检测的弊端；较多的下采样降低了检测性能，本文对此设计了新的检测骨干网络 DetNet；​    
-DetNet    
-
-
-## 4.8  速度
+#### 4.2.4  性能
 
 1. [Pelee: A Real-Time Object Detection System on Mobile Devices](http://cn.arxiv.org/abs/1804.06882)  
 NIPS 2018 [paper](https://arxiv.org/abs/1804.06882) | [caffe](https://github.com/Robert-JunWang/Pelee)     
 适合移动端的检测网络：​轻量、高效的目标检测网络；    
 
 
-## 4.9 [训练](/ai/dl/foundation/2019/05/20/foundation.html#322-检测)
+#### 4.2.5 遮挡
+1. [RRC: Accurate Single Stage Detector Using Recurrent Rolling Convolution](http://cn.arxiv.org/abs/1704.05776)   
+CVPR 2017 *2017-04-19* [paper](https://arxiv.org/abs/1704.05776) | [caffe](https://github.com/xiaohaoChen/rrc_detection)        
 
-## 4.10 其他
+## 4.3 创新
+#### 4.3.1 物体间关联
+1. [Relation Networks for Object Detection](http://cn.arxiv.org/abs/1711.11575)  
+CVPR 2018 *2017-11-30* [paper](https://arxiv.org/abs/1711.11575) | [mxnet](https://github.com/msracver/Relation-Networks-for-Object-Detection)-official   
+在检测过程中可以通过利用图像中 object 之间的相互关系或者叫图像内容（context）来优化检测效果，这种关系既包括相对位置关系也包括图像特征关系​；   
+
+
+[训练](/ai/dl/foundation/2019/05/20/foundation.html#322-检测)
+
+> 其他   
+
 1. [MegDet: A Large Mini-Batch Object Detector](http://cn.arxiv.org/abs/1711.07240)     
 CVPR 2018 *2017-11-20* [paper](https://arxiv.org/abs/1711.07240)    
 mini batch 引发的问题；warmup，GPU BN；     
@@ -457,7 +499,8 @@ CVPR 2018 *2017-11-28* [paper](https://arxiv.org/abs/1711.10398)
 居民区动物检测；文章分析了自然场景动物检测无法适用于居住场景；最终使用合成数据集解决了该问题；demo 中有较多标注工具；    
 
 
-# 6 3D
+>  3D    
+
 1. [Patch Refinement -- Localized 3D Object Detection](http://cn.arxiv.org/abs/1910.04093)     
 NIPS 2019 workshop *2019-10-09* [paper](https://arxiv.org/abs/1910.04093)    
 

@@ -297,6 +297,8 @@ DL:
         url:    /assets/category/work/AI/theory/dl/automl.html
       - title:  胶囊网络
         url:    /assets/category/work/AI/theory/dl/capsule.html
+      - title:  Transformer
+        url:    /assets/category/work/AI/theory/dl/transformer.html
 
   - title:
     children:

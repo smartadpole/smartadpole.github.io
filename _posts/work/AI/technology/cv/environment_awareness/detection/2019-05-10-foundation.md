@@ -217,7 +217,7 @@ MaskRCNN 的扩展，处理了 FPN 和自适应 ROI；
 *2019-05-24* [paper](https://arxiv.org/abs/1905.10011)   
 
 1. [Sparse R-CNN: End-to-End Object Detection with Learnable Proposals](http://cn.arxiv.org/abs/2011.12450)    
-*2020-11-25* [paper](https://arxiv.org/abs/2011.12450) | [pytorch](https://github.com/PeizeSun/SparseR-CNN)      
+*2020-11-25* [paper](https://arxiv.org/abs/2011.12450) | [pytorch](https://github.com/PeizeSun/SparseR-CNN)-official | [blog](https://zhuanlan.zhihu.com/p/326176927)        
 让 anchor 稀疏；    
 
 

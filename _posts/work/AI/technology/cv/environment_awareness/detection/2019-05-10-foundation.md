@@ -231,9 +231,15 @@ https://blog.csdn.net/zhangjunhit/article/details/78900298
 *2016-01-19* [paper](https://arxiv.org/abs/1601.04798)     
 [2015.1 - 2015.7] 提出Scale-aware Pixel-wise Object Proposal（SPOP）网络，可以生成具有高召回率和平均最佳重叠（ABO）的proposals，即使对于小目标也是如此；另外，引入了一个类似分段的像素定位网络来密集预测每个像素的对象坐标，并开发了一种尺度感知对象定位策略，该策略将来自大尺寸和小尺寸网络的预测与加权机制相结合，以提高各种对象尺寸的坐标预测精度​
 
+1. [AutoAssign: Differentiable Label Assignment for Dense Object Detection](http://cn.arxiv.org/abs/2007.03496)    
+*2020-07-07* 旷视 [paper](https://arxiv.org/abs/2007.03496) | [pytorch](https://github.com/Megvii-BaseDetection/AutoAssign)-official        
+AutoAssign    
+用于密集目标检测，优于当时的所有一阶段检测器，如 ATSS、FreeAnchor 和FCOS 等；高了 2% 左右；      
+
 1. [End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544)   
-*2020-12-07* [paper](https://arxiv.org/abs/2012.03544) | [pytorch](https://github.com/Megvii-BaseDetection/DeFCN)-official       
-端到端，无需人工设计 anchor 和 nms；     
+*2020-12-07* 旷视科技，西安交通大学 [paper](https://arxiv.org/abs/2012.03544) | [pytorch](https://github.com/Megvii-BaseDetection/DeFCN)-official       
+DeFCN     
+集于 FCOS，使用全卷积，就无需 anchor 和 NMS，做到了端到端；受 DETR 启发，设计了 POTO；精度与 FCOS 相当；速度差不多；             
 
 ## 3.4 Transformer
 1. [End-to-End Object Detection with Transformers](http://cn.arxiv.org/abs/2005.12872)     
@@ -241,8 +247,8 @@ https://blog.csdn.net/zhangjunhit/article/details/78900298
 DETR    
 
 1. [Deformable DETR: Deformable Transformers for End-to-End Object Detection](http://cn.arxiv.org/abs/2010.04159)    
-*2020-10-08* 商汤 [paper](https://arxiv.org/abs/2010.04159)    
-形变卷积提速，提升小物体精度；     
+*2020-10-08* 商汤, 中科大, 港中文 [paper](https://arxiv.org/abs/2010.04159)    
+DETR 存在收敛速度慢的问题，注意力可以关注参考点附近的元素；形变卷积提升了训来速度，降到 1/10，并提升小物体精度；     
 
 1. [DETR for Pedestrian Detection](http://cn.arxiv.org/abs/2012.06785)    
 *2020-12-12* [paper](https://arxiv.org/abs/2012.06785)    

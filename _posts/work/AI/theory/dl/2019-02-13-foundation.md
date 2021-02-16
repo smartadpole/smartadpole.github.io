@@ -65,21 +65,8 @@ tags: 资源
   - 因技术限制，作者一栏仅列出一作；  
   <img src="/assets/images/AI/dl/rss_diy.png" />  
 
-| 牛人 |  DIY Arxiv 订阅源 |
-| ---  | --- |
-| [Geoffrey Hinton](https://arxiv.org/search/cs?query=Hinton%2CGeoffrey&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/8816051641082211.xml> |  
-| [Yann LeCun](https://arxiv.org/search/cs?query=LeCun%2CYann&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/5512717073204631.xml> |  
-| [Yoshua Bengio](https://arxiv.org/search/cs?query=Bengio%2CYoshua&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/5880838075107567.xml> |  
-| [Andrej Karpathy]( https://arxiv.org/search/cs?query=Karpathy%2CAndrej&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/7414637034600352.xml> |  
-| [andrew Y ng](https://arxiv.org/search/cs?query=andrew+Y.+ng&searchtype=all&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/2800186250250146.xml> |  
-| [Richard Socher](https://arxiv.org/search/cs?query=Socher%2CRichard&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/5541831443342470.xml> |  
-| [Tomas Mikolov](https://arxiv.org/search/cs?query=Mikolov%2CTomas&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/2830160105833150.xml> |  
-| [Oriol Vinyals](https://arxiv.org/search/cs?query=Vinyals%2COriol&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/1686532321280024.xml> |  
-| [Percy Liang](https://arxiv.org/search/cs?query=Liang%2CPercy&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/4444260864411630.xml> |  
-| [Jason Weston](https://arxiv.org/search/cs?query=Weston%2CJason&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/3183663186712823.xml> |  
-| [Hang Li](https://arxiv.org/search/cs?query=Li%2CHang&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/7442140615102018.xml> |  
-| [Tie-Yan Liu](https://arxiv.org/search/cs?query=Liu%2CTie-Yan&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/1141311574854217.xml> |  
-| [Mu Li](https://arxiv.org/search/cs?query=Li%2CMu&searchtype=author&abstracts=show&order=-submitted_date&size=200)  | <http://feed43.com/7072005718068783.xml> |  
+**牛人**  
+[Geoffrey Hinton](https://www.cs.toronto.edu/~hinton/) | [arxiv](https://arxiv.org/search/cs?query=Hinton%2CGeoffrey&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Yann LeCun](https://arxiv.org/search/cs?query=LeCun%2CYann&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Yoshua Bengio](https://arxiv.org/search/cs?query=Bengio%2CYoshua&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Andrej Karpathy]( https://arxiv.org/search/cs?query=Karpathy%2CAndrej&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[andrew Y ng](https://arxiv.org/search/cs?query=andrew+Y.+ng&searchtype=all&abstracts=show&order=-submitted_date&size=200)；[Richard Socher](https://arxiv.org/search/cs?query=Socher%2CRichard&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Tomas Mikolov](https://arxiv.org/search/cs?query=Mikolov%2CTomas&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Oriol Vinyals](https://arxiv.org/search/cs?query=Vinyals%2COriol&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Percy Liang](https://arxiv.org/search/cs?query=Liang%2CPercy&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Jason Weston](https://arxiv.org/search/cs?query=Weston%2CJason&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Hang Li](https://arxiv.org/search/cs?query=Li%2CHang&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Tie-Yan Liu](https://arxiv.org/search/cs?query=Liu%2CTie-Yan&searchtype=author&abstracts=show&order=-submitted_date&size=200)；[Mu Li](https://arxiv.org/search/cs?query=Li%2CMu&searchtype=author&abstracts=show&order=-submitted_date&size=200)
 
 - 知乎专栏相关链接本身就可作为 RSS 源进行订阅；
 - 「feed43」官方有个协议我没看太懂，就是说不让用制作好的源盈利；如果有一天被勒令停止分享，那么蝌蚪会及时撤销相关链接；  

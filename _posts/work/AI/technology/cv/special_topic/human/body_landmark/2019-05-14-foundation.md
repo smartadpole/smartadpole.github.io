@@ -24,12 +24,15 @@ tags: 资源
 CVPR 2018 *2018-03-12* [paper](https://arxiv.org/abs/1803.04108) | [pytorch](https://github.com/D-X-Y/landmark-detection)           
 GAN；   
 
-# 4 人体
+# 4 手掌
+
+
+# 5 人体
 1. [TRB: A Novel Triplet Representation for Understanding 2D Human Body](http://cn.arxiv.org/abs/1910.11535)    
 ICCV 2019 *2019-10-25* [paper](https://arxiv.org/abs/1910.11535)    
 
-# 5 应用
-## 5.1 [医疗诊断](/ai/cv/medical/2019/05/23/foundation.html#5-关键点)
+# 6 应用
+## 6.1 [医疗诊断](/ai/cv/medical/2019/05/23/foundation.html#5-关键点)
 
 -------------------  
 [End](#head)
@@ -38,3 +41,6 @@ ICCV 2019 *2019-10-25* [paper](https://arxiv.org/abs/1910.11535)
 
 # 附录
 ## A 参考资料
+
+## B 推荐资料
+1. [pose 汇总](https://github.com/xar47x/pose)    

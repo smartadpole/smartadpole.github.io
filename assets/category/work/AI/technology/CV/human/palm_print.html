@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       palm print
+    zh:       掌纹识别
+    zh-Hans:  掌纹识别
+    zh-Hant:  掌纹识别
+sidebar:
+    nav: Human
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "palm_print" %}
+        {% for post in cat[1] %}
+        {{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        <br>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

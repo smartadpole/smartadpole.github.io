@@ -1386,6 +1386,13 @@ Human:
       - title:  上一层
         url:    /assets/category/work/AI/technology/CV/cv.html
 
+
+
+  - title:	生物识别
+    children:
+      - title:  掌纹识别
+        url:    /assets/category/work/AI/technology/CV/human/palm_print.html
+
   - title:	静态
     children:
       - title:  人体检测

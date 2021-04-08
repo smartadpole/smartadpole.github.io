@@ -34,3 +34,5 @@ tags: 资源
 # 附录
 ## A 参考资料
 1. ChanChiChoi. awesome-Face_Recognition[EB/OL]. <https://github.com/ChanChiChoi/awesome-Face_Recognition>. 2018-12-04/2019-07-11.    
+
+1. 深度学习思考者. 深度学习数据集（二）[EB/OL]. <https://cloud.tencent.com/developer/article/1011183>. 2018-01-02/2021-03-28.    

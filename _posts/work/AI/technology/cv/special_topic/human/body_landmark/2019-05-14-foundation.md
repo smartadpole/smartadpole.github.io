@@ -44,3 +44,7 @@ ICCV 2019 *2019-10-25* [paper](https://arxiv.org/abs/1910.11535)
 
 ## B 推荐资料
 1. [pose 汇总](https://github.com/xar47x/pose)    
+
+## C 数据集
+
+[CMU Hands from Panoptic](http://domedb.perception.cs.cmu.edu/handdb.html)    

@@ -2,7 +2,7 @@
 layout: article
 title:  "「DEVICE」 A311D 入门"
 date:   2021-04-21 14:30:40 +0800
-key: nano-foundation
+key: a311d-foundation
 aside:
   toc: true
 category: [AI, device, a311d]

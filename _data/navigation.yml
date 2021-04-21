@@ -267,6 +267,8 @@ DEVICE:
       url:    /assets/category/work/AI/tool/device/tx2.html
     - title:  瑞芯微
       url:    /assets/category/work/AI/tool/device/rockchip.html
+    - title:  A311D
+      url:    /assets/category/work/AI/tool/device/a311d.html
 
 DL:
   - title:
@@ -496,61 +498,63 @@ DLFramework:
   - title:      训练框架
     children:
       - title:  Caffe
-        url:    /assets/category/work/AI/theory/dl_framework/caffe.html
+        url:    /assets/category/work/AI/tool/dl_framework/caffe.html
       - title:  MxNet
-        url:    /assets/category/work/AI/theory/dl_framework/mxnet.html
+        url:    /assets/category/work/AI/tool/dl_framework/mxnet.html
       - title:  Pytorch
-        url:    /assets/category/work/AI/theory/dl_framework/pytorch.html
+        url:    /assets/category/work/AI/tool/dl_framework/pytorch.html
       - title:  Tensoflow
-        url:    /assets/category/work/AI/theory/dl_framework/tensorflow.html
+        url:    /assets/category/work/AI/tool/dl_framework/tensorflow.html
 
 
   - title:      服务端推理
     children:
       - title:  TensorRT
-        url:    /assets/category/work/AI/theory/dl_framework/tensorrt.html
+        url:    /assets/category/work/AI/tool/dl_framework/tensorrt.html
       - title:  ZQCNN
-        url:    /assets/category/work/AI/theory/dl_framework/zqcnn.html
+        url:    /assets/category/work/AI/tool/dl_framework/zqcnn.html
 
   - title:      移动端推理
     children:
       - title:  mace
-        url:    /assets/category/work/AI/theory/dl_framework/mace.html
+        url:    /assets/category/work/AI/tool/dl_framework/mace.html
       - title:  ncnn
-        url:    /assets/category/work/AI/theory/dl_framework/ncnn.html
+        url:    /assets/category/work/AI/tool/dl_framework/ncnn.html
       - title:  PPL
-        url:    /assets/category/work/AI/theory/dl_framework/ppl.html
+        url:    /assets/category/work/AI/tool/dl_framework/ppl.html
       - title:  MNN
-        url:    /assets/category/work/AI/theory/dl_framework/mnn.html
-      - title:  TEngine
-        url:    /assets/category/work/AI/theory/dl_framework/tengine.html
+        url:    /assets/category/work/AI/tool/dl_framework/mnn.html
+      - title:  Tengine
+        url:    /assets/category/work/AI/tool/dl_framework/tengine.html
       - title:  TensorFlow Lite
-        url:    /assets/category/work/AI/theory/dl_framework/tf_lite.html
+        url:    /assets/category/work/AI/tool/dl_framework/tf_lite.html
       - title:  Core ML
-        url:    /assets/category/work/AI/theory/dl_framework/core_ml.html
+        url:    /assets/category/work/AI/tool/dl_framework/core_ml.html
       - title:  CaffePresso
-        url:    /assets/category/work/AI/theory/dl_framework/caffepresso.html
+        url:    /assets/category/work/AI/tool/dl_framework/caffepresso.html
       - title:  Paddle-Lite
-        url:    /assets/category/work/AI/theory/dl_framework/paddle_lite.html
+        url:    /assets/category/work/AI/tool/dl_framework/paddle_lite.html
+      - title:  AML
+        url:    /assets/category/work/AI/tool/dl_framework/aml.html
 
   - title:      模型压缩
     children:
       - title:  BNN
-        url:    /assets/category/work/AI/theory/dl_framework/bnn.html
+        url:    /assets/category/work/AI/tool/dl_framework/bnn.html
 
   - title:      模型表示
     children:
       - title:  ONNX
-        url:    /assets/category/work/AI/theory/dl_framework/onnx.html
+        url:    /assets/category/work/AI/tool/dl_framework/onnx.html
       - title:  TVM & NNVM
-        url:    /assets/category/work/AI/theory/dl_framework/tvm.html
+        url:    /assets/category/work/AI/tool/dl_framework/tvm.html
       - title:  NNEF
-        url:    /assets/category/work/AI/theory/dl_framework/nnef.html
+        url:    /assets/category/work/AI/tool/dl_framework/nnef.html
 
   - title:      辅助工具
     children:
       - title:  标注工具
-        url:    /assets/category/work/AI/theory/dl_framework/label_tool.html
+        url:    /assets/category/work/AI/tool/dl_framework/label_tool.html
 
 
 ImageProcess:

@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       A311D
+    zh:       A311D
+    zh-Hans:  A311D
+    zh-Hant:  A311D
+sidebar:
+    nav: DEVICE
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "a311d" %}
+        {% for post in cat[1] %}
+        {{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        <br>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

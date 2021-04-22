@@ -1931,3 +1931,20 @@ multimodal:
         url:    /assets/category/work/AI/technology/CV/vaq.html
       - title:  多模态融合
         url:    /assets/category/work/AI/technology/CV/multimodal.html
+
+
+khadas:
+  - title:
+    children:
+      - title:  上一层
+        url:    /assets/category/work/AI/tool/dl_framework/aml.html
+  - title:      Khadas NPU 部署
+    children:
+      - title:  概述
+        url:    /ai/dl_frameworks/aml/a311d/2021/04/21/foundation.html
+      - title:  aml
+        url:    /ai/dl_frameworks/aml/a311d/2021/04/21/aml.html
+      - title:  aml nn
+        url:    /ai/dl_frameworks/aml/a311d/2021/04/21/amlnn.html
+      - title:  tengine
+        url:    /ai/dl_frameworks/tengine/2021/04/21/khadas.html

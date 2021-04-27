@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "「DEVICE」 A311D 入门"
-date:   2021-04-21 13:30:40 +0800
+date:   2021-04-21 12:30:40 +0800
 key: a311d-foundation
 aside:
   toc: true

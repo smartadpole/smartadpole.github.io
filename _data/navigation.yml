@@ -236,6 +236,8 @@ C++:
         url:    /assets/category/work/software/grammer/cpp/modern.html
       - title:  线性运算
         url:    /assets/category/work/software/grammer/cpp/blas.html
+      - title:  gtest
+        url:    /assets/category/work/software/grammer/cpp/gtest.html
 
 
 Python:
